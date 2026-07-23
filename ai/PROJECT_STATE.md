@@ -11,7 +11,6 @@ chooses to. GitHub is version control, not distribution.
 - [ ] Letterboxd full-history import from CSV export (RSS only covers diary entries, and this account's feed is empty because films were logged without diary dates)
 
 ## Active Tasks
-- [ ] Get a TMDB API key into `.env` and run `npm run enrich` once, so queue cards show where-to-watch
 - [ ] Visual QA pass in a real browser (Claude's Chrome bridge couldn't reach localhost this session — even the user's own 4321 dev server was unreachable from it)
 
 ## Backlog
@@ -19,7 +18,6 @@ chooses to. GitHub is version control, not distribution.
 - [ ] Individual taste accounts → auto-publish returns: once users have their own accounts/profiles, each account's page can build and publish automatically (per-user opt-in pages, Letterboxd-style). Pilot has explicitly OK'd autopublishing in that world — the current restriction only covers this single-user personal instance
 - [ ] Reconcile Letterboxd sync into `data/ratings.json` automatically instead of just flagging new ratings
 - [ ] Auto-update director completion counts from TMDB filmographies (directors.json is hand-maintained today)
-- [ ] Critic scores via free OMDb API (Rotten Tomatoes / Metacritic numbers)
 - [ ] Derive the "shape" stats (counts, tiers) into visualizations
 - [ ] Two-way Letterboxd: push watchlist changes back (no public API — investigate what's feasible)
 - [ ] `scripts/verify.sh` quality gate (build succeeds + JSON schema check on data files)
