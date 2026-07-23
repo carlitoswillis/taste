@@ -54,12 +54,19 @@ const confClass = (c) => ({ high: "high", medium: "medium", low: "low" }[c] ?? "
 
 function availability(film) {
   const e = state.data.enrichment?.[`${film.title} (${film.year})`];
-  if (!e?.providers) return "";
+  if (!e) return "";
   const bits = [];
-  if (e.providers.flatrate?.length) bits.push(`<b>stream</b> ${esc(e.providers.flatrate.slice(0, 3).join(", "))}`);
-  else if (e.providers.rent?.length) bits.push(`<b>rent</b> ${esc(e.providers.rent.slice(0, 3).join(", "))}`);
+  if (e.scores) {
+    const s = [];
+    if (e.scores.rt != null) s.push(`RT ${e.scores.rt}%`);
+    if (e.scores.metacritic != null) s.push(`MC ${e.scores.metacritic}`);
+    if (e.scores.imdb != null) s.push(`IMDb ${e.scores.imdb}`);
+    if (s.length) bits.push(`<b>${s.join(" · ")}</b>`);
+  }
+  if (e.providers?.flatrate?.length) bits.push(`stream: ${esc(e.providers.flatrate.slice(0, 3).join(", "))}`);
+  else if (e.providers?.rent?.length) bits.push(`rent: ${esc(e.providers.rent.slice(0, 3).join(", "))}`);
   if (!bits.length) return "";
-  return `<div class="avail">${bits.join(" · ")}</div>`;
+  return `<div class="avail">${bits.join(" &nbsp;·&nbsp; ")}</div>`;
 }
 
 const matches = (q, ...fields) =>

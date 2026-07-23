@@ -1,11 +1,12 @@
 #!/usr/bin/env node
-// Enrich films with TMDB metadata: director, runtime, IMDb id, and where to
-// watch (streaming/rent providers, via the JustWatch data TMDB exposes).
-// Writes data/enrichment.json keyed by "Title (Year)".
+// Enrich films with TMDB metadata — director, runtime, IMDb id, and where to
+// watch (streaming/rent providers, via the JustWatch data TMDB exposes) — and,
+// when an OMDb key is present, critic scores (Rotten Tomatoes, Metacritic,
+// IMDb) looked up by IMDb id. Writes data/enrichment.json keyed "Title (Year)".
 //
-// Needs a free TMDB API key (https://www.themoviedb.org/settings/api):
-//   TMDB_API_KEY=xxxx node scripts/enrich-tmdb.mjs
-// Accepts either a v3 key (TMDB_API_KEY) or v4 read token (TMDB_TOKEN).
+// Keys are read from .env or the environment:
+//   TMDB_API_KEY (v3) or TMDB_TOKEN (v4)  — themoviedb.org/settings/api
+//   OMDB_API_KEY (optional)               — omdbapi.com/apikey.aspx
 
 import { readFile, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
@@ -84,6 +85,36 @@ for (const film of films) {
   hits++;
   console.log(`  enriched: ${k}`);
   await new Promise((r) => setTimeout(r, 120)); // stay friendly to the API
+}
+
+// Second pass: critic scores from OMDb, by IMDb id, for entries that lack them.
+const omdbKey = process.env.OMDB_API_KEY;
+if (omdbKey) {
+  let scored = 0;
+  for (const [k, entry] of Object.entries(out)) {
+    if (!entry.imdbId || entry.scores) continue;
+    const res = await fetch(
+      `https://www.omdbapi.com/?i=${entry.imdbId}&apikey=${omdbKey}`
+    );
+    if (!res.ok) {
+      console.warn(`  OMDb ${k}: ${res.status}`);
+      continue;
+    }
+    const data = await res.json();
+    if (data.Response === "False") continue;
+    const bySource = Object.fromEntries((data.Ratings ?? []).map((r) => [r.Source, r.Value]));
+    entry.scores = {
+      rt: bySource["Rotten Tomatoes"] ? parseInt(bySource["Rotten Tomatoes"]) : null,
+      metacritic: bySource["Metacritic"] ? parseInt(bySource["Metacritic"]) : null,
+      imdb: bySource["Internet Movie Database"] ? parseFloat(bySource["Internet Movie Database"]) : null,
+    };
+    scored++;
+    console.log(`  scores: ${k} — RT ${entry.scores.rt ?? "—"} · MC ${entry.scores.metacritic ?? "—"} · IMDb ${entry.scores.imdb ?? "—"}`);
+    await new Promise((r) => setTimeout(r, 120));
+  }
+  console.log(`${scored} films scored via OMDb`);
+} else {
+  console.log("(no OMDB_API_KEY — skipping critic scores)");
 }
 
 await writeFile(outPath, JSON.stringify(out, null, 2) + "\n");

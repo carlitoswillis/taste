@@ -35,7 +35,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/11423/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": null,
+      "metacritic": 82,
+      "imdb": 8.1
+    }
   },
   "Dead Ringers (1988)": {
     "tmdbId": 9540,
@@ -73,7 +78,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/9540-dead-ringers/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 86,
+      "metacritic": 86,
+      "imdb": 7.2
+    }
   },
   "The Handmaiden (2016)": {
     "tmdbId": 290098,
@@ -105,7 +115,12 @@
       "buy": []
     },
     "providersLink": "https://www.themoviedb.org/movie/290098/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 96,
+      "metacritic": 85,
+      "imdb": 8.1
+    }
   },
   "Dog Day Afternoon (1975)": {
     "tmdbId": 968,
@@ -146,7 +161,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/968-dog-day-afternoon/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 94,
+      "metacritic": 86,
+      "imdb": 8
+    }
   },
   "Prisoners (2013)": {
     "tmdbId": 146233,
@@ -186,7 +206,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/146233-prisoners/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 81,
+      "metacritic": 70,
+      "imdb": 8.2
+    }
   },
   "Se7en (1995)": {
     "tmdbId": 807,
@@ -229,7 +254,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/807-se7en/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 84,
+      "metacritic": 65,
+      "imdb": 8.6
+    }
   },
   "Sick of Myself (2022)": {
     "tmdbId": 788734,
@@ -267,7 +297,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/788734-syk-pike/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 88,
+      "metacritic": 71,
+      "imdb": 7.1
+    }
   },
   "Heat (1995)": {
     "tmdbId": 949,
@@ -307,7 +342,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/949-heat/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 84,
+      "metacritic": 76,
+      "imdb": 8.3
+    }
   },
   "Don't Look Now (1973)": {
     "tmdbId": 931,
@@ -354,7 +394,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/931-don-t-look-now/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 93,
+      "metacritic": 95,
+      "imdb": 7.1
+    }
   },
   "There Will Be Blood (2007)": {
     "tmdbId": 7345,
@@ -402,7 +447,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/7345-there-will-be-blood/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 91,
+      "metacritic": 93,
+      "imdb": 8.2
+    }
   },
   "Save the Green Planet! (2003)": {
     "tmdbId": 11297,
@@ -432,7 +482,12 @@
       "buy": []
     },
     "providersLink": "https://www.themoviedb.org/movie/11297/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 89,
+      "metacritic": 70,
+      "imdb": 7.1
+    }
   },
   "Anomalisa (2015)": {
     "tmdbId": 291270,
@@ -474,7 +529,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/291270-anomalisa/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 92,
+      "metacritic": 88,
+      "imdb": 7.2
+    }
   },
   "The Wailing (2016)": {
     "tmdbId": 293670,
@@ -520,7 +580,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/293670/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 99,
+      "metacritic": 81,
+      "imdb": 7.4
+    }
   },
   "Caché (2005)": {
     "tmdbId": 445,
@@ -563,7 +628,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/445-cache/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 89,
+      "metacritic": 87,
+      "imdb": 7.3
+    }
   },
   "The Vanishing (1988)": {
     "tmdbId": 8740,
@@ -598,7 +668,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/8740-spoorloos/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 96,
+      "metacritic": null,
+      "imdb": 7.7
+    }
   },
   "Inside Llewyn Davis (2013)": {
     "tmdbId": 86829,
@@ -637,7 +712,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/86829-inside-llewyn-davis/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 92,
+      "metacritic": 93,
+      "imdb": 7.4
+    }
   },
   "Decision to Leave (2022)": {
     "tmdbId": 705996,
@@ -676,7 +756,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/705996/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 94,
+      "metacritic": 85,
+      "imdb": 7.3
+    }
   },
   "mother! (2017)": {
     "tmdbId": 381283,
@@ -723,7 +808,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/381283-mother/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 68,
+      "metacritic": 76,
+      "imdb": 6.6
+    }
   },
   "Hour of the Wolf (1968)": {
     "tmdbId": 18333,
@@ -758,7 +848,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/18333-vargtimmen/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 92,
+      "metacritic": null,
+      "imdb": 7.5
+    }
   },
   "The Seventh Seal (1957)": {
     "tmdbId": 490,
@@ -802,7 +897,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/490-det-sjunde-inseglet/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 93,
+      "metacritic": 88,
+      "imdb": 8.1
+    }
   },
   "Persona (1966)": {
     "tmdbId": 797,
@@ -843,7 +943,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/797-persona/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 91,
+      "metacritic": 86,
+      "imdb": 8
+    }
   },
   "The Odyssey (2025)": {
     "tmdbId": 1559261,
@@ -909,7 +1014,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1064213-anora/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 93,
+      "metacritic": 91,
+      "imdb": 7.4
+    }
   },
   "The Prestige (2006)": {
     "tmdbId": 1124,
@@ -953,7 +1063,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1124-the-prestige/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 76,
+      "metacritic": 66,
+      "imdb": 8.5
+    }
   },
   "No Country for Old Men (2007)": {
     "tmdbId": 6977,
@@ -1001,7 +1116,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/6977-no-country-for-old-men/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 93,
+      "metacritic": 92,
+      "imdb": 8.2
+    }
   },
   "Being John Malkovich (1999)": {
     "tmdbId": 492,
@@ -1041,7 +1161,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/492-being-john-malkovich/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 94,
+      "metacritic": 90,
+      "imdb": 7.7
+    }
   },
   "Hereditary (2018)": {
     "tmdbId": 493922,
@@ -1084,7 +1209,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/493922-hereditary/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 90,
+      "metacritic": 87,
+      "imdb": 7.3
+    }
   },
   "Parasite (2019)": {
     "tmdbId": 496243,
@@ -1125,7 +1255,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/496243/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 99,
+      "metacritic": 97,
+      "imdb": 8.5
+    }
   },
   "Prometheus (2012)": {
     "tmdbId": 70981,
@@ -1169,7 +1304,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/70981-prometheus/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 73,
+      "metacritic": 64,
+      "imdb": 7
+    }
   },
   "Poor Things (2023)": {
     "tmdbId": 792307,
@@ -1213,7 +1353,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/792307-poor-things/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 92,
+      "metacritic": 88,
+      "imdb": 7.7
+    }
   },
   "Bugonia (2025)": {
     "tmdbId": 701387,
@@ -1257,7 +1402,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/701387-bugonia/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 88,
+      "metacritic": 72,
+      "imdb": 7.4
+    }
   },
   "Obsession (2026)": {
     "tmdbId": 1339713,
@@ -1299,7 +1449,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1339713-obsession/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 94,
+      "metacritic": 77,
+      "imdb": 8
+    }
   },
   "Adaptation. (2002)": {
     "tmdbId": 2757,
@@ -1339,7 +1494,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/2757-adaptation/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 90,
+      "metacritic": 83,
+      "imdb": 7.7
+    }
   },
   "Mad Max: Fury Road (2015)": {
     "tmdbId": 76341,
@@ -1381,7 +1541,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/76341-mad-max-fury-road/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 97,
+      "metacritic": 90,
+      "imdb": 8.1
+    }
   },
   "The Lighthouse (2019)": {
     "tmdbId": 503919,
@@ -1425,7 +1590,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/503919-the-lighthouse/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 90,
+      "metacritic": 83,
+      "imdb": 7.4
+    }
   },
   "Midsommar (2019)": {
     "tmdbId": 530385,
@@ -1469,7 +1639,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/530385-midsommar/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 83,
+      "metacritic": 72,
+      "imdb": 7.1
+    }
   },
   "Once Upon a Time... in Hollywood (2019)": {
     "tmdbId": 466272,
@@ -1514,7 +1689,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/466272-once-upon-a-time-in-hollywood/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 86,
+      "metacritic": 84,
+      "imdb": 7.6
+    }
   },
   "Apostle (2018)": {
     "tmdbId": 424121,
@@ -1544,7 +1724,12 @@
       "buy": []
     },
     "providersLink": "https://www.themoviedb.org/movie/424121-apostle/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 79,
+      "metacritic": 62,
+      "imdb": 6.3
+    }
   },
   "Saint Maud (2019)": {
     "tmdbId": 575776,
@@ -1594,7 +1779,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/575776-saint-maud/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 92,
+      "metacritic": 83,
+      "imdb": 6.6
+    }
   },
   "A Quiet Place (2018)": {
     "tmdbId": 447332,
@@ -1644,7 +1834,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/447332-a-quiet-place/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 96,
+      "metacritic": 82,
+      "imdb": 7.5
+    }
   },
   "Bad Trip (2021)": {
     "tmdbId": 578908,
@@ -1673,7 +1868,12 @@
       "buy": []
     },
     "providersLink": "https://www.themoviedb.org/movie/578908-bad-trip/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 80,
+      "metacritic": 61,
+      "imdb": 6.5
+    }
   },
   "The Northman (2022)": {
     "tmdbId": 639933,
@@ -1716,7 +1916,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/639933-the-northman/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 90,
+      "metacritic": 82,
+      "imdb": 7
+    }
   },
   "Oppenheimer (2023)": {
     "tmdbId": 872585,
@@ -1756,7 +1961,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/872585-oppenheimer/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 93,
+      "metacritic": 90,
+      "imdb": 8.2
+    }
   },
   "Together (2025)": {
     "tmdbId": 1242011,
@@ -1794,7 +2004,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1242011-together/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 89,
+      "metacritic": 75,
+      "imdb": 6.7
+    }
   },
   "Companion (2025)": {
     "tmdbId": 1084199,
@@ -1841,7 +2056,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1084199-companion/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 93,
+      "metacritic": 70,
+      "imdb": 6.9
+    }
   },
   "The Drama (2025)": {
     "tmdbId": 802477,
@@ -1862,7 +2082,12 @@
       "buy": []
     },
     "providersLink": null,
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": null,
+      "metacritic": null,
+      "imdb": null
+    }
   },
   "Everything Everywhere All at Once (2022)": {
     "tmdbId": 545611,
@@ -1908,7 +2133,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/545611-everything-everywhere-all-at-once/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 93,
+      "metacritic": 81,
+      "imdb": 7.7
+    }
   },
   "The Devil All the Time (2020)": {
     "tmdbId": 499932,
@@ -1939,7 +2169,12 @@
       "buy": []
     },
     "providersLink": "https://www.themoviedb.org/movie/499932-the-devil-all-the-time/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 65,
+      "metacritic": 55,
+      "imdb": 7.1
+    }
   },
   "The Batman (2022)": {
     "tmdbId": 414906,
@@ -1986,7 +2221,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/414906-the-batman/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 85,
+      "metacritic": 72,
+      "imdb": 7.8
+    }
   },
   "Dunkirk (2017)": {
     "tmdbId": 374720,
@@ -2028,7 +2268,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/374720-dunkirk/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 92,
+      "metacritic": 94,
+      "imdb": 7.8
+    }
   },
   "Enemy (2013)": {
     "tmdbId": 181886,
@@ -2074,7 +2319,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/181886-enemy/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 73,
+      "metacritic": 61,
+      "imdb": 6.9
+    }
   },
   "The Killing of a Sacred Deer (2017)": {
     "tmdbId": 399057,
@@ -2120,7 +2370,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/399057-the-killing-of-a-sacred-deer/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 79,
+      "metacritic": 73,
+      "imdb": 7
+    }
   },
   "Beau Is Afraid (2023)": {
     "tmdbId": 798286,
@@ -2162,7 +2417,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/798286-beau-is-afraid/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 67,
+      "metacritic": 63,
+      "imdb": 6.6
+    }
   },
   "Eddington (2025)": {
     "tmdbId": 648878,
@@ -2206,7 +2466,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/648878-eddington/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 69,
+      "metacritic": 65,
+      "imdb": 6.6
+    }
   },
   "Lawrence of Arabia (1962)": {
     "tmdbId": 947,
@@ -2252,7 +2517,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/947-lawrence-of-arabia/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 93,
+      "metacritic": 100,
+      "imdb": 8.3
+    }
   },
   "After Hours (1985)": {
     "tmdbId": 10843,
@@ -2294,7 +2564,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/10843-after-hours/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 90,
+      "metacritic": 89,
+      "imdb": 7.6
+    }
   },
   "Possession (1981)": {
     "tmdbId": 21484,
@@ -2343,7 +2618,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/21484-possession/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 87,
+      "metacritic": 75,
+      "imdb": 7.2
+    }
   },
   "Apocalypse Now (1979)": {
     "tmdbId": 28,
@@ -2382,7 +2662,12 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/28-apocalypse-now/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 91,
+      "metacritic": 94,
+      "imdb": 8.4
+    }
   },
   "Ran (1985)": {
     "tmdbId": 11645,
@@ -2412,7 +2697,12 @@
       "buy": []
     },
     "providersLink": "https://www.themoviedb.org/movie/11645/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 96,
+      "metacritic": 97,
+      "imdb": 8.2
+    }
   },
   "Stalker (1979)": {
     "tmdbId": 1398,
@@ -2456,6 +2746,11 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1398/watch?locale=US",
-    "region": "US"
+    "region": "US",
+    "scores": {
+      "rt": 100,
+      "metacritic": 85,
+      "imdb": 8
+    }
   }
 }
