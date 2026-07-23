@@ -17,6 +17,7 @@ chooses to. GitHub is version control, not distribution.
 ## Backlog
 - [ ] Logging UI: local page/form that appends to `data/ratings.json` (turns this from a rendered document into an actual logger)
 - [ ] Multi-user support: `profiles/<name>/data/` so one install can serve multiple people; config picks the active profile
+- [ ] Individual taste accounts → auto-publish returns: once users have their own accounts/profiles, each account's page can build and publish automatically (per-user opt-in pages, Letterboxd-style). Pilot has explicitly OK'd autopublishing in that world — the current restriction only covers this single-user personal instance
 - [ ] Reconcile Letterboxd sync into `data/ratings.json` automatically instead of just flagging new ratings
 - [ ] Auto-update director completion counts from TMDB filmographies (directors.json is hand-maintained today)
 - [ ] Critic scores via free OMDb API (Rotten Tomatoes / Metacritic numbers)
