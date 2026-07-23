@@ -1,0 +1,21 @@
+{
+  "reachFor": [
+    "A director already scored 4+ with films left — this is the most reliable predictor on the page",
+    "Someone splits, doubles, or loses hold of who they are *and the film resolves it*",
+    "Horror with a real idea under it. You'll watch bad horror happily but you only rate the thoughtful kind",
+    "Comedy that's actually cruel: Lebowski, King of Comedy, Triangle of Sadness, Bad Trip, Bugonia",
+    "Big metaphysical swing with an emotional landing — Prometheus at 4½ over most prestige titles says this outranks execution"
+  ],
+  "avoid": [
+    "Spectacle or cruelty with no payoff — three misses in one batch (Beau, Sacred Deer, Enemy) all share this",
+    "Surrealism where decoding *is* the experience (Mulholland Drive)",
+    "Competent craft with nothing underneath (The Batman at 2½, the Bourne films)",
+    "Long and stately. The runtime and performance style are the friction — not the age"
+  ],
+  "blindSpots": [
+    "Only 30 scores across 340 films. The profile knows what you love and almost nothing about what you actively dislike — The Batman is still the only real negative. Twenty more ratings, especially bad ones, would sharpen this more than anything else here.",
+    "Six films you've confirmed seeing aren't scored yet: Dunkirk, Enemy, Sacred Deer, Beau, Eddington, and the Tarantino back half.",
+    "Five discussed films aren't logged at all: The Master, Crimes and Misdemeanors, Sweeney Todd, Oddity, plus rewatches.",
+    "Non-English cinema is thin — Parasite, Oldboy, City of God, Dogtooth, Spirited Away, and the two Bergmans. Not a stated dislike, just unexplored. The two Koreans at the top of Watch next are the cheapest way in."
+  ]
+}

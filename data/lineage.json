@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Bergman → modern horror",
+    "links": [
+      { "who": "Ingmar Bergman — Persona, The Seventh Seal (both 5★)", "here": true },
+      { "who": "Robert Eggers — The Lighthouse is a two-hander that dissolves into Persona", "here": true },
+      { "who": "Ari Aster — cites Cries and Whispers as the model for Hereditary's grief", "here": true }
+    ],
+    "gap": "This isn't a coincidence. Your two favourite modern horror directors both descend directly from the one filmmaker you've given perfect scores to twice. **Hour of the Wolf** is the missing link — Bergman's own horror film, 90 minutes, and the thing Eggers was reading."
+  },
+  {
+    "name": "Cronenberg → Cronenberg",
+    "links": [
+      { "who": "David Cronenberg — **zero films logged**", "here": false },
+      { "who": "Brandon Cronenberg — Possessor, Infinity Pool (his son)", "here": true },
+      { "who": "Coralie Fargeat — The Substance", "here": true }
+    ],
+    "gap": "The biggest hole in the whole profile. You have the son and not the father, and David Cronenberg is arguably the most on-thesis director you've never watched. **Dead Ringers** (1988) is about identical twin doctors losing track of which is which — the purest version of the doubling idea that runs through everything you rate highly. Then **Videodrome** and **The Fly**."
+  },
+  {
+    "name": "Lumet & Cassavetes → the Safdies",
+    "links": [
+      { "who": "Sidney Lumet — Dog Day Afternoon (1975)", "here": false },
+      { "who": "John Cassavetes — the handheld, sweaty, actor-first tradition", "here": false },
+      { "who": "The Safdies — Heaven Knows What, Good Time, Uncut Gems, Marty Supreme (4/4)", "here": true }
+    ],
+    "gap": "You've finished the Safdies and haven't touched the film Good Time is built out of. **Dog Day Afternoon** is 125 minutes, set over one sweltering day, and moves faster than most things released this year. It's the strongest argument that \"old\" was never the real variable."
+  },
+  {
+    "name": "Mann & Roeg → Nolan",
+    "links": [
+      { "who": "Michael Mann — Heat (1995). **Zero Mann logged**", "here": false },
+      { "who": "Nicolas Roeg — Don't Look Now (1973), where the fractured editing comes from", "here": false },
+      { "who": "Christopher Nolan — 11 films, your most-watched director", "here": true }
+    ],
+    "gap": "Nolan has said outright that **Heat** was the direct model for The Dark Knight, and that Roeg's cutting shaped Memento. **Don't Look Now** is doubly relevant — it's also a grief-horror film about a doubled figure, and it's the other ancestor of Hereditary."
+  },
+  {
+    "name": "Buñuel → Lanthimos → a Korean original",
+    "links": [
+      { "who": "Luis Buñuel — The Exterminating Angel, the direct model for Dogtooth", "here": false },
+      { "who": "Yorgos Lanthimos — 5 films, Poor Things and Bugonia both 4½", "here": true }
+    ],
+    "gap": "Bugonia is a remake. **Save the Green Planet!** (2003, Jang Joon-hwan) is the Korean original, and you rated the copy 4½ without seeing it."
+  },
+  {
+    "name": "Polanski → Aster",
+    "links": [
+      { "who": "Roman Polanski — Repulsion logged, **Rosemary's Baby not**", "here": true },
+      { "who": "Ari Aster — Hereditary 4½", "here": true }
+    ],
+    "gap": "Hereditary is a Rosemary's Baby structure: a family conspiracy the protagonist is the last to understand. You already have the other half of Polanski's apartment trilogy."
+  },
+  {
+    "name": "Carruth → Benson & Moorhead",
+    "links": [
+      { "who": "Shane Carruth — Primer (2004), Upstream Color (2013)", "here": false },
+      { "who": "Benson & Moorhead — all five films", "here": true }
+    ],
+    "gap": "You swept an obscure indie sci-fi duo and skipped the two films that made their whole mode possible. **Primer** is 77 minutes and cost $7,000."
+  },
+  {
+    "name": "Tarkovsky → Villeneuve",
+    "links": [
+      { "who": "Andrei Tarkovsky — Stalker, Solaris", "here": false },
+      { "who": "Denis Villeneuve — 6 films including both Dunes", "here": true }
+    ],
+    "gap": "Worth restating the case for **Stalker** honestly: it's still 161 minutes of men walking and talking, and I'm not going to pretend otherwise. But Villeneuve names it as the reason Arrival and Dune look the way they do. That's a better reason to try it than \"it's a classic,\" and it's the only reason I'd offer."
+  }
+]

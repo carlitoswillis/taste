@@ -1,0 +1,7 @@
+dist/
+node_modules/
+.DS_Store
+.env
+
+# unrelated agent-workspace templates sitting in this folder; remove this line to track them
+ai/

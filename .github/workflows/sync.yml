@@ -1,0 +1,39 @@
+name: Sync Letterboxd + TMDB
+
+on:
+  schedule:
+    - cron: "17 9 * * *" # daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Fetch Letterboxd RSS
+        run: node scripts/fetch-letterboxd.mjs
+
+      - name: Enrich from TMDB (skipped if no key configured)
+        if: ${{ env.TMDB_API_KEY != '' }}
+        run: node scripts/enrich-tmdb.mjs
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/letterboxd.json data/enrichment.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "chore: sync letterboxd/tmdb data"
+            git push
+          fi

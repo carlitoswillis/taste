@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Taste profile</title>
+<style>
+:root{
+  --bg:#ffffff;
+  --fg:#111111;
+  --mid:#666666;
+  --line:#d5d5d5;
+  --tint:#f4f4f4;
+}
+@media (prefers-color-scheme:dark){
+  :root{ --bg:#111111; --fg:#f2f2f2; --mid:#a0a0a0; --line:#3a3a3a; --tint:#1c1c1c; }
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--bg);
+  color:var(--fg);
+  font:400 17px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:660px;margin:0 auto;padding:0 20px}
+
+header{padding:46px 0 30px;border-bottom:2px solid var(--fg)}
+h1{font-size:30px;line-height:1.1;letter-spacing:-.02em;font-weight:700}
+.sub{color:var(--mid);font-size:14px;margin-top:8px}
+.counts{display:flex;gap:26px;margin-top:20px;flex-wrap:wrap}
+.counts div{font-size:13px;color:var(--mid)}
+.counts b{display:block;font-size:24px;font-weight:700;color:var(--fg);letter-spacing:-.02em}
+
+section{padding:34px 0;border-bottom:1px solid var(--line)}
+h2{font-size:13px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--mid);margin-bottom:14px}
+h3{font-size:20px;font-weight:700;letter-spacing:-.01em;margin-bottom:10px;line-height:1.25}
+p{margin-bottom:12px}
+p:last-child{margin-bottom:0}
+strong{font-weight:700}
+em{font-style:italic}
+
+.tier{padding:14px 0;border-top:1px solid var(--line)}
+.tier:first-of-type{border-top:none}
+.tier .lbl{font-size:14px;font-weight:700;margin-bottom:5px;display:flex;justify-content:space-between;gap:12px}
+.tier .lbl span{font-weight:400;color:var(--mid);font-size:13px;white-space:nowrap}
+.tier .films{font-size:16.5px;line-height:1.5;color:var(--fg)}
+
+.row{padding:14px 0;border-top:1px solid var(--line)}
+.row:first-of-type{border-top:none}
+.row .top{font-size:17px;font-weight:700;line-height:1.3}
+.row .top .tag{
+  font-size:11px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;
+  border:1px solid var(--fg);padding:2px 6px;margin-left:8px;
+  vertical-align:2px;white-space:nowrap;
+}
+.row .top .tag.done{background:var(--fg);color:var(--bg)}
+.row .note{font-size:15.5px;color:var(--mid);margin-top:4px;line-height:1.45}
+.row .why{font-size:15.5px;margin-top:4px;line-height:1.45}
+.row .meta{font-size:13px;color:var(--mid);font-weight:400;margin-top:2px}
+
+ul{list-style:none}
+li{font-size:16px;line-height:1.45;margin-bottom:10px;padding-left:18px;text-indent:-18px}
+li::before{content:"— ";color:var(--mid)}
+
+.box{background:var(--tint);padding:16px 18px;margin-top:18px;font-size:15.5px;line-height:1.5}
+.box b{font-weight:700}
+
+.chain{padding:18px 0;border-top:1px solid var(--line)}
+.chain:first-of-type{border-top:none}
+.chain .name{font-size:17px;font-weight:700;margin-bottom:8px;line-height:1.3}
+.chain .link{font-size:15.5px;line-height:1.5;padding:3px 0 3px 20px;position:relative;color:var(--mid)}
+.chain .link::before{content:"↳";position:absolute;left:2px;color:var(--mid)}
+.chain .link.here{color:var(--fg);font-weight:700}
+.chain .link.here::before{content:"●";font-size:11px;top:6px}
+.chain .gap{font-size:15.5px;line-height:1.45;margin-top:9px;padding:10px 12px;background:var(--tint)}
+.chain .gap b{font-weight:700}
+
+.cohort{padding:16px 0;border-top:1px solid var(--line)}
+.cohort:first-of-type{border-top:none}
+.cohort .name{font-size:17px;font-weight:700;line-height:1.3}
+.cohort .yrs{font-size:13px;color:var(--mid);margin-top:2px}
+.cohort .have{font-size:15.5px;line-height:1.45;margin-top:6px}
+.cohort .miss{font-size:15.5px;line-height:1.45;margin-top:4px;color:var(--mid)}
+.cohort .miss b{color:var(--fg);font-weight:700}
+
+footer{padding:34px 0 60px;font-size:14px;color:var(--mid)}
+@media (min-width:600px){
+  body{font-size:18px}
+  h1{font-size:38px}
+  header{padding:60px 0 34px}
+}
+</style>
+</head>
+<body>
+
+<header class="wrap">
+  <h1>Taste profile</h1>
+  <div class="sub">Living document · updated 22 July 2026</div>
+  <div class="counts">
+    <div><b>340</b>films seen</div>
+    <div><b>30</b>rated</div>
+    <div><b>4</b>perfect scores</div>
+    <div><b>5</b>filmographies finished</div>
+  </div>
+</header>
+
+<section class="wrap">
+  <h2>The shape</h2>
+  <h3>You watch everything and rate almost nothing</h3>
+  <p>Fewer than one in ten films gets a score, so the 30 ratings carry the whole profile. Everything else — the full Marvel run, all the Harry Potters, Minecraft Movie — is just what was on.</p>
+  <p>What the ratings keep circling is <strong>doubling</strong>. The Prestige has twins, Persona has two faces merging, Adaptation. has twin brothers. Being John Malkovich, The Double, Memento, Us, Companion, The Substance, Mickey 17. And underneath that, someone coming apart: Good Time, Joker, Hereditary, The King of Comedy, Saint Maud.</p>
+  <p>The correction from this round is that neither of those is sufficient on its own. Enemy is a man meeting his exact double and it got a shrug. Beau Is Afraid is three hours of unravelling and once was enough. <strong>The unravelling has to arrive somewhere.</strong> That was already in your own notes as "emotional payoff" and I under-weighted it.</p>
+</section>
+
+<section class="wrap">
+  <h2>The 30 scores</h2>
+  <div class="tier">
+    <div class="lbl">Five stars <span>4 films</span></div>
+    <div class="films">The Seventh Seal · Persona · The Odyssey · Anora</div>
+  </div>
+  <div class="tier">
+    <div class="lbl">Four and a half <span>9 films</span></div>
+    <div class="films">The Prestige · No Country for Old Men · Being John Malkovich · Hereditary · Parasite · Prometheus · Poor Things · Bugonia · Obsession</div>
+  </div>
+  <div class="tier">
+    <div class="lbl">Four <span>14 films</span></div>
+    <div class="films">Adaptation. · Mad Max: Fury Road · The Lighthouse · Midsommar · Once Upon a Time… in Hollywood · Apostle · Saint Maud · A Quiet Place · Bad Trip · The Northman · Oppenheimer · Together · Companion · The Drama</div>
+  </div>
+  <div class="tier">
+    <div class="lbl">Three and a half <span>2 films</span></div>
+    <div class="films">Everything Everywhere All at Once · The Devil All the Time</div>
+  </div>
+  <div class="tier">
+    <div class="lbl">Two and a half <span>the floor</span></div>
+    <div class="films">The Batman — craft with nothing underneath</div>
+  </div>
+  <div class="box">
+    <b>The Prestige sits at 4½</b> despite being your most-rewatched film. Favourite and highest-rated are two different axes here, and recommendations should follow the first one.
+  </div>
+</section>
+
+<section class="wrap">
+  <h2>Directors — the engine</h2>
+  <p style="margin-bottom:18px">You find someone, you go get the rest. Five filmographies are now closed.</p>
+
+  <div class="row">
+    <div class="top">Quentin Tarantino <span class="tag done">Complete</span></div>
+    <div class="note">All of them, and you love them. Nothing left.</div>
+  </div>
+  <div class="row">
+    <div class="top">Ari Aster <span class="tag done">Complete</span></div>
+    <div class="note">Hereditary 4½ and Midsommar 4 are the peak. Beau and Eddington didn't repeat it — useful negative data.</div>
+  </div>
+  <div class="row">
+    <div class="top">Benson &amp; Moorhead <span class="tag done">Complete</span></div>
+    <div class="note">All five. Still the strongest completist signal in the account.</div>
+  </div>
+  <div class="row">
+    <div class="top">Robert Eggers <span class="tag done">Complete</span></div>
+    <div class="note">Nothing until the next one.</div>
+  </div>
+  <div class="row">
+    <div class="top">Jordan Peele <span class="tag done">Complete</span></div>
+    <div class="note">Get Out, Us, Nope.</div>
+  </div>
+  <div class="row">
+    <div class="top">Christopher Nolan <span class="tag">2 left</span></div>
+    <div class="note">Dunkirk now seen. Only <strong>Following</strong> and <strong>Insomnia</strong> remain — both minor, both short.</div>
+  </div>
+  <div class="row">
+    <div class="top">The Safdies <span class="tag">1 left</span></div>
+    <div class="note">Daddy Longlegs.</div>
+  </div>
+  <div class="row">
+    <div class="top">Denis Villeneuve <span class="tag">2 left</span></div>
+    <div class="note">Enemy seen, rated "good" rather than great. <strong>Prisoners</strong> and <strong>Incendies</strong> left.</div>
+  </div>
+  <div class="row">
+    <div class="top">Yorgos Lanthimos <span class="tag">3 left</span></div>
+    <div class="note">Sacred Deer was "ok" — so it's the comic Lanthimos you like (Poor Things and Bugonia both 4½), not the punishing one. That reorders what's worth trying: <strong>The Favourite</strong> before Kinds of Kindness.</div>
+  </div>
+  <div class="row">
+    <div class="top">Charlie Kaufman <span class="tag">1 left</span></div>
+    <div class="note">Anomalisa closes it out.</div>
+  </div>
+  <div class="row">
+    <div class="top">David Fincher <span class="tag">Open</span></div>
+    <div class="note">Four seen and somehow no <strong>Se7en</strong>. The strangest gap on the page.</div>
+  </div>
+  <div class="row">
+    <div class="top">Coen Brothers <span class="tag">Open</span></div>
+    <div class="note">Eight in. <strong>Inside Llewyn Davis, Barton Fink, Miller's Crossing, Blood Simple.</strong></div>
+  </div>
+  <div class="row">
+    <div class="top">Bong Joon-ho <span class="tag">Wide open</span></div>
+    <div class="note">Two for two, and five films untouched. <strong>Memories of Murder</strong> first. Biggest unclaimed run in the profile.</div>
+  </div>
+  <div class="row">
+    <div class="top">Park Chan-wook <span class="tag">Wide open</span></div>
+    <div class="note">Just Oldboy, for years. <strong>The Handmaiden</strong> and <strong>Decision to Leave</strong>.</div>
+  </div>
+  <div class="row">
+    <div class="top">Ingmar Bergman <span class="tag">Wide open</span></div>
+    <div class="note">Two films, two perfect scores, and no follow-through yet.</div>
+  </div>
+  <div class="row">
+    <div class="top">Paul Thomas Anderson <span class="tag">Wide open</span></div>
+    <div class="note">You rate The Master highly and haven't touched the rest. <strong>There Will Be Blood.</strong></div>
+  </div>
+</section>
+
+<section class="wrap">
+  <h2>Lineage</h2>
+  <h3>You've been collecting descendants without the ancestors</h3>
+  <p>This is the clearest structural finding on the page. Almost every director you've completed sits at the <em>end</em> of a line, and you've skipped the person they were copying. Filling those in is the highest-yield move available, and it explains the Bergman anomaly too.</p>
+
+  <div class="chain">
+    <div class="name">Bergman → modern horror</div>
+    <div class="link here">Ingmar Bergman — Persona, The Seventh Seal (both 5★)</div>
+    <div class="link here">Robert Eggers — The Lighthouse is a two-hander that dissolves into Persona</div>
+    <div class="link here">Ari Aster — cites Cries and Whispers as the model for Hereditary's grief</div>
+    <div class="gap">This isn't a coincidence. Your two favourite modern horror directors both descend directly from the one filmmaker you've given perfect scores to twice. <b>Hour of the Wolf</b> is the missing link — Bergman's own horror film, 90 minutes, and the thing Eggers was reading.</div>
+  </div>
+
+  <div class="chain">
+    <div class="name">Cronenberg → Cronenberg</div>
+    <div class="link">David Cronenberg — <b>zero films logged</b></div>
+    <div class="link here">Brandon Cronenberg — Possessor, Infinity Pool (his son)</div>
+    <div class="link here">Coralie Fargeat — The Substance</div>
+    <div class="gap">The biggest hole in the whole profile. You have the son and not the father, and David Cronenberg is arguably the most on-thesis director you've never watched. <b>Dead Ringers</b> (1988) is about identical twin doctors losing track of which is which — the purest version of the doubling idea that runs through everything you rate highly. Then <b>Videodrome</b> and <b>The Fly</b>.</div>
+  </div>
+
+  <div class="chain">
+    <div class="name">Lumet &amp; Cassavetes → the Safdies</div>
+    <div class="link">Sidney Lumet — Dog Day Afternoon (1975)</div>
+    <div class="link">John Cassavetes — the handheld, sweaty, actor-first tradition</div>
+    <div class="link here">The Safdies — Heaven Knows What, Good Time, Uncut Gems, Marty Supreme (4/4)</div>
+    <div class="gap">You've finished the Safdies and haven't touched the film Good Time is built out of. <b>Dog Day Afternoon</b> is 125 minutes, set over one sweltering day, and moves faster than most things released this year. It's the strongest argument that "old" was never the real variable.</div>
+  </div>
+
+  <div class="chain">
+    <div class="name">Mann &amp; Roeg → Nolan</div>
+    <div class="link">Michael Mann — Heat (1995). <b>Zero Mann logged</b></div>
+    <div class="link">Nicolas Roeg — Don't Look Now (1973), where the fractured editing comes from</div>
+    <div class="link here">Christopher Nolan — 11 films, your most-watched director</div>
+    <div class="gap">Nolan has said outright that <b>Heat</b> was the direct model for The Dark Knight, and that Roeg's cutting shaped Memento. <b>Don't Look Now</b> is doubly relevant — it's also a grief-horror film about a doubled figure, and it's the other ancestor of Hereditary.</div>
+  </div>
+
+  <div class="chain">
+    <div class="name">Buñuel → Lanthimos → a Korean original</div>
+    <div class="link">Luis Buñuel — The Exterminating Angel, the direct model for Dogtooth</div>
+    <div class="link here">Yorgos Lanthimos — 5 films, Poor Things and Bugonia both 4½</div>
+    <div class="gap">Bugonia is a remake. <b>Save the Green Planet!</b> (2003, Jang Joon-hwan) is the Korean original, and you rated the copy 4½ without seeing it.</div>
+  </div>
+
+  <div class="chain">
+    <div class="name">Polanski → Aster</div>
+    <div class="link here">Roman Polanski — Repulsion logged, <b>Rosemary's Baby not</b></div>
+    <div class="link here">Ari Aster — Hereditary 4½</div>
+    <div class="gap">Hereditary is a Rosemary's Baby structure: a family conspiracy the protagonist is the last to understand. You already have the other half of Polanski's apartment trilogy.</div>
+  </div>
+
+  <div class="chain">
+    <div class="name">Carruth → Benson &amp; Moorhead</div>
+    <div class="link">Shane Carruth — Primer (2004), Upstream Color (2013)</div>
+    <div class="link here">Benson &amp; Moorhead — all five films</div>
+    <div class="gap">You swept an obscure indie sci-fi duo and skipped the two films that made their whole mode possible. <b>Primer</b> is 77 minutes and cost $7,000.</div>
+  </div>
+
+  <div class="chain">
+    <div class="name">Tarkovsky → Villeneuve</div>
+    <div class="link">Andrei Tarkovsky — Stalker, Solaris</div>
+    <div class="link here">Denis Villeneuve — 6 films including both Dunes</div>
+    <div class="gap">Worth restating the case for <b>Stalker</b> honestly: it's still 161 minutes of men walking and talking, and I'm not going to pretend otherwise. But Villeneuve names it as the reason Arrival and Dune look the way they do. That's a better reason to try it than "it's a classic," and it's the only reason I'd offer.</div>
+  </div>
+</section>
+
+<section class="wrap">
+  <h2>Cohorts</h2>
+  <h3>Who was working at the same time</h3>
+  <p>Directors move in packs — same festivals, same money, same arguments. Where you're deep in a cohort, the missing members are unusually safe bets, because they were solving the same problem in the same room.</p>
+
+  <div class="cohort">
+    <div class="name">The post-2014 horror wave</div>
+    <div class="yrs">Debuts 2014–2019 · your deepest cohort by far</div>
+    <div class="have">Have: Eggers, Aster, Peele, Rose Glass, Ti West, Jennifer Kent, David Robert Mitchell, Zach Cregger, Osgood Perkins, Fargeat, Brandon Cronenberg, Alex Garland.</div>
+    <div class="miss">Missing: <b>Julia Ducournau</b> (Raw, Titane) is the only major name absent — and Raw is the one most like The Substance, which you logged.</div>
+  </div>
+
+  <div class="cohort">
+    <div class="name">The Korean New Wave</div>
+    <div class="yrs">1999–present · you're 2 of 5 in</div>
+    <div class="have">Have: Bong (Parasite 4½, Mickey 17), Park (Oldboy only).</div>
+    <div class="miss">Missing: <b>Memories of Murder</b>, <b>The Handmaiden</b>, <b>The Wailing</b>, plus Kim Jee-woon (I Saw the Devil) and Lee Chang-dong (Burning). Bong and Park are exact contemporaries who came up together — treating them as one project is more efficient than one at a time.</div>
+  </div>
+
+  <div class="cohort">
+    <div class="name">The class of 1999</div>
+    <div class="yrs">Fincher, Jonze &amp; Kaufman, PTA, the Wachowskis — all peaking in one year</div>
+    <div class="have">Have: Fight Club, Being John Malkovich (4½), The Matrix.</div>
+    <div class="miss">Missing: <b>Magnolia</b>. Three of the four are logged and it's the one that isn't — and it's the PTA closest to A Serious Man's sense of an indifferent universe assigning punishments.</div>
+  </div>
+
+  <div class="cohort">
+    <div class="name">Norwegian discomfort</div>
+    <div class="yrs">Kristoffer Borgli, Joachim Trier · 2021–now</div>
+    <div class="have">Have: The Drama (4★).</div>
+    <div class="miss">Missing: <b>Sick of Myself</b> and <b>Dream Scenario</b>, both Borgli. You rated his newest film 4 and haven't touched the other two — the easiest unclaimed win on the page.</div>
+  </div>
+
+  <div class="cohort">
+    <div class="name">70s New Hollywood paranoia</div>
+    <div class="yrs">Lumet, Pakula, Roeg, Coppola · the ancestor of half this profile</div>
+    <div class="have">Have: Taxi Driver, Jaws, Apocalypse Now still unwatched.</div>
+    <div class="miss">Missing almost entirely, and it's upstream of Fincher, Villeneuve, the Safdies and Nolan at once. Start with <b>Dog Day Afternoon</b> and <b>Don't Look Now</b> — both under two hours, both fast.</div>
+  </div>
+
+  <div class="cohort">
+    <div class="name">Ridley Scott's own line</div>
+    <div class="yrs">1979–now</div>
+    <div class="have">Have: Alien, Prometheus (4½), Alien: Covenant, Gladiator, and Blade Runner 2049.</div>
+    <div class="miss">Missing: <b>Blade Runner</b> (1982) itself. You rated Prometheus above almost every prestige title on your list, watched the sequel to Blade Runner, and never saw the original.</div>
+  </div>
+</section>
+
+<section class="wrap">
+  <h2>Watch next</h2>
+  <div class="row">
+    <div class="top">1. Memories of Murder</div>
+    <div class="meta">2003 · Bong Joon-ho</div>
+    <div class="why">Bong is 2 for 2 with you. A procedural that moves, and it ends unresolved but meaningful — which is the version of ambiguity you actually like.</div>
+  </div>
+  <div class="row">
+    <div class="top">2. Dead Ringers</div>
+    <div class="meta">1988 · David Cronenberg · 1h55</div>
+    <div class="why">Identical twin gynaecologists who share a life until neither can tell which one he is. The most literal version of the pattern that runs through everything you rate 4½ and up — and it fills the single largest lineage gap you have.</div>
+  </div>
+  <div class="row">
+    <div class="top">3. The Handmaiden</div>
+    <div class="meta">2016 · Park Chan-wook</div>
+    <div class="why">Twist architecture in the Prestige tradition: reveals that re-explain everything before them.</div>
+  </div>
+  <div class="row">
+    <div class="top">4. Dog Day Afternoon</div>
+    <div class="meta">1975 · Sidney Lumet · 2h05</div>
+    <div class="why">The film Good Time is made out of. One bad day, one location, escalating in real time. If any old film disproves the pacing worry, it's this one.</div>
+  </div>
+  <div class="row">
+    <div class="top">5. Prisoners</div>
+    <div class="meta">2013 · Denis Villeneuve</div>
+    <div class="why">A moral vice tightening for two and a half hours. The closest thing to a No Country you haven't seen.</div>
+  </div>
+  <div class="row">
+    <div class="top">6. Se7en</div>
+    <div class="meta">1995 · David Fincher</div>
+    <div class="why">Zodiac and Gone Girl are both logged. This one has an ending that lands, which is the thing Beau didn't do.</div>
+  </div>
+  <div class="row">
+    <div class="top">7. Sick of Myself</div>
+    <div class="meta">2022 · Kristoffer Borgli</div>
+    <div class="why">You gave The Drama a 4 and haven't watched either of his others. Cheapest available win — same director, same cruel comedy, already proven.</div>
+  </div>
+  <div class="row">
+    <div class="top">8. Heat</div>
+    <div class="meta">1995 · Michael Mann · 2h50</div>
+    <div class="why">Nolan's stated model for The Dark Knight, and you have no Mann at all. Long, but it's a heist film, not a meditation.</div>
+  </div>
+  <div class="row">
+    <div class="top">9. Don't Look Now</div>
+    <div class="meta">1973 · Nicolas Roeg · 1h50</div>
+    <div class="why">Sits at the junction of two of your lines: Roeg's fractured cutting is where Memento comes from, and the grief-horror is where Hereditary comes from.</div>
+  </div>
+  <div class="row">
+    <div class="top">10. There Will Be Blood</div>
+    <div class="meta">2007 · Paul Thomas Anderson</div>
+    <div class="why">Same director as The Master, same slow-collapsing lead performance, more narrative spine holding it together.</div>
+  </div>
+  <div class="row">
+    <div class="top">11. Save the Green Planet!</div>
+    <div class="meta">2003 · Jang Joon-hwan</div>
+    <div class="why">The original that Bugonia remakes. You rated the remake 4½ sight-unseen on the source.</div>
+  </div>
+  <div class="row">
+    <div class="top">12. Anomalisa</div>
+    <div class="meta">2015 · Charlie Kaufman</div>
+    <div class="why">Completes Kaufman. Everyone in the world has the same face and voice — doubling taken to its endpoint, and only 90 minutes.</div>
+  </div>
+  <div class="box" style="margin-bottom:18px">
+    Still on the list below the top twelve: The Wailing, Caché, The Vanishing, Inside Llewyn Davis, Blade Runner, Rosemary's Baby, Primer, Magnolia, Raw, Videodrome. Full set with reasons is in the spreadsheet.
+  </div>
+  <div class="box">
+    <b>Demoted:</b> mother! was higher before. Given Beau Is Afraid was "once was enough," a two-hour escalating allegory with no landing is probably the same trip twice.
+  </div>
+</section>
+
+<section class="wrap">
+  <h2>Old films — on trial</h2>
+  <p>Not a rule any more. The evidence is genuinely mixed: the two oldest things you've rated both got five stars. What they have in common is short and blunt, not old and admired.</p>
+  <div class="row">
+    <div class="top">Lawrence of Arabia <span class="tag">Committed</span></div>
+    <div class="meta">1962 · 3h47</div>
+    <div class="why">The best one to start with. It's an identity-dissolution film — the movie keeps asking Lawrence who he is and he loses the thread, suspended between two selves that are both performances. Same shape as The Prestige at desert scale. The risk is format, not content: composed for a screen the size of a building, with an intermission built in. Biggest screen available, one sitting.</div>
+  </div>
+  <div class="row">
+    <div class="top">Hour of the Wolf</div>
+    <div class="meta">1968 · 1h30 · low risk</div>
+    <div class="why">Bergman doing outright horror. Short, direct, not asking to be admired — the exact profile that already earned two perfect scores.</div>
+  </div>
+  <div class="row">
+    <div class="top">After Hours</div>
+    <div class="meta">1985 · 1h37 · low risk</div>
+    <div class="why">Old but fast and unhinged rather than stately. Scorsese in King of Comedy mode.</div>
+  </div>
+  <div class="row">
+    <div class="top">Possession</div>
+    <div class="meta">1981 · 2h04 · medium</div>
+    <div class="why">Old, and the opposite of slow. Closer to The Substance than to anything canonical.</div>
+  </div>
+  <div class="row">
+    <div class="top">Apocalypse Now</div>
+    <div class="meta">1979 · 2h27 · medium</div>
+    <div class="why">Genuinely about a man dissolving. But stately, and its reputation does a lot of the talking.</div>
+  </div>
+  <div class="row">
+    <div class="top">Ran</div>
+    <div class="meta">1985 · 2h40 · high</div>
+    <div class="why">Magnificent and almost completely static.</div>
+  </div>
+  <div class="row">
+    <div class="top">Stalker</div>
+    <div class="meta">1979 · 2h41 · highest</div>
+    <div class="why">Three men walking and talking. The purest version of the thing that doesn't land for you. Save it for after Lawrence.</div>
+  </div>
+</section>
+
+<section class="wrap">
+  <h2>Rules for picking</h2>
+  <h3>Reach for</h3>
+  <ul>
+    <li>A director already scored 4+ with films left — this is the most reliable predictor on the page</li>
+    <li>Someone splits, doubles, or loses hold of who they are <em>and the film resolves it</em></li>
+    <li>Horror with a real idea under it. You'll watch bad horror happily but you only rate the thoughtful kind</li>
+    <li>Comedy that's actually cruel: Lebowski, King of Comedy, Triangle of Sadness, Bad Trip, Bugonia</li>
+    <li>Big metaphysical swing with an emotional landing — Prometheus at 4½ over most prestige titles says this outranks execution</li>
+  </ul>
+  <h3 style="margin-top:22px">Avoid</h3>
+  <ul>
+    <li>Spectacle or cruelty with no payoff — three misses in one batch (Beau, Sacred Deer, Enemy) all share this</li>
+    <li>Surrealism where decoding <em>is</em> the experience (Mulholland Drive)</li>
+    <li>Competent craft with nothing underneath (The Batman at 2½, the Bourne films)</li>
+    <li>Long and stately. The runtime and performance style are the friction — not the age</li>
+  </ul>
+</section>
+
+<section class="wrap">
+  <h2>What this can't see</h2>
+  <ul>
+    <li>Only 30 scores across 340 films. The profile knows what you love and almost nothing about what you actively dislike — The Batman is still the only real negative. Twenty more ratings, especially bad ones, would sharpen this more than anything else here.</li>
+    <li>Six films you've confirmed seeing aren't scored yet: Dunkirk, Enemy, Sacred Deer, Beau, Eddington, and the Tarantino back half.</li>
+    <li>Five discussed films aren't logged at all: The Master, Crimes and Misdemeanors, Sweeney Todd, Oddity, plus rewatches.</li>
+    <li>Non-English cinema is thin — Parasite, Oldboy, City of God, Dogtooth, Spirited Away, and the two Bergmans. Not a stated dislike, just unexplored. The two Koreans at the top of Watch next are the cheapest way in.</li>
+  </ul>
+</section>
+
+<footer class="wrap">
+  Source: letterboxd.com/carlitxs · 331 logged + 9 confirmed since
+</footer>
+
+</body>
+</html>
