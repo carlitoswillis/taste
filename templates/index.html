@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>taste</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="wordmark" href="#watch">TASTE<span class="beam">●</span></a>
+    <div class="stats" id="stats" aria-label="Profile stats"></div>
+    <input class="search" id="search" type="search" placeholder="Search films, directors…" autocomplete="off">
+    <button class="btn solid" id="log-open">Log a film</button>
+  </div>
+  <nav class="tabs" aria-label="Sections">
+    <a href="#watch" data-tab="watch">Watch next</a>
+    <a href="#films" data-tab="films">Films</a>
+    <a href="#directors" data-tab="directors">Directors</a>
+    <a href="#taste" data-tab="taste">Taste</a>
+  </nav>
+</header>
+
+<main id="main">
+  <section id="tab-watch" class="tab" hidden></section>
+  <section id="tab-films" class="tab" hidden></section>
+  <section id="tab-directors" class="tab" hidden></section>
+  <section id="tab-taste" class="tab" hidden></section>
+</main>
+
+<footer class="foot" id="foot"></footer>
+
+<dialog id="log-dialog">
+  <form method="dialog" id="log-form">
+    <h2 id="log-title">Log a film</h2>
+    <label>Title <input name="title" required autocomplete="off"></label>
+    <div class="pair">
+      <label>Year <input name="year" type="number" min="1880" max="2100" required></label>
+      <label>Score
+        <select name="score">
+          <option value="">no score — reaction only</option>
+          <option>5</option><option>4.5</option><option selected>4</option>
+          <option>3.5</option><option>3</option><option>2.5</option>
+          <option>2</option><option>1.5</option><option>1</option><option>0.5</option>
+        </select>
+      </label>
+    </div>
+    <label>Director <input name="director" autocomplete="off"></label>
+    <label>Note <textarea name="note" rows="2" placeholder="what it did or didn't do"></textarea></label>
+    <div class="actions">
+      <button type="button" class="btn" id="log-cancel">Cancel</button>
+      <button type="submit" class="btn solid">Save to log</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="queue-dialog">
+  <form method="dialog" id="queue-form">
+    <h2>Add to watch next</h2>
+    <label>Title <input name="title" required autocomplete="off"></label>
+    <div class="pair">
+      <label>Year <input name="year" type="number" min="1880" max="2100" required></label>
+      <label>Confidence
+        <select name="confidence">
+          <option>high</option><option selected>medium</option><option>low</option><option>test case</option>
+        </select>
+      </label>
+    </div>
+    <label>Director <input name="director" autocomplete="off"></label>
+    <label>Why <textarea name="why" rows="2" placeholder="the argument for it"></textarea></label>
+    <div class="actions">
+      <button type="button" class="btn" id="queue-cancel">Cancel</button>
+      <button type="submit" class="btn solid">Add to queue</button>
+    </div>
+  </form>
+</dialog>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

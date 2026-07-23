@@ -1,12 +1,12 @@
 # taste
 
-A personal, local-first film taste app. Ratings, director filmography progress, influence lineages, cohorts, and a ranked watchlist all live as JSON in `data/`; a zero-dependency Node script builds them into a single page you view locally. Whoever runs an instance, it renders *their* data — nothing is published unless you explicitly choose to.
-
-The page is an argument, not a list: *what do the ratings actually circle, and what should be watched next because of it.*
+A personal, local-first film taste app. Ratings, director filmography progress, influence lineages, cohorts, and a ranked watchlist all live as JSON in `data/`; a zero-dependency local server renders them as a tool you actually use — log a film from the page, manage the watch queue, record verdicts — and writes your changes back to the JSON. Whoever runs an instance, it renders *their* data — nothing is published unless you explicitly choose to.
 
 ```sh
-npm start   # http://127.0.0.1:4747 — edits to data/ rebuild automatically
+npm start   # http://127.0.0.1:4747
 ```
+
+Four tabs: **Watch next** (the ranked queue — logging a film clears it automatically, plus the "old films on trial" experiment with verdict entry), **Films** (the log: sort, filter by tier, search), **Directors** (filmography runs as sprocket meters — filled dots seen, hollow dots left), and **Taste** (the analysis: what the ratings circle, rules for picking, lineage chains, cohorts).
 
 ## How it works
 
@@ -15,28 +15,29 @@ config.json          who you are (letterboxd user, region, headline stats)
 data/
   profile.json       the prose: thesis, section intros, footnotes
   ratings.json       every scored film (+ unscored verbal reactions)
-  directors.json     filmography completion tracker
-  watchlist.json     ranked watch-next list with reasoning
+  directors.json     filmography runs: seen count, what's left
+  watchlist.json     ranked watch-next queue with reasoning
   lineage.json       influence chains (ancestor -> descendant, and the gap)
   cohorts.json       director cohorts and who's missing
   old-films.json     the "old films on trial" experiment, with a verdict field
   calibration.json   reach-for / avoid rules and known blind spots
   letterboxd.json    (generated) recent activity from the Letterboxd RSS feed
   enrichment.json    (generated) TMDB metadata: directors, runtimes, where to watch
+templates/           the app shell: index.html, app.js, style.css
 scripts/
-  build.mjs          data + templates -> dist/index.html
+  serve.mjs          the app: serves the shell, live data, and the write API
+  build.mjs          static read-only snapshot into dist/ (only for deliberate exports)
   fetch-letterboxd.mjs  pulls the public RSS feed, flags new ratings
   enrich-tmdb.mjs    TMDB search + credits + watch providers (JustWatch data)
-templates/style.css  the look
 ```
 
-No frameworks, no npm install. Everything is plain JSON and one build script, so editing your profile is editing a text file. Project state, active tasks, and backlog are tracked in [`ai/PROJECT_STATE.md`](ai/PROJECT_STATE.md).
+No frameworks, no npm install. Your data is plain JSON — edit it in the page or in a text editor, same thing. Project state, active tasks, and backlog are tracked in [`ai/PROJECT_STATE.md`](ai/PROJECT_STATE.md).
 
 ```sh
-npm start        # serve locally with watch + rebuild
-npm run build    # one-off build into dist/
+npm start        # run the app locally
 npm run sync     # refresh recent Letterboxd activity
 TMDB_API_KEY=... npm run enrich   # add metadata + streaming availability
+npm run build    # optional: static read-only export into dist/
 ```
 
 Text fields in the data files support `**bold**` and `*italic*` — everything else is escaped.
