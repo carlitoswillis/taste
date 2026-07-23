@@ -1,0 +1,2461 @@
+{
+  "Memories of Murder (2003)": {
+    "tmdbId": 11423,
+    "imdbId": "tt0353969",
+    "director": [
+      "Bong Joon Ho"
+    ],
+    "cast": [
+      "Song Kang-ho",
+      "Kim Sang-kyung",
+      "Kim Roi-ha",
+      "Song Jae-ho",
+      "Byun Hee-bong"
+    ],
+    "runtime": 131,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/jcgUjx1QcupGzjntTVlnQ15lHqy.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "Amazon Video",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/11423/watch?locale=US",
+    "region": "US"
+  },
+  "Dead Ringers (1988)": {
+    "tmdbId": 9540,
+    "imdbId": "tt0094964",
+    "director": [
+      "David Cronenberg"
+    ],
+    "cast": [
+      "Jeremy Irons",
+      "Geneviève Bujold",
+      "Heidi von Palleske",
+      "Barbara Gordon",
+      "Shirley Douglas"
+    ],
+    "runtime": 115,
+    "genres": [
+      "Thriller",
+      "Horror"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/ofXwDfM8uYAaftD7cBPcIWdCpMn.jpg",
+    "providers": {
+      "flatrate": [
+        "Night Flight Plus",
+        "Shout! Factory Amazon Channel"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/9540-dead-ringers/watch?locale=US",
+    "region": "US"
+  },
+  "The Handmaiden (2016)": {
+    "tmdbId": 290098,
+    "imdbId": "tt4016934",
+    "director": [
+      "Park Chan-wook"
+    ],
+    "cast": [
+      "Kim Min-hee",
+      "Kim Tae-ri",
+      "Ha Jung-woo",
+      "Cho Jin-woong",
+      "Kim Hae-sook"
+    ],
+    "runtime": 145,
+    "genres": [
+      "Thriller",
+      "Drama",
+      "Romance"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/dLlH4aNHdnmf62umnInL8xPlPzw.jpg",
+    "providers": {
+      "flatrate": [
+        "Amazon Prime Video"
+      ],
+      "rent": [
+        "Fandango At Home"
+      ],
+      "buy": []
+    },
+    "providersLink": "https://www.themoviedb.org/movie/290098/watch?locale=US",
+    "region": "US"
+  },
+  "Dog Day Afternoon (1975)": {
+    "tmdbId": 968,
+    "imdbId": "tt0072890",
+    "director": [
+      "Sidney Lumet"
+    ],
+    "cast": [
+      "Al Pacino",
+      "John Cazale",
+      "Charles Durning",
+      "Chris Sarandon",
+      "James Broderick"
+    ],
+    "runtime": 125,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/mavrhr0ig2aCRR8d48yaxtD5aMQ.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "Spectrum On Demand"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/968-dog-day-afternoon/watch?locale=US",
+    "region": "US"
+  },
+  "Prisoners (2013)": {
+    "tmdbId": 146233,
+    "imdbId": "tt1392214",
+    "director": [
+      "Denis Villeneuve"
+    ],
+    "cast": [
+      "Hugh Jackman",
+      "Jake Gyllenhaal",
+      "Viola Davis",
+      "Maria Bello",
+      "Terrence Howard"
+    ],
+    "runtime": 153,
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Crime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/uhviyknTT5cEQXbn6vWIqfM4vGm.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/146233-prisoners/watch?locale=US",
+    "region": "US"
+  },
+  "Se7en (1995)": {
+    "tmdbId": 807,
+    "imdbId": "tt0114369",
+    "director": [
+      "David Fincher"
+    ],
+    "cast": [
+      "Morgan Freeman",
+      "Brad Pitt",
+      "Gwyneth Paltrow",
+      "John Cassini",
+      "Peter Crombie"
+    ],
+    "runtime": 127,
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/191nKfP0ehp3uIvWqgPbFmI4lv9.jpg",
+    "providers": {
+      "flatrate": [
+        "Peacock Premium",
+        "Peacock Premium Plus"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/807-se7en/watch?locale=US",
+    "region": "US"
+  },
+  "Sick of Myself (2022)": {
+    "tmdbId": 788734,
+    "imdbId": "tt18816518",
+    "director": [
+      "Kristoffer Borgli"
+    ],
+    "cast": [
+      "Kristine Kujath Thorp",
+      "Eirik Sæther",
+      "Fanny Vaager",
+      "Fredrik Stenberg Ditlev-Simonsen",
+      "Sarah Francesca Brænne"
+    ],
+    "runtime": 97,
+    "genres": [
+      "Comedy",
+      "Horror"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/ynePU5z7JFn2Gf82RmfZgV84H8X.jpg",
+    "providers": {
+      "flatrate": [
+        "MUBI",
+        "MUBI Amazon Channel"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/788734-syk-pike/watch?locale=US",
+    "region": "US"
+  },
+  "Heat (1995)": {
+    "tmdbId": 949,
+    "imdbId": "tt0113277",
+    "director": [
+      "Michael Mann"
+    ],
+    "cast": [
+      "Al Pacino",
+      "Robert De Niro",
+      "Val Kilmer",
+      "Jon Voight",
+      "Tom Sizemore"
+    ],
+    "runtime": 170,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Action"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/e09dLw1Ljtccd2P4NsuUvVtS5du.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/949-heat/watch?locale=US",
+    "region": "US"
+  },
+  "Don't Look Now (1973)": {
+    "tmdbId": 931,
+    "imdbId": "tt0069995",
+    "director": [
+      "Nicolas Roeg"
+    ],
+    "cast": [
+      "Donald Sutherland",
+      "Julie Christie",
+      "Hilary Mason",
+      "Massimo Serato",
+      "Clelia Matania"
+    ],
+    "runtime": 110,
+    "genres": [
+      "Thriller",
+      "Drama",
+      "Horror"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/ivWsU3QtcstImCTOjItsH0SAbNn.jpg",
+    "providers": {
+      "flatrate": [
+        "fuboTV",
+        "MGM+ Amazon Channel",
+        "Philo",
+        "MGM Plus Roku Premium Channel",
+        "YouTube TV",
+        "MGM Plus"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/931-don-t-look-now/watch?locale=US",
+    "region": "US"
+  },
+  "There Will Be Blood (2007)": {
+    "tmdbId": 7345,
+    "imdbId": "tt0469494",
+    "director": [
+      "Paul Thomas Anderson"
+    ],
+    "cast": [
+      "Daniel Day-Lewis",
+      "Paul Dano",
+      "Kevin J. O'Connor",
+      "Ciarán Hinds",
+      "Dillon Freasier"
+    ],
+    "runtime": 158,
+    "genres": [
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
+    "providers": {
+      "flatrate": [
+        "fuboTV",
+        "Paramount Plus Premium",
+        "Paramount Plus Essential",
+        "Paramount+ Amazon Channel",
+        "Kanopy",
+        "YouTube TV",
+        "Paramount+ Roku Premium Channel"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "FlixFling",
+        "Spectrum On Demand"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/7345-there-will-be-blood/watch?locale=US",
+    "region": "US"
+  },
+  "Save the Green Planet! (2003)": {
+    "tmdbId": 11297,
+    "imdbId": "tt0354668",
+    "director": [
+      "Jang Joon-hwan"
+    ],
+    "cast": [
+      "Shin Ha-kyun",
+      "Baek Yoon-sik",
+      "Hwang Jeong-min",
+      "Lee Jae-yong",
+      "Lee Joo-hyun"
+    ],
+    "runtime": 117,
+    "genres": [
+      "Comedy",
+      "Science Fiction",
+      "Crime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/kou9TDjveVwBhWnxCRUT88RUVCs.jpg",
+    "providers": {
+      "flatrate": [
+        "ARROW"
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "providersLink": "https://www.themoviedb.org/movie/11297/watch?locale=US",
+    "region": "US"
+  },
+  "Anomalisa (2015)": {
+    "tmdbId": 291270,
+    "imdbId": "tt2401878",
+    "director": [
+      "Duke Johnson",
+      "Charlie Kaufman"
+    ],
+    "cast": [
+      "David Thewlis",
+      "Jennifer Jason Leigh",
+      "Tom Noonan"
+    ],
+    "runtime": 91,
+    "genres": [
+      "Animation",
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/4DJ1zNr4Y6q7zQ27goEYla46VdO.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "JustWatch TV",
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "Spectrum On Demand"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/291270-anomalisa/watch?locale=US",
+    "region": "US"
+  },
+  "The Wailing (2016)": {
+    "tmdbId": 293670,
+    "imdbId": "tt5215952",
+    "director": [
+      "Na Hong-jin"
+    ],
+    "cast": [
+      "Kwak Do-won",
+      "Hwang Jung-min",
+      "Chun Woo-hee",
+      "Jun Kunimura",
+      "Kim Hwan-hee"
+    ],
+    "runtime": 156,
+    "genres": [
+      "Horror",
+      "Mystery"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/RbymxgEM5SpDfO2Io2JMFG10Vi.jpg",
+    "providers": {
+      "flatrate": [
+        "fuboTV",
+        "Philo",
+        "YouTube TV",
+        "Fandor Amazon Channel",
+        "Screambox Amazon Channel",
+        "Rakuten Viki",
+        "Hi-YAH",
+        "Midnight Pulp Amazon Channel",
+        "Hi-YAH Amazon Channel",
+        "Bloodstream"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Google Play Movies",
+        "YouTube"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Google Play Movies",
+        "YouTube"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/293670/watch?locale=US",
+    "region": "US"
+  },
+  "Caché (2005)": {
+    "tmdbId": 445,
+    "imdbId": "tt0387898",
+    "director": [
+      "Michael Haneke"
+    ],
+    "cast": [
+      "Daniel Auteuil",
+      "Juliette Binoche",
+      "Annie Girardot",
+      "Bernard Le Coq",
+      "Daniel Duval"
+    ],
+    "runtime": 118,
+    "genres": [
+      "Mystery",
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/vTzjRi0Uhy0tt3Rjw8SARZZJHlX.jpg",
+    "providers": {
+      "flatrate": [
+        "Philo",
+        "Sundance Now",
+        "Fandor Amazon Channel"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/445-cache/watch?locale=US",
+    "region": "US"
+  },
+  "The Vanishing (1988)": {
+    "tmdbId": 8740,
+    "imdbId": "tt0096163",
+    "director": [
+      "George Sluizer"
+    ],
+    "cast": [
+      "Bernard-Pierre Donnadieu",
+      "Gene Bervoets",
+      "Johanna ter Steege",
+      "Gwen Eckhaus",
+      "Pierre Forget"
+    ],
+    "runtime": 106,
+    "genres": [
+      "Thriller",
+      "Mystery"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/eE5bbuRJluooG2MjEAsLEYyuJoa.jpg",
+    "providers": {
+      "flatrate": [
+        "Criterion Channel"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/8740-spoorloos/watch?locale=US",
+    "region": "US"
+  },
+  "Inside Llewyn Davis (2013)": {
+    "tmdbId": 86829,
+    "imdbId": "tt2042568",
+    "director": [
+      "Ethan Coen",
+      "Joel Coen"
+    ],
+    "cast": [
+      "Oscar Isaac",
+      "Carey Mulligan",
+      "Justin Timberlake",
+      "Ethan Phillips",
+      "Robin Bartlett"
+    ],
+    "runtime": 105,
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/nNxK3pC3DMpPpWKMvo2p3liREVT.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "JustWatch TV",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/86829-inside-llewyn-davis/watch?locale=US",
+    "region": "US"
+  },
+  "Decision to Leave (2022)": {
+    "tmdbId": 705996,
+    "imdbId": "tt12477480",
+    "director": [
+      "Park Chan-wook"
+    ],
+    "cast": [
+      "Tang Wei",
+      "Park Hae-il",
+      "Lee Jung-hyun",
+      "Go Kyung-pyo",
+      "Park Yong-woo"
+    ],
+    "runtime": 139,
+    "genres": [
+      "Thriller",
+      "Mystery",
+      "Romance"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/zI8KZ4EdLUymWKX1YEkpZ0gtPUa.jpg",
+    "providers": {
+      "flatrate": [
+        "MUBI",
+        "MUBI Amazon Channel"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/705996/watch?locale=US",
+    "region": "US"
+  },
+  "mother! (2017)": {
+    "tmdbId": 381283,
+    "imdbId": "tt5109784",
+    "director": [
+      "Darren Aronofsky"
+    ],
+    "cast": [
+      "Jennifer Lawrence",
+      "Javier Bardem",
+      "Ed Harris",
+      "Michelle Pfeiffer",
+      "Brian Gleeson"
+    ],
+    "runtime": 121,
+    "genres": [
+      "Horror",
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/fjny9chXPx69ln1LMJxbwi5yHMt.jpg",
+    "providers": {
+      "flatrate": [
+        "fuboTV",
+        "MGM+ Amazon Channel",
+        "Philo",
+        "MGM Plus Roku Premium Channel",
+        "YouTube TV",
+        "MGM Plus"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "Spectrum On Demand"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/381283-mother/watch?locale=US",
+    "region": "US"
+  },
+  "Hour of the Wolf (1968)": {
+    "tmdbId": 18333,
+    "imdbId": "tt0063759",
+    "director": [
+      "Ingmar Bergman"
+    ],
+    "cast": [
+      "Max von Sydow",
+      "Liv Ullmann",
+      "Gertrud Fridh",
+      "Georg Rydeberg",
+      "Erland Josephson"
+    ],
+    "runtime": 88,
+    "genres": [
+      "Drama",
+      "Horror"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/jSqTnEP1x1OcOglqrInYvGSF1tL.jpg",
+    "providers": {
+      "flatrate": [
+        "Criterion Channel"
+      ],
+      "rent": [
+        "Apple TV Store",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Apple TV Store",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/18333-vargtimmen/watch?locale=US",
+    "region": "US"
+  },
+  "The Seventh Seal (1957)": {
+    "tmdbId": 490,
+    "imdbId": "tt0050976",
+    "director": [
+      "Ingmar Bergman"
+    ],
+    "cast": [
+      "Gunnar Björnstrand",
+      "Bengt Ekerot",
+      "Nils Poppe",
+      "Max von Sydow",
+      "Bibi Andersson"
+    ],
+    "runtime": 96,
+    "genres": [
+      "Fantasy",
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/wcZ21zrOsy0b52AfAF50XpTiv75.jpg",
+    "providers": {
+      "flatrate": [
+        "HBO Max Amazon Channel",
+        "YouTube TV",
+        "Criterion Channel",
+        "HBO Max"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/490-det-sjunde-inseglet/watch?locale=US",
+    "region": "US"
+  },
+  "Persona (1966)": {
+    "tmdbId": 797,
+    "imdbId": "tt0060827",
+    "director": [
+      "Ingmar Bergman"
+    ],
+    "cast": [
+      "Bibi Andersson",
+      "Liv Ullmann",
+      "Margaretha Krook",
+      "Gunnar Björnstrand",
+      "Jörgen Lindström"
+    ],
+    "runtime": 85,
+    "genres": [
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/fVA5hTcAOlW2LJyelViQfWHxUcx.jpg",
+    "providers": {
+      "flatrate": [
+        "HBO Max Amazon Channel",
+        "YouTube TV",
+        "Criterion Channel",
+        "Darkroom",
+        "HBO Max",
+        "Artiflix"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/797-persona/watch?locale=US",
+    "region": "US"
+  },
+  "The Odyssey (2025)": {
+    "tmdbId": 1559261,
+    "imdbId": null,
+    "director": [],
+    "cast": [
+      "Jakob Stegelmann",
+      "Sinne Eeg",
+      "Isabel Schwartzbach",
+      "Kristoffer Appel",
+      "David Bateson"
+    ],
+    "runtime": 82,
+    "genres": [
+      "Music"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/qIF0DwqG3HFjZ7SYDpYNhcruhqS.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [],
+      "buy": []
+    },
+    "providersLink": null,
+    "region": "US"
+  },
+  "Anora (2024)": {
+    "tmdbId": 1064213,
+    "imdbId": "tt28607951",
+    "director": [
+      "Sean Baker"
+    ],
+    "cast": [
+      "Mikey Madison",
+      "Mark Eydelshteyn",
+      "Yura Borisov",
+      "Karren Karagulian",
+      "Vache Tovmasyan"
+    ],
+    "runtime": 139,
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Romance"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/cgXk2tNYhJZLXdBDO5DidAVzQ82.jpg",
+    "providers": {
+      "flatrate": [
+        "Hulu"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/1064213-anora/watch?locale=US",
+    "region": "US"
+  },
+  "The Prestige (2006)": {
+    "tmdbId": 1124,
+    "imdbId": "tt0482571",
+    "director": [
+      "Christopher Nolan"
+    ],
+    "cast": [
+      "Hugh Jackman",
+      "Christian Bale",
+      "Michael Caine",
+      "Piper Perabo",
+      "Rebecca Hall"
+    ],
+    "runtime": 130,
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Science Fiction"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/Ag2B2KHKQPukjH7WutmgnnSNurZ.jpg",
+    "providers": {
+      "flatrate": [
+        "Hulu",
+        "Peacock Premium",
+        "Peacock Premium Plus"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/1124-the-prestige/watch?locale=US",
+    "region": "US"
+  },
+  "No Country for Old Men (2007)": {
+    "tmdbId": 6977,
+    "imdbId": "tt0477348",
+    "director": [
+      "Joel Coen",
+      "Ethan Coen"
+    ],
+    "cast": [
+      "Javier Bardem",
+      "Tommy Lee Jones",
+      "Josh Brolin",
+      "Woody Harrelson",
+      "Kelly Macdonald"
+    ],
+    "runtime": 122,
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Western"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/uB7RDZby43Wvu8SKGHHTwGyTDBX.jpg",
+    "providers": {
+      "flatrate": [
+        "fuboTV",
+        "Paramount Plus Premium",
+        "Paramount Plus Essential",
+        "Paramount+ Amazon Channel",
+        "YouTube TV"
+      ],
+      "rent": [
+        "JustWatch TV",
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/6977-no-country-for-old-men/watch?locale=US",
+    "region": "US"
+  },
+  "Being John Malkovich (1999)": {
+    "tmdbId": 492,
+    "imdbId": "tt0120601",
+    "director": [
+      "Spike Jonze"
+    ],
+    "cast": [
+      "John Cusack",
+      "Cameron Diaz",
+      "John Malkovich",
+      "Catherine Keener",
+      "Orson Bean"
+    ],
+    "runtime": 113,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Fantasy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/31FGQu3OnwdmS4COquENe0vMZc0.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/492-being-john-malkovich/watch?locale=US",
+    "region": "US"
+  },
+  "Hereditary (2018)": {
+    "tmdbId": 493922,
+    "imdbId": "tt7784604",
+    "director": [
+      "Ari Aster"
+    ],
+    "cast": [
+      "Toni Collette",
+      "Alex Wolff",
+      "Gabriel Byrne",
+      "Milly Shapiro",
+      "Ann Dowd"
+    ],
+    "runtime": 128,
+    "genres": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/4GFPuL14eXi66V96xBWY73Y9PfR.jpg",
+    "providers": {
+      "flatrate": [
+        "HBO Max Amazon Channel",
+        "HBO Max"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/493922-hereditary/watch?locale=US",
+    "region": "US"
+  },
+  "Parasite (2019)": {
+    "tmdbId": 496243,
+    "imdbId": "tt6751668",
+    "director": [
+      "Bong Joon Ho"
+    ],
+    "cast": [
+      "Song Kang-ho",
+      "Lee Sun-kyun",
+      "Cho Yeo-jeong",
+      "Choi Woo-shik",
+      "Park So-dam"
+    ],
+    "runtime": 133,
+    "genres": [
+      "Comedy",
+      "Thriller",
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "FlixFling"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/496243/watch?locale=US",
+    "region": "US"
+  },
+  "Prometheus (2012)": {
+    "tmdbId": 70981,
+    "imdbId": "tt1446714",
+    "director": [
+      "Ridley Scott"
+    ],
+    "cast": [
+      "Noomi Rapace",
+      "Michael Fassbender",
+      "Charlize Theron",
+      "Idris Elba",
+      "Guy Pearce"
+    ],
+    "runtime": 124,
+    "genres": [
+      "Science Fiction",
+      "Mystery",
+      "Horror"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/qsYQflQhOuhDpQ0W2aOcwqgDAeI.jpg",
+    "providers": {
+      "flatrate": [
+        "HBO Max Amazon Channel",
+        "YouTube TV",
+        "HBO Max"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/70981-prometheus/watch?locale=US",
+    "region": "US"
+  },
+  "Poor Things (2023)": {
+    "tmdbId": 792307,
+    "imdbId": "tt14230458",
+    "director": [
+      "Yorgos Lanthimos"
+    ],
+    "cast": [
+      "Emma Stone",
+      "Mark Ruffalo",
+      "Willem Dafoe",
+      "Ramy Youssef",
+      "Christopher Abbott"
+    ],
+    "runtime": 141,
+    "genres": [
+      "Science Fiction",
+      "Romance",
+      "Comedy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/kCGlIMHnOm8JPXq3rXM6c5wMxcT.jpg",
+    "providers": {
+      "flatrate": [
+        "Netflix",
+        "Netflix Standard with Ads"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "Spectrum On Demand"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/792307-poor-things/watch?locale=US",
+    "region": "US"
+  },
+  "Bugonia (2025)": {
+    "tmdbId": 701387,
+    "imdbId": "tt12300742",
+    "director": [
+      "Yorgos Lanthimos"
+    ],
+    "cast": [
+      "Emma Stone",
+      "Jesse Plemons",
+      "Aidan Delbis",
+      "Stavros Halkias",
+      "Alicia Silverstone"
+    ],
+    "runtime": 119,
+    "genres": [
+      "Science Fiction",
+      "Thriller",
+      "Comedy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/rSdOua3wKMEaFWDcKAYWRjXQWOt.jpg",
+    "providers": {
+      "flatrate": [
+        "Netflix",
+        "Netflix Standard with Ads"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "FlixFling"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/701387-bugonia/watch?locale=US",
+    "region": "US"
+  },
+  "Obsession (2026)": {
+    "tmdbId": 1339713,
+    "imdbId": "tt37287335",
+    "director": [
+      "Curry Barker"
+    ],
+    "cast": [
+      "Michael Johnston",
+      "Inde Navarrette",
+      "Cooper Tomlinson",
+      "Megan Lawless",
+      "Andy Richter"
+    ],
+    "runtime": 109,
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
+    "providers": {
+      "flatrate": [
+        "Peacock Premium",
+        "Peacock Premium Plus"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/1339713-obsession/watch?locale=US",
+    "region": "US"
+  },
+  "Adaptation. (2002)": {
+    "tmdbId": 2757,
+    "imdbId": "tt0268126",
+    "director": [
+      "Spike Jonze"
+    ],
+    "cast": [
+      "Nicolas Cage",
+      "Meryl Streep",
+      "Chris Cooper",
+      "Tilda Swinton",
+      "Jay Tavare"
+    ],
+    "runtime": 115,
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/ffEmHQAiD0m5dEQ6rlsuA9vlllW.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/2757-adaptation/watch?locale=US",
+    "region": "US"
+  },
+  "Mad Max: Fury Road (2015)": {
+    "tmdbId": 76341,
+    "imdbId": "tt1392190",
+    "director": [
+      "George Miller"
+    ],
+    "cast": [
+      "Tom Hardy",
+      "Charlize Theron",
+      "Nicholas Hoult",
+      "Hugh Keays-Byrne",
+      "Josh Helman"
+    ],
+    "runtime": 121,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/ulcAi4dKpAjHwYGS08vNyx9H6I9.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "Spectrum On Demand",
+        "Plex"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/76341-mad-max-fury-road/watch?locale=US",
+    "region": "US"
+  },
+  "The Lighthouse (2019)": {
+    "tmdbId": 503919,
+    "imdbId": "tt7984734",
+    "director": [
+      "Robert Eggers"
+    ],
+    "cast": [
+      "Robert Pattinson",
+      "Willem Dafoe",
+      "Valeriia Karaman",
+      "Logan Hawkes",
+      "Kyla Nicolle"
+    ],
+    "runtime": 109,
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Thriller"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/yAKNmpcUweGH6WMCEWenwU9PsbE.jpg",
+    "providers": {
+      "flatrate": [
+        "HBO Max Amazon Channel",
+        "YouTube TV",
+        "HBO Max"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/503919-the-lighthouse/watch?locale=US",
+    "region": "US"
+  },
+  "Midsommar (2019)": {
+    "tmdbId": 530385,
+    "imdbId": "tt8772262",
+    "director": [
+      "Ari Aster"
+    ],
+    "cast": [
+      "Florence Pugh",
+      "Jack Reynor",
+      "William Jackson Harper",
+      "Will Poulter",
+      "Vilhelm Blomgren"
+    ],
+    "runtime": 147,
+    "genres": [
+      "Horror",
+      "Drama",
+      "Mystery"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/7LEI8ulZzO5gy9Ww2NVCrKmHeDZ.jpg",
+    "providers": {
+      "flatrate": [
+        "HBO Max Amazon Channel",
+        "YouTube TV",
+        "HBO Max"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/530385-midsommar/watch?locale=US",
+    "region": "US"
+  },
+  "Once Upon a Time... in Hollywood (2019)": {
+    "tmdbId": 466272,
+    "imdbId": "tt7131622",
+    "director": [
+      "Quentin Tarantino"
+    ],
+    "cast": [
+      "Leonardo DiCaprio",
+      "Brad Pitt",
+      "Margot Robbie",
+      "Emile Hirsch",
+      "Margaret Qualley"
+    ],
+    "runtime": 162,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg",
+    "providers": {
+      "flatrate": [
+        "fuboTV",
+        "YouTube TV"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "FlixFling",
+        "Plex"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/466272-once-upon-a-time-in-hollywood/watch?locale=US",
+    "region": "US"
+  },
+  "Apostle (2018)": {
+    "tmdbId": 424121,
+    "imdbId": "tt6217306",
+    "director": [
+      "Gareth Evans"
+    ],
+    "cast": [
+      "Dan Stevens",
+      "Michael Sheen",
+      "Lucy Boynton",
+      "Mark Lewis Jones",
+      "Bill Milner"
+    ],
+    "runtime": 129,
+    "genres": [
+      "Horror",
+      "Mystery"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/rd269f2Yftxxam3EOJPYVwrvjIJ.jpg",
+    "providers": {
+      "flatrate": [
+        "Netflix",
+        "Netflix Standard with Ads"
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "providersLink": "https://www.themoviedb.org/movie/424121-apostle/watch?locale=US",
+    "region": "US"
+  },
+  "Saint Maud (2019)": {
+    "tmdbId": 575776,
+    "imdbId": "tt7557108",
+    "director": [
+      "Rose Glass"
+    ],
+    "cast": [
+      "Morfydd Clark",
+      "Jennifer Ehle",
+      "Lily Frazer",
+      "Lily Knight",
+      "Rosie Sansom"
+    ],
+    "runtime": 85,
+    "genres": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/ArNYeeDFLVye7JpqLElYdbE6fOa.jpg",
+    "providers": {
+      "flatrate": [
+        "Amazon Prime Video",
+        "fuboTV",
+        "MGM+ Amazon Channel",
+        "Philo",
+        "MGM Plus Roku Premium Channel",
+        "YouTube TV",
+        "MGM Plus",
+        "Amazon Prime Video with Ads"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "Spectrum On Demand"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/575776-saint-maud/watch?locale=US",
+    "region": "US"
+  },
+  "A Quiet Place (2018)": {
+    "tmdbId": 447332,
+    "imdbId": "tt6644200",
+    "director": [
+      "John Krasinski"
+    ],
+    "cast": [
+      "Emily Blunt",
+      "John Krasinski",
+      "Millicent Simmonds",
+      "Noah Jupe",
+      "Cade Woodward"
+    ],
+    "runtime": 91,
+    "genres": [
+      "Horror",
+      "Drama",
+      "Science Fiction"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/nAU74GmpUk7t5iklEp3bufwDq4n.jpg",
+    "providers": {
+      "flatrate": [
+        "fuboTV",
+        "Paramount Plus Premium",
+        "Paramount Plus Essential",
+        "Paramount+ Amazon Channel",
+        "YouTube TV",
+        "Paramount+ Roku Premium Channel"
+      ],
+      "rent": [
+        "JustWatch TV",
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "FlixFling",
+        "Plex"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/447332-a-quiet-place/watch?locale=US",
+    "region": "US"
+  },
+  "Bad Trip (2021)": {
+    "tmdbId": 578908,
+    "imdbId": "tt9684220",
+    "director": [
+      "Kitao Sakurai"
+    ],
+    "cast": [
+      "Eric André",
+      "Lil Rel Howery",
+      "Tiffany Haddish",
+      "Michaela Conlin",
+      "Gerald Espinoza"
+    ],
+    "runtime": 87,
+    "genres": [
+      "Comedy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/A1Gy5HX3DKGaNW1Ay30NTIVJqJ6.jpg",
+    "providers": {
+      "flatrate": [
+        "Netflix",
+        "Netflix Standard with Ads"
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "providersLink": "https://www.themoviedb.org/movie/578908-bad-trip/watch?locale=US",
+    "region": "US"
+  },
+  "The Northman (2022)": {
+    "tmdbId": 639933,
+    "imdbId": "tt11138512",
+    "director": [
+      "Robert Eggers"
+    ],
+    "cast": [
+      "Alexander Skarsgård",
+      "Nicole Kidman",
+      "Claes Bang",
+      "Ethan Hawke",
+      "Anya Taylor-Joy"
+    ],
+    "runtime": 137,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/aSSJMnHknzKjlZ6zybwD7eyJ4Po.jpg",
+    "providers": {
+      "flatrate": [
+        "Netflix",
+        "Netflix Standard with Ads"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/639933-the-northman/watch?locale=US",
+    "region": "US"
+  },
+  "Oppenheimer (2023)": {
+    "tmdbId": 872585,
+    "imdbId": "tt15398776",
+    "director": [
+      "Christopher Nolan"
+    ],
+    "cast": [
+      "Cillian Murphy",
+      "Emily Blunt",
+      "Matt Damon",
+      "Robert Downey Jr.",
+      "Florence Pugh"
+    ],
+    "runtime": 181,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "Spectrum On Demand"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/872585-oppenheimer/watch?locale=US",
+    "region": "US"
+  },
+  "Together (2025)": {
+    "tmdbId": 1242011,
+    "imdbId": "tt31184028",
+    "director": [
+      "Michael Shanks"
+    ],
+    "cast": [
+      "Dave Franco",
+      "Alison Brie",
+      "Damon Herriman",
+      "Mia Morrissey",
+      "Karl Richmond"
+    ],
+    "runtime": 102,
+    "genres": [
+      "Horror",
+      "Romance"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/80slKYVM5teFH3kz6ouWrZXveqj.jpg",
+    "providers": {
+      "flatrate": [
+        "Hulu"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Fandango At Home",
+        "Plex"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/1242011-together/watch?locale=US",
+    "region": "US"
+  },
+  "Companion (2025)": {
+    "tmdbId": 1084199,
+    "imdbId": "tt26584495",
+    "director": [
+      "Drew Hancock"
+    ],
+    "cast": [
+      "Sophie Thatcher",
+      "Jack Quaid",
+      "Lukas Gage",
+      "Megan Suri",
+      "Harvey Guillén"
+    ],
+    "runtime": 97,
+    "genres": [
+      "Horror",
+      "Science Fiction",
+      "Thriller"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/oCoTgC3UyWGfyQ9thE10ulWR7bn.jpg",
+    "providers": {
+      "flatrate": [
+        "HBO Max Amazon Channel",
+        "YouTube TV",
+        "Cinemax Amazon Channel",
+        "HBO Max",
+        "Cinemax Apple TV Channel"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "Plex"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/1084199-companion/watch?locale=US",
+    "region": "US"
+  },
+  "The Drama (2025)": {
+    "tmdbId": 802477,
+    "imdbId": "tt6148500",
+    "director": [
+      "Reinhold Messner"
+    ],
+    "cast": [],
+    "runtime": 89,
+    "genres": [
+      "Documentary",
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/2dhz32iC0vuQLJZc77a0qdDVlAE.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [],
+      "buy": []
+    },
+    "providersLink": null,
+    "region": "US"
+  },
+  "Everything Everywhere All at Once (2022)": {
+    "tmdbId": 545611,
+    "imdbId": "tt6710474",
+    "director": [
+      "Daniel Scheinert",
+      "Daniel Kwan"
+    ],
+    "cast": [
+      "Michelle Yeoh",
+      "Stephanie Hsu",
+      "Ke Huy Quan",
+      "James Hong",
+      "Jamie Lee Curtis"
+    ],
+    "runtime": 140,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/u68AjlvlutfEIcpmbYpKcdi09ut.jpg",
+    "providers": {
+      "flatrate": [
+        "Hulu",
+        "YouTube TV"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "Spectrum On Demand",
+        "Plex"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/545611-everything-everywhere-all-at-once/watch?locale=US",
+    "region": "US"
+  },
+  "The Devil All the Time (2020)": {
+    "tmdbId": 499932,
+    "imdbId": "tt7395114",
+    "director": [
+      "Antonio Campos"
+    ],
+    "cast": [
+      "Tom Holland",
+      "Robert Pattinson",
+      "Bill Skarsgård",
+      "Riley Keough",
+      "Jason Clarke"
+    ],
+    "runtime": 138,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/bVL7LGq528h3KzeNI90HOVbV5uW.jpg",
+    "providers": {
+      "flatrate": [
+        "Netflix",
+        "Netflix Standard with Ads"
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "providersLink": "https://www.themoviedb.org/movie/499932-the-devil-all-the-time/watch?locale=US",
+    "region": "US"
+  },
+  "The Batman (2022)": {
+    "tmdbId": 414906,
+    "imdbId": "tt1877830",
+    "director": [
+      "Matt Reeves"
+    ],
+    "cast": [
+      "Robert Pattinson",
+      "Zoë Kravitz",
+      "Jeffrey Wright",
+      "Colin Farrell",
+      "Paul Dano"
+    ],
+    "runtime": 177,
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/74xTEgt7R36Fpooo50r9T25onhq.jpg",
+    "providers": {
+      "flatrate": [
+        "HBO Max Amazon Channel",
+        "YouTube TV",
+        "tru TV",
+        "HBO Max"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "Spectrum On Demand",
+        "Plex"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/414906-the-batman/watch?locale=US",
+    "region": "US"
+  },
+  "Dunkirk (2017)": {
+    "tmdbId": 374720,
+    "imdbId": "tt5013056",
+    "director": [
+      "Christopher Nolan"
+    ],
+    "cast": [
+      "Fionn Whitehead",
+      "Tom Hardy",
+      "Mark Rylance",
+      "Kenneth Branagh",
+      "Cillian Murphy"
+    ],
+    "runtime": 107,
+    "genres": [
+      "War",
+      "Action",
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/b4Oe15CGLL61Ped0RAS9JpqdmCt.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "Spectrum On Demand",
+        "Plex"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/374720-dunkirk/watch?locale=US",
+    "region": "US"
+  },
+  "Enemy (2013)": {
+    "tmdbId": 181886,
+    "imdbId": "tt2316411",
+    "director": [
+      "Denis Villeneuve"
+    ],
+    "cast": [
+      "Jake Gyllenhaal",
+      "Mélanie Laurent",
+      "Sarah Gadon",
+      "Isabella Rossellini",
+      "Joshua Peace"
+    ],
+    "runtime": 91,
+    "genres": [
+      "Thriller",
+      "Mystery"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/vf40tyDRKZsBmaLsYeopzfFLzLx.jpg",
+    "providers": {
+      "flatrate": [
+        "Amazon Prime Video",
+        "YouTube TV",
+        "Amazon Prime Video with Ads"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "FlixFling",
+        "Spectrum On Demand"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "FlixFling"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/181886-enemy/watch?locale=US",
+    "region": "US"
+  },
+  "The Killing of a Sacred Deer (2017)": {
+    "tmdbId": 399057,
+    "imdbId": "tt5715874",
+    "director": [
+      "Yorgos Lanthimos"
+    ],
+    "cast": [
+      "Colin Farrell",
+      "Nicole Kidman",
+      "Barry Keoghan",
+      "Raffey Cassidy",
+      "Sunny Suljic"
+    ],
+    "runtime": 121,
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Mystery"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/e4DGlsc9g0h5AyoyvvAuIRnofN7.jpg",
+    "providers": {
+      "flatrate": [
+        "HBO Max Amazon Channel",
+        "Cinemax Amazon Channel",
+        "HBO Max",
+        "Cinemax Apple TV Channel"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "Spectrum On Demand"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/399057-the-killing-of-a-sacred-deer/watch?locale=US",
+    "region": "US"
+  },
+  "Beau Is Afraid (2023)": {
+    "tmdbId": 798286,
+    "imdbId": "tt13521006",
+    "director": [
+      "Ari Aster"
+    ],
+    "cast": [
+      "Joaquin Phoenix",
+      "Patti LuPone",
+      "Amy Ryan",
+      "Nathan Lane",
+      "Kylie Rogers"
+    ],
+    "runtime": 179,
+    "genres": [
+      "Comedy",
+      "Adventure",
+      "Fantasy"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/wgVkkjigF31r1nZV80uV0xNIoun.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "Spectrum On Demand",
+        "Plex"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/798286-beau-is-afraid/watch?locale=US",
+    "region": "US"
+  },
+  "Eddington (2025)": {
+    "tmdbId": 648878,
+    "imdbId": "tt31176520",
+    "director": [
+      "Ari Aster"
+    ],
+    "cast": [
+      "Joaquin Phoenix",
+      "Deirdre O'Connell",
+      "Emma Stone",
+      "Micheal Ward",
+      "Pedro Pascal"
+    ],
+    "runtime": 148,
+    "genres": [
+      "Western",
+      "Comedy",
+      "Crime"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/4GIqZUgPZ146BhibsPHMHef2nXX.jpg",
+    "providers": {
+      "flatrate": [
+        "HBO Max Amazon Channel",
+        "YouTube TV",
+        "HBO Max"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/648878-eddington/watch?locale=US",
+    "region": "US"
+  },
+  "Lawrence of Arabia (1962)": {
+    "tmdbId": 947,
+    "imdbId": "tt0056172",
+    "director": [
+      "David Lean"
+    ],
+    "cast": [
+      "Peter O'Toole",
+      "Alec Guinness",
+      "Omar Sharif",
+      "Anthony Quinn",
+      "Jack Hawkins"
+    ],
+    "runtime": 228,
+    "genres": [
+      "Adventure",
+      "History",
+      "War"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/AiAm0EtDvyGqNpVoieRw4u65vD1.jpg",
+    "providers": {
+      "flatrate": [
+        "Netflix",
+        "Philo",
+        "Netflix Standard with Ads",
+        "Sony Pictures Core Amazon Channel"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "FlixFling"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/947-lawrence-of-arabia/watch?locale=US",
+    "region": "US"
+  },
+  "After Hours (1985)": {
+    "tmdbId": 10843,
+    "imdbId": "tt0088680",
+    "director": [
+      "Martin Scorsese"
+    ],
+    "cast": [
+      "Griffin Dunne",
+      "Rosanna Arquette",
+      "Verna Bloom",
+      "Tommy Chong",
+      "Linda Fiorentino"
+    ],
+    "runtime": 97,
+    "genres": [
+      "Comedy",
+      "Thriller",
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/eamOBurHBu0MIxohTIVcfxmZ6Z7.jpg",
+    "providers": {
+      "flatrate": [
+        "Criterion Channel"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/10843-after-hours/watch?locale=US",
+    "region": "US"
+  },
+  "Possession (1981)": {
+    "tmdbId": 21484,
+    "imdbId": "tt0082933",
+    "director": [
+      "Andrzej Żuławski"
+    ],
+    "cast": [
+      "Isabelle Adjani",
+      "Sam Neill",
+      "Margit Carstensen",
+      "Heinz Bennent",
+      "Johanna Hofer"
+    ],
+    "runtime": 124,
+    "genres": [
+      "Horror"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/A9bnRn05riOKWftvQlLKa2gl51n.jpg",
+    "providers": {
+      "flatrate": [
+        "Philo",
+        "AMC Plus Apple TV Channel ",
+        "AMC+ Amazon Channel",
+        "YouTube TV",
+        "Criterion Channel",
+        "Shudder",
+        "Shudder Amazon Channel",
+        "Metrograph",
+        "Shudder Apple TV Channel",
+        "Kino Film Collection"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/21484-possession/watch?locale=US",
+    "region": "US"
+  },
+  "Apocalypse Now (1979)": {
+    "tmdbId": 28,
+    "imdbId": "tt0078788",
+    "director": [
+      "Francis Ford Coppola"
+    ],
+    "cast": [
+      "Martin Sheen",
+      "Marlon Brando",
+      "Frederic Forrest",
+      "Albert Hall",
+      "Laurence Fishburne"
+    ],
+    "runtime": 147,
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/gQB8Y5RCMkv2zwzFHbUJX3kAhvA.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "FlixFling",
+        "Spectrum On Demand"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/28-apocalypse-now/watch?locale=US",
+    "region": "US"
+  },
+  "Ran (1985)": {
+    "tmdbId": 11645,
+    "imdbId": "tt0089881",
+    "director": [
+      "Akira Kurosawa"
+    ],
+    "cast": [
+      "Tatsuya Nakadai",
+      "Akira Terao",
+      "Jinpachi Nezu",
+      "Daisuke Ryū",
+      "Mieko Harada"
+    ],
+    "runtime": 160,
+    "genres": [
+      "Action",
+      "Drama",
+      "History"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/dGgiXMWDcS5aJTBEFu7bmaQPNox.jpg",
+    "providers": {
+      "flatrate": [
+        "BFI Player Amazon Channel"
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "providersLink": "https://www.themoviedb.org/movie/11645/watch?locale=US",
+    "region": "US"
+  },
+  "Stalker (1979)": {
+    "tmdbId": 1398,
+    "imdbId": "tt0079944",
+    "director": [
+      "Andrei Tarkovsky"
+    ],
+    "cast": [
+      "Alisa Freyndlikh",
+      "Aleksandr Kaydanovskiy",
+      "Anatoliy Solonitsyn",
+      "Mykola Hrynko",
+      "Natalya Abramova"
+    ],
+    "runtime": 162,
+    "genres": [
+      "Science Fiction",
+      "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/1qhOyf5C4s9ZdvY8d5JDx9DFMeT.jpg",
+    "providers": {
+      "flatrate": [
+        "HBO Max Amazon Channel",
+        "YouTube TV",
+        "Criterion Channel",
+        "HBO Max"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/1398/watch?locale=US",
+    "region": "US"
+  }
+}

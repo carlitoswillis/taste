@@ -13,6 +13,15 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
+
+// load .env if present, without overriding real env vars
+try {
+  for (const line of (await readFile(path.join(root, ".env"), "utf8")).split("\n")) {
+    const m = line.match(/^([A-Z0-9_]+)=(.*)$/);
+    if (m && !(m[1] in process.env)) process.env[m[1]] = m[2].trim();
+  }
+} catch {}
+
 const key = process.env.TMDB_API_KEY;
 const token = process.env.TMDB_TOKEN;
 if (!key && !token) {
