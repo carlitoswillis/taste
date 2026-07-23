@@ -4,10 +4,10 @@
   "description": "A data-driven film taste profile — ratings, director progress, lineage, and a ranked watchlist, built from JSON into a static site.",
   "type": "module",
   "scripts": {
+    "start": "node scripts/serve.mjs",
     "build": "node scripts/build.mjs",
     "sync": "node scripts/fetch-letterboxd.mjs",
-    "enrich": "node scripts/enrich-tmdb.mjs",
-    "serve": "npx -y serve dist"
+    "enrich": "node scripts/enrich-tmdb.mjs"
   },
   "engines": {
     "node": ">=18"

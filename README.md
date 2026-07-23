@@ -1,8 +1,12 @@
 # taste
 
-A data-driven film taste profile. Ratings, director filmography progress, influence lineages, cohorts, and a ranked watchlist all live as JSON in `data/`; a zero-dependency Node script builds them into a single static page, deployed on GitHub Pages.
+A personal, local-first film taste app. Ratings, director filmography progress, influence lineages, cohorts, and a ranked watchlist all live as JSON in `data/`; a zero-dependency Node script builds them into a single page you view locally. Whoever runs an instance, it renders *their* data — nothing is published unless you explicitly choose to.
 
 The page is an argument, not a list: *what do the ratings actually circle, and what should be watched next because of it.*
+
+```sh
+npm start   # http://127.0.0.1:4747 — edits to data/ rebuild automatically
+```
 
 ## How it works
 
@@ -26,13 +30,13 @@ scripts/
 templates/style.css  the look
 ```
 
-No frameworks, no npm install. Everything is plain JSON and one build script, so editing your profile is editing a text file.
+No frameworks, no npm install. Everything is plain JSON and one build script, so editing your profile is editing a text file. Project state, active tasks, and backlog are tracked in [`ai/PROJECT_STATE.md`](ai/PROJECT_STATE.md).
 
 ```sh
-node scripts/build.mjs          # build the site into dist/
-node scripts/fetch-letterboxd.mjs   # refresh recent-activity data
-TMDB_API_KEY=... node scripts/enrich-tmdb.mjs  # add metadata + streaming availability
-npm run serve                   # preview at localhost:3000
+npm start        # serve locally with watch + rebuild
+npm run build    # one-off build into dist/
+npm run sync     # refresh recent Letterboxd activity
+TMDB_API_KEY=... npm run enrich   # add metadata + streaming availability
 ```
 
 Text fields in the data files support `**bold**` and `*italic*` — everything else is escaped.
@@ -41,15 +45,15 @@ Text fields in the data files support `**bold**` and `*italic*` — everything e
 
 This repo is one person's profile, but nothing in the code is specific to them:
 
-1. Fork it.
+1. Clone or fork it.
 2. Edit `config.json` — your Letterboxd username, region (for streaming availability), site title.
 3. Replace the contents of `data/*.json` with your own films. The schemas are small; every file above shows the shape by example.
-4. Push. The deploy workflow publishes to GitHub Pages (enable Pages → Source: GitHub Actions in repo settings).
+4. `npm start`.
 
 ## Automation
 
-- **Deploy** (`.github/workflows/deploy.yml`): every push to `main` rebuilds and republishes the site.
-- **Sync** (`.github/workflows/sync.yml`): daily, pulls your latest Letterboxd activity via RSS and — if a `TMDB_API_KEY` secret is set — refreshes metadata and where-to-watch data. Commits only when something changed, which triggers a redeploy.
+- **Sync** (`.github/workflows/sync.yml`): daily, pulls your latest Letterboxd activity via RSS and — if a `TMDB_API_KEY` secret is set — refreshes metadata and where-to-watch data. Commits only when something changed.
+- **Deploy** (`.github/workflows/deploy.yml`): manual-trigger only. This app is local-first; run this workflow only if you deliberately want a public copy on GitHub Pages.
 
 ### APIs used
 
@@ -58,9 +62,4 @@ This repo is one person's profile, but nothing in the code is specific to them:
 
 ## Roadmap
 
-- [ ] Reconcile synced Letterboxd ratings into `data/ratings.json` automatically (open a PR from the sync workflow rather than just flagging)
-- [ ] Full-history import from Letterboxd's CSV export (RSS only covers recent activity)
-- [ ] Show streaming availability on every watchlist entry once enrichment runs in CI
-- [ ] Auto-update director completion counts from TMDB filmographies
-- [ ] Critic scores via the free OMDb API (Rotten Tomatoes/Metacritic numbers)
-- [ ] Multi-profile support (one `data/` dir per person) if this outgrows the fork model
+The living backlog is in [`ai/PROJECT_STATE.md`](ai/PROJECT_STATE.md). Headlines: a logging UI so adding a film doesn't mean hand-editing JSON, full-history import from Letterboxd's CSV export, multi-profile support, and critic scores via the free OMDb API.

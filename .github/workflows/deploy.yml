@@ -1,8 +1,6 @@
-name: Build and deploy
+name: Build and deploy (manual — this app is local-first)
 
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
