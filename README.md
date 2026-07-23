@@ -35,10 +35,24 @@ No frameworks, no npm install. Your data is plain JSON — edit it in the page o
 
 ```sh
 npm start        # run the app locally
-npm run sync     # refresh recent Letterboxd activity
-TMDB_API_KEY=... npm run enrich   # add metadata + streaming availability
+npm run import -- ~/Downloads/letterboxd-export.zip   # full watch history in
+npm run enrich   # metadata, critic scores, where-to-watch (keys from .env)
+npm run suggest  # regenerate the suggestion list
+npm run sync     # refresh recent Letterboxd activity (RSS)
 npm run build    # optional: static read-only export into dist/
 ```
+
+**Suggestions** are generated, not curated: the engine follows the people behind your 4★+
+films (directors weighted heaviest, then writers, then actors), pulls their filmographies
+from TMDB, drops everything you've logged, and ranks what's left — capped at two films per
+person so one favorite doesn't flood the list. Each suggestion says who earned it and why.
+Until your full watch history is imported it will occasionally suggest something you've
+already seen; the Letterboxd import fixes that.
+
+**Import** wants Letterboxd's official export (Settings → Import & Export → Export your
+data). It fills `data/watched.json` (your complete history — the Films tab then shows
+everything, not just rated films) and merges any ratings you've only recorded on Letterboxd,
+never touching entries you wrote by hand.
 
 Text fields in the data files support `**bold**` and `*italic*` — everything else is escaped.
 

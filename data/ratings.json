@@ -1,37 +1,230 @@
 [
-  { "title": "The Seventh Seal", "year": 1957, "director": "Ingmar Bergman", "score": 5, "note": "One of four perfect scores. 96 min, frontal about death." },
-  { "title": "Persona", "year": 1966, "director": "Ingmar Bergman", "score": 5, "note": "Two faces merging — the clearest statement of the doubling pattern." },
-  { "title": "The Odyssey", "year": 2025, "director": "Christopher Nolan", "score": 5, "note": "Multiple theatre viewings in one week." },
-  { "title": "Anora", "year": 2024, "director": "Sean Baker", "score": 5, "note": "The only 5 that isn't Nolan or Bergman." },
-  { "title": "The Prestige", "year": 2006, "director": "Christopher Nolan", "score": 4.5, "note": "Most-rewatched film, but not top-scored. Favourite and highest-rated differ." },
-  { "title": "No Country for Old Men", "year": 2007, "director": "Coen Brothers", "score": 4.5 },
-  { "title": "Being John Malkovich", "year": 1999, "director": "Spike Jonze / Kaufman", "score": 4.5, "note": "Identity as a doorway." },
-  { "title": "Hereditary", "year": 2018, "director": "Ari Aster", "score": 4.5, "note": "Highest-rated horror." },
-  { "title": "Parasite", "year": 2019, "director": "Bong Joon-ho", "score": 4.5 },
-  { "title": "Prometheus", "year": 2012, "director": "Ridley Scott", "score": 4.5, "note": "Rated above most prestige titles — big questions beat execution." },
-  { "title": "Poor Things", "year": 2023, "director": "Yorgos Lanthimos", "score": 4.5, "note": "Lanthimos in comic mode." },
-  { "title": "Bugonia", "year": 2025, "director": "Yorgos Lanthimos", "score": 4.5, "note": "Lanthimos in comic mode." },
-  { "title": "Obsession", "year": 2026, "director": null, "score": 4.5 },
-  { "title": "Adaptation.", "year": 2002, "director": "Spike Jonze / Kaufman", "score": 4, "note": "Twin brothers." },
-  { "title": "Mad Max: Fury Road", "year": 2015, "director": "George Miller", "score": 4 },
-  { "title": "The Lighthouse", "year": 2019, "director": "Robert Eggers", "score": 4 },
-  { "title": "Midsommar", "year": 2019, "director": "Ari Aster", "score": 4 },
-  { "title": "Once Upon a Time... in Hollywood", "year": 2019, "director": "Quentin Tarantino", "score": 4 },
-  { "title": "Apostle", "year": 2018, "director": "Gareth Evans", "score": 4 },
-  { "title": "Saint Maud", "year": 2019, "director": "Rose Glass", "score": 4 },
-  { "title": "A Quiet Place", "year": 2018, "director": "John Krasinski", "score": 4 },
-  { "title": "Bad Trip", "year": 2021, "director": "Kitao Sakurai", "score": 4, "note": "Proof the comedy streak is real, not incidental." },
-  { "title": "The Northman", "year": 2022, "director": "Robert Eggers", "score": 4 },
-  { "title": "Oppenheimer", "year": 2023, "director": "Christopher Nolan", "score": 4 },
-  { "title": "Together", "year": 2025, "director": "Michael Shanks", "score": 4 },
-  { "title": "Companion", "year": 2025, "director": "Drew Hancock", "score": 4 },
-  { "title": "The Drama", "year": 2025, "director": "Kristoffer Borgli", "score": 4 },
-  { "title": "Everything Everywhere All at Once", "year": 2022, "director": "Daniels", "score": 3.5 },
-  { "title": "The Devil All the Time", "year": 2020, "director": "Antonio Campos", "score": 3.5 },
-  { "title": "The Batman", "year": 2022, "director": "Matt Reeves", "score": 2.5, "note": "Lowest score on record. Craft without an idea underneath." },
-  { "title": "Dunkirk", "year": 2017, "director": "Christopher Nolan", "score": null, "note": "\"Love Nolan, well done.\"" },
-  { "title": "Enemy", "year": 2013, "director": "Denis Villeneuve", "score": null, "note": "\"Good.\" Predicted as a top hit on the doubling thesis; landed mild." },
-  { "title": "The Killing of a Sacred Deer", "year": 2017, "director": "Yorgos Lanthimos", "score": null, "note": "\"Not my fav but it was ok.\" Lanthimos in cruel mode does less for you." },
-  { "title": "Beau Is Afraid", "year": 2023, "director": "Ari Aster", "score": null, "note": "\"A spectacle but once was enough.\" No rewatch pull." },
-  { "title": "Eddington", "year": 2025, "director": "Ari Aster", "score": null, "note": "Completes Aster." }
+  {
+    "title": "The Seventh Seal",
+    "year": 1957,
+    "director": "Ingmar Bergman",
+    "score": 5,
+    "note": "One of four perfect scores. 96 min, frontal about death."
+  },
+  {
+    "title": "Persona",
+    "year": 1966,
+    "director": "Ingmar Bergman",
+    "score": 5,
+    "note": "Two faces merging — the clearest statement of the doubling pattern."
+  },
+  {
+    "title": "The Odyssey",
+    "year": 2026,
+    "director": "Christopher Nolan",
+    "score": 5,
+    "note": "Multiple theatre viewings in one week."
+  },
+  {
+    "title": "Anora",
+    "year": 2024,
+    "director": "Sean Baker",
+    "score": 5,
+    "note": "The only 5 that isn't Nolan or Bergman."
+  },
+  {
+    "title": "The Prestige",
+    "year": 2006,
+    "director": "Christopher Nolan",
+    "score": 4.5,
+    "note": "Most-rewatched film, but not top-scored. Favourite and highest-rated differ."
+  },
+  {
+    "title": "No Country for Old Men",
+    "year": 2007,
+    "director": "Coen Brothers",
+    "score": 4.5
+  },
+  {
+    "title": "Being John Malkovich",
+    "year": 1999,
+    "director": "Spike Jonze / Kaufman",
+    "score": 4.5,
+    "note": "Identity as a doorway."
+  },
+  {
+    "title": "Hereditary",
+    "year": 2018,
+    "director": "Ari Aster",
+    "score": 4.5,
+    "note": "Highest-rated horror."
+  },
+  {
+    "title": "Parasite",
+    "year": 2019,
+    "director": "Bong Joon-ho",
+    "score": 4.5
+  },
+  {
+    "title": "Prometheus",
+    "year": 2012,
+    "director": "Ridley Scott",
+    "score": 4.5,
+    "note": "Rated above most prestige titles — big questions beat execution."
+  },
+  {
+    "title": "Poor Things",
+    "year": 2023,
+    "director": "Yorgos Lanthimos",
+    "score": 4.5,
+    "note": "Lanthimos in comic mode."
+  },
+  {
+    "title": "Bugonia",
+    "year": 2025,
+    "director": "Yorgos Lanthimos",
+    "score": 4.5,
+    "note": "Lanthimos in comic mode."
+  },
+  {
+    "title": "Obsession",
+    "year": 2026,
+    "director": null,
+    "score": 4.5
+  },
+  {
+    "title": "Adaptation.",
+    "year": 2002,
+    "director": "Spike Jonze / Kaufman",
+    "score": 4,
+    "note": "Twin brothers."
+  },
+  {
+    "title": "Mad Max: Fury Road",
+    "year": 2015,
+    "director": "George Miller",
+    "score": 4
+  },
+  {
+    "title": "The Lighthouse",
+    "year": 2019,
+    "director": "Robert Eggers",
+    "score": 4
+  },
+  {
+    "title": "Midsommar",
+    "year": 2019,
+    "director": "Ari Aster",
+    "score": 4
+  },
+  {
+    "title": "Once Upon a Time... in Hollywood",
+    "year": 2019,
+    "director": "Quentin Tarantino",
+    "score": 4
+  },
+  {
+    "title": "Apostle",
+    "year": 2018,
+    "director": "Gareth Evans",
+    "score": 4
+  },
+  {
+    "title": "Saint Maud",
+    "year": 2019,
+    "director": "Rose Glass",
+    "score": 4
+  },
+  {
+    "title": "A Quiet Place",
+    "year": 2018,
+    "director": "John Krasinski",
+    "score": 4
+  },
+  {
+    "title": "Bad Trip",
+    "year": 2021,
+    "director": "Kitao Sakurai",
+    "score": 4,
+    "note": "Proof the comedy streak is real, not incidental."
+  },
+  {
+    "title": "The Northman",
+    "year": 2022,
+    "director": "Robert Eggers",
+    "score": 4
+  },
+  {
+    "title": "Oppenheimer",
+    "year": 2023,
+    "director": "Christopher Nolan",
+    "score": 4
+  },
+  {
+    "title": "Together",
+    "year": 2025,
+    "director": "Michael Shanks",
+    "score": 4
+  },
+  {
+    "title": "Companion",
+    "year": 2025,
+    "director": "Drew Hancock",
+    "score": 4
+  },
+  {
+    "title": "The Drama",
+    "year": 2025,
+    "director": "Kristoffer Borgli",
+    "score": 4
+  },
+  {
+    "title": "Everything Everywhere All at Once",
+    "year": 2022,
+    "director": "Daniels",
+    "score": 3.5
+  },
+  {
+    "title": "The Devil All the Time",
+    "year": 2020,
+    "director": "Antonio Campos",
+    "score": 3.5
+  },
+  {
+    "title": "The Batman",
+    "year": 2022,
+    "director": "Matt Reeves",
+    "score": 2.5,
+    "note": "Lowest score on record. Craft without an idea underneath."
+  },
+  {
+    "title": "Dunkirk",
+    "year": 2017,
+    "director": "Christopher Nolan",
+    "score": null,
+    "note": "\"Love Nolan, well done.\""
+  },
+  {
+    "title": "Enemy",
+    "year": 2013,
+    "director": "Denis Villeneuve",
+    "score": null,
+    "note": "\"Good.\" Predicted as a top hit on the doubling thesis; landed mild."
+  },
+  {
+    "title": "The Killing of a Sacred Deer",
+    "year": 2017,
+    "director": "Yorgos Lanthimos",
+    "score": null,
+    "note": "\"Not my fav but it was ok.\" Lanthimos in cruel mode does less for you."
+  },
+  {
+    "title": "Beau Is Afraid",
+    "year": 2023,
+    "director": "Ari Aster",
+    "score": null,
+    "note": "\"A spectacle but once was enough.\" No rewatch pull."
+  },
+  {
+    "title": "Eddington",
+    "year": 2025,
+    "director": "Ari Aster",
+    "score": null,
+    "note": "Completes Aster."
+  }
 ]

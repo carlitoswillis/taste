@@ -121,17 +121,20 @@ h2.sect .n{color:var(--tung)}
 }
 .card:hover{border-color:var(--tung-dim)}
 
-.qcard{display:grid;grid-template-columns:44px 1fr auto;gap:4px 14px;align-items:start}
+.qcard{display:grid;grid-template-columns:40px 44px 1fr auto;gap:4px 14px;align-items:start}
 .qcard .rank{
   font-family:var(--display);font-weight:700;font-size:26px;color:var(--tung);
   line-height:1;padding-top:2px;
 }
+.qcard.sugg .rank{color:var(--tung-dim)}
+.poster{width:44px;object-fit:cover;border-radius:3px;background:var(--raise);display:block}
+span.poster.empty-p{border:1px solid var(--line)}
 .qcard .title{font-size:17px;font-weight:600}
-.qcard .meta{grid-column:2;color:var(--dim);font:500 12px var(--mono);margin-top:1px}
-.qcard .why{grid-column:2;font-size:14.5px;color:var(--ink);opacity:.9;margin-top:6px;max-width:64ch}
-.qcard .avail{grid-column:2;font:500 12px var(--mono);color:var(--dim);margin-top:7px}
+.qcard .meta{color:var(--dim);font:500 12px var(--mono);margin-top:1px}
+.qcard .why{font-size:14.5px;color:var(--ink);opacity:.9;margin-top:6px;max-width:64ch}
+.qcard .avail{font:500 12px var(--mono);color:var(--dim);margin-top:7px}
 .qcard .avail b{color:var(--tung);font-weight:700}
-.qcard .side{grid-row:1 / span 4;grid-column:3;display:flex;flex-direction:column;gap:8px;align-items:flex-end}
+.qcard .side{display:flex;flex-direction:column;gap:8px;align-items:flex-end}
 
 .frow{
   display:grid;grid-template-columns:1fr auto;gap:2px 16px;
@@ -141,6 +144,7 @@ h2.sect .n{color:var(--tung)}
 .frow .t .yr{font:500 12px var(--mono);color:var(--dim);margin-left:8px}
 .frow .d{color:var(--dim);font-size:13px}
 .frow .note{grid-column:1 / -1;color:var(--dim);font-size:13.5px;max-width:70ch}
+.frow .facts{grid-column:1 / -1;font:500 12px var(--mono);color:var(--dim);margin-top:2px}
 
 .controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:14px}
 .controls select{
@@ -230,9 +234,10 @@ dialog .actions{display:flex;justify-content:flex-end;gap:8px;margin-top:6px}
 }
 
 @media (max-width:640px){
-  .qcard{grid-template-columns:34px 1fr}
+  .qcard{grid-template-columns:30px 1fr}
   .qcard .rank{font-size:20px}
-  .qcard .side{grid-row:auto;grid-column:2;flex-direction:row;align-items:center;margin-top:8px}
+  .poster{display:none}
+  .qcard .side{grid-column:2;flex-direction:row;align-items:center;margin-top:8px}
   .stats{display:none}
 }
 @media (prefers-reduced-motion:no-preference){

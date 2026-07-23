@@ -3,14 +3,54 @@
     "tmdbId": 11423,
     "imdbId": "tt0353969",
     "director": [
-      "Bong Joon Ho"
+      {
+        "id": 21684,
+        "name": "Bong Joon Ho"
+      }
+    ],
+    "writers": [
+      {
+        "id": 21684,
+        "name": "Bong Joon Ho"
+      },
+      {
+        "id": 69384,
+        "name": "Shim Sung-bo"
+      }
     ],
     "cast": [
-      "Song Kang-ho",
-      "Kim Sang-kyung",
-      "Kim Roi-ha",
-      "Song Jae-ho",
-      "Byun Hee-bong"
+      {
+        "id": 20738,
+        "name": "Song Kang-ho"
+      },
+      {
+        "id": 69378,
+        "name": "Kim Sang-kyung"
+      },
+      {
+        "id": 69379,
+        "name": "Kim Roi-ha"
+      },
+      {
+        "id": 1080904,
+        "name": "Song Jae-ho"
+      },
+      {
+        "id": 116180,
+        "name": "Byun Hee-bong"
+      },
+      {
+        "id": 1299348,
+        "name": "Go Seo-hee"
+      },
+      {
+        "id": 1136064,
+        "name": "Ryu Tae-ho"
+      },
+      {
+        "id": 1075838,
+        "name": "Park No-shik"
+      }
     ],
     "runtime": 131,
     "genres": [
@@ -18,6 +58,7 @@
       "Drama",
       "Thriller"
     ],
+    "tmdbRating": 8.1,
     "poster": "https://image.tmdb.org/t/p/w342/jcgUjx1QcupGzjntTVlnQ15lHqy.jpg",
     "providers": {
       "flatrate": [],
@@ -46,20 +87,61 @@
     "tmdbId": 9540,
     "imdbId": "tt0094964",
     "director": [
-      "David Cronenberg"
+      {
+        "id": 224,
+        "name": "David Cronenberg"
+      }
+    ],
+    "writers": [
+      {
+        "id": 57884,
+        "name": "Norman Snider"
+      },
+      {
+        "id": 224,
+        "name": "David Cronenberg"
+      }
     ],
     "cast": [
-      "Jeremy Irons",
-      "Geneviève Bujold",
-      "Heidi von Palleske",
-      "Barbara Gordon",
-      "Shirley Douglas"
+      {
+        "id": 16940,
+        "name": "Jeremy Irons"
+      },
+      {
+        "id": 35341,
+        "name": "Geneviève Bujold"
+      },
+      {
+        "id": 57881,
+        "name": "Heidi von Palleske"
+      },
+      {
+        "id": 5942,
+        "name": "Barbara Gordon"
+      },
+      {
+        "id": 12452,
+        "name": "Shirley Douglas"
+      },
+      {
+        "id": 57880,
+        "name": "Stephen Lack"
+      },
+      {
+        "id": 147522,
+        "name": "Nick Nichols"
+      },
+      {
+        "id": 123305,
+        "name": "Lynne Cormack"
+      }
     ],
     "runtime": 115,
     "genres": [
       "Thriller",
       "Horror"
     ],
+    "tmdbRating": 7.115,
     "poster": "https://image.tmdb.org/t/p/w342/ofXwDfM8uYAaftD7cBPcIWdCpMn.jpg",
     "providers": {
       "flatrate": [
@@ -89,14 +171,54 @@
     "tmdbId": 290098,
     "imdbId": "tt4016934",
     "director": [
-      "Park Chan-wook"
+      {
+        "id": 10099,
+        "name": "Park Chan-wook"
+      }
+    ],
+    "writers": [
+      {
+        "id": 10099,
+        "name": "Park Chan-wook"
+      },
+      {
+        "id": 37928,
+        "name": "Chung Seo-kyung"
+      }
     ],
     "cast": [
-      "Kim Min-hee",
-      "Kim Tae-ri",
-      "Ha Jung-woo",
-      "Cho Jin-woong",
-      "Kim Hae-sook"
+      {
+        "id": 123664,
+        "name": "Kim Min-hee"
+      },
+      {
+        "id": 1537768,
+        "name": "Kim Tae-ri"
+      },
+      {
+        "id": 75913,
+        "name": "Ha Jung-woo"
+      },
+      {
+        "id": 138336,
+        "name": "Cho Jin-woong"
+      },
+      {
+        "id": 93252,
+        "name": "Kim Hae-sook"
+      },
+      {
+        "id": 83122,
+        "name": "Moon So-ri"
+      },
+      {
+        "id": 557743,
+        "name": "Lee Yong-nyeo"
+      },
+      {
+        "id": 3553480,
+        "name": "Kwak Eun-jin"
+      }
     ],
     "runtime": 145,
     "genres": [
@@ -104,6 +226,7 @@
       "Drama",
       "Romance"
     ],
+    "tmdbRating": 8.183,
     "poster": "https://image.tmdb.org/t/p/w342/dLlH4aNHdnmf62umnInL8xPlPzw.jpg",
     "providers": {
       "flatrate": [
@@ -126,14 +249,50 @@
     "tmdbId": 968,
     "imdbId": "tt0072890",
     "director": [
-      "Sidney Lumet"
+      {
+        "id": 39996,
+        "name": "Sidney Lumet"
+      }
+    ],
+    "writers": [
+      {
+        "id": 13861,
+        "name": "Frank Pierson"
+      }
     ],
     "cast": [
-      "Al Pacino",
-      "John Cazale",
-      "Charles Durning",
-      "Chris Sarandon",
-      "James Broderick"
+      {
+        "id": 1158,
+        "name": "Al Pacino"
+      },
+      {
+        "id": 3096,
+        "name": "John Cazale"
+      },
+      {
+        "id": 1466,
+        "name": "Charles Durning"
+      },
+      {
+        "id": 14541,
+        "name": "Chris Sarandon"
+      },
+      {
+        "id": 14542,
+        "name": "James Broderick"
+      },
+      {
+        "id": 14544,
+        "name": "Penelope Allen"
+      },
+      {
+        "id": 14545,
+        "name": "Sully Boyar"
+      },
+      {
+        "id": 14546,
+        "name": "Beulah Garrick"
+      }
     ],
     "runtime": 125,
     "genres": [
@@ -141,6 +300,7 @@
       "Drama",
       "Thriller"
     ],
+    "tmdbRating": 7.848,
     "poster": "https://image.tmdb.org/t/p/w342/mavrhr0ig2aCRR8d48yaxtD5aMQ.jpg",
     "providers": {
       "flatrate": [],
@@ -172,14 +332,50 @@
     "tmdbId": 146233,
     "imdbId": "tt1392214",
     "director": [
-      "Denis Villeneuve"
+      {
+        "id": 137427,
+        "name": "Denis Villeneuve"
+      }
+    ],
+    "writers": [
+      {
+        "id": 935990,
+        "name": "Aaron Guzikowski"
+      }
     ],
     "cast": [
-      "Hugh Jackman",
-      "Jake Gyllenhaal",
-      "Viola Davis",
-      "Maria Bello",
-      "Terrence Howard"
+      {
+        "id": 6968,
+        "name": "Hugh Jackman"
+      },
+      {
+        "id": 131,
+        "name": "Jake Gyllenhaal"
+      },
+      {
+        "id": 19492,
+        "name": "Viola Davis"
+      },
+      {
+        "id": 49,
+        "name": "Maria Bello"
+      },
+      {
+        "id": 18288,
+        "name": "Terrence Howard"
+      },
+      {
+        "id": 6832,
+        "name": "Melissa Leo"
+      },
+      {
+        "id": 17142,
+        "name": "Paul Dano"
+      },
+      {
+        "id": 112476,
+        "name": "Dylan Minnette"
+      }
     ],
     "runtime": 153,
     "genres": [
@@ -187,6 +383,7 @@
       "Thriller",
       "Crime"
     ],
+    "tmdbRating": 8.106,
     "poster": "https://image.tmdb.org/t/p/w342/uhviyknTT5cEQXbn6vWIqfM4vGm.jpg",
     "providers": {
       "flatrate": [],
@@ -217,14 +414,50 @@
     "tmdbId": 807,
     "imdbId": "tt0114369",
     "director": [
-      "David Fincher"
+      {
+        "id": 7467,
+        "name": "David Fincher"
+      }
+    ],
+    "writers": [
+      {
+        "id": 12047,
+        "name": "Andrew Kevin Walker"
+      }
     ],
     "cast": [
-      "Morgan Freeman",
-      "Brad Pitt",
-      "Gwyneth Paltrow",
-      "John Cassini",
-      "Peter Crombie"
+      {
+        "id": 192,
+        "name": "Morgan Freeman"
+      },
+      {
+        "id": 287,
+        "name": "Brad Pitt"
+      },
+      {
+        "id": 12052,
+        "name": "Gwyneth Paltrow"
+      },
+      {
+        "id": 12055,
+        "name": "John Cassini"
+      },
+      {
+        "id": 30487,
+        "name": "Peter Crombie"
+      },
+      {
+        "id": 38951,
+        "name": "Reg E. Cathey"
+      },
+      {
+        "id": 8655,
+        "name": "R. Lee Ermey"
+      },
+      {
+        "id": 12054,
+        "name": "Daniel Zacapa"
+      }
     ],
     "runtime": 127,
     "genres": [
@@ -232,6 +465,7 @@
       "Mystery",
       "Thriller"
     ],
+    "tmdbRating": 8.381,
     "poster": "https://image.tmdb.org/t/p/w342/191nKfP0ehp3uIvWqgPbFmI4lv9.jpg",
     "providers": {
       "flatrate": [
@@ -265,20 +499,57 @@
     "tmdbId": 788734,
     "imdbId": "tt18816518",
     "director": [
-      "Kristoffer Borgli"
+      {
+        "id": 1280021,
+        "name": "Kristoffer Borgli"
+      }
+    ],
+    "writers": [
+      {
+        "id": 1280021,
+        "name": "Kristoffer Borgli"
+      }
     ],
     "cast": [
-      "Kristine Kujath Thorp",
-      "Eirik Sæther",
-      "Fanny Vaager",
-      "Fredrik Stenberg Ditlev-Simonsen",
-      "Sarah Francesca Brænne"
+      {
+        "id": 2079854,
+        "name": "Kristine Kujath Thorp"
+      },
+      {
+        "id": 3507183,
+        "name": "Eirik Sæther"
+      },
+      {
+        "id": 3507185,
+        "name": "Fanny Vaager"
+      },
+      {
+        "id": 1107287,
+        "name": "Fredrik Stenberg Ditlev-Simonsen"
+      },
+      {
+        "id": 2571053,
+        "name": "Sarah Francesca Brænne"
+      },
+      {
+        "id": 1887978,
+        "name": "Steinar Klouman Hallert"
+      },
+      {
+        "id": 225839,
+        "name": "Ingrid Vollan"
+      },
+      {
+        "id": 592574,
+        "name": "Andrea Bræin Hovig"
+      }
     ],
     "runtime": 97,
     "genres": [
       "Comedy",
       "Horror"
     ],
+    "tmdbRating": 7.153,
     "poster": "https://image.tmdb.org/t/p/w342/ynePU5z7JFn2Gf82RmfZgV84H8X.jpg",
     "providers": {
       "flatrate": [
@@ -308,14 +579,50 @@
     "tmdbId": 949,
     "imdbId": "tt0113277",
     "director": [
-      "Michael Mann"
+      {
+        "id": 638,
+        "name": "Michael Mann"
+      }
+    ],
+    "writers": [
+      {
+        "id": 638,
+        "name": "Michael Mann"
+      }
     ],
     "cast": [
-      "Al Pacino",
-      "Robert De Niro",
-      "Val Kilmer",
-      "Jon Voight",
-      "Tom Sizemore"
+      {
+        "id": 1158,
+        "name": "Al Pacino"
+      },
+      {
+        "id": 380,
+        "name": "Robert De Niro"
+      },
+      {
+        "id": 5576,
+        "name": "Val Kilmer"
+      },
+      {
+        "id": 10127,
+        "name": "Jon Voight"
+      },
+      {
+        "id": 3197,
+        "name": "Tom Sizemore"
+      },
+      {
+        "id": 6200,
+        "name": "Diane Venora"
+      },
+      {
+        "id": 15851,
+        "name": "Amy Brenneman"
+      },
+      {
+        "id": 15852,
+        "name": "Ashley Judd"
+      }
     ],
     "runtime": 170,
     "genres": [
@@ -323,6 +630,7 @@
       "Drama",
       "Action"
     ],
+    "tmdbRating": 7.9,
     "poster": "https://image.tmdb.org/t/p/w342/e09dLw1Ljtccd2P4NsuUvVtS5du.jpg",
     "providers": {
       "flatrate": [],
@@ -353,14 +661,54 @@
     "tmdbId": 931,
     "imdbId": "tt0069995",
     "director": [
-      "Nicolas Roeg"
+      {
+        "id": 14132,
+        "name": "Nicolas Roeg"
+      }
+    ],
+    "writers": [
+      {
+        "id": 14134,
+        "name": "Chris Bryant"
+      },
+      {
+        "id": 589662,
+        "name": "Allan Scott"
+      }
     ],
     "cast": [
-      "Donald Sutherland",
-      "Julie Christie",
-      "Hilary Mason",
-      "Massimo Serato",
-      "Clelia Matania"
+      {
+        "id": 55636,
+        "name": "Donald Sutherland"
+      },
+      {
+        "id": 1666,
+        "name": "Julie Christie"
+      },
+      {
+        "id": 14146,
+        "name": "Hilary Mason"
+      },
+      {
+        "id": 14148,
+        "name": "Massimo Serato"
+      },
+      {
+        "id": 14147,
+        "name": "Clelia Matania"
+      },
+      {
+        "id": 14149,
+        "name": "Renato Scarpa"
+      },
+      {
+        "id": 14150,
+        "name": "Giorgio Trestini"
+      },
+      {
+        "id": 14151,
+        "name": "Leopoldo Trieste"
+      }
     ],
     "runtime": 110,
     "genres": [
@@ -368,6 +716,7 @@
       "Drama",
       "Horror"
     ],
+    "tmdbRating": 6.9,
     "poster": "https://image.tmdb.org/t/p/w342/ivWsU3QtcstImCTOjItsH0SAbNn.jpg",
     "providers": {
       "flatrate": [
@@ -405,19 +754,56 @@
     "tmdbId": 7345,
     "imdbId": "tt0469494",
     "director": [
-      "Paul Thomas Anderson"
+      {
+        "id": 4762,
+        "name": "Paul Thomas Anderson"
+      }
+    ],
+    "writers": [
+      {
+        "id": 4762,
+        "name": "Paul Thomas Anderson"
+      }
     ],
     "cast": [
-      "Daniel Day-Lewis",
-      "Paul Dano",
-      "Kevin J. O'Connor",
-      "Ciarán Hinds",
-      "Dillon Freasier"
+      {
+        "id": 11856,
+        "name": "Daniel Day-Lewis"
+      },
+      {
+        "id": 17142,
+        "name": "Paul Dano"
+      },
+      {
+        "id": 18916,
+        "name": "Kevin J. O'Connor"
+      },
+      {
+        "id": 8785,
+        "name": "Ciarán Hinds"
+      },
+      {
+        "id": 52564,
+        "name": "Dillon Freasier"
+      },
+      {
+        "id": 52565,
+        "name": "Hope Elizabeth Reeves"
+      },
+      {
+        "id": 52566,
+        "name": "Colleen Foy"
+      },
+      {
+        "id": 8214,
+        "name": "Barry Del Sherman"
+      }
     ],
     "runtime": 158,
     "genres": [
       "Drama"
     ],
+    "tmdbRating": 8.068,
     "poster": "https://image.tmdb.org/t/p/w342/fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
     "providers": {
       "flatrate": [
@@ -458,14 +844,50 @@
     "tmdbId": 11297,
     "imdbId": "tt0354668",
     "director": [
-      "Jang Joon-hwan"
+      {
+        "id": 68905,
+        "name": "Jang Joon-hwan"
+      }
+    ],
+    "writers": [
+      {
+        "id": 68905,
+        "name": "Jang Joon-hwan"
+      }
     ],
     "cast": [
-      "Shin Ha-kyun",
-      "Baek Yoon-sik",
-      "Hwang Jeong-min",
-      "Lee Jae-yong",
-      "Lee Joo-hyun"
+      {
+        "id": 25004,
+        "name": "Shin Ha-kyun"
+      },
+      {
+        "id": 229752,
+        "name": "Baek Yoon-sik"
+      },
+      {
+        "id": 1891352,
+        "name": "Hwang Jeong-min"
+      },
+      {
+        "id": 68904,
+        "name": "Lee Jae-yong"
+      },
+      {
+        "id": 1238855,
+        "name": "Lee Joo-hyun"
+      },
+      {
+        "id": 64454,
+        "name": "Ki Joo-bong"
+      },
+      {
+        "id": 2471960,
+        "name": "Kim Dong-hyun"
+      },
+      {
+        "id": 1656480,
+        "name": "Kim Kwang-shik"
+      }
     ],
     "runtime": 117,
     "genres": [
@@ -473,6 +895,7 @@
       "Science Fiction",
       "Crime"
     ],
+    "tmdbRating": 7.002,
     "poster": "https://image.tmdb.org/t/p/w342/kou9TDjveVwBhWnxCRUT88RUVCs.jpg",
     "providers": {
       "flatrate": [
@@ -493,13 +916,34 @@
     "tmdbId": 291270,
     "imdbId": "tt2401878",
     "director": [
-      "Duke Johnson",
-      "Charlie Kaufman"
+      {
+        "id": 1019303,
+        "name": "Duke Johnson"
+      },
+      {
+        "id": 202,
+        "name": "Charlie Kaufman"
+      }
+    ],
+    "writers": [
+      {
+        "id": 202,
+        "name": "Charlie Kaufman"
+      }
     ],
     "cast": [
-      "David Thewlis",
-      "Jennifer Jason Leigh",
-      "Tom Noonan"
+      {
+        "id": 11207,
+        "name": "David Thewlis"
+      },
+      {
+        "id": 10431,
+        "name": "Jennifer Jason Leigh"
+      },
+      {
+        "id": 119232,
+        "name": "Tom Noonan"
+      }
     ],
     "runtime": 91,
     "genres": [
@@ -508,6 +952,7 @@
       "Romance",
       "Comedy"
     ],
+    "tmdbRating": 7.091,
     "poster": "https://image.tmdb.org/t/p/w342/4DJ1zNr4Y6q7zQ27goEYla46VdO.jpg",
     "providers": {
       "flatrate": [],
@@ -540,20 +985,57 @@
     "tmdbId": 293670,
     "imdbId": "tt5215952",
     "director": [
-      "Na Hong-jin"
+      {
+        "id": 75915,
+        "name": "Na Hong-jin"
+      }
+    ],
+    "writers": [
+      {
+        "id": 75915,
+        "name": "Na Hong-jin"
+      }
     ],
     "cast": [
-      "Kwak Do-won",
-      "Hwang Jung-min",
-      "Chun Woo-hee",
-      "Jun Kunimura",
-      "Kim Hwan-hee"
+      {
+        "id": 1155298,
+        "name": "Kwak Do-won"
+      },
+      {
+        "id": 68903,
+        "name": "Hwang Jung-min"
+      },
+      {
+        "id": 1263930,
+        "name": "Chun Woo-hee"
+      },
+      {
+        "id": 2541,
+        "name": "Jun Kunimura"
+      },
+      {
+        "id": 1681260,
+        "name": "Kim Hwan-hee"
+      },
+      {
+        "id": 1112238,
+        "name": "Heo Jin"
+      },
+      {
+        "id": 463583,
+        "name": "Jang So-yeon"
+      },
+      {
+        "id": 1793046,
+        "name": "Kim Do-yoon"
+      }
     ],
     "runtime": 156,
     "genres": [
       "Horror",
       "Mystery"
     ],
+    "tmdbRating": 7.371,
     "poster": "https://image.tmdb.org/t/p/w342/RbymxgEM5SpDfO2Io2JMFG10Vi.jpg",
     "providers": {
       "flatrate": [
@@ -591,14 +1073,50 @@
     "tmdbId": 445,
     "imdbId": "tt0387898",
     "director": [
-      "Michael Haneke"
+      {
+        "id": 6011,
+        "name": "Michael Haneke"
+      }
+    ],
+    "writers": [
+      {
+        "id": 6011,
+        "name": "Michael Haneke"
+      }
     ],
     "cast": [
-      "Daniel Auteuil",
-      "Juliette Binoche",
-      "Annie Girardot",
-      "Bernard Le Coq",
-      "Daniel Duval"
+      {
+        "id": 6012,
+        "name": "Daniel Auteuil"
+      },
+      {
+        "id": 1137,
+        "name": "Juliette Binoche"
+      },
+      {
+        "id": 6014,
+        "name": "Annie Girardot"
+      },
+      {
+        "id": 6015,
+        "name": "Bernard Le Coq"
+      },
+      {
+        "id": 6018,
+        "name": "Daniel Duval"
+      },
+      {
+        "id": 2417,
+        "name": "Maurice Bénichou"
+      },
+      {
+        "id": 6016,
+        "name": "Walid Afkir"
+      },
+      {
+        "id": 6017,
+        "name": "Lester Makedonsky"
+      }
     ],
     "runtime": 118,
     "genres": [
@@ -606,6 +1124,7 @@
       "Drama",
       "Thriller"
     ],
+    "tmdbRating": 7.024,
     "poster": "https://image.tmdb.org/t/p/w342/vTzjRi0Uhy0tt3Rjw8SARZZJHlX.jpg",
     "providers": {
       "flatrate": [
@@ -639,20 +1158,61 @@
     "tmdbId": 8740,
     "imdbId": "tt0096163",
     "director": [
-      "George Sluizer"
+      {
+        "id": 18335,
+        "name": "George Sluizer"
+      }
+    ],
+    "writers": [
+      {
+        "id": 55859,
+        "name": "Tim Krabbé"
+      },
+      {
+        "id": 18335,
+        "name": "George Sluizer"
+      }
     ],
     "cast": [
-      "Bernard-Pierre Donnadieu",
-      "Gene Bervoets",
-      "Johanna ter Steege",
-      "Gwen Eckhaus",
-      "Pierre Forget"
+      {
+        "id": 38500,
+        "name": "Bernard-Pierre Donnadieu"
+      },
+      {
+        "id": 1913732,
+        "name": "Gene Bervoets"
+      },
+      {
+        "id": 55851,
+        "name": "Johanna ter Steege"
+      },
+      {
+        "id": 55852,
+        "name": "Gwen Eckhaus"
+      },
+      {
+        "id": 51948,
+        "name": "Pierre Forget"
+      },
+      {
+        "id": 55853,
+        "name": "Bernadette Le Saché"
+      },
+      {
+        "id": 55854,
+        "name": "Tania Latarjet"
+      },
+      {
+        "id": 55855,
+        "name": "Lucille Glenn"
+      }
     ],
     "runtime": 106,
     "genres": [
       "Thriller",
       "Mystery"
     ],
+    "tmdbRating": 7.4,
     "poster": "https://image.tmdb.org/t/p/w342/eE5bbuRJluooG2MjEAsLEYyuJoa.jpg",
     "providers": {
       "flatrate": [
@@ -679,21 +1239,65 @@
     "tmdbId": 86829,
     "imdbId": "tt2042568",
     "director": [
-      "Ethan Coen",
-      "Joel Coen"
+      {
+        "id": 1224,
+        "name": "Ethan Coen"
+      },
+      {
+        "id": 1223,
+        "name": "Joel Coen"
+      }
+    ],
+    "writers": [
+      {
+        "id": 1223,
+        "name": "Joel Coen"
+      },
+      {
+        "id": 1224,
+        "name": "Ethan Coen"
+      }
     ],
     "cast": [
-      "Oscar Isaac",
-      "Carey Mulligan",
-      "Justin Timberlake",
-      "Ethan Phillips",
-      "Robin Bartlett"
+      {
+        "id": 25072,
+        "name": "Oscar Isaac"
+      },
+      {
+        "id": 36662,
+        "name": "Carey Mulligan"
+      },
+      {
+        "id": 12111,
+        "name": "Justin Timberlake"
+      },
+      {
+        "id": 29445,
+        "name": "Ethan Phillips"
+      },
+      {
+        "id": 11902,
+        "name": "Robin Bartlett"
+      },
+      {
+        "id": 7133,
+        "name": "Max Casella"
+      },
+      {
+        "id": 60796,
+        "name": "Jerry Grayson"
+      },
+      {
+        "id": 979432,
+        "name": "Jeanine Serralles"
+      }
     ],
     "runtime": 105,
     "genres": [
       "Drama",
       "Music"
     ],
+    "tmdbRating": 7.184,
     "poster": "https://image.tmdb.org/t/p/w342/nNxK3pC3DMpPpWKMvo2p3liREVT.jpg",
     "providers": {
       "flatrate": [],
@@ -723,14 +1327,54 @@
     "tmdbId": 705996,
     "imdbId": "tt12477480",
     "director": [
-      "Park Chan-wook"
+      {
+        "id": 10099,
+        "name": "Park Chan-wook"
+      }
+    ],
+    "writers": [
+      {
+        "id": 10099,
+        "name": "Park Chan-wook"
+      },
+      {
+        "id": 37928,
+        "name": "Chung Seo-kyung"
+      }
     ],
     "cast": [
-      "Tang Wei",
-      "Park Hae-il",
-      "Lee Jung-hyun",
-      "Go Kyung-pyo",
-      "Park Yong-woo"
+      {
+        "id": 38280,
+        "name": "Tang Wei"
+      },
+      {
+        "id": 21687,
+        "name": "Park Hae-il"
+      },
+      {
+        "id": 1244822,
+        "name": "Lee Jung-hyun"
+      },
+      {
+        "id": 1257601,
+        "name": "Go Kyung-pyo"
+      },
+      {
+        "id": 17124,
+        "name": "Park Yong-woo"
+      },
+      {
+        "id": 1376567,
+        "name": "Kim Shin-young"
+      },
+      {
+        "id": 1128004,
+        "name": "Yoo Seung-mok"
+      },
+      {
+        "id": 2326809,
+        "name": "Jung Yi-seo"
+      }
     ],
     "runtime": 139,
     "genres": [
@@ -738,6 +1382,7 @@
       "Mystery",
       "Romance"
     ],
+    "tmdbRating": 7.319,
     "poster": "https://image.tmdb.org/t/p/w342/zI8KZ4EdLUymWKX1YEkpZ0gtPUa.jpg",
     "providers": {
       "flatrate": [
@@ -767,20 +1412,57 @@
     "tmdbId": 381283,
     "imdbId": "tt5109784",
     "director": [
-      "Darren Aronofsky"
+      {
+        "id": 6431,
+        "name": "Darren Aronofsky"
+      }
+    ],
+    "writers": [
+      {
+        "id": 6431,
+        "name": "Darren Aronofsky"
+      }
     ],
     "cast": [
-      "Jennifer Lawrence",
-      "Javier Bardem",
-      "Ed Harris",
-      "Michelle Pfeiffer",
-      "Brian Gleeson"
+      {
+        "id": 72129,
+        "name": "Jennifer Lawrence"
+      },
+      {
+        "id": 3810,
+        "name": "Javier Bardem"
+      },
+      {
+        "id": 228,
+        "name": "Ed Harris"
+      },
+      {
+        "id": 1160,
+        "name": "Michelle Pfeiffer"
+      },
+      {
+        "id": 63364,
+        "name": "Brian Gleeson"
+      },
+      {
+        "id": 93210,
+        "name": "Domhnall Gleeson"
+      },
+      {
+        "id": 1607522,
+        "name": "Jovan Adepo"
+      },
+      {
+        "id": 1858808,
+        "name": "Amanda Chiu"
+      }
     ],
     "runtime": 121,
     "genres": [
       "Horror",
       "Drama"
     ],
+    "tmdbRating": 6.957,
     "poster": "https://image.tmdb.org/t/p/w342/fjny9chXPx69ln1LMJxbwi5yHMt.jpg",
     "providers": {
       "flatrate": [
@@ -819,20 +1501,57 @@
     "tmdbId": 18333,
     "imdbId": "tt0063759",
     "director": [
-      "Ingmar Bergman"
+      {
+        "id": 6648,
+        "name": "Ingmar Bergman"
+      }
+    ],
+    "writers": [
+      {
+        "id": 6648,
+        "name": "Ingmar Bergman"
+      }
     ],
     "cast": [
-      "Max von Sydow",
-      "Liv Ullmann",
-      "Gertrud Fridh",
-      "Georg Rydeberg",
-      "Erland Josephson"
+      {
+        "id": 2201,
+        "name": "Max von Sydow"
+      },
+      {
+        "id": 11916,
+        "name": "Liv Ullmann"
+      },
+      {
+        "id": 246347,
+        "name": "Gertrud Fridh"
+      },
+      {
+        "id": 48571,
+        "name": "Georg Rydeberg"
+      },
+      {
+        "id": 38127,
+        "name": "Erland Josephson"
+      },
+      {
+        "id": 550134,
+        "name": "Naima Wifstrand"
+      },
+      {
+        "id": 131579,
+        "name": "Ulf Johansson"
+      },
+      {
+        "id": 58305,
+        "name": "Gudrun Brost"
+      }
     ],
     "runtime": 88,
     "genres": [
       "Drama",
       "Horror"
     ],
+    "tmdbRating": 7.429,
     "poster": "https://image.tmdb.org/t/p/w342/jSqTnEP1x1OcOglqrInYvGSF1tL.jpg",
     "providers": {
       "flatrate": [
@@ -859,20 +1578,57 @@
     "tmdbId": 490,
     "imdbId": "tt0050976",
     "director": [
-      "Ingmar Bergman"
+      {
+        "id": 6648,
+        "name": "Ingmar Bergman"
+      }
+    ],
+    "writers": [
+      {
+        "id": 6648,
+        "name": "Ingmar Bergman"
+      }
     ],
     "cast": [
-      "Gunnar Björnstrand",
-      "Bengt Ekerot",
-      "Nils Poppe",
-      "Max von Sydow",
-      "Bibi Andersson"
+      {
+        "id": 6649,
+        "name": "Gunnar Björnstrand"
+      },
+      {
+        "id": 6656,
+        "name": "Bengt Ekerot"
+      },
+      {
+        "id": 6658,
+        "name": "Nils Poppe"
+      },
+      {
+        "id": 2201,
+        "name": "Max von Sydow"
+      },
+      {
+        "id": 6657,
+        "name": "Bibi Andersson"
+      },
+      {
+        "id": 6659,
+        "name": "Inga Gill"
+      },
+      {
+        "id": 6660,
+        "name": "Maud Hansson"
+      },
+      {
+        "id": 6661,
+        "name": "Inga Landgré"
+      }
     ],
     "runtime": 96,
     "genres": [
       "Fantasy",
       "Drama"
     ],
+    "tmdbRating": 8.144,
     "poster": "https://image.tmdb.org/t/p/w342/wcZ21zrOsy0b52AfAF50XpTiv75.jpg",
     "providers": {
       "flatrate": [
@@ -908,19 +1664,48 @@
     "tmdbId": 797,
     "imdbId": "tt0060827",
     "director": [
-      "Ingmar Bergman"
+      {
+        "id": 6648,
+        "name": "Ingmar Bergman"
+      }
+    ],
+    "writers": [
+      {
+        "id": 6648,
+        "name": "Ingmar Bergman"
+      },
+      {
+        "id": 6648,
+        "name": "Ingmar Bergman"
+      }
     ],
     "cast": [
-      "Bibi Andersson",
-      "Liv Ullmann",
-      "Margaretha Krook",
-      "Gunnar Björnstrand",
-      "Jörgen Lindström"
+      {
+        "id": 6657,
+        "name": "Bibi Andersson"
+      },
+      {
+        "id": 11916,
+        "name": "Liv Ullmann"
+      },
+      {
+        "id": 11917,
+        "name": "Margaretha Krook"
+      },
+      {
+        "id": 6649,
+        "name": "Gunnar Björnstrand"
+      },
+      {
+        "id": 11918,
+        "name": "Jörgen Lindström"
+      }
     ],
     "runtime": 85,
     "genres": [
       "Drama"
     ],
+    "tmdbRating": 8.122,
     "poster": "https://image.tmdb.org/t/p/w342/fVA5hTcAOlW2LJyelViQfWHxUcx.jpg",
     "providers": {
       "flatrate": [
@@ -950,42 +1735,54 @@
       "imdb": 8
     }
   },
-  "The Odyssey (2025)": {
-    "tmdbId": 1559261,
-    "imdbId": null,
-    "director": [],
-    "cast": [
-      "Jakob Stegelmann",
-      "Sinne Eeg",
-      "Isabel Schwartzbach",
-      "Kristoffer Appel",
-      "David Bateson"
-    ],
-    "runtime": 82,
-    "genres": [
-      "Music"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/qIF0DwqG3HFjZ7SYDpYNhcruhqS.jpg",
-    "providers": {
-      "flatrate": [],
-      "rent": [],
-      "buy": []
-    },
-    "providersLink": null,
-    "region": "US"
-  },
   "Anora (2024)": {
     "tmdbId": 1064213,
     "imdbId": "tt28607951",
     "director": [
-      "Sean Baker"
+      {
+        "id": 118415,
+        "name": "Sean Baker"
+      }
+    ],
+    "writers": [
+      {
+        "id": 118415,
+        "name": "Sean Baker"
+      }
     ],
     "cast": [
-      "Mikey Madison",
-      "Mark Eydelshteyn",
-      "Yura Borisov",
-      "Karren Karagulian",
-      "Vache Tovmasyan"
+      {
+        "id": 1640439,
+        "name": "Mikey Madison"
+      },
+      {
+        "id": 3051936,
+        "name": "Mark Eydelshteyn"
+      },
+      {
+        "id": 1266686,
+        "name": "Yura Borisov"
+      },
+      {
+        "id": 966306,
+        "name": "Karren Karagulian"
+      },
+      {
+        "id": 4338956,
+        "name": "Vache Tovmasyan"
+      },
+      {
+        "id": 4670423,
+        "name": "Luna Sofía Miranda"
+      },
+      {
+        "id": 2353434,
+        "name": "Lindsey Normington"
+      },
+      {
+        "id": 1163599,
+        "name": "Darya Ekamasova"
+      }
     ],
     "runtime": 139,
     "genres": [
@@ -993,6 +1790,7 @@
       "Comedy",
       "Romance"
     ],
+    "tmdbRating": 7.074,
     "poster": "https://image.tmdb.org/t/p/w342/cgXk2tNYhJZLXdBDO5DidAVzQ82.jpg",
     "providers": {
       "flatrate": [
@@ -1025,14 +1823,54 @@
     "tmdbId": 1124,
     "imdbId": "tt0482571",
     "director": [
-      "Christopher Nolan"
+      {
+        "id": 525,
+        "name": "Christopher Nolan"
+      }
+    ],
+    "writers": [
+      {
+        "id": 525,
+        "name": "Christopher Nolan"
+      },
+      {
+        "id": 527,
+        "name": "Jonathan Nolan"
+      }
     ],
     "cast": [
-      "Hugh Jackman",
-      "Christian Bale",
-      "Michael Caine",
-      "Piper Perabo",
-      "Rebecca Hall"
+      {
+        "id": 6968,
+        "name": "Hugh Jackman"
+      },
+      {
+        "id": 3894,
+        "name": "Christian Bale"
+      },
+      {
+        "id": 3895,
+        "name": "Michael Caine"
+      },
+      {
+        "id": 15555,
+        "name": "Piper Perabo"
+      },
+      {
+        "id": 15556,
+        "name": "Rebecca Hall"
+      },
+      {
+        "id": 1245,
+        "name": "Scarlett Johansson"
+      },
+      {
+        "id": 1580598,
+        "name": "Samantha Mahurin"
+      },
+      {
+        "id": 7487,
+        "name": "David Bowie"
+      }
     ],
     "runtime": 130,
     "genres": [
@@ -1040,6 +1878,7 @@
       "Mystery",
       "Science Fiction"
     ],
+    "tmdbRating": 8.21,
     "poster": "https://image.tmdb.org/t/p/w342/Ag2B2KHKQPukjH7WutmgnnSNurZ.jpg",
     "providers": {
       "flatrate": [
@@ -1074,15 +1913,58 @@
     "tmdbId": 6977,
     "imdbId": "tt0477348",
     "director": [
-      "Joel Coen",
-      "Ethan Coen"
+      {
+        "id": 1223,
+        "name": "Joel Coen"
+      },
+      {
+        "id": 1224,
+        "name": "Ethan Coen"
+      }
+    ],
+    "writers": [
+      {
+        "id": 1224,
+        "name": "Ethan Coen"
+      },
+      {
+        "id": 1223,
+        "name": "Joel Coen"
+      }
     ],
     "cast": [
-      "Javier Bardem",
-      "Tommy Lee Jones",
-      "Josh Brolin",
-      "Woody Harrelson",
-      "Kelly Macdonald"
+      {
+        "id": 3810,
+        "name": "Javier Bardem"
+      },
+      {
+        "id": 2176,
+        "name": "Tommy Lee Jones"
+      },
+      {
+        "id": 16851,
+        "name": "Josh Brolin"
+      },
+      {
+        "id": 57755,
+        "name": "Woody Harrelson"
+      },
+      {
+        "id": 9015,
+        "name": "Kelly Macdonald"
+      },
+      {
+        "id": 39520,
+        "name": "Garret Dillahunt"
+      },
+      {
+        "id": 41249,
+        "name": "Tess Harper"
+      },
+      {
+        "id": 12852,
+        "name": "Barry Corbin"
+      }
     ],
     "runtime": 122,
     "genres": [
@@ -1090,6 +1972,7 @@
       "Thriller",
       "Western"
     ],
+    "tmdbRating": 7.949,
     "poster": "https://image.tmdb.org/t/p/w342/uB7RDZby43Wvu8SKGHHTwGyTDBX.jpg",
     "providers": {
       "flatrate": [
@@ -1127,14 +2010,50 @@
     "tmdbId": 492,
     "imdbId": "tt0120601",
     "director": [
-      "Spike Jonze"
+      {
+        "id": 5953,
+        "name": "Spike Jonze"
+      }
+    ],
+    "writers": [
+      {
+        "id": 202,
+        "name": "Charlie Kaufman"
+      }
     ],
     "cast": [
-      "John Cusack",
-      "Cameron Diaz",
-      "John Malkovich",
-      "Catherine Keener",
-      "Orson Bean"
+      {
+        "id": 3036,
+        "name": "John Cusack"
+      },
+      {
+        "id": 6941,
+        "name": "Cameron Diaz"
+      },
+      {
+        "id": 6949,
+        "name": "John Malkovich"
+      },
+      {
+        "id": 2229,
+        "name": "Catherine Keener"
+      },
+      {
+        "id": 863,
+        "name": "Orson Bean"
+      },
+      {
+        "id": 5960,
+        "name": "Mary Kay Place"
+      },
+      {
+        "id": 6951,
+        "name": "W. Earl Brown"
+      },
+      {
+        "id": 52930,
+        "name": "Carlos Jacott"
+      }
     ],
     "runtime": 113,
     "genres": [
@@ -1142,6 +2061,7 @@
       "Drama",
       "Fantasy"
     ],
+    "tmdbRating": 7.422,
     "poster": "https://image.tmdb.org/t/p/w342/31FGQu3OnwdmS4COquENe0vMZc0.jpg",
     "providers": {
       "flatrate": [],
@@ -1172,14 +2092,50 @@
     "tmdbId": 493922,
     "imdbId": "tt7784604",
     "director": [
-      "Ari Aster"
+      {
+        "id": 1145520,
+        "name": "Ari Aster"
+      }
+    ],
+    "writers": [
+      {
+        "id": 1145520,
+        "name": "Ari Aster"
+      }
     ],
     "cast": [
-      "Toni Collette",
-      "Alex Wolff",
-      "Gabriel Byrne",
-      "Milly Shapiro",
-      "Ann Dowd"
+      {
+        "id": 3051,
+        "name": "Toni Collette"
+      },
+      {
+        "id": 934281,
+        "name": "Alex Wolff"
+      },
+      {
+        "id": 5168,
+        "name": "Gabriel Byrne"
+      },
+      {
+        "id": 1945702,
+        "name": "Milly Shapiro"
+      },
+      {
+        "id": 43366,
+        "name": "Ann Dowd"
+      },
+      {
+        "id": 1969994,
+        "name": "Mallory Bechtel"
+      },
+      {
+        "id": 1969995,
+        "name": "Brock McKinney"
+      },
+      {
+        "id": 2064805,
+        "name": "Jake Brown"
+      }
     ],
     "runtime": 128,
     "genres": [
@@ -1187,6 +2143,7 @@
       "Mystery",
       "Thriller"
     ],
+    "tmdbRating": 7.294,
     "poster": "https://image.tmdb.org/t/p/w342/4GFPuL14eXi66V96xBWY73Y9PfR.jpg",
     "providers": {
       "flatrate": [
@@ -1220,14 +2177,58 @@
     "tmdbId": 496243,
     "imdbId": "tt6751668",
     "director": [
-      "Bong Joon Ho"
+      {
+        "id": 21684,
+        "name": "Bong Joon Ho"
+      }
+    ],
+    "writers": [
+      {
+        "id": 21684,
+        "name": "Bong Joon Ho"
+      },
+      {
+        "id": 2320121,
+        "name": "Han Jin-won"
+      },
+      {
+        "id": 21684,
+        "name": "Bong Joon Ho"
+      }
     ],
     "cast": [
-      "Song Kang-ho",
-      "Lee Sun-kyun",
-      "Cho Yeo-jeong",
-      "Choi Woo-shik",
-      "Park So-dam"
+      {
+        "id": 20738,
+        "name": "Song Kang-ho"
+      },
+      {
+        "id": 115290,
+        "name": "Lee Sun-kyun"
+      },
+      {
+        "id": 556435,
+        "name": "Cho Yeo-jeong"
+      },
+      {
+        "id": 1255881,
+        "name": "Choi Woo-shik"
+      },
+      {
+        "id": 1442583,
+        "name": "Park So-dam"
+      },
+      {
+        "id": 1572354,
+        "name": "Lee Jung-eun"
+      },
+      {
+        "id": 2158882,
+        "name": "Jang Hye-jin"
+      },
+      {
+        "id": 1694435,
+        "name": "Park Myung-hoon"
+      }
     ],
     "runtime": 133,
     "genres": [
@@ -1235,6 +2236,7 @@
       "Thriller",
       "Drama"
     ],
+    "tmdbRating": 8.491,
     "poster": "https://image.tmdb.org/t/p/w342/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
     "providers": {
       "flatrate": [],
@@ -1266,14 +2268,54 @@
     "tmdbId": 70981,
     "imdbId": "tt1446714",
     "director": [
-      "Ridley Scott"
+      {
+        "id": 578,
+        "name": "Ridley Scott"
+      }
+    ],
+    "writers": [
+      {
+        "id": 564940,
+        "name": "Jon Spaihts"
+      },
+      {
+        "id": 28974,
+        "name": "Damon Lindelof"
+      }
     ],
     "cast": [
-      "Noomi Rapace",
-      "Michael Fassbender",
-      "Charlize Theron",
-      "Idris Elba",
-      "Guy Pearce"
+      {
+        "id": 87722,
+        "name": "Noomi Rapace"
+      },
+      {
+        "id": 17288,
+        "name": "Michael Fassbender"
+      },
+      {
+        "id": 6885,
+        "name": "Charlize Theron"
+      },
+      {
+        "id": 17605,
+        "name": "Idris Elba"
+      },
+      {
+        "id": 529,
+        "name": "Guy Pearce"
+      },
+      {
+        "id": 130253,
+        "name": "Logan Marshall-Green"
+      },
+      {
+        "id": 16702,
+        "name": "Sean Harris"
+      },
+      {
+        "id": 28847,
+        "name": "Rafe Spall"
+      }
     ],
     "runtime": 124,
     "genres": [
@@ -1281,6 +2323,7 @@
       "Mystery",
       "Horror"
     ],
+    "tmdbRating": 6.601,
     "poster": "https://image.tmdb.org/t/p/w342/qsYQflQhOuhDpQ0W2aOcwqgDAeI.jpg",
     "providers": {
       "flatrate": [
@@ -1315,14 +2358,50 @@
     "tmdbId": 792307,
     "imdbId": "tt14230458",
     "director": [
-      "Yorgos Lanthimos"
+      {
+        "id": 122423,
+        "name": "Yorgos Lanthimos"
+      }
+    ],
+    "writers": [
+      {
+        "id": 77723,
+        "name": "Tony McNamara"
+      }
     ],
     "cast": [
-      "Emma Stone",
-      "Mark Ruffalo",
-      "Willem Dafoe",
-      "Ramy Youssef",
-      "Christopher Abbott"
+      {
+        "id": 54693,
+        "name": "Emma Stone"
+      },
+      {
+        "id": 103,
+        "name": "Mark Ruffalo"
+      },
+      {
+        "id": 5293,
+        "name": "Willem Dafoe"
+      },
+      {
+        "id": 1382987,
+        "name": "Ramy Youssef"
+      },
+      {
+        "id": 984629,
+        "name": "Christopher Abbott"
+      },
+      {
+        "id": 2331794,
+        "name": "Suzy Bemba"
+      },
+      {
+        "id": 1400880,
+        "name": "Jerrod Carmichael"
+      },
+      {
+        "id": 72309,
+        "name": "Kathryn Hunter"
+      }
     ],
     "runtime": 141,
     "genres": [
@@ -1330,6 +2409,7 @@
       "Romance",
       "Comedy"
     ],
+    "tmdbRating": 7.638,
     "poster": "https://image.tmdb.org/t/p/w342/kCGlIMHnOm8JPXq3rXM6c5wMxcT.jpg",
     "providers": {
       "flatrate": [
@@ -1364,14 +2444,50 @@
     "tmdbId": 701387,
     "imdbId": "tt12300742",
     "director": [
-      "Yorgos Lanthimos"
+      {
+        "id": 122423,
+        "name": "Yorgos Lanthimos"
+      }
+    ],
+    "writers": [
+      {
+        "id": 2373362,
+        "name": "Will Tracy"
+      }
     ],
     "cast": [
-      "Emma Stone",
-      "Jesse Plemons",
-      "Aidan Delbis",
-      "Stavros Halkias",
-      "Alicia Silverstone"
+      {
+        "id": 54693,
+        "name": "Emma Stone"
+      },
+      {
+        "id": 88124,
+        "name": "Jesse Plemons"
+      },
+      {
+        "id": 5212114,
+        "name": "Aidan Delbis"
+      },
+      {
+        "id": 1400595,
+        "name": "Stavros Halkias"
+      },
+      {
+        "id": 5588,
+        "name": "Alicia Silverstone"
+      },
+      {
+        "id": 5105206,
+        "name": "J. Carmen Galindez Barrera"
+      },
+      {
+        "id": 5105205,
+        "name": "Marc T. Lewis"
+      },
+      {
+        "id": 4986018,
+        "name": "Vanessa Eng"
+      }
     ],
     "runtime": 119,
     "genres": [
@@ -1379,6 +2495,7 @@
       "Thriller",
       "Comedy"
     ],
+    "tmdbRating": 7.307,
     "poster": "https://image.tmdb.org/t/p/w342/rSdOua3wKMEaFWDcKAYWRjXQWOt.jpg",
     "providers": {
       "flatrate": [
@@ -1413,20 +2530,57 @@
     "tmdbId": 1339713,
     "imdbId": "tt37287335",
     "director": [
-      "Curry Barker"
+      {
+        "id": 2381985,
+        "name": "Curry Barker"
+      }
+    ],
+    "writers": [
+      {
+        "id": 2381985,
+        "name": "Curry Barker"
+      }
     ],
     "cast": [
-      "Michael Johnston",
-      "Inde Navarrette",
-      "Cooper Tomlinson",
-      "Megan Lawless",
-      "Andy Richter"
+      {
+        "id": 1561370,
+        "name": "Michael Johnston"
+      },
+      {
+        "id": 2638587,
+        "name": "Inde Navarrette"
+      },
+      {
+        "id": 2823609,
+        "name": "Cooper Tomlinson"
+      },
+      {
+        "id": 1519711,
+        "name": "Megan Lawless"
+      },
+      {
+        "id": 28637,
+        "name": "Andy Richter"
+      },
+      {
+        "id": 3095494,
+        "name": "Haley Fitzgerald"
+      },
+      {
+        "id": 1352948,
+        "name": "Darin Toonder"
+      },
+      {
+        "id": 4030428,
+        "name": "Anthony Pavone"
+      }
     ],
     "runtime": 109,
     "genres": [
       "Horror",
       "Thriller"
     ],
+    "tmdbRating": 8.246,
     "poster": "https://image.tmdb.org/t/p/w342/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
     "providers": {
       "flatrate": [
@@ -1460,14 +2614,50 @@
     "tmdbId": 2757,
     "imdbId": "tt0268126",
     "director": [
-      "Spike Jonze"
+      {
+        "id": 5953,
+        "name": "Spike Jonze"
+      }
+    ],
+    "writers": [
+      {
+        "id": 202,
+        "name": "Charlie Kaufman"
+      }
     ],
     "cast": [
-      "Nicolas Cage",
-      "Meryl Streep",
-      "Chris Cooper",
-      "Tilda Swinton",
-      "Jay Tavare"
+      {
+        "id": 2963,
+        "name": "Nicolas Cage"
+      },
+      {
+        "id": 5064,
+        "name": "Meryl Streep"
+      },
+      {
+        "id": 2955,
+        "name": "Chris Cooper"
+      },
+      {
+        "id": 3063,
+        "name": "Tilda Swinton"
+      },
+      {
+        "id": 29861,
+        "name": "Jay Tavare"
+      },
+      {
+        "id": 69302,
+        "name": "Litefoot"
+      },
+      {
+        "id": 1635972,
+        "name": "Roger Willie"
+      },
+      {
+        "id": 29862,
+        "name": "Jim Beaver"
+      }
     ],
     "runtime": 115,
     "genres": [
@@ -1475,6 +2665,7 @@
       "Crime",
       "Drama"
     ],
+    "tmdbRating": 7.334,
     "poster": "https://image.tmdb.org/t/p/w342/ffEmHQAiD0m5dEQ6rlsuA9vlllW.jpg",
     "providers": {
       "flatrate": [],
@@ -1505,14 +2696,58 @@
     "tmdbId": 76341,
     "imdbId": "tt1392190",
     "director": [
-      "George Miller"
+      {
+        "id": 20629,
+        "name": "George Miller"
+      }
+    ],
+    "writers": [
+      {
+        "id": 1027146,
+        "name": "Nico Lathouris"
+      },
+      {
+        "id": 20629,
+        "name": "George Miller"
+      },
+      {
+        "id": 1468313,
+        "name": "Brendan McCarthy"
+      }
     ],
     "cast": [
-      "Tom Hardy",
-      "Charlize Theron",
-      "Nicholas Hoult",
-      "Hugh Keays-Byrne",
-      "Josh Helman"
+      {
+        "id": 2524,
+        "name": "Tom Hardy"
+      },
+      {
+        "id": 6885,
+        "name": "Charlize Theron"
+      },
+      {
+        "id": 3292,
+        "name": "Nicholas Hoult"
+      },
+      {
+        "id": 26060,
+        "name": "Hugh Keays-Byrne"
+      },
+      {
+        "id": 1056053,
+        "name": "Josh Helman"
+      },
+      {
+        "id": 24898,
+        "name": "Nathan Jones"
+      },
+      {
+        "id": 37153,
+        "name": "Zoë Kravitz"
+      },
+      {
+        "id": 236048,
+        "name": "Rosie Huntington-Whiteley"
+      }
     ],
     "runtime": 121,
     "genres": [
@@ -1520,6 +2755,7 @@
       "Adventure",
       "Science Fiction"
     ],
+    "tmdbRating": 7.635,
     "poster": "https://image.tmdb.org/t/p/w342/ulcAi4dKpAjHwYGS08vNyx9H6I9.jpg",
     "providers": {
       "flatrate": [],
@@ -1552,14 +2788,54 @@
     "tmdbId": 503919,
     "imdbId": "tt7984734",
     "director": [
-      "Robert Eggers"
+      {
+        "id": 138781,
+        "name": "Robert Eggers"
+      }
+    ],
+    "writers": [
+      {
+        "id": 2169945,
+        "name": "Max Eggers"
+      },
+      {
+        "id": 138781,
+        "name": "Robert Eggers"
+      }
     ],
     "cast": [
-      "Robert Pattinson",
-      "Willem Dafoe",
-      "Valeriia Karaman",
-      "Logan Hawkes",
-      "Kyla Nicolle"
+      {
+        "id": 11288,
+        "name": "Robert Pattinson"
+      },
+      {
+        "id": 5293,
+        "name": "Willem Dafoe"
+      },
+      {
+        "id": 2309944,
+        "name": "Valeriia Karaman"
+      },
+      {
+        "id": 2507696,
+        "name": "Logan Hawkes"
+      },
+      {
+        "id": 2507697,
+        "name": "Kyla Nicolle"
+      },
+      {
+        "id": 1520954,
+        "name": "Shaun Clarke"
+      },
+      {
+        "id": 1583204,
+        "name": "Pierre Richard"
+      },
+      {
+        "id": 2248893,
+        "name": "Preston Hudson"
+      }
     ],
     "runtime": 109,
     "genres": [
@@ -1567,6 +2843,7 @@
       "Fantasy",
       "Thriller"
     ],
+    "tmdbRating": 7.466,
     "poster": "https://image.tmdb.org/t/p/w342/yAKNmpcUweGH6WMCEWenwU9PsbE.jpg",
     "providers": {
       "flatrate": [
@@ -1601,14 +2878,50 @@
     "tmdbId": 530385,
     "imdbId": "tt8772262",
     "director": [
-      "Ari Aster"
+      {
+        "id": 1145520,
+        "name": "Ari Aster"
+      }
+    ],
+    "writers": [
+      {
+        "id": 1145520,
+        "name": "Ari Aster"
+      }
     ],
     "cast": [
-      "Florence Pugh",
-      "Jack Reynor",
-      "William Jackson Harper",
-      "Will Poulter",
-      "Vilhelm Blomgren"
+      {
+        "id": 1373737,
+        "name": "Florence Pugh"
+      },
+      {
+        "id": 1007683,
+        "name": "Jack Reynor"
+      },
+      {
+        "id": 1410478,
+        "name": "William Jackson Harper"
+      },
+      {
+        "id": 93491,
+        "name": "Will Poulter"
+      },
+      {
+        "id": 2096149,
+        "name": "Vilhelm Blomgren"
+      },
+      {
+        "id": 2209530,
+        "name": "Isabelle Grill"
+      },
+      {
+        "id": 239349,
+        "name": "Gunnel Fred"
+      },
+      {
+        "id": 1457454,
+        "name": "Ellora Torchia"
+      }
     ],
     "runtime": 147,
     "genres": [
@@ -1616,6 +2929,7 @@
       "Drama",
       "Mystery"
     ],
+    "tmdbRating": 7.148,
     "poster": "https://image.tmdb.org/t/p/w342/7LEI8ulZzO5gy9Ww2NVCrKmHeDZ.jpg",
     "providers": {
       "flatrate": [
@@ -1650,14 +2964,54 @@
     "tmdbId": 466272,
     "imdbId": "tt7131622",
     "director": [
-      "Quentin Tarantino"
+      {
+        "id": 138,
+        "name": "Quentin Tarantino"
+      }
+    ],
+    "writers": [
+      {
+        "id": 138,
+        "name": "Quentin Tarantino"
+      },
+      {
+        "id": 138,
+        "name": "Quentin Tarantino"
+      }
     ],
     "cast": [
-      "Leonardo DiCaprio",
-      "Brad Pitt",
-      "Margot Robbie",
-      "Emile Hirsch",
-      "Margaret Qualley"
+      {
+        "id": 6193,
+        "name": "Leonardo DiCaprio"
+      },
+      {
+        "id": 287,
+        "name": "Brad Pitt"
+      },
+      {
+        "id": 234352,
+        "name": "Margot Robbie"
+      },
+      {
+        "id": 46593,
+        "name": "Emile Hirsch"
+      },
+      {
+        "id": 1392137,
+        "name": "Margaret Qualley"
+      },
+      {
+        "id": 18082,
+        "name": "Timothy Olyphant"
+      },
+      {
+        "id": 1651362,
+        "name": "Julia Butters"
+      },
+      {
+        "id": 86654,
+        "name": "Austin Butler"
+      }
     ],
     "runtime": 162,
     "genres": [
@@ -1665,6 +3019,7 @@
       "Drama",
       "Thriller"
     ],
+    "tmdbRating": 7.422,
     "poster": "https://image.tmdb.org/t/p/w342/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg",
     "providers": {
       "flatrate": [
@@ -1700,20 +3055,57 @@
     "tmdbId": 424121,
     "imdbId": "tt6217306",
     "director": [
-      "Gareth Evans"
+      {
+        "id": 142013,
+        "name": "Gareth Evans"
+      }
+    ],
+    "writers": [
+      {
+        "id": 142013,
+        "name": "Gareth Evans"
+      }
     ],
     "cast": [
-      "Dan Stevens",
-      "Michael Sheen",
-      "Lucy Boynton",
-      "Mark Lewis Jones",
-      "Bill Milner"
+      {
+        "id": 221018,
+        "name": "Dan Stevens"
+      },
+      {
+        "id": 3968,
+        "name": "Michael Sheen"
+      },
+      {
+        "id": 86232,
+        "name": "Lucy Boynton"
+      },
+      {
+        "id": 185460,
+        "name": "Mark Lewis Jones"
+      },
+      {
+        "id": 81260,
+        "name": "Bill Milner"
+      },
+      {
+        "id": 1633001,
+        "name": "Kristine Froseth"
+      },
+      {
+        "id": 71084,
+        "name": "Paul Higgins"
+      },
+      {
+        "id": 51,
+        "name": "Richard Elfyn"
+      }
     ],
     "runtime": 129,
     "genres": [
       "Horror",
       "Mystery"
     ],
+    "tmdbRating": 6.135,
     "poster": "https://image.tmdb.org/t/p/w342/rd269f2Yftxxam3EOJPYVwrvjIJ.jpg",
     "providers": {
       "flatrate": [
@@ -1735,14 +3127,50 @@
     "tmdbId": 575776,
     "imdbId": "tt7557108",
     "director": [
-      "Rose Glass"
+      {
+        "id": 2219327,
+        "name": "Rose Glass"
+      }
+    ],
+    "writers": [
+      {
+        "id": 2219327,
+        "name": "Rose Glass"
+      }
     ],
     "cast": [
-      "Morfydd Clark",
-      "Jennifer Ehle",
-      "Lily Frazer",
-      "Lily Knight",
-      "Rosie Sansom"
+      {
+        "id": 1321628,
+        "name": "Morfydd Clark"
+      },
+      {
+        "id": 49971,
+        "name": "Jennifer Ehle"
+      },
+      {
+        "id": 1803015,
+        "name": "Lily Frazer"
+      },
+      {
+        "id": 2548051,
+        "name": "Lily Knight"
+      },
+      {
+        "id": 2547913,
+        "name": "Rosie Sansom"
+      },
+      {
+        "id": 1914302,
+        "name": "Caoilfhionn Dunne"
+      },
+      {
+        "id": 1230752,
+        "name": "Marcus Hutton"
+      },
+      {
+        "id": 1514120,
+        "name": "Carl Prekopp"
+      }
     ],
     "runtime": 85,
     "genres": [
@@ -1750,6 +3178,7 @@
       "Mystery",
       "Thriller"
     ],
+    "tmdbRating": 6.549,
     "poster": "https://image.tmdb.org/t/p/w342/ArNYeeDFLVye7JpqLElYdbE6fOa.jpg",
     "providers": {
       "flatrate": [
@@ -1790,14 +3219,62 @@
     "tmdbId": 447332,
     "imdbId": "tt6644200",
     "director": [
-      "John Krasinski"
+      {
+        "id": 17697,
+        "name": "John Krasinski"
+      }
+    ],
+    "writers": [
+      {
+        "id": 1317686,
+        "name": "Bryan Woods"
+      },
+      {
+        "id": 1317685,
+        "name": "Scott Beck"
+      },
+      {
+        "id": 17697,
+        "name": "John Krasinski"
+      },
+      {
+        "id": 1317686,
+        "name": "Bryan Woods"
+      },
+      {
+        "id": 1317685,
+        "name": "Scott Beck"
+      }
     ],
     "cast": [
-      "Emily Blunt",
-      "John Krasinski",
-      "Millicent Simmonds",
-      "Noah Jupe",
-      "Cade Woodward"
+      {
+        "id": 5081,
+        "name": "Emily Blunt"
+      },
+      {
+        "id": 17697,
+        "name": "John Krasinski"
+      },
+      {
+        "id": 1815539,
+        "name": "Millicent Simmonds"
+      },
+      {
+        "id": 1590759,
+        "name": "Noah Jupe"
+      },
+      {
+        "id": 1924769,
+        "name": "Cade Woodward"
+      },
+      {
+        "id": 169920,
+        "name": "Leon Russom"
+      },
+      {
+        "id": 1496368,
+        "name": "Rhoda Pell"
+      }
     ],
     "runtime": 91,
     "genres": [
@@ -1805,6 +3282,7 @@
       "Drama",
       "Science Fiction"
     ],
+    "tmdbRating": 7.395,
     "poster": "https://image.tmdb.org/t/p/w342/nAU74GmpUk7t5iklEp3bufwDq4n.jpg",
     "providers": {
       "flatrate": [
@@ -1845,19 +3323,72 @@
     "tmdbId": 578908,
     "imdbId": "tt9684220",
     "director": [
-      "Kitao Sakurai"
+      {
+        "id": 922344,
+        "name": "Kitao Sakurai"
+      }
+    ],
+    "writers": [
+      {
+        "id": 1260845,
+        "name": "Andrew Barchilon"
+      },
+      {
+        "id": 1710729,
+        "name": "Dan Curry"
+      },
+      {
+        "id": 922344,
+        "name": "Kitao Sakurai"
+      },
+      {
+        "id": 934159,
+        "name": "Eric André"
+      },
+      {
+        "id": 922344,
+        "name": "Kitao Sakurai"
+      }
     ],
     "cast": [
-      "Eric André",
-      "Lil Rel Howery",
-      "Tiffany Haddish",
-      "Michaela Conlin",
-      "Gerald Espinoza"
+      {
+        "id": 934159,
+        "name": "Eric André"
+      },
+      {
+        "id": 1488961,
+        "name": "Lil Rel Howery"
+      },
+      {
+        "id": 1230868,
+        "name": "Tiffany Haddish"
+      },
+      {
+        "id": 122237,
+        "name": "Michaela Conlin"
+      },
+      {
+        "id": 3913452,
+        "name": "Gerald Espinoza"
+      },
+      {
+        "id": 3913453,
+        "name": "Kaleila Johnson"
+      },
+      {
+        "id": 3913460,
+        "name": "Michael Starr"
+      },
+      {
+        "id": 1008085,
+        "name": "Yvette Tucker"
+      }
     ],
     "runtime": 87,
     "genres": [
       "Comedy"
     ],
+    "tmdbRating": 6.1,
     "poster": "https://image.tmdb.org/t/p/w342/A1Gy5HX3DKGaNW1Ay30NTIVJqJ6.jpg",
     "providers": {
       "flatrate": [
@@ -1879,14 +3410,54 @@
     "tmdbId": 639933,
     "imdbId": "tt11138512",
     "director": [
-      "Robert Eggers"
+      {
+        "id": 138781,
+        "name": "Robert Eggers"
+      }
+    ],
+    "writers": [
+      {
+        "id": 138781,
+        "name": "Robert Eggers"
+      },
+      {
+        "id": 106200,
+        "name": "Sjón"
+      }
     ],
     "cast": [
-      "Alexander Skarsgård",
-      "Nicole Kidman",
-      "Claes Bang",
-      "Ethan Hawke",
-      "Anya Taylor-Joy"
+      {
+        "id": 28846,
+        "name": "Alexander Skarsgård"
+      },
+      {
+        "id": 2227,
+        "name": "Nicole Kidman"
+      },
+      {
+        "id": 150802,
+        "name": "Claes Bang"
+      },
+      {
+        "id": 569,
+        "name": "Ethan Hawke"
+      },
+      {
+        "id": 1397778,
+        "name": "Anya Taylor-Joy"
+      },
+      {
+        "id": 1428295,
+        "name": "Gustav Lindh"
+      },
+      {
+        "id": 2748015,
+        "name": "Elliott Rose"
+      },
+      {
+        "id": 5293,
+        "name": "Willem Dafoe"
+      }
     ],
     "runtime": 137,
     "genres": [
@@ -1894,6 +3465,7 @@
       "Adventure",
       "Fantasy"
     ],
+    "tmdbRating": 7.025,
     "poster": "https://image.tmdb.org/t/p/w342/aSSJMnHknzKjlZ6zybwD7eyJ4Po.jpg",
     "providers": {
       "flatrate": [
@@ -1927,20 +3499,57 @@
     "tmdbId": 872585,
     "imdbId": "tt15398776",
     "director": [
-      "Christopher Nolan"
+      {
+        "id": 525,
+        "name": "Christopher Nolan"
+      }
+    ],
+    "writers": [
+      {
+        "id": 525,
+        "name": "Christopher Nolan"
+      }
     ],
     "cast": [
-      "Cillian Murphy",
-      "Emily Blunt",
-      "Matt Damon",
-      "Robert Downey Jr.",
-      "Florence Pugh"
+      {
+        "id": 2037,
+        "name": "Cillian Murphy"
+      },
+      {
+        "id": 5081,
+        "name": "Emily Blunt"
+      },
+      {
+        "id": 1892,
+        "name": "Matt Damon"
+      },
+      {
+        "id": 3223,
+        "name": "Robert Downey Jr."
+      },
+      {
+        "id": 1373737,
+        "name": "Florence Pugh"
+      },
+      {
+        "id": 2299,
+        "name": "Josh Hartnett"
+      },
+      {
+        "id": 1893,
+        "name": "Casey Affleck"
+      },
+      {
+        "id": 17838,
+        "name": "Rami Malek"
+      }
     ],
     "runtime": 181,
     "genres": [
       "Drama",
       "History"
     ],
+    "tmdbRating": 8.024,
     "poster": "https://image.tmdb.org/t/p/w342/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
     "providers": {
       "flatrate": [],
@@ -1972,20 +3581,57 @@
     "tmdbId": 1242011,
     "imdbId": "tt31184028",
     "director": [
-      "Michael Shanks"
+      {
+        "id": 1393127,
+        "name": "Michael Shanks"
+      }
+    ],
+    "writers": [
+      {
+        "id": 1393127,
+        "name": "Michael Shanks"
+      }
     ],
     "cast": [
-      "Dave Franco",
-      "Alison Brie",
-      "Damon Herriman",
-      "Mia Morrissey",
-      "Karl Richmond"
+      {
+        "id": 54697,
+        "name": "Dave Franco"
+      },
+      {
+        "id": 88029,
+        "name": "Alison Brie"
+      },
+      {
+        "id": 62752,
+        "name": "Damon Herriman"
+      },
+      {
+        "id": 1871887,
+        "name": "Mia Morrissey"
+      },
+      {
+        "id": 2746473,
+        "name": "Karl Richmond"
+      },
+      {
+        "id": 2926221,
+        "name": "Jack Kenny"
+      },
+      {
+        "id": 2300917,
+        "name": "Francesca Waters"
+      },
+      {
+        "id": 1094511,
+        "name": "Aljin Abella"
+      }
     ],
     "runtime": 102,
     "genres": [
       "Horror",
       "Romance"
     ],
+    "tmdbRating": 6.914,
     "poster": "https://image.tmdb.org/t/p/w342/80slKYVM5teFH3kz6ouWrZXveqj.jpg",
     "providers": {
       "flatrate": [
@@ -2015,14 +3661,50 @@
     "tmdbId": 1084199,
     "imdbId": "tt26584495",
     "director": [
-      "Drew Hancock"
+      {
+        "id": 1087245,
+        "name": "Drew Hancock"
+      }
+    ],
+    "writers": [
+      {
+        "id": 1087245,
+        "name": "Drew Hancock"
+      }
     ],
     "cast": [
-      "Sophie Thatcher",
-      "Jack Quaid",
-      "Lukas Gage",
-      "Megan Suri",
-      "Harvey Guillén"
+      {
+        "id": 1981044,
+        "name": "Sophie Thatcher"
+      },
+      {
+        "id": 1030513,
+        "name": "Jack Quaid"
+      },
+      {
+        "id": 1371509,
+        "name": "Lukas Gage"
+      },
+      {
+        "id": 2073513,
+        "name": "Megan Suri"
+      },
+      {
+        "id": 210172,
+        "name": "Harvey Guillén"
+      },
+      {
+        "id": 36669,
+        "name": "Rupert Friend"
+      },
+      {
+        "id": 1998733,
+        "name": "Jaboukie Young-White"
+      },
+      {
+        "id": 1152011,
+        "name": "Matthew J. McCarthy"
+      }
     ],
     "runtime": 97,
     "genres": [
@@ -2030,6 +3712,7 @@
       "Science Fiction",
       "Thriller"
     ],
+    "tmdbRating": 7.011,
     "poster": "https://image.tmdb.org/t/p/w342/oCoTgC3UyWGfyQ9thE10ulWR7bn.jpg",
     "providers": {
       "flatrate": [
@@ -2067,14 +3750,19 @@
     "tmdbId": 802477,
     "imdbId": "tt6148500",
     "director": [
-      "Reinhold Messner"
+      {
+        "id": 1081317,
+        "name": "Reinhold Messner"
+      }
     ],
+    "writers": [],
     "cast": [],
     "runtime": 89,
     "genres": [
       "Documentary",
       "Drama"
     ],
+    "tmdbRating": 0,
     "poster": "https://image.tmdb.org/t/p/w342/2dhz32iC0vuQLJZc77a0qdDVlAE.jpg",
     "providers": {
       "flatrate": [],
@@ -2093,15 +3781,58 @@
     "tmdbId": 545611,
     "imdbId": "tt6710474",
     "director": [
-      "Daniel Scheinert",
-      "Daniel Kwan"
+      {
+        "id": 1317730,
+        "name": "Daniel Scheinert"
+      },
+      {
+        "id": 1383612,
+        "name": "Daniel Kwan"
+      }
+    ],
+    "writers": [
+      {
+        "id": 1383612,
+        "name": "Daniel Kwan"
+      },
+      {
+        "id": 1317730,
+        "name": "Daniel Scheinert"
+      }
     ],
     "cast": [
-      "Michelle Yeoh",
-      "Stephanie Hsu",
-      "Ke Huy Quan",
-      "James Hong",
-      "Jamie Lee Curtis"
+      {
+        "id": 1620,
+        "name": "Michelle Yeoh"
+      },
+      {
+        "id": 1381186,
+        "name": "Stephanie Hsu"
+      },
+      {
+        "id": 690,
+        "name": "Ke Huy Quan"
+      },
+      {
+        "id": 20904,
+        "name": "James Hong"
+      },
+      {
+        "id": 8944,
+        "name": "Jamie Lee Curtis"
+      },
+      {
+        "id": 1071151,
+        "name": "Tallie Medel"
+      },
+      {
+        "id": 213001,
+        "name": "Jenny Slate"
+      },
+      {
+        "id": 232499,
+        "name": "Harry Shum Jr."
+      }
     ],
     "runtime": 140,
     "genres": [
@@ -2109,6 +3840,7 @@
       "Adventure",
       "Science Fiction"
     ],
+    "tmdbRating": 7.716,
     "poster": "https://image.tmdb.org/t/p/w342/u68AjlvlutfEIcpmbYpKcdi09ut.jpg",
     "providers": {
       "flatrate": [
@@ -2144,14 +3876,54 @@
     "tmdbId": 499932,
     "imdbId": "tt7395114",
     "director": [
-      "Antonio Campos"
+      {
+        "id": 56369,
+        "name": "Antonio Campos"
+      }
+    ],
+    "writers": [
+      {
+        "id": 56369,
+        "name": "Antonio Campos"
+      },
+      {
+        "id": 2123138,
+        "name": "Paulo Campos"
+      }
     ],
     "cast": [
-      "Tom Holland",
-      "Robert Pattinson",
-      "Bill Skarsgård",
-      "Riley Keough",
-      "Jason Clarke"
+      {
+        "id": 1136406,
+        "name": "Tom Holland"
+      },
+      {
+        "id": 11288,
+        "name": "Robert Pattinson"
+      },
+      {
+        "id": 137905,
+        "name": "Bill Skarsgård"
+      },
+      {
+        "id": 98522,
+        "name": "Riley Keough"
+      },
+      {
+        "id": 76512,
+        "name": "Jason Clarke"
+      },
+      {
+        "id": 60898,
+        "name": "Sebastian Stan"
+      },
+      {
+        "id": 58754,
+        "name": "Haley Bennett"
+      },
+      {
+        "id": 10982,
+        "name": "Harry Melling"
+      }
     ],
     "runtime": 138,
     "genres": [
@@ -2159,6 +3931,7 @@
       "Drama",
       "Thriller"
     ],
+    "tmdbRating": 7.178,
     "poster": "https://image.tmdb.org/t/p/w342/bVL7LGq528h3KzeNI90HOVbV5uW.jpg",
     "providers": {
       "flatrate": [
@@ -2180,14 +3953,54 @@
     "tmdbId": 414906,
     "imdbId": "tt1877830",
     "director": [
-      "Matt Reeves"
+      {
+        "id": 32278,
+        "name": "Matt Reeves"
+      }
+    ],
+    "writers": [
+      {
+        "id": 225633,
+        "name": "Peter Craig"
+      },
+      {
+        "id": 32278,
+        "name": "Matt Reeves"
+      }
     ],
     "cast": [
-      "Robert Pattinson",
-      "Zoë Kravitz",
-      "Jeffrey Wright",
-      "Colin Farrell",
-      "Paul Dano"
+      {
+        "id": 11288,
+        "name": "Robert Pattinson"
+      },
+      {
+        "id": 37153,
+        "name": "Zoë Kravitz"
+      },
+      {
+        "id": 2954,
+        "name": "Jeffrey Wright"
+      },
+      {
+        "id": 72466,
+        "name": "Colin Farrell"
+      },
+      {
+        "id": 17142,
+        "name": "Paul Dano"
+      },
+      {
+        "id": 1241,
+        "name": "John Turturro"
+      },
+      {
+        "id": 1333,
+        "name": "Andy Serkis"
+      },
+      {
+        "id": 133,
+        "name": "Peter Sarsgaard"
+      }
     ],
     "runtime": 177,
     "genres": [
@@ -2195,6 +4008,7 @@
       "Mystery",
       "Thriller"
     ],
+    "tmdbRating": 7.665,
     "poster": "https://image.tmdb.org/t/p/w342/74xTEgt7R36Fpooo50r9T25onhq.jpg",
     "providers": {
       "flatrate": [
@@ -2232,14 +4046,50 @@
     "tmdbId": 374720,
     "imdbId": "tt5013056",
     "director": [
-      "Christopher Nolan"
+      {
+        "id": 525,
+        "name": "Christopher Nolan"
+      }
+    ],
+    "writers": [
+      {
+        "id": 525,
+        "name": "Christopher Nolan"
+      }
     ],
     "cast": [
-      "Fionn Whitehead",
-      "Tom Hardy",
-      "Mark Rylance",
-      "Kenneth Branagh",
-      "Cillian Murphy"
+      {
+        "id": 1687041,
+        "name": "Fionn Whitehead"
+      },
+      {
+        "id": 2524,
+        "name": "Tom Hardy"
+      },
+      {
+        "id": 40900,
+        "name": "Mark Rylance"
+      },
+      {
+        "id": 11181,
+        "name": "Kenneth Branagh"
+      },
+      {
+        "id": 2037,
+        "name": "Cillian Murphy"
+      },
+      {
+        "id": 1290466,
+        "name": "Barry Keoghan"
+      },
+      {
+        "id": 1052109,
+        "name": "Harry Styles"
+      },
+      {
+        "id": 145143,
+        "name": "Aneurin Barnard"
+      }
     ],
     "runtime": 107,
     "genres": [
@@ -2247,6 +4097,7 @@
       "Action",
       "Drama"
     ],
+    "tmdbRating": 7.45,
     "poster": "https://image.tmdb.org/t/p/w342/b4Oe15CGLL61Ped0RAS9JpqdmCt.jpg",
     "providers": {
       "flatrate": [],
@@ -2279,20 +4130,57 @@
     "tmdbId": 181886,
     "imdbId": "tt2316411",
     "director": [
-      "Denis Villeneuve"
+      {
+        "id": 137427,
+        "name": "Denis Villeneuve"
+      }
+    ],
+    "writers": [
+      {
+        "id": 77125,
+        "name": "Javier Gullón"
+      }
     ],
     "cast": [
-      "Jake Gyllenhaal",
-      "Mélanie Laurent",
-      "Sarah Gadon",
-      "Isabella Rossellini",
-      "Joshua Peace"
+      {
+        "id": 131,
+        "name": "Jake Gyllenhaal"
+      },
+      {
+        "id": 19119,
+        "name": "Mélanie Laurent"
+      },
+      {
+        "id": 190895,
+        "name": "Sarah Gadon"
+      },
+      {
+        "id": 6588,
+        "name": "Isabella Rossellini"
+      },
+      {
+        "id": 5925,
+        "name": "Joshua Peace"
+      },
+      {
+        "id": 7009,
+        "name": "Tim Post"
+      },
+      {
+        "id": 1239237,
+        "name": "Kedar Brown"
+      },
+      {
+        "id": 1299079,
+        "name": "Darryl Dinn"
+      }
     ],
     "runtime": 91,
     "genres": [
       "Thriller",
       "Mystery"
     ],
+    "tmdbRating": 6.843,
     "poster": "https://image.tmdb.org/t/p/w342/vf40tyDRKZsBmaLsYeopzfFLzLx.jpg",
     "providers": {
       "flatrate": [
@@ -2330,14 +4218,54 @@
     "tmdbId": 399057,
     "imdbId": "tt5715874",
     "director": [
-      "Yorgos Lanthimos"
+      {
+        "id": 122423,
+        "name": "Yorgos Lanthimos"
+      }
+    ],
+    "writers": [
+      {
+        "id": 136427,
+        "name": "Efthimis Filippou"
+      },
+      {
+        "id": 122423,
+        "name": "Yorgos Lanthimos"
+      }
     ],
     "cast": [
-      "Colin Farrell",
-      "Nicole Kidman",
-      "Barry Keoghan",
-      "Raffey Cassidy",
-      "Sunny Suljic"
+      {
+        "id": 72466,
+        "name": "Colin Farrell"
+      },
+      {
+        "id": 2227,
+        "name": "Nicole Kidman"
+      },
+      {
+        "id": 1290466,
+        "name": "Barry Keoghan"
+      },
+      {
+        "id": 1055230,
+        "name": "Raffey Cassidy"
+      },
+      {
+        "id": 1444880,
+        "name": "Sunny Suljic"
+      },
+      {
+        "id": 121718,
+        "name": "Bill Camp"
+      },
+      {
+        "id": 5588,
+        "name": "Alicia Silverstone"
+      },
+      {
+        "id": 2084081,
+        "name": "Herb Caillouet"
+      }
     ],
     "runtime": 121,
     "genres": [
@@ -2345,6 +4273,7 @@
       "Thriller",
       "Mystery"
     ],
+    "tmdbRating": 7.005,
     "poster": "https://image.tmdb.org/t/p/w342/e4DGlsc9g0h5AyoyvvAuIRnofN7.jpg",
     "providers": {
       "flatrate": [
@@ -2381,14 +4310,50 @@
     "tmdbId": 798286,
     "imdbId": "tt13521006",
     "director": [
-      "Ari Aster"
+      {
+        "id": 1145520,
+        "name": "Ari Aster"
+      }
+    ],
+    "writers": [
+      {
+        "id": 1145520,
+        "name": "Ari Aster"
+      }
     ],
     "cast": [
-      "Joaquin Phoenix",
-      "Patti LuPone",
-      "Amy Ryan",
-      "Nathan Lane",
-      "Kylie Rogers"
+      {
+        "id": 73421,
+        "name": "Joaquin Phoenix"
+      },
+      {
+        "id": 5699,
+        "name": "Patti LuPone"
+      },
+      {
+        "id": 39388,
+        "name": "Amy Ryan"
+      },
+      {
+        "id": 78729,
+        "name": "Nathan Lane"
+      },
+      {
+        "id": 1164259,
+        "name": "Kylie Rogers"
+      },
+      {
+        "id": 81125,
+        "name": "Denis Ménochet"
+      },
+      {
+        "id": 7489,
+        "name": "Parker Posey"
+      },
+      {
+        "id": 82885,
+        "name": "Zoe Lister-Jones"
+      }
     ],
     "runtime": 179,
     "genres": [
@@ -2396,6 +4361,7 @@
       "Adventure",
       "Fantasy"
     ],
+    "tmdbRating": 6.72,
     "poster": "https://image.tmdb.org/t/p/w342/wgVkkjigF31r1nZV80uV0xNIoun.jpg",
     "providers": {
       "flatrate": [],
@@ -2428,14 +4394,50 @@
     "tmdbId": 648878,
     "imdbId": "tt31176520",
     "director": [
-      "Ari Aster"
+      {
+        "id": 1145520,
+        "name": "Ari Aster"
+      }
+    ],
+    "writers": [
+      {
+        "id": 1145520,
+        "name": "Ari Aster"
+      }
     ],
     "cast": [
-      "Joaquin Phoenix",
-      "Deirdre O'Connell",
-      "Emma Stone",
-      "Micheal Ward",
-      "Pedro Pascal"
+      {
+        "id": 73421,
+        "name": "Joaquin Phoenix"
+      },
+      {
+        "id": 77013,
+        "name": "Deirdre O'Connell"
+      },
+      {
+        "id": 54693,
+        "name": "Emma Stone"
+      },
+      {
+        "id": 2380397,
+        "name": "Micheal Ward"
+      },
+      {
+        "id": 1253360,
+        "name": "Pedro Pascal"
+      },
+      {
+        "id": 1918862,
+        "name": "Cameron Mann"
+      },
+      {
+        "id": 2973042,
+        "name": "Matt Gomez Hidaka"
+      },
+      {
+        "id": 56680,
+        "name": "Luke Grimes"
+      }
     ],
     "runtime": 148,
     "genres": [
@@ -2443,6 +4445,7 @@
       "Comedy",
       "Crime"
     ],
+    "tmdbRating": 6.452,
     "poster": "https://image.tmdb.org/t/p/w342/4GIqZUgPZ146BhibsPHMHef2nXX.jpg",
     "providers": {
       "flatrate": [
@@ -2477,14 +4480,54 @@
     "tmdbId": 947,
     "imdbId": "tt0056172",
     "director": [
-      "David Lean"
+      {
+        "id": 12238,
+        "name": "David Lean"
+      }
+    ],
+    "writers": [
+      {
+        "id": 13267,
+        "name": "Michael Wilson"
+      },
+      {
+        "id": 13317,
+        "name": "Robert Bolt"
+      }
     ],
     "cast": [
-      "Peter O'Toole",
-      "Alec Guinness",
-      "Omar Sharif",
-      "Anthony Quinn",
-      "Jack Hawkins"
+      {
+        "id": 11390,
+        "name": "Peter O'Toole"
+      },
+      {
+        "id": 12248,
+        "name": "Alec Guinness"
+      },
+      {
+        "id": 5004,
+        "name": "Omar Sharif"
+      },
+      {
+        "id": 5401,
+        "name": "Anthony Quinn"
+      },
+      {
+        "id": 10018,
+        "name": "Jack Hawkins"
+      },
+      {
+        "id": 12515,
+        "name": "José Ferrer"
+      },
+      {
+        "id": 14371,
+        "name": "Anthony Quayle"
+      },
+      {
+        "id": 4113,
+        "name": "Claude Rains"
+      }
     ],
     "runtime": 228,
     "genres": [
@@ -2492,6 +4535,7 @@
       "History",
       "War"
     ],
+    "tmdbRating": 7.999,
     "poster": "https://image.tmdb.org/t/p/w342/AiAm0EtDvyGqNpVoieRw4u65vD1.jpg",
     "providers": {
       "flatrate": [
@@ -2528,14 +4572,50 @@
     "tmdbId": 10843,
     "imdbId": "tt0088680",
     "director": [
-      "Martin Scorsese"
+      {
+        "id": 1032,
+        "name": "Martin Scorsese"
+      }
+    ],
+    "writers": [
+      {
+        "id": 51951,
+        "name": "Joseph Minion"
+      }
     ],
     "cast": [
-      "Griffin Dunne",
-      "Rosanna Arquette",
-      "Verna Bloom",
-      "Tommy Chong",
-      "Linda Fiorentino"
+      {
+        "id": 2171,
+        "name": "Griffin Dunne"
+      },
+      {
+        "id": 2165,
+        "name": "Rosanna Arquette"
+      },
+      {
+        "id": 55192,
+        "name": "Verna Bloom"
+      },
+      {
+        "id": 63208,
+        "name": "Tommy Chong"
+      },
+      {
+        "id": 9625,
+        "name": "Linda Fiorentino"
+      },
+      {
+        "id": 8437,
+        "name": "Teri Garr"
+      },
+      {
+        "id": 11512,
+        "name": "John Heard"
+      },
+      {
+        "id": 11159,
+        "name": "Cheech Marin"
+      }
     ],
     "runtime": 97,
     "genres": [
@@ -2543,6 +4623,7 @@
       "Thriller",
       "Drama"
     ],
+    "tmdbRating": 7.495,
     "poster": "https://image.tmdb.org/t/p/w342/eamOBurHBu0MIxohTIVcfxmZ6Z7.jpg",
     "providers": {
       "flatrate": [
@@ -2575,19 +4656,56 @@
     "tmdbId": 21484,
     "imdbId": "tt0082933",
     "director": [
-      "Andrzej Żuławski"
+      {
+        "id": 32082,
+        "name": "Andrzej Żuławski"
+      }
+    ],
+    "writers": [
+      {
+        "id": 32082,
+        "name": "Andrzej Żuławski"
+      }
     ],
     "cast": [
-      "Isabelle Adjani",
-      "Sam Neill",
-      "Margit Carstensen",
-      "Heinz Bennent",
-      "Johanna Hofer"
+      {
+        "id": 6553,
+        "name": "Isabelle Adjani"
+      },
+      {
+        "id": 4783,
+        "name": "Sam Neill"
+      },
+      {
+        "id": 20017,
+        "name": "Margit Carstensen"
+      },
+      {
+        "id": 10263,
+        "name": "Heinz Bennent"
+      },
+      {
+        "id": 94324,
+        "name": "Johanna Hofer"
+      },
+      {
+        "id": 2272,
+        "name": "Carl Duering"
+      },
+      {
+        "id": 987260,
+        "name": "Shaun Lawton"
+      },
+      {
+        "id": 1063549,
+        "name": "Michael Hogben"
+      }
     ],
     "runtime": 124,
     "genres": [
       "Horror"
     ],
+    "tmdbRating": 7.3,
     "poster": "https://image.tmdb.org/t/p/w342/A9bnRn05riOKWftvQlLKa2gl51n.jpg",
     "providers": {
       "flatrate": [
@@ -2629,20 +4747,61 @@
     "tmdbId": 28,
     "imdbId": "tt0078788",
     "director": [
-      "Francis Ford Coppola"
+      {
+        "id": 1776,
+        "name": "Francis Ford Coppola"
+      }
+    ],
+    "writers": [
+      {
+        "id": 8328,
+        "name": "John Milius"
+      },
+      {
+        "id": 1776,
+        "name": "Francis Ford Coppola"
+      }
     ],
     "cast": [
-      "Martin Sheen",
-      "Marlon Brando",
-      "Frederic Forrest",
-      "Albert Hall",
-      "Laurence Fishburne"
+      {
+        "id": 8349,
+        "name": "Martin Sheen"
+      },
+      {
+        "id": 3084,
+        "name": "Marlon Brando"
+      },
+      {
+        "id": 8351,
+        "name": "Frederic Forrest"
+      },
+      {
+        "id": 8354,
+        "name": "Albert Hall"
+      },
+      {
+        "id": 2975,
+        "name": "Laurence Fishburne"
+      },
+      {
+        "id": 8350,
+        "name": "Sam Bottoms"
+      },
+      {
+        "id": 3087,
+        "name": "Robert Duvall"
+      },
+      {
+        "id": 3173,
+        "name": "G.D. Spradlin"
+      }
     ],
     "runtime": 147,
     "genres": [
       "Drama",
       "War"
     ],
+    "tmdbRating": 8.266,
     "poster": "https://image.tmdb.org/t/p/w342/gQB8Y5RCMkv2zwzFHbUJX3kAhvA.jpg",
     "providers": {
       "flatrate": [],
@@ -2673,14 +4832,58 @@
     "tmdbId": 11645,
     "imdbId": "tt0089881",
     "director": [
-      "Akira Kurosawa"
+      {
+        "id": 5026,
+        "name": "Akira Kurosawa"
+      }
+    ],
+    "writers": [
+      {
+        "id": 5026,
+        "name": "Akira Kurosawa"
+      },
+      {
+        "id": 20827,
+        "name": "Hideo Oguni"
+      },
+      {
+        "id": 34372,
+        "name": "Masato Ide"
+      }
     ],
     "cast": [
-      "Tatsuya Nakadai",
-      "Akira Terao",
-      "Jinpachi Nezu",
-      "Daisuke Ryū",
-      "Mieko Harada"
+      {
+        "id": 70131,
+        "name": "Tatsuya Nakadai"
+      },
+      {
+        "id": 70132,
+        "name": "Akira Terao"
+      },
+      {
+        "id": 70133,
+        "name": "Jinpachi Nezu"
+      },
+      {
+        "id": 70134,
+        "name": "Daisuke Ryū"
+      },
+      {
+        "id": 72607,
+        "name": "Mieko Harada"
+      },
+      {
+        "id": 237362,
+        "name": "Yoshiko Miyazaki"
+      },
+      {
+        "id": 149405,
+        "name": "Mansai Nomura"
+      },
+      {
+        "id": 96637,
+        "name": "Hisashi Igawa"
+      }
     ],
     "runtime": 160,
     "genres": [
@@ -2688,6 +4891,7 @@
       "Drama",
       "History"
     ],
+    "tmdbRating": 8.009,
     "poster": "https://image.tmdb.org/t/p/w342/dGgiXMWDcS5aJTBEFu7bmaQPNox.jpg",
     "providers": {
       "flatrate": [
@@ -2708,20 +4912,65 @@
     "tmdbId": 1398,
     "imdbId": "tt0079944",
     "director": [
-      "Andrei Tarkovsky"
+      {
+        "id": 8452,
+        "name": "Andrei Tarkovsky"
+      }
+    ],
+    "writers": [
+      {
+        "id": 150634,
+        "name": "Arkadiy Strugatskiy"
+      },
+      {
+        "id": 8452,
+        "name": "Andrei Tarkovsky"
+      },
+      {
+        "id": 150635,
+        "name": "Boris Strugatskiy"
+      }
     ],
     "cast": [
-      "Alisa Freyndlikh",
-      "Aleksandr Kaydanovskiy",
-      "Anatoliy Solonitsyn",
-      "Mykola Hrynko",
-      "Natalya Abramova"
+      {
+        "id": 28079,
+        "name": "Alisa Freyndlikh"
+      },
+      {
+        "id": 28078,
+        "name": "Aleksandr Kaydanovskiy"
+      },
+      {
+        "id": 8475,
+        "name": "Anatoliy Solonitsyn"
+      },
+      {
+        "id": 1190992,
+        "name": "Mykola Hrynko"
+      },
+      {
+        "id": 28080,
+        "name": "Natalya Abramova"
+      },
+      {
+        "id": 1073948,
+        "name": "Faime Jurno"
+      },
+      {
+        "id": 1626954,
+        "name": "Evgeniy Kostin"
+      },
+      {
+        "id": 2037109,
+        "name": "Raimo Rendi"
+      }
     ],
     "runtime": 162,
     "genres": [
       "Science Fiction",
       "Drama"
     ],
+    "tmdbRating": 8.088,
     "poster": "https://image.tmdb.org/t/p/w342/1qhOyf5C4s9ZdvY8d5JDx9DFMeT.jpg",
     "providers": {
       "flatrate": [
@@ -2751,6 +5000,76 @@
       "rt": 100,
       "metacritic": 85,
       "imdb": 8
+    }
+  },
+  "The Odyssey (2026)": {
+    "tmdbId": 1368337,
+    "imdbId": "tt33764258",
+    "director": [
+      {
+        "id": 525,
+        "name": "Christopher Nolan"
+      }
+    ],
+    "writers": [
+      {
+        "id": 525,
+        "name": "Christopher Nolan"
+      }
+    ],
+    "cast": [
+      {
+        "id": 1892,
+        "name": "Matt Damon"
+      },
+      {
+        "id": 1136406,
+        "name": "Tom Holland"
+      },
+      {
+        "id": 1813,
+        "name": "Anne Hathaway"
+      },
+      {
+        "id": 11288,
+        "name": "Robert Pattinson"
+      },
+      {
+        "id": 1227717,
+        "name": "Himesh Patel"
+      },
+      {
+        "id": 5723,
+        "name": "John Leguizamo"
+      },
+      {
+        "id": 6885,
+        "name": "Charlize Theron"
+      },
+      {
+        "id": 1978406,
+        "name": "Travis Scott"
+      }
+    ],
+    "runtime": 173,
+    "genres": [
+      "Adventure",
+      "Action",
+      "Fantasy"
+    ],
+    "tmdbRating": 7.935,
+    "poster": "https://image.tmdb.org/t/p/w342/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [],
+      "buy": []
+    },
+    "providersLink": null,
+    "region": "US",
+    "scores": {
+      "rt": null,
+      "metacritic": 89,
+      "imdb": 8.3
     }
   }
 }

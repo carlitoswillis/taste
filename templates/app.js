@@ -27,7 +27,11 @@ async function loadAll() {
     files.map((f) => fetch(`data/${f}.json`).then((r) => (r.ok ? r.json() : null)))
   );
   files.forEach((f, i) => (state.data[f] = results[i]));
-  state.data.enrichment = await fetch("data/enrichment.json").then((r) => (r.ok ? r.json() : {})).catch(() => ({}));
+  const optional = async (f, fallback) =>
+    fetch(`data/${f}.json`).then((r) => (r.ok ? r.json() : fallback)).catch(() => fallback);
+  state.data.enrichment = await optional("enrichment", {});
+  state.data.suggestions = await optional("suggestions", null);
+  state.data.watched = await optional("watched", null);
   state.canWrite = await fetch("api/health").then((r) => r.ok).catch(() => false);
 }
 
@@ -43,7 +47,8 @@ async function api(path, body) {
 
 // ---------- shared bits ----------
 
-function stars(score) {
+function stars(score, watchedOnly) {
+  if (watchedOnly) return `<span class="stars none">watched</span>`;
   if (score == null) return `<span class="stars none">reaction only</span>`;
   const full = "★".repeat(Math.floor(score));
   const half = score % 1 ? `<span class="half">½</span>` : "";
@@ -52,22 +57,37 @@ function stars(score) {
 
 const confClass = (c) => ({ high: "high", medium: "medium", low: "low" }[c] ?? "test");
 
-function availability(film) {
-  const e = state.data.enrichment?.[`${film.title} (${film.year})`];
+const enrichFor = (film) => state.data.enrichment?.[`${film.title} (${film.year})`];
+
+function scoreBits(e) {
+  if (!e?.scores) return "";
+  const s = [];
+  if (e.scores.rt != null) s.push(`RT ${e.scores.rt}%`);
+  if (e.scores.metacritic != null) s.push(`MC ${e.scores.metacritic}`);
+  if (e.scores.imdb != null) s.push(`IMDb ${e.scores.imdb}`);
+  return s.join(" · ");
+}
+
+function streamBits(e) {
+  if (e?.providers?.flatrate?.length) return `stream: ${esc(e.providers.flatrate.slice(0, 3).join(", "))}`;
+  if (e?.providers?.rent?.length) return `rent: ${esc(e.providers.rent.slice(0, 3).join(", "))}`;
+  return "";
+}
+
+function availability(filmOrEntry, entry) {
+  const e = entry ?? enrichFor(filmOrEntry);
   if (!e) return "";
   const bits = [];
-  if (e.scores) {
-    const s = [];
-    if (e.scores.rt != null) s.push(`RT ${e.scores.rt}%`);
-    if (e.scores.metacritic != null) s.push(`MC ${e.scores.metacritic}`);
-    if (e.scores.imdb != null) s.push(`IMDb ${e.scores.imdb}`);
-    if (s.length) bits.push(`<b>${s.join(" · ")}</b>`);
-  }
-  if (e.providers?.flatrate?.length) bits.push(`stream: ${esc(e.providers.flatrate.slice(0, 3).join(", "))}`);
-  else if (e.providers?.rent?.length) bits.push(`rent: ${esc(e.providers.rent.slice(0, 3).join(", "))}`);
+  const s = scoreBits(e);
+  if (s) bits.push(`<b>${s}</b>`);
+  const st = streamBits(e);
+  if (st) bits.push(st);
   if (!bits.length) return "";
   return `<div class="avail">${bits.join(" &nbsp;·&nbsp; ")}</div>`;
 }
+
+const poster = (e, h = 66) =>
+  e?.poster ? `<img class="poster" src="${esc(e.poster)}" alt="" loading="lazy" style="height:${h}px">` : `<span class="poster empty-p" style="height:${h}px"></span>`;
 
 const matches = (q, ...fields) =>
   !q || fields.some((f) => String(f ?? "").toLowerCase().includes(q));
@@ -75,11 +95,11 @@ const matches = (q, ...fields) =>
 // ---------- header ----------
 
 function renderHeader() {
-  const { config, ratings, directors } = state.data;
+  const { config, ratings, directors, watched } = state.data;
   const scored = ratings.filter((f) => typeof f.score === "number");
   const complete = directors.filter((d) => !d.remaining.length && !d.openEnded);
   $("#stats").innerHTML = `
-    <div><b>${config.filmsSeen}</b> seen</div>
+    <div><b>${watched?.length ?? config.filmsSeen}</b> seen</div>
     <div><b>${scored.length}</b> rated</div>
     <div><b>${scored.filter((f) => f.score === 5).length}</b> perfect</div>
     <div><b>${complete.length}</b> runs closed</div>`;
@@ -99,22 +119,50 @@ function renderWatch() {
 
   const queueHtml = items.length
     ? items
-        .map(
-          (f) => `
+        .map((f) => {
+          const e = enrichFor(f);
+          const runtime = f.runtime ?? (e?.runtime ? `${Math.floor(e.runtime / 60)}h${String(e.runtime % 60).padStart(2, "0")}` : null);
+          return `
     <div class="card qcard" data-title="${esc(f.title)}" data-year="${f.year}">
       <div class="rank">${f.rank}</div>
-      <div class="title">${esc(f.title)}</div>
+      ${poster(e)}
+      <div class="body">
+        <div class="title">${esc(f.title)}</div>
+        <div class="meta">${f.year} · ${esc(f.director)}${runtime ? " · " + esc(runtime) : ""}${e?.genres?.length ? " · " + esc(e.genres.slice(0, 2).join(", ")) : ""}</div>
+        <div class="why">${md(f.why)}</div>
+        ${availability(f, e)}
+      </div>
       <div class="side">
         <span class="chip ${confClass(f.confidence)}">${esc(f.confidence)}</span>
         ${state.canWrite ? `<button class="btn small act-logged">Logged it</button><button class="btn small act-drop">Remove</button>` : ""}
       </div>
-      <div class="meta">${f.year} · ${esc(f.director)}${f.runtime ? " · " + esc(f.runtime) : ""}</div>
-      <div class="why">${md(f.why)}</div>
-      ${availability(f)}
+    </div>`;
+        })
+        .join("")
+    : `<div class="empty">${q ? "Nothing in the queue matches that search." : "Queue is empty — add the next thing worth arguing for."}</div>`;
+
+  const sugg = state.data.suggestions;
+  const suggItems = (sugg?.items ?? []).filter((s) => matches(q, s.title, s.director?.join(" "), s.why));
+  const suggHtml = sugg
+    ? suggItems
+        .map(
+          (s) => `
+    <div class="card qcard sugg" data-title="${esc(s.title)}" data-year="${s.year}" data-why="${esc(s.why)}">
+      <div class="rank">?</div>
+      ${poster(s)}
+      <div class="body">
+        <div class="title">${esc(s.title)}</div>
+        <div class="meta">${s.year} · ${esc(s.director?.join(", ") ?? "")}${s.runtime ? ` · ${Math.floor(s.runtime / 60)}h${String(s.runtime % 60).padStart(2, "0")}` : ""}${s.genres?.length ? " · " + esc(s.genres.slice(0, 2).join(", ")) : ""}</div>
+        <div class="why">Because ${esc(s.why)}</div>
+        ${availability(null, s)}
+      </div>
+      <div class="side">
+        ${state.canWrite ? `<button class="btn small act-queue-sugg">Queue it</button><button class="btn small act-logged">Seen it</button>` : ""}
+      </div>
     </div>`
         )
         .join("")
-    : `<div class="empty">${q ? "Nothing in the queue matches that search." : "Queue is empty — add the next thing worth arguing for."}</div>`;
+    : "";
 
   const trials = oldFilms.filter((f) => matches(q, f.title, f.note));
   const trialHtml = trials
@@ -137,15 +185,37 @@ function renderWatch() {
     )
     .join("");
 
+  const suggSection = sugg
+    ? `
+    <h2 class="sect">Suggested by the data <span class="n">· ${suggItems.length}</span></h2>
+    <p class="lede">Generated from the people behind your 4★+ films — directors, writers, actors, weighted by your scores — minus everything already logged. ${state.data.watched ? "" : "<strong>Your full watch history isn't imported yet</strong>, so some of these you'll have seen — run the Letterboxd CSV import to fix that (README has the two steps)."} Regenerate with <span style="font-family:var(--mono)">npm run suggest</span>.</p>
+    ${suggHtml || `<div class="empty">No suggestions match that search.</div>`}`
+    : "";
+
   $("#tab-watch").innerHTML = `
     <h2 class="sect">Up next <span class="n">· ${items.length}</span>${state.canWrite ? ` <button class="btn small" id="queue-open" style="margin-left:10px">+ Add</button>` : ""}</h2>
     <p class="lede">The ranked argument for what to watch, not a wishlist. Logging a film clears it from the queue.</p>
     ${queueHtml}
+    ${suggSection}
     <h2 class="sect">Old films — on trial <span class="n">· ${trials.filter((f) => !f.verdict).length} open</span></h2>
     <p class="lede">${md(state.data.profile.oldFilmsIntro)} Verdicts recorded here turn the age question into data.</p>
     ${trialHtml}`;
 
   $("#queue-open")?.addEventListener("click", () => $("#queue-dialog").showModal());
+
+  $$("#tab-watch .act-queue-sugg").forEach((b) =>
+    b.addEventListener("click", async () => {
+      const card = b.closest(".qcard");
+      await api("api/watchlist", {
+        title: card.dataset.title,
+        year: Number(card.dataset.year),
+        director: card.querySelector(".meta").textContent.split("·")[1]?.trim() || null,
+        confidence: "medium",
+        why: `Suggested: ${card.dataset.why}`,
+      });
+      await refresh();
+    })
+  );
 
   $$("#tab-watch .act-logged").forEach((b) =>
     b.addEventListener("click", () => {
@@ -178,10 +248,16 @@ function renderWatch() {
 // ---------- films ----------
 
 function renderFilms() {
-  const { ratings } = state.data;
+  const { ratings, watched } = state.data;
   const q = state.q;
 
-  let films = ratings.filter((f) => matches(q, f.title, f.director, f.note));
+  // full watch history (post Letterboxd import) joins the log as unscored rows
+  const known = new Set(ratings.map((r) => r.title.toLowerCase()));
+  const extras = (watched ?? [])
+    .filter((w) => !known.has(w.title.toLowerCase()))
+    .map((w) => ({ title: w.title, year: w.year, director: null, score: null, watchedOnly: true }));
+
+  let films = [...ratings, ...extras].filter((f) => matches(q, f.title, f.director, f.note));
   if (state.filmTier !== "all") {
     films = films.filter((f) =>
       state.filmTier === "unscored" ? f.score == null : f.score === Number(state.filmTier)
@@ -205,14 +281,22 @@ function renderFilms() {
 
   const rows = films.length
     ? films
-        .map(
-          (f) => `
+        .map((f) => {
+          const e = enrichFor(f);
+          const facts = [
+            e?.runtime ? `${Math.floor(e.runtime / 60)}h${String(e.runtime % 60).padStart(2, "0")}` : null,
+            e?.genres?.slice(0, 2).join(", ") || null,
+            scoreBits(e) || null,
+            streamBits(e) || null,
+          ].filter(Boolean);
+          return `
     <div class="frow">
-      <div class="t">${esc(f.title)}<span class="yr">${f.year}</span><div class="d">${esc(f.director ?? "—")}</div></div>
-      ${stars(f.score)}
+      <div class="t">${esc(f.title)}<span class="yr">${f.year}</span><div class="d">${esc(f.director ?? (e?.director?.map((d) => d.name).join(", ") || "—"))}</div></div>
+      ${stars(f.score, f.watchedOnly)}
+      ${facts.length ? `<div class="facts">${facts.join(" &nbsp;·&nbsp; ")}</div>` : ""}
       ${f.note ? `<div class="note">${md(f.note)}</div>` : ""}
-    </div>`
-        )
+    </div>`;
+        })
         .join("")
     : `<div class="empty">No films match. Log one — the profile only knows what you tell it.</div>`;
 

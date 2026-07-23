@@ -7,7 +7,9 @@
     "start": "node scripts/serve.mjs",
     "build": "node scripts/build.mjs",
     "sync": "node scripts/fetch-letterboxd.mjs",
-    "enrich": "node scripts/enrich-tmdb.mjs"
+    "enrich": "node scripts/enrich-tmdb.mjs",
+    "suggest": "node scripts/suggest.mjs",
+    "import": "node scripts/import-letterboxd.mjs"
   },
   "engines": {
     "node": ">=18"

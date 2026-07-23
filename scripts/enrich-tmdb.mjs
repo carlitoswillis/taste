@@ -42,21 +42,27 @@ async function tmdb(pathname, params = {}) {
   return res.json();
 }
 
-// Enrich everything we have titles for.
+// Enrich everything we have titles for (watched.json appears after a Letterboxd import).
 const films = [];
-for (const file of ["data/watchlist.json", "data/ratings.json", "data/old-films.json"]) {
-  films.push(...JSON.parse(await readFile(path.join(root, file), "utf8")));
+for (const file of ["data/watchlist.json", "data/ratings.json", "data/old-films.json", "data/watched.json"]) {
+  try {
+    films.push(...JSON.parse(await readFile(path.join(root, file), "utf8")));
+  } catch {}
 }
 
 const outPath = path.join(root, "data/enrichment.json");
 const existing = existsSync(outPath) ? JSON.parse(await readFile(outPath, "utf8")) : {};
 const out = { ...existing };
 
+const person = (c) => ({ id: c.id, name: c.name });
+const WRITER_JOBS = new Set(["Writer", "Screenplay", "Story"]);
+
 let hits = 0;
 for (const film of films) {
   if (!film.year) continue;
   const k = `${film.title} (${film.year})`;
-  if (out[k]?.tmdbId) continue; // already enriched; delete the entry to refresh
+  // "writers" marks the current schema; older entries get refetched (scores kept)
+  if (out[k]?.tmdbId && out[k].writers) continue;
 
   const search = await tmdb("/search/movie", { query: film.title, year: film.year });
   const match = search.results?.[0];
@@ -69,10 +75,12 @@ for (const film of films) {
   out[k] = {
     tmdbId: match.id,
     imdbId: detail.imdb_id ?? null,
-    director: detail.credits?.crew?.filter((c) => c.job === "Director").map((c) => c.name) ?? [],
-    cast: detail.credits?.cast?.slice(0, 5).map((c) => c.name) ?? [],
+    director: detail.credits?.crew?.filter((c) => c.job === "Director").map(person) ?? [],
+    writers: detail.credits?.crew?.filter((c) => WRITER_JOBS.has(c.job)).map(person) ?? [],
+    cast: detail.credits?.cast?.slice(0, 8).map(person) ?? [],
     runtime: detail.runtime ?? null,
     genres: detail.genres?.map((g) => g.name) ?? [],
+    tmdbRating: detail.vote_average ?? null,
     poster: match.poster_path ? `https://image.tmdb.org/t/p/w342${match.poster_path}` : null,
     providers: {
       flatrate: providers.flatrate?.map((p) => p.provider_name) ?? [],
@@ -81,7 +89,9 @@ for (const film of films) {
     },
     providersLink: providers.link ?? null,
     region,
+    scores: existing[k]?.scores, // keep critic scores across schema refreshes
   };
+  if (!out[k].scores) delete out[k].scores;
   hits++;
   console.log(`  enriched: ${k}`);
   await new Promise((r) => setTimeout(r, 120)); // stay friendly to the API

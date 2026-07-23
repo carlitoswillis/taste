@@ -1,0 +1,419 @@
+{
+  "generated": "2026-07-23T21:31:03.255Z",
+  "basedOn": 27,
+  "items": [
+    {
+      "title": "Wild Strawberries",
+      "year": 1957,
+      "tmdbId": 614,
+      "tmdbRating": 8.074,
+      "score": 13,
+      "director": [
+        "Ingmar Bergman"
+      ],
+      "runtime": 91,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/iyTD2QnySNMPUPE3IedZQipSWfz.jpg",
+      "providers": {
+        "flatrate": [
+          "HBO Max Amazon Channel",
+          "YouTube TV",
+          "Criterion Channel",
+          "HBO Max"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Fandango At Home"
+        ]
+      },
+      "scores": {
+        "rt": 94,
+        "metacritic": 88,
+        "imdb": 8.1
+      },
+      "why": "Ingmar Bergman (directed The Seventh Seal 5★, Persona 5★)"
+    },
+    {
+      "title": "Scenes from a Marriage",
+      "year": 1974,
+      "tmdbId": 133919,
+      "tmdbRating": 8.045,
+      "score": 13,
+      "director": [
+        "Ingmar Bergman"
+      ],
+      "runtime": 169,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/ArKEdvJesIktFX8OAhcdKAOLl6I.jpg",
+      "providers": {
+        "flatrate": [
+          "HBO Max Amazon Channel",
+          "YouTube TV",
+          "Criterion Channel",
+          "HBO Max"
+        ],
+        "rent": [
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 8.3
+      },
+      "why": "Ingmar Bergman (directed The Seventh Seal 5★, Persona 5★)"
+    },
+    {
+      "title": "The Dark Knight",
+      "year": 2008,
+      "tmdbId": 155,
+      "tmdbRating": 8.533,
+      "score": 12.15,
+      "director": [
+        "Christopher Nolan"
+      ],
+      "runtime": 152,
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+      "providers": {
+        "flatrate": [
+          "HBO Max Amazon Channel",
+          "YouTube TV",
+          "HBO Max"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "scores": {
+        "rt": 94,
+        "metacritic": 85,
+        "imdb": 9.1
+      },
+      "why": "Christopher Nolan (directed The Odyssey 5★, The Prestige 4.5★, Oppenheimer 4★)"
+    },
+    {
+      "title": "Interstellar",
+      "year": 2014,
+      "tmdbId": 157336,
+      "tmdbRating": 8.483,
+      "score": 12.15,
+      "director": [
+        "Christopher Nolan"
+      ],
+      "runtime": 169,
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Science Fiction"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/yQvGrMoipbRoddT0ZR8tPoR7NfX.jpg",
+      "providers": {
+        "flatrate": [
+          "Hulu",
+          "Paramount Plus Premium",
+          "Paramount Plus Essential",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel"
+        ],
+        "rent": [
+          "JustWatch TV",
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "FlixFling",
+          "Plex"
+        ]
+      },
+      "scores": {
+        "rt": 73,
+        "metacritic": 74,
+        "imdb": 8.7
+      },
+      "why": "Christopher Nolan (directed The Odyssey 5★, The Prestige 4.5★, Oppenheimer 4★)"
+    },
+    {
+      "title": "Fargo",
+      "year": 1996,
+      "tmdbId": 275,
+      "tmdbRating": 7.85,
+      "score": 8.100000000000001,
+      "director": [
+        "Joel Coen",
+        "Ethan Coen"
+      ],
+      "runtime": 98,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/rt7cpEr1uP6RTZykBFhBTcRaKvG.jpg",
+      "providers": {
+        "flatrate": [
+          "Netflix",
+          "YouTube TV",
+          "Netflix Standard with Ads"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Plex"
+        ]
+      },
+      "scores": {
+        "rt": 95,
+        "metacritic": 88,
+        "imdb": 8.1
+      },
+      "why": "Joel Coen (directed No Country for Old Men 4.5★) · Ethan Coen (directed No Country for Old Men 4.5★)"
+    },
+    {
+      "title": "The Big Lebowski",
+      "year": 1998,
+      "tmdbId": 115,
+      "tmdbRating": 7.835,
+      "score": 8.100000000000001,
+      "director": [
+        "Joel Coen",
+        "Ethan Coen"
+      ],
+      "runtime": 117,
+      "genres": [
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/3bv6WAp6BSxxYvB5ozKFUYuRA8C.jpg",
+      "providers": {
+        "flatrate": [
+          "Netflix"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube"
+        ]
+      },
+      "scores": {
+        "rt": 79,
+        "metacritic": 71,
+        "imdb": 8.1
+      },
+      "why": "Joel Coen (directed No Country for Old Men 4.5★) · Ethan Coen (directed No Country for Old Men 4.5★)"
+    },
+    {
+      "title": "The Strange Thing About the Johnsons",
+      "year": 2011,
+      "tmdbId": 164052,
+      "tmdbRating": 6.83,
+      "score": 6.75,
+      "director": [
+        "Ari Aster"
+      ],
+      "runtime": 30,
+      "genres": [
+        "Drama",
+        "Horror"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/ac2GXs7rJ7eQBKcvjRA3VDSNxA4.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": []
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 7.1
+      },
+      "why": "Ari Aster (directed Hereditary 4.5★, Midsommar 4★)"
+    },
+    {
+      "title": "Mother",
+      "year": 2009,
+      "tmdbId": 30018,
+      "tmdbRating": 7.703,
+      "score": 5.700000000000001,
+      "director": [
+        "Bong Joon Ho"
+      ],
+      "runtime": 129,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/8oBnSkZE6GDVugAbLPO6uJd4GcS.jpg",
+      "providers": {
+        "flatrate": [
+          "Philo"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "FlixFling"
+        ]
+      },
+      "scores": {
+        "rt": 96,
+        "metacritic": 79,
+        "imdb": 7.7
+      },
+      "why": "Bong Joon Ho (directed Parasite 4.5★)"
+    },
+    {
+      "title": "Okja",
+      "year": 2017,
+      "tmdbId": 387426,
+      "tmdbRating": 7.331,
+      "score": 5.700000000000001,
+      "director": [
+        "Bong Joon Ho"
+      ],
+      "runtime": 120,
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Science Fiction"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/pHlRr2MfjK77VIIAO7p0R4jhsJI.jpg",
+      "providers": {
+        "flatrate": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ],
+        "rent": []
+      },
+      "scores": {
+        "rt": 87,
+        "metacritic": 75,
+        "imdb": 7.3
+      },
+      "why": "Bong Joon Ho (directed Parasite 4.5★)"
+    },
+    {
+      "title": "The Florida Project",
+      "year": 2017,
+      "tmdbId": 394117,
+      "tmdbRating": 7.426,
+      "score": 5.4,
+      "director": [
+        "Sean Baker"
+      ],
+      "runtime": 112,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/5QnDxdJg1fi6uMSkSi4x8tHsltm.jpg",
+      "providers": {
+        "flatrate": [
+          "HBO Max Amazon Channel",
+          "YouTube TV",
+          "HBO Max"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Spectrum On Demand"
+        ]
+      },
+      "scores": {
+        "rt": 96,
+        "metacritic": 92,
+        "imdb": 7.6
+      },
+      "why": "Sean Baker (directed Anora 5★)"
+    },
+    {
+      "title": "Left-Handed Girl",
+      "year": 2025,
+      "tmdbId": 999075,
+      "tmdbRating": 7.3,
+      "score": 5.4,
+      "director": [
+        "Tsou Shih-ching"
+      ],
+      "runtime": 109,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/hfuxIKRCNsecLmoDdO0HJ1YUvv1.jpg",
+      "providers": {
+        "flatrate": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ],
+        "rent": []
+      },
+      "scores": {
+        "rt": 98,
+        "metacritic": 77,
+        "imdb": 7.4
+      },
+      "why": "Sean Baker (directed Anora 5★)"
+    },
+    {
+      "title": "The Witch",
+      "year": 2016,
+      "tmdbId": 310131,
+      "tmdbRating": 6.999,
+      "score": 5.4,
+      "director": [
+        "Robert Eggers"
+      ],
+      "runtime": 92,
+      "genres": [
+        "Horror"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/zap5hpFCWSvdWSuPGAQyjUv2wAC.jpg",
+      "providers": {
+        "flatrate": [
+          "Netflix",
+          "YouTube TV",
+          "Netflix Standard with Ads"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "scores": {
+        "rt": 91,
+        "metacritic": 84,
+        "imdb": 7
+      },
+      "why": "Robert Eggers (directed The Lighthouse 4★, The Northman 4★)"
+    }
+  ]
+}

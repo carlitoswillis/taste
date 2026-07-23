@@ -7,8 +7,8 @@ the rendered view of that data. Nothing is published anywhere unless the user ex
 chooses to. GitHub is version control, not distribution.
 
 ## Current Focus
+- [ ] **User action needed**: download the Letterboxd export (Settings → Import & Export) and run `npm run import -- <zip>`, then `npm run enrich` and `npm run suggest`. This is the single biggest data unlock: Films tab shows all ~340 films, suggestions stop offering already-seen films, stats become real
 - [ ] Live with the tool for a bit: log films through the UI, record old-film verdicts, note friction
-- [ ] Letterboxd full-history import from CSV export (RSS only covers diary entries, and this account's feed is empty because films were logged without diary dates)
 
 ## Active Tasks
 - [ ] Visual QA pass in a real browser (Claude's Chrome bridge couldn't reach localhost this session — even the user's own 4321 dev server was unreachable from it)
@@ -31,3 +31,7 @@ chooses to. GitHub is version control, not distribution.
 - [x] 2026-07-23 — Local dev server with watch + rebuild (`scripts/serve.mjs`, `npm start`)
 - [x] 2026-07-23 — UI rework: report → tool. Client-rendered app with four tabs (Watch next / Films / Directors / Taste), search, sort, tier filters; "projection booth" design with sprocket-dot filmography meters (`ai/plans/ui-rework.md`)
 - [x] 2026-07-23 — Logging layer shipped: local write API in serve.mjs (`api/ratings`, `api/watchlist[/remove]`, `api/oldfilms/verdict`) + in-page dialogs; logging a film auto-clears it from the queue; static exports degrade to read-only
+- [x] 2026-07-23 — TMDB + OMDb keys wired (.env + repo secrets); 60 films enriched with credits (person ids), runtimes, genres, posters, providers, RT/MC/IMDb scores
+- [x] 2026-07-23 — Suggestion engine (`scripts/suggest.mjs`): people-affinity from 4★+ ratings (director 1.6 / writer 1.1 / actor 0.5 weights), TMDB filmographies, per-person cap of 2, enriched cards with "Queue it"/"Seen it" actions; refreshed daily by sync workflow
+- [x] 2026-07-23 — Letterboxd CSV importer (`scripts/import-letterboxd.mjs`): watched.csv → data/watched.json, ratings.csv merged non-destructively; Films tab and enrich/suggest all honor watched.json
+- [x] 2026-07-23 — Enriched data surfaced in UI: runtime/genres/scores/streaming on film rows and queue cards, posters on cards
