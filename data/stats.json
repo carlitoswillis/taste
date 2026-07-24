@@ -1,0 +1,117 @@
+{
+  "generated": "2026-07-24",
+  "counts": {
+    "seen": 338,
+    "rated": 35,
+    "scored": 30,
+    "perfect": 4
+  },
+  "tiers": {
+    "4": 14,
+    "5": 4,
+    "4.5": 9,
+    "3.5": 2,
+    "2.5": 1
+  },
+  "decades": {
+    "1920": 1,
+    "1950": 1,
+    "1960": 4,
+    "1970": 5,
+    "1980": 9,
+    "1990": 21,
+    "2000": 59,
+    "2010": 110,
+    "2020": 128
+  },
+  "genreTilt": [
+    {
+      "genre": "Drama",
+      "lovedShare": 0.48148148148148145,
+      "seenShare": 0.34124629080118696,
+      "tilt": 0.1402351906802945
+    },
+    {
+      "genre": "Horror",
+      "lovedShare": 0.3333333333333333,
+      "seenShare": 0.24925816023738873,
+      "tilt": 0.08407517309594459
+    },
+    {
+      "genre": "Fantasy",
+      "lovedShare": 0.18518518518518517,
+      "seenShare": 0.10385756676557864,
+      "tilt": 0.08132761841960653
+    },
+    {
+      "genre": "Mystery",
+      "lovedShare": 0.2222222222222222,
+      "seenShare": 0.14540059347181009,
+      "tilt": 0.07682162875041212
+    },
+    {
+      "genre": "Comedy",
+      "lovedShare": 0.2962962962962963,
+      "seenShare": 0.24629080118694363,
+      "tilt": 0.05000549510935265
+    },
+    {
+      "genre": "Romance",
+      "lovedShare": 0.1111111111111111,
+      "seenShare": 0.06824925816023739,
+      "tilt": 0.04286185295087372
+    }
+  ],
+  "genreCoverage": {
+    "loved": 27,
+    "seen": 337
+  },
+  "lovedAgainstCritics": [
+    {
+      "title": "Anora",
+      "year": 2024,
+      "mine": 5,
+      "imdb": 7.4,
+      "gap": 2.5999999999999996
+    },
+    {
+      "title": "Persona",
+      "year": 1966,
+      "mine": 5,
+      "imdb": 8,
+      "gap": 2
+    },
+    {
+      "title": "Prometheus",
+      "year": 2012,
+      "mine": 4.5,
+      "imdb": 7,
+      "gap": 2
+    }
+  ],
+  "coldAgainstCritics": [
+    {
+      "title": "The Batman",
+      "year": 2022,
+      "mine": 2.5,
+      "imdb": 7.8,
+      "gap": -2.8
+    },
+    {
+      "title": "Everything Everywhere All at Once",
+      "year": 2022,
+      "mine": 3.5,
+      "imdb": 7.7,
+      "gap": -0.7000000000000002
+    },
+    {
+      "title": "Oppenheimer",
+      "year": 2023,
+      "mine": 4,
+      "imdb": 8.2,
+      "gap": -0.1999999999999993
+    }
+  ],
+  "profileUpdated": "2026-07-22",
+  "newSinceProfile": 1
+}

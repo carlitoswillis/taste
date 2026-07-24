@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-23T21:31:03.255Z",
+  "generated": "2026-07-23T21:38:50.005Z",
   "basedOn": 27,
   "items": [
     {
@@ -73,26 +73,28 @@
       "why": "Ingmar Bergman (directed The Seventh Seal 5★, Persona 5★)"
     },
     {
-      "title": "The Dark Knight",
-      "year": 2008,
-      "tmdbId": 155,
-      "tmdbRating": 8.533,
+      "title": "Following",
+      "year": 1999,
+      "tmdbId": 11660,
+      "tmdbRating": 7.127,
       "score": 12.15,
       "director": [
         "Christopher Nolan"
       ],
-      "runtime": 152,
+      "runtime": 69,
       "genres": [
-        "Action",
-        "Crime",
+        "Drama",
         "Thriller"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/3bX6VVSMf0dvzk5pMT4ALG5A92d.jpg",
       "providers": {
         "flatrate": [
-          "HBO Max Amazon Channel",
+          "Philo",
+          "AMC Plus Apple TV Channel ",
+          "AMC+ Amazon Channel",
           "YouTube TV",
-          "HBO Max"
+          "Criterion Channel",
+          "Sundance Now"
         ],
         "rent": [
           "Amazon Video",
@@ -103,98 +105,84 @@
         ]
       },
       "scores": {
-        "rt": 94,
-        "metacritic": 85,
-        "imdb": 9.1
+        "rt": 87,
+        "metacritic": 60,
+        "imdb": 7.4
       },
       "why": "Christopher Nolan (directed The Odyssey 5★, The Prestige 4.5★, Oppenheimer 4★)"
     },
     {
-      "title": "Interstellar",
-      "year": 2014,
-      "tmdbId": 157336,
-      "tmdbRating": 8.483,
+      "title": "Insomnia",
+      "year": 2002,
+      "tmdbId": 320,
+      "tmdbRating": 6.956,
       "score": 12.15,
       "director": [
         "Christopher Nolan"
       ],
-      "runtime": 169,
+      "runtime": 118,
       "genres": [
-        "Adventure",
-        "Drama",
-        "Science Fiction"
+        "Thriller",
+        "Crime",
+        "Drama"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/yQvGrMoipbRoddT0ZR8tPoR7NfX.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/riVXh3EimGO0y5dgQxEWPRy5Itg.jpg",
       "providers": {
-        "flatrate": [
-          "Hulu",
-          "Paramount Plus Premium",
-          "Paramount Plus Essential",
-          "Paramount+ Amazon Channel",
-          "Paramount+ Roku Premium Channel"
-        ],
+        "flatrate": [],
         "rent": [
-          "JustWatch TV",
           "Amazon Video",
           "Apple TV Store",
           "Google Play Movies",
           "YouTube",
           "Fandango At Home",
-          "FlixFling",
-          "Plex"
+          "Spectrum On Demand"
         ]
       },
       "scores": {
-        "rt": 73,
-        "metacritic": 74,
-        "imdb": 8.7
+        "rt": 92,
+        "metacritic": 78,
+        "imdb": 7.2
       },
       "why": "Christopher Nolan (directed The Odyssey 5★, The Prestige 4.5★, Oppenheimer 4★)"
     },
     {
-      "title": "Fargo",
-      "year": 1996,
-      "tmdbId": 275,
-      "tmdbRating": 7.85,
+      "title": "The Man Who Wasn't There",
+      "year": 2001,
+      "tmdbId": 10778,
+      "tmdbRating": 7.51,
       "score": 8.100000000000001,
       "director": [
         "Joel Coen",
         "Ethan Coen"
       ],
-      "runtime": 98,
+      "runtime": 116,
       "genres": [
         "Crime",
-        "Drama",
-        "Thriller"
+        "Drama"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/rt7cpEr1uP6RTZykBFhBTcRaKvG.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/lrCgt8NNMyFsfmXyXiSSCRXNH4u.jpg",
       "providers": {
-        "flatrate": [
-          "Netflix",
-          "YouTube TV",
-          "Netflix Standard with Ads"
-        ],
+        "flatrate": [],
         "rent": [
           "Amazon Video",
           "Apple TV Store",
           "Google Play Movies",
           "YouTube",
-          "Fandango At Home",
-          "Plex"
+          "Fandango At Home"
         ]
       },
       "scores": {
-        "rt": 95,
-        "metacritic": 88,
-        "imdb": 8.1
+        "rt": 81,
+        "metacritic": 73,
+        "imdb": 7.5
       },
       "why": "Joel Coen (directed No Country for Old Men 4.5★) · Ethan Coen (directed No Country for Old Men 4.5★)"
     },
     {
-      "title": "The Big Lebowski",
-      "year": 1998,
-      "tmdbId": 115,
-      "tmdbRating": 7.835,
+      "title": "Barton Fink",
+      "year": 1991,
+      "tmdbId": 290,
+      "tmdbRating": 7.467,
       "score": 8.100000000000001,
       "director": [
         "Joel Coen",
@@ -203,24 +191,24 @@
       "runtime": 117,
       "genres": [
         "Comedy",
-        "Crime"
+        "Drama",
+        "Thriller"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/3bv6WAp6BSxxYvB5ozKFUYuRA8C.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/oDkp5iClJ9WKJGtKHz8BydodHC3.jpg",
       "providers": {
-        "flatrate": [
-          "Netflix"
-        ],
+        "flatrate": [],
         "rent": [
           "Amazon Video",
           "Apple TV Store",
           "Google Play Movies",
-          "YouTube"
+          "YouTube",
+          "Fandango At Home"
         ]
       },
       "scores": {
-        "rt": 79,
-        "metacritic": 71,
-        "imdb": 8.1
+        "rt": 90,
+        "metacritic": 69,
+        "imdb": 7.6
       },
       "why": "Joel Coen (directed No Country for Old Men 4.5★) · Ethan Coen (directed No Country for Old Men 4.5★)"
     },
@@ -381,25 +369,23 @@
       "why": "Sean Baker (directed Anora 5★)"
     },
     {
-      "title": "The Witch",
-      "year": 2016,
-      "tmdbId": 310131,
-      "tmdbRating": 6.999,
-      "score": 5.4,
+      "title": "The Favourite",
+      "year": 2018,
+      "tmdbId": 375262,
+      "tmdbRating": 7.487,
+      "score": 4.800000000000001,
       "director": [
-        "Robert Eggers"
+        "Yorgos Lanthimos"
       ],
-      "runtime": 92,
+      "runtime": 120,
       "genres": [
-        "Horror"
+        "History",
+        "Comedy",
+        "Drama"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/zap5hpFCWSvdWSuPGAQyjUv2wAC.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/cwBq0onfmeilU5xgqNNjJAMPfpw.jpg",
       "providers": {
-        "flatrate": [
-          "Netflix",
-          "YouTube TV",
-          "Netflix Standard with Ads"
-        ],
+        "flatrate": [],
         "rent": [
           "Amazon Video",
           "Apple TV Store",
@@ -409,11 +395,11 @@
         ]
       },
       "scores": {
-        "rt": 91,
-        "metacritic": 84,
-        "imdb": 7
+        "rt": 93,
+        "metacritic": 91,
+        "imdb": 7.5
       },
-      "why": "Robert Eggers (directed The Lighthouse 4★, The Northman 4★)"
+      "why": "Yorgos Lanthimos (directed Poor Things 4.5★, Bugonia 4.5★)"
     }
   ]
 }

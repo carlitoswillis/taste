@@ -32,6 +32,7 @@ async function loadAll() {
   state.data.enrichment = await optional("enrichment", {});
   state.data.suggestions = await optional("suggestions", null);
   state.data.watched = await optional("watched", null);
+  state.data.stats = await optional("stats", null);
   state.canWrite = await fetch("api/health").then((r) => r.ok).catch(() => false);
 }
 
@@ -364,9 +365,58 @@ function renderDirectors() {
 
 // ---------- taste ----------
 
+function computedSection() {
+  const s = state.data.stats;
+  if (!s) return "";
+  const bar = (n, max) => `<span class="bar"><span style="width:${Math.round((n / max) * 100)}%"></span></span>`;
+  const row = (lbl, n, max, val) =>
+    `<div class="statrow"><span class="lbl">${lbl}</span>${bar(n, max)}<span class="val">${val}</span></div>`;
+
+  const tierMax = Math.max(...Object.values(s.tiers));
+  const tierRows = Object.keys(s.tiers)
+    .map(Number)
+    .sort((a, b) => b - a)
+    .map((t) => row(`${t}★`, s.tiers[t], tierMax, s.tiers[t]))
+    .join("");
+
+  const decMax = Math.max(...Object.values(s.decades));
+  const decRows = Object.keys(s.decades)
+    .map(Number)
+    .sort((a, b) => a - b)
+    .map((d) => row(`${String(d).slice(2)}s`, s.decades[d], decMax, s.decades[d]))
+    .join("");
+
+  const pct = (x) => `${Math.round(x * 100)}%`;
+  const tiltRows = s.genreTilt
+    .map((g) => row(esc(g.genre), g.lovedShare, 1, `${pct(g.lovedShare)} loved · ${pct(g.seenShare)} seen`))
+    .join("");
+
+  const divRows = (list) =>
+    list.map((d) => `<li><strong>${esc(d.title)}</strong> — you ${d.mine}★, IMDb ${d.imdb}</li>`).join("");
+
+  const stale =
+    s.newSinceProfile > 0
+      ? `<p class="lede">The written analysis below dates from <strong>${esc(s.profileUpdated)}</strong> — ${s.newSinceProfile} film${s.newSinceProfile === 1 ? "" : "s"} watched since. When it drifts, rerun the profile ritual.</p>`
+      : "";
+
+  return `
+    <h2 class="sect">Computed from the data <span class="n">· refreshed ${esc(s.generated)}</span></h2>
+    ${stale}
+    <div class="grid2">
+      <div class="card statcard"><h3>Score spread</h3>${tierRows}</div>
+      <div class="card statcard"><h3>Decades seen</h3>${decRows}</div>
+      <div class="card statcard"><h3>Genre tilt — where 4★+ over-indexes</h3>${tiltRows}</div>
+      <div class="card statcard"><h3>Against the critics</h3>
+        <ul class="divlist hot">${divRows(s.lovedAgainstCritics)}</ul>
+        <ul class="divlist cold">${divRows(s.coldAgainstCritics)}</ul>
+      </div>
+    </div>`;
+}
+
 function renderTaste() {
   const { profile, calibration, lineage, cohorts } = state.data;
   $("#tab-taste").innerHTML = `
+    ${computedSection()}
     <h2 class="sect">The shape</h2>
     <div class="prose"><p><strong>${md(profile.shape.heading)}.</strong></p>
     ${profile.shape.paragraphs.map((p) => `<p>${md(p)}</p>`).join("")}</div>

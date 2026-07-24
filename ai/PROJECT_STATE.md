@@ -7,13 +7,15 @@ the rendered view of that data. Nothing is published anywhere unless the user ex
 chooses to. GitHub is version control, not distribution.
 
 ## Current Focus
-- [ ] **User action needed**: download the Letterboxd export (Settings → Import & Export) and run `npm run import -- <zip>`, then `npm run enrich` and `npm run suggest`. This is the single biggest data unlock: Films tab shows all ~340 films, suggestions stop offering already-seen films, stats become real
-- [ ] Live with the tool for a bit: log films through the UI, record old-film verdicts, note friction
+- [x] **User action needed**: download the Letterboxd export (Settings → Import & Export) and run `npm run import -- <zip>`, then `npm run enrich` and `npm run suggest`. This is the single biggest data unlock: Films tab shows all ~340 films, suggestions stop offering already-seen films, stats become real
+- [ x Live with the tool for a bit: log films through the UI, record old-film verdicts, note friction
 
 ## Active Tasks
-- [ ] Visual QA pass in a real browser (Claude's Chrome bridge couldn't reach localhost this session — even the user's own 4321 dev server was unreachable from it)
+- [ ] **User action needed to finish deploy**: run the two credential commands (deploy key on taste-site + TASTE_SITE_DEPLOY_KEY secret) — Claude's permission classifier blocks credential management, everything else is wired. Then dispatch the "Publish site" workflow once
+- [ ] Connected recs (TV/books/themes/cross-media) — design doc in `ai/plans/connected-recs.md`; themes is Phase 1
 
 ## Backlog
+- users? maybe (see multi-user note below — deferred until the single-user loop feels alive)
 - [ ] Multi-user support: `profiles/<name>/data/` so one install can serve multiple people; config picks the active profile
 - [ ] Individual taste accounts → auto-publish returns: once users have their own accounts/profiles, each account's page can build and publish automatically (per-user opt-in pages, Letterboxd-style). Pilot has explicitly OK'd autopublishing in that world — the current restriction only covers this single-user personal instance
 - [ ] Reconcile Letterboxd sync into `data/ratings.json` automatically instead of just flagging new ratings
@@ -23,6 +25,9 @@ chooses to. GitHub is version control, not distribution.
 - [ ] `scripts/verify.sh` quality gate (build succeeds + JSON schema check on data files)
 
 ## Completed
+- [x] 2026-07-24 — **Deploy decided & wired (user chose public, Letterboxd-style)**: private source repo publishes `dist/` to public mirror repo `carlitoswillis/taste-site` (GitHub Pages, free plan — Pages-on-private needs Pro, mirror avoids it; `ai/` notes and git history stay private). `deploy.yml` reworked (push-to-mirror via deploy key, triggers: data/template pushes + manual + called by sync); `sync.yml` now republishes daily after data refresh, so the site self-updates — no server, no DB, repo-as-database
+- [x] 2026-07-24 — Deterministic profile layer: `scripts/profile-stats.mjs` → `data/stats.json` (tier spread, decades, genre tilt, critic divergence, staleness counter); rendered as "Computed from the data" atop the Taste tab; runs in daily sync
+- [x] 2026-07-24 — `/refresh-profile` project skill (`.claude/skills/refresh-profile/`): the ritual that rewrites profile.json/calibration.json prose from new evidence; stats.json's `newSinceProfile` says when it's due
 - [x] 2026-07-23 — Extracted the hand-made HTML/xlsx profile into separated JSON data files (`data/`)
 - [x] 2026-07-23 — Zero-dependency build script (`scripts/build.mjs` → `dist/index.html`)
 - [x] 2026-07-23 — Letterboxd RSS fetcher (`scripts/fetch-letterboxd.mjs`), flags ratings missing from data

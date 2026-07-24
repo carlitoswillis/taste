@@ -31,14 +31,24 @@ jobs:
         if: ${{ env.TMDB_API_KEY != '' }}
         run: node scripts/suggest.mjs
 
+      - name: Recompute profile stats
+        run: node scripts/profile-stats.mjs
+
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/letterboxd.json data/enrichment.json data/suggestions.json
+          git add data/letterboxd.json data/enrichment.json data/suggestions.json data/stats.json
           if git diff --cached --quiet; then
             echo "No changes."
           else
             git commit -m "chore: sync letterboxd/tmdb data"
             git push
           fi
+
+  # Pushes made with GITHUB_TOKEN don't fire other workflows' push triggers,
+  # so the daily sync republishes the site explicitly.
+  publish:
+    needs: sync
+    uses: ./.github/workflows/deploy.yml
+    secrets: inherit
