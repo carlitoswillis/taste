@@ -1,9 +1,10 @@
 name: Publish site
 
-# Builds dist/ and pushes it to the public mirror repo (carlitoswillis/taste-site),
-# which serves GitHub Pages. The source repo stays private; only the rendered
-# site is public. Runs on data/template pushes, manual dispatch, and is called
-# by sync.yml after the daily data refresh.
+# Builds dist/ and pushes it to the public mirror repo (carlitoswillis/taste,
+# which serves GitHub Pages at carlitoswillis.github.io/taste/; this source repo
+# is being renamed taste-src and stays private — only the rendered site is
+# public). Runs on data/template pushes, manual dispatch, and is called by
+# sync.yml after the daily data refresh.
 
 on:
   workflow_dispatch:
@@ -36,7 +37,7 @@ jobs:
       - name: Check out site repo
         uses: actions/checkout@v4
         with:
-          repository: carlitoswillis/taste-site
+          repository: carlitoswillis/taste
           ssh-key: ${{ secrets.TASTE_SITE_DEPLOY_KEY }}
           path: site
       - name: Copy build into site repo

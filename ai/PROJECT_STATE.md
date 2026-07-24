@@ -11,7 +11,7 @@ chooses to. GitHub is version control, not distribution.
 - [ x Live with the tool for a bit: log films through the UI, record old-film verdicts, note friction
 
 ## Active Tasks
-- [ ] **User action needed to finish deploy**: run the two credential commands (deploy key on taste-site + TASTE_SITE_DEPLOY_KEY secret) — Claude's permission classifier blocks credential management, everything else is wired. Then dispatch the "Publish site" workflow once
+- [ ] **User action needed to finish deploy**: run the ordered command block Claude provided (rename taste→taste-src, taste-site→taste so the site lives at carlitoswillis.github.io/taste/; fix local remote; add deploy key + TASTE_SITE_DEPLOY_KEY secret; push). Claude's permission classifier blocks renames, credential management, and pushes. 2026-07-24: leftover Pages on the private repo was found publicly serving the whole repo (ai/ included) and was deleted
 - [ ] Connected recs (TV/books/themes/cross-media) — design doc in `ai/plans/connected-recs.md`; themes is Phase 1
 
 ## Backlog
