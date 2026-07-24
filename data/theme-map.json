@@ -19,6 +19,14 @@
     { "id": "grief-horror", "name": "Grief wearing a mask", "core": false,
       "keywords": ["grief", "loss of child", "mourning", "family curse", "inherited trauma", "cult"] }
   ],
+  "genreMap": {
+    "Horror": ["horror"],
+    "Mystery": ["mystery"],
+    "Fantasy": ["fantasy"],
+    "Science Fiction": ["science fiction"],
+    "Thriller": ["suspense"],
+    "Crime": ["crime fiction"]
+  },
   "ignore": ["based on novel or book", "based on true story", "duringcreditsstinger", "aftercreditsstinger", "woman director", "biography", "remake", "sequel", "independent film", "new york city", "los angeles, california"],
   "assign": { "The Prestige (2006)": ["doubling"] },
   "suppress": {}

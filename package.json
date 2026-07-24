@@ -8,10 +8,16 @@
     "build": "node scripts/build.mjs",
     "sync": "node scripts/fetch-letterboxd.mjs",
     "enrich": "node scripts/enrich-tmdb.mjs",
+    "enrich:tv": "node scripts/enrich-tv.mjs",
+    "enrich:books": "node scripts/enrich-books.mjs",
     "themes": "node scripts/themes.mjs",
+    "bridge": "node scripts/bridge-adaptations.mjs",
     "suggest": "node scripts/suggest.mjs",
+    "suggest:tv": "node scripts/suggest-tv.mjs",
+    "suggest:books": "node scripts/suggest-books.mjs",
     "stats": "node scripts/profile-stats.mjs",
-    "import": "node scripts/import-letterboxd.mjs"
+    "import": "node scripts/import-letterboxd.mjs",
+    "import:books": "node scripts/import-goodreads.mjs"
   },
   "engines": {
     "node": ">=18"

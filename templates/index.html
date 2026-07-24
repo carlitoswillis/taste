@@ -19,6 +19,8 @@
   <nav class="tabs" aria-label="Sections">
     <a href="#watch" data-tab="watch">Watch next</a>
     <a href="#films" data-tab="films">Films</a>
+    <a href="#tv" data-tab="tv">TV</a>
+    <a href="#books" data-tab="books">Books</a>
     <a href="#directors" data-tab="directors">Directors</a>
     <a href="#taste" data-tab="taste">Taste</a>
   </nav>
@@ -27,6 +29,8 @@
 <main id="main">
   <section id="tab-watch" class="tab" hidden></section>
   <section id="tab-films" class="tab" hidden></section>
+  <section id="tab-tv" class="tab" hidden></section>
+  <section id="tab-books" class="tab" hidden></section>
   <section id="tab-directors" class="tab" hidden></section>
   <section id="tab-taste" class="tab" hidden></section>
 </main>
@@ -36,6 +40,11 @@
 <dialog id="log-dialog">
   <form method="dialog" id="log-form">
     <h2 id="log-title">Log a film</h2>
+    <div class="seg" id="log-medium" role="radiogroup" aria-label="Medium">
+      <label><input type="radio" name="medium" value="film" checked><span>Film</span></label>
+      <label><input type="radio" name="medium" value="tv"><span>TV</span></label>
+      <label><input type="radio" name="medium" value="book"><span>Book</span></label>
+    </div>
     <label>Title <input name="title" required autocomplete="off"></label>
     <div class="pair">
       <label>Year <input name="year" type="number" min="1880" max="2100" required></label>
@@ -48,7 +57,20 @@
         </select>
       </label>
     </div>
-    <label>Director <input name="director" autocomplete="off"></label>
+    <label><span id="log-person-lbl">Director</span> <input name="director" autocomplete="off"></label>
+    <div class="pair" id="log-tv-fields" hidden>
+      <label>Status
+        <select name="tvstatus">
+          <option selected>watching</option><option>finished</option><option>abandoned</option>
+        </select>
+      </label>
+      <label>Seasons watched <input name="seasons" type="number" min="0" step="1"></label>
+    </div>
+    <label id="log-book-status" hidden>Status
+      <select name="bookstatus">
+        <option selected>read</option><option>reading</option><option>toread</option>
+      </select>
+    </label>
     <label>Note <textarea name="note" rows="2" placeholder="what it did or didn't do"></textarea></label>
     <div class="actions">
       <button type="button" class="btn" id="log-cancel">Cancel</button>

@@ -14,36 +14,13 @@ import { execFileSync } from "node:child_process";
 import os from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { parseCsv } from "./lib/csv.mjs";
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const input = process.argv[2];
 if (!input || !existsSync(input)) {
   console.error("Usage: node scripts/import-letterboxd.mjs <letterboxd-export.zip | folder | csv>");
   process.exit(1);
-}
-
-// Minimal CSV parser (handles quoted fields and commas inside quotes).
-function parseCsv(text) {
-  const rows = [];
-  let row = [], field = "", inQuotes = false;
-  for (let i = 0; i < text.length; i++) {
-    const ch = text[i];
-    if (inQuotes) {
-      if (ch === '"' && text[i + 1] === '"') { field += '"'; i++; }
-      else if (ch === '"') inQuotes = false;
-      else field += ch;
-    } else if (ch === '"') inQuotes = true;
-    else if (ch === ",") { row.push(field); field = ""; }
-    else if (ch === "\n" || ch === "\r") {
-      if (ch === "\r" && text[i + 1] === "\n") i++;
-      row.push(field); field = "";
-      if (row.length > 1 || row[0] !== "") rows.push(row);
-      row = [];
-    } else field += ch;
-  }
-  if (field || row.length) { row.push(field); rows.push(row); }
-  const [header, ...body] = rows;
-  return body.map((r) => Object.fromEntries(header.map((h, i) => [h, r[i] ?? ""])));
 }
 
 // Locate the CSVs whatever form the input takes.

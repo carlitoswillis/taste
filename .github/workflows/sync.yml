@@ -30,21 +30,42 @@ jobs:
         if: ${{ env.TMDB_API_KEY != '' }}
         run: node scripts/enrich-tmdb.mjs
 
+      - name: Enrich TV from TMDB
+        if: ${{ env.TMDB_API_KEY != '' }}
+        run: node scripts/enrich-tv.mjs
+
+      - name: Enrich books from Open Library (tolerates outages)
+        continue-on-error: true
+        run: node scripts/enrich-books.mjs
+
       - name: Recompute themes
         run: node scripts/themes.mjs
+
+      - name: Bridge adaptations via Wikidata (tolerates outages)
+        continue-on-error: true
+        run: node scripts/bridge-adaptations.mjs
+
+      - name: Recompute profile stats
+        run: node scripts/profile-stats.mjs
 
       - name: Refresh suggestions
         if: ${{ env.TMDB_API_KEY != '' }}
         run: node scripts/suggest.mjs
 
-      - name: Recompute profile stats
-        run: node scripts/profile-stats.mjs
+      - name: Refresh TV suggestions
+        if: ${{ env.TMDB_API_KEY != '' }}
+        run: node scripts/suggest-tv.mjs
+
+      - name: Refresh book suggestions (tolerates outages)
+        continue-on-error: true
+        run: node scripts/suggest-books.mjs
 
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/letterboxd.json data/ratings.json data/watched.json data/enrichment.json data/suggestions.json data/stats.json data/themes.json
+          git add data/letterboxd.json data/ratings.json data/watched.json data/enrichment.json data/suggestions.json data/stats.json data/themes.json \
+            data/tv-enrichment.json data/tv-suggestions.json data/book-enrichment.json data/book-suggestions.json data/adaptations.json
           if git diff --cached --quiet; then
             echo "No changes."
           else

@@ -1,0 +1,2968 @@
+{
+  "Wood painting (Ingmar Bergman)": {
+    "unmatched": true
+  },
+  "Odyssey (Homer)": {
+    "id": "b:OL61982W",
+    "olWork": "OL61982W",
+    "authors": [
+      {
+        "key": "OL18404A",
+        "name": "Όμηρος"
+      }
+    ],
+    "firstPublished": 1488,
+    "pages": 374,
+    "subjects": [
+      "great_books_of_the_western_world",
+      "Poetry",
+      "Fiction",
+      "Classical literature",
+      "Open Library Staff Picks",
+      "Juvenile literature",
+      "Horses",
+      "Mythology, Greek, in literature",
+      "Diseases",
+      "Greek Mythology",
+      "great_books",
+      "Literatura grega clássica"
+    ],
+    "coverId": 9045853,
+    "cover": "https://covers.openlibrary.org/b/id/9045853-M.jpg",
+    "description": "The Odyssey (/ˈɒdəsi/; Greek: Ὀδύσσεια, Odýsseia) is one of two major ancient Greek epic poems attributed to Homer. It is, in part, a sequel to the Iliad, the other work ascribed to Homer. The poem is fundamental to the modern Western canon, and is the second oldest extant work of Western literature, the Iliad being the oldest. Scholars believe it was composed near the end of the 8th century BC, somewhere in Ionia, the Greek coastal region of Anatolia. - [Wikipedia][1]\r\n\r\n  [1]: https://en.wikipedia.org/wiki/Odyssey",
+    "editionCount": 1064,
+    "olRating": {
+      "average": 4.0434785,
+      "count": 161
+    },
+    "adaptedAs": [
+      "The Odyssey (2026)",
+      "O Brother, Where Art Thou? (2000)"
+    ]
+  },
+  "No Country for Old Men (Cormac McCarthy)": {
+    "id": "b:OL40875W",
+    "olWork": "OL40875W",
+    "authors": [
+      {
+        "key": "OL28104A",
+        "name": "Cormac McCarthy"
+      }
+    ],
+    "firstPublished": 1900,
+    "pages": 304,
+    "subjects": [
+      "Fiction",
+      "Drug traffic",
+      "Sheriffs",
+      "Treasure-trove",
+      "Treasure troves",
+      "Suspense fiction",
+      "Literature",
+      "Psychological fiction",
+      "Fiction, suspense",
+      "Fiction, psychological",
+      "Texas, fiction",
+      "Large type books"
+    ],
+    "coverId": 9296899,
+    "cover": "https://covers.openlibrary.org/b/id/9296899-M.jpg",
+    "description": "In his blistering new novel, Cormac McCarthy returns to the Texas-Mexico border, setting of his famed *Border Trilogy.* The time is our own, when rustlers have given way to drug-runners and small towns have become free-fire zones. One day, a good old boy named Llewellyn Moss finds a pickup truck surrounded by a bodyguard of dead men. A load of heroin and two million dollars in cash are still in the back. When Moss takes the money, he sets off a chain reaction of catastrophic violence that not even the law--in the person of aging, disillusioned Sheriff Bell--can contain. As Moss tries to evade ",
+    "editionCount": 45,
+    "olRating": {
+      "average": 4.111111,
+      "count": 36
+    },
+    "adaptedAs": [
+      "No Country for Old Men (2007)"
+    ]
+  },
+  "The Prestige (Christopher Priest)": {
+    "id": "b:OL166497W",
+    "olWork": "OL166497W",
+    "authors": [
+      {
+        "key": "OL22182A",
+        "name": "Christopher Priest"
+      }
+    ],
+    "firstPublished": 1901,
+    "pages": 384,
+    "subjects": [
+      "Magicians",
+      "Journalists",
+      "Fiction",
+      "Fiction, general",
+      "England, fiction",
+      "Journalists, fiction",
+      "Fiction, horror",
+      "Music-halls",
+      "History",
+      "Music halls",
+      "Fiction, fantasy, general",
+      "Fiction, historical"
+    ],
+    "coverId": 3850762,
+    "cover": "https://covers.openlibrary.org/b/id/3850762-M.jpg",
+    "description": "Two 19th century stage illusionists, the aristocratic Rupert Angier and the working-class Alfred Borden, engage in a bitter and deadly feud; the effects are still being felt by their respective families a hundred years later. Working in the gaslight-and-velvet world of Victorian music halls, they prowl edgily in the background of each other's shadowy life, driven to the extremes by a deadly combination of obsessive secrecy and insatiable curiosity. At the heart of the row is an amazing illusion they both perform during their stage acts. The secret of the magic is simple, and the reader is in o",
+    "editionCount": 24,
+    "olRating": {
+      "average": 3.625,
+      "count": 8
+    },
+    "adaptedAs": [
+      "The Prestige (2006)"
+    ]
+  },
+  "Poor Things (Alasdair Gray)": {
+    "id": "b:OL2466636W",
+    "olWork": "OL2466636W",
+    "authors": [
+      {
+        "key": "OL343363A",
+        "name": "Alasdair Gray"
+      }
+    ],
+    "firstPublished": 1992,
+    "pages": 317,
+    "subjects": [
+      "Fiction",
+      "Physicians",
+      "Scotland, fiction",
+      "Physicians, fiction",
+      "Fiction, historical, general",
+      "History",
+      "Man-woman relationships",
+      "English literature",
+      "Satire"
+    ],
+    "coverId": 115122,
+    "cover": "https://covers.openlibrary.org/b/id/115122-M.jpg",
+    "description": "A fantasy novel, presented as a discovered a manuscript, set in the nineteenth century. Frankenstein-like tale. Whitbread Novel Award, 1992.",
+    "editionCount": 21,
+    "olRating": {
+      "average": 4.5,
+      "count": 4
+    },
+    "adaptedAs": [
+      "Poor Things (2023)"
+    ]
+  },
+  "American Prometheus (Martin J. Sherwin, Kai Bird)": {
+    "id": "b:OL1905682W",
+    "olWork": "OL1905682W",
+    "authors": [
+      {
+        "key": "OL228106A",
+        "name": "Kai Bird"
+      },
+      {
+        "key": "OL1195445A",
+        "name": "Martin J. Sherwin"
+      }
+    ],
+    "firstPublished": 2005,
+    "pages": 721,
+    "subjects": [
+      "physics",
+      "Manhatten Project",
+      "atomic bomb",
+      "nuclear physics",
+      "biography",
+      "history",
+      "pulitzer prize",
+      "Pulitzer Prize for Biography or Autobiography",
+      "Oppenheimer, j. robert, 1904-1967",
+      "Physicists, biography",
+      "Science, history, united states",
+      "United states, history, 20th century"
+    ],
+    "coverId": 6460516,
+    "cover": "https://covers.openlibrary.org/b/id/6460516-M.jpg",
+    "description": "Biography of American physicist Robert J. Oppenheimer. Winner of the 2006 Pulitzer Prize for Biography or Autobiography.",
+    "editionCount": 18,
+    "olRating": {
+      "average": 3.909091,
+      "count": 11
+    },
+    "adaptedAs": [
+      "Oppenheimer (2023)"
+    ]
+  },
+  "The Orchid Thief (Susan Orlean)": {
+    "id": "b:OL14860220W",
+    "olWork": "OL14860220W",
+    "authors": [
+      {
+        "key": "OL20986A",
+        "name": "Susan Orlean"
+      }
+    ],
+    "firstPublished": 1998,
+    "pages": 300,
+    "subjects": [
+      "Anecdotes",
+      "Plant collectors",
+      "Florida",
+      "Nursery growers",
+      "Polyradicion lindenii",
+      "Hollywood",
+      "Orchids",
+      "Biography",
+      "Orchid culture",
+      "Horticulturists",
+      "Florida, biography",
+      "Large type books"
+    ],
+    "coverId": 418682,
+    "cover": "https://covers.openlibrary.org/b/id/418682-M.jpg",
+    "description": "The orchid thief in Susan Orlean's true story of beauty and obsession is John Laroche, a renegade plant dealer and sharply handsome guy, in spite of the fact that he is missing his front teeth and has the posture of al dente spaghetti. In 1994, Laroche and three Seminole Indians were arrested with rare orchids they had stolen from a wild swamp in south Florida that is filled with some of the world's most extraordinary plants and trees.\r\n\r\nLaroche had planned to clone the orchids and then sell them for a small fortune to impassioned collectors. After he was caught in the act, Laroche set off on",
+    "editionCount": 11,
+    "olRating": {
+      "average": 3.4285715,
+      "count": 7
+    },
+    "adaptedAs": [
+      "Adaptation. (2002)"
+    ]
+  },
+  "The Devil All the Time (Donald Ray Pollock)": {
+    "id": "b:OL29322564W",
+    "olWork": "OL29322564W",
+    "authors": [
+      {
+        "key": "OL10836692A",
+        "name": "Donald POLLOCK"
+      }
+    ],
+    "firstPublished": 2011,
+    "pages": null,
+    "subjects": [],
+    "coverId": null,
+    "cover": null,
+    "description": null,
+    "editionCount": 1,
+    "olRating": {
+      "average": null,
+      "count": 0
+    },
+    "adaptedAs": [
+      "The Devil All the Time (2020)"
+    ]
+  },
+  "Iliad (Homer)": {
+    "id": "b:OL34610657W",
+    "olWork": "OL34610657W",
+    "authors": [
+      {
+        "key": "OL18404A",
+        "name": "Όμηρος"
+      }
+    ],
+    "firstPublished": 2004,
+    "pages": null,
+    "subjects": [],
+    "coverId": null,
+    "cover": null,
+    "description": null,
+    "editionCount": 1,
+    "olRating": {
+      "average": null,
+      "count": 0
+    },
+    "adaptedAs": [
+      "Troy (2004)"
+    ]
+  },
+  "The Hunger Games (Suzanne Collins)": {
+    "id": "b:OL5735363W",
+    "olWork": "OL5735363W",
+    "authors": [
+      {
+        "key": "OL1394359A",
+        "name": "Suzanne Collins"
+      }
+    ],
+    "firstPublished": 2008,
+    "pages": 399,
+    "subjects": [
+      "severe poverty",
+      "starvation",
+      "oppression",
+      "effects of war",
+      "self-sacrifice",
+      "Science fiction",
+      "Apocalyptic fiction",
+      "Dystopian fiction",
+      "Fiction",
+      "Juvenile works",
+      "Novels",
+      "Young adult works"
+    ],
+    "coverId": 12646537,
+    "cover": "https://covers.openlibrary.org/b/id/12646537-M.jpg",
+    "description": "The Hunger Games is a 2008 dystopian novel by the American writer Suzanne Collins. It is written in the perspective of 16-year-old Katniss Everdeen, who lives in the future, post-apocalyptic nation of Panem in North America. The Capitol, a highly advanced metropolis, exercises political control over the rest of the nation. The Hunger Games is an annual event in which one boy and one girl aged 12–18 from each of the twelve districts surrounding the Capitol are selected by lottery to compete in a televised battle royale to the death.\r\n\r\nThe book received critical acclaim from major reviewers and",
+    "editionCount": 142,
+    "olRating": {
+      "average": 4.115028,
+      "count": 539
+    },
+    "adaptedAs": [
+      "The Hunger Games (2012)"
+    ]
+  },
+  "Harry Potter and the Goblet of Fire (J. K. Rowling)": {
+    "id": "b:OL82560W",
+    "olWork": "OL82560W",
+    "authors": [
+      {
+        "key": "OL23919A",
+        "name": "J. K. Rowling"
+      }
+    ],
+    "firstPublished": 2000,
+    "pages": 672,
+    "subjects": [
+      "orphans",
+      "foster homes",
+      "Waisenkind",
+      "Intrige",
+      "Wiederbelebung",
+      "Bewährung",
+      "Wettkampf",
+      "Junge",
+      "Sport",
+      "Rettung",
+      "Jugendbuch",
+      "Mord"
+    ],
+    "coverId": 12059372,
+    "cover": "https://covers.openlibrary.org/b/id/12059372-M.jpg",
+    "description": "The fourth book in the Harry Potter franchise sees Harry returning for his fourth year at Hogwarts School of Witchcraft and Wizardry, along with his friends, Ron and Hermione . There is an upcoming tournament between the three major schools of magic, with one participant selected from each school by the Goblet of Fire. When Harry's name is drawn, even though he is not eligible and is a fourth player, he must compete in the dangerous contest.\r\n\r\n\r\n----------\r\nContains:\r\n\r\n - [Harry Potter and the Goblet of Fire. 2/4](https://openlibrary.org/works/OL17910198W/Harry_Potter_and_the_Goblet_of_Fire.",
+    "editionCount": 242,
+    "olRating": {
+      "average": 4.2369943,
+      "count": 346
+    },
+    "adaptedAs": [
+      "Harry Potter and the Goblet of Fire (2005)"
+    ]
+  },
+  "Harry Potter and the Chamber of Secrets (J. K. Rowling)": {
+    "id": "b:OL82537W",
+    "olWork": "OL82537W",
+    "authors": [
+      {
+        "key": "OL23919A",
+        "name": "J. K. Rowling"
+      }
+    ],
+    "firstPublished": 1998,
+    "pages": 339,
+    "subjects": [
+      "series:Harry_Potter",
+      "Fantasy fiction",
+      "school stories",
+      "Fiction",
+      "Fantasy",
+      "Nestlé Smarties Book Prize winner",
+      "Juvenile fiction",
+      "Wizards",
+      "Magic",
+      "Schools",
+      "Spanish language materials",
+      "Magia"
+    ],
+    "coverId": 15158664,
+    "cover": "https://covers.openlibrary.org/b/id/15158664-M.jpg",
+    "description": "Throughout the summer holidays after his first year at Hogwarts School of Witchcraft and Wizardry, Harry Potter has been receiving sinister warnings from a house-elf called Dobby.\r\n\r\nNow, back at school to start his second year, Harry hears unintelligible whispers echoing through the corridors.\r\n\r\nBefore long the attacks begin: students are found as if turned to stone.\r\n\r\nDobby’s predictions seem to be coming true.\r\n\r\n[Source](https://chesserresources.com/doc/harry-potter-and-the-chamber-of-secrets-pdf/)",
+    "editionCount": 305,
+    "olRating": {
+      "average": 4.1798244,
+      "count": 456
+    },
+    "adaptedAs": [
+      "Harry Potter and the Chamber of Secrets (2002)"
+    ]
+  },
+  "Frankenstein; or, The Modern Prometheus (Mary Shelley)": {
+    "id": "b:OL450063W",
+    "olWork": "OL450063W",
+    "authors": [
+      {
+        "key": "OL25342A",
+        "name": "Mary Shelley"
+      }
+    ],
+    "firstPublished": 1818,
+    "pages": 240,
+    "subjects": [
+      "Frankenstein (Fictitious character)",
+      "Frankenstein's monster (Fictitious character)",
+      "Fiction",
+      "Victor Frankenstein (Fictitious character)",
+      "Scientists",
+      "Monsters",
+      "Fiction, horror",
+      "Frankenstein (fictitious character), fiction",
+      "Physicians, fiction",
+      "British fiction (fictional works by one author)",
+      "Scientists, fiction",
+      "Geneva (Switzerland), fiction"
+    ],
+    "coverId": 12356249,
+    "cover": "https://covers.openlibrary.org/b/id/12356249-M.jpg",
+    "description": "*Frankenstein; or, The Modern Prometheus* is an 1818 novel written by English author Mary Shelley. Frankenstein tells the story of Victor Frankenstein, a young scientist who creates a sapient creature in an unorthodox scientific experiment. Shelley started writing the story when she was 18, and the first edition was published anonymously in London on 1 January 1818, when she was 20. Her name first appeared in the second edition, which was published in Paris in 1821.",
+    "editionCount": 2187,
+    "olRating": {
+      "average": 3.9727273,
+      "count": 220
+    },
+    "adaptedAs": [
+      "Frankenstein (2025)"
+    ]
+  },
+  "King Lear (William Shakespeare)": {
+    "id": "b:OL259026W",
+    "olWork": "OL259026W",
+    "authors": [
+      {
+        "key": "OL9388A",
+        "name": "William Shakespeare"
+      }
+    ],
+    "firstPublished": 1608,
+    "pages": 193,
+    "subjects": [
+      "Drama",
+      "King Lear (Legendary character)",
+      "Fathers and daughters",
+      "Kings and rulers",
+      "Inheritance and succession",
+      "Britons",
+      "Aging parents",
+      "Stage history",
+      "Textual Criticism",
+      "Lear, King (Legendary character)",
+      "English literature",
+      "English Young adult drama"
+    ],
+    "coverId": 7420452,
+    "cover": "https://covers.openlibrary.org/b/id/7420452-M.jpg",
+    "description": "King Lear divides his kingdom among the two daughters who flatter him and banishes the third one who loves him. His eldest daughters both then reject him at their homes, so Lear goes mad and wanders through a storm. His banished daughter returns with an army, but they lose the battle and Lear, all his daughters and more, die.\r\n\r\n([source][1])\r\n\r\n\r\n  [1]: https://www.shakespeare.org.uk/explore-shakespeare/shakespedia/shakespeares-plays/king-lear/",
+    "editionCount": 1614,
+    "olRating": {
+      "average": 4,
+      "count": 20
+    },
+    "adaptedAs": [
+      "Ran (1985)"
+    ]
+  },
+  "The Shining (Stephen King)": {
+    "id": "b:OL81633W",
+    "olWork": "OL81633W",
+    "authors": [
+      {
+        "key": "OL19981A",
+        "name": "Stephen King"
+      }
+    ],
+    "firstPublished": 1977,
+    "pages": 506,
+    "subjects": [
+      "Fiction",
+      "horror fiction",
+      "demonology",
+      "precognition",
+      "authors",
+      "hotelkeepers",
+      "gothic & horror",
+      "paranormal fiction suspense & thriller",
+      "horror",
+      "supernatural thrillers",
+      "ghost fiction",
+      "horror tales"
+    ],
+    "coverId": 12376585,
+    "cover": "https://covers.openlibrary.org/b/id/12376585-M.jpg",
+    "description": "The Shining is a 1977 horror novel by American author Stephen King. It is King's third published novel and first hardback bestseller; its success firmly established King as a preeminent author in the horror genre. The setting and characters are influenced by King's personal experiences, including both his visit to The Stanley Hotel in 1974 and his struggle with alcoholism. The book was followed by a sequel, Doctor Sleep, published in 2013.\r\n\r\nThe Shining centers on the life of Jack Torrance, a struggling writer and recovering alcoholic who accepts a position as the off-season caretaker of the ",
+    "editionCount": 97,
+    "olRating": {
+      "average": 4.1702127,
+      "count": 282
+    },
+    "adaptedAs": [
+      "The Shining (1980)"
+    ]
+  },
+  "It (Stephen King)": {
+    "id": "b:OL81613W",
+    "olWork": "OL81613W",
+    "authors": [
+      {
+        "key": "OL19981A",
+        "name": "Stephen King"
+      }
+    ],
+    "firstPublished": 1986,
+    "pages": 1168,
+    "subjects": [
+      "coming of age",
+      "thrillers",
+      "suspense",
+      "horror",
+      "Schwinn bicycles",
+      "catatonia",
+      "homosexuality",
+      "blood oaths",
+      "Omniscience",
+      "mummies",
+      "lepers",
+      "ghosts"
+    ],
+    "coverId": 8569284,
+    "cover": "https://covers.openlibrary.org/b/id/8569284-M.jpg",
+    "description": "\"*It*\" is a 1986 horror novel by American author Stephen King. \"*It*\" was his 22nd book and his 17th novel written under his own name. The story follows the experiences of seven children as they are terrorized by an evil entity that exploits the fears of its victims to disguise itself while hunting its prey. \"*It*\" primarily appears in the form of Pennywise the Dancing Clown to attract its preferred prey of young children.\r\n\r\nThe novel won the British Fantasy Award in 1987, and received nominations for the Locus and World Fantasy Awards that same year.\r\n\r\nIn 2003, \"*It*\" was listed at number 1",
+    "editionCount": 95,
+    "olRating": {
+      "average": 4.0914636,
+      "count": 492
+    },
+    "adaptedAs": [
+      "It (2017)"
+    ]
+  },
+  "Shutter Island (Dennis Lehane)": {
+    "id": "b:OL17200W",
+    "olWork": "OL17200W",
+    "authors": [
+      {
+        "key": "OL23294A",
+        "name": "Dennis Lehane"
+      }
+    ],
+    "firstPublished": 2003,
+    "pages": 385,
+    "subjects": [
+      "United States marshals",
+      "Fiction",
+      "Psychiatric hospital patients",
+      "Brainwashing",
+      "Drug testing",
+      "Eugenics",
+      "Islands",
+      "American fiction",
+      "Fiction, psychological",
+      "Massachusetts, fiction",
+      "Fiction, thrillers, suspense",
+      "Large type books"
+    ],
+    "coverId": 28990,
+    "cover": "https://covers.openlibrary.org/b/id/28990-M.jpg",
+    "description": "U.S. Marshal Teddy Daniels and his partner, Chuck Aule, come to Shutter Island's Ashcliffe Hospital in search of an escaped mental patient, but uncover true wickedness as Ashcliffe's mysterious patient treatments propel them to the brink of insanity.",
+    "editionCount": 64,
+    "olRating": {
+      "average": 4.1,
+      "count": 20
+    },
+    "adaptedAs": [
+      "Shutter Island (2010)"
+    ]
+  },
+  "Jurassic Park (Michael Crichton)": {
+    "id": "b:OL46881W",
+    "olWork": "OL46881W",
+    "authors": [
+      {
+        "key": "OL28257A",
+        "name": "Michael Crichton"
+      }
+    ],
+    "firstPublished": 1990,
+    "pages": 455,
+    "subjects": [
+      "dichogamy",
+      "corporate espionage",
+      "science fiction",
+      "cautionary tale",
+      "genetic engineering",
+      "amusement parks",
+      "dinosaurs",
+      "chaos theory",
+      "Procompsognathus",
+      "paleontologists",
+      "paleobotanists",
+      "theme parks"
+    ],
+    "coverId": 12882940,
+    "cover": "https://covers.openlibrary.org/b/id/12882940-M.jpg",
+    "description": "Jurassic Park is a 1990 science fiction novel written by Michael Crichton. A cautionary tale about genetic engineering, it presents the collapse of an amusement park showcasing genetically re-created dinosaurs to illustrate the mathematical concept of chaos theory and its real-world implications. A sequel titled The Lost World, also written by Crichton, was published in 1995. In 1997, both novels were re-published as a single book titled Michael Crichton's Jurassic World. In 1996 it was awarded the Secondary BILBY Award.\r\n\r\nAlso contained in:\r\n[Congo/Jurassic Park](https://openlibrary.org/work",
+    "editionCount": 93,
+    "olRating": {
+      "average": 4.1809044,
+      "count": 199
+    },
+    "adaptedAs": [
+      "Jurassic Park (1993)"
+    ]
+  },
+  "Fight Club (Chuck Palahniuk)": {
+    "id": "b:OL18941W",
+    "olWork": "OL18941W",
+    "authors": [
+      {
+        "key": "OL24312A",
+        "name": "Chuck Palahniuk"
+      }
+    ],
+    "firstPublished": 1996,
+    "pages": 222,
+    "subjects": [
+      "Fiction",
+      "Millennialism",
+      "Young men",
+      "Science fiction",
+      "open_syllabus_project",
+      "Hand-to-hand fighting",
+      "Gangs",
+      "Self-destructive behavior",
+      "Boxing",
+      "Aggressiveness",
+      "Fiction, general",
+      "United states, fiction"
+    ],
+    "coverId": 7890578,
+    "cover": "https://covers.openlibrary.org/b/id/7890578-M.jpg",
+    "description": "A man who struggles with insomnia meets a colorful extremist, and they create a secret organization together.\r\n\r\nChuck Palahniuk showed himself to be his generation’s most visionary satirist in this, his first book. Fight Club’s estranged narrator leaves his lackluster job when he comes under the thrall of Tyler Durden, an enigmatic young man who holds secret after-hours boxing matches in the basement of bars. There, two men fight \"as long as they have to.\" This is a gloriously original work that exposes the darkness at the core of our modern world.",
+    "editionCount": 40,
+    "olRating": {
+      "average": 4,
+      "count": 136
+    },
+    "adaptedAs": [
+      "Fight Club (1999)"
+    ]
+  },
+  "Roadside Picnic (Arkady and Boris Strugatsky)": {
+    "id": "b:OL7967812W",
+    "olWork": "OL7967812W",
+    "authors": [
+      {
+        "key": "OL182660A",
+        "name": "Аркадий Стругацкий"
+      },
+      {
+        "key": "OL3121035A",
+        "name": "Борис Стругацкий"
+      },
+      {
+        "key": "OL14432725A",
+        "name": "Arkady and Boris Strugatsky"
+      }
+    ],
+    "firstPublished": 1978,
+    "pages": 170,
+    "subjects": [
+      "science fiction",
+      "Russian science fiction",
+      "alien visitation",
+      "anomalies",
+      "Russian fiction",
+      "Fiction, science fiction, general"
+    ],
+    "coverId": 6752719,
+    "cover": "https://covers.openlibrary.org/b/id/6752719-M.jpg",
+    "description": "[Comment by Hari Kunru in The Guardian][1]:\r\n\r\n> Soviet-era Russian science fiction deserves a wider audience in English. The Strugatsky brothers collaborated on numerous novels and stories, the best known of which is this, partly because it was filmed by Andrei Tarkovsky as Stalker, in 1977. The novel takes place 10 years after a mysterious alien visitation, which seems to have no rational explanation. No one saw the visitors. Their presence caused disease and blindness in the areas where they landed. Now, in the six \"Zones\", the laws of physics (and, seemingly, of reality) are disturbed by a",
+    "editionCount": 22,
+    "olRating": {
+      "average": 4.3098593,
+      "count": 71
+    },
+    "adaptedAs": [
+      "Stalker (1979)"
+    ]
+  },
+  "The Silence of the Lambs (Thomas Harris)": {
+    "id": "b:OL23481W",
+    "olWork": "OL23481W",
+    "authors": [
+      {
+        "key": "OL2032671A",
+        "name": "Thomas Harris"
+      }
+    ],
+    "firstPublished": 1988,
+    "pages": 352,
+    "subjects": [
+      "lambs",
+      "black witch moth",
+      "autopsy",
+      "pupa",
+      "offender profiling",
+      "forensic psychiatry",
+      "Federal Bureau of Investigation",
+      "Fiction",
+      "Government investigators",
+      "Psychology",
+      "Serial murderers",
+      "Serial murders"
+    ],
+    "coverId": 8580475,
+    "cover": "https://covers.openlibrary.org/b/id/8580475-M.jpg",
+    "description": "The Silence of the Lambs is a psychological horror novel by Thomas Harris. First published in 1988, it is the sequel to Harris's 1981 novel Red Dragon. Both novels feature the cannibalistic serial killer Dr. Hannibal Lecter, this time pitted against FBI Special Agent Clarice Starling. \r\n\r\nThe novel won the 1988 Bram Stoker Award for Best Novel.\r\nThe novel also won the 1989 Anthony Award for Best Novel.\r\nIt was nominated for the 1989 World Fantasy Award.\r\n----------\r\nAlso contained in:\r\n\r\n - [Red Dragon / The Silence of the Lambs](https://openlibrary.org/works/OL138391W)",
+    "editionCount": 72,
+    "olRating": {
+      "average": 4.22,
+      "count": 50
+    },
+    "adaptedAs": [
+      "The Silence of the Lambs (1991)"
+    ]
+  },
+  "Shrek! (William Steig)": {
+    "id": "b:OL22324W",
+    "olWork": "OL22324W",
+    "authors": [
+      {
+        "key": "OL24757A",
+        "name": "William Steig"
+      }
+    ],
+    "firstPublished": 1990,
+    "pages": 32,
+    "subjects": [
+      "Monsters",
+      "Fiction",
+      "Children's fiction",
+      "Monsters, fiction",
+      "Humorous stories",
+      "Juvenile fiction",
+      "Ugliness",
+      "Accelerated reader",
+      "Children: Grades 2-3",
+      "Ghouls and ogres -- Pictorial works -- Juvenile fiction",
+      "Ghouls and ogres"
+    ],
+    "coverId": 6302874,
+    "cover": "https://covers.openlibrary.org/b/id/6302874-M.jpg",
+    "description": "Horribly hideous Shrek leaves home and terrifies everyone he encounters in his search for his equally ugly bride.",
+    "editionCount": 37,
+    "olRating": {
+      "average": 4,
+      "count": 7
+    },
+    "adaptedAs": [
+      "Shrek (2001)"
+    ]
+  },
+  "City of God (Paulo Lins)": {
+    "id": "b:OL1756960W",
+    "olWork": "OL1756960W",
+    "authors": [
+      {
+        "key": "OL204219A",
+        "name": "Paulo Lins"
+      }
+    ],
+    "firstPublished": 2006,
+    "pages": 440,
+    "subjects": [
+      "Fiction",
+      "Fiction, action & adventure",
+      "Brazil, fiction"
+    ],
+    "coverId": 569656,
+    "cover": "https://covers.openlibrary.org/b/id/569656-M.jpg",
+    "description": null,
+    "editionCount": 2,
+    "olRating": {
+      "average": null,
+      "count": 0
+    },
+    "adaptedAs": [
+      "City of God (2002)"
+    ]
+  },
+  "The Double (José Saramago)": {
+    "id": "b:OL7923009W",
+    "olWork": "OL7923009W",
+    "authors": [
+      {
+        "key": "OL3112635A",
+        "name": "José Saramago"
+      }
+    ],
+    "firstPublished": 2002,
+    "pages": 324,
+    "subjects": [
+      "Fiction, psychological",
+      "Fiction",
+      "Doppelgängers",
+      "Identity (Psychology)",
+      "Identidad",
+      "Novela",
+      "Continental european fiction (fictional works by one author)",
+      "Literature",
+      "Translations into English",
+      "Doppelgèangers"
+    ],
+    "coverId": 4952270,
+    "cover": "https://covers.openlibrary.org/b/id/4952270-M.jpg",
+    "description": "A divorced, depressed history teacher becomes obsessed with pursuing a man who looks exactly like he did five years ago after seeing him in a video recommended by a friend.",
+    "editionCount": 14,
+    "olRating": {
+      "average": 1,
+      "count": 1
+    },
+    "adaptedAs": [
+      "Enemy (2013)"
+    ]
+  },
+  "Scott Pilgrim (Bryan Lee O'Malley)": {
+    "id": "b:OL17481869W",
+    "olWork": "OL17481869W",
+    "authors": [
+      {
+        "key": "OL1438837A",
+        "name": "Bryan Lee O'Malley"
+      }
+    ],
+    "firstPublished": 2010,
+    "pages": 1212,
+    "subjects": [
+      "Comics & graphic novels, general"
+    ],
+    "coverId": 7665555,
+    "cover": "https://covers.openlibrary.org/b/id/7665555-M.jpg",
+    "description": null,
+    "editionCount": 10,
+    "olRating": {
+      "average": 4,
+      "count": 1
+    },
+    "adaptedAs": [
+      "Scott Pilgrim vs. the World (2010)"
+    ]
+  },
+  "Psycho (Robert Bloch)": {
+    "id": "b:OL6395593W",
+    "olWork": "OL6395593W",
+    "authors": [
+      {
+        "key": "OL1684660A",
+        "name": "Robert Bloch"
+      }
+    ],
+    "firstPublished": 1959,
+    "pages": 185,
+    "subjects": [
+      "Horror fiction",
+      "Psychological Thrillers",
+      "Madness in Fiction",
+      "Fiction",
+      "Fiction, horror",
+      "Bates, norman (fictitious character), fiction",
+      "Norman Bates (Fictitious character)",
+      "Hotelkeepers",
+      "Murderers",
+      "Large type books"
+    ],
+    "coverId": 477808,
+    "cover": "https://covers.openlibrary.org/b/id/477808-M.jpg",
+    "description": "Norman Bates runs an old roadside motel when a beautiful woman running away from it all gets more than she bargained for when renting a room for the night.",
+    "editionCount": 27,
+    "olRating": {
+      "average": 4,
+      "count": 12
+    },
+    "adaptedAs": [
+      "Psycho (1960)"
+    ]
+  },
+  "Old Boy (Garon Tsuchiya, Nobuaki Minegishi)": {
+    "id": "b:OL8988716W",
+    "olWork": "OL8988716W",
+    "authors": [
+      {
+        "key": "OL3123001A",
+        "name": "Garon Tsuchiya"
+      }
+    ],
+    "firstPublished": 2006,
+    "pages": 209,
+    "subjects": [
+      "Comic books, strips",
+      "Fiction",
+      "Revenge",
+      "False imprisonment",
+      "Comics & graphic novels, crime & mystery",
+      "Comics & graphic novels, general",
+      "Comics & graphic novels, manga, crime & mystery",
+      "Graphic novels"
+    ],
+    "coverId": 12917974,
+    "cover": "https://covers.openlibrary.org/b/id/12917974-M.jpg",
+    "description": "Imprisoned for a decade without trial or explanation -- and then released just as unceremoniously -- and now warmed with a cell phone that his former torturer has provided for him, will Goto be able to hunt down the truth behind his decade in hell, or will he become even more his tormentor's plaything? No doubt, Goto's adversary still has a few surprises in store, and if Goto wants answers, he'll have to fight like the devil to get them.",
+    "editionCount": 8,
+    "olRating": {
+      "average": null,
+      "count": 0
+    },
+    "adaptedAs": [
+      "Oldboy (2003)"
+    ]
+  },
+  "The Devil Wears Prada (Lauren Weisberger)": {
+    "id": "b:OL15137662W",
+    "olWork": "OL15137662W",
+    "authors": [
+      {
+        "key": "OL1427597A",
+        "name": "Lauren Weisberger"
+      }
+    ],
+    "firstPublished": 2004,
+    "pages": 360,
+    "subjects": [
+      "Fashion editors",
+      "Women editors",
+      "Open Library Staff Picks",
+      "Periodicals",
+      "Fiction",
+      "Supervisors",
+      "Publishing",
+      "Humorous fiction",
+      "Humorous stories",
+      "Young women, fiction",
+      "New york (n.y.), fiction",
+      "Fiction, humorous, general"
+    ],
+    "coverId": 6490195,
+    "cover": "https://covers.openlibrary.org/b/id/6490195-M.jpg",
+    "description": null,
+    "editionCount": 1,
+    "olRating": {
+      "average": null,
+      "count": 0
+    },
+    "adaptedAs": [
+      "The Devil Wears Prada (2006)"
+    ]
+  },
+  "The Sentinel (Arthur C. Clarke)": {
+    "id": "b:OL17382W",
+    "olWork": "OL17382W",
+    "authors": [
+      {
+        "key": "OL2623461A",
+        "name": "Arthur C. Clarke"
+      }
+    ],
+    "firstPublished": 1983,
+    "pages": 303,
+    "subjects": [
+      "English Fantasy fiction",
+      "English Science fiction",
+      "Fiction",
+      "Science Fiction",
+      "Short Stories",
+      "Fiction, general",
+      "Interplanetary voyages",
+      "Meteors",
+      "Extraterrestrial beings",
+      "Noncitizens",
+      "Fantasy fiction",
+      "Fiction, fantasy, general"
+    ],
+    "coverId": 478756,
+    "cover": "https://covers.openlibrary.org/b/id/478756-M.jpg",
+    "description": "From the Introduction...\r\n\r\nToday's readers are indeed fortunate; this really is the Golden Age of science fiction. There are dozens of authors at work today who can match all but the giants of the past.  (And probably one who can do even that, despite the handicap of being translated  from Polish. . . ) Yet I do not really envy the young men and women who first encounter science fiction as the days shorten towards 1984, for we old-timers were able to accomplish something that was unique. \r\n\r\n   Ours was the last generation that was able to read everything. No one will ever do that again. \r\n\r\n",
+    "editionCount": 9,
+    "olRating": {
+      "average": 4.5,
+      "count": 6
+    },
+    "adaptedAs": [
+      "2001: A Space Odyssey (1968)"
+    ]
+  },
+  "\"—All You Zombies—\" (Robert A. Heinlein)": {
+    "id": "b:OL24733950W",
+    "olWork": "OL24733950W",
+    "authors": [
+      {
+        "key": "OL28641A",
+        "name": "Robert A. Heinlein"
+      }
+    ],
+    "firstPublished": 2014,
+    "pages": 1,
+    "subjects": [],
+    "coverId": 11468658,
+    "cover": "https://covers.openlibrary.org/b/id/11468658-M.jpg",
+    "description": null,
+    "editionCount": 2,
+    "olRating": {
+      "average": null,
+      "count": 0
+    },
+    "adaptedAs": [
+      "Predestination (2014)"
+    ]
+  },
+  "Encounter in the Dawn (Arthur C. Clarke)": {
+    "unmatched": true
+  },
+  "Oil! (Upton Sinclair)": {
+    "id": "b:OL115071W",
+    "olWork": "OL115071W",
+    "authors": [
+      {
+        "key": "OL19024A",
+        "name": "Upton Sinclair"
+      }
+    ],
+    "firstPublished": 1927,
+    "pages": 527,
+    "subjects": [
+      "Fiction",
+      "Petroleum industry and trade",
+      "Petroleum industry and trade in fiction",
+      "Southern california in fiction",
+      "Motion picture industry",
+      "Motion picture industry in fiction",
+      "Drama",
+      "California in fiction",
+      "Classic Literature",
+      "Historical Fiction",
+      "Literature",
+      "Government policy"
+    ],
+    "coverId": 12725457,
+    "cover": "https://covers.openlibrary.org/b/id/12725457-M.jpg",
+    "description": "Sinclair's 1927 novel did for California's oil industry what The Jungle did for Chicago's meat-packing factories. In Oil! Upton Sinclair fashioned a novel out of the oil scandals of the Harding administration, providing in the process a detailed picture of the development of the oil industry in Southern California. Bribery of public officials, class warfare, and international rivalry over oil production are the context for Sinclair's story of a genial independent oil developer and his son, whose sympathy with the oilfield workers and socialist organizers fuels a running debate with his father.",
+    "editionCount": 58,
+    "olRating": {
+      "average": 4.3333335,
+      "count": 6
+    },
+    "adaptedAs": [
+      "There Will Be Blood (2007)"
+    ]
+  },
+  "Queen Bees and Wannabes (Rosalind Wiseman)": {
+    "id": "b:OL3473412W",
+    "olWork": "OL3473412W",
+    "authors": [
+      {
+        "key": "OL579001A",
+        "name": "Rosalind Wiseman"
+      }
+    ],
+    "firstPublished": 2002,
+    "pages": 352,
+    "subjects": [
+      "Teenage girls",
+      "Parent and teenager",
+      "Family & Relationships",
+      "Nonfiction",
+      "Psychology",
+      "Parent-Child Relations",
+      "Adolescent Psychology",
+      "Adolescentes",
+      "Peer Group",
+      "Interpersonal Relations",
+      "Psychologie",
+      "Adolescent"
+    ],
+    "coverId": 745647,
+    "cover": "https://covers.openlibrary.org/b/id/745647-M.jpg",
+    "description": "\"My daughter used to be so wonderful. Now I can barely stand her and she won't tell me anything. How can I find out what's going on?\"\"There's a clique in my daughter's grade that's making her life miserable. She doesn't want to go to school anymore. Her own supposed friends are turning on her, and she's too afraid to do anything. What can I do?\"Welcome to the wonderful world of your daughter's adolescence. A world in which she comes to school one day to find that her friends have suddenly decided that she no longer belongs. Or she's teased mercilessly for wearing the wrong outfit or having the",
+    "editionCount": 13,
+    "olRating": {
+      "average": 3.3333333,
+      "count": 3
+    },
+    "adaptedAs": [
+      "Mean Girls (2004)"
+    ]
+  },
+  "Three-Ten to Yuma (Elmore Leonard)": {
+    "id": "b:OL111653W",
+    "olWork": "OL111653W",
+    "authors": [
+      {
+        "key": "OL18978A",
+        "name": "Elmore Leonard"
+      }
+    ],
+    "firstPublished": 1975,
+    "pages": 193,
+    "subjects": [
+      "Fiction",
+      "Western stories",
+      "Short stories",
+      "Fiction, short stories (single author)",
+      "Fiction, westerns"
+    ],
+    "coverId": 45718,
+    "cover": "https://covers.openlibrary.org/b/id/45718-M.jpg",
+    "description": "Trust was rare and precious in the wide-open towns that sprung up like weeds on America's frontier—with hustlers and hucksters arriving in droves by horse, coach, wagon, and rail, and gunmen working both sides of the law, all too eager to end a man's life with a well-placed bullet. The New York Times-bestselling Grand Master of suspense deftly displays the other side of his genius, with seven classic western tales of destiny and fatal decision . . . and trust as essential to survival as it is hard-earned.",
+    "editionCount": 12,
+    "olRating": {
+      "average": null,
+      "count": 0
+    },
+    "adaptedAs": [
+      "3:10 to Yuma (2007)"
+    ]
+  },
+  "Catch Me If You Can (Frank Abagnale, Jr.)": {
+    "id": "b:OL8261586W",
+    "olWork": "OL8261586W",
+    "authors": [
+      {
+        "key": "OL2629745A",
+        "name": "Frank Abagnale"
+      }
+    ],
+    "firstPublished": 1989,
+    "pages": null,
+    "subjects": [
+      "Impostors and imposture",
+      "Fraud",
+      "Swindlers and swindling",
+      "Biography",
+      "TRUE CRIME",
+      "Hoaxes & Deceptions"
+    ],
+    "coverId": 4650043,
+    "cover": "https://covers.openlibrary.org/b/id/4650043-M.jpg",
+    "description": null,
+    "editionCount": 3,
+    "olRating": {
+      "average": 2,
+      "count": 1
+    },
+    "adaptedAs": [
+      "Catch Me If You Can (2002)"
+    ]
+  },
+  "Annihilation (Jeff VanderMeer)": {
+    "id": "b:OL17268007W",
+    "olWork": "OL17268007W",
+    "authors": [
+      {
+        "key": "OL359235A",
+        "name": "Jeff VanderMeer"
+      }
+    ],
+    "firstPublished": 2014,
+    "pages": 208,
+    "subjects": [
+      "Nebula Award Winner",
+      "award:nebula_award=novel",
+      "award:nebula_award=2015",
+      "Discoveries in geography",
+      "Fiction",
+      "Scientists",
+      "Science-Fiction",
+      "Suspense fiction",
+      "Paranormal fiction",
+      "Women scientists",
+      "Science fiction",
+      "Fantasy fiction"
+    ],
+    "coverId": 8408974,
+    "cover": "https://covers.openlibrary.org/b/id/8408974-M.jpg",
+    "description": "Area X has been cut off from the rest of the continent for decades. Nature has reclaimed the last vestiges of human civilization. The twelfth expedition arrives expecting the unexpected, and Area X delivers. They discover a massive topographic anomaly and life-forms that surpass understanding. But it's the surprises that came across the border with them, and the secrets the expedition members are keeping from one another that change everything.",
+    "editionCount": 26,
+    "olRating": {
+      "average": 3.61,
+      "count": 100
+    },
+    "adaptedAs": [
+      "Annihilation (2018)"
+    ]
+  },
+  "The Wolf of Wall Street (Jordan Belfort)": {
+    "id": "b:OL8383186W",
+    "olWork": "OL8383186W",
+    "authors": [
+      {
+        "key": "OL2793341A",
+        "name": "Jordan Belfort"
+      }
+    ],
+    "firstPublished": 2007,
+    "pages": 522,
+    "subjects": [
+      "Business",
+      "Stockbrokers",
+      "Securities industry",
+      "Nonfiction",
+      "Biography",
+      "Corrupt practices",
+      "Brokers",
+      "Wall street (new york, n.y.)",
+      "New york (n.y.), biography",
+      "nyt:e-book-nonfiction=2013-07-14",
+      "New York Times bestseller"
+    ],
+    "coverId": 374261,
+    "cover": "https://covers.openlibrary.org/b/id/374261-M.jpg",
+    "description": "By day he made thousands of dollars a minute. By night he spent it as fast as he could, on drugs, sex, and international globe-trotting. From the binge that sank a 170-foot motor yacht, crashed a Gulfstream jet, and ran up a $700,000 hotel tab, to the wife and kids who waited for him at home, and the fast-talking, hard-partying young stockbrokers who called him king and did his bidding, here, in his own inimitable words, is the story of the ill-fated genius they called...In the 1990s Jordan Belfort, former kingpin of the notorious investment firm Stratton Oakmont, became one of the most infamo",
+    "editionCount": 5,
+    "olRating": {
+      "average": 4.6666665,
+      "count": 3
+    },
+    "adaptedAs": [
+      "The Wolf of Wall Street (2013)"
+    ]
+  },
+  "The Monkey (Stephen King)": {
+    "id": "b:OL149146W",
+    "olWork": "OL149146W",
+    "authors": [
+      {
+        "key": "OL19981A",
+        "name": "Stephen King"
+      }
+    ],
+    "firstPublished": 1989,
+    "pages": null,
+    "subjects": [
+      "Cymbal-banging monkey toys",
+      "magic"
+    ],
+    "coverId": null,
+    "cover": null,
+    "description": "Also contained in:\r\n\r\n - [Fantasy Annual IV](https://openlibrary.org/works/OL16056096W/Fantasy_Annual_IV)\r\n - [Horrors](https://openlibrary.org/works/OL16023383W/Horrors)\r\n - [Modern Masters of Horror](https://openlibrary.org/works/OL2285553W/Modern_Masters_of_Horror)\r\n - [Short Stories](https://openlibrary.org/works/OL14917392W/Short_Stories_(Monkey_Mrs._Todd's_Shortcut)\r\n - [Skeleton Crew](https://openlibrary.org/works/OL149161W/Skeleton_Crew)",
+    "editionCount": 2,
+    "olRating": {
+      "average": 5,
+      "count": 1
+    },
+    "adaptedAs": [
+      "The Monkey (2025)"
+    ]
+  },
+  "Elvis and Me (Priscilla Presley)": {
+    "id": "b:OL5110680W",
+    "olWork": "OL5110680W",
+    "authors": [
+      {
+        "key": "OL1125971A",
+        "name": "Priscilla Beaulieu Presley"
+      }
+    ],
+    "firstPublished": 1985,
+    "pages": 320,
+    "subjects": [
+      "Biography",
+      "Rock musicians",
+      "Rock musicians' spouses",
+      "Popmuziek",
+      "Biographie",
+      "Autobiographie",
+      "Presley, elvis, 1935-1977",
+      "Singers",
+      "Rock music"
+    ],
+    "coverId": 9736400,
+    "cover": "https://covers.openlibrary.org/b/id/9736400-M.jpg",
+    "description": "Elvis and Me is a 1985 biography written by Priscilla Presley with Sandra Harmon. In the book, Priscilla talks about meeting Elvis Presley, their marriage, and the factors and issues that led to the couple's divorce.",
+    "editionCount": 7,
+    "olRating": {
+      "average": 4.882353,
+      "count": 17
+    },
+    "adaptedAs": [
+      "Priscilla (2023)"
+    ]
+  },
+  "Bullet Train (Kōtarō Isaka)": {
+    "id": "b:OL24375262W",
+    "olWork": "OL24375262W",
+    "authors": [
+      {
+        "key": "OL6571692A",
+        "name": "Kōtarō Isaka"
+      }
+    ],
+    "firstPublished": 2021,
+    "pages": 528,
+    "subjects": [
+      "Crimen organizado",
+      "Crimen y criminales",
+      "Teenage boys",
+      "Fiction",
+      "Psychopaths",
+      "Assassins",
+      "Coma",
+      "Patients",
+      "Family relationships",
+      "High speed trains"
+    ],
+    "coverId": 10906172,
+    "cover": "https://covers.openlibrary.org/b/id/10906172-M.jpg",
+    "description": "Cinco asesinos, una recompensa.\r\n¿Quién llegará al final del trayecto con vida?\r\n\r\nNanao, conocido como «el asesino más desafortunado del gremio», sube a un tren bala de Tokio a Morioka con una sencilla tarea: robar una maleta y bajarse en la siguiente estación.\r\n\r\nSin que él lo sepa, el mortífero dúo de sicarios conocidos como Mandarina y Limón también busca la misma maleta, y ellos no son los únicos pasajeros peligrosos a bordo. Satoshi, «el Príncipe», un joven de apenas catorce años pero con la mente de un psicópata despiadado, se encontrará con Kimura, con quien tiene una cuenta que saldar",
+    "editionCount": 18,
+    "olRating": {
+      "average": 4.6,
+      "count": 5
+    },
+    "adaptedAs": [
+      "Bullet Train (2022)"
+    ]
+  },
+  "The Ballad of Songbirds and Snakes (Suzanne Collins)": {
+    "id": "b:OL20716197W",
+    "olWork": "OL20716197W",
+    "authors": [
+      {
+        "key": "OL1394359A",
+        "name": "Suzanne Collins"
+      }
+    ],
+    "firstPublished": 2020,
+    "pages": 528,
+    "subjects": [
+      "Snow",
+      "Panem",
+      "Hunger Games",
+      "Young adult fiction, science fiction, general",
+      "Young adult fiction, action & adventure, survival stories",
+      "Young adult fiction, dystopian",
+      "The Ballad Of Songbirds And Snakes",
+      "New York Times reviewed",
+      "Science fiction",
+      "Serie:The_Hunger_Games",
+      "Juegos del hambre",
+      "Interpersonal relations"
+    ],
+    "coverId": 14421833,
+    "cover": "https://covers.openlibrary.org/b/id/14421833-M.jpg",
+    "description": "Ambition will fuel him.\r\nCompetition will drive him.\r\nBut power has its price.\r\n \r\nIt is the morning of the reaping that will kick off the tenth annual Hunger Games. In the Capitol, eighteen-year-old Coriolanus Snow is preparing for his one shot at glory as a mentor in the Games. The once-mighty house of Snow has fallen on hard times, its fate hanging on the slender chance that Coriolanus will be able to outcharm, outwit, and outmaneuver his fellow students to mentor the winning tribute.\r\n \r\nThe odds are against him. He’s been given the humiliating assignment of mentoring the female tribute fr",
+    "editionCount": 34,
+    "olRating": {
+      "average": 4.2608695,
+      "count": 46
+    },
+    "adaptedAs": [
+      "The Hunger Games: The Ballad of Songbirds & Snakes (2023)"
+    ]
+  },
+  "Caught Stealing (Charlie Huston)": {
+    "id": "b:OL5732047W",
+    "olWork": "OL5732047W",
+    "authors": [
+      {
+        "key": "OL1393624A",
+        "name": "Charlie Huston"
+      }
+    ],
+    "firstPublished": 2004,
+    "pages": 240,
+    "subjects": [
+      "Fiction",
+      "Organized crime",
+      "Organized crime in fiction",
+      "Russian American criminals in fiction",
+      "Suspense fiction",
+      "Bartenders in fiction",
+      "Russian American criminals",
+      "Bartenders",
+      "Suspense",
+      "Thriller",
+      "Fiction, thrillers, general",
+      "New york (n.y.), fiction"
+    ],
+    "coverId": 211164,
+    "cover": "https://covers.openlibrary.org/b/id/211164-M.jpg",
+    "description": "It's three thousand miles from the green fields of glory, where Henry \"call me Hank\" Thompson once played California baseball, to the Lower East Side of Manhattan, where the tenements are old, the rents are high, and the drunks are dirty. But now Hank is here, working as a bartender and taking care of a cat named Bud who is surely going to get him killed.It begins when Hank's neighbor, Russ, has to leave town in a rush and hands over Bud in a carrier. But it isn't until two Russians in tracksuits drag Hank over the bar at the joint where he works and beat him to a pulp that he starts to get th",
+    "editionCount": 4,
+    "olRating": {
+      "average": 3,
+      "count": 1
+    },
+    "adaptedAs": [
+      "Caught Stealing (2025)"
+    ]
+  },
+  "The Wild Robot (Peter Brown)": {
+    "id": "b:OL17365087W",
+    "olWork": "OL17365087W",
+    "authors": [
+      {
+        "key": "OL1388278A",
+        "name": "Peter Brown"
+      }
+    ],
+    "firstPublished": 2016,
+    "pages": 286,
+    "subjects": [
+      "Juvenile Fiction",
+      "juvenile literature",
+      "Animals",
+      "JUVENILE FICTION / Robots",
+      "JUVENILE FICTION / Animals / Bears",
+      "Robots",
+      "Fiction",
+      "JUVENILE FICTION / Animals / General",
+      "JUVENILE FICTION / Action & Adventure / Survival Stories",
+      "Islands",
+      "Friendship",
+      "Survival"
+    ],
+    "coverId": 7443301,
+    "cover": "https://covers.openlibrary.org/b/id/7443301-M.jpg",
+    "description": "When robot Roz opens her eyes for the first time, she discovers that she is alone on a remote, wild island. She has no idea how she got there or what her purpose is--but she knows she needs to survive. After battling a fierce storm and escaping a vicious bear attack, she realizes that her only hope for survival is to adapt to her surroundings and learn from the island's unwelcoming animal inhabitants.\r\n\r\nAs Roz slowly befriends the animals, the island starts to feel like home--until, one day, the robot's mysterious past comes back to haunt her.",
+    "editionCount": 19,
+    "olRating": {
+      "average": 4.352941,
+      "count": 34
+    },
+    "adaptedAs": [
+      "The Wild Robot (2024)"
+    ]
+  },
+  "Dracula (Bram Stoker)": {
+    "id": "b:OL85892W",
+    "olWork": "OL85892W",
+    "authors": [
+      {
+        "key": "OL31727A",
+        "name": "Bram Stoker"
+      }
+    ],
+    "firstPublished": 1897,
+    "pages": 384,
+    "subjects": [
+      "English literature",
+      "Fiction",
+      "Horror",
+      "Horror stories",
+      "Horror tales",
+      "Monsters",
+      "Thriller",
+      "Vampires",
+      "Vampires in literature",
+      "Horror fiction",
+      "Irish authors",
+      "Epistolary novels"
+    ],
+    "coverId": 12216503,
+    "cover": "https://covers.openlibrary.org/b/id/12216503-M.jpg",
+    "description": "Na história, um casal e seus amigos são atormentados por Conde Drácula, uma entidade sobrenatural e hematófoga que, presa em uma maldição contagiosa, pretende se mudar de seu recluso castelo na Transilvânia para a efervescente Londres do século XIX. Com a ajuda do professor Van Helsing, o grupo de amigos pretende enfrentar o morto-vivo, mesmo com todos os perigos que a ofensiva trará.",
+    "editionCount": 1917,
+    "olRating": {
+      "average": 3.9747899,
+      "count": 238
+    },
+    "adaptedAs": [
+      "Nosferatu (1922)",
+      "Nosferatu (2024)"
+    ]
+  },
+  "Barbie (Ruth Handler)": {
+    "id": "b:OL35622007W",
+    "olWork": "OL35622007W",
+    "authors": [
+      {
+        "key": "OL584829A",
+        "name": "Ruth Handler"
+      }
+    ],
+    "firstPublished": 1968,
+    "pages": null,
+    "subjects": [],
+    "coverId": null,
+    "cover": null,
+    "description": null,
+    "editionCount": 1,
+    "olRating": {
+      "average": null,
+      "count": 0
+    },
+    "adaptedAs": [
+      "Barbie (2023)"
+    ]
+  },
+  "Dune (Frank Herbert)": {
+    "id": "b:OL893415W",
+    "olWork": "OL893415W",
+    "authors": [
+      {
+        "key": "OL79034A",
+        "name": "Frank Herbert"
+      }
+    ],
+    "firstPublished": 1965,
+    "pages": 592,
+    "subjects": [
+      "Dune (Imaginary place)",
+      "Fiction",
+      "Fiction, science fiction, general",
+      "Dune (imaginary place), fiction",
+      "New York Times reviewed",
+      "Science fiction",
+      "Science-fiction",
+      "American literature",
+      "nyt:mass-market-monthly=2021-11-07",
+      "New York Times bestseller",
+      "award:nebula_award=novel",
+      "nyt:trade-fiction-paperback=2021-11-07"
+    ],
+    "coverId": 11481354,
+    "cover": "https://covers.openlibrary.org/b/id/11481354-M.jpg",
+    "description": "Set on the desert planet Arrakis, Dune is the story of the boy Paul Atreides, heir to a noble family tasked with ruling an inhospitable world where the only thing of value is the \"spice\" melange, a drug capable of extending life and enhancing consciousness. Coveted across the known universe, melange is a prize worth killing for...\r\n\r\nWhen House Atreides is betrayed, the destruction of Paul's family will set the boy on a journey toward a destiny greater than he could ever have imagined. And as he evolves into the mysterious man known as Muad'Dib, he will bring to fruition humankind's most ancie",
+    "editionCount": 120,
+    "olRating": {
+      "average": 4.307512,
+      "count": 426
+    },
+    "adaptedAs": [
+      "Dune (2021)",
+      "Dune: Part Two (2024)"
+    ]
+  },
+  "Zodiac (Robert Graysmith)": {
+    "id": "b:OL2728912W",
+    "olWork": "OL2728912W",
+    "authors": [
+      {
+        "key": "OL399597A",
+        "name": "Robert Graysmith"
+      }
+    ],
+    "firstPublished": 1986,
+    "pages": 337,
+    "subjects": [
+      "Homicide investigation",
+      "Case studies",
+      "Murder",
+      "Sociology",
+      "Murder, california"
+    ],
+    "coverId": 1468461,
+    "cover": "https://covers.openlibrary.org/b/id/1468461-M.jpg",
+    "description": "Zodiac is a non-fiction book written by Robert Graysmith about the unsolved serial murders committed by the \"Zodiac Killer\" in San Francisco in the late 1960s and early '70s.",
+    "editionCount": 14,
+    "olRating": {
+      "average": 4,
+      "count": 3
+    },
+    "adaptedAs": [
+      "Zodiac (2007)"
+    ]
+  },
+  "The Return of the King (J. R. R. Tolkien)": {
+    "id": "b:OL27479W",
+    "olWork": "OL27479W",
+    "authors": [
+      {
+        "key": "OL26320A",
+        "name": "J.R.R. Tolkien"
+      }
+    ],
+    "firstPublished": 1954,
+    "pages": 434,
+    "subjects": [
+      "Ents",
+      "Orcs",
+      "hobbits",
+      "magic",
+      "Ficción fantástica inglesa",
+      "Ficción",
+      "translations into Spanish",
+      "readers for new literates",
+      "The Lord of the Rings",
+      "English Fantasy fiction",
+      "Open Library Staff Picks",
+      "Fiction"
+    ],
+    "coverId": 14627564,
+    "cover": "https://covers.openlibrary.org/b/id/14627564-M.jpg",
+    "description": "The Lord of the Rings, J.R.R. Tolkien's three-volume epic, is set in the imaginary world of Middle-earth -- home to many strange beings, and most notably hobbits, a peace-loving \"little people,\" cheerful and shy. Since its original British publication in 1954-55, the saga has entranced readers of all ages. It is at once a classic myth and a modern fairy tale. Critic Michael Straight has hailed it as one of the \"very few works of genius in recent literature.\" Middle-earth is a world receptive to poets, scholars, children, and all other people of good will. Donald Barr has described it as \"a scr",
+    "editionCount": 288,
+    "olRating": {
+      "average": 4.3580785,
+      "count": 229
+    },
+    "adaptedAs": [
+      "The Lord of the Rings: The Two Towers (2002)",
+      "The Lord of the Rings: The Return of the King (2003)"
+    ]
+  },
+  "The Crow (James O'Barr)": {
+    "id": "b:OL8556102W",
+    "olWork": "OL8556102W",
+    "authors": [
+      {
+        "key": "OL2867649A",
+        "name": "James O'Barr"
+      }
+    ],
+    "firstPublished": 1992,
+    "pages": 164,
+    "subjects": [
+      "Comics & graphic novels, general",
+      "Comics & graphic novels, historical fiction",
+      "World war, 1939-1945, fiction"
+    ],
+    "coverId": 2719928,
+    "cover": "https://covers.openlibrary.org/b/id/2719928-M.jpg",
+    "description": null,
+    "editionCount": 6,
+    "olRating": {
+      "average": 5,
+      "count": 1
+    },
+    "adaptedAs": [
+      "The Crow (1994)"
+    ]
+  },
+  "Coraline (Neil Gaiman)": {
+    "id": "b:OL679358W",
+    "olWork": "OL679358W",
+    "authors": [
+      {
+        "key": "OL53305A",
+        "name": "Neil Gaiman"
+      }
+    ],
+    "firstPublished": 2001,
+    "pages": 176,
+    "subjects": [
+      "Fantasy",
+      "Paranormal fiction",
+      "Juvenile fiction",
+      "Graphic novels",
+      "Children's literature",
+      "Fiction",
+      "Hugo Award Winner",
+      "Supernatural",
+      "award:hugo_award=novella",
+      "Horror stories",
+      "award:hugo_award=2003",
+      "Comic books, strips"
+    ],
+    "coverId": 14171421,
+    "cover": "https://covers.openlibrary.org/b/id/14171421-M.jpg",
+    "description": "When Coraline steps through a door to find another house strangely similar to her own (only better), things seem marvelous.\r\n\r\nBut there's another mother there, and another father, and they want her to stay and be their little girl. They want to change her and never let her go.\r\n\r\nCoraline will have to fight with all her wit and courage if she is to save herself and return to her ordinary life.",
+    "editionCount": 94,
+    "olRating": {
+      "average": 4.044776,
+      "count": 201
+    },
+    "adaptedAs": [
+      "Coraline (2009)"
+    ]
+  },
+  "Uglies (Scott Westerfeld)": {
+    "id": "b:OL547172W",
+    "olWork": "OL547172W",
+    "authors": [
+      {
+        "key": "OL2980448A",
+        "name": "Scott Westerfeld"
+      }
+    ],
+    "firstPublished": 2005,
+    "pages": 432,
+    "subjects": [
+      "Young adult fiction",
+      "Teenage girls",
+      "Juvenile fiction",
+      "Fiction",
+      "Science fiction",
+      "Personal Beauty",
+      "Friendship",
+      "Children's fiction",
+      "Friendship, fiction",
+      "Graphic novels",
+      "Dystopias",
+      "Comic books, strips"
+    ],
+    "coverId": 438244,
+    "cover": "https://covers.openlibrary.org/b/id/438244-M.jpg",
+    "description": "Tally is about to turn sixteen, and she can't wait. Not for her license -- for turning pretty. In Tally's world, your sixteenth birthday brings an operation that turns you from a repellent ugly into a stunningly attractive pretty and catapults you into a high-tech paradise where your only job is to have a really great time. In just a few weeks Tally will be there.\r\n\r\nBut Tally's new friend Shay isn't sure she wants to be pretty. She'd rather risk life on the outside. When Shay runs away, Tally learns about a whole new side of the pretty world -- and it isn't very pretty. The authorities offer ",
+    "editionCount": 34,
+    "olRating": {
+      "average": 3.6222222,
+      "count": 45
+    },
+    "adaptedAs": [
+      "Uglies (2024)"
+    ]
+  },
+  "Sir Gawain and the Green Knight (Pearl poet)": {
+    "id": "b:OL18568727W",
+    "olWork": "OL18568727W",
+    "authors": [
+      {
+        "key": "OL456710A",
+        "name": "Helen Cooper"
+      }
+    ],
+    "firstPublished": 2008,
+    "pages": 109,
+    "subjects": [
+      "Knights and knighthood",
+      "Arthurian romances",
+      "Gawain (Legendary character)",
+      "Romances",
+      "Poetry",
+      "Gawain (legendary character)"
+    ],
+    "coverId": null,
+    "cover": null,
+    "description": null,
+    "editionCount": 1,
+    "olRating": {
+      "average": null,
+      "count": 0
+    },
+    "adaptedAs": [
+      "The Green Knight (2021)"
+    ]
+  },
+  "The Double (Fyodor Dostoyevsky)": {
+    "id": "b:OL14948248W",
+    "olWork": "OL14948248W",
+    "authors": [
+      {
+        "key": "OL1883143A",
+        "name": "Gustave Aucouturier"
+      }
+    ],
+    "firstPublished": 1980,
+    "pages": 275,
+    "subjects": [],
+    "coverId": 967529,
+    "cover": "https://covers.openlibrary.org/b/id/967529-M.jpg",
+    "description": null,
+    "editionCount": 4,
+    "olRating": {
+      "average": null,
+      "count": 0
+    },
+    "adaptedAs": [
+      "The Double (2013)"
+    ]
+  },
+  "Jaws (Peter Benchley)": {
+    "id": "b:OL3454854W",
+    "olWork": "OL3454854W",
+    "authors": [
+      {
+        "key": "OL575390A",
+        "name": "Peter Benchley"
+      }
+    ],
+    "firstPublished": 1973,
+    "pages": 309,
+    "subjects": [
+      "blue sharks",
+      "dolphins",
+      "shark cage diving",
+      "bang sticks",
+      "harpoons",
+      "Mafia",
+      "selectmen",
+      "connivance",
+      "great white sharks",
+      "thrillers",
+      "horror fiction",
+      "Fiction"
+    ],
+    "coverId": 8440296,
+    "cover": "https://covers.openlibrary.org/b/id/8440296-M.jpg",
+    "description": "Jaws is a 1974 novel by American writer Peter Benchley. It tells the story of a great white shark that preys upon a small resort town and the voyage of three men trying to kill it. The novel grew out of Benchley's interest in shark attacks after he learned about the exploits of Montauk, New York shark fisherman Frank Mundus in 1964. Doubleday commissioned him to write the novel in 1971, a period when Benchley worked as a freelance journalist.\r\n\r\n----------\r\nAlso contained in:\r\n\r\n - [Best Sellers from Reader's Digest Condensed Books](https://openlibrary.org/works/OL15134116W)\r\n - [Reader's Dige",
+    "editionCount": 58,
+    "olRating": {
+      "average": 4.3913045,
+      "count": 23
+    },
+    "adaptedAs": [
+      "Jaws (1975)"
+    ]
+  },
+  "Brokeback Mountain (Annie Proulx)": {
+    "id": "b:OL265677W",
+    "olWork": "OL265677W",
+    "authors": [
+      {
+        "key": "OL26736A",
+        "name": "Annie Proulx"
+      }
+    ],
+    "firstPublished": 1997,
+    "pages": 58,
+    "subjects": [
+      "Fiction",
+      "Male friendship",
+      "Cowboys",
+      "Social life and customs",
+      "Frontier and pioneer life",
+      "Ranch life",
+      "Frontier and pioneer life -- Wyoming -- Fiction.",
+      "Ranch life -- Wyoming -- Fiction.",
+      "Wyoming -- Social life and customs -- Fiction.",
+      "Gay men",
+      "Fiction, general",
+      "Wyoming, fiction"
+    ],
+    "coverId": 8302985,
+    "cover": "https://covers.openlibrary.org/b/id/8302985-M.jpg",
+    "description": "This is a duplicate. Please update your lists. See https://openlibrary.org/works/OL265677W",
+    "editionCount": 7,
+    "olRating": {
+      "average": 4.0588236,
+      "count": 17
+    },
+    "adaptedAs": [
+      "Brokeback Mountain (2005)"
+    ]
+  },
+  "Fingersmith (Sarah Waters)": {
+    "id": "b:OL35581651W",
+    "olWork": "OL35581651W",
+    "authors": [
+      {
+        "key": "OL39232A",
+        "name": "Sarah Waters"
+      }
+    ],
+    "firstPublished": 2003,
+    "pages": 749,
+    "subjects": [],
+    "coverId": null,
+    "cover": null,
+    "description": null,
+    "editionCount": 1,
+    "olRating": {
+      "average": null,
+      "count": 0
+    },
+    "adaptedAs": [
+      "The Handmaiden (2016)"
+    ]
+  },
+  "Under the Skin (Michel Faber)": {
+    "id": "b:OL56004W",
+    "olWork": "OL56004W",
+    "authors": [
+      {
+        "key": "OL31200A",
+        "name": "Michel Faber"
+      }
+    ],
+    "firstPublished": 2000,
+    "pages": 304,
+    "subjects": [
+      "Literature",
+      "Fiction",
+      "Hitchhiking",
+      "Fiction, suspense",
+      "Scotland, fiction",
+      "Fiction, general",
+      "Fiction, thrillers, suspense"
+    ],
+    "coverId": 8260688,
+    "cover": "https://covers.openlibrary.org/b/id/8260688-M.jpg",
+    "description": "Short-listed for the Whitbread Award, this remarkable book defies categorisation. Under the Skin introduces Isserley, a woman obsessed with picking up male hitchhikers – so long as they're well-muscled and alone. But why? As the novel unfolds and the reason becomes clear, the reader is drawn inexorably into a completely unexpected and increasingly terrifying world.",
+    "editionCount": 15,
+    "olRating": {
+      "average": 3.6,
+      "count": 10
+    },
+    "adaptedAs": [
+      "Under the Skin (2013)"
+    ]
+  },
+  "Memento Mori (Jonathan Nolan)": {
+    "unmatched": true
+  },
+  "The Martian (Andy Weir)": {
+    "id": "b:OL17091839W",
+    "olWork": "OL17091839W",
+    "authors": [
+      {
+        "key": "OL7234434A",
+        "name": "Andy Weir"
+      }
+    ],
+    "firstPublished": 2011,
+    "pages": 407,
+    "subjects": [
+      "Science-Fiction",
+      "Science Fiction & Fantasy",
+      "Suspense & Thriller",
+      "Science fiction",
+      "Amerikanisches Englisch",
+      "Astronauts",
+      "Survival",
+      "Fiction",
+      "Survival skills",
+      "Supervivencia",
+      "Novela",
+      "Astronautas"
+    ],
+    "coverId": 11447888,
+    "cover": "https://covers.openlibrary.org/b/id/11447888-M.jpg",
+    "description": "The Martian is a 2011 science fiction novel written by Andy Weir. It was his debut novel under his own name. It was originally self-published in 2011; Crown Publishing purchased the rights and re-released it in 2014. The story follows an American astronaut, Mark Watney, as he becomes stranded alone on Mars in 2035 and must improvise in order to survive.",
+    "editionCount": 74,
+    "olRating": {
+      "average": 4.3987913,
+      "count": 331
+    },
+    "adaptedAs": [
+      "The Martian (2015)"
+    ]
+  },
+  "Be Cool (Elmore Leonard)": {
+    "id": "b:OL111640W",
+    "olWork": "OL111640W",
+    "authors": [
+      {
+        "key": "OL18978A",
+        "name": "Elmore Leonard"
+      }
+    ],
+    "firstPublished": 1999,
+    "pages": 304,
+    "subjects": [
+      "Fiction",
+      "Music trade",
+      "Motion picture producers and directors",
+      "Criminals",
+      "Gangsters",
+      "Sound recording industry",
+      "Fiction, thrillers, general",
+      "Large type books",
+      "Fiction, suspense",
+      "Los angeles (calif.), fiction",
+      "Palmer, chili (fictitious character), fiction",
+      "California, fiction"
+    ],
+    "coverId": 281368,
+    "cover": "https://covers.openlibrary.org/b/id/281368-M.jpg",
+    "description": "After one triumph and one flop, Mafia loan-shark-turned-Hollywood producer Chili Palmer is desperate for another hit... of the celluloid sort. When a similarly relocated former mob associate takes a hit of the bullet-in-the-brain variety while they're power-lunching, Chili begins to see all kinds of story possibilities. The whacked recording company mogul's midday demise is leading Chili into the twisted world of rock stars, pop divas, and hip-hop gangstas, which is rife with drama, jealousy, and betrayal -- all the stuff that makes big box office. Tinsel Town had better take cover, because Ch",
+    "editionCount": 27,
+    "olRating": {
+      "average": 3,
+      "count": 5
+    },
+    "adaptedAs": [
+      "Be Cool (2005)"
+    ]
+  },
+  "Conclave (Robert Harris)": {
+    "id": "b:OL21141289W",
+    "olWork": "OL21141289W",
+    "authors": [
+      {
+        "key": "OL16098302A",
+        "name": "Robert Harris"
+      }
+    ],
+    "firstPublished": 2016,
+    "pages": 352,
+    "subjects": [
+      "Fiction, thrillers",
+      "Fiction, suspense",
+      "Vatican city, fiction",
+      "New York Times reviewed",
+      "Fiction, thrillers, general",
+      "Fiction, thrillers, suspense"
+    ],
+    "coverId": 14432640,
+    "cover": "https://covers.openlibrary.org/b/id/14432640-M.jpg",
+    "description": "The pope is dead. Behind the locked doors of the Sistine Chapel, one hundred and eighteen cardinals from all over the globe will gather to cast their votes in the world's most secretive election. They are holy men. But they are not immune to the human temptations of power and glory. And they are not above the tribalism and factionalism that consumes humanity. When all is said and done, one of them will become the most powerful spiritual figure on Earth.",
+    "editionCount": 6,
+    "olRating": {
+      "average": 2,
+      "count": 2
+    },
+    "adaptedAs": [
+      "Conclave (2024)"
+    ]
+  },
+  "Spaceman of Bohemia (Jaroslav Kalfař)": {
+    "id": "b:OL19343888W",
+    "olWork": "OL19343888W",
+    "authors": [
+      {
+        "key": "OL7485034A",
+        "name": "Jaroslav Kalfar"
+      }
+    ],
+    "firstPublished": 2017,
+    "pages": 288,
+    "subjects": [
+      "Large type books",
+      "Astronauts",
+      "Spiders",
+      "Interplanetary voyages",
+      "Fiction",
+      "Fiction, science fiction, general",
+      "New York Times reviewed",
+      "FICTION / Literary",
+      "FICTION / Science Fiction / General"
+    ],
+    "coverId": 8457144,
+    "cover": "https://covers.openlibrary.org/b/id/8457144-M.jpg",
+    "description": "\"When Jakub Procha is sent into space to examine a cosmic dust cloud covering Venus, it may be a solo suicide mission. Dreaming of becoming a national hero and desperate to atone for his father's sins as a Communist informer, he leaves his beloved wife behind and launches into the galaxy. But things aboard spaceship JanHus1 quickly turn weird, and, to make matters worse, he soon learns that his wife has disappeared without a trace back on Earth. As his spaceship hurtles toward an unknown danger and his sanity wavers, Jakub encounters an unlikely fellow passenger -- a giant alien spider. He and",
+    "editionCount": 8,
+    "olRating": {
+      "average": null,
+      "count": 0
+    },
+    "adaptedAs": [
+      "Spaceman (2024)"
+    ]
+  },
+  "I'm Thinking of Ending Things (Iain Reid)": {
+    "id": "b:OL20028344W",
+    "olWork": "OL20028344W",
+    "authors": [
+      {
+        "key": "OL3393824A",
+        "name": "Iain Reid"
+      }
+    ],
+    "firstPublished": 2016,
+    "pages": 224,
+    "subjects": [
+      "Fiction, thrillers, general",
+      "Fiction, psychological",
+      "Fiction, thrillers",
+      "nyt:trade-fiction-paperback=2020-09-27",
+      "New York Times bestseller",
+      "New York Times reviewed",
+      "Man-woman relationships",
+      "Fiction",
+      "Automoblie travel",
+      "Solitude",
+      "Torture",
+      "Consciousness"
+    ],
+    "coverId": 11205396,
+    "cover": "https://covers.openlibrary.org/b/id/11205396-M.jpg",
+    "description": "*I’m thinking of ending things. Once this thought arrives, it stays. It sticks. It lingers. It’s always there. Always.*\r\n\r\n*Jake once said, “Sometimes a thought is closer to truth, to reality, than an action. You can say anything, you can do anything, but you can’t fake a thought.”*\r\n\r\n*And here’s what I’m thinking: I don’t want to be here.*\r\n\r\nIn this smart and intense literary suspense novel, Iain Reid explores the depths of the human psyche, questioning consciousness, free will, the value of relationships, fear, and the limitations of solitude. Tense, gripping, and atmospheric, *I’m Thinkin",
+    "editionCount": 15,
+    "olRating": {
+      "average": 3.4,
+      "count": 10
+    },
+    "adaptedAs": [
+      "I'm Thinking of Ending Things (2020)"
+    ]
+  },
+  "Project Hail Mary (Andy Weir)": {
+    "id": "b:OL21745884W",
+    "olWork": "OL21745884W",
+    "authors": [
+      {
+        "key": "OL7234434A",
+        "name": "Andy Weir"
+      }
+    ],
+    "firstPublished": 2021,
+    "pages": 496,
+    "subjects": [
+      "hard science-fiction",
+      "science-fiction",
+      "sci-fi",
+      "hard sci-fi",
+      "nyt:hardcover-fiction=2021-05-23",
+      "New York Times bestseller",
+      "New York Times reviewed",
+      "Fiction, science fiction, action & adventure",
+      "Fiction, science fiction, hard science fiction",
+      "End of the world",
+      "Fiction",
+      "Astronauts"
+    ],
+    "coverId": 11200092,
+    "cover": "https://covers.openlibrary.org/b/id/11200092-M.jpg",
+    "description": "Ryland Grace is the sole survivor on a desperate, last-chance mission–and if he fails, humanity and the earth itself will perish. Except that right now, he doesn’t know that. He can’t even remember his own name, let alone the nature of his assignment or how to complete it. All he knows is that he’s been asleep for a very, very long time. And he’s just been awakened to find himself millions of miles from home, with nothing but two corpses for company.\r\n\r\nHis crewmates dead, his memories fuzzily returning, he realizes that an impossible task now confronts him. Alone on this tiny ship that’s been",
+    "editionCount": 31,
+    "olRating": {
+      "average": 4.491228,
+      "count": 171
+    },
+    "adaptedAs": [
+      "Project Hail Mary (2026)"
+    ]
+  },
+  "The Power of the Dog (Thomas Savage)": {
+    "id": "b:OL4649188W",
+    "olWork": "OL4649188W",
+    "authors": [
+      {
+        "key": "OL955410A",
+        "name": "Thomas Savage"
+      }
+    ],
+    "firstPublished": 2002,
+    "pages": 300,
+    "subjects": [
+      "Frères",
+      "Romans, nouvelles",
+      "Vie au ranch"
+    ],
+    "coverId": 3121274,
+    "cover": "https://covers.openlibrary.org/b/id/3121274-M.jpg",
+    "description": null,
+    "editionCount": 1,
+    "olRating": {
+      "average": null,
+      "count": 0
+    },
+    "adaptedAs": [
+      "The Power of the Dog (2021)"
+    ]
+  },
+  "Mickey7 (Edward Ashton)": {
+    "id": "b:OL24546118W",
+    "olWork": "OL24546118W",
+    "authors": [
+      {
+        "key": "OL5718783A",
+        "name": "Edward Ashton"
+      }
+    ],
+    "firstPublished": 2022,
+    "pages": 320,
+    "subjects": [
+      "Human cloning",
+      "space travel",
+      "Colonization",
+      "Science fiction"
+    ],
+    "coverId": 11187690,
+    "cover": "https://covers.openlibrary.org/b/id/11187690-M.jpg",
+    "description": "Dying isn't any fun...but at least it's a living. Mickey7 is an a disposable employee on a human expedition sent to colonize the ice world Niflheim. Whenever there's a mission that's too dangerous-even suicidal- the crew turns to Mickey. After one iteration dies, a new body is regenerated with most of his memories intact. Mickey signed on to escape from both bad debts and boredom on Midgard. After six deaths, Mickey7 understands the terms of his deal...and why it was the only colonial position unfilled when he took it. When he goes missing and is presumed dead at the hands of deadly indigenous",
+    "editionCount": 11,
+    "olRating": {
+      "average": 4,
+      "count": 9
+    },
+    "adaptedAs": [
+      "Mickey 17 (2025)"
+    ]
+  },
+  "Black Klansman: Race, Hate, and the Undercover Investigation of a Lifetime (Ron Stallworth)": {
+    "id": "b:OL19742770W",
+    "olWork": "OL19742770W",
+    "authors": [
+      {
+        "key": "OL7535995A",
+        "name": "Ron Stallworth"
+      }
+    ],
+    "firstPublished": 2014,
+    "pages": 208,
+    "subjects": [
+      "Race relations",
+      "White supremacy movements",
+      "Ku Klux Klan (1915- )",
+      "African American police",
+      "Undercover operations",
+      "Hate crimes",
+      "United states, race relations",
+      "Ku klux klan (1915-)",
+      "Police, biography",
+      "African americans, biography",
+      "nyt:paperback-nonfiction=2018-08-19",
+      "New York Times bestseller"
+    ],
+    "coverId": 10116712,
+    "cover": "https://covers.openlibrary.org/b/id/10116712-M.jpg",
+    "description": "The true story of Detective Ron Stallworth, the first black detective in the Colorado Springs Police Department, who in 1978 went undercover to investigate the KKK.",
+    "editionCount": 6,
+    "olRating": {
+      "average": 3.4,
+      "count": 5
+    },
+    "adaptedAs": [
+      "BlacKkKlansman (2018)"
+    ]
+  },
+  "Seven Pillars of Wisdom (T. E. Lawrence)": {
+    "id": "b:OL830503W",
+    "olWork": "OL830503W",
+    "authors": [
+      {
+        "key": "OL70857A",
+        "name": "T. E. Lawrence"
+      }
+    ],
+    "firstPublished": 1905,
+    "pages": 700,
+    "subjects": [
+      "Arabs",
+      "Bedouins",
+      "Campaigns",
+      "Social life and customs",
+      "Wahhabis",
+      "World War, 1914-1918",
+      "Arabs.\u001e00",
+      "Biography",
+      "British Personal narratives",
+      "History",
+      "Soldiers",
+      "Wahhabiyah"
+    ],
+    "coverId": 1448352,
+    "cover": "https://covers.openlibrary.org/b/id/1448352-M.jpg",
+    "description": "*Seven Pillars of Wisdom* is the autobiographical account of the experiences of British Army Colonel T. E. Lawrence (\"Lawrence of Arabia\") while serving as a military advisor to Bedouin forces during the Arab Revolt against the Ottoman Empire of 1916 to 1918. It was completed in February 1922, but first published in December 1926, originally published for the US market in 1927 as *Revolt in the Desert* and is the only version that was commercially released while he was alive. *Seven Pillars of Wisdom* (1935) is a longer form of the book at almost double the page count and released to the inter",
+    "editionCount": 152,
+    "olRating": {
+      "average": 5,
+      "count": 1
+    },
+    "adaptedAs": [
+      "Lawrence of Arabia (1962)"
+    ]
+  },
+  "World War Z (Max Brooks)": {
+    "id": "b:OL5969057W",
+    "olWork": "OL5969057W",
+    "authors": [
+      {
+        "key": "OL1482402A",
+        "name": "Max Brooks"
+      }
+    ],
+    "firstPublished": 2006,
+    "pages": 422,
+    "subjects": [
+      "Humor",
+      "nyt:trade_fiction_paperback=2011-08-20",
+      "Fiction",
+      "New York Times bestseller",
+      "Zombies",
+      "War",
+      "Large type books",
+      "Imaginary wars and battles",
+      "Horror tales",
+      "Oral history",
+      "Reading Level-Grade 11",
+      "Reading Level-Grade 12"
+    ],
+    "coverId": 168106,
+    "cover": "https://covers.openlibrary.org/b/id/168106-M.jpg",
+    "description": "“The end was near.” —Voices from the Zombie War\r\n\r\nThe Zombie War came unthinkably close to eradicating humanity. Max Brooks, driven by the urgency of preserving the acid-etched first-hand experiences of the survivors from those apocalyptic years, traveled across the United States of America and throughout the world, from decimated cities that once teemed with upwards of thirty million souls to the most remote and inhospitable areas of the planet. He recorded the testimony of men, women, and sometimes children who came face-to-face with the living, or at least the undead, hell of that dreadful",
+    "editionCount": 46,
+    "olRating": {
+      "average": 3.8985507,
+      "count": 138
+    },
+    "adaptedAs": [
+      "World War Z (2013)"
+    ]
+  },
+  "Harry Potter and the Philosopher's Stone (J. K. Rowling)": {
+    "id": "b:OL82563W",
+    "olWork": "OL82563W",
+    "authors": [
+      {
+        "key": "OL23919A",
+        "name": "J. K. Rowling"
+      }
+    ],
+    "firstPublished": 1997,
+    "pages": 302,
+    "subjects": [
+      "series:Harry_Potter",
+      "Ghosts",
+      "Monsters",
+      "Vampires",
+      "Witches",
+      "Challenges and Overcoming Obstacles",
+      "Magic and Supernatural",
+      "Cleverness",
+      "School Life",
+      "school stories",
+      "Wizards",
+      "Magic"
+    ],
+    "coverId": 15155833,
+    "cover": "https://covers.openlibrary.org/b/id/15155833-M.jpg",
+    "description": "Turning the envelope over, his hand trembling, Harry saw a purple wax seal bearing a coat of arms; a lion, an eagle, a badger and a snake surrounding a large letter 'H'.\r\n\r\nHARRY POTTER has never even heard of Hogwarts when the LETTERS start dropping on the doormat at number four, Privet Drive. Addressed in GREEN INK on yellowish parchment with a PURPLE SEAL, they are swiftly confiscated by his GRISLY aunt and uncle. Then, on Harry's eleventh birthday, a great beetle-eyed giant of a man called RUBEUS HAGRID bursts in with some ASTONISHING news: Harry Potter is a wizard, and he has a place at H",
+    "editionCount": 398,
+    "olRating": {
+      "average": 4.214073,
+      "count": 1009
+    },
+    "adaptedAs": [
+      "Harry Potter and the Philosopher's Stone (2001)"
+    ]
+  },
+  "Harry Potter and the Deathly Hallows (J. K. Rowling)": {
+    "id": "b:OL82586W",
+    "olWork": "OL82586W",
+    "authors": [
+      {
+        "key": "OL23919A",
+        "name": "J. K. Rowling"
+      }
+    ],
+    "firstPublished": 2007,
+    "pages": 703,
+    "subjects": [
+      "the Elder Wand",
+      "children's books",
+      "dementors",
+      "good and evil",
+      "Juvenile literature",
+      "Juvenile works",
+      "Death",
+      "Fiction",
+      "Wizards",
+      "New York Times bestseller",
+      "nyt:series_books=2006-09-16",
+      "Schools"
+    ],
+    "coverId": 15158660,
+    "cover": "https://covers.openlibrary.org/b/id/15158660-M.jpg",
+    "description": "Harry Potter is leaving Privet Drive for the last time. But as he climbs into the sidecar of Hagrid’s motorbike and they take to the skies, he knows Lord Voldemort and the Death Eaters will not be far behind.\r\n\r\nThe protective charm that has kept him safe until now is broken. But the Dark Lord is breathing fear into everything he loves. And he knows he can’t keep hiding.\r\n\r\nTo stop Voldemort, Harry knows he must find the remaining Horcruxes and destroy them.\r\n\r\nHe will have to face his enemy in one final battle.\r\n\r\n([source][1])\r\n\r\n\r\n----------\r\nSee also:\r\n\r\n - [Harry Potter and the Deathly Ha",
+    "editionCount": 144,
+    "olRating": {
+      "average": 4.2615013,
+      "count": 413
+    },
+    "adaptedAs": [
+      "Harry Potter and the Deathly Hallows: Part 2 (2011)"
+    ]
+  },
+  "Harry Potter and the Prisoner of Azkaban (J. K. Rowling)": {
+    "id": "b:OL82536W",
+    "olWork": "OL82536W",
+    "authors": [
+      {
+        "key": "OL23919A",
+        "name": "J. K. Rowling"
+      }
+    ],
+    "firstPublished": 1999,
+    "pages": 416,
+    "subjects": [
+      "Fantasy fiction",
+      "orphans",
+      "foster homes",
+      "fantasy",
+      "literature",
+      "juvenile fantasy fiction",
+      "Locus Award winner",
+      "Bram Stoker Award winner",
+      "Whitbread Book Award winner",
+      "Adventure",
+      "Juvenile literature",
+      "Juvenile works"
+    ],
+    "coverId": 10580435,
+    "cover": "https://covers.openlibrary.org/b/id/10580435-M.jpg",
+    "description": "For Harry Potter, it’s the start of another far-from-ordinary year at Hogwarts when the Knight Bus crashes through the darkness and comes to an abrupt halt in front of him.\r\n\r\nIt turns out that Sirius Black, mass-murderer and follower of Lord Voldemort, has escaped – and they say he is coming after Harry.\r\n\r\nIn his first Divination class, Professor Trelawney sees an omen of death in Harry’s tea leaves.\r\n\r\nAnd perhaps most frightening of all are the Dementors patrolling the school grounds with their soul-sucking kiss – in search of fresh victims.\r\n\r\n([source][1])\r\n\r\n\r\n  [1]: https://www.jkrowli",
+    "editionCount": 279,
+    "olRating": {
+      "average": 4.242089,
+      "count": 632
+    },
+    "adaptedAs": [
+      "Harry Potter and the Prisoner of Azkaban (2004)"
+    ]
+  },
+  "Cowboys & Aliens (Fred Van Lente, Andrew Foley)": {
+    "id": "b:OL15082673W",
+    "olWork": "OL15082673W",
+    "authors": [
+      {
+        "key": "OL2864537A",
+        "name": "Fred Van Lente"
+      }
+    ],
+    "firstPublished": 2006,
+    "pages": 112,
+    "subjects": [],
+    "coverId": 844988,
+    "cover": "https://covers.openlibrary.org/b/id/844988-M.jpg",
+    "description": null,
+    "editionCount": 1,
+    "olRating": {
+      "average": 0,
+      "count": 0
+    },
+    "adaptedAs": [
+      "Cowboys & Aliens (2011)"
+    ]
+  },
+  "Heart of Darkness (Joseph Conrad)": {
+    "id": "b:OL38663W",
+    "olWork": "OL38663W",
+    "authors": [
+      {
+        "key": "OL19441A",
+        "name": "Joseph Conrad"
+      }
+    ],
+    "firstPublished": 1899,
+    "pages": 136,
+    "subjects": [
+      "form:novella",
+      "genre:historical fiction",
+      "Fiction",
+      "Romance",
+      "Degeneration",
+      "Literature",
+      "Description and travel",
+      "Diaries",
+      "Sailors",
+      "Short stories",
+      "English literature",
+      "Suffering"
+    ],
+    "coverId": 12307847,
+    "cover": "https://covers.openlibrary.org/b/id/12307847-M.jpg",
+    "description": "Heart of Darkness (1899) is a novella by Polish-English novelist Joseph Conrad, about a voyage up the Congo River into the Congo Free State, in the heart of Africa, by the story's narrator Charles Marlow. Marlow tells his story to friends aboard a boat anchored on the River Thames. Joseph Conrad is one of the greatest English writers, and Heart of Darkness is considered his best.  His readers are brought to face our psychological selves to answer, ‘Who is the true savage?’. Originally published in 1902, Heart of Darkness remains one of this century’s most enduring works of fiction. Written sev",
+    "editionCount": 553,
+    "olRating": {
+      "average": 3.5820897,
+      "count": 134
+    },
+    "adaptedAs": [
+      "Apocalypse Now (1979)"
+    ]
+  },
+  "The Fellowship of the Ring (J. R. R. Tolkien)": {
+    "id": "b:OL27513W",
+    "olWork": "OL27513W",
+    "authors": [
+      {
+        "key": "OL26320A",
+        "name": "J.R.R. Tolkien"
+      },
+      {
+        "key": "OL14456887A",
+        "name": "Editorial Editorial World"
+      },
+      {
+        "key": "OL14456888A",
+        "name": "Robert Robert Thompson"
+      }
+    ],
+    "firstPublished": 1954,
+    "pages": 492,
+    "subjects": [
+      "Elves",
+      "Dwarves",
+      "evil",
+      "fear",
+      "hope",
+      "young adult fiction",
+      "Ficción",
+      "Ficción fantástica inglesa",
+      "Fantastic fiction",
+      "The Lord of the Rings",
+      "English Fantasy fiction",
+      "Open Library Staff Picks"
+    ],
+    "coverId": 14627060,
+    "cover": "https://covers.openlibrary.org/b/id/14627060-M.jpg",
+    "description": "One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them.\r\n\r\n“A unique, wholly realized other world, evoked from deep in the well of Time, massively detailed, absorbingly entertaining, profound in meaning.”—The New York Times\r\n\r\nIn ancient times the Rings of Power were crafted by the Elven-smiths, and Sauron, the Dark Lord, forged the One Ring, filling it with his own power so that he could rule all others. But the One Ring was taken from him, and though he sought it throughout Middle-earth, it remained lost to him. After many ages it fell into",
+    "editionCount": 315,
+    "olRating": {
+      "average": 4.3375316,
+      "count": 397
+    },
+    "adaptedAs": [
+      "The Lord of the Rings: The Fellowship of the Ring (2001)"
+    ]
+  },
+  "Rapunzel (Brothers Grimm, Jacob Grimm, Wilhelm Grimm)": {
+    "id": "b:OL45428W",
+    "olWork": "OL45428W",
+    "authors": [
+      {
+        "key": "OL2658408A",
+        "name": "Gebrüder Grimm [Brothers Grimm]"
+      }
+    ],
+    "firstPublished": 1960,
+    "pages": 27,
+    "subjects": [
+      "Fairy tales"
+    ],
+    "coverId": 1363840,
+    "cover": "https://covers.openlibrary.org/b/id/1363840-M.jpg",
+    "description": null,
+    "editionCount": 18,
+    "olRating": {
+      "average": 4.6666665,
+      "count": 3
+    },
+    "adaptedAs": [
+      "Tangled (2010)"
+    ]
+  },
+  "The Two Towers (J. R. R. Tolkien)": {
+    "id": "b:OL27479W",
+    "olWork": "OL27479W",
+    "authors": [
+      {
+        "key": "OL26320A",
+        "name": "J.R.R. Tolkien"
+      }
+    ],
+    "firstPublished": 1954,
+    "pages": 434,
+    "subjects": [
+      "Ents",
+      "Orcs",
+      "hobbits",
+      "magic",
+      "Ficción fantástica inglesa",
+      "Ficción",
+      "translations into Spanish",
+      "readers for new literates",
+      "The Lord of the Rings",
+      "English Fantasy fiction",
+      "Open Library Staff Picks",
+      "Fiction"
+    ],
+    "coverId": 14627564,
+    "cover": "https://covers.openlibrary.org/b/id/14627564-M.jpg",
+    "description": "The Lord of the Rings, J.R.R. Tolkien's three-volume epic, is set in the imaginary world of Middle-earth -- home to many strange beings, and most notably hobbits, a peace-loving \"little people,\" cheerful and shy. Since its original British publication in 1954-55, the saga has entranced readers of all ages. It is at once a classic myth and a modern fairy tale. Critic Michael Straight has hailed it as one of the \"very few works of genius in recent literature.\" Middle-earth is a world receptive to poets, scholars, children, and all other people of good will. Donald Barr has described it as \"a scr",
+    "editionCount": 288,
+    "olRating": {
+      "average": 4.3580785,
+      "count": 229
+    },
+    "adaptedAs": [
+      "The Lord of the Rings: The Two Towers (2002)",
+      "The Lord of the Rings: The Return of the King (2003)"
+    ]
+  },
+  "American Psycho (Bret Easton Ellis)": {
+    "id": "b:OL1812933W",
+    "olWork": "OL1812933W",
+    "authors": [
+      {
+        "key": "OL217475A",
+        "name": "Bret Easton Ellis"
+      },
+      {
+        "key": "OL4570461A",
+        "name": "Mariano Antolín Rato"
+      }
+    ],
+    "firstPublished": 1991,
+    "pages": 477,
+    "subjects": [
+      "Gothic & Horror",
+      "Literary Fiction",
+      "capitalism",
+      "postmodernism",
+      "id",
+      "schizophrenia",
+      "consumerism",
+      "stream of consciousness",
+      "cocaine",
+      "pop music",
+      "unreliable narrators",
+      "vanity"
+    ],
+    "coverId": 8401686,
+    "cover": "https://covers.openlibrary.org/b/id/8401686-M.jpg",
+    "description": "American Psycho is a novel by Bret Easton Ellis, published in 1991. The story is told in the first person by Patrick Bateman, a serial killer and Manhattan investment banker. Alison Kelly of The Observer notes that while \"some countries [deem it] so potentially disturbing that it can only be sold shrink-wrapped\", \"critics rave about it\" and \"academics revel in its transgressive and postmodern qualities\".",
+    "editionCount": 46,
+    "olRating": {
+      "average": 3.821782,
+      "count": 101
+    },
+    "adaptedAs": [
+      "American Psycho (2000)"
+    ]
+  },
+  "Forrest Gump (Winston Groom)": {
+    "id": "b:OL1898758W",
+    "olWork": "OL1898758W",
+    "authors": [
+      {
+        "key": "OL227334A",
+        "name": "Winston Groom"
+      }
+    ],
+    "firstPublished": 1986,
+    "pages": 245,
+    "subjects": [
+      "Vietnam Conflict",
+      "College football",
+      "Young men",
+      "People with mental disabilities",
+      "Fiction",
+      "Fiction, general",
+      "Gump, forrest (fictitious character), fiction",
+      "Jóvenes (Hombres)",
+      "Retrasados mentales",
+      "Ficción",
+      "Forrest Gump (Fictitious character)",
+      "Hombres jovenes"
+    ],
+    "coverId": 981738,
+    "cover": "https://covers.openlibrary.org/b/id/981738-M.jpg",
+    "description": "A man named Forest Gump sits at a bus stop and tells everyone about his life. It starts in a doctor's office when he gets leg braces. Then he goes to school where he meets Jenny, and his entire school career and football. Then it goes on to college football. then to Vietnam where he meets bubba. then bubba dies and forest saves a whole platoon. After the war forest gets a medal of honor and runs across America. Then his mom dies. Then he finds jenny again. They have a kid and get married. Then jenny dies. Then the book ends but there is more than this in the town of Greenbow Alabama.",
+    "editionCount": 41,
+    "olRating": {
+      "average": 3.875,
+      "count": 8
+    },
+    "adaptedAs": [
+      "Forrest Gump (1994)"
+    ]
+  },
+  "Catching Fire (Suzanne Collins)": {
+    "id": "b:OL15518787W",
+    "olWork": "OL15518787W",
+    "authors": [
+      {
+        "key": "OL1394359A",
+        "name": "Suzanne Collins"
+      }
+    ],
+    "firstPublished": 2010,
+    "pages": 1136,
+    "subjects": [
+      "Romance",
+      "Drama",
+      "Young adult fiction",
+      "Television game shows",
+      "Dystopian",
+      "Girls",
+      "Fiction",
+      "Science fiction",
+      "Interpersonal relations",
+      "Dystopias",
+      "Survival Stories",
+      "Self-Esteem & Self-Reliance"
+    ],
+    "coverId": 12878880,
+    "cover": "https://covers.openlibrary.org/b/id/12878880-M.jpg",
+    "description": "The stunning Hunger Games trilogy is complete! The extraordinary, ground breaking New York Times bestsellers The Hunger Games and Catching Fire, along with the third book in The Hunger Games trilogy by Suzanne Collins, Mockingjay, are available for the first time ever in e-book. Stunning, gripping, and powerful.",
+    "editionCount": 29,
+    "olRating": {
+      "average": 4.529412,
+      "count": 17
+    },
+    "adaptedAs": [
+      "The Hunger Games: Catching Fire (2013)"
+    ]
+  },
+  "The Assassination of Jesse James by the Coward Robert Ford (Ron Hansen)": {
+    "id": "b:OL64715W",
+    "olWork": "OL64715W",
+    "authors": [
+      {
+        "key": "OL19802A",
+        "name": "Ron Hansen"
+      }
+    ],
+    "firstPublished": 1983,
+    "pages": 304,
+    "subjects": [
+      "Outlaws",
+      "Fiction",
+      "Fiction, westerns",
+      "Fiction, biographical",
+      "James, jesse, 1847-1882, fiction"
+    ],
+    "coverId": 42659,
+    "cover": "https://covers.openlibrary.org/b/id/42659-M.jpg",
+    "description": "Friendship becomes rivalry and the quest for fame becomes obsession.",
+    "editionCount": 6,
+    "olRating": {
+      "average": 3,
+      "count": 1
+    },
+    "adaptedAs": [
+      "The Assassination of Jesse James by the Coward Robert Ford (2007)"
+    ]
+  },
+  "The Golden Egg (Tim Krabbé)": {
+    "id": "b:OL2086032W",
+    "olWork": "OL2086032W",
+    "authors": [
+      {
+        "key": "OL256462A",
+        "name": "Tim Krabbé"
+      }
+    ],
+    "firstPublished": 1993,
+    "pages": 108,
+    "subjects": [
+      "Missing persons",
+      "Fiction",
+      "Missing persons -- Fiction."
+    ],
+    "coverId": 8043649,
+    "cover": "https://covers.openlibrary.org/b/id/8043649-M.jpg",
+    "description": null,
+    "editionCount": 1,
+    "olRating": {
+      "average": null,
+      "count": 0
+    },
+    "adaptedAs": [
+      "The Vanishing (1988)"
+    ]
+  },
+  "The Men in Black (Lowell Cunningham)": {
+    "id": "b:OL8369400W",
+    "olWork": "OL8369400W",
+    "authors": [
+      {
+        "key": "OL2787694A",
+        "name": "Lowell Cunningham"
+      }
+    ],
+    "firstPublished": 1990,
+    "pages": null,
+    "subjects": [],
+    "coverId": null,
+    "cover": null,
+    "description": null,
+    "editionCount": 1,
+    "olRating": {
+      "average": null,
+      "count": 0
+    },
+    "adaptedAs": [
+      "Men (2022)"
+    ]
+  },
+  "The Accidental Billionaires (Ben Mezrich)": {
+    "id": "b:OL14924461W",
+    "olWork": "OL14924461W",
+    "authors": [
+      {
+        "key": "OL23505A",
+        "name": "Ben Mezrich"
+      }
+    ],
+    "firstPublished": 2009,
+    "pages": 260,
+    "subjects": [
+      "Facebook (Electronic resource)",
+      "Webmasters",
+      "Online social networks",
+      "Internet industry",
+      "College students",
+      "Businesspeople",
+      "Facebook (Firm)",
+      "Social networking",
+      "Biography",
+      "History",
+      "nyt:paperback-nonfiction=2010-06-13",
+      "New York Times bestseller"
+    ],
+    "coverId": 6305210,
+    "cover": "https://covers.openlibrary.org/b/id/6305210-M.jpg",
+    "description": "The high-energy tale of how two socially awkward Ivy Leaguers, trying to increase their chances with the opposite sex, ended up creating Facebook.Eduardo Saverin and Mark Zuckerberg were Harvard undergraduates and best friends--outsiders at a school filled with polished prep-school grads and long-time legacies. They shared both academic brilliance in math and a geeky awkwardness with women.Eduardo figured their ticket to social acceptance--and sexual success--was getting invited to join one of the university's Final Clubs, a constellation of elite societies that had groomed generations of the ",
+    "editionCount": 8,
+    "olRating": {
+      "average": 4,
+      "count": 3
+    },
+    "adaptedAs": [
+      "The Social Network (2010)"
+    ]
+  },
+  "Requiem for a Dream (Hubert Selby Jr.)": {
+    "id": "b:OL2737320W",
+    "olWork": "OL2737320W",
+    "authors": [
+      {
+        "key": "OL401235A",
+        "name": "Hubert Selby, Jr."
+      }
+    ],
+    "firstPublished": 1978,
+    "pages": 279,
+    "subjects": [
+      "Drug abuse",
+      "Drug addicts",
+      "Fiction",
+      "Fiction in English",
+      "Mothers and sons",
+      "New york (n.y.), fiction",
+      "Fiction, psychological",
+      "Mothers and sons, fiction",
+      "Fiction, media tie-in",
+      "Alienation (Social psychology)"
+    ],
+    "coverId": 789320,
+    "cover": "https://covers.openlibrary.org/b/id/789320-M.jpg",
+    "description": "This book is about four individuals who pursued the American Dream. In this searing novel, two young hoods, Harry and Tyrone, and a girlfriend fantasize about scoring a pound of uncut heroin and getting rich. But their heroin habit gets the better of them, consumes them and destroys their dreams and Harry's mother's addiction to diet pills lands her in a state mental hospital.",
+    "editionCount": 9,
+    "olRating": {
+      "average": 4,
+      "count": 1
+    },
+    "adaptedAs": [
+      "Requiem for a Dream (2000)"
+    ]
+  },
+  "Gone Girl (Gillian Flynn)": {
+    "id": "b:OL16239762W",
+    "olWork": "OL16239762W",
+    "authors": [
+      {
+        "key": "OL1433006A",
+        "name": "Gillian Flynn"
+      }
+    ],
+    "firstPublished": 2011,
+    "pages": 475,
+    "subjects": [
+      "FICTION / Mystery & Detective / General",
+      "Married people",
+      "Crimes against",
+      "Wives",
+      "Husbands",
+      "FICTION / Thrillers",
+      "FICTION / Suspense",
+      "Fiction",
+      "Roman",
+      "Amerikanisches Englisch",
+      "mystery fiction",
+      "suspense fiction"
+    ],
+    "coverId": 8368314,
+    "cover": "https://covers.openlibrary.org/b/id/8368314-M.jpg",
+    "description": "Gone Girl is a 2012 crime thriller novel by American writer Gillian Flynn. It was published by Crown Publishing Group in June 2012. The novel became popular and made the New York Times Best Seller list. The sense of suspense in the novel comes from whether or not Nick Dunne is involved in the disappearance of his wife Amy.\r\n\r\n\r\n----------\r\nAlso contained in:\r\n[Les apparences suvi de la novella Nous allons mourir ce soir](https://openlibrary.org/works/OL24801746W)",
+    "editionCount": 48,
+    "olRating": {
+      "average": 3.7246377,
+      "count": 69
+    },
+    "adaptedAs": [
+      "Gone Girl (2014)"
+    ]
+  },
+  "Story of Your Life (Ted Chiang)": {
+    "id": "b:OL6216050W",
+    "olWork": "OL6216050W",
+    "authors": [
+      {
+        "key": "OL1604887A",
+        "name": "Ted Chiang"
+      }
+    ],
+    "firstPublished": 2002,
+    "pages": 317,
+    "subjects": [
+      "American Science fiction",
+      "Fiction, science fiction, short stories",
+      "nyt:trade-fiction-paperback=2016-12-04",
+      "New York Times bestseller",
+      "Life change events",
+      "Fiction",
+      "Change (Psychology)",
+      "Automation",
+      "Human-alien encounters",
+      "Adaptability (Psychology)",
+      "FICTION / Science Fiction / General",
+      "FICTION / Short Stories (single author)"
+    ],
+    "coverId": 524046,
+    "cover": "https://covers.openlibrary.org/b/id/524046-M.jpg",
+    "description": "Ted Chiang's first published story, \"Tower of Babylon,\" won the Nebula Award in 1990. Subsequent stories have won the Asimov's SF Magazine reader poll, a second Nebula Award, the Theodore Sturgeon Memorial Award, and the Sidewise Award for alternate history. He won the John W. Campbell Award for Best New Writer in 1992. Story for story, he is the most honored young writer in modern SF.\r\n\r\nNow, collected here for the first time are all seven of this extraordinary writer's stories so far--plus an eighth story written especially for this volume.\r\n\r\nWhat if men built a tower from Earth to Heaven--",
+    "editionCount": 34,
+    "olRating": {
+      "average": 4.4333334,
+      "count": 90
+    },
+    "adaptedAs": [
+      "Arrival (2016)"
+    ]
+  },
+  "Drive (James Sallis)": {
+    "id": "b:OL1909144W",
+    "olWork": "OL1909144W",
+    "authors": [
+      {
+        "key": "OL228668A",
+        "name": "James Sallis"
+      }
+    ],
+    "firstPublished": 2005,
+    "pages": 160,
+    "subjects": [
+      "Stunt performers",
+      "Fiction",
+      "Stunt driving",
+      "Criminals",
+      "Phoenix (ariz.), fiction",
+      "Fiction, mystery & detective, hard-boiled",
+      "Fiction, mystery & detective, general",
+      "West (u.s.), fiction",
+      "Fiction, thrillers, suspense",
+      "Fiction, media tie-in",
+      "Criminals, fiction",
+      "Los angeles (calif.), fiction"
+    ],
+    "coverId": 1860741,
+    "cover": "https://covers.openlibrary.org/b/id/1860741-M.jpg",
+    "description": "\"Much later, as he sat with his back against an inside wall of a Motel 6 just north of Phoenix, watching the pool of blood lap toward him, Driver would wonder whether he had made a terrible mistake. Later still, of course, there'd be no doubt.\"--Inside cover.",
+    "editionCount": 21,
+    "olRating": {
+      "average": 2.8,
+      "count": 5
+    },
+    "adaptedAs": [
+      "Drive (2011)"
+    ]
+  },
+  "The Coldest City (Antony Johnston)": {
+    "unmatched": true
+  },
+  "Don't Look Now (Daphne du Maurier)": {
+    "id": "b:OL36597W",
+    "olWork": "OL36597W",
+    "authors": [
+      {
+        "key": "OL34047A",
+        "name": "Daphne du Maurier"
+      }
+    ],
+    "firstPublished": 1686,
+    "pages": 288,
+    "subjects": [
+      "Manners and customs",
+      "Fiction",
+      "Short stories",
+      "Fiction, short stories (single author)",
+      "Venice (italy), fiction",
+      "Large type books",
+      "Fiction, mystery & detective, general",
+      "English literature"
+    ],
+    "coverId": 6489850,
+    "cover": "https://covers.openlibrary.org/b/id/6489850-M.jpg",
+    "description": null,
+    "editionCount": 15,
+    "olRating": {
+      "average": 5,
+      "count": 1
+    },
+    "adaptedAs": [
+      "Don't Look Now (1973)"
+    ]
+  }
+}

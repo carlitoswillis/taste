@@ -1,0 +1,344 @@
+{
+  "generated": "2026-07-24T08:54:16.371Z",
+  "basedOn": 27,
+  "items": [
+    {
+      "title": "Fanny and Alexander",
+      "year": 1984,
+      "tmdbId": 33153,
+      "tmdbRating": 8.279,
+      "score": 13,
+      "creators": [
+        "Ingmar Bergman"
+      ],
+      "seasons": 1,
+      "episodes": 4,
+      "episodeRuntime": 83,
+      "showStatus": "Ended",
+      "genres": [
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/z1UxljgTyJ5amss39ycSM7fQIkt.jpg",
+      "providers": {
+        "flatrate": [
+          "Criterion Channel"
+        ],
+        "rent": []
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 9
+      },
+      "why": "Ingmar Bergman (directed The Seventh Seal 5★, directed Persona 5★)"
+    },
+    {
+      "title": "Scenes from a Marriage",
+      "year": 1973,
+      "tmdbId": 65170,
+      "tmdbRating": 8.1,
+      "score": 13,
+      "creators": [
+        "Ingmar Bergman"
+      ],
+      "seasons": 1,
+      "episodes": 6,
+      "episodeRuntime": 60,
+      "showStatus": "Ended",
+      "genres": [
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/7emUsAq0IUDC2b2bcyHh60rI7Kx.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": []
+      },
+      "scores": {
+        "rt": 88,
+        "metacritic": null,
+        "imdb": 8.5
+      },
+      "why": "Ingmar Bergman (directed The Seventh Seal 5★, directed Persona 5★)"
+    },
+    {
+      "title": "BEEF",
+      "year": 2023,
+      "tmdbId": 154385,
+      "tmdbRating": 7.751,
+      "score": 3.8000000000000003,
+      "themes": [
+        "cruel-comedy"
+      ],
+      "creators": [
+        "Lee Sung Jin"
+      ],
+      "seasons": 2,
+      "episodes": 18,
+      "episodeRuntime": 55,
+      "showStatus": "Returning Series",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/25ih0Xq2zWbxhhKxwhvswKYQyEr.jpg",
+      "providers": {
+        "flatrate": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ],
+        "rent": []
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 8
+      },
+      "why": "Kitao Sakurai (directed Bad Trip 4★) · themes: comedy that's actually cruel"
+    },
+    {
+      "title": "The Eric Andre Show",
+      "year": 2012,
+      "tmdbId": 56590,
+      "tmdbRating": 7.889,
+      "score": 3.8000000000000003,
+      "themes": [
+        "surveillance"
+      ],
+      "creators": [
+        "Eric André"
+      ],
+      "seasons": 6,
+      "episodes": 60,
+      "episodeRuntime": 11,
+      "showStatus": "Canceled",
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/mXmZJy8AtOF5s5SMW3WfAVxYG7V.jpg",
+      "providers": {
+        "flatrate": [
+          "Hulu",
+          "YouTube TV",
+          "Adult Swim"
+        ],
+        "rent": []
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 8.5
+      },
+      "why": "Kitao Sakurai (directed Bad Trip 4★) · themes: watched & watching"
+    },
+    {
+      "title": "ER",
+      "year": 1994,
+      "tmdbId": 4588,
+      "tmdbRating": 7.831,
+      "score": 3.8000000000000003,
+      "creators": [
+        "Michael Crichton"
+      ],
+      "seasons": 15,
+      "episodes": 331,
+      "episodeRuntime": 45,
+      "showStatus": "Ended",
+      "genres": [
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/fuS63AoFTkprf8PFeL1f8z68zJr.jpg",
+      "providers": {
+        "flatrate": [
+          "Hulu",
+          "HBO Max Amazon Channel",
+          "YouTube TV",
+          "HBO Max"
+        ],
+        "rent": []
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 7.9
+      },
+      "why": "Quentin Tarantino (directed Once Upon a Time... in Hollywood 4★)"
+    },
+    {
+      "title": "Moral Orel",
+      "year": 2005,
+      "tmdbId": 292,
+      "tmdbRating": 8,
+      "score": 2.75,
+      "themes": [
+        "cruel-comedy"
+      ],
+      "creators": [
+        "Dino Stamatopoulos"
+      ],
+      "seasons": 3,
+      "episodes": 43,
+      "episodeRuntime": 12,
+      "showStatus": "Canceled",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/1OSdgNEIYzCDYDmvJcGGBXgsAnR.jpg",
+      "providers": {
+        "flatrate": [
+          "HBO Max Amazon Channel",
+          "YouTube TV",
+          "Adult Swim",
+          "HBO Max"
+        ],
+        "rent": []
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 8.1
+      },
+      "why": "Charlie Kaufman (wrote Being John Malkovich 4.5★, wrote Adaptation. 4★) · themes: comedy that's actually cruel"
+    },
+    {
+      "title": "CSI: Crime Scene Investigation",
+      "year": 2000,
+      "tmdbId": 1431,
+      "tmdbRating": 7.628,
+      "score": 3.8000000000000003,
+      "creators": [
+        "Anthony E. Zuiker",
+        "Ann Donahue"
+      ],
+      "seasons": 15,
+      "episodes": 335,
+      "episodeRuntime": 43,
+      "showStatus": "Ended",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/i5hmoRjHNWady4AtAGICTUXknKH.jpg",
+      "providers": {
+        "flatrate": [
+          "Hulu",
+          "Paramount Plus Premium",
+          "Paramount Plus Essential",
+          "Paramount Plus Apple TV Channel ",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel"
+        ],
+        "rent": []
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 7.7
+      },
+      "why": "Quentin Tarantino (directed Once Upon a Time... in Hollywood 4★)"
+    },
+    {
+      "title": "Jackass",
+      "year": 2000,
+      "tmdbId": 1795,
+      "tmdbRating": 6.654,
+      "score": 4,
+      "creators": [
+        "Jeff Tremaine",
+        "Johnny Knoxville",
+        "Spike Jonze"
+      ],
+      "seasons": 3,
+      "episodes": 25,
+      "episodeRuntime": 25,
+      "showStatus": "Ended",
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/q8O8ElquAya9SugLNH6N5TWNE4h.jpg",
+      "providers": {
+        "flatrate": [
+          "Paramount Plus Premium",
+          "Paramount Plus Essential",
+          "Paramount Plus Apple TV Channel ",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel"
+        ],
+        "rent": []
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 7.3
+      },
+      "why": "Spike Jonze (directed Being John Malkovich 4.5★, directed Adaptation. 4★)"
+    },
+    {
+      "title": "The Office",
+      "year": 2005,
+      "tmdbId": 2316,
+      "tmdbRating": 8.588,
+      "score": 3.2,
+      "creators": [
+        "Greg Daniels"
+      ],
+      "seasons": 9,
+      "episodes": 186,
+      "episodeRuntime": 45,
+      "showStatus": "Ended",
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg",
+      "providers": {
+        "flatrate": [
+          "Peacock Premium",
+          "YouTube TV",
+          "Peacock Premium Plus"
+        ],
+        "rent": []
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 9
+      },
+      "why": "John Krasinski (directed A Quiet Place 4★)"
+    },
+    {
+      "title": "Tom Clancy's Jack Ryan",
+      "year": 2018,
+      "tmdbId": 73375,
+      "tmdbRating": 7.681,
+      "score": 3.2,
+      "creators": [
+        "Graham Roland",
+        "Carlton Cuse"
+      ],
+      "seasons": 4,
+      "episodes": 30,
+      "episodeRuntime": 64,
+      "showStatus": "Ended",
+      "genres": [
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/cO4py3L3q5GNPrA0qr1wVDrosK1.jpg",
+      "providers": {
+        "flatrate": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "rent": []
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 8
+      },
+      "why": "John Krasinski (directed A Quiet Place 4★)"
+    }
+  ]
+}

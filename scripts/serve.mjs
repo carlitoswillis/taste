@@ -37,6 +37,12 @@ async function readBody(req) {
 }
 
 const VALID_SCORES = new Set([0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]);
+const TV_STATUS = new Set(["watching", "finished", "abandoned"]);
+const BOOK_STATUS = new Set(["read", "reading", "toread"]);
+
+const sameBook = (a, b) =>
+  a.title.toLowerCase() === String(b.title).toLowerCase() &&
+  a.author.toLowerCase() === String(b.author).toLowerCase();
 
 const api = {
   // Upsert a log entry; logging a film also clears it from the watch queue.
@@ -89,6 +95,122 @@ const api = {
     rest.sort((a, b) => a.rank - b.rank).forEach((w, idx) => (w.rank = idx + 1));
     await writeData("watchlist", rest);
     return { ok: true };
+  },
+
+  // Upsert a series log entry; logging a series also clears it from the TV queue.
+  "api/tv": async (body) => {
+    const title = String(body.title ?? "").trim();
+    const year = Number(body.year);
+    if (!title || !Number.isInteger(year) || year < 1880 || year > 2100) throw new Error("valid title and year required");
+    const score = body.score == null ? null : Number(body.score);
+    if (score != null && !VALID_SCORES.has(score)) throw new Error("score must be 0.5–5 in half steps");
+    const status = String(body.status ?? "");
+    if (!TV_STATUS.has(status)) throw new Error("status must be watching, finished, or abandoned");
+
+    const entry = { title, year, creator: body.creator || null, score, status };
+    if (body.seasonsWatched != null) entry.seasonsWatched = Number(body.seasonsWatched);
+    if (body.note) entry.note = String(body.note);
+
+    const ratings = await readData("tv-ratings");
+    const i = ratings.findIndex((r) => sameFilm(r, entry));
+    i >= 0 ? (ratings[i] = { ...ratings[i], ...entry }) : ratings.push(entry);
+    await writeData("tv-ratings", ratings);
+
+    const watchlist = await readData("tv-watchlist");
+    const rest = watchlist.filter((w) => !sameFilm(w, entry));
+    if (rest.length !== watchlist.length) {
+      rest.sort((a, b) => a.rank - b.rank).forEach((w, idx) => (w.rank = idx + 1));
+      await writeData("tv-watchlist", rest);
+    }
+    return { ok: true, updated: i >= 0 };
+  },
+
+  "api/tv-watchlist": async (body) => {
+    const title = String(body.title ?? "").trim();
+    const year = Number(body.year);
+    if (!title || !Number.isInteger(year)) throw new Error("valid title and year required");
+    const watchlist = await readData("tv-watchlist");
+    if (watchlist.some((w) => sameFilm(w, { title, year }))) throw new Error("already in the queue");
+    watchlist.push({
+      rank: watchlist.length + 1,
+      title,
+      year,
+      creator: body.creator || null,
+      confidence: ["high", "medium", "low", "test case"].includes(body.confidence) ? body.confidence : "medium",
+      why: String(body.why ?? ""),
+    });
+    await writeData("tv-watchlist", watchlist);
+    return { ok: true };
+  },
+
+  "api/tv-watchlist/remove": async (body) => {
+    const watchlist = await readData("tv-watchlist");
+    const rest = watchlist.filter((w) => !sameFilm(w, body));
+    if (rest.length === watchlist.length) throw new Error("not in the queue");
+    rest.sort((a, b) => a.rank - b.rank).forEach((w, idx) => (w.rank = idx + 1));
+    await writeData("tv-watchlist", rest);
+    return { ok: true };
+  },
+
+  // Upsert a book; the toread shelf doubles as the queue (rank assigned on entry).
+  "api/books": async (body) => {
+    const title = String(body.title ?? "").trim();
+    const author = String(body.author ?? "").trim();
+    if (!title || !author) throw new Error("valid title and author required");
+    const status = String(body.status ?? "");
+    if (!BOOK_STATUS.has(status)) throw new Error("status must be read, reading, or toread");
+    const score = body.score == null ? null : Number(body.score);
+    if (score != null && !VALID_SCORES.has(score)) throw new Error("score must be 0.5–5 in half steps");
+    const year = body.year == null ? null : Number(body.year);
+    if (year != null && !Number.isInteger(year)) throw new Error("year must be a whole number");
+
+    const entry = { title, author, year, status, score, read: body.read ? String(body.read) : null };
+    if (body.note) entry.note = String(body.note);
+    if (body.isbn13) entry.isbn13 = String(body.isbn13);
+    if (body.why) entry.why = String(body.why);
+
+    const books = await readData("books");
+    const i = books.findIndex((b) => sameBook(b, entry));
+    if (status === "toread" && (i < 0 || books[i].rank == null))
+      entry.rank = books.filter((b, idx) => idx !== i && b.status === "toread").length + 1;
+    i >= 0 ? (books[i] = { ...books[i], ...entry }) : books.push(entry);
+    if (status !== "toread" && i >= 0) delete books[i].rank;
+    await writeData("books", books);
+    return { ok: true, updated: i >= 0 };
+  },
+
+  "api/books/remove": async (body) => {
+    const books = await readData("books");
+    const rest = books.filter((b) => !sameBook(b, body));
+    if (rest.length === books.length) throw new Error("not on the shelf");
+    rest
+      .filter((b) => b.status === "toread" && b.rank != null)
+      .sort((a, b) => a.rank - b.rank)
+      .forEach((b, idx) => (b.rank = idx + 1));
+    await writeData("books", rest);
+    return { ok: true };
+  },
+
+  // Review an adaptation edge: confirm makes it truth, reject stops resurrection.
+  "api/adaptations": async (body) => {
+    const action = String(body.action ?? "");
+    if (action !== "confirm" && action !== "reject") throw new Error("action must be confirm or reject");
+    const data = await readData("adaptations");
+    const edges = data.edges ?? [];
+    const keyOf = (e) => `${e.screen}::${e.book?.wikidata ?? e.book?.title}`;
+    const i = body.index != null
+      ? Number(body.index)
+      : edges.findIndex((e) => keyOf(e) === String(body.key));
+    if (!Number.isInteger(i) || i < 0 || i >= edges.length) throw new Error("no such edge");
+    const edge = edges[i];
+    if (action === "confirm") {
+      edge.status = "confirmed";
+    } else {
+      edges.splice(i, 1);
+      (data.rejected ??= []).push(edge);
+    }
+    await writeData("adaptations", data);
+    return { ok: true, edge: keyOf(edge), status: action === "confirm" ? "confirmed" : "rejected" };
   },
 
   "api/oldfilms/verdict": async (body) => {

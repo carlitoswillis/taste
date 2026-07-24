@@ -1,0 +1,202 @@
+{
+  "generated": "2026-07-24T08:54:34.257Z",
+  "basedOn": {
+    "lovedFilms": 27,
+    "ratedBooks": 0,
+    "confirmedAdaptations": 93
+  },
+  "items": [
+    {
+      "title": "Odyssey",
+      "author": "Homer",
+      "olWork": "OL61982W",
+      "year": 1488,
+      "pages": 374,
+      "cover": "https://covers.openlibrary.org/b/id/9045853-M.jpg",
+      "editionCount": 1064,
+      "olRating": {
+        "average": 4.0434785,
+        "count": 161
+      },
+      "weight": 9.2,
+      "rankScore": 22.44,
+      "why": "the book behind The Odyssey (2026) 5★"
+    },
+    {
+      "title": "Iliad",
+      "author": "Homer",
+      "olWork": "OL34350313W",
+      "year": 1954,
+      "pages": 618,
+      "cover": "https://covers.openlibrary.org/b/id/14626179-M.jpg",
+      "editionCount": 9,
+      "olRating": {
+        "average": 4,
+        "count": 3
+      },
+      "weight": 6.4,
+      "rankScore": 16.8,
+      "why": "Homer — wrote the book behind The Odyssey (2026) 5★"
+    },
+    {
+      "title": "The Prestige",
+      "author": "Christopher Priest",
+      "olWork": "OL166497W",
+      "year": 1901,
+      "pages": 384,
+      "cover": "https://covers.openlibrary.org/b/id/3850762-M.jpg",
+      "editionCount": 24,
+      "olRating": {
+        "average": 3.625,
+        "count": 8
+      },
+      "weight": 6.18,
+      "rankScore": 15.99,
+      "why": "the book behind The Prestige (2006) 4.5★"
+    },
+    {
+      "title": "Poor Things",
+      "author": "Alasdair Gray",
+      "olWork": "OL2466636W",
+      "year": 1992,
+      "pages": 317,
+      "cover": "https://covers.openlibrary.org/b/id/115122-M.jpg",
+      "editionCount": 21,
+      "olRating": {
+        "average": 4.5,
+        "count": 4
+      },
+      "weight": 5.22,
+      "rankScore": 14.94,
+      "why": "the book behind Poor Things (2023) 4.5★"
+    },
+    {
+      "title": "No Country for Old Men",
+      "author": "Cormac McCarthy",
+      "olWork": "OL40875W",
+      "year": 1900,
+      "pages": 304,
+      "cover": "https://covers.openlibrary.org/b/id/9296899-M.jpg",
+      "editionCount": 45,
+      "olRating": {
+        "average": 4.111111,
+        "count": 36
+      },
+      "weight": 5.22,
+      "rankScore": 14.55,
+      "why": "the book behind No Country for Old Men (2007) 4.5★"
+    },
+    {
+      "title": "American Prometheus",
+      "author": "Martin J. Sherwin, Kai Bird",
+      "olWork": "OL1905682W",
+      "year": 2005,
+      "pages": 721,
+      "cover": "https://covers.openlibrary.org/b/id/6460516-M.jpg",
+      "editionCount": 18,
+      "olRating": {
+        "average": 3.909091,
+        "count": 11
+      },
+      "weight": 5.08,
+      "rankScore": 14.07,
+      "why": "the book behind Oppenheimer (2023) 4★"
+    },
+    {
+      "title": "The Affirmation",
+      "author": "Christopher Priest",
+      "olWork": "OL166482W",
+      "year": 1981,
+      "pages": 224,
+      "cover": "https://covers.openlibrary.org/b/id/4377814-M.jpg",
+      "editionCount": 16,
+      "olRating": {
+        "average": 4,
+        "count": 1
+      },
+      "weight": 4.08,
+      "rankScore": 12.16,
+      "why": "Christopher Priest — wrote the book behind The Prestige (2006) 4.5★"
+    },
+    {
+      "title": "Lanark",
+      "author": "Alasdair Gray",
+      "olWork": "OL2466637W",
+      "year": 1981,
+      "pages": 560,
+      "cover": "https://covers.openlibrary.org/b/id/8281998-M.jpg",
+      "editionCount": 35,
+      "olRating": {
+        "average": 5,
+        "count": 3
+      },
+      "weight": 3.12,
+      "rankScore": 11.24,
+      "why": "Alasdair Gray — wrote the book behind Poor Things (2023) 4.5★"
+    },
+    {
+      "title": "Cities of the Plain",
+      "author": "Cormac McCarthy",
+      "olWork": "OL40869W",
+      "year": 1998,
+      "pages": 294,
+      "cover": "https://covers.openlibrary.org/b/id/9158767-M.jpg",
+      "editionCount": 29,
+      "olRating": {
+        "average": 4.6666665,
+        "count": 3
+      },
+      "weight": 3.12,
+      "rankScore": 10.91,
+      "why": "Cormac McCarthy — wrote the book behind No Country for Old Men (2007) 4.5★"
+    },
+    {
+      "title": "Four Screenplays of Ingmar Bergman",
+      "author": "Ingmar Bergman",
+      "olWork": "OL2810823W",
+      "year": 1960,
+      "pages": 382,
+      "cover": "https://covers.openlibrary.org/b/id/4067382-M.jpg",
+      "editionCount": 19,
+      "olRating": {
+        "average": 5,
+        "count": 1
+      },
+      "weight": 2.56,
+      "rankScore": 10.12,
+      "why": "Ingmar Bergman adapted him (The Seventh Seal)"
+    },
+    {
+      "title": "Crossing Mandelbaum Gate",
+      "author": "Kai Bird",
+      "olWork": "OL15568965W",
+      "year": 2010,
+      "pages": 424,
+      "cover": "https://covers.openlibrary.org/b/id/7264874-M.jpg",
+      "editionCount": 8,
+      "olRating": {
+        "average": null,
+        "count": 0
+      },
+      "weight": 3.68,
+      "rankScore": 9.86,
+      "why": "Kai Bird — wrote the book behind Oppenheimer (2023) 4★"
+    },
+    {
+      "title": "Wood painting",
+      "author": "Ingmar Bergman",
+      "olWork": "x:The Seventh Seal (1957)",
+      "year": null,
+      "pages": null,
+      "cover": null,
+      "editionCount": 0,
+      "olRating": {
+        "average": null,
+        "count": 0
+      },
+      "weight": 2.8,
+      "rankScore": 6.6,
+      "why": "the book behind The Seventh Seal (1957) 5★"
+    }
+  ]
+}

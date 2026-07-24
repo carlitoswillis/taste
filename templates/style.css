@@ -159,6 +159,24 @@ span.poster.empty-p{border:1px solid var(--line)}
 .tchip{display:inline-block;font:500 11px var(--mono);padding:1px 7px;margin-right:4px;
        border:1px solid var(--tung-dim);border-radius:9px;color:var(--tung);opacity:.85}
 
+/* ---------- tv & books ---------- */
+.book-cover{aspect-ratio:2/3;height:auto}
+.chip.watching,.chip.reading{border:1px solid var(--tung-dim);color:var(--tung)}
+.chip.finished{background:var(--tung);color:#1a1206}
+.chip.abandoned{border:1px solid var(--line);color:var(--dim)}
+.frow .rcell{display:flex;gap:10px;align-items:baseline;justify-content:flex-end}
+.badge-adaptation{
+  display:inline-block;font:500 11px var(--mono);color:var(--dim);
+  border:1px solid var(--line);border-radius:2px;padding:1px 6px;margin-left:8px;vertical-align:1px;
+}
+.badge-adaptation .unread{color:var(--tung)}
+.seg{display:flex;gap:8px;margin-bottom:14px}
+.seg label{display:inline-flex;margin:0}
+.seg input{position:absolute;opacity:0;pointer-events:none;width:auto}
+.seg span{font:600 12px var(--mono);color:var(--dim);border:1px solid var(--line);padding:5px 12px;border-radius:99px;cursor:pointer}
+.seg input:checked+span{color:#1a1206;background:var(--tung);border-color:var(--tung)}
+.seg input:focus-visible+span{outline:2px solid var(--tung);outline-offset:2px}
+
 /* ---------- directors: sprocket meters ---------- */
 .drow{padding:14px 4px;border-bottom:1px solid var(--line)}
 .drow .head{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
