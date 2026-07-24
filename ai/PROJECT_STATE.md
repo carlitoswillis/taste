@@ -11,8 +11,9 @@ chooses to. GitHub is version control, not distribution.
 - [ x Live with the tool for a bit: log films through the UI, record old-film verdicts, note friction
 
 ## Active Tasks
-- [ ] **User action needed to finish deploy**: `git push origin main` (classifier blocks Claude pushing), and `gh repo delete carlitoswillis/taste-site --yes` (mirror repo made obsolete, contains only a README). Final architecture: ONE private repo, Pages build_type=workflow serves only the dist/ artifact at carlitoswillis.github.io/taste/ — no mirror, no deploy keys. 2026-07-24: leftover legacy Pages on this repo was found publicly serving the whole tree (ai/ included) and was deleted
-- [ ] Connected recs (TV/books/themes/cross-media) — design doc in `ai/plans/connected-recs.md`; themes is Phase 1
+- [ ] User chore: `gh repo delete carlitoswillis/taste-site --yes` (obsolete mirror repo, README only; deletion classifier-blocked for Claude)
+- [ ] User review: `data/theme-map.json` seed (taste claims; "identity" theme matched 0 films, emergent list suggests obsession/psychological-horror/absurdism themes) and the 0-candidate adaptation review queue as it fills
+- [ ] Connected recs Phase 4 (cross-media surfacing: connections.json, people.json, chips/chains/threads) — spec in `ai/plans/connected-recs.md`; Phases 1–3 shipped 2026-07-24
 
 ## Backlog
 - users? maybe (see multi-user note below — deferred until the single-user loop feels alive)
@@ -25,6 +26,10 @@ chooses to. GitHub is version control, not distribution.
 - [ ] `scripts/verify.sh` quality gate (build succeeds + JSON schema check on data files)
 
 ## Completed
+- [x] 2026-07-24 — **Deploy LIVE**: https://carlitoswillis.github.io/taste/ — final architecture is ONE private repo, Pages build_type=workflow serving only the dist/ artifact (no mirror, no deploy keys; the taste-site mirror detour was retired same day). Leftover legacy Pages that publicly served the whole tree (ai/ included) was found and deleted
+- [x] 2026-07-24 — Themes Phase 1 shipped & published (user opted in): TMDB keywords in enrichment, curated data/theme-map.json, themes.mjs engine, THEME_BLEND in suggest + themePicks, Taste/Films/Watch UI
+- [x] 2026-07-24 — Zero-touch: RSS→ratings/watched auto-merge in daily sync (idempotent, note-preserving, ±1yr match); drop/ zip importer Action (owner-guarded)
+- [x] 2026-07-24 — TV + Books verticals shipped (Phases 2+3): tv/book stores + enrichers + suggesters, Wikidata adaptation bridge (93 confirmed edges), Goodreads importer, write API handlers, TV & Books tabs; suggestions bootstrap entirely from film data
 - [x] 2026-07-24 — **Deploy decided & wired (user chose public, Letterboxd-style)**: private source repo publishes `dist/` to public mirror repo `carlitoswillis/taste-site` (GitHub Pages, free plan — Pages-on-private needs Pro, mirror avoids it; `ai/` notes and git history stay private). `deploy.yml` reworked (push-to-mirror via deploy key, triggers: data/template pushes + manual + called by sync); `sync.yml` now republishes daily after data refresh, so the site self-updates — no server, no DB, repo-as-database
 - [x] 2026-07-24 — Deterministic profile layer: `scripts/profile-stats.mjs` → `data/stats.json` (tier spread, decades, genre tilt, critic divergence, staleness counter); rendered as "Computed from the data" atop the Taste tab; runs in daily sync
 - [x] 2026-07-24 — `/refresh-profile` project skill (`.claude/skills/refresh-profile/`): the ritual that rewrites profile.json/calibration.json prose from new evidence; stats.json's `newSinceProfile` says when it's due
