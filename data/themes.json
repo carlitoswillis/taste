@@ -1,0 +1,624 @@
+{
+  "generated": "2026-07-24T08:03:38.323Z",
+  "basedOn": {
+    "loved": 27,
+    "seenWithKeywords": 344,
+    "filmsEnriched": 362
+  },
+  "themes": [
+    {
+      "id": "doubling",
+      "name": "Doubling & doppelgangers",
+      "core": true,
+      "affinity": 2.5,
+      "affinityNorm": 0.56,
+      "lovedCount": 2,
+      "lovedShare": 0.07,
+      "seenCount": 12,
+      "seenShare": 0.03,
+      "tilt": 0.04,
+      "lovedFilms": [
+        {
+          "title": "The Prestige",
+          "year": 2006,
+          "score": 4.5,
+          "matched": []
+        },
+        {
+          "title": "Adaptation.",
+          "year": 2002,
+          "score": 4,
+          "matched": [
+            "twins"
+          ]
+        }
+      ],
+      "keywordIds": [
+        9181,
+        15016,
+        402,
+        163129,
+        7375,
+        156097
+      ],
+      "keywordHits": {
+        "alter ego": 4,
+        "twins": 4,
+        "clone": 2,
+        "dual role": 3,
+        "twin brother": 1,
+        "evil twin": 1
+      }
+    },
+    {
+      "id": "unravelling",
+      "name": "Coming apart (with a landing)",
+      "core": true,
+      "affinity": 4.5,
+      "affinityNorm": 1,
+      "lovedCount": 3,
+      "lovedShare": 0.11,
+      "seenCount": 19,
+      "seenShare": 0.06,
+      "tilt": 0.06,
+      "lovedFilms": [
+        {
+          "title": "Persona",
+          "year": 1966,
+          "score": 5,
+          "matched": [
+            "mental breakdown"
+          ]
+        },
+        {
+          "title": "Bugonia",
+          "year": 2025,
+          "score": 4.5,
+          "matched": [
+            "paranoia",
+            "delusion"
+          ]
+        },
+        {
+          "title": "Midsommar",
+          "year": 2019,
+          "score": 4,
+          "matched": [
+            "paranoia"
+          ]
+        }
+      ],
+      "keywordIds": [
+        2340,
+        6262,
+        4280,
+        11323
+      ],
+      "keywordHits": {
+        "paranoia": 14,
+        "delusion": 4,
+        "mental breakdown": 2,
+        "descent into madness": 2
+      }
+    },
+    {
+      "id": "identity",
+      "name": "Impostors & stolen selves",
+      "core": true,
+      "affinity": 0,
+      "affinityNorm": 0,
+      "lovedCount": 0,
+      "lovedShare": 0,
+      "seenCount": 7,
+      "seenShare": 0.02,
+      "tilt": -0.02,
+      "lovedFilms": [],
+      "keywordIds": [
+        156761,
+        1453
+      ],
+      "keywordHits": {
+        "split personality": 4,
+        "amnesia": 3
+      }
+    },
+    {
+      "id": "cruel-comedy",
+      "name": "Comedy that's actually cruel",
+      "core": false,
+      "affinity": 3,
+      "affinityNorm": 0.67,
+      "lovedCount": 2,
+      "lovedShare": 0.07,
+      "seenCount": 41,
+      "seenShare": 0.12,
+      "tilt": -0.05,
+      "lovedFilms": [
+        {
+          "title": "Parasite",
+          "year": 2019,
+          "score": 4.5,
+          "matched": [
+            "dark comedy"
+          ]
+        },
+        {
+          "title": "Bugonia",
+          "year": 2025,
+          "score": 4.5,
+          "matched": [
+            "dark comedy",
+            "satire"
+          ]
+        }
+      ],
+      "keywordIds": [
+        8201,
+        11514,
+        10123,
+        33740
+      ],
+      "keywordHits": {
+        "satire": 16,
+        "social satire": 3,
+        "dark comedy": 31,
+        "humiliation": 2
+      }
+    },
+    {
+      "id": "metaphysical",
+      "name": "Big metaphysical swings",
+      "core": false,
+      "affinity": 2,
+      "affinityNorm": 0.44,
+      "lovedCount": 1,
+      "lovedShare": 0.04,
+      "seenCount": 15,
+      "seenShare": 0.04,
+      "tilt": -0.01,
+      "lovedFilms": [
+        {
+          "title": "The Seventh Seal",
+          "year": 1957,
+          "score": 5,
+          "matched": [
+            "meaning of life"
+          ]
+        }
+      ],
+      "keywordIds": [
+        181324,
+        3972,
+        6155,
+        177146,
+        4978
+      ],
+      "keywordHits": {
+        "existentialism": 9,
+        "simulated reality": 2,
+        "afterlife": 2,
+        "meaning of life": 1,
+        "immortality": 1
+      }
+    },
+    {
+      "id": "body-horror",
+      "name": "The body betrays",
+      "core": false,
+      "affinity": 2.5,
+      "affinityNorm": 0.56,
+      "lovedCount": 2,
+      "lovedShare": 0.07,
+      "seenCount": 18,
+      "seenShare": 0.05,
+      "tilt": 0.02,
+      "lovedFilms": [
+        {
+          "title": "Poor Things",
+          "year": 2023,
+          "score": 4.5,
+          "matched": [
+            "body horror"
+          ]
+        },
+        {
+          "title": "Together",
+          "year": 2025,
+          "score": 4,
+          "matched": [
+            "body horror"
+          ]
+        }
+      ],
+      "keywordIds": [
+        283085,
+        157634,
+        4375,
+        2766
+      ],
+      "keywordHits": {
+        "body horror": 15,
+        "parasite": 1,
+        "transformation": 3,
+        "mutation": 2
+      }
+    },
+    {
+      "id": "surveillance",
+      "name": "Watched & watching",
+      "core": false,
+      "affinity": 1,
+      "affinityNorm": 0.22,
+      "lovedCount": 1,
+      "lovedShare": 0.04,
+      "seenCount": 8,
+      "seenShare": 0.02,
+      "tilt": 0.01,
+      "lovedFilms": [
+        {
+          "title": "Bad Trip",
+          "year": 2021,
+          "score": 4,
+          "matched": [
+            "hidden camera"
+          ]
+        }
+      ],
+      "keywordIds": [
+        3979,
+        178649,
+        18420
+      ],
+      "keywordHits": {
+        "hidden camera": 2,
+        "voyeurism": 4,
+        "surveillance": 2
+      }
+    },
+    {
+      "id": "grief-horror",
+      "name": "Grief wearing a mask",
+      "core": false,
+      "affinity": 4,
+      "affinityNorm": 0.89,
+      "lovedCount": 4,
+      "lovedShare": 0.15,
+      "seenCount": 14,
+      "seenShare": 0.04,
+      "tilt": 0.11,
+      "lovedFilms": [
+        {
+          "title": "Midsommar",
+          "year": 2019,
+          "score": 4,
+          "matched": [
+            "cult"
+          ]
+        },
+        {
+          "title": "Once Upon a Time... in Hollywood",
+          "year": 2019,
+          "score": 4,
+          "matched": [
+            "cult"
+          ]
+        },
+        {
+          "title": "Apostle",
+          "year": 2018,
+          "score": 4,
+          "matched": [
+            "cult"
+          ]
+        },
+        {
+          "title": "Together",
+          "year": 2025,
+          "score": 4,
+          "matched": [
+            "cult"
+          ]
+        }
+      ],
+      "keywordIds": [
+        6158,
+        9872,
+        159103
+      ],
+      "keywordHits": {
+        "cult": 9,
+        "grief": 4,
+        "mourning": 2
+      }
+    }
+  ],
+  "emergent": [
+    {
+      "keyword": "obsession",
+      "id": 1523,
+      "lovedCount": 4,
+      "seenCount": 16,
+      "tilt": 0.1,
+      "films": [
+        "The Prestige (2006)",
+        "Poor Things (2023)",
+        "Obsession (2026)"
+      ]
+    },
+    {
+      "keyword": "psychological horror",
+      "id": 295907,
+      "lovedCount": 4,
+      "seenCount": 19,
+      "tilt": 0.09,
+      "films": [
+        "Obsession (2026)",
+        "The Lighthouse (2019)",
+        "A Quiet Place (2018)"
+      ]
+    },
+    {
+      "keyword": "absurdism",
+      "id": 214655,
+      "lovedCount": 3,
+      "seenCount": 6,
+      "tilt": 0.09,
+      "films": [
+        "Poor Things (2023)",
+        "Bugonia (2025)",
+        "Obsession (2026)"
+      ]
+    },
+    {
+      "keyword": "black and white",
+      "id": 12999,
+      "lovedCount": 3,
+      "seenCount": 7,
+      "tilt": 0.09,
+      "films": [
+        "The Seventh Seal (1957)",
+        "Persona (1966)",
+        "The Lighthouse (2019)"
+      ]
+    },
+    {
+      "keyword": "sci-fi horror",
+      "id": 323910,
+      "lovedCount": 3,
+      "seenCount": 9,
+      "tilt": 0.08,
+      "films": [
+        "Prometheus (2012)",
+        "A Quiet Place (2018)",
+        "Companion (2025)"
+      ]
+    },
+    {
+      "keyword": "boyfriend girlfriend relationship",
+      "id": 164698,
+      "lovedCount": 2,
+      "seenCount": 3,
+      "tilt": 0.07,
+      "films": [
+        "Midsommar (2019)",
+        "Companion (2025)"
+      ]
+    },
+    {
+      "keyword": "psychological disorders",
+      "id": 224845,
+      "lovedCount": 2,
+      "seenCount": 3,
+      "tilt": 0.07,
+      "films": [
+        "Hereditary (2018)",
+        "Midsommar (2019)"
+      ]
+    },
+    {
+      "keyword": "toxic relationship",
+      "id": 241804,
+      "lovedCount": 2,
+      "seenCount": 3,
+      "tilt": 0.07,
+      "films": [
+        "Midsommar (2019)",
+        "Companion (2025)"
+      ]
+    },
+    {
+      "keyword": "traumatized woman",
+      "id": 253807,
+      "lovedCount": 2,
+      "seenCount": 3,
+      "tilt": 0.07,
+      "films": [
+        "Hereditary (2018)",
+        "Midsommar (2019)"
+      ]
+    },
+    {
+      "keyword": "ship",
+      "id": 3799,
+      "lovedCount": 2,
+      "seenCount": 3,
+      "tilt": 0.07,
+      "films": [
+        "The Odyssey (2026)",
+        "Poor Things (2023)"
+      ]
+    },
+    {
+      "keyword": "sex worker",
+      "id": 190178,
+      "lovedCount": 2,
+      "seenCount": 3,
+      "tilt": 0.07,
+      "films": [
+        "Anora (2024)",
+        "Poor Things (2023)"
+      ]
+    },
+    {
+      "keyword": "commanding",
+      "id": 325785,
+      "lovedCount": 2,
+      "seenCount": 3,
+      "tilt": 0.07,
+      "films": [
+        "Hereditary (2018)",
+        "The Northman (2022)"
+      ]
+    },
+    {
+      "keyword": "isolated island",
+      "id": 226406,
+      "lovedCount": 2,
+      "seenCount": 2,
+      "tilt": 0.07,
+      "films": [
+        "The Lighthouse (2019)",
+        "Apostle (2018)"
+      ]
+    },
+    {
+      "keyword": "doubtful",
+      "id": 325802,
+      "lovedCount": 2,
+      "seenCount": 2,
+      "tilt": 0.07,
+      "films": [
+        "No Country for Old Men (2007)",
+        "Together (2025)"
+      ]
+    },
+    {
+      "keyword": "countryside",
+      "id": 548,
+      "lovedCount": 2,
+      "seenCount": 3,
+      "tilt": 0.07,
+      "films": [
+        "The Seventh Seal (1957)",
+        "Together (2025)"
+      ]
+    },
+    {
+      "keyword": "nurse",
+      "id": 428,
+      "lovedCount": 2,
+      "seenCount": 2,
+      "tilt": 0.07,
+      "films": [
+        "Persona (1966)",
+        "Saint Maud (2019)"
+      ]
+    },
+    {
+      "keyword": "symbolism",
+      "id": 1715,
+      "lovedCount": 2,
+      "seenCount": 3,
+      "tilt": 0.07,
+      "films": [
+        "The Seventh Seal (1957)",
+        "Bugonia (2025)"
+      ]
+    },
+    {
+      "keyword": "drunk",
+      "id": 40879,
+      "lovedCount": 2,
+      "seenCount": 2,
+      "tilt": 0.07,
+      "films": [
+        "Anora (2024)",
+        "Bad Trip (2021)"
+      ]
+    },
+    {
+      "keyword": "class differences",
+      "id": 14514,
+      "lovedCount": 2,
+      "seenCount": 4,
+      "tilt": 0.06,
+      "films": [
+        "Anora (2024)",
+        "Parasite (2019)"
+      ]
+    },
+    {
+      "keyword": "introspective",
+      "id": 269808,
+      "lovedCount": 2,
+      "seenCount": 6,
+      "tilt": 0.06,
+      "films": [
+        "Parasite (2019)",
+        "Adaptation. (2002)"
+      ]
+    },
+    {
+      "keyword": "oscar winner",
+      "id": 370793,
+      "lovedCount": 2,
+      "seenCount": 5,
+      "tilt": 0.06,
+      "films": [
+        "Anora (2024)",
+        "Parasite (2019)"
+      ]
+    },
+    {
+      "keyword": "couple",
+      "id": 33494,
+      "lovedCount": 2,
+      "seenCount": 4,
+      "tilt": 0.06,
+      "films": [
+        "Obsession (2026)",
+        "Together (2025)"
+      ]
+    },
+    {
+      "keyword": "ritual",
+      "id": 4720,
+      "lovedCount": 2,
+      "seenCount": 4,
+      "tilt": 0.06,
+      "films": [
+        "Hereditary (2018)",
+        "Midsommar (2019)"
+      ]
+    },
+    {
+      "keyword": "grieving",
+      "id": 172291,
+      "lovedCount": 2,
+      "seenCount": 4,
+      "tilt": 0.06,
+      "films": [
+        "Hereditary (2018)",
+        "Midsommar (2019)"
+      ]
+    },
+    {
+      "keyword": "folk horror",
+      "id": 209568,
+      "lovedCount": 2,
+      "seenCount": 5,
+      "tilt": 0.06,
+      "films": [
+        "Midsommar (2019)",
+        "Apostle (2018)"
+      ]
+    }
+  ],
+  "coverage": {
+    "filmsWithKeywords": 344,
+    "filmsWithoutKeywords": 1,
+    "distinctKeywords": 3159,
+    "mappedKeywords": 31,
+    "unmappedSeenTwicePlus": 1032
+  }
+}

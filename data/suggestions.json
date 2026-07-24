@@ -1,62 +1,64 @@
 {
-  "generated": "2026-07-23T21:38:50.005Z",
+  "generated": "2026-07-24T07:56:19.582Z",
   "basedOn": 27,
   "items": [
     {
-      "title": "Wild Strawberries",
-      "year": 1957,
-      "tmdbId": 614,
-      "tmdbRating": 8.074,
+      "title": "The Magician",
+      "year": 1958,
+      "tmdbId": 29453,
+      "tmdbRating": 7.33,
       "score": 13,
+      "themes": [
+        "unravelling"
+      ],
       "director": [
         "Ingmar Bergman"
       ],
-      "runtime": 91,
+      "runtime": 102,
       "genres": [
         "Drama"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/iyTD2QnySNMPUPE3IedZQipSWfz.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/46DEYkr96MxzUmdwgmj2U7gWokZ.jpg",
       "providers": {
         "flatrate": [
-          "HBO Max Amazon Channel",
-          "YouTube TV",
-          "Criterion Channel",
-          "HBO Max"
+          "Kanopy",
+          "Criterion Channel"
         ],
         "rent": [
           "Amazon Video",
           "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
           "Fandango At Home"
         ]
       },
       "scores": {
-        "rt": 94,
-        "metacritic": 88,
-        "imdb": 8.1
+        "rt": 100,
+        "metacritic": 86,
+        "imdb": 7.5
       },
-      "why": "Ingmar Bergman (directed The Seventh Seal 5★, Persona 5★)"
+      "why": "Ingmar Bergman (directed The Seventh Seal 5★, Persona 5★) · themes: coming apart (with a landing)"
     },
     {
-      "title": "Scenes from a Marriage",
-      "year": 1974,
-      "tmdbId": 133919,
-      "tmdbRating": 8.045,
+      "title": "The Passion of Anna",
+      "year": 1969,
+      "tmdbId": 42602,
+      "tmdbRating": 7.399,
       "score": 13,
+      "themes": [
+        "grief-horror"
+      ],
       "director": [
         "Ingmar Bergman"
       ],
-      "runtime": 169,
+      "runtime": 101,
       "genres": [
-        "Drama",
-        "Romance"
+        "Drama"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/ArKEdvJesIktFX8OAhcdKAOLl6I.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/cr01316AyxUZyZrdLwzz3AXrgJc.jpg",
       "providers": {
         "flatrate": [
-          "HBO Max Amazon Channel",
-          "YouTube TV",
-          "Criterion Channel",
-          "HBO Max"
+          "Criterion Channel"
         ],
         "rent": [
           "Apple TV Store",
@@ -66,18 +68,21 @@
         ]
       },
       "scores": {
-        "rt": null,
+        "rt": 100,
         "metacritic": null,
-        "imdb": 8.3
+        "imdb": 7.6
       },
-      "why": "Ingmar Bergman (directed The Seventh Seal 5★, Persona 5★)"
+      "why": "Ingmar Bergman (directed The Seventh Seal 5★, Persona 5★) · themes: grief wearing a mask"
     },
     {
       "title": "Following",
       "year": 1999,
       "tmdbId": 11660,
-      "tmdbRating": 7.127,
+      "tmdbRating": 7.1,
       "score": 12.15,
+      "themes": [
+        "surveillance"
+      ],
       "director": [
         "Christopher Nolan"
       ],
@@ -109,13 +114,13 @@
         "metacritic": 60,
         "imdb": 7.4
       },
-      "why": "Christopher Nolan (directed The Odyssey 5★, The Prestige 4.5★, Oppenheimer 4★)"
+      "why": "Christopher Nolan (directed The Odyssey 5★, The Prestige 4.5★, Oppenheimer 4★) · themes: watched & watching"
     },
     {
       "title": "Insomnia",
       "year": 2002,
       "tmdbId": 320,
-      "tmdbRating": 6.956,
+      "tmdbRating": 6.957,
       "score": 12.15,
       "director": [
         "Christopher Nolan"
@@ -146,55 +151,64 @@
       "why": "Christopher Nolan (directed The Odyssey 5★, The Prestige 4.5★, Oppenheimer 4★)"
     },
     {
-      "title": "The Man Who Wasn't There",
-      "year": 2001,
-      "tmdbId": 10778,
-      "tmdbRating": 7.51,
+      "title": "Burn After Reading",
+      "year": 2008,
+      "tmdbId": 4944,
+      "tmdbRating": 6.676,
       "score": 8.100000000000001,
+      "themes": [
+        "unravelling",
+        "cruel-comedy"
+      ],
       "director": [
-        "Joel Coen",
-        "Ethan Coen"
+        "Ethan Coen",
+        "Joel Coen"
       ],
-      "runtime": 116,
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/lrCgt8NNMyFsfmXyXiSSCRXNH4u.jpg",
-      "providers": {
-        "flatrate": [],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
-          "Fandango At Home"
-        ]
-      },
-      "scores": {
-        "rt": 81,
-        "metacritic": 73,
-        "imdb": 7.5
-      },
-      "why": "Joel Coen (directed No Country for Old Men 4.5★) · Ethan Coen (directed No Country for Old Men 4.5★)"
-    },
-    {
-      "title": "Barton Fink",
-      "year": 1991,
-      "tmdbId": 290,
-      "tmdbRating": 7.467,
-      "score": 8.100000000000001,
-      "director": [
-        "Joel Coen",
-        "Ethan Coen"
-      ],
-      "runtime": 117,
+      "runtime": 96,
       "genres": [
         "Comedy",
-        "Drama",
-        "Thriller"
+        "Drama"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/oDkp5iClJ9WKJGtKHz8BydodHC3.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/jdwSkQu3XirmX18MNj8CqFWsCk.jpg",
+      "providers": {
+        "flatrate": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "scores": {
+        "rt": 78,
+        "metacritic": 63,
+        "imdb": 7
+      },
+      "why": "Joel Coen (directed No Country for Old Men 4.5★) · Ethan Coen (directed No Country for Old Men 4.5★) · themes: coming apart (with a landing), comedy that's actually cruel"
+    },
+    {
+      "title": "Intolerable Cruelty",
+      "year": 2003,
+      "tmdbId": 11775,
+      "tmdbRating": 5.955,
+      "score": 8.100000000000001,
+      "themes": [
+        "cruel-comedy"
+      ],
+      "director": [
+        "Joel Coen"
+      ],
+      "runtime": 100,
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Crime"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/7K8hDwOWsZv0MluyrB8nWlhJOgB.jpg",
       "providers": {
         "flatrate": [],
         "rent": [
@@ -206,11 +220,11 @@
         ]
       },
       "scores": {
-        "rt": 90,
-        "metacritic": 69,
-        "imdb": 7.6
+        "rt": 76,
+        "metacritic": 71,
+        "imdb": 6.3
       },
-      "why": "Joel Coen (directed No Country for Old Men 4.5★) · Ethan Coen (directed No Country for Old Men 4.5★)"
+      "why": "Joel Coen (directed No Country for Old Men 4.5★) · Ethan Coen (directed No Country for Old Men 4.5★) · themes: comedy that's actually cruel"
     },
     {
       "title": "The Strange Thing About the Johnsons",
@@ -237,6 +251,39 @@
         "imdb": 7.1
       },
       "why": "Ari Aster (directed Hereditary 4.5★, Midsommar 4★)"
+    },
+    {
+      "title": "Okja",
+      "year": 2017,
+      "tmdbId": 387426,
+      "tmdbRating": 7.331,
+      "score": 5.700000000000001,
+      "themes": [
+        "doubling"
+      ],
+      "director": [
+        "Bong Joon Ho"
+      ],
+      "runtime": 120,
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Science Fiction"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/pHlRr2MfjK77VIIAO7p0R4jhsJI.jpg",
+      "providers": {
+        "flatrate": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ],
+        "rent": []
+      },
+      "scores": {
+        "rt": 87,
+        "metacritic": 75,
+        "imdb": 7.3
+      },
+      "why": "Bong Joon Ho (directed Parasite 4.5★) · themes: doubling & doppelgangers"
     },
     {
       "title": "Mother",
@@ -275,40 +322,10 @@
       "why": "Bong Joon Ho (directed Parasite 4.5★)"
     },
     {
-      "title": "Okja",
-      "year": 2017,
-      "tmdbId": 387426,
-      "tmdbRating": 7.331,
-      "score": 5.700000000000001,
-      "director": [
-        "Bong Joon Ho"
-      ],
-      "runtime": 120,
-      "genres": [
-        "Adventure",
-        "Drama",
-        "Science Fiction"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/pHlRr2MfjK77VIIAO7p0R4jhsJI.jpg",
-      "providers": {
-        "flatrate": [
-          "Netflix",
-          "Netflix Standard with Ads"
-        ],
-        "rent": []
-      },
-      "scores": {
-        "rt": 87,
-        "metacritic": 75,
-        "imdb": 7.3
-      },
-      "why": "Bong Joon Ho (directed Parasite 4.5★)"
-    },
-    {
       "title": "The Florida Project",
       "year": 2017,
       "tmdbId": 394117,
-      "tmdbRating": 7.426,
+      "tmdbRating": 7.4,
       "score": 5.4,
       "director": [
         "Sean Baker"
@@ -400,6 +417,121 @@
         "imdb": 7.5
       },
       "why": "Yorgos Lanthimos (directed Poor Things 4.5★, Bugonia 4.5★)"
+    }
+  ],
+  "themePicks": [
+    {
+      "title": "Perfect Blue",
+      "year": 1998,
+      "tmdbId": 10494,
+      "tmdbRating": 8.3,
+      "theme": "unravelling",
+      "why": "unravelling — the thread through 3 of your loved films",
+      "director": [
+        "Satoshi Kon"
+      ],
+      "runtime": 81,
+      "genres": [
+        "Animation",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/6WTiOCfDPP8XV4jqfloiVWf7KHq.jpg",
+      "providers": {
+        "flatrate": [
+          "HBO Max Amazon Channel",
+          "YouTube TV",
+          "HBO Max"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "scores": {
+        "rt": 85,
+        "metacritic": 67,
+        "imdb": 8
+      }
+    },
+    {
+      "title": "Lucy Shimmers and the Prince of Peace",
+      "year": 2020,
+      "tmdbId": 770156,
+      "tmdbRating": 8.358,
+      "theme": "grief-horror",
+      "why": "grief-horror — the thread through 4 of your loved films",
+      "director": [
+        "Rob Diamond"
+      ],
+      "runtime": 87,
+      "genres": [
+        "Drama",
+        "Family"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/yfnJ5qIYx7q33fY4jqv9Pu95RSg.jpg",
+      "providers": {
+        "flatrate": [
+          "Amazon Prime Video",
+          "YouTube TV",
+          "UP Faith & Family Apple TV Channel",
+          "Amazon Prime Video with Ads",
+          "Kartoon Channel Amazon Channel",
+          "UP Faith & Family Amazon Channel "
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 7.1
+      }
+    },
+    {
+      "title": "Life Is Beautiful",
+      "year": 1997,
+      "tmdbId": 637,
+      "tmdbRating": 8.439,
+      "theme": "cruel-comedy",
+      "why": "cruel-comedy — the thread through 2 of your loved films",
+      "director": [
+        "Roberto Benigni"
+      ],
+      "runtime": 116,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/74hLDKjD5aGYOotO6esUVaeISa2.jpg",
+      "providers": {
+        "flatrate": [
+          "Paramount Plus Premium",
+          "Paramount Plus Essential",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel"
+        ],
+        "rent": [
+          "JustWatch TV",
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "scores": {
+        "rt": 80,
+        "metacritic": 58,
+        "imdb": 8.6
+      }
     }
   ]
 }

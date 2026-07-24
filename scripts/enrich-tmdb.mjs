@@ -70,14 +70,16 @@ for (const film of films) {
     console.warn(`  no TMDB match: ${k}`);
     continue;
   }
-  const detail = await tmdb(`/movie/${match.id}`, { append_to_response: "credits,watch/providers" });
+  const detail = await tmdb(`/movie/${match.id}`, { append_to_response: "credits,watch/providers,keywords" });
   const providers = detail["watch/providers"]?.results?.[region] ?? {};
   out[k] = {
+    id: `m:${match.id}`,
     tmdbId: match.id,
     imdbId: detail.imdb_id ?? null,
     director: detail.credits?.crew?.filter((c) => c.job === "Director").map(person) ?? [],
     writers: detail.credits?.crew?.filter((c) => WRITER_JOBS.has(c.job)).map(person) ?? [],
     cast: detail.credits?.cast?.slice(0, 8).map(person) ?? [],
+    keywords: detail.keywords?.keywords?.map((kw) => ({ id: kw.id, name: kw.name })) ?? [],
     runtime: detail.runtime ?? null,
     genres: detail.genres?.map((g) => g.name) ?? [],
     tmdbRating: detail.vote_average ?? null,
@@ -97,7 +99,24 @@ for (const film of films) {
   await new Promise((r) => setTimeout(r, 120)); // stay friendly to the API
 }
 
-// Second pass: critic scores from OMDb, by IMDb id, for entries that lack them.
+// Second pass: keywords (and canonical ids) for entries enriched before the
+// keyword schema. Presence of the keywords array marks it done (same trick as
+// "writers"); films with no keywords keep an empty array so they're never refetched.
+{
+  let keyworded = 0;
+  for (const [k, entry] of Object.entries(out)) {
+    if (!entry.tmdbId || entry.keywords) continue;
+    const data = await tmdb(`/movie/${entry.tmdbId}/keywords`);
+    entry.id = `m:${entry.tmdbId}`;
+    entry.keywords = data.keywords?.map((kw) => ({ id: kw.id, name: kw.name })) ?? [];
+    keyworded++;
+    console.log(`  keywords: ${k} — ${entry.keywords.length}`);
+    await new Promise((r) => setTimeout(r, 120));
+  }
+  console.log(`${keyworded} films keyworded via TMDB`);
+}
+
+// Third pass: critic scores from OMDb, by IMDb id, for entries that lack them.
 const omdbKey = process.env.OMDB_API_KEY;
 if (omdbKey) {
   let scored = 0;

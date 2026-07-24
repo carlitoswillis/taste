@@ -8,6 +8,7 @@
     "build": "node scripts/build.mjs",
     "sync": "node scripts/fetch-letterboxd.mjs",
     "enrich": "node scripts/enrich-tmdb.mjs",
+    "themes": "node scripts/themes.mjs",
     "suggest": "node scripts/suggest.mjs",
     "stats": "node scripts/profile-stats.mjs",
     "import": "node scripts/import-letterboxd.mjs"

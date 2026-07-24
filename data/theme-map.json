@@ -1,0 +1,25 @@
+{
+  "updated": "2026-07-24",
+  "themes": [
+    { "id": "doubling", "name": "Doubling & doppelgangers", "core": true,
+      "note": "Twins, clones, dual roles, the self met from outside.",
+      "keywords": ["doppelganger", "twins", "twin brother", "twin sister", "dual role", "clone", "lookalike", "alter ego", "body double", "identity swap", "evil twin"] },
+    { "id": "unravelling", "name": "Coming apart (with a landing)", "core": true,
+      "keywords": ["mental breakdown", "descent into madness", "paranoia", "psychological breakdown", "nervous breakdown", "delusion", "unreliable narrator"] },
+    { "id": "identity", "name": "Impostors & stolen selves", "core": true,
+      "keywords": ["mistaken identity", "impostor", "false identity", "assumed identity", "split personality", "amnesia"] },
+    { "id": "cruel-comedy", "name": "Comedy that's actually cruel", "core": false,
+      "keywords": ["black comedy", "satire", "dark comedy", "humiliation", "social satire", "class satire"] },
+    { "id": "metaphysical", "name": "Big metaphysical swings", "core": false,
+      "keywords": ["existentialism", "nature of reality", "simulated reality", "afterlife", "immortality", "meaning of life"] },
+    { "id": "body-horror", "name": "The body betrays", "core": false,
+      "keywords": ["body horror", "transformation", "mutation", "medical experiment", "parasite"] },
+    { "id": "surveillance", "name": "Watched & watching", "core": false,
+      "keywords": ["surveillance", "voyeurism", "hidden camera", "stalking", "wiretapping", "peeping tom"] },
+    { "id": "grief-horror", "name": "Grief wearing a mask", "core": false,
+      "keywords": ["grief", "loss of child", "mourning", "family curse", "inherited trauma", "cult"] }
+  ],
+  "ignore": ["based on novel or book", "based on true story", "duringcreditsstinger", "aftercreditsstinger", "woman director", "biography", "remake", "sequel", "independent film", "new york city", "los angeles, california"],
+  "assign": { "The Prestige (2006)": ["doubling"] },
+  "suppress": {}
+}

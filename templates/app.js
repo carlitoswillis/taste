@@ -17,6 +17,9 @@ const state = {
   q: "",
   filmSort: "score",
   filmTier: "all",
+  filmTheme: "all",
+  kwTheme: new Map(),
+  themeName: new Map(),
 };
 
 // ---------- data ----------
@@ -33,6 +36,14 @@ async function loadAll() {
   state.data.suggestions = await optional("suggestions", null);
   state.data.watched = await optional("watched", null);
   state.data.stats = await optional("stats", null);
+  state.data.themes = await optional("themes", null);
+  state.data.themeMap = await optional("theme-map", null);
+  state.kwTheme = new Map();
+  state.themeName = new Map();
+  for (const t of state.data.themeMap?.themes ?? []) {
+    state.themeName.set(t.id, t.name);
+    for (const k of t.keywords ?? []) state.kwTheme.set(k.toLowerCase().trim(), t.id);
+  }
   state.canWrite = await fetch("api/health").then((r) => r.ok).catch(() => false);
 }
 
@@ -59,6 +70,24 @@ function stars(score, watchedOnly) {
 const confClass = (c) => ({ high: "high", medium: "medium", low: "low" }[c] ?? "test");
 
 const enrichFor = (film) => state.data.enrichment?.[`${film.title} (${film.year})`];
+
+// theme ids for a film, derived client-side: enrichment keywords through the
+// curated map, plus assign, minus suppress — editing theme-map.json updates chips
+function themesFor(film) {
+  const key = `${film.title} (${film.year})`;
+  const map = state.data.themeMap;
+  if (!map) return [];
+  const ids = new Set(map.assign?.[key] ?? []);
+  for (const k of enrichFor(film)?.keywords ?? []) {
+    const t = state.kwTheme.get(k.name.toLowerCase().trim());
+    if (t) ids.add(t);
+  }
+  for (const t of map.suppress?.[key] ?? []) ids.delete(t);
+  return [...ids];
+}
+
+const tchips = (ids) =>
+  (ids ?? []).map((id) => `<span class="tchip">${esc(state.themeName.get(id) ?? id)}</span>`).join("");
 
 function scoreBits(e) {
   if (!e?.scores) return "";
@@ -153,7 +182,7 @@ function renderWatch() {
       ${poster(s)}
       <div class="body">
         <div class="title">${esc(s.title)}</div>
-        <div class="meta">${s.year} · ${esc(s.director?.join(", ") ?? "")}${s.runtime ? ` · ${Math.floor(s.runtime / 60)}h${String(s.runtime % 60).padStart(2, "0")}` : ""}${s.genres?.length ? " · " + esc(s.genres.slice(0, 2).join(", ")) : ""}</div>
+        <div class="meta">${s.year} · ${esc(s.director?.join(", ") ?? "")}${s.runtime ? ` · ${Math.floor(s.runtime / 60)}h${String(s.runtime % 60).padStart(2, "0")}` : ""}${s.genres?.length ? " · " + esc(s.genres.slice(0, 2).join(", ")) : ""}${s.themes?.length ? " " + tchips(s.themes) : ""}</div>
         <div class="why">Because ${esc(s.why)}</div>
         ${availability(null, s)}
       </div>
@@ -193,11 +222,37 @@ function renderWatch() {
     ${suggHtml || `<div class="empty">No suggestions match that search.</div>`}`
     : "";
 
+  const picks = (sugg?.themePicks ?? []).filter((s) => matches(q, s.title, s.director?.join(" "), s.why));
+  const themePickSection = picks.length
+    ? `
+    <h2 class="sect">From the themes <span class="n">· ${picks.length}</span></h2>
+    <p class="lede">One pick per strongest theme — well-rated films carrying the threads your loved films share, no person connection required.</p>
+    ${picks
+      .map(
+        (s) => `
+    <div class="card qcard sugg" data-title="${esc(s.title)}" data-year="${s.year}" data-why="${esc(s.why)}">
+      <div class="rank">~</div>
+      ${poster(s)}
+      <div class="body">
+        <div class="title">${esc(s.title)}</div>
+        <div class="meta">${s.year} · ${esc(s.director?.join(", ") ?? "")}${s.runtime ? ` · ${Math.floor(s.runtime / 60)}h${String(s.runtime % 60).padStart(2, "0")}` : ""}${s.genres?.length ? " · " + esc(s.genres.slice(0, 2).join(", ")) : ""} ${tchips([s.theme])}</div>
+        <div class="why">${esc(s.why)}</div>
+        ${availability(null, s)}
+      </div>
+      <div class="side">
+        ${state.canWrite ? `<button class="btn small act-queue-sugg">Queue it</button>` : ""}
+      </div>
+    </div>`
+      )
+      .join("")}`
+    : "";
+
   $("#tab-watch").innerHTML = `
     <h2 class="sect">Up next <span class="n">· ${items.length}</span>${state.canWrite ? ` <button class="btn small" id="queue-open" style="margin-left:10px">+ Add</button>` : ""}</h2>
     <p class="lede">The ranked argument for what to watch, not a wishlist. Logging a film clears it from the queue.</p>
     ${queueHtml}
     ${suggSection}
+    ${themePickSection}
     <h2 class="sect">Old films — on trial <span class="n">· ${trials.filter((f) => !f.verdict).length} open</span></h2>
     <p class="lede">${md(state.data.profile.oldFilmsIntro)} Verdicts recorded here turn the age question into data.</p>
     ${trialHtml}`;
@@ -264,6 +319,7 @@ function renderFilms() {
       state.filmTier === "unscored" ? f.score == null : f.score === Number(state.filmTier)
     );
   }
+  if (state.filmTheme !== "all") films = films.filter((f) => themesFor(f).includes(state.filmTheme));
   const sorters = {
     score: (a, b) => (b.score ?? -1) - (a.score ?? -1) || b.year - a.year,
     year: (a, b) => b.year - a.year,
@@ -279,11 +335,20 @@ function renderFilms() {
     ),
     `<button class="fchip" data-tier="unscored" aria-pressed="${state.filmTier === "unscored"}">unscored</button>`,
   ].join("");
+  const themeChips = state.themeName.size
+    ? [
+        `<button class="fchip" data-theme="all" aria-pressed="${state.filmTheme === "all"}">all themes</button>`,
+        ...[...state.themeName.keys()].map(
+          (id) => `<button class="fchip" data-theme="${esc(id)}" aria-pressed="${state.filmTheme === id}">${esc(id)}</button>`
+        ),
+      ].join("")
+    : "";
 
   const rows = films.length
     ? films
         .map((f) => {
           const e = enrichFor(f);
+          const tids = themesFor(f);
           const facts = [
             e?.runtime ? `${Math.floor(e.runtime / 60)}h${String(e.runtime % 60).padStart(2, "0")}` : null,
             e?.genres?.slice(0, 2).join(", ") || null,
@@ -295,6 +360,7 @@ function renderFilms() {
       <div class="t">${esc(f.title)}<span class="yr">${f.year}</span><div class="d">${esc(f.director ?? (e?.director?.map((d) => d.name).join(", ") || "—"))}</div></div>
       ${stars(f.score, f.watchedOnly)}
       ${facts.length ? `<div class="facts">${facts.join(" &nbsp;·&nbsp; ")}</div>` : ""}
+      ${tids.length ? `<div class="facts">${tchips(tids)}</div>` : ""}
       ${f.note ? `<div class="note">${md(f.note)}</div>` : ""}
     </div>`;
         })
@@ -311,6 +377,7 @@ function renderFilms() {
       </select>
       ${chips}
     </div>
+    ${themeChips ? `<div class="controls">${themeChips}</div>` : ""}
     ${rows}
     <div class="lede" style="margin-top:16px">${md(state.data.profile.ratingsNote)}</div>`;
 
@@ -318,9 +385,15 @@ function renderFilms() {
     state.filmSort = e.target.value;
     renderFilms();
   });
-  $$("#tab-films .fchip").forEach((c) =>
+  $$("#tab-films .fchip[data-tier]").forEach((c) =>
     c.addEventListener("click", () => {
       state.filmTier = c.dataset.tier;
+      renderFilms();
+    })
+  );
+  $$("#tab-films .fchip[data-theme]").forEach((c) =>
+    c.addEventListener("click", () => {
+      state.filmTheme = c.dataset.theme;
       renderFilms();
     })
   );
@@ -413,10 +486,55 @@ function computedSection() {
     </div>`;
 }
 
+function themesSection() {
+  const t = state.data.themes;
+  if (!t?.themes?.length) return "";
+  const pct = (x) => `${Math.round(x * 100)}%`;
+  const bar = (n) => `<span class="bar"><span style="width:${Math.round(n * 100)}%"></span></span>`;
+
+  const themeRows = [...t.themes]
+    .sort((a, b) => b.tilt - a.tilt)
+    .map((th) => {
+      const loved = th.lovedFilms?.length
+        ? `<ul class="divlist" style="margin:4px 0 10px;padding-left:52px">${th.lovedFilms
+            .map(
+              (f) =>
+                `<li><strong>${esc(f.title)}</strong> (${f.year}) — ${f.score}★${f.matched?.length ? ` · ${esc(f.matched.join(", "))}` : ""}</li>`
+            )
+            .join("")}</ul>`
+        : `<div class="divlist" style="margin:4px 0 10px;padding-left:52px;color:var(--dim)">no 4★+ films here yet</div>`;
+      return `
+      <details>
+        <summary style="cursor:pointer;list-style:none">
+          <div class="statrow"><span class="lbl">${esc(th.name)}</span>${bar(th.lovedShare)}<span class="val">${th.lovedCount} loved · ${pct(th.seenShare)} seen</span></div>
+        </summary>
+        ${loved}
+      </details>`;
+    })
+    .join("");
+
+  const emergent = (t.emergent ?? [])
+    .map(
+      (e) =>
+        `<div class="statrow"><span class="lbl">${e.lovedCount} loved</span><span style="font-size:13px">${esc(e.keyword)}</span><span class="val">${e.seenCount} seen</span></div>`
+    )
+    .join("");
+
+  return `
+    <h2 class="sect">Themes <span class="n">· refreshed ${esc(t.generated)}</span></h2>
+    <div class="grid2">
+      <div class="card statcard"><h3>Named themes — where 4★+ over-indexes</h3>${themeRows}</div>
+      <div class="card statcard"><h3>Emerging — unmapped keywords in loved films</h3>${emergent || `<div class="empty">nothing emergent yet</div>`}
+        <div class="lede" style="margin:12px 0 0;font-size:12.5px">Names come from the curated map. To grow it: <span style="font-family:var(--mono)">node scripts/themes.mjs --unmapped</span>, edit <span style="font-family:var(--mono)">data/theme-map.json</span>, rerun <span style="font-family:var(--mono)">npm run themes</span>.</div>
+      </div>
+    </div>`;
+}
+
 function renderTaste() {
   const { profile, calibration, lineage, cohorts } = state.data;
   $("#tab-taste").innerHTML = `
     ${computedSection()}
+    ${themesSection()}
     <h2 class="sect">The shape</h2>
     <div class="prose"><p><strong>${md(profile.shape.heading)}.</strong></p>
     ${profile.shape.paragraphs.map((p) => `<p>${md(p)}</p>`).join("")}</div>

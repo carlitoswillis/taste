@@ -30,15 +30,15 @@ jobs:
         if: ${{ env.TMDB_API_KEY != '' }}
         run: node scripts/enrich-tmdb.mjs
 
+      - name: Recompute themes
+        run: node scripts/themes.mjs
+
       - name: Refresh suggestions
         if: ${{ env.TMDB_API_KEY != '' }}
         run: node scripts/suggest.mjs
 
       - name: Recompute profile stats
         run: node scripts/profile-stats.mjs
-
-      - name: Recompute themes
-        run: node scripts/themes.mjs
 
       - name: Commit changes
         run: |

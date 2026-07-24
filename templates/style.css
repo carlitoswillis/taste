@@ -156,6 +156,8 @@ span.poster.empty-p{border:1px solid var(--line)}
   border:1px solid var(--line);padding:5px 10px;border-radius:99px;cursor:pointer;
 }
 .fchip[aria-pressed="true"]{color:#1a1206;background:var(--tung);border-color:var(--tung)}
+.tchip{display:inline-block;font:500 11px var(--mono);padding:1px 7px;margin-right:4px;
+       border:1px solid var(--tung-dim);border-radius:9px;color:var(--tung);opacity:.85}
 
 /* ---------- directors: sprocket meters ---------- */
 .drow{padding:14px 4px;border-bottom:1px solid var(--line)}

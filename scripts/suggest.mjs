@@ -1,8 +1,10 @@
 #!/usr/bin/env node
 // Generate data/suggestions.json: films you haven't seen, found by following
 // the people — directors, writers, actors — behind the films you rated highly,
-// weighted by your own scores. Needs enrichment (run enrich-tmdb.mjs first)
-// and a TMDB key; adds critic scores when OMDB_API_KEY is set.
+// weighted by your own scores. When themes.json exists (run themes.mjs first)
+// the curated themes nudge the ranking and add up to 3 wildcard themePicks.
+// Needs enrichment (run enrich-tmdb.mjs first) and a TMDB key; adds critic
+// scores when OMDB_API_KEY is set.
 // Run: npm run suggest
 
 import { readFile, writeFile } from "node:fs/promises";
@@ -50,6 +52,10 @@ const watchlist = await read("watchlist", []);
 const oldFilms = await read("old-films", []);
 const watched = await read("watched", []);
 const enrichment = await read("enrichment", {});
+const themesData = await read("themes", null);
+const themeMap = await read("theme-map", null);
+// no themes.json / theme-map.json -> degrade gracefully to people-only
+const useThemes = Boolean(themesData?.themes?.length && themeMap?.themes?.length);
 
 // Everything already seen, queued, or on trial is off the table.
 const seen = new Set();
@@ -128,11 +134,42 @@ for (const [id, p] of topPeople) {
   }
 }
 
+// --- theme scoring: candidate keywords vs the curated theme vocabulary ------
+// Weighted by your own theme affinities (0..1 each, sum capped at 2). With
+// THEME_BLEND = 3 the theme term tops out at 6 while the people term spans
+// ~4–26: themes reorder the middle and break ties, never outrank a person.
+const THEME_BLEND = 3;
+const themeWeight = new Map((themesData?.themes ?? []).map((t) => [t.id, t.affinityNorm])); // 0..1
+const themeName = new Map((themeMap?.themes ?? []).map((t) => [t.id, t.name]));
+const kwToTheme = new Map(); // lowercase keyword name -> theme id
+for (const t of themeMap?.themes ?? []) for (const k of t.keywords ?? []) kwToTheme.set(k.trim().toLowerCase(), t.id);
+const themeScoreOf = (keywords) => {
+  const hit = new Set();
+  for (const k of keywords) {
+    const t = kwToTheme.get(k.name.trim().toLowerCase());
+    if (t) hit.add(t);
+  }
+  return { score: Math.min([...hit].reduce((s, t) => s + (themeWeight.get(t) ?? 0), 0), 2), themes: [...hit] };
+};
+
+if (useThemes) {
+  const top40 = [...candidates.values()]
+    .sort((a, b) => b.score * 2 + b.tmdbRating / 2 - (a.score * 2 + a.tmdbRating / 2))
+    .slice(0, 40);
+  for (const c of top40) {
+    const kw = await tmdb(`/movie/${c.tmdbId}/keywords`);
+    await pause();
+    const { score, themes } = themeScoreOf(kw.keywords ?? []);
+    c.themeScore = score;
+    c.themes = themes;
+  }
+}
+
 // Rank, but cap how many slots any one person can take — otherwise a single
 // beloved director with a deep filmography floods the whole list.
 const PER_PERSON_CAP = 2;
 const sorted = [...candidates.values()]
-  .map((c) => ({ ...c, rankScore: c.score * 2 + c.tmdbRating / 2 }))
+  .map((c) => ({ ...c, rankScore: c.score * 2 + (c.themeScore ?? 0) * THEME_BLEND + c.tmdbRating / 2 }))
   .sort((a, b) => b.rankScore - a.rankScore);
 const taken = new Map(); // person id -> count
 const ranked = [];
@@ -144,9 +181,46 @@ for (const c of sorted) {
   ranked.push(c);
 }
 
+// --- theme wildcards: top-rated unseen films from your strongest themes -----
+// Discover-based, one call per theme, max 3 picks; kept out of items so the
+// people list stays honest.
+const themePicks = [];
+if (useThemes) {
+  const rankedIds = new Set(ranked.map((c) => c.tmdbId));
+  const topThemes = [...themesData.themes].sort((a, b) => b.affinity - a.affinity).slice(0, 3);
+  for (const t of topThemes) {
+    if (!t.keywordIds?.length) continue;
+    const found = await tmdb("/discover/movie", {
+      with_keywords: t.keywordIds.join("|"),
+      sort_by: "vote_average.desc",
+      "vote_count.gte": 300,
+      include_adult: "false",
+    });
+    await pause();
+    const w = (found.results ?? []).find(
+      (r) =>
+        r.release_date &&
+        r.release_date <= new Date().toISOString().slice(0, 10) &&
+        !seen.has(r.title.toLowerCase()) &&
+        !seen.has((r.original_title ?? "").toLowerCase()) &&
+        !rankedIds.has(r.id) &&
+        !themePicks.some((p) => p.tmdbId === r.id)
+    );
+    if (!w) continue;
+    themePicks.push({
+      title: w.title,
+      year: Number(w.release_date.slice(0, 4)),
+      tmdbId: w.id,
+      tmdbRating: w.vote_average ?? 0,
+      theme: t.id,
+      why: `${t.id} — the thread through ${t.lovedCount} of your loved films`,
+    });
+  }
+}
+
 // --- flesh out the top picks: runtime, providers, critic scores -------------
 const omdbKey = process.env.OMDB_API_KEY;
-for (const c of ranked) {
+for (const c of [...ranked, ...themePicks]) {
   const detail = await tmdb(`/movie/${c.tmdbId}`, { append_to_response: "credits,watch/providers" });
   await pause();
   const providers = detail["watch/providers"]?.results?.[region] ?? {};
@@ -171,21 +245,32 @@ for (const c of ranked) {
     await pause();
   }
   // human-readable reason, built from the strongest contributors
-  c.why = c.contributors
-    .sort((a, b) => b.via.length - a.via.length)
-    .slice(0, 2)
-    .map((p) => {
-      const role = p.roles.includes("director") ? "directed" : p.roles.includes("writer") ? "wrote" : "stars in";
-      const via = p.via.slice(0, 3).map((v) => `${v.title} ${v.score}★`).join(", ");
-      return `${p.name} (${role} ${via})`;
-    })
-    .join(" · ");
+  // (theme wildcards carry no contributors — their why is set already)
+  if (c.contributors) {
+    c.why = c.contributors
+      .sort((a, b) => b.via.length - a.via.length)
+      .slice(0, 2)
+      .map((p) => {
+        const role = p.roles.includes("director") ? "directed" : p.roles.includes("writer") ? "wrote" : "stars in";
+        const via = p.via.slice(0, 3).map((v) => `${v.title} ${v.score}★`).join(", ");
+        return `${p.name} (${role} ${via})`;
+      })
+      .join(" · ");
+  }
+  if (c.themes?.length) c.why += ` · themes: ${c.themes.map((t) => (themeName.get(t) ?? t).toLowerCase()).join(", ")}`;
+  else delete c.themes;
   delete c.contributors;
   delete c.votes;
   delete c.rankScore;
+  delete c.themeScore;
 }
 
 const out = { generated: new Date().toISOString(), basedOn: ratings.filter((r) => r.score >= 4).length, items: ranked };
+if (themePicks.length) out.themePicks = themePicks;
 await writeFile(path.join(root, "data/suggestions.json"), JSON.stringify(out, null, 2) + "\n");
 console.log(`\n${ranked.length} suggestions -> data/suggestions.json`);
 for (const c of ranked) console.log(`  ${c.title} (${c.year}) — ${c.why}`);
+if (themePicks.length) {
+  console.log(`\n${themePicks.length} theme picks:`);
+  for (const c of themePicks) console.log(`  ${c.title} (${c.year}) — ${c.why}`);
+}
