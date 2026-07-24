@@ -11,7 +11,7 @@ chooses to. GitHub is version control, not distribution.
 - [ x Live with the tool for a bit: log films through the UI, record old-film verdicts, note friction
 
 ## Active Tasks
-- [ ] **User action needed to finish deploy**: run the ordered command block Claude provided (rename taste→taste-src, taste-site→taste so the site lives at carlitoswillis.github.io/taste/; fix local remote; add deploy key + TASTE_SITE_DEPLOY_KEY secret; push). Claude's permission classifier blocks renames, credential management, and pushes. 2026-07-24: leftover Pages on the private repo was found publicly serving the whole repo (ai/ included) and was deleted
+- [ ] **User action needed to finish deploy**: `git push origin main` (classifier blocks Claude pushing), and `gh repo delete carlitoswillis/taste-site --yes` (mirror repo made obsolete, contains only a README). Final architecture: ONE private repo, Pages build_type=workflow serves only the dist/ artifact at carlitoswillis.github.io/taste/ — no mirror, no deploy keys. 2026-07-24: leftover legacy Pages on this repo was found publicly serving the whole tree (ai/ included) and was deleted
 - [ ] Connected recs (TV/books/themes/cross-media) — design doc in `ai/plans/connected-recs.md`; themes is Phase 1
 
 ## Backlog

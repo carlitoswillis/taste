@@ -1,10 +1,10 @@
 name: Publish site
 
-# Builds dist/ and pushes it to the public mirror repo (carlitoswillis/taste,
-# which serves GitHub Pages at carlitoswillis.github.io/taste/; this source repo
-# is being renamed taste-src and stays private — only the rendered site is
-# public). Runs on data/template pushes, manual dispatch, and is called by
-# sync.yml after the daily data refresh.
+# Publishes the built site via GitHub Pages' artifact flow — only dist/ is
+# ever served; the repo itself stays private (Pages build_type=workflow).
+# Site: https://carlitoswillis.github.io/taste/
+# Runs on data/template pushes, manual dispatch, and is called by sync.yml
+# after the daily data refresh.
 
 on:
   workflow_dispatch:
@@ -17,42 +17,34 @@ on:
       - "config.json"
       - "scripts/build.mjs"
 
-concurrency:
-  group: publish
-  cancel-in-progress: true
-
 permissions:
   contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
 
 jobs:
-  publish:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Build
-        run: node scripts/build.mjs
-      - name: Check out site repo
-        uses: actions/checkout@v4
+      - run: node scripts/build.mjs
+      - uses: actions/upload-pages-artifact@v3
         with:
-          repository: carlitoswillis/taste
-          ssh-key: ${{ secrets.TASTE_SITE_DEPLOY_KEY }}
-          path: site
-      - name: Copy build into site repo
-        run: |
-          rsync -a --delete --exclude .git --exclude README.md dist/ site/
-          touch site/.nojekyll
-      - name: Commit and push if changed
-        working-directory: site
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
-          if git diff --cached --quiet; then
-            echo "No changes."
-          else
-            git commit -m "publish site"
-            git push
-          fi
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
