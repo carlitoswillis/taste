@@ -16,10 +16,8 @@ for (const f of ["index.html", "style.css", "app.js"]) {
   await copyFile(path.join(root, "templates", f), path.join(dist, f));
 }
 await copyFile(path.join(root, "config.json"), path.join(dist, "data/config.json"));
-// theme analysis stays off the public site — the user hasn't opted into publishing it yet
-const EXCLUDE = new Set(["theme-map.json", "themes.json"]);
 for (const f of await readdir(path.join(root, "data"))) {
-  if (f.endsWith(".json") && !EXCLUDE.has(f)) await cp(path.join(root, "data", f), path.join(dist, "data", f));
+  if (f.endsWith(".json")) await cp(path.join(root, "data", f), path.join(dist, "data", f));
 }
 
 console.log("Built dist/ (app shell + data snapshot)");
