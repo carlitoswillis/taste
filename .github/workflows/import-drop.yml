@@ -1,0 +1,96 @@
+name: Import Letterboxd drop
+
+# Import a Letterboxd export zip uploaded to drop/ (e.g. via the GitHub web
+# UI from a phone), then run the same refreshers as the daily sync and
+# republish. The zip is removed from the repo once imported.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "drop/**"
+  workflow_dispatch:
+
+# contents for the data commit; pages/id-token for the publish call below
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  import:
+    # Repo is private, but belt-and-braces: only the owner's pushes import.
+    if: github.actor == 'carlitoswillis'
+    runs-on: ubuntu-latest
+    outputs:
+      imported: ${{ steps.zip.outputs.zip != '' }}
+    env:
+      TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+      OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Find the newest dropped zip
+        id: zip
+        run: |
+          zip=$(ls -t drop/*.zip 2>/dev/null | head -n 1 || true)
+          if [ -z "$zip" ]; then
+            echo "::notice::No zip in drop/ — nothing to import."
+          else
+            echo "zip=$zip" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Import Letterboxd export
+        if: steps.zip.outputs.zip != ''
+        run: node scripts/import-letterboxd.mjs "${{ steps.zip.outputs.zip }}"
+
+      - name: Commit imported data, remove zip
+        if: steps.zip.outputs.zip != ''
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Exports are full-history snapshots, so the newest (just imported)
+          # supersedes any older zips still sitting in drop/ — remove them all.
+          git rm -q drop/*.zip
+          git add data/watched.json data/ratings.json
+          git commit -m "chore: import letterboxd drop"
+          git push
+
+      # Same refresh order as sync.yml: enrich -> themes -> suggest -> stats.
+      - name: Enrich from TMDB (skipped if no key configured)
+        if: steps.zip.outputs.zip != '' && env.TMDB_API_KEY != ''
+        run: node scripts/enrich-tmdb.mjs
+
+      - name: Recompute themes
+        if: steps.zip.outputs.zip != ''
+        run: node scripts/themes.mjs
+
+      - name: Refresh suggestions
+        if: steps.zip.outputs.zip != '' && env.TMDB_API_KEY != ''
+        run: node scripts/suggest.mjs
+
+      - name: Recompute profile stats
+        if: steps.zip.outputs.zip != ''
+        run: node scripts/profile-stats.mjs
+
+      - name: Commit refreshed data
+        if: steps.zip.outputs.zip != ''
+        run: |
+          git add data/letterboxd.json data/enrichment.json data/suggestions.json data/stats.json data/themes.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "chore: sync letterboxd/tmdb data"
+            git push
+          fi
+
+  # Pushes made with GITHUB_TOKEN don't fire other workflows' push triggers,
+  # so republish explicitly (same pattern as sync.yml).
+  publish:
+    needs: import
+    if: needs.import.outputs.imported == 'true'
+    uses: ./.github/workflows/deploy.yml
+    secrets: inherit

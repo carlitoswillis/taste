@@ -51,3 +51,57 @@ if (news.length) {
   console.log("\nNew ratings on Letterboxd not yet in data/ratings.json:");
   for (const e of news) console.log(`  ${e.title} (${e.year}) — ${e.rating}`);
 }
+
+// Reconcile: merge new RSS activity into the canonical files. Matching key is
+// lowercased "title (year)"; existing entries are never deleted or reordered,
+// new films are appended at the end. Idempotent across runs.
+const key = (f) => `${f.title.toLowerCase()} (${f.year})`;
+const titleKey = (f) => f.title.toLowerCase();
+
+// Ratings: append unknown rated films (director unknown from RSS; enrich fills
+// credits downstream). A changed score is updated in place — notes and any
+// other hand-written fields are never touched. Hand-entered years drift a year
+// off Letterboxd's for some films, so a near-miss (same title, ±1 year) counts
+// as the same film rather than a duplicate; remakes stay distinct.
+const byKey = new Map(ratings.map((r) => [key(r), r]));
+const byTitle = new Map(ratings.map((r) => [titleKey(r), r]));
+let ratingsChanged = false;
+for (const e of entries) {
+  if (e.rating == null) continue;
+  const near = byTitle.get(titleKey(e));
+  const existing = byKey.get(key(e)) ?? (near && Math.abs(near.year - e.year) <= 1 ? near : null);
+  if (!existing) {
+    const added = { title: e.title, year: e.year, director: null, score: e.rating };
+    ratings.push(added);
+    byKey.set(key(e), added);
+    byTitle.set(titleKey(e), added);
+    ratingsChanged = true;
+    console.log(`  merged rating: ${e.title} (${e.year}) — ${e.rating}`);
+  } else if (existing.score !== e.rating) {
+    console.log(`  updated score: ${e.title} (${e.year}) — ${existing.score} -> ${e.rating}`);
+    existing.score = e.rating;
+    ratingsChanged = true;
+  }
+}
+if (ratingsChanged) {
+  await writeFile(path.join(root, "data/ratings.json"), JSON.stringify(ratings, null, 2) + "\n");
+  console.log("Merged new ratings -> data/ratings.json");
+}
+
+// Watched: append unseen films so the seen-set stays complete. Years here come
+// from Letterboxd (importer CSV) just like the RSS, so the exact key is safe —
+// and it keeps remakes (two years, one title) distinct.
+const watched = JSON.parse(await readFile(path.join(root, "data/watched.json"), "utf8"));
+const seen = new Set(watched.map((w) => key(w)));
+let watchedAdded = 0;
+for (const e of entries) {
+  if (seen.has(key(e))) continue;
+  watched.push({ title: e.title, year: e.year, watched: e.watched });
+  seen.add(key(e));
+  watchedAdded++;
+  console.log(`  merged watch: ${e.title} (${e.year}) — ${e.watched}`);
+}
+if (watchedAdded) {
+  await writeFile(path.join(root, "data/watched.json"), JSON.stringify(watched, null, 2) + "\n");
+  console.log(`Merged ${watchedAdded} new watches -> data/watched.json`);
+}
