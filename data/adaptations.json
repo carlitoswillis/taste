@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-24T11:11:14.329Z",
+  "generated": "2026-07-25T10:43:43.406Z",
   "edges": [
     {
       "book": {
@@ -824,7 +824,7 @@
       "book": {
         "title": "Elvis and Me",
         "author": "Priscilla Presley",
-        "olWork": null,
+        "olWork": "OL35665934W",
         "wikidata": "Q5368251"
       },
       "screen": "Priscilla (2023)",
@@ -863,7 +863,7 @@
       "book": {
         "title": "Caught Stealing",
         "author": "Charlie Huston",
-        "olWork": null,
+        "olWork": "OL5732047W",
         "wikidata": "Q130680390"
       },
       "screen": "Caught Stealing (2025)",

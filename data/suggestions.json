@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-24T11:11:27.739Z",
+  "generated": "2026-07-25T10:43:58.103Z",
   "basedOn": 27,
   "items": [
     {
@@ -43,7 +43,7 @@
       "title": "The Passion of Anna",
       "year": 1969,
       "tmdbId": 42602,
-      "tmdbRating": 7.399,
+      "tmdbRating": 7.4,
       "score": 13,
       "themes": [
         "grief-horror"
@@ -78,7 +78,7 @@
       "title": "Following",
       "year": 1999,
       "tmdbId": 11660,
-      "tmdbRating": 7.1,
+      "tmdbRating": 7.127,
       "score": 12.15,
       "themes": [
         "surveillance"
@@ -120,7 +120,7 @@
       "title": "Insomnia",
       "year": 2002,
       "tmdbId": 320,
-      "tmdbRating": 6.957,
+      "tmdbRating": 6.956,
       "score": 12.15,
       "director": [
         "Christopher Nolan"
@@ -325,7 +325,7 @@
       "title": "The Florida Project",
       "year": 2017,
       "tmdbId": 394117,
-      "tmdbRating": 7.4,
+      "tmdbRating": 7.427,
       "score": 5.4,
       "director": [
         "Sean Baker"
