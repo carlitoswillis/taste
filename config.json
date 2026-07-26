@@ -7,7 +7,7 @@
   "filmographiesFinished": 5,
   "repo": "carlitoswillis/taste",
   "suggest": {
-    "film": { "pool": 60, "people": 30 },
+    "film": { "pool": 100, "people": 40 },
     "tv": { "pool": 40, "people": 26 },
     "book": { "pool": 40, "authors": 12 }
   }
