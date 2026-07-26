@@ -39,6 +39,31 @@ for (const [, item] of xml.matchAll(/<item>([\s\S]*?)<\/item>/g)) {
   });
 }
 
+// A 200 that yields no films is not success. Letterboxd can answer with a bot
+// interstitial (HTML, status 200), and a renamed or private account can answer
+// with a valid but empty feed. Writing `entries: []` and printing a cheerful
+// count made the daily sync look green while doing nothing at all — it did
+// exactly that for four days before anyone noticed a missing film. Say what
+// actually came back, and exit non-zero so the step goes red.
+if (!entries.length) {
+  const looksLikeFeed = /<rss[\s>]|<feed[\s>]/i.test(xml);
+  const itemBlocks = [...xml.matchAll(/<item>/g)].length;
+  console.error(`\nNo film entries parsed from ${url}`);
+  console.error(`  status ${res.status} · content-type: ${res.headers.get("content-type") ?? "?"}`);
+  console.error(`  ${xml.length} bytes · looks like a feed: ${looksLikeFeed} · <item> blocks: ${itemBlocks}`);
+  console.error(`  starts: ${xml.slice(0, 300).replace(/\s+/g, " ")}`);
+  if (!looksLikeFeed) {
+    console.error("  -> not an RSS document. Bot challenge or error page — the feed is being blocked.");
+  } else if (!itemBlocks) {
+    console.error(`  -> valid feed, zero items. Check that "${config.letterboxd}" is the right username and the profile is public.`);
+  } else {
+    console.error("  -> items present but no <letterboxd:filmTitle>. The feed format changed; the parser needs updating.");
+  }
+  // leave data/letterboxd.json untouched: an empty overwrite would destroy the
+  // last good fetch and make the failure even harder to spot
+  process.exit(1);
+}
+
 const out = { user: config.letterboxd, fetched: new Date().toISOString(), entries };
 await writeFile(path.join(root, "data/letterboxd.json"), JSON.stringify(out, null, 2) + "\n");
 console.log(`Fetched ${entries.length} entries for ${config.letterboxd} -> data/letterboxd.json`);
