@@ -31,19 +31,6 @@ if (!key && !token) {
   process.exit(1);
 }
 
-// --- sizing knobs (mirrors suggest.mjs) -------------------------------------
-const numArg = (name, dflt) => {
-  const hit = process.argv.find((a) => a.startsWith(`--${name}=`));
-  const n = hit ? Number(hit.split("=")[1]) : NaN;
-  return Number.isFinite(n) && n > 0 ? Math.floor(n) : dflt;
-};
-const POOL = numArg("pool", 40);
-const HEAD = Math.min(numArg("head", 10), POOL);
-const PEOPLE = numArg("people", 26);
-const HEAD_CAP = 2;
-const POOL_CAP = 5;
-const OMDB_MAX = numArg("omdb", 30);
-
 const read = async (name, fallback) => {
   try {
     return JSON.parse(await readFile(path.join(root, `data/${name}.json`), "utf8"));
@@ -53,6 +40,25 @@ const read = async (name, fallback) => {
 };
 const config = JSON.parse(await readFile(path.join(root, "config.json"), "utf8"));
 const region = config.region ?? "US";
+
+// --- sizing knobs (mirrors suggest.mjs) -------------------------------------
+// --flag > config.json "suggest.tv" > the defaults here
+const num = (name, configured, dflt) => {
+  const hit = process.argv.find((a) => a.startsWith(`--${name}=`));
+  // an empty or junk `--flag=` falls through to config, not past it to dflt
+  for (const v of [hit?.split("=")[1], configured]) {
+    const n = Number(v);
+    if (v != null && v !== "" && Number.isFinite(n) && n > 0) return Math.floor(n);
+  }
+  return dflt;
+};
+const tuning = config.suggest?.tv ?? {};
+const POOL = num("pool", tuning.pool, 40);
+const HEAD = Math.min(num("head", tuning.head, 10), POOL);
+const PEOPLE = num("people", tuning.people, 26);
+const HEAD_CAP = 2;
+const POOL_CAP = 5;
+const OMDB_MAX = num("omdb", tuning.omdb, 30);
 
 async function tmdb(pathname, params = {}) {
   const url = new URL(`https://api.themoviedb.org/3${pathname}`);

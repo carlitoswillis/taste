@@ -1,0 +1,141 @@
+name: Refresh suggestions
+
+# Regenerate the suggestion pools on demand — from github.com or the GitHub
+# mobile app, no laptop involved. Actions -> "Refresh suggestions" -> Run
+# workflow, set the sizes, Run. It commits the new data and republishes the
+# site, so the page is up to date by the time the run goes green.
+#
+# Leave the size fields blank to use config.json's "suggest" block (the same
+# numbers the daily sync uses). Anything you type here applies to this run
+# only — to change the sizes for good, edit config.json.
+
+on:
+  workflow_dispatch:
+    inputs:
+      what:
+        description: "Which suggestions to refresh"
+        type: choice
+        default: films
+        options: [films, tv, books, everything]
+      pool:
+        description: "Pool size — how many suggestions to generate (blank = config.json)"
+        type: string
+        default: ""
+      people:
+        description: "How many people to chase filmographies for (blank = config.json)"
+        type: string
+        default: ""
+      publish:
+        description: "Republish the site when done"
+        type: boolean
+        default: true
+
+# contents for the data commit; pages/id-token for the publish call below
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# never race the daily sync's commit
+concurrency:
+  group: data-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    # Repo is private, but belt-and-braces: only the owner can spend the API quota.
+    if: github.actor == 'carlitoswillis'
+    runs-on: ubuntu-latest
+    env:
+      TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+      OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # Inputs go through env, never interpolated into the script body, and are
+      # rejected unless they're plain digits. A blank field is simply omitted:
+      # the scripts then fall through to config.json.
+      - name: Assemble flags
+        id: flags
+        env:
+          POOL: ${{ inputs.pool }}
+          PEOPLE: ${{ inputs.people }}
+        run: |
+          FLAGS=""
+          if [ -n "$POOL" ]; then
+            case "$POOL" in
+              ''|*[!0-9]*) echo "::error::pool must be a whole number, got '$POOL'"; exit 1 ;;
+            esac
+            FLAGS="$FLAGS --pool=$POOL"
+          fi
+          if [ -n "$PEOPLE" ]; then
+            case "$PEOPLE" in
+              ''|*[!0-9]*) echo "::error::people must be a whole number, got '$PEOPLE'"; exit 1 ;;
+            esac
+            FLAGS="$FLAGS --people=$PEOPLE"
+          fi
+          echo "flags=$FLAGS" >> "$GITHUB_OUTPUT"
+          echo "Running with:${FLAGS:- config.json defaults}"
+
+      - name: Check the TMDB key is configured
+        if: inputs.what != 'books'
+        run: |
+          if [ -z "$TMDB_API_KEY" ]; then
+            echo "::error::TMDB_API_KEY secret is not set — film and TV suggestions need it."
+            exit 1
+          fi
+
+      - name: Refresh film suggestions
+        if: inputs.what == 'films' || inputs.what == 'everything'
+        run: node scripts/suggest.mjs ${{ steps.flags.outputs.flags }}
+
+      - name: Refresh TV suggestions
+        if: inputs.what == 'tv' || inputs.what == 'everything'
+        run: node scripts/suggest-tv.mjs ${{ steps.flags.outputs.flags }}
+
+      - name: Refresh book suggestions
+        if: inputs.what == 'books' || inputs.what == 'everything'
+        run: node scripts/suggest-books.mjs ${{ steps.flags.outputs.flags }}
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/suggestions.json data/tv-suggestions.json data/book-suggestions.json
+          if git diff --cached --quiet; then
+            echo "No change — the same films came out on top."
+          else
+            git commit -m "chore: refresh ${{ inputs.what }} suggestions"
+            git push
+          fi
+
+      # What actually came out, readable from the run page on a phone without
+      # opening the diff. All inside single quotes — no shell interpolation.
+      - name: Summary
+        if: always()
+        run: |
+          node -e '
+            const fs = require("fs");
+            const out = ["### Suggestions refreshed", "", "| pool | items | headline |", "| --- | --- | --- |"];
+            for (const [label, f] of [["Films", "suggestions"], ["TV", "tv-suggestions"], ["Books", "book-suggestions"]]) {
+              try {
+                const o = JSON.parse(fs.readFileSync(`data/${f}.json`, "utf8"));
+                out.push(`| ${label} | ${o.items.length} | ${o.head ?? "-"} |`);
+              } catch {}
+            }
+            try {
+              const o = JSON.parse(fs.readFileSync("data/suggestions.json", "utf8"));
+              out.push("", "**Top of the film pool**", "");
+              for (const i of o.items.slice(0, 8)) out.push(`- **${i.title}** (${i.year}) — ${i.why}`);
+            } catch {}
+            fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, out.join("\n") + "\n");
+          '
+
+  publish:
+    needs: refresh
+    if: inputs.publish
+    uses: ./.github/workflows/deploy.yml
+    secrets: inherit

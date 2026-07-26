@@ -31,22 +31,6 @@ if (!key && !token) {
   process.exit(1);
 }
 
-// --- sizing knobs -----------------------------------------------------------
-// POOL is the whole ranked list written to disk; HEAD is the tight top of it.
-// PEOPLE is how far down the affinity list we chase filmographies — more people
-// means more distinct primaries, which is what lets the pool stay varied.
-const numArg = (name, dflt) => {
-  const hit = process.argv.find((a) => a.startsWith(`--${name}=`));
-  const n = hit ? Number(hit.split("=")[1]) : NaN;
-  return Number.isFinite(n) && n > 0 ? Math.floor(n) : dflt;
-};
-const POOL = numArg("pool", 60);
-const HEAD = Math.min(numArg("head", 12), POOL);
-const PEOPLE = numArg("people", 30);
-const HEAD_CAP = 2; // per person, inside the headline
-const POOL_CAP = 5; // per person, across the whole pool
-const OMDB_MAX = numArg("omdb", 40); // critic-score lookups are the rate-limited bit
-
 const read = async (name, fallback) => {
   try {
     return JSON.parse(await readFile(path.join(root, `data/${name}.json`), "utf8"));
@@ -56,6 +40,33 @@ const read = async (name, fallback) => {
 };
 const config = JSON.parse(await readFile(path.join(root, "config.json"), "utf8"));
 const region = config.region ?? "US";
+
+// --- sizing knobs -----------------------------------------------------------
+// POOL is the whole ranked list written to disk; HEAD is the tight top of it.
+// PEOPLE is how far down the affinity list we chase filmographies — more people
+// means more distinct primaries, which is what lets the pool stay varied.
+// Precedence: --flag > config.json "suggest.film" > the defaults here. The
+// config layer is what makes a bigger pool stick: the daily sync passes no
+// flags, so without it every run would snap back to the built-in numbers.
+// Falls through the layers in order, taking the first usable positive number.
+// An empty or junk `--pool=` must fall through to config rather than past it to
+// the built-in default — otherwise a caller that assembles flags from a form
+// silently loses the configured size whenever a field is left blank.
+const num = (name, configured, dflt) => {
+  const hit = process.argv.find((a) => a.startsWith(`--${name}=`));
+  for (const v of [hit?.split("=")[1], configured]) {
+    const n = Number(v);
+    if (v != null && v !== "" && Number.isFinite(n) && n > 0) return Math.floor(n);
+  }
+  return dflt;
+};
+const tuning = config.suggest?.film ?? {};
+const POOL = num("pool", tuning.pool, 60);
+const HEAD = Math.min(num("head", tuning.head, 12), POOL);
+const PEOPLE = num("people", tuning.people, 30);
+const HEAD_CAP = 2; // per person, inside the headline
+const POOL_CAP = 5; // per person, across the whole pool
+const OMDB_MAX = num("omdb", tuning.omdb, 40); // critic-score lookups are the rate-limited bit
 
 async function tmdb(pathname, params = {}) {
   const url = new URL(`https://api.themoviedb.org/3${pathname}`);
@@ -213,8 +224,8 @@ ranked.forEach((c, i) => (c.rank = i + 1));
 // Discover-based, kept out of items so the people list stays honest. Several
 // per theme across two pages, so this section is a shelf to browse rather than
 // a single pick that never changes.
-const THEME_COUNT = numArg("themes", 5);
-const PER_THEME = numArg("perTheme", 3);
+const THEME_COUNT = num("themes", tuning.themes, 5);
+const PER_THEME = num("perTheme", tuning.perTheme, 3);
 const themePicks = [];
 if (useThemes) {
   const rankedIds = new Set(ranked.map((c) => c.tmdbId));

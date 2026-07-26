@@ -521,7 +521,16 @@ function renderHeader() {
     <div><b>${complete.length}</b> runs closed</div>
     ${series ? `<div><b>${series}</b> series</div>` : ""}${books ? `<div><b>${books}</b> books</div>` : ""}`;
   document.title = config.siteTitle ?? "taste";
-  $("#foot").innerHTML = `${md(state.data.profile.footer)}${state.canWrite ? "" : ` <span class="readonly">read-only · run npm start to log</span>`}`;
+  // On a static export there's no local API, so the way to regenerate anything
+  // is the Actions workflow — link straight to it rather than telling a phone
+  // to go run npm.
+  const repo = config.repo;
+  const refreshLink = repo
+    ? ` <a class="refresh-link" href="https://github.com/${esc(repo)}/actions/workflows/refresh.yml" target="_blank" rel="noopener">Refresh suggestions ↗</a>`
+    : "";
+  $("#foot").innerHTML = `${md(state.data.profile.footer)}${
+    state.canWrite ? "" : ` <span class="readonly">read-only · run npm start to log</span>${refreshLink}`
+  }`;
   if (!state.canWrite) $("#log-open").hidden = true;
 }
 

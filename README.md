@@ -57,6 +57,39 @@ npm run suggest -- --pool=100 --people=40   # deeper pool, more people chased
 npm run suggest -- --pool=24                # a smaller, tighter list
 ```
 
+`--pool` is a ceiling, not a promise: it's capped by how many unseen candidates those
+filmographies actually yield. If it prints `73 suggestions`, the data ran out — raise
+`--people` to raise the ceiling.
+
+Flags apply to one run. To change the sizes **for good**, edit the `suggest` block in
+`config.json` — that's what the daily sync reads, so without it every overnight run snaps
+back to the built-in numbers:
+
+```json
+"suggest": {
+  "film": { "pool": 60, "people": 30 },
+  "tv":   { "pool": 40, "people": 26 },
+  "book": { "pool": 40, "authors": 12 }
+}
+```
+
+Precedence is `--flag` → `config.json` → built-in default.
+
+### Refreshing without a laptop
+
+**Actions → [Refresh suggestions](../../actions/workflows/refresh.yml) → Run workflow.**
+Works from github.com or the GitHub mobile app: pick films / tv / books / everything,
+optionally type a pool and people size, run. It commits the new data, republishes the site,
+and writes the top of the new pool into the run summary so you can read the result on your
+phone without opening a diff. Leave the size fields blank to use `config.json`.
+
+The published site links to it too — the `Refresh suggestions ↗` button next to the
+read-only badge in the footer. That's a deep link to the workflow, not a one-tap trigger:
+the page is public, so it holds no credentials and can't dispatch anything by itself.
+
+`config.json` is editable from the GitHub web UI as well, so the permanent sizes can be
+changed from a phone the same way.
+
 In the page that pool is something to browse rather than a fixed list:
 
 - **Tonight** — one card off the top, picked by the date. It moves on its own once a day; *Reroll* if tonight's isn't it.
@@ -97,6 +130,7 @@ This repo is one person's profile, but nothing in the code is specific to them:
 ## Automation
 
 - **Sync** (`.github/workflows/sync.yml`): daily, pulls your latest Letterboxd activity via RSS and — if a `TMDB_API_KEY` secret is set — refreshes metadata and where-to-watch data. Commits only when something changed.
+- **Refresh suggestions** (`.github/workflows/refresh.yml`): manual, phone-friendly. Regenerates any of the three suggestion pools at a size you choose and republishes. Owner-only.
 - **Deploy** (`.github/workflows/deploy.yml`): manual-trigger only. This app is local-first; run this workflow only if you deliberately want a public copy on GitHub Pages.
 
 ### APIs used

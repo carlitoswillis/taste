@@ -76,8 +76,19 @@ deploy; the result is read-only.
 
 ### 6. Infrastructure (GitHub, optional)
 Private repo, version control only.
-- `deploy.yml` — Pages deploy, **manual trigger only** (workflow_dispatch).
-- `sync.yml` — daily Letterboxd/TMDB refresh committing changed data files.
+- `deploy.yml` — Pages deploy; also `workflow_call`, so other workflows republish through it.
+- `sync.yml` — daily Letterboxd/TMDB refresh committing changed data files, then publishes.
+- `refresh.yml` — on-demand suggestion regeneration from the Actions UI (phone-friendly):
+  choice of medium, optional pool/people overrides, commits + republishes, and writes the
+  new pool's head into the run summary. Owner-guarded; inputs are passed through `env` and
+  digit-checked rather than interpolated into the shell.
+
+**Suggestion sizing.** `config.json.suggest.{film,tv,book}` holds the pool sizes; each
+suggester resolves `--flag` → config → built-in default via its `num()` helper. The config
+layer exists because the daily sync passes no flags — without it, any hand-tuned pool would
+be silently reset overnight. `num()` treats an empty or non-numeric flag as *absent* and
+falls through to config, so a form that assembles flags from blank fields can't clobber the
+configured size.
 
 ## Data Flow
 ```
