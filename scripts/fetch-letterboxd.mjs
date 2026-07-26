@@ -51,7 +51,13 @@ if (!entries.length) {
   console.error(`\nNo film entries parsed from ${url}`);
   console.error(`  status ${res.status} · content-type: ${res.headers.get("content-type") ?? "?"}`);
   console.error(`  ${xml.length} bytes · looks like a feed: ${looksLikeFeed} · <item> blocks: ${itemBlocks}`);
-  console.error(`  starts: ${xml.slice(0, 300).replace(/\s+/g, " ")}`);
+  // a header-only feed is small enough to read whole; the channel <link> is
+  // what reveals the canonical account the feed actually resolved to
+  console.error(
+    xml.length <= 2000
+      ? `  body: ${xml.replace(/\s+/g, " ")}`
+      : `  starts: ${xml.slice(0, 300).replace(/\s+/g, " ")}`
+  );
   if (!looksLikeFeed) {
     console.error("  -> not an RSS document. Bot challenge or error page — the feed is being blocked.");
   } else if (!itemBlocks) {
