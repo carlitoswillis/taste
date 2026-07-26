@@ -1,9 +1,9 @@
 {
-  "generated": "2026-07-26T10:53:29.156Z",
+  "generated": "2026-07-26T18:17:26.483Z",
   "basedOn": {
     "loved": 27,
-    "seenWithKeywords": 344,
-    "filmsEnriched": 362
+    "seenWithKeywords": 345,
+    "filmsEnriched": 363
   },
   "themes": [
     {
@@ -132,7 +132,7 @@
       "lovedShare": 0.07,
       "seenCount": 41,
       "seenShare": 0.12,
-      "tilt": -0.05,
+      "tilt": -0.04,
       "lovedFilms": [
         {
           "title": "Parasite",
@@ -209,8 +209,8 @@
       "affinityNorm": 0.56,
       "lovedCount": 2,
       "lovedShare": 0.07,
-      "seenCount": 18,
-      "seenShare": 0.05,
+      "seenCount": 19,
+      "seenShare": 0.06,
       "tilt": 0.02,
       "lovedFilms": [
         {
@@ -237,7 +237,7 @@
         2766
       ],
       "keywordHits": {
-        "body horror": 15,
+        "body horror": 16,
         "parasite": 1,
         "transformation": 3,
         "mutation": 2
@@ -370,6 +370,18 @@
       ]
     },
     {
+      "keyword": "sci-fi horror",
+      "id": 323910,
+      "lovedCount": 3,
+      "seenCount": 9,
+      "tilt": 0.09,
+      "films": [
+        "Prometheus (2012)",
+        "A Quiet Place (2018)",
+        "Companion (2025)"
+      ]
+    },
+    {
       "keyword": "black and white",
       "id": 12999,
       "lovedCount": 3,
@@ -379,18 +391,6 @@
         "The Seventh Seal (1957)",
         "Persona (1966)",
         "The Lighthouse (2019)"
-      ]
-    },
-    {
-      "keyword": "sci-fi horror",
-      "id": 323910,
-      "lovedCount": 3,
-      "seenCount": 9,
-      "tilt": 0.08,
-      "films": [
-        "Prometheus (2012)",
-        "A Quiet Place (2018)",
-        "Companion (2025)"
       ]
     },
     {
@@ -584,7 +584,7 @@
       "keyword": "ritual",
       "id": 4720,
       "lovedCount": 2,
-      "seenCount": 4,
+      "seenCount": 5,
       "tilt": 0.06,
       "films": [
         "Hereditary (2018)",
@@ -615,9 +615,9 @@
     }
   ],
   "coverage": {
-    "filmsWithKeywords": 344,
+    "filmsWithKeywords": 345,
     "filmsWithoutKeywords": 1,
-    "distinctKeywords": 3159,
+    "distinctKeywords": 3163,
     "mappedKeywords": 31,
     "unmappedSeenTwicePlus": 1032
   }

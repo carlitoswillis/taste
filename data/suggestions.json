@@ -1,19 +1,55 @@
 {
-  "generated": "2026-07-26T18:05:14.323Z",
+  "generated": "2026-07-26T18:18:42.996Z",
   "basedOn": 27,
   "head": 12,
   "items": [
+    {
+      "title": "Wild Strawberries",
+      "year": 1957,
+      "tmdbId": 614,
+      "tmdbRating": 8.072,
+      "votes": 1826,
+      "score": 17,
+      "rank": 1,
+      "director": [
+        "Ingmar Bergman"
+      ],
+      "runtime": 91,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/iyTD2QnySNMPUPE3IedZQipSWfz.jpg",
+      "providers": {
+        "flatrate": [
+          "HBO Max Amazon Channel",
+          "YouTube TV",
+          "Criterion Channel",
+          "HBO Max"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Fandango At Home"
+        ]
+      },
+      "scores": {
+        "rt": 94,
+        "metacritic": 88,
+        "imdb": 8.1
+      },
+      "why": "Ingmar Bergman (directed The Seventh Seal 5★, Persona 5★) · Gunnar Björnstrand (stars in The Seventh Seal 5★, Persona 5★)"
+    },
     {
       "title": "The Magician",
       "year": 1958,
       "tmdbId": 29453,
       "tmdbRating": 7.33,
       "votes": 247,
-      "score": 17,
+      "score": 15,
       "themes": [
         "unravelling"
       ],
-      "rank": 1,
+      "rank": 2,
       "director": [
         "Ingmar Bergman"
       ],
@@ -41,43 +77,6 @@
         "imdb": 7.5
       },
       "why": "Ingmar Bergman (directed The Seventh Seal 5★, Persona 5★) · Gunnar Björnstrand (stars in The Seventh Seal 5★, Persona 5★) · themes: coming apart (with a landing)"
-    },
-    {
-      "title": "The Passion of Anna",
-      "year": 1969,
-      "tmdbId": 42602,
-      "tmdbRating": 7.4,
-      "votes": 203,
-      "score": 17,
-      "themes": [
-        "grief-horror"
-      ],
-      "rank": 2,
-      "director": [
-        "Ingmar Bergman"
-      ],
-      "runtime": 101,
-      "genres": [
-        "Drama"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/cr01316AyxUZyZrdLwzz3AXrgJc.jpg",
-      "providers": {
-        "flatrate": [
-          "Criterion Channel"
-        ],
-        "rent": [
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
-          "Fandango At Home"
-        ]
-      },
-      "scores": {
-        "rt": 100,
-        "metacritic": null,
-        "imdb": 7.6
-      },
-      "why": "Ingmar Bergman (directed The Seventh Seal 5★, Persona 5★) · Bibi Andersson (stars in The Seventh Seal 5★, Persona 5★) · themes: grief wearing a mask"
     },
     {
       "title": "Following",
@@ -426,29 +425,26 @@
       "why": "Bong Joon Ho (directed Parasite 4.5★) · themes: doubling & doppelgangers"
     },
     {
-      "title": "Tangerine",
-      "year": 2015,
-      "tmdbId": 308084,
-      "tmdbRating": 6.866,
-      "votes": 810,
-      "score": 6.4,
+      "title": "Mother",
+      "year": 2009,
+      "tmdbId": 30018,
+      "tmdbRating": 7.703,
+      "votes": 1706,
+      "score": 5.700000000000001,
       "rank": 12,
       "director": [
-        "Sean Baker"
+        "Bong Joon Ho"
       ],
-      "runtime": 87,
+      "runtime": 129,
       "genres": [
-        "Comedy",
-        "Drama"
+        "Crime",
+        "Drama",
+        "Mystery"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/EKLR5c61XQzBTeMokFrmS3kdt8.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/8oBnSkZE6GDVugAbLPO6uJd4GcS.jpg",
       "providers": {
         "flatrate": [
-          "Amazon Prime Video",
-          "fuboTV",
-          "Philo",
-          "YouTube TV",
-          "Amazon Prime Video with Ads"
+          "Philo"
         ],
         "rent": [
           "Amazon Video",
@@ -456,52 +452,52 @@
           "Google Play Movies",
           "YouTube",
           "Fandango At Home",
-          "FlixFling",
-          "Spectrum On Demand"
+          "FlixFling"
         ]
       },
       "scores": {
         "rt": 96,
-        "metacritic": 86,
-        "imdb": 7.1
+        "metacritic": 79,
+        "imdb": 7.7
       },
-      "why": "Sean Baker (directed Anora 5★) · Karren Karagulian (stars in Anora 5★)"
+      "why": "Bong Joon Ho (directed Parasite 4.5★)"
     },
     {
-      "title": "Wild Strawberries",
-      "year": 1957,
-      "tmdbId": 614,
-      "tmdbRating": 8.072,
-      "votes": 1826,
-      "score": 17,
+      "title": "The Passion of Anna",
+      "year": 1969,
+      "tmdbId": 42602,
+      "tmdbRating": 7.4,
+      "votes": 203,
+      "score": 15,
+      "themes": [
+        "grief-horror"
+      ],
       "rank": 13,
       "director": [
         "Ingmar Bergman"
       ],
-      "runtime": 91,
+      "runtime": 101,
       "genres": [
         "Drama"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/iyTD2QnySNMPUPE3IedZQipSWfz.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/cr01316AyxUZyZrdLwzz3AXrgJc.jpg",
       "providers": {
         "flatrate": [
-          "HBO Max Amazon Channel",
-          "YouTube TV",
-          "Criterion Channel",
-          "HBO Max"
+          "Criterion Channel"
         ],
         "rent": [
-          "Amazon Video",
           "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
           "Fandango At Home"
         ]
       },
       "scores": {
-        "rt": 94,
-        "metacritic": 88,
-        "imdb": 8.1
+        "rt": 100,
+        "metacritic": null,
+        "imdb": 7.6
       },
-      "why": "Ingmar Bergman (directed The Seventh Seal 5★, Persona 5★) · Gunnar Björnstrand (stars in The Seventh Seal 5★, Persona 5★)"
+      "why": "Ingmar Bergman (directed The Seventh Seal 5★, Persona 5★) · Bibi Andersson (stars in The Seventh Seal 5★, Persona 5★) · themes: grief wearing a mask"
     },
     {
       "title": "Scenes from a Marriage",
@@ -509,7 +505,7 @@
       "tmdbId": 133919,
       "tmdbRating": 8.045,
       "votes": 404,
-      "score": 16,
+      "score": 15,
       "themes": [
         "cruel-comedy"
       ],
@@ -545,22 +541,21 @@
       "why": "Ingmar Bergman (directed The Seventh Seal 5★, Persona 5★) · Bibi Andersson (stars in The Seventh Seal 5★, Persona 5★) · themes: comedy that's actually cruel"
     },
     {
-      "title": "Shame",
-      "year": 1968,
-      "tmdbId": 26372,
-      "tmdbRating": 7.504,
-      "votes": 245,
-      "score": 17,
+      "title": "Winter Light",
+      "year": 1963,
+      "tmdbId": 29455,
+      "tmdbRating": 7.883,
+      "votes": 510,
+      "score": 15,
       "rank": 15,
       "director": [
         "Ingmar Bergman"
       ],
-      "runtime": 104,
+      "runtime": 80,
       "genres": [
-        "War",
         "Drama"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/cRJFOadujA7COrBV4HqB6bWcpLs.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/wDxrEssdjFWYwIZLbr06RQNcg1q.jpg",
       "providers": {
         "flatrate": [
           "Criterion Channel"
@@ -568,11 +563,12 @@
         "rent": [
           "Apple TV Store",
           "Google Play Movies",
-          "YouTube"
+          "YouTube",
+          "Fandango At Home"
         ]
       },
       "scores": {
-        "rt": 67,
+        "rt": 77,
         "metacritic": null,
         "imdb": 8
       },
@@ -788,85 +784,13 @@
       "why": "Joel Coen (directed No Country for Old Men 4.5★) · Ethan Coen (directed No Country for Old Men 4.5★) · themes: comedy that's actually cruel"
     },
     {
-      "title": "Starlet",
-      "year": 2012,
-      "tmdbId": 91679,
-      "tmdbRating": 6.8,
-      "votes": 202,
-      "score": 6.4,
-      "rank": 21,
-      "director": [
-        "Sean Baker"
-      ],
-      "runtime": 103,
-      "genres": [
-        "Drama"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/8mVU5KjD5b4Df3CRTnJqKFSwg5y.jpg",
-      "providers": {
-        "flatrate": [
-          "Criterion Channel"
-        ],
-        "rent": [
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
-          "Fandango At Home"
-        ]
-      },
-      "scores": {
-        "rt": 87,
-        "metacritic": 74,
-        "imdb": 6.9
-      },
-      "why": "Sean Baker (directed Anora 5★) · Karren Karagulian (stars in Anora 5★)"
-    },
-    {
-      "title": "Mother",
-      "year": 2009,
-      "tmdbId": 30018,
-      "tmdbRating": 7.703,
-      "votes": 1706,
-      "score": 5.700000000000001,
-      "rank": 22,
-      "director": [
-        "Bong Joon Ho"
-      ],
-      "runtime": 129,
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/8oBnSkZE6GDVugAbLPO6uJd4GcS.jpg",
-      "providers": {
-        "flatrate": [
-          "Philo"
-        ],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
-          "Fandango At Home",
-          "FlixFling"
-        ]
-      },
-      "scores": {
-        "rt": 96,
-        "metacritic": 79,
-        "imdb": 7.7
-      },
-      "why": "Bong Joon Ho (directed Parasite 4.5★)"
-    },
-    {
       "title": "The Host",
       "year": 2006,
       "tmdbId": 1255,
       "tmdbRating": 6.979,
       "votes": 3179,
       "score": 5.700000000000001,
-      "rank": 23,
+      "rank": 21,
       "director": [
         "Bong Joon Ho"
       ],
@@ -909,7 +833,7 @@
       "tmdbRating": 6.907,
       "votes": 10516,
       "score": 5.700000000000001,
-      "rank": 24,
+      "rank": 22,
       "director": [
         "Bong Joon Ho"
       ],
@@ -946,7 +870,7 @@
       "tmdbRating": 6.9,
       "votes": 179,
       "score": 5.700000000000001,
-      "rank": 25,
+      "rank": 23,
       "director": [
         "Shim Sung-bo"
       ],
@@ -984,7 +908,7 @@
       "tmdbRating": 7.286,
       "votes": 182,
       "score": 5.4,
-      "rank": 26,
+      "rank": 24,
       "director": [
         "Tsou Shih-ching"
       ],
@@ -1004,6 +928,82 @@
         "rt": 98,
         "metacritic": 77,
         "imdb": 7.4
+      },
+      "why": "Sean Baker (directed Anora 5★)"
+    },
+    {
+      "title": "Tangerine",
+      "year": 2015,
+      "tmdbId": 308084,
+      "tmdbRating": 6.866,
+      "votes": 810,
+      "score": 5.4,
+      "rank": 25,
+      "director": [
+        "Sean Baker"
+      ],
+      "runtime": 87,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/EKLR5c61XQzBTeMokFrmS3kdt8.jpg",
+      "providers": {
+        "flatrate": [
+          "Amazon Prime Video",
+          "fuboTV",
+          "Philo",
+          "YouTube TV",
+          "Amazon Prime Video with Ads"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "FlixFling",
+          "Spectrum On Demand"
+        ]
+      },
+      "scores": {
+        "rt": 96,
+        "metacritic": 86,
+        "imdb": 7.1
+      },
+      "why": "Sean Baker (directed Anora 5★)"
+    },
+    {
+      "title": "Starlet",
+      "year": 2012,
+      "tmdbId": 91679,
+      "tmdbRating": 6.8,
+      "votes": 202,
+      "score": 5.4,
+      "rank": 26,
+      "director": [
+        "Sean Baker"
+      ],
+      "runtime": 103,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/8mVU5KjD5b4Df3CRTnJqKFSwg5y.jpg",
+      "providers": {
+        "flatrate": [
+          "Criterion Channel"
+        ],
+        "rent": [
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "scores": {
+        "rt": 87,
+        "metacritic": 74,
+        "imdb": 6.9
       },
       "why": "Sean Baker (directed Anora 5★)"
     },
@@ -1451,55 +1451,13 @@
       "why": "Quentin Tarantino (directed Once Upon a Time... in Hollywood 4★)"
     },
     {
-      "title": "Animal Crackers",
-      "year": 2018,
-      "tmdbId": 315064,
-      "tmdbRating": 6.4,
-      "votes": 208,
-      "score": 4.2,
-      "rank": 39,
-      "director": [
-        "Tony Bancroft",
-        "Scott Christian Sava",
-        "Jaime Maestro"
-      ],
-      "runtime": 104,
-      "genres": [
-        "Comedy",
-        "Animation",
-        "Adventure",
-        "Family",
-        "Fantasy"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/dxFqZiO5MqqVoFZuWOjTdjmDh6d.jpg",
-      "providers": {
-        "flatrate": [
-          "Netflix",
-          "Netflix Standard with Ads"
-        ],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
-          "Fandango At Home"
-        ]
-      },
-      "scores": {
-        "rt": 67,
-        "metacritic": 60,
-        "imdb": 5.8
-      },
-      "why": "Emily Blunt (stars in A Quiet Place 4★, Oppenheimer 4★) · John Krasinski (directed A Quiet Place 4★)"
-    },
-    {
       "title": "I'm Here",
       "year": 2010,
       "tmdbId": 37058,
       "tmdbRating": 7.2,
       "votes": 198,
       "score": 4,
-      "rank": 40,
+      "rank": 39,
       "director": [
         "Spike Jonze"
       ],
@@ -1528,7 +1486,7 @@
       "tmdbRating": 7.877,
       "votes": 15216,
       "score": 3.8000000000000003,
-      "rank": 41,
+      "rank": 40,
       "director": [
         "Quentin Tarantino"
       ],
@@ -1552,6 +1510,11 @@
           "Fandango At Home"
         ]
       },
+      "scores": {
+        "rt": 84,
+        "metacritic": 83,
+        "imdb": 8
+      },
       "why": "Quentin Tarantino (directed Once Upon a Time... in Hollywood 4★)"
     },
     {
@@ -1561,7 +1524,7 @@
       "tmdbRating": 7.404,
       "votes": 3905,
       "score": 3.9000000000000004,
-      "rank": 42,
+      "rank": 41,
       "director": [
         "Ridley Scott"
       ],
@@ -1595,7 +1558,7 @@
       "tmdbRating": 7.756,
       "votes": 15412,
       "score": 3.8000000000000003,
-      "rank": 43,
+      "rank": 42,
       "director": [
         "Quentin Tarantino"
       ],
@@ -1626,7 +1589,7 @@
       "tmdbRating": 7.357,
       "votes": 7001,
       "score": 3.8000000000000003,
-      "rank": 44,
+      "rank": 43,
       "director": [
         "Quentin Tarantino"
       ],
@@ -1658,7 +1621,7 @@
       "tmdbRating": 6.502,
       "votes": 2040,
       "score": 4,
-      "rank": 45,
+      "rank": 44,
       "director": [
         "Spike Jonze"
       ],
@@ -1692,7 +1655,7 @@
       "tmdbRating": 5.528,
       "votes": 595,
       "score": 4.050000000000001,
-      "rank": 46,
+      "rank": 45,
       "director": [
         "Ethan Coen"
       ],
@@ -1726,7 +1689,7 @@
         "cruel-comedy",
         "doubling"
       ],
-      "rank": 47,
+      "rank": 46,
       "director": [
         "Alejandro G. Iñárritu"
       ],
@@ -1758,7 +1721,7 @@
       "themes": [
         "body-horror"
       ],
-      "rank": 48,
+      "rank": 47,
       "director": [
         "Rose Glass"
       ],
@@ -1793,7 +1756,7 @@
       "tmdbRating": 7.972,
       "votes": 10167,
       "score": 3.1500000000000004,
-      "rank": 49,
+      "rank": 48,
       "director": [
         "Craig Gillespie"
       ],
@@ -1825,7 +1788,7 @@
       "tmdbRating": 7.3,
       "votes": 173,
       "score": 3.2,
-      "rank": 50,
+      "rank": 49,
       "director": [
         "Lu Chuan"
       ],
@@ -1849,41 +1812,41 @@
       "why": "John Krasinski (directed A Quiet Place 4★)"
     },
     {
-      "title": "Robin Hood",
-      "year": 2010,
-      "tmdbId": 20662,
-      "tmdbRating": 6.401,
-      "votes": 5067,
-      "score": 3.4000000000000004,
-      "rank": 51,
+      "title": "DC League of Super-Pets",
+      "year": 2022,
+      "tmdbId": 539681,
+      "tmdbRating": 7.155,
+      "votes": 1750,
+      "score": 3.2,
+      "rank": 50,
       "director": [
-        "Ridley Scott"
+        "Jared Stern"
       ],
-      "runtime": 140,
+      "runtime": 105,
       "genres": [
-        "Action",
+        "Family",
+        "Comedy",
         "Adventure",
-        "History",
-        "Drama"
+        "Animation",
+        "Science Fiction"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/kE4Wie1VVRGQbVSIsEnxmly3FqZ.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/qpPMewlugFaejXjz4YNDnpTniFX.jpg",
       "providers": {
         "flatrate": [
           "HBO Max Amazon Channel",
-          "YouTube TV",
-          "Cinemax Amazon Channel",
-          "HBO Max",
-          "Cinemax Apple TV Channel"
+          "HBO Max"
         ],
         "rent": [
           "Amazon Video",
           "Apple TV Store",
           "Google Play Movies",
           "YouTube",
-          "Fandango At Home"
+          "Fandango At Home",
+          "Spectrum On Demand",
+          "Plex"
         ]
       },
-      "why": "Ridley Scott (directed Prometheus 4.5★) · Max von Sydow (stars in The Seventh Seal 5★)"
+      "why": "John Krasinski (directed A Quiet Place 4★)"
     },
     {
       "title": "Thelma & Louise",
@@ -1895,7 +1858,7 @@
       "themes": [
         "surveillance"
       ],
-      "rank": 52,
+      "rank": 51,
       "director": [
         "Ridley Scott"
       ],
@@ -1936,7 +1899,7 @@
       "themes": [
         "surveillance"
       ],
-      "rank": 53,
+      "rank": 52,
       "director": [
         "Ridley Scott"
       ],
@@ -1969,7 +1932,7 @@
       "tmdbRating": 7.612,
       "votes": 2628,
       "score": 2.7,
-      "rank": 54,
+      "rank": 53,
       "director": [
         "Gareth Evans"
       ],
@@ -2002,7 +1965,7 @@
       "tmdbRating": 7.41,
       "votes": 3940,
       "score": 2.7,
-      "rank": 55,
+      "rank": 54,
       "director": [
         "Gareth Evans"
       ],
@@ -2036,7 +1999,7 @@
       "tmdbRating": 7.392,
       "votes": 4228,
       "score": 2.7,
-      "rank": 56,
+      "rank": 55,
       "director": [
         "George Miller"
       ],
@@ -2067,7 +2030,7 @@
       "tmdbRating": 7.109,
       "votes": 576,
       "score": 2.7,
-      "rank": 57,
+      "rank": 56,
       "director": [
         "George Miller"
       ],
@@ -2095,7 +2058,7 @@
       "tmdbRating": 6.9,
       "votes": 1686,
       "score": 2.7,
-      "rank": 58,
+      "rank": 57,
       "director": [
         "George Miller"
       ],
@@ -2129,7 +2092,7 @@
       "tmdbRating": 6.687,
       "votes": 1278,
       "score": 2.75,
-      "rank": 59,
+      "rank": 58,
       "director": [
         "George Clooney"
       ],
@@ -2165,7 +2128,7 @@
       "tmdbRating": 6.602,
       "votes": 998,
       "score": 2.75,
-      "rank": 60,
+      "rank": 59,
       "director": [
         "Robert Redford"
       ],
@@ -2202,7 +2165,7 @@
       "tmdbRating": 7.935,
       "votes": 15155,
       "score": 2.4000000000000004,
-      "rank": 61,
+      "rank": 60,
       "director": [
         "Ridley Scott"
       ],
@@ -2231,7 +2194,7 @@
       "tmdbRating": 6.529,
       "votes": 660,
       "score": 2.75,
-      "rank": 62,
+      "rank": 61,
       "director": [
         "Sean Charmatz"
       ],
@@ -2260,7 +2223,7 @@
       "tmdbRating": 6.683,
       "votes": 5020,
       "score": 2.7,
-      "rank": 63,
+      "rank": 62,
       "director": [
         "George Miller"
       ],
@@ -2296,7 +2259,7 @@
       "themes": [
         "cruel-comedy"
       ],
-      "rank": 64,
+      "rank": 63,
       "director": [
         "Jay Roach"
       ],
@@ -2328,7 +2291,7 @@
       "tmdbRating": 6.5,
       "votes": 1578,
       "score": 2.7,
-      "rank": 65,
+      "rank": 64,
       "director": [
         "George Miller"
       ],
@@ -2358,7 +2321,7 @@
       "tmdbRating": 6.5,
       "votes": 241,
       "score": 2.7,
-      "rank": 66,
+      "rank": 65,
       "director": [
         "Gareth Evans"
       ],
@@ -2396,7 +2359,7 @@
       "themes": [
         "cruel-comedy"
       ],
-      "rank": 67,
+      "rank": 66,
       "director": [
         "Craig Zobel"
       ],
@@ -2424,7 +2387,7 @@
       "tmdbRating": 6.385,
       "votes": 1278,
       "score": 2.7,
-      "rank": 68,
+      "rank": 67,
       "director": [
         "Gareth Evans"
       ],
@@ -2452,7 +2415,7 @@
       "tmdbRating": 6.033,
       "votes": 5597,
       "score": 2.75,
-      "rank": 69,
+      "rank": 68,
       "director": [
         "Zhang Yimou"
       ],
@@ -2484,7 +2447,7 @@
       "tmdbRating": 6.2,
       "votes": 1201,
       "score": 2.7,
-      "rank": 70,
+      "rank": 69,
       "director": [
         "Simon Barrett",
         "Adam Wingard",
@@ -2515,6 +2478,42 @@
         ]
       },
       "why": "Gareth Evans (directed Apostle 4★)"
+    },
+    {
+      "title": "Black Hawk Down",
+      "year": 2001,
+      "tmdbId": 855,
+      "tmdbRating": 7.395,
+      "votes": 6448,
+      "score": 2.4000000000000004,
+      "rank": 70,
+      "director": [
+        "Ridley Scott"
+      ],
+      "runtime": 145,
+      "genres": [
+        "Action",
+        "War",
+        "History"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/7fU5dSqKRL4XHeEUz62rCKBfYok.jpg",
+      "providers": {
+        "flatrate": [
+          "Hulu",
+          "Philo",
+          "YouTube TV",
+          "BBC America"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Spectrum On Demand"
+        ]
+      },
+      "why": "Ridley Scott (directed Prometheus 4.5★)"
     },
     {
       "title": "Human Nature",
@@ -2576,70 +2575,6 @@
       "why": "Matt Damon (stars in The Odyssey 5★, Oppenheimer 4★) · themes: comedy that's actually cruel"
     },
     {
-      "title": "The Adjustment Bureau",
-      "year": 2011,
-      "tmdbId": 38050,
-      "tmdbRating": 6.782,
-      "votes": 4978,
-      "score": 2.5,
-      "rank": 73,
-      "director": [
-        "George Nolfi"
-      ],
-      "runtime": 106,
-      "genres": [
-        "Science Fiction",
-        "Thriller",
-        "Romance"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/5ZzeR8iz1nEFLp94OBnbakLZawo.jpg",
-      "providers": {
-        "flatrate": [
-          "Peacock Premium",
-          "Peacock Premium Plus"
-        ],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
-          "Fandango At Home"
-        ]
-      },
-      "why": "Matt Damon (stars in The Odyssey 5★, Oppenheimer 4★) · Emily Blunt (stars in A Quiet Place 4★, Oppenheimer 4★)"
-    },
-    {
-      "title": "The Lost City of Z",
-      "year": 2017,
-      "tmdbId": 314095,
-      "tmdbRating": 6.39,
-      "votes": 3118,
-      "score": 2.5,
-      "rank": 74,
-      "director": [
-        "James Gray"
-      ],
-      "runtime": 141,
-      "genres": [
-        "Adventure",
-        "Drama",
-        "History"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/8SxHVNk6tqXYwygmDzz1YuJEm2J.jpg",
-      "providers": {
-        "flatrate": [
-          "Amazon Prime Video",
-          "Amazon Prime Video with Ads"
-        ],
-        "rent": [
-          "Google Play Movies",
-          "YouTube",
-          "FlixFling"
-        ]
-      },
-      "why": "Robert Pattinson (stars in The Odyssey 5★, The Lighthouse 4★) · Tom Holland (stars in The Odyssey 5★)"
-    },
-    {
       "title": "Contagion",
       "year": 2011,
       "tmdbId": 39538,
@@ -2649,7 +2584,7 @@
       "themes": [
         "body-horror"
       ],
-      "rank": 75,
+      "rank": 73,
       "director": [
         "Steven Soderbergh"
       ],
@@ -2680,71 +2615,13 @@
       "why": "Matt Damon (stars in The Odyssey 5★, Oppenheimer 4★) · themes: the body betrays"
     },
     {
-      "title": "The Huntsman: Winter's War",
-      "year": 2016,
-      "tmdbId": 290595,
-      "tmdbRating": 6.294,
-      "votes": 5074,
-      "score": 2.25,
-      "rank": 76,
-      "director": [
-        "Cedric Nicolas-Troyan"
-      ],
-      "runtime": 114,
-      "genres": [
-        "Action",
-        "Adventure",
-        "Drama"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/ekHPrneEoa1EoDclWdillOKznqM.jpg",
-      "providers": {
-        "flatrate": [],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
-          "Fandango At Home",
-          "FlixFling"
-        ]
-      },
-      "why": "Charlize Theron (stars in Prometheus 4.5★, Mad Max: Fury Road 4★) · Emily Blunt (stars in A Quiet Place 4★, Oppenheimer 4★)"
-    },
-    {
-      "title": "The Devil Wears Prada 2",
-      "year": 2026,
-      "tmdbId": 1314481,
-      "tmdbRating": 7.149,
-      "votes": 1664,
-      "score": 2,
-      "rank": 77,
-      "director": [
-        "David Frankel"
-      ],
-      "runtime": 119,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/fCAURTUx3YfsJ8k9I0UamjSILiR.jpg",
-      "providers": {
-        "flatrate": [],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Fandango At Home"
-        ]
-      },
-      "why": "Emily Blunt (stars in A Quiet Place 4★, Oppenheimer 4★) · Anne Hathaway (stars in The Odyssey 5★)"
-    },
-    {
       "title": "The Mitchells vs. the Machines",
       "year": 2021,
       "tmdbId": 501929,
       "tmdbRating": 7.833,
       "votes": 3419,
       "score": 1.6,
-      "rank": 78,
+      "rank": 74,
       "director": [
         "Mike Rianda"
       ],
@@ -2777,7 +2654,7 @@
       "tmdbRating": 8.205,
       "votes": 9140,
       "score": 1.5,
-      "rank": 79,
+      "rank": 75,
       "director": [
         "Tate Taylor"
       ],
@@ -2799,13 +2676,49 @@
       "why": "Emma Stone (stars in Poor Things 4.5★, Bugonia 4.5★)"
     },
     {
+      "title": "Good Will Hunting",
+      "year": 1997,
+      "tmdbId": 489,
+      "tmdbRating": 8.163,
+      "votes": 14018,
+      "score": 1.5,
+      "rank": 76,
+      "director": [
+        "Gus Van Sant"
+      ],
+      "runtime": 127,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/z2FnLKpFi1HPO7BEJxdkv6hpJSU.jpg",
+      "providers": {
+        "flatrate": [
+          "Paramount Plus Premium",
+          "Paramount Plus Essential",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel"
+        ],
+        "rent": [
+          "JustWatch TV",
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "FlixFling",
+          "Spectrum On Demand"
+        ]
+      },
+      "why": "Matt Damon (stars in The Odyssey 5★, Oppenheimer 4★)"
+    },
+    {
       "title": "Star Trek Into Darkness",
       "year": 2013,
       "tmdbId": 54138,
       "tmdbRating": 7.324,
       "votes": 9747,
       "score": 1.6500000000000001,
-      "rank": 80,
+      "rank": 77,
       "director": [
         "J.J. Abrams"
       ],
@@ -2842,7 +2755,7 @@
       "tmdbRating": 7.9,
       "votes": 18252,
       "score": 1.5,
-      "rank": 81,
+      "rank": 78,
       "director": [
         "Damien Chazelle"
       ],
@@ -2868,39 +2781,13 @@
       "why": "Emma Stone (stars in Poor Things 4.5★, Bugonia 4.5★)"
     },
     {
-      "title": "The Last Thing He Wanted",
-      "year": 2020,
-      "tmdbId": 505225,
-      "tmdbRating": 4.886,
-      "votes": 542,
-      "score": 2.25,
-      "rank": 82,
-      "director": [
-        "Dee Rees"
-      ],
-      "runtime": 116,
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/4mDbGqi8mloDdxkviq13SKCfuFH.jpg",
-      "providers": {
-        "flatrate": [
-          "Netflix",
-          "Netflix Standard with Ads"
-        ],
-        "rent": []
-      },
-      "why": "Willem Dafoe (stars in Poor Things 4.5★, The Lighthouse 4★) · Anne Hathaway (stars in The Odyssey 5★)"
-    },
-    {
       "title": "Trolls Band Together",
       "year": 2023,
       "tmdbId": 901362,
       "tmdbRating": 7.247,
       "votes": 1010,
       "score": 1.6,
-      "rank": 83,
+      "rank": 79,
       "director": [
         "Walt Dohrn"
       ],
@@ -2937,7 +2824,7 @@
       "tmdbRating": 7.439,
       "votes": 4181,
       "score": 1.5,
-      "rank": 84,
+      "rank": 80,
       "director": [
         "Joel Crawford"
       ],
@@ -2973,7 +2860,7 @@
       "tmdbRating": 7.275,
       "votes": 9370,
       "score": 1.5,
-      "rank": 85,
+      "rank": 81,
       "director": [
         "Glenn Ficarra",
         "John Requa"
@@ -3009,7 +2896,7 @@
       "tmdbRating": 6.788,
       "votes": 932,
       "score": 1.6,
-      "rank": 86,
+      "rank": 82,
       "director": [
         "Jeff Tremaine"
       ],
@@ -3046,7 +2933,7 @@
       "tmdbRating": 8.137,
       "votes": 2327,
       "score": 1.25,
-      "rank": 87,
+      "rank": 83,
       "director": [
         "Ericson Core"
       ],
@@ -3069,7 +2956,7 @@
       "tmdbRating": 7.1,
       "votes": 3757,
       "score": 1.5,
-      "rank": 88,
+      "rank": 84,
       "director": [
         "Allen Coulter"
       ],
@@ -3101,7 +2988,7 @@
       "tmdbRating": 6.93,
       "votes": 2641,
       "score": 1.5,
-      "rank": 89,
+      "rank": 85,
       "director": [
         "Francis Lawrence"
       ],
@@ -3130,7 +3017,7 @@
       "tmdbRating": 6.298,
       "votes": 7402,
       "score": 1.6500000000000001,
-      "rank": 90,
+      "rank": 86,
       "director": [
         "Brad Bird"
       ],
@@ -3163,7 +3050,7 @@
       "tmdbRating": 6.419,
       "votes": 278,
       "score": 1.6,
-      "rank": 91,
+      "rank": 87,
       "director": [
         "Matt Spicer"
       ],
@@ -3188,7 +3075,7 @@
       "tmdbRating": 6.206,
       "votes": 466,
       "score": 1.6500000000000001,
-      "rank": 92,
+      "rank": 88,
       "director": [
         "Tony McNamara"
       ],
@@ -3218,7 +3105,7 @@
       "tmdbRating": 6.404,
       "votes": 401,
       "score": 1.6,
-      "rank": 93,
+      "rank": 89,
       "director": [
         "Jeff Tremaine"
       ],
@@ -3252,7 +3139,7 @@
       "tmdbRating": 7.751,
       "votes": 5176,
       "score": 1.25,
-      "rank": 94,
+      "rank": 90,
       "director": [
         "Oliver Stone"
       ],
@@ -3290,7 +3177,7 @@
       "tmdbRating": 7.673,
       "votes": 1974,
       "score": 1.25,
-      "rank": 95,
+      "rank": 91,
       "director": [
         "Alan Parker"
       ],
@@ -3325,7 +3212,7 @@
       "tmdbRating": 7.635,
       "votes": 3852,
       "score": 1.25,
-      "rank": 96,
+      "rank": 92,
       "director": [
         "Travis Knight"
       ],
@@ -3356,7 +3243,7 @@
       "tmdbRating": 7.491,
       "votes": 2539,
       "score": 1.25,
-      "rank": 97,
+      "rank": 93,
       "director": [
         "George Tillman Jr."
       ],
@@ -3388,7 +3275,7 @@
       "tmdbRating": 7.479,
       "votes": 6896,
       "score": 1.25,
-      "rank": 98,
+      "rank": 94,
       "director": [
         "Taylor Hackford"
       ],
@@ -3419,7 +3306,7 @@
       "tmdbRating": 6.454,
       "votes": 9428,
       "score": 1.5,
-      "rank": 99,
+      "rank": 95,
       "director": [
         "Bill Condon"
       ],
@@ -3455,7 +3342,7 @@
       "tmdbRating": 7.409,
       "votes": 6437,
       "score": 1.25,
-      "rank": 100,
+      "rank": 96,
       "director": [
         "Spike Lee"
       ],
@@ -3480,6 +3367,136 @@
         ]
       },
       "why": "Willem Dafoe (stars in Poor Things 4.5★, The Lighthouse 4★)"
+    },
+    {
+      "title": "The Lost City of Z",
+      "year": 2017,
+      "tmdbId": 314095,
+      "tmdbRating": 6.39,
+      "votes": 3118,
+      "score": 1.5,
+      "rank": 97,
+      "director": [
+        "James Gray"
+      ],
+      "runtime": 141,
+      "genres": [
+        "Adventure",
+        "Drama",
+        "History"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/8SxHVNk6tqXYwygmDzz1YuJEm2J.jpg",
+      "providers": {
+        "flatrate": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "rent": [
+          "Google Play Movies",
+          "YouTube",
+          "FlixFling"
+        ]
+      },
+      "why": "Robert Pattinson (stars in The Odyssey 5★, The Lighthouse 4★)"
+    },
+    {
+      "title": "Twilight",
+      "year": 2008,
+      "tmdbId": 8966,
+      "tmdbRating": 6.281,
+      "votes": 14508,
+      "score": 1.5,
+      "rank": 98,
+      "director": [
+        "Catherine Hardwicke"
+      ],
+      "runtime": 122,
+      "genres": [
+        "Fantasy",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/3Gkb6jm6962ADUPaCBqzz9CTbn9.jpg",
+      "providers": {
+        "flatrate": [
+          "Hulu",
+          "YouTube TV"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Plex"
+        ]
+      },
+      "why": "Robert Pattinson (stars in The Odyssey 5★, The Lighthouse 4★)"
+    },
+    {
+      "title": "The Boondock Saints",
+      "year": 1999,
+      "tmdbId": 8374,
+      "tmdbRating": 7.251,
+      "votes": 2732,
+      "score": 1.25,
+      "rank": 99,
+      "director": [
+        "Troy Duffy"
+      ],
+      "runtime": 108,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/wtLUmkWg41xFLpvmUWAN1mm65f6.jpg",
+      "providers": {
+        "flatrate": [
+          "Amazon Prime Video",
+          "Hulu",
+          "Peacock Premium",
+          "Amazon Prime Video with Ads",
+          "Peacock Premium Plus"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Willem Dafoe (stars in Poor Things 4.5★, The Lighthouse 4★)"
+    },
+    {
+      "title": "North Country",
+      "year": 2005,
+      "tmdbId": 9701,
+      "tmdbRating": 7.248,
+      "votes": 751,
+      "score": 1.25,
+      "rank": 100,
+      "director": [
+        "Niki Caro"
+      ],
+      "runtime": 126,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/upxUN4zmX79o49mBW9htKZDeNq7.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Spectrum On Demand"
+        ]
+      },
+      "why": "Charlize Theron (stars in Prometheus 4.5★, Mad Max: Fury Road 4★)"
     }
   ],
   "themePicks": [
@@ -3892,38 +3909,6 @@
       }
     },
     {
-      "title": "Lee Cronin's The Mummy",
-      "year": 2026,
-      "tmdbId": 1304313,
-      "tmdbRating": 7.958,
-      "votes": 2356,
-      "theme": "body-horror",
-      "why": "body-horror — the thread through 2 of your loved films",
-      "director": [
-        "Lee Cronin"
-      ],
-      "runtime": 133,
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/1q308iixueCU4pFtSYugNOevtNx.jpg",
-      "providers": {
-        "flatrate": [
-          "HBO Max Amazon Channel",
-          "HBO Max"
-        ],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
-          "Fandango At Home",
-          "Plex"
-        ]
-      }
-    },
-    {
       "title": "Dragon Ball Super: Broly",
       "year": 2018,
       "tmdbId": 503314,
@@ -3952,6 +3937,36 @@
           "Amazon Video",
           "Apple TV Store",
           "Google Play Movies",
+          "Fandango At Home"
+        ]
+      }
+    },
+    {
+      "title": "Akira",
+      "year": 1988,
+      "tmdbId": 149,
+      "tmdbRating": 7.937,
+      "votes": 4854,
+      "theme": "body-horror",
+      "why": "body-horror — the thread through 2 of your loved films",
+      "director": [
+        "Katsuhiro Otomo"
+      ],
+      "runtime": 124,
+      "genres": [
+        "Animation",
+        "Science Fiction",
+        "Action"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/neZ0ykEsPqxamsX6o5QNUFILQrz.jpg",
+      "providers": {
+        "flatrate": [
+          "Crunchyroll",
+          "Crunchyroll Amazon Channel"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
           "Fandango At Home"
         ]
       }
