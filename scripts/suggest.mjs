@@ -89,9 +89,23 @@ const themeMap = await read("theme-map", null);
 const useThemes = Boolean(themesData?.themes?.length && themeMap?.themes?.length);
 
 // Everything already seen, queued, or on trial is off the table.
+// Matched two ways: normalized title (curly quotes, accents and punctuation
+// must not save a duplicate) and TMDB id via enrichment (exact, survives any
+// retitling on either side).
+const norm = (s) =>
+  String(s)
+    .toLowerCase()
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[’‘]/g, "'")
+    .replace(/[^a-z0-9']+/g, " ")
+    .trim();
 const seen = new Set();
+const seenIds = new Set();
 for (const f of [...ratings, ...watchlist, ...oldFilms, ...watched]) {
-  seen.add(f.title.toLowerCase());
+  seen.add(norm(f.title));
+  const id = enrichment[`${f.title} (${f.year})`]?.tmdbId;
+  if (id) seenIds.add(id);
 }
 
 // --- people affinity, weighted by your scores -------------------------------
@@ -129,6 +143,11 @@ for (const [, p] of topPeople.slice(0, 10)) {
 }
 
 // --- candidate films from those people's filmographies ----------------------
+// A person's pull toward a candidate depends on what they actually did ON that
+// film. A story credit is not directing — before this factor existed, Man of
+// Steel arrived carrying Christopher Nolan's full director-affinity weight on
+// the strength of a story credit, and the card claimed he "directed" it.
+const CREDIT_FACTOR = { director: 1, writer: 0.8, story: 0.4, actor: 0.6 };
 const candidates = new Map(); // tmdbId -> {film, score, contributors:[]}
 
 for (const [id, p] of topPeople) {
@@ -136,18 +155,27 @@ for (const [id, p] of topPeople) {
   await pause();
   const works = [];
   if (p.roles.has("director")) {
-    works.push(...(credits.crew ?? []).filter((c) => c.job === "Director"));
+    for (const c of (credits.crew ?? []).filter((c) => c.job === "Director")) works.push({ ...c, credit: "director" });
   }
   if (p.roles.has("writer")) {
-    works.push(...(credits.crew ?? []).filter((c) => ["Writer", "Screenplay", "Story"].includes(c.job)));
+    for (const c of (credits.crew ?? []).filter((c) => ["Writer", "Screenplay", "Story"].includes(c.job)))
+      works.push({ ...c, credit: c.job === "Story" ? "story" : "writer" });
   }
   if (p.roles.has("actor")) {
-    works.push(...(credits.cast ?? []).filter((c) => (c.order ?? 99) <= 4));
+    for (const c of (credits.cast ?? []).filter((c) => (c.order ?? 99) <= 4)) works.push({ ...c, credit: "actor" });
   }
+  // one person can hold several jobs on one film — collect them before scoring
+  const byFilm = new Map();
   for (const w of works) {
+    const cur = byFilm.get(w.id) ?? { info: w, credits: new Set() };
+    cur.credits.add(w.credit);
+    byFilm.set(w.id, cur);
+  }
+  for (const { info: w, credits: filmCredits } of byFilm.values()) {
     if (!w.release_date || w.release_date > new Date().toISOString().slice(0, 10)) continue;
     if ((w.vote_count ?? 0) < 150) continue; // drop obscurities and shorts
-    if (seen.has(w.title.toLowerCase()) || seen.has((w.original_title ?? "").toLowerCase())) continue;
+    if (seenIds.has(w.id)) continue;
+    if (seen.has(norm(w.title)) || seen.has(norm(w.original_title ?? ""))) continue;
     const c = candidates.get(w.id) ?? {
       title: w.title,
       year: Number(w.release_date.slice(0, 4)),
@@ -158,8 +186,9 @@ for (const [id, p] of topPeople) {
       contributors: [],
     };
     if (!c.contributors.some((x) => x.id === id)) {
-      c.score += p.weight;
-      c.contributors.push({ id, name: p.name, roles: [...p.roles], via: p.via });
+      const factor = Math.max(...[...filmCredits].map((r) => CREDIT_FACTOR[r]));
+      c.score += p.weight * factor;
+      c.contributors.push({ id, name: p.name, credits: [...filmCredits], weight: p.weight * factor, via: p.via });
     }
     candidates.set(w.id, c);
   }
@@ -246,7 +275,8 @@ if (useThemes) {
       for (const r of found.results ?? []) {
         if (got >= PER_THEME) break;
         if (!r.release_date || r.release_date > new Date().toISOString().slice(0, 10)) continue;
-        if (seen.has(r.title.toLowerCase()) || seen.has((r.original_title ?? "").toLowerCase())) continue;
+        if (seenIds.has(r.id)) continue;
+        if (seen.has(norm(r.title)) || seen.has(norm(r.original_title ?? ""))) continue;
         if (rankedIds.has(r.id) || themePicks.some((p) => p.tmdbId === r.id)) continue;
         themePicks.push({
           title: r.title,
@@ -295,16 +325,21 @@ for (const c of toEnrich) {
     }
     await pause();
   }
-  // human-readable reason, built from the strongest contributors
+  // human-readable reason, built from the strongest contributors. The verb
+  // describes the person's credit on THIS film — never their role elsewhere.
   // (theme wildcards carry no contributors — their why is set already)
   if (c.contributors) {
     c.why = c.contributors
-      .sort((a, b) => b.via.length - a.via.length)
+      .sort((a, b) => b.weight - a.weight)
       .slice(0, 2)
       .map((p) => {
-        const role = p.roles.includes("director") ? "directed" : p.roles.includes("writer") ? "wrote" : "stars in";
+        const did = p.credits.includes("director")
+          ? p.credits.includes("writer") ? "wrote and directed this" : "directed this"
+          : p.credits.includes("writer") ? "wrote this"
+          : p.credits.includes("story") ? "has a story credit here"
+          : "stars in this";
         const via = p.via.slice(0, 3).map((v) => `${v.title} ${v.score}★`).join(", ");
-        return `${p.name} (${role} ${via})`;
+        return `${p.name} ${did} — you rated ${via}`;
       })
       .join(" · ");
   }

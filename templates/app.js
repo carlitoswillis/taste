@@ -92,6 +92,7 @@ async function loadAll() {
     for (const k of t.keywords ?? []) state.kwTheme.set(k.toLowerCase().trim(), t.id);
   }
   state.canWrite = await fetch("api/health").then((r) => r.ok).catch(() => false);
+  buildSeenIndexes();
   loadPrefs();
   // start each pool unfolded to the engine's headline, the rest a click away
   state.pool.film.shown ||= state.data.suggestions?.head ?? 12;
@@ -192,6 +193,62 @@ const poster = (e, h = 66) =>
 
 const matches = (q, ...fields) =>
   !q || fields.some((f) => String(f ?? "").toLowerCase().includes(q));
+
+// ---------- seen guard ----------
+// The suggestion files are snapshots: anything logged after they were
+// generated is still in them. The engine's own dedup can't help with that, so
+// the client re-checks every suggestion at render time — by TMDB id where
+// enrichment knows it, and by normalized title + year (±1: Letterboxd and
+// TMDB disagree about premiere years) everywhere else. Title-only matching is
+// deliberately avoided: remakes share titles, and hiding an unseen remake
+// would be its own integrity bug.
+const normTitle = (s) =>
+  String(s ?? "")
+    .toLowerCase()
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[’‘]/g, "'")
+    .replace(/[^a-z0-9']+/g, " ")
+    .trim();
+
+function seenIndex(entries, enricher) {
+  const ids = new Set();
+  const keys = new Set();
+  for (const f of entries) {
+    const id = enricher(f)?.tmdbId;
+    if (id != null) ids.add(id);
+    const t = normTitle(f.title);
+    if (!t || !f.year) continue;
+    for (const y of [f.year - 1, f.year, f.year + 1]) keys.add(`${t}|${y}`);
+  }
+  return { ids, keys };
+}
+
+function buildSeenIndexes() {
+  state.seenFilm = seenIndex(
+    [
+      ...(state.data.ratings ?? []),
+      ...(state.data.watchlist ?? []),
+      ...(state.data["old-films"] ?? []),
+      ...(state.data.watched ?? []),
+    ],
+    enrichFor
+  );
+  state.seenTV = seenIndex([...(state.data.tvRatings ?? []), ...(state.data.tvWatchlist ?? [])], tvEnrichFor);
+}
+
+const alreadyLogged = (s, idx) =>
+  (s.tmdbId != null && idx.ids.has(s.tmdbId)) || idx.keys.has(`${normTitle(s.title)}|${s.year}`);
+
+// filter a suggestion list against an index, remembering how many were caught
+function unseenOnly(items, idx) {
+  const kept = (items ?? []).filter((s) => !alreadyLogged(s, idx));
+  return { kept, hidden: (items ?? []).length - kept.length };
+}
+
+// "· 2 hidden — logged since this list was generated", or nothing
+const hiddenNote = (n) =>
+  n > 0 ? ` <strong>${n} hidden</strong> — already logged, awaiting the next refresh.` : "";
 
 // ---------- streaming services ----------
 // TMDB lists every reselling of a service separately — "Netflix", "Netflix
@@ -590,7 +647,8 @@ function renderWatch() {
       </div>
     </div>`;
 
-  const suggAll = (sugg?.items ?? []).filter((s) => matches(q, s.title, s.director?.join(" "), s.why));
+  const pool = unseenOnly(sugg?.items, state.seenFilm);
+  const suggAll = pool.kept.filter((s) => matches(q, s.title, s.director?.join(" "), s.why));
   const suggView = poolView("film", suggAll);
   const suggHtml = poolList("film", suggView, (s) => filmCard(s));
 
@@ -630,14 +688,14 @@ function renderWatch() {
   const suggSection = sugg
     ? `
     <h2 class="sect">Suggested by the data <span class="n">· ${suggView.all.length}${narrowed ? ` of ${suggAll.length}` : ""}</span></h2>
-    <p class="lede">Generated from the people behind your 4★+ films — directors, writers, actors, weighted by your scores — minus everything already logged. ${state.data.watched ? "" : "<strong>Your full watch history isn't imported yet</strong>, so some of these you'll have seen — run the Letterboxd CSV import to fix that (README has the two steps)."} Regenerate with <span style="font-family:var(--mono)">npm run suggest</span>.</p>
+    <p class="lede">Generated from the people behind your 4★+ films — directors, writers, actors, weighted by your scores — minus everything already logged.${hiddenNote(pool.hidden)} ${state.data.watched ? "" : "<strong>Your full watch history isn't imported yet</strong>, so some of these you'll have seen — run the Letterboxd CSV import to fix that (README has the two steps)."} Regenerate with <span style="font-family:var(--mono)">npm run suggest</span>.</p>
     ${poolControls("film", suggView)}
     ${suggHtml}
     ${poolMore("film", suggView)}`
     : "";
 
-  const picks = (sugg?.themePicks ?? [])
-    .filter((s) => matches(q, s.title, s.director?.join(" "), s.why))
+  const picks = unseenOnly(sugg?.themePicks, state.seenFilm)
+    .kept.filter((s) => matches(q, s.title, s.director?.join(" "), s.why))
     .filter(onMyServices);
   const themePickSection = picks.length
     ? `
@@ -663,6 +721,56 @@ function renderWatch() {
       .join("")}`
     : "";
 
+  // ---- worth a rewatch: the loved shelf, aged ----
+  // 4.5★+ always qualifies; a 4★ earns its way back after two years unseen.
+  // Ranked by your score plus a fade bonus (0.3/yr, capped at five years), so
+  // a 4.5★ from long ago can outrank a 5★ from last month. The argument shown
+  // is your own note — the engine adds nothing.
+  const watchedOn = new Map((state.data.watched ?? []).map((w) => [`${normTitle(w.title)}|${w.year}`, w.watched]));
+  const rwScore = (r) => r.score + Math.min(r.years ?? 0, 5) * 0.3;
+  const rwAll = (state.data.ratings ?? [])
+    .filter((r) => (r.score ?? 0) >= 4)
+    .map((r) => {
+      const logged = watchedOn.get(`${normTitle(r.title)}|${r.year}`) ?? null;
+      const years = logged ? (Date.now() - Date.parse(logged)) / 31557600000 : null;
+      return { ...r, logged, years };
+    })
+    .filter((r) => r.score >= 4.5 || (r.years ?? 0) >= 2)
+    .sort((a, b) => rwScore(b) - rwScore(a));
+  const rwAvail = state.prefs.services.length ? rwAll.filter((r) => onMyServices(enrichFor(r) ?? {})) : rwAll;
+  const rw = rwAvail.filter((r) => matches(q, r.title, r.director, r.note)).slice(0, 6);
+  const rewatchSection = rw.length
+    ? `
+    <h2 class="sect">Worth a rewatch <span class="n">· ${rw.length}${rwAvail.length > rw.length ? ` of ${rwAvail.length}` : ""}</span></h2>
+    <p class="lede">Films you loved, surfaced again once they've had time to fade${state.prefs.services.length ? " — narrowed to your services" : ""}. Your own notes make the case.</p>
+    ${rw
+      .map((f) => {
+        const e = enrichFor(f);
+        const meta = [
+          f.year,
+          f.director,
+          e?.runtime ? `${Math.floor(e.runtime / 60)}h${String(e.runtime % 60).padStart(2, "0")}` : null,
+          `you rated it ${f.score}★`,
+          f.logged ? `logged ${f.logged}` : null,
+        ]
+          .filter(Boolean)
+          .map(esc)
+          .join(" · ");
+        return `
+    <div class="card qcard">
+      <div class="rank">↻</div>
+      ${poster(e)}
+      <div class="body">
+        <div class="title">${esc(f.title)}${serviceBadge(e)}</div>
+        <div class="meta">${meta}</div>
+        ${f.note ? `<div class="why">${md(f.note)}</div>` : ""}
+        ${availability(f, e)}
+      </div>
+    </div>`;
+      })
+      .join("")}`
+    : "";
+
   // one drawer at the top of the tab: the services govern the queue, the
   // spotlight and the suggestions alike, so the control belongs above all three
   const servicesHtml = servicesBlock([
@@ -680,6 +788,7 @@ function renderWatch() {
     ${queueHtml}
     ${suggSection}
     ${themePickSection}
+    ${rewatchSection}
     <h2 class="sect">Old films — on trial <span class="n">· ${trials.filter((f) => !f.verdict).length} open</span></h2>
     <p class="lede">${md(state.data.profile.oldFilmsIntro)} Verdicts recorded here turn the age question into data.</p>
     ${trialHtml}`;
@@ -745,13 +854,22 @@ function renderFilms() {
     .filter((w) => !known.has(w.title.toLowerCase()))
     .map((w) => ({ title: w.title, year: w.year, director: null, score: null, watchedOnly: true }));
 
-  let films = [...ratings, ...extras].filter((f) => matches(q, f.title, f.director, f.note));
+  const allFilms = [...ratings, ...extras];
+  let films = allFilms.filter((f) => matches(q, f.title, f.director, f.note));
   if (state.filmTier !== "all") {
     films = films.filter((f) =>
       state.filmTier === "unscored" ? f.score == null : f.score === Number(state.filmTier)
     );
   }
   if (state.filmTheme !== "all") films = films.filter((f) => themesFor(f).includes(state.filmTheme));
+  // the same services drawer as Watch, turned on the library itself: "which of
+  // my films are on Netflix tonight" is a question the log should answer
+  let svcHidden = 0;
+  if (state.prefs.services.length) {
+    const before = films.length;
+    films = films.filter((f) => onMyServices(enrichFor(f) ?? {}));
+    svcHidden = before - films.length;
+  }
   const sorters = {
     score: (a, b) => (b.score ?? -1) - (a.score ?? -1) || b.year - a.year,
     year: (a, b) => b.year - a.year,
@@ -798,10 +916,13 @@ function renderFilms() {
     </div>`;
         })
         .join("")
-    : `<div class="empty">No films match. Log one — the profile only knows what you tell it.</div>`;
+    : `<div class="empty">${
+        svcHidden ? "Nothing you've logged streams on those services with these filters." : "No films match. Log one — the profile only knows what you tell it."
+      }</div>`;
 
   $("#tab-films").innerHTML = `
-    <h2 class="sect">The log <span class="n">· ${films.length} shown</span></h2>
+    ${servicesBlock([allFilms.map((f) => enrichFor(f)).filter(Boolean)])}
+    <h2 class="sect">The log <span class="n">· ${films.length} shown${svcHidden ? ` · ${svcHidden} not on your services` : ""}</span></h2>
     <div class="controls">
       <select id="film-sort" aria-label="Sort films">
         <option value="score" ${state.filmSort === "score" ? "selected" : ""}>by score</option>
@@ -830,6 +951,7 @@ function renderFilms() {
       renderFilms();
     })
   );
+  wirePool($("#tab-films"), renderFilms);
 }
 
 // ---------- tv ----------
@@ -908,7 +1030,8 @@ function renderTV() {
       }</div>`;
 
   const sugg = state.data.tvSuggestions;
-  const suggAll = (sugg?.items ?? []).filter((s) => matches(q, s.title, s.creators?.join(" "), s.why));
+  const tvPool = unseenOnly(sugg?.items, state.seenTV);
+  const suggAll = tvPool.kept.filter((s) => matches(q, s.title, s.creators?.join(" "), s.why));
   const suggView = poolView("tv", suggAll);
   const suggHtml = poolList(
     "tv",
@@ -951,7 +1074,7 @@ function renderTV() {
   const suggSection = sugg
     ? `
     <h2 class="sect">Suggested by the data <span class="n">· ${suggView.all.length}${state.prefs.services.length ? ` of ${suggAll.length}` : ""}</span></h2>
-    <p class="lede">Built from the people behind your 4★+ films${sugg.basedOn ? ` (${sugg.basedOn} of them)` : ""} — creators, writers, directors crossing into TV — minus everything already logged or queued. Regenerate with <span style="font-family:var(--mono)">npm run suggest:tv</span>.</p>
+    <p class="lede">Built from the people behind your 4★+ films${sugg.basedOn ? ` (${sugg.basedOn} of them)` : ""} — creators, writers, directors crossing into TV — minus everything already logged or queued.${hiddenNote(tvPool.hidden)} Regenerate with <span style="font-family:var(--mono)">npm run suggest:tv</span>.</p>
     ${poolControls("tv", suggView)}
     ${suggHtml}
     ${poolMore("tv", suggView)}`

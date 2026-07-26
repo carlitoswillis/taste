@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-26T10:54:44.417Z",
+  "generated": "2026-07-26T23:58:00.135Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -33,7 +33,7 @@
         "metacritic": null,
         "imdb": 9
       },
-      "why": "Ingmar Bergman (directed The Seventh Seal 5★, directed Persona 5★)"
+      "why": "Ingmar Bergman created this (directed The Seventh Seal 5★, directed Persona 5★)"
     },
     {
       "title": "Scenes from a Marriage",
@@ -63,15 +63,15 @@
         "metacritic": null,
         "imdb": 8.5
       },
-      "why": "Ingmar Bergman (directed The Seventh Seal 5★, directed Persona 5★)"
+      "why": "Ingmar Bergman created this (directed The Seventh Seal 5★, directed Persona 5★)"
     },
     {
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.75,
-      "votes": 976,
-      "score": 3.8000000000000003,
+      "tmdbRating": 7.749,
+      "votes": 977,
+      "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
       ],
@@ -100,38 +100,45 @@
         "metacritic": null,
         "imdb": 8
       },
-      "why": "Kitao Sakurai (directed Bad Trip 4★) · themes: comedy that's actually cruel"
+      "why": "Kitao Sakurai directed episodes (directed Bad Trip 4★) · themes: comedy that's actually cruel"
     },
     {
-      "title": "50 States of Fright",
-      "year": 2020,
-      "tmdbId": 94251,
-      "tmdbRating": 7.211,
-      "votes": 102,
-      "score": 4.4,
+      "title": "Jackass",
+      "year": 2000,
+      "tmdbId": 1795,
+      "tmdbRating": 6.654,
+      "votes": 296,
+      "score": 4,
       "rank": 4,
       "creators": [
-        "Sam Raimi"
+        "Jeff Tremaine",
+        "Johnny Knoxville",
+        "Spike Jonze"
       ],
-      "seasons": 2,
-      "episodes": 24,
-      "episodeRuntime": 6,
-      "showStatus": "Canceled",
+      "seasons": 3,
+      "episodes": 25,
+      "episodeRuntime": 25,
+      "showStatus": "Ended",
       "genres": [
-        "Drama",
-        "Crime"
+        "Comedy"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/bfX15CYiGgBfasc8lVJ7mmxhrMz.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/q8O8ElquAya9SugLNH6N5TWNE4h.jpg",
       "providers": {
-        "flatrate": [],
+        "flatrate": [
+          "Paramount Plus Premium",
+          "Paramount Plus Essential",
+          "Paramount Plus Apple TV Channel ",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel"
+        ],
         "rent": []
       },
       "scores": {
         "rt": null,
         "metacritic": null,
-        "imdb": 6.5
+        "imdb": 7.3
       },
-      "why": "Bryan Woods (wrote A Quiet Place 4★) · Scott Beck (wrote A Quiet Place 4★)"
+      "why": "Spike Jonze created this (directed Being John Malkovich 4.5★, directed Adaptation. 4★)"
     },
     {
       "title": "The Eric Andre Show",
@@ -139,7 +146,7 @@
       "tmdbId": 56590,
       "tmdbRating": 7.889,
       "votes": 171,
-      "score": 3.8000000000000003,
+      "score": 3.0400000000000005,
       "themes": [
         "surveillance"
       ],
@@ -168,7 +175,38 @@
         "metacritic": null,
         "imdb": 8.5
       },
-      "why": "Kitao Sakurai (directed Bad Trip 4★) · themes: watched & watching"
+      "why": "Kitao Sakurai wrote for this (directed Bad Trip 4★) · themes: watched & watching"
+    },
+    {
+      "title": "50 States of Fright",
+      "year": 2020,
+      "tmdbId": 94251,
+      "tmdbRating": 7.211,
+      "votes": 102,
+      "score": 3.5200000000000005,
+      "rank": 6,
+      "creators": [
+        "Sam Raimi"
+      ],
+      "seasons": 2,
+      "episodes": 24,
+      "episodeRuntime": 6,
+      "showStatus": "Canceled",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/bfX15CYiGgBfasc8lVJ7mmxhrMz.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": []
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 6.5
+      },
+      "why": "Bryan Woods wrote for this (wrote A Quiet Place 4★) · Scott Beck wrote for this (wrote A Quiet Place 4★)"
     },
     {
       "title": "ER",
@@ -176,8 +214,8 @@
       "tmdbId": 4588,
       "tmdbRating": 7.831,
       "votes": 940,
-      "score": 3.8000000000000003,
-      "rank": 6,
+      "score": 3.0400000000000005,
+      "rank": 7,
       "creators": [
         "Michael Crichton"
       ],
@@ -203,47 +241,7 @@
         "metacritic": null,
         "imdb": 7.9
       },
-      "why": "Quentin Tarantino (directed Once Upon a Time... in Hollywood 4★)"
-    },
-    {
-      "title": "Moral Orel",
-      "year": 2005,
-      "tmdbId": 292,
-      "tmdbRating": 8,
-      "votes": 104,
-      "score": 2.75,
-      "themes": [
-        "cruel-comedy"
-      ],
-      "rank": 7,
-      "creators": [
-        "Dino Stamatopoulos"
-      ],
-      "seasons": 3,
-      "episodes": 43,
-      "episodeRuntime": 12,
-      "showStatus": "Canceled",
-      "genres": [
-        "Animation",
-        "Comedy",
-        "Drama"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/1OSdgNEIYzCDYDmvJcGGBXgsAnR.jpg",
-      "providers": {
-        "flatrate": [
-          "HBO Max Amazon Channel",
-          "YouTube TV",
-          "Adult Swim",
-          "HBO Max"
-        ],
-        "rent": []
-      },
-      "scores": {
-        "rt": null,
-        "metacritic": null,
-        "imdb": 8.1
-      },
-      "why": "Charlie Kaufman (wrote Being John Malkovich 4.5★, wrote Adaptation. 4★) · themes: comedy that's actually cruel"
+      "why": "Quentin Tarantino directed episodes (directed Once Upon a Time... in Hollywood 4★)"
     },
     {
       "title": "CSI: Crime Scene Investigation",
@@ -251,7 +249,7 @@
       "tmdbId": 1431,
       "tmdbRating": 7.628,
       "votes": 1407,
-      "score": 3.8000000000000003,
+      "score": 3.0400000000000005,
       "rank": 8,
       "creators": [
         "Anthony E. Zuiker",
@@ -283,54 +281,16 @@
         "metacritic": null,
         "imdb": 7.7
       },
-      "why": "Quentin Tarantino (directed Once Upon a Time... in Hollywood 4★)"
-    },
-    {
-      "title": "Jackass",
-      "year": 2000,
-      "tmdbId": 1795,
-      "tmdbRating": 6.654,
-      "votes": 296,
-      "score": 4,
-      "rank": 9,
-      "creators": [
-        "Jeff Tremaine",
-        "Johnny Knoxville",
-        "Spike Jonze"
-      ],
-      "seasons": 3,
-      "episodes": 25,
-      "episodeRuntime": 25,
-      "showStatus": "Ended",
-      "genres": [
-        "Comedy"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/q8O8ElquAya9SugLNH6N5TWNE4h.jpg",
-      "providers": {
-        "flatrate": [
-          "Paramount Plus Premium",
-          "Paramount Plus Essential",
-          "Paramount Plus Apple TV Channel ",
-          "Paramount+ Amazon Channel",
-          "Paramount+ Roku Premium Channel"
-        ],
-        "rent": []
-      },
-      "scores": {
-        "rt": null,
-        "metacritic": null,
-        "imdb": 7.3
-      },
-      "why": "Spike Jonze (directed Being John Malkovich 4.5★, directed Adaptation. 4★)"
+      "why": "Quentin Tarantino directed episodes (directed Once Upon a Time... in Hollywood 4★)"
     },
     {
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
       "tmdbRating": 8.587,
-      "votes": 5319,
-      "score": 3.2,
-      "rank": 10,
+      "votes": 5321,
+      "score": 2.5600000000000005,
+      "rank": 9,
       "creators": [
         "Greg Daniels"
       ],
@@ -355,185 +315,7 @@
         "metacritic": null,
         "imdb": 9
       },
-      "why": "John Krasinski (directed A Quiet Place 4★)"
-    },
-    {
-      "title": "Twisted Metal",
-      "year": 2023,
-      "tmdbId": 133748,
-      "tmdbRating": 7.703,
-      "votes": 543,
-      "score": 3.8000000000000003,
-      "themes": [
-        "identity"
-      ],
-      "rank": 11,
-      "creators": [
-        "Rhett Reese",
-        "Paul Wernick",
-        "Michael Jonathan Smith"
-      ],
-      "seasons": 2,
-      "episodes": 22,
-      "episodeRuntime": 31,
-      "showStatus": "Returning Series",
-      "genres": [
-        "Action & Adventure",
-        "Comedy"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/zMwMClR9y7RBeVWMEmNn8LwUJHz.jpg",
-      "providers": {
-        "flatrate": [
-          "Peacock Premium",
-          "Peacock Premium Plus"
-        ],
-        "rent": []
-      },
-      "scores": {
-        "rt": null,
-        "metacritic": null,
-        "imdb": 7.3
-      },
-      "why": "Kitao Sakurai (directed Bad Trip 4★) · themes: impostors & stolen selves"
-    },
-    {
-      "title": "DAVE",
-      "year": 2020,
-      "tmdbId": 97084,
-      "tmdbRating": 7.3,
-      "votes": 191,
-      "score": 3.8000000000000003,
-      "rank": 12,
-      "creators": [
-        "Jeff Schaffer",
-        "Lil Dicky"
-      ],
-      "seasons": 3,
-      "episodes": 30,
-      "episodeRuntime": 49,
-      "showStatus": "Canceled",
-      "genres": [
-        "Comedy"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/iorStu3DHuscNfQiIyQomvMyO0h.jpg",
-      "providers": {
-        "flatrate": [
-          "Hulu",
-          "FXNow"
-        ],
-        "rent": []
-      },
-      "scores": {
-        "rt": null,
-        "metacritic": null,
-        "imdb": 8.2
-      },
-      "why": "Kitao Sakurai (directed Bad Trip 4★)"
-    },
-    {
-      "title": "Butterfly",
-      "year": 2025,
-      "tmdbId": 227114,
-      "tmdbRating": 7.226,
-      "votes": 135,
-      "score": 3.8000000000000003,
-      "rank": 13,
-      "creators": [
-        "Steph Cha",
-        "Ken Woodruff"
-      ],
-      "seasons": 1,
-      "episodes": 6,
-      "episodeRuntime": 49,
-      "showStatus": "Canceled",
-      "genres": [
-        "Action & Adventure",
-        "Drama"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/8x1W0TR2VIe7ORaRI9zwDqeJn9q.jpg",
-      "providers": {
-        "flatrate": [
-          "Amazon Prime Video",
-          "Amazon Prime Video with Ads"
-        ],
-        "rent": []
-      },
-      "scores": {
-        "rt": null,
-        "metacritic": null,
-        "imdb": 6.7
-      },
-      "why": "Kitao Sakurai (directed Bad Trip 4★)"
-    },
-    {
-      "title": "Tom Clancy's Jack Ryan",
-      "year": 2018,
-      "tmdbId": 73375,
-      "tmdbRating": 7.68,
-      "votes": 1831,
-      "score": 3.2,
-      "rank": 14,
-      "creators": [
-        "Graham Roland",
-        "Carlton Cuse"
-      ],
-      "seasons": 4,
-      "episodes": 30,
-      "episodeRuntime": 64,
-      "showStatus": "Ended",
-      "genres": [
-        "Action & Adventure",
-        "Drama"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/cO4py3L3q5GNPrA0qr1wVDrosK1.jpg",
-      "providers": {
-        "flatrate": [
-          "Amazon Prime Video",
-          "Amazon Prime Video with Ads"
-        ],
-        "rent": []
-      },
-      "scores": {
-        "rt": null,
-        "metacritic": null,
-        "imdb": 8
-      },
-      "why": "John Krasinski (directed A Quiet Place 4★)"
-    },
-    {
-      "title": "Mr. Pickles",
-      "year": 2014,
-      "tmdbId": 61593,
-      "tmdbRating": 8.139,
-      "votes": 856,
-      "score": 2.7,
-      "rank": 15,
-      "creators": [
-        "Will Carsola",
-        "Dave Stewart"
-      ],
-      "seasons": 4,
-      "episodes": 31,
-      "episodeRuntime": 15,
-      "showStatus": "Ended",
-      "genres": [
-        "Comedy",
-        "Animation"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/bSWmZnvXIOoqZ7eLderyInsouiF.jpg",
-      "providers": {
-        "flatrate": [
-          "YouTube TV",
-          "Adult Swim"
-        ],
-        "rent": []
-      },
-      "scores": {
-        "rt": null,
-        "metacritic": null,
-        "imdb": 7.3
-      },
-      "why": "Drew Hancock (directed Companion 4★)"
+      "why": "John Krasinski directed episodes (directed A Quiet Place 4★)"
     },
     {
       "title": "Gangs of London",
@@ -542,7 +324,7 @@
       "tmdbRating": 7.821,
       "votes": 685,
       "score": 2.7,
-      "rank": 16,
+      "rank": 10,
       "creators": [
         "Gareth Evans",
         "Matt Flannery"
@@ -574,7 +356,190 @@
         "metacritic": null,
         "imdb": 8
       },
-      "why": "Gareth Evans (directed Apostle 4★)"
+      "why": "Gareth Evans created this (directed Apostle 4★)"
+    },
+    {
+      "title": "Twisted Metal",
+      "year": 2023,
+      "tmdbId": 133748,
+      "tmdbRating": 7.703,
+      "votes": 543,
+      "score": 3.0400000000000005,
+      "themes": [
+        "identity"
+      ],
+      "rank": 11,
+      "creators": [
+        "Rhett Reese",
+        "Paul Wernick",
+        "Michael Jonathan Smith"
+      ],
+      "seasons": 2,
+      "episodes": 22,
+      "episodeRuntime": 31,
+      "showStatus": "Returning Series",
+      "genres": [
+        "Action & Adventure",
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/zMwMClR9y7RBeVWMEmNn8LwUJHz.jpg",
+      "providers": {
+        "flatrate": [
+          "Peacock Premium",
+          "Peacock Premium Plus"
+        ],
+        "rent": []
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 7.3
+      },
+      "why": "Kitao Sakurai directed episodes (directed Bad Trip 4★) · themes: impostors & stolen selves"
+    },
+    {
+      "title": "DAVE",
+      "year": 2020,
+      "tmdbId": 97084,
+      "tmdbRating": 7.3,
+      "votes": 191,
+      "score": 3.0400000000000005,
+      "rank": 12,
+      "creators": [
+        "Jeff Schaffer",
+        "Lil Dicky"
+      ],
+      "seasons": 3,
+      "episodes": 30,
+      "episodeRuntime": 49,
+      "showStatus": "Canceled",
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/iorStu3DHuscNfQiIyQomvMyO0h.jpg",
+      "providers": {
+        "flatrate": [
+          "Hulu",
+          "FXNow"
+        ],
+        "rent": []
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 8.2
+      },
+      "why": "Kitao Sakurai directed episodes (directed Bad Trip 4★)"
+    },
+    {
+      "title": "Butterfly",
+      "year": 2025,
+      "tmdbId": 227114,
+      "tmdbRating": 7.226,
+      "votes": 135,
+      "score": 3.0400000000000005,
+      "rank": 13,
+      "creators": [
+        "Steph Cha",
+        "Ken Woodruff"
+      ],
+      "seasons": 1,
+      "episodes": 6,
+      "episodeRuntime": 49,
+      "showStatus": "Canceled",
+      "genres": [
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/8x1W0TR2VIe7ORaRI9zwDqeJn9q.jpg",
+      "providers": {
+        "flatrate": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "rent": []
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 6.7
+      },
+      "why": "Kitao Sakurai directed episodes (directed Bad Trip 4★)"
+    },
+    {
+      "title": "Mr. Pickles",
+      "year": 2014,
+      "tmdbId": 61593,
+      "tmdbRating": 8.139,
+      "votes": 856,
+      "score": 2.16,
+      "rank": 14,
+      "creators": [
+        "Will Carsola",
+        "Dave Stewart"
+      ],
+      "seasons": 4,
+      "episodes": 31,
+      "episodeRuntime": 15,
+      "showStatus": "Ended",
+      "genres": [
+        "Comedy",
+        "Animation"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/bSWmZnvXIOoqZ7eLderyInsouiF.jpg",
+      "providers": {
+        "flatrate": [
+          "YouTube TV",
+          "Adult Swim"
+        ],
+        "rent": []
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 7.3
+      },
+      "why": "Drew Hancock wrote for this (directed Companion 4★)"
+    },
+    {
+      "title": "Moral Orel",
+      "year": 2005,
+      "tmdbId": 292,
+      "tmdbRating": 8,
+      "votes": 104,
+      "score": 1.1,
+      "themes": [
+        "cruel-comedy"
+      ],
+      "rank": 15,
+      "creators": [
+        "Dino Stamatopoulos"
+      ],
+      "seasons": 3,
+      "episodes": 43,
+      "episodeRuntime": 12,
+      "showStatus": "Canceled",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/1OSdgNEIYzCDYDmvJcGGBXgsAnR.jpg",
+      "providers": {
+        "flatrate": [
+          "HBO Max Amazon Channel",
+          "YouTube TV",
+          "Adult Swim",
+          "HBO Max"
+        ],
+        "rent": []
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 8.1
+      },
+      "why": "Charlie Kaufman has a story credit here (wrote Being John Malkovich 4.5★, wrote Adaptation. 4★) · themes: comedy that's actually cruel"
     },
     {
       "title": "Blue Mountain State",
@@ -582,8 +547,8 @@
       "tmdbId": 31941,
       "tmdbRating": 7.594,
       "votes": 466,
-      "score": 2.7,
-      "rank": 17,
+      "score": 2.16,
+      "rank": 16,
       "creators": [
         "Chris Romano",
         "Eric Falconer"
@@ -611,149 +576,19 @@
         "metacritic": null,
         "imdb": 8.3
       },
-      "why": "Drew Hancock (directed Companion 4★)"
-    },
-    {
-      "title": "Faking It",
-      "year": 2014,
-      "tmdbId": 60705,
-      "tmdbRating": 6.708,
-      "votes": 168,
-      "score": 2.7,
-      "rank": 18,
-      "creators": [
-        "Dana Goodman",
-        "Julia Lea Wolov"
-      ],
-      "seasons": 3,
-      "episodes": 38,
-      "episodeRuntime": 22,
-      "showStatus": "Canceled",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/vb9J7q977HB3AmvLETpmWIyIyTP.jpg",
-      "providers": {
-        "flatrate": [],
-        "rent": []
-      },
-      "scores": {
-        "rt": null,
-        "metacritic": null,
-        "imdb": 7.3
-      },
-      "why": "Drew Hancock (directed Companion 4★)"
-    },
-    {
-      "title": "Suburgatory",
-      "year": 2011,
-      "tmdbId": 39357,
-      "tmdbRating": 6.666,
-      "votes": 232,
-      "score": 2.7,
-      "rank": 19,
-      "creators": [
-        "Emily Kapnek"
-      ],
-      "seasons": 3,
-      "episodes": 57,
-      "episodeRuntime": 30,
-      "showStatus": "Canceled",
-      "genres": [
-        "Comedy"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/eJiclykJKNv1FAlTubCdaY2KM2a.jpg",
-      "providers": {
-        "flatrate": [
-          "Netflix",
-          "Netflix Standard with Ads"
-        ],
-        "rent": []
-      },
-      "scores": {
-        "rt": null,
-        "metacritic": null,
-        "imdb": 7.2
-      },
-      "why": "Drew Hancock (directed Companion 4★)"
-    },
-    {
-      "title": "Raised by Wolves",
-      "year": 2020,
-      "tmdbId": 85723,
-      "tmdbRating": 7.509,
-      "votes": 1802,
-      "score": 2.4000000000000004,
-      "rank": 20,
-      "creators": [
-        "Aaron Guzikowski"
-      ],
-      "seasons": 2,
-      "episodes": 18,
-      "episodeRuntime": 46,
-      "showStatus": "Canceled",
-      "genres": [
-        "Sci-Fi & Fantasy",
-        "Drama"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/mTvSVKMn2Npf6zvYNbGMJnYLtvp.jpg",
-      "providers": {
-        "flatrate": [],
-        "rent": []
-      },
-      "scores": {
-        "rt": null,
-        "metacritic": null,
-        "imdb": 7.4
-      },
-      "why": "Ridley Scott (directed Prometheus 4.5★)"
-    },
-    {
-      "title": "Dope Thief",
-      "year": 2025,
-      "tmdbId": 209876,
-      "tmdbRating": 6.432,
-      "votes": 125,
-      "score": 2.4000000000000004,
-      "rank": 21,
-      "creators": [
-        "Peter Craig"
-      ],
-      "seasons": 1,
-      "episodes": 8,
-      "episodeRuntime": 50,
-      "showStatus": "Ended",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/sIed5PCiMNHd7G55DR9ObSRV9v2.jpg",
-      "providers": {
-        "flatrate": [
-          "Apple TV",
-          "Apple TV Amazon Channel"
-        ],
-        "rent": []
-      },
-      "scores": {
-        "rt": null,
-        "metacritic": null,
-        "imdb": 7
-      },
-      "why": "Ridley Scott (directed Prometheus 4.5★)"
+      "why": "Drew Hancock wrote for this (directed Companion 4★)"
     },
     {
       "title": "Person of Interest",
       "year": 2011,
       "tmdbId": 1411,
       "tmdbRating": 8.092,
-      "votes": 2097,
+      "votes": 2098,
       "score": 1.6500000000000001,
       "themes": [
         "surveillance"
       ],
-      "rank": 22,
+      "rank": 17,
       "creators": [
         "Jonathan Nolan"
       ],
@@ -782,16 +617,147 @@
         "metacritic": null,
         "imdb": 8.5
       },
-      "why": "Jonathan Nolan (wrote The Prestige 4.5★) · themes: watched & watching"
+      "why": "Jonathan Nolan created this (wrote The Prestige 4.5★) · themes: watched & watching"
+    },
+    {
+      "title": "Tom Clancy's Jack Ryan",
+      "year": 2018,
+      "tmdbId": 73375,
+      "tmdbRating": 7.68,
+      "votes": 1831,
+      "score": 1.92,
+      "rank": 18,
+      "creators": [
+        "Graham Roland",
+        "Carlton Cuse"
+      ],
+      "seasons": 4,
+      "episodes": 30,
+      "episodeRuntime": 64,
+      "showStatus": "Ended",
+      "genres": [
+        "Action & Adventure",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/cO4py3L3q5GNPrA0qr1wVDrosK1.jpg",
+      "providers": {
+        "flatrate": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "rent": []
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 8
+      },
+      "why": "John Krasinski stars in this (directed A Quiet Place 4★)"
+    },
+    {
+      "title": "Faking It",
+      "year": 2014,
+      "tmdbId": 60705,
+      "tmdbRating": 6.708,
+      "votes": 168,
+      "score": 2.16,
+      "rank": 19,
+      "creators": [
+        "Dana Goodman",
+        "Julia Lea Wolov"
+      ],
+      "seasons": 3,
+      "episodes": 38,
+      "episodeRuntime": 22,
+      "showStatus": "Canceled",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/vb9J7q977HB3AmvLETpmWIyIyTP.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": []
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 7.3
+      },
+      "why": "Drew Hancock wrote for this (directed Companion 4★)"
+    },
+    {
+      "title": "Suburgatory",
+      "year": 2011,
+      "tmdbId": 39357,
+      "tmdbRating": 6.666,
+      "votes": 232,
+      "score": 2.16,
+      "rank": 20,
+      "creators": [
+        "Emily Kapnek"
+      ],
+      "seasons": 3,
+      "episodes": 57,
+      "episodeRuntime": 30,
+      "showStatus": "Canceled",
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/eJiclykJKNv1FAlTubCdaY2KM2a.jpg",
+      "providers": {
+        "flatrate": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ],
+        "rent": []
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 7.2
+      },
+      "why": "Drew Hancock wrote for this (directed Companion 4★)"
+    },
+    {
+      "title": "Raised by Wolves",
+      "year": 2020,
+      "tmdbId": 85723,
+      "tmdbRating": 7.509,
+      "votes": 1802,
+      "score": 1.9200000000000004,
+      "rank": 21,
+      "creators": [
+        "Aaron Guzikowski"
+      ],
+      "seasons": 2,
+      "episodes": 18,
+      "episodeRuntime": 46,
+      "showStatus": "Canceled",
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/mTvSVKMn2Npf6zvYNbGMJnYLtvp.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": []
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 7.4
+      },
+      "why": "Ridley Scott directed episodes (directed Prometheus 4.5★)"
     },
     {
       "title": "Westworld",
       "year": 2016,
       "tmdbId": 63247,
-      "tmdbRating": 8.023,
-      "votes": 6264,
+      "tmdbRating": 8.022,
+      "votes": 6265,
       "score": 1.6500000000000001,
-      "rank": 23,
+      "rank": 22,
       "creators": [
         "Jonathan Nolan",
         "Lisa Joy"
@@ -814,7 +780,41 @@
         "metacritic": null,
         "imdb": 8.4
       },
-      "why": "Jonathan Nolan (wrote The Prestige 4.5★)"
+      "why": "Jonathan Nolan created this (wrote The Prestige 4.5★)"
+    },
+    {
+      "title": "Dope Thief",
+      "year": 2025,
+      "tmdbId": 209876,
+      "tmdbRating": 6.432,
+      "votes": 125,
+      "score": 1.9200000000000004,
+      "rank": 23,
+      "creators": [
+        "Peter Craig"
+      ],
+      "seasons": 1,
+      "episodes": 8,
+      "episodeRuntime": 50,
+      "showStatus": "Ended",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/sIed5PCiMNHd7G55DR9ObSRV9v2.jpg",
+      "providers": {
+        "flatrate": [
+          "Apple TV",
+          "Apple TV Amazon Channel"
+        ],
+        "rent": []
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 7
+      },
+      "why": "Ridley Scott directed episodes (directed Prometheus 4.5★)"
     }
   ]
 }

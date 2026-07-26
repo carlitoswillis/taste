@@ -81,8 +81,22 @@ const themeMap = await read("theme-map", null);
 const useThemes = Boolean(themesData?.themes?.length && themeMap?.themes?.length);
 
 // Every series already logged or queued is off the table.
+// Normalized titles + TMDB ids via enrichment, same defence as suggest.mjs.
+const norm = (s) =>
+  String(s)
+    .toLowerCase()
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[’‘]/g, "'")
+    .replace(/[^a-z0-9']+/g, " ")
+    .trim();
 const seen = new Set();
-for (const s of [...tvRatings, ...tvWatchlist]) seen.add(s.title.toLowerCase());
+const seenIds = new Set();
+for (const s of [...tvRatings, ...tvWatchlist]) {
+  seen.add(norm(s.title));
+  const id = tvEnrichment[`${s.title} (${s.year})`]?.tmdbId;
+  if (id) seenIds.add(id);
+}
 
 // --- people affinity, weighted by your scores -------------------------------
 // score 4 -> 1, 4.5 -> 1.5, 5 -> 2; unified role-weight table across media.
@@ -143,21 +157,34 @@ const CREW_ALWAYS = new Set(["Creator", "Writer", "Teleplay", "Story"]);
 const today = new Date().toISOString().slice(0, 10);
 const candidates = new Map(); // tmdbId -> {series, score, contributors:[]}
 
+// Weight a person's pull by what they actually did ON the candidate show —
+// an executive-producer credit is not creating, and the card must not imply it.
+const CREDIT_FACTOR = { creator: 1, writer: 0.8, story: 0.4, director: 0.8, ep: 0.6, actor: 0.6 };
+const CREDIT_OF = { Creator: "creator", Writer: "writer", Teleplay: "writer", Story: "story", Director: "director", "Executive Producer": "ep" };
+
 for (const [id, p] of topPeople) {
   const credits = await tmdb(`/person/${id}/tv_credits`);
   await pause();
   const works = [];
   for (const c of credits.crew ?? []) {
-    if (CREW_ALWAYS.has(c.job)) works.push(c);
-    else if (c.job === "Director" && p.roles.has("director")) works.push(c);
-    else if (c.job === "Executive Producer" && p.roles.has("creator")) works.push(c); // showrunners hide there
+    if (CREW_ALWAYS.has(c.job)) works.push({ ...c, credit: CREDIT_OF[c.job] });
+    else if (c.job === "Director" && p.roles.has("director")) works.push({ ...c, credit: "director" });
+    else if (c.job === "Executive Producer" && p.roles.has("creator")) works.push({ ...c, credit: "ep" }); // showrunners hide there
   }
-  works.push(...(credits.cast ?? []).filter((c) => (c.episode_count ?? 0) >= 6));
+  for (const c of (credits.cast ?? []).filter((c) => (c.episode_count ?? 0) >= 6)) works.push({ ...c, credit: "actor" });
+  // one person can hold several jobs on one show — collect them before scoring
+  const byShow = new Map();
   for (const w of works) {
+    const cur = byShow.get(w.id) ?? { info: w, credits: new Set() };
+    cur.credits.add(w.credit);
+    byShow.set(w.id, cur);
+  }
+  for (const { info: w, credits: showCredits } of byShow.values()) {
     if (!w.first_air_date || w.first_air_date > today) continue;
     if ((w.vote_count ?? 0) < 100) continue; // drop obscurities
     if ((w.genre_ids ?? []).some((g) => DROP_GENRES.has(g))) continue;
-    if (seen.has(w.name.toLowerCase()) || seen.has((w.original_name ?? "").toLowerCase())) continue;
+    if (seenIds.has(w.id)) continue;
+    if (seen.has(norm(w.name)) || seen.has(norm(w.original_name ?? ""))) continue;
     const c = candidates.get(w.id) ?? {
       title: w.name,
       year: Number(w.first_air_date.slice(0, 4)),
@@ -168,8 +195,9 @@ for (const [id, p] of topPeople) {
       contributors: [],
     };
     if (!c.contributors.some((x) => x.id === id)) {
-      c.score += p.weight;
-      c.contributors.push({ id, name: p.name, roles: [...p.roles], via: p.via });
+      const factor = Math.max(...[...showCredits].map((r) => CREDIT_FACTOR[r]));
+      c.score += p.weight * factor;
+      c.contributors.push({ id, name: p.name, credits: [...showCredits], weight: p.weight * factor, via: p.via });
     }
     candidates.set(w.id, c);
   }
@@ -257,12 +285,16 @@ for (const c of ranked) {
     }
     await pause();
   }
-  // human-readable reason — the evidence may be films, series, or both,
-  // so each via line carries its own verb ("directed Persona 5★")
+  // human-readable reason — first what the person did on THIS show, then the
+  // evidence, where each via line carries its own verb ("directed Persona 5★")
+  const DID = { creator: "created this", writer: "wrote for this", story: "has a story credit here", director: "directed episodes", ep: "executive-produced this", actor: "stars in this" };
   c.why = c.contributors
-    .sort((a, b) => b.via.length - a.via.length)
+    .sort((a, b) => b.weight - a.weight)
     .slice(0, 2)
-    .map((p) => `${p.name} (${p.via.slice(0, 3).map((v) => `${VERB[v.role]} ${v.title} ${v.score}★`).join(", ")})`)
+    .map((p) => {
+      const best = ["creator", "writer", "director", "story", "ep", "actor"].find((r) => p.credits.includes(r));
+      return `${p.name} ${DID[best]} (${p.via.slice(0, 3).map((v) => `${VERB[v.role]} ${v.title} ${v.score}★`).join(", ")})`;
+    })
     .join(" · ");
   if (c.themes?.length) c.why += ` · themes: ${c.themes.map((t) => (themeName.get(t) ?? t).toLowerCase()).join(", ")}`;
   else delete c.themes;
