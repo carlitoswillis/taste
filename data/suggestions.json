@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-26T04:55:45.570Z",
+  "generated": "2026-07-26T10:54:30.634Z",
   "basedOn": 27,
   "head": 12,
   "items": [
@@ -293,7 +293,7 @@
       "year": 2018,
       "tmdbId": 375262,
       "tmdbRating": 7.486,
-      "votes": 5963,
+      "votes": 5964,
       "score": 7.950000000000001,
       "rank": 8,
       "director": [
@@ -544,8 +544,8 @@
       "title": "Winter Light",
       "year": 1963,
       "tmdbId": 29455,
-      "tmdbRating": 7.879,
-      "votes": 509,
+      "tmdbRating": 7.883,
+      "votes": 510,
       "score": 15,
       "rank": 15,
       "director": [
@@ -648,7 +648,7 @@
       "year": 2010,
       "tmdbId": 44264,
       "tmdbRating": 7.306,
-      "votes": 5811,
+      "votes": 5812,
       "score": 9.600000000000001,
       "rank": 18,
       "director": [
@@ -697,24 +697,24 @@
       "score": 9.350000000000001,
       "rank": 19,
       "director": [
-        "Olivier Assayas",
-        "Frédéric Auburtin",
-        "Gurinder Chadha",
         "Sylvain Chomet",
+        "Tom Tykwer",
+        "Gurinder Chadha",
+        "Richard LaGravenese",
         "Isabel Coixet",
-        "Wes Craven",
+        "Nobuhiro Suwa",
+        "Frédéric Auburtin",
         "Alfonso Cuarón",
         "Gérard Depardieu",
-        "Christopher Doyle",
-        "Richard LaGravenese",
-        "Vincenzo Natali",
-        "Alexander Payne",
         "Walter Salles",
-        "Oliver Schmitz",
-        "Nobuhiro Suwa",
+        "Christopher Doyle",
+        "Wes Craven",
         "Daniela Thomas",
-        "Tom Tykwer",
+        "Vincenzo Natali",
+        "Oliver Schmitz",
         "Gus Van Sant",
+        "Olivier Assayas",
+        "Alexander Payne",
         "Joel Coen",
         "Ethan Coen",
         "Bruno Podalydès"
@@ -787,8 +787,8 @@
       "title": "The Host",
       "year": 2006,
       "tmdbId": 1255,
-      "tmdbRating": 6.978,
-      "votes": 3178,
+      "tmdbRating": 6.979,
+      "votes": 3179,
       "score": 5.700000000000001,
       "rank": 21,
       "director": [
@@ -1046,8 +1046,8 @@
       "title": "Natural Born Killers",
       "year": 1994,
       "tmdbId": 241,
-      "tmdbRating": 7.054,
-      "votes": 3843,
+      "tmdbRating": 7.053,
+      "votes": 3844,
       "score": 3.8000000000000003,
       "themes": [
         "cruel-comedy"
@@ -1304,7 +1304,7 @@
       "year": 2023,
       "tmdbId": 532408,
       "tmdbRating": 6.378,
-      "votes": 1123,
+      "votes": 1124,
       "score": 4.4,
       "rank": 35,
       "director": [
@@ -1339,7 +1339,7 @@
       "year": 2023,
       "tmdbId": 700391,
       "tmdbRating": 5.946,
-      "votes": 2892,
+      "votes": 2893,
       "score": 4.4,
       "rank": 36,
       "director": [
@@ -1483,8 +1483,8 @@
       "title": "Kill Bill: Vol. 2",
       "year": 2004,
       "tmdbId": 393,
-      "tmdbRating": 7.9,
-      "votes": 15214,
+      "tmdbRating": 7.877,
+      "votes": 15216,
       "score": 3.8000000000000003,
       "rank": 40,
       "director": [
@@ -1521,8 +1521,8 @@
       "title": "The Last Duel",
       "year": 2021,
       "tmdbId": 617653,
-      "tmdbRating": 7.4,
-      "votes": 3903,
+      "tmdbRating": 7.404,
+      "votes": 3905,
       "score": 3.9000000000000004,
       "rank": 41,
       "director": [
@@ -1556,7 +1556,7 @@
       "year": 2015,
       "tmdbId": 273248,
       "tmdbRating": 7.756,
-      "votes": 15411,
+      "votes": 15412,
       "score": 3.8000000000000003,
       "rank": 42,
       "director": [
@@ -1587,7 +1587,7 @@
       "year": 1997,
       "tmdbId": 184,
       "tmdbRating": 7.357,
-      "votes": 7000,
+      "votes": 7001,
       "score": 3.8000000000000003,
       "rank": 43,
       "director": [
@@ -1618,8 +1618,8 @@
       "title": "Where the Wild Things Are",
       "year": 2009,
       "tmdbId": 16523,
-      "tmdbRating": 6.5,
-      "votes": 2039,
+      "tmdbRating": 6.502,
+      "votes": 2040,
       "score": 4,
       "rank": 44,
       "director": [
@@ -1715,8 +1715,8 @@
       "title": "Love Lies Bleeding",
       "year": 2024,
       "tmdbId": 948549,
-      "tmdbRating": 6.5,
-      "votes": 983,
+      "tmdbRating": 6.542,
+      "votes": 984,
       "score": 2.7,
       "themes": [
         "body-horror"
@@ -1753,8 +1753,8 @@
       "title": "Cruella",
       "year": 2021,
       "tmdbId": 337404,
-      "tmdbRating": 7.973,
-      "votes": 10165,
+      "tmdbRating": 7.972,
+      "votes": 10167,
       "score": 3.1500000000000004,
       "rank": 48,
       "director": [
@@ -1852,8 +1852,8 @@
       "title": "Thelma & Louise",
       "year": 1991,
       "tmdbId": 1541,
-      "tmdbRating": 7.6,
-      "votes": 3919,
+      "tmdbRating": 7.604,
+      "votes": 3920,
       "score": 2.4000000000000004,
       "themes": [
         "surveillance"
@@ -1893,8 +1893,8 @@
       "title": "American Gangster",
       "year": 2007,
       "tmdbId": 4982,
-      "tmdbRating": 7.595,
-      "votes": 6111,
+      "tmdbRating": 7.594,
+      "votes": 6112,
       "score": 2.4000000000000004,
       "themes": [
         "surveillance"
@@ -2163,7 +2163,7 @@
       "year": 1982,
       "tmdbId": 78,
       "tmdbRating": 7.935,
-      "votes": 15151,
+      "votes": 15155,
       "score": 2.4000000000000004,
       "rank": 60,
       "director": [
@@ -2384,8 +2384,8 @@
       "title": "Havoc",
       "year": 2025,
       "tmdbId": 668489,
-      "tmdbRating": 6.384,
-      "votes": 1277,
+      "tmdbRating": 6.385,
+      "votes": 1278,
       "score": 2.7,
       "rank": 67,
       "director": [
@@ -2449,13 +2449,13 @@
       "score": 2.7,
       "rank": 69,
       "director": [
-        "Simon Barrett",
         "Adam Wingard",
-        "Eduardo Sánchez",
         "Gregg Hale",
+        "Eduardo Sánchez",
+        "Simon Barrett",
         "Timo Tjahjanto",
-        "Gareth Evans",
-        "Jason Eisener"
+        "Jason Eisener",
+        "Gareth Evans"
       ],
       "runtime": 96,
       "genres": [
@@ -2484,7 +2484,7 @@
       "year": 2001,
       "tmdbId": 855,
       "tmdbRating": 7.395,
-      "votes": 6446,
+      "votes": 6448,
       "score": 2.4000000000000004,
       "rank": 70,
       "director": [
@@ -2652,7 +2652,7 @@
       "year": 2011,
       "tmdbId": 50014,
       "tmdbRating": 8.205,
-      "votes": 9138,
+      "votes": 9139,
       "score": 1.5,
       "rank": 75,
       "director": [
@@ -2784,8 +2784,8 @@
       "title": "Trolls Band Together",
       "year": 2023,
       "tmdbId": 901362,
-      "tmdbRating": 7.244,
-      "votes": 1009,
+      "tmdbRating": 7.247,
+      "votes": 1010,
       "score": 1.6,
       "rank": 79,
       "director": [
@@ -2953,7 +2953,7 @@
       "title": "Remember Me",
       "year": 2010,
       "tmdbId": 23169,
-      "tmdbRating": 7.103,
+      "tmdbRating": 7.1,
       "votes": 3757,
       "score": 1.5,
       "rank": 84,
@@ -3210,7 +3210,7 @@
       "year": 2016,
       "tmdbId": 313297,
       "tmdbRating": 7.635,
-      "votes": 3851,
+      "votes": 3852,
       "score": 1.25,
       "rank": 92,
       "director": [
@@ -3237,49 +3237,13 @@
       "why": "Charlize Theron (stars in Prometheus 4.5★, Mad Max: Fury Road 4★)"
     },
     {
-      "title": "The Twilight Saga: Breaking Dawn - Part 2",
-      "year": 2012,
-      "tmdbId": 50620,
-      "tmdbRating": 6.5,
-      "votes": 9426,
-      "score": 1.5,
-      "rank": 93,
-      "director": [
-        "Bill Condon"
-      ],
-      "runtime": 115,
-      "genres": [
-        "Fantasy",
-        "Drama",
-        "Romance"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/7IGdPaKujv0BjI0Zd0m0a4CzEjJ.jpg",
-      "providers": {
-        "flatrate": [
-          "Hulu",
-          "HBO Max Amazon Channel",
-          "YouTube TV"
-        ],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
-          "Fandango At Home",
-          "Spectrum On Demand",
-          "Plex"
-        ]
-      },
-      "why": "Robert Pattinson (stars in The Odyssey 5★, The Lighthouse 4★)"
-    },
-    {
       "title": "Men of Honor",
       "year": 2000,
       "tmdbId": 11978,
       "tmdbRating": 7.491,
       "votes": 2539,
       "score": 1.25,
-      "rank": 94,
+      "rank": 93,
       "director": [
         "George Tillman Jr."
       ],
@@ -3309,9 +3273,9 @@
       "year": 1997,
       "tmdbId": 1813,
       "tmdbRating": 7.479,
-      "votes": 6895,
+      "votes": 6896,
       "score": 1.25,
-      "rank": 95,
+      "rank": 94,
       "director": [
         "Taylor Hackford"
       ],
@@ -3334,6 +3298,42 @@
         ]
       },
       "why": "Charlize Theron (stars in Prometheus 4.5★, Mad Max: Fury Road 4★)"
+    },
+    {
+      "title": "The Twilight Saga: Breaking Dawn - Part 2",
+      "year": 2012,
+      "tmdbId": 50620,
+      "tmdbRating": 6.454,
+      "votes": 9428,
+      "score": 1.5,
+      "rank": 95,
+      "director": [
+        "Bill Condon"
+      ],
+      "runtime": 115,
+      "genres": [
+        "Fantasy",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/7IGdPaKujv0BjI0Zd0m0a4CzEjJ.jpg",
+      "providers": {
+        "flatrate": [
+          "Hulu",
+          "HBO Max Amazon Channel",
+          "YouTube TV"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Spectrum On Demand",
+          "Plex"
+        ]
+      },
+      "why": "Robert Pattinson (stars in The Odyssey 5★, The Lighthouse 4★)"
     },
     {
       "title": "Inside Man",
@@ -3404,7 +3404,7 @@
       "year": 2008,
       "tmdbId": 8966,
       "tmdbRating": 6.281,
-      "votes": 14507,
+      "votes": 14508,
       "score": 1.5,
       "rank": 98,
       "director": [

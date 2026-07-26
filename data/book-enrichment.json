@@ -1250,34 +1250,24 @@
     ]
   },
   "Elvis and Me (Priscilla Presley)": {
-    "id": "b:OL5110680W",
-    "olWork": "OL5110680W",
+    "id": "b:OL35665934W",
+    "olWork": "OL35665934W",
     "authors": [
       {
         "key": "OL1125971A",
         "name": "Priscilla Beaulieu Presley"
       }
     ],
-    "firstPublished": 1985,
-    "pages": 320,
-    "subjects": [
-      "Biography",
-      "Rock musicians",
-      "Rock musicians' spouses",
-      "Popmuziek",
-      "Biographie",
-      "Autobiographie",
-      "Presley, elvis, 1935-1977",
-      "Singers",
-      "Rock music"
-    ],
-    "coverId": 9736400,
-    "cover": "https://covers.openlibrary.org/b/id/9736400-M.jpg",
-    "description": "Elvis and Me is a 1985 biography written by Priscilla Presley with Sandra Harmon. In the book, Priscilla talks about meeting Elvis Presley, their marriage, and the factors and issues that led to the couple's divorce.",
-    "editionCount": 7,
+    "firstPublished": 1986,
+    "pages": null,
+    "subjects": [],
+    "coverId": null,
+    "cover": null,
+    "description": null,
+    "editionCount": 1,
     "olRating": {
-      "average": 4.882353,
-      "count": 17
+      "average": null,
+      "count": 0
     },
     "adaptedAs": [
       "Priscilla (2023)"
@@ -1917,8 +1907,8 @@
     "description": "The Martian is a 2011 science fiction novel written by Andy Weir. It was his debut novel under his own name. It was originally self-published in 2011; Crown Publishing purchased the rights and re-released it in 2014. The story follows an American astronaut, Mark Watney, as he becomes stranded alone on Mars in 2035 and must improvise in order to survive.",
     "editionCount": 74,
     "olRating": {
-      "average": 4.3987913,
-      "count": 331
+      "average": 4.4011974,
+      "count": 334
     },
     "adaptedAs": [
       "The Martian (2015)"
