@@ -44,10 +44,31 @@ npm run build    # optional: static read-only export into dist/
 
 **Suggestions** are generated, not curated: the engine follows the people behind your 4★+
 films (directors weighted heaviest, then writers, then actors), pulls their filmographies
-from TMDB, drops everything you've logged, and ranks what's left — capped at two films per
-person so one favorite doesn't flood the list. Each suggestion says who earned it and why.
-Until your full watch history is imported it will occasionally suggest something you've
-already seen; the Letterboxd import fixes that.
+from TMDB, drops everything you've logged, and ranks what's left. Each suggestion says who
+earned it and why. Until your full watch history is imported it will occasionally suggest
+something you've already seen; the Letterboxd import fixes that.
+
+It writes a **pool, not a shortlist** — 60 films by default (40 series, 40 books). The first
+dozen are the headline, capped at two per person so one favorite can't flood the top; the
+rest fill in behind a looser cap of five. Size it yourself:
+
+```sh
+npm run suggest -- --pool=100 --people=40   # deeper pool, more people chased
+npm run suggest -- --pool=24                # a smaller, tighter list
+```
+
+In the page that pool is something to browse rather than a fixed list:
+
+- **Tonight** — one card off the top, picked by the date. It moves on its own once a day; *Reroll* if tonight's isn't it.
+- **Lenses** — `under 100 min`, `long haul`, `pre-1980`, `this century`, `deep cuts`, `critics agree`. The shape of an evening, not another genre filter.
+- **Order & shuffle** — best fit, highest rated, newest, oldest, or shuffled. Shuffle holds still until you press it again.
+- **Show more / show all** — the headline unfolds into the whole pool.
+- **My streaming** — pick the services you actually pay for and suggestions narrow to what you can watch tonight; cards get a `▶ Criterion Channel` badge. **Off unless you pick something** — no selection means no filtering. Optionally count rent & buy as available too. Your picks live in the browser (`localStorage`), so they survive reloads and never reach the repo; `config.json` can carry a `"services": [...]` list to seed a fresh browser.
+
+TMDB lists every reselling of a service separately — *Netflix*, *Netflix Standard with Ads*,
+*HBO Max Amazon Channel*. The app collapses those to the thing you'd actually say you have,
+and the service list is built from your own pool, so it only ever offers services that could
+match something.
 
 **Import** wants Letterboxd's official export (Settings → Import & Export → Export your
 data). It fills `data/watched.json` (your complete history — the Films tab then shows

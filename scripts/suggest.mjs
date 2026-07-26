@@ -2,10 +2,14 @@
 // Generate data/suggestions.json: films you haven't seen, found by following
 // the people — directors, writers, actors — behind the films you rated highly,
 // weighted by your own scores. When themes.json exists (run themes.mjs first)
-// the curated themes nudge the ranking and add up to 3 wildcard themePicks.
+// the curated themes nudge the ranking and add wildcard themePicks.
 // Needs enrichment (run enrich-tmdb.mjs first) and a TMDB key; adds critic
 // scores when OMDB_API_KEY is set.
-// Run: npm run suggest
+//
+// Writes a deep pool, not a shortlist: the first HEAD items are the tight
+// headline (max 2 per person), the rest fill out to --pool with a looser cap so
+// the UI has something to filter, shuffle and rotate through.
+// Run: npm run suggest [-- --pool=60 --people=30]
 
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
@@ -26,6 +30,22 @@ if (!key && !token) {
   console.error("Set TMDB_API_KEY or TMDB_TOKEN first.");
   process.exit(1);
 }
+
+// --- sizing knobs -----------------------------------------------------------
+// POOL is the whole ranked list written to disk; HEAD is the tight top of it.
+// PEOPLE is how far down the affinity list we chase filmographies — more people
+// means more distinct primaries, which is what lets the pool stay varied.
+const numArg = (name, dflt) => {
+  const hit = process.argv.find((a) => a.startsWith(`--${name}=`));
+  const n = hit ? Number(hit.split("=")[1]) : NaN;
+  return Number.isFinite(n) && n > 0 ? Math.floor(n) : dflt;
+};
+const POOL = numArg("pool", 60);
+const HEAD = Math.min(numArg("head", 12), POOL);
+const PEOPLE = numArg("people", 30);
+const HEAD_CAP = 2; // per person, inside the headline
+const POOL_CAP = 5; // per person, across the whole pool
+const OMDB_MAX = numArg("omdb", 40); // critic-score lookups are the rate-limited bit
 
 const read = async (name, fallback) => {
   try {
@@ -90,7 +110,7 @@ for (const film of ratings) {
 
 const topPeople = [...people.entries()]
   .sort((a, b) => b[1].weight - a[1].weight)
-  .slice(0, 18);
+  .slice(0, PEOPLE);
 
 console.log("Top connections:");
 for (const [, p] of topPeople.slice(0, 10)) {
@@ -153,10 +173,11 @@ const themeScoreOf = (keywords) => {
 };
 
 if (useThemes) {
-  const top40 = [...candidates.values()]
+  // score deep enough that the tail of the pool is themed too, not just the head
+  const shortlist = [...candidates.values()]
     .sort((a, b) => b.score * 2 + b.tmdbRating / 2 - (a.score * 2 + a.tmdbRating / 2))
-    .slice(0, 40);
-  for (const c of top40) {
+    .slice(0, POOL * 2);
+  for (const c of shortlist) {
     const kw = await tmdb(`/movie/${c.tmdbId}/keywords`);
     await pause();
     const { score, themes } = themeScoreOf(kw.keywords ?? []);
@@ -166,61 +187,80 @@ if (useThemes) {
 }
 
 // Rank, but cap how many slots any one person can take — otherwise a single
-// beloved director with a deep filmography floods the whole list.
-const PER_PERSON_CAP = 2;
+// beloved director with a deep filmography floods the whole list. Two passes:
+// the headline gets the tight cap, then the pool refills with a looser one, so
+// depth costs variety only after the top of the list is settled.
 const sorted = [...candidates.values()]
   .map((c) => ({ ...c, rankScore: c.score * 2 + (c.themeScore ?? 0) * THEME_BLEND + c.tmdbRating / 2 }))
   .sort((a, b) => b.rankScore - a.rankScore);
 const taken = new Map(); // person id -> count
+const chosen = new Set(); // tmdb ids already placed
 const ranked = [];
-for (const c of sorted) {
-  if (ranked.length >= 12) break;
-  const primary = c.contributors.reduce((a, b) => (people.get(b.id).weight > people.get(a.id).weight ? b : a));
-  if ((taken.get(primary.id) ?? 0) >= PER_PERSON_CAP) continue;
-  taken.set(primary.id, (taken.get(primary.id) ?? 0) + 1);
-  ranked.push(c);
+for (const { limit, cap } of [{ limit: HEAD, cap: HEAD_CAP }, { limit: POOL, cap: POOL_CAP }]) {
+  for (const c of sorted) {
+    if (ranked.length >= limit) break;
+    if (chosen.has(c.tmdbId)) continue;
+    const primary = c.contributors.reduce((a, b) => (people.get(b.id).weight > people.get(a.id).weight ? b : a));
+    if ((taken.get(primary.id) ?? 0) >= cap) continue;
+    taken.set(primary.id, (taken.get(primary.id) ?? 0) + 1);
+    chosen.add(c.tmdbId);
+    ranked.push(c);
+  }
 }
+ranked.forEach((c, i) => (c.rank = i + 1));
 
 // --- theme wildcards: top-rated unseen films from your strongest themes -----
-// Discover-based, one call per theme, max 3 picks; kept out of items so the
-// people list stays honest.
+// Discover-based, kept out of items so the people list stays honest. Several
+// per theme across two pages, so this section is a shelf to browse rather than
+// a single pick that never changes.
+const THEME_COUNT = numArg("themes", 5);
+const PER_THEME = numArg("perTheme", 3);
 const themePicks = [];
 if (useThemes) {
   const rankedIds = new Set(ranked.map((c) => c.tmdbId));
-  const topThemes = [...themesData.themes].sort((a, b) => b.affinity - a.affinity).slice(0, 3);
+  const topThemes = [...themesData.themes].sort((a, b) => b.affinity - a.affinity).slice(0, THEME_COUNT);
   for (const t of topThemes) {
     if (!t.keywordIds?.length) continue;
-    const found = await tmdb("/discover/movie", {
-      with_keywords: t.keywordIds.join("|"),
-      sort_by: "vote_average.desc",
-      "vote_count.gte": 300,
-      include_adult: "false",
-    });
-    await pause();
-    const w = (found.results ?? []).find(
-      (r) =>
-        r.release_date &&
-        r.release_date <= new Date().toISOString().slice(0, 10) &&
-        !seen.has(r.title.toLowerCase()) &&
-        !seen.has((r.original_title ?? "").toLowerCase()) &&
-        !rankedIds.has(r.id) &&
-        !themePicks.some((p) => p.tmdbId === r.id)
-    );
-    if (!w) continue;
-    themePicks.push({
-      title: w.title,
-      year: Number(w.release_date.slice(0, 4)),
-      tmdbId: w.id,
-      tmdbRating: w.vote_average ?? 0,
-      theme: t.id,
-      why: `${t.id} — the thread through ${t.lovedCount} of your loved films`,
-    });
+    let got = 0;
+    for (const page of [1, 2]) {
+      if (got >= PER_THEME) break;
+      const found = await tmdb("/discover/movie", {
+        with_keywords: t.keywordIds.join("|"),
+        sort_by: "vote_average.desc",
+        "vote_count.gte": 300,
+        include_adult: "false",
+        page,
+      });
+      await pause();
+      for (const r of found.results ?? []) {
+        if (got >= PER_THEME) break;
+        if (!r.release_date || r.release_date > new Date().toISOString().slice(0, 10)) continue;
+        if (seen.has(r.title.toLowerCase()) || seen.has((r.original_title ?? "").toLowerCase())) continue;
+        if (rankedIds.has(r.id) || themePicks.some((p) => p.tmdbId === r.id)) continue;
+        themePicks.push({
+          title: r.title,
+          year: Number(r.release_date.slice(0, 4)),
+          tmdbId: r.id,
+          tmdbRating: r.vote_average ?? 0,
+          votes: r.vote_count ?? 0,
+          theme: t.id,
+          why: `${t.id} — the thread through ${t.lovedCount} of your loved films`,
+        });
+        got++;
+      }
+    }
   }
 }
 
-// --- flesh out the top picks: runtime, providers, critic scores -------------
+// --- flesh out the picks: runtime, providers, critic scores -----------------
+// Every pool item gets TMDB detail (providers drive the streaming filter, so
+// the tail needs them as much as the head); OMDb critic scores stop at
+// OMDB_MAX because that's the quota-limited call.
 const omdbKey = process.env.OMDB_API_KEY;
-for (const c of [...ranked, ...themePicks]) {
+const toEnrich = [...ranked, ...themePicks];
+let enriched = 0;
+for (const c of toEnrich) {
+  if (++enriched % 20 === 0) console.log(`  …enriched ${enriched}/${toEnrich.length}`);
   const detail = await tmdb(`/movie/${c.tmdbId}`, { append_to_response: "credits,watch/providers" });
   await pause();
   const providers = detail["watch/providers"]?.results?.[region] ?? {};
@@ -232,7 +272,7 @@ for (const c of [...ranked, ...themePicks]) {
     flatrate: providers.flatrate?.map((x) => x.provider_name) ?? [],
     rent: providers.rent?.map((x) => x.provider_name) ?? [],
   };
-  if (omdbKey && detail.imdb_id) {
+  if (omdbKey && detail.imdb_id && enriched <= OMDB_MAX) {
     const data = await fetch(`https://www.omdbapi.com/?i=${detail.imdb_id}&apikey=${omdbKey}`).then((r) => r.json()).catch(() => null);
     if (data?.Response !== "False" && data?.Ratings) {
       const by = Object.fromEntries(data.Ratings.map((r) => [r.Source, r.Value]));
@@ -260,16 +300,21 @@ for (const c of [...ranked, ...themePicks]) {
   if (c.themes?.length) c.why += ` · themes: ${c.themes.map((t) => (themeName.get(t) ?? t).toLowerCase()).join(", ")}`;
   else delete c.themes;
   delete c.contributors;
-  delete c.votes;
   delete c.rankScore;
   delete c.themeScore;
+  // votes survives: the UI's "deep cuts" lens is a vote-count filter
 }
 
-const out = { generated: new Date().toISOString(), basedOn: ratings.filter((r) => r.score >= 4).length, items: ranked };
+const out = {
+  generated: new Date().toISOString(),
+  basedOn: ratings.filter((r) => r.score >= 4).length,
+  head: Math.min(HEAD, ranked.length), // where the tight top of the list ends
+  items: ranked,
+};
 if (themePicks.length) out.themePicks = themePicks;
 await writeFile(path.join(root, "data/suggestions.json"), JSON.stringify(out, null, 2) + "\n");
-console.log(`\n${ranked.length} suggestions -> data/suggestions.json`);
-for (const c of ranked) console.log(`  ${c.title} (${c.year}) — ${c.why}`);
+console.log(`\n${ranked.length} suggestions (head ${out.head}) -> data/suggestions.json`);
+for (const c of ranked) console.log(`  ${c.rank}. ${c.title} (${c.year}) — ${c.why}`);
 if (themePicks.length) {
   console.log(`\n${themePicks.length} theme picks:`);
   for (const c of themePicks) console.log(`  ${c.title} (${c.year}) — ${c.why}`);

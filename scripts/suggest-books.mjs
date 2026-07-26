@@ -13,6 +13,19 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
+
+// --- sizing knobs (mirrors suggest.mjs) -------------------------------------
+const numArg = (name, dflt) => {
+  const hit = process.argv.find((a) => a.startsWith(`--${name}=`));
+  const n = hit ? Number(hit.split("=")[1]) : NaN;
+  return Number.isFinite(n) && n > 0 ? Math.floor(n) : dflt;
+};
+const POOL = numArg("pool", 40);
+const HEAD = Math.min(numArg("head", 12), POOL);
+const AUTHORS = numArg("authors", 12);
+const HEAD_CAP = 2; // per author, inside the headline
+const POOL_CAP = 4; // per author, across the whole pool
+
 const read = async (name, fallback) => {
   try {
     return JSON.parse(await readFile(path.join(root, `data/${name}.json`), "utf8"));
@@ -141,7 +154,7 @@ for (const a of adaptations.adjacentAuthors ?? []) {
   creditAuthor(a.olKey, a.name, a.weight, by ? `${by.director} adapted him (${by.films[0]})` : "adapted by a favourite");
 }
 
-const topAuthors = [...authors.entries()].sort((a, b) => b[1].weight - a[1].weight).slice(0, 8);
+const topAuthors = [...authors.entries()].sort((a, b) => b[1].weight - a[1].weight).slice(0, AUTHORS);
 console.log("Top authors:");
 for (const [, a] of topAuthors) console.log(`  ${a.name} — ${a.weight.toFixed(1)} (${a.whys[0]})`);
 
@@ -199,7 +212,6 @@ for (const [genre, affinity] of topGenres) {
 // --- gate, rank, cap --------------------------------------------------------
 // gates: ratings_count ≥ 15 or edition_count ≥ 8 (confirmed adaptations exempt)
 // rankScore = weightSum×2 + (ratings_average ?? min(4, 1 + log2(editions)/2))
-const PER_AUTHOR_CAP = 2;
 const sorted = [...candidates.values()]
   .filter((c) => !c.gated || c.olRating.count >= 15 || c.editionCount >= 8)
   .map((c) => ({
@@ -207,29 +219,37 @@ const sorted = [...candidates.values()]
     rankScore: c.weight * 2 + (c.olRating.average ?? Math.min(4, 1 + Math.log2(c.editionCount || 1) / 2)),
   }))
   .sort((a, b) => b.rankScore - a.rankScore);
+
+// two passes: tight per-author cap for the headline, looser one to fill the pool
 const taken = new Map(); // author key/name -> count
+const chosen = new Set(); // ol work ids already placed
 const ranked = [];
-for (const c of sorted) {
-  if (ranked.length >= 12) break;
-  const who = c.authorKey ?? c.author;
-  if ((taken.get(who) ?? 0) >= PER_AUTHOR_CAP) continue;
-  taken.set(who, (taken.get(who) ?? 0) + 1);
-  // two why parts max, and never two citing the same film (compare by year token)
-  const filmsIn = (s) => [...s.matchAll(/\((\d{4})\)/g)].map((m) => m[1]);
-  const parts = [];
-  for (const w of c.whys) {
-    if (parts.length === 2) break;
-    if (parts.some((p) => filmsIn(p).some((f) => filmsIn(w).includes(f)))) continue;
-    parts.push(w);
+for (const { limit, cap } of [{ limit: HEAD, cap: HEAD_CAP }, { limit: POOL, cap: POOL_CAP }]) {
+  for (const c of sorted) {
+    if (ranked.length >= limit) break;
+    if (chosen.has(c.olWork)) continue;
+    const who = c.authorKey ?? c.author;
+    if ((taken.get(who) ?? 0) >= cap) continue;
+    taken.set(who, (taken.get(who) ?? 0) + 1);
+    chosen.add(c.olWork);
+    // two why parts max, and never two citing the same film (compare by year token)
+    const filmsIn = (s) => [...s.matchAll(/\((\d{4})\)/g)].map((m) => m[1]);
+    const parts = [];
+    for (const w of c.whys) {
+      if (parts.length === 2) break;
+      if (parts.some((p) => filmsIn(p).some((f) => filmsIn(w).includes(f)))) continue;
+      parts.push(w);
+    }
+    c.why = parts.join(" · ");
+    delete c.whys;
+    delete c.gated;
+    delete c.authorKey;
+    c.weight = round(c.weight);
+    c.rankScore = round(c.rankScore);
+    ranked.push(c);
   }
-  c.why = parts.join(" · ");
-  delete c.whys;
-  delete c.gated;
-  delete c.authorKey;
-  c.weight = round(c.weight);
-  c.rankScore = round(c.rankScore);
-  ranked.push(c);
 }
+ranked.forEach((c, i) => (c.rank = i + 1));
 
 const out = {
   generated: new Date().toISOString(),
@@ -238,8 +258,9 @@ const out = {
     ratedBooks: books.filter((b) => b.status === "read" && b.score != null).length,
     confirmedAdaptations: confirmedEdges.length,
   },
+  head: Math.min(HEAD, ranked.length),
   items: ranked,
 };
 await writeFile(path.join(root, "data/book-suggestions.json"), JSON.stringify(out, null, 2) + "\n");
-console.log(`\n${ranked.length} suggestions (${adaptationPicks} adaptation-derived) -> data/book-suggestions.json`);
-for (const c of ranked) console.log(`  ${c.title} — ${c.author} · ${c.why}`);
+console.log(`\n${ranked.length} suggestions, head ${out.head} (${adaptationPicks} adaptation-derived) -> data/book-suggestions.json`);
+for (const c of ranked) console.log(`  ${c.rank}. ${c.title} — ${c.author} · ${c.why}`);
