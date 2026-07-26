@@ -1,16 +1,55 @@
 {
-  "generated": "2026-07-25T10:43:58.103Z",
+  "generated": "2026-07-26T04:55:45.570Z",
   "basedOn": 27,
+  "head": 12,
   "items": [
+    {
+      "title": "Wild Strawberries",
+      "year": 1957,
+      "tmdbId": 614,
+      "tmdbRating": 8.072,
+      "votes": 1826,
+      "score": 17,
+      "rank": 1,
+      "director": [
+        "Ingmar Bergman"
+      ],
+      "runtime": 91,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/iyTD2QnySNMPUPE3IedZQipSWfz.jpg",
+      "providers": {
+        "flatrate": [
+          "HBO Max Amazon Channel",
+          "YouTube TV",
+          "Criterion Channel",
+          "HBO Max"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Fandango At Home"
+        ]
+      },
+      "scores": {
+        "rt": 94,
+        "metacritic": 88,
+        "imdb": 8.1
+      },
+      "why": "Ingmar Bergman (directed The Seventh Seal 5★, Persona 5★) · Gunnar Björnstrand (stars in The Seventh Seal 5★, Persona 5★)"
+    },
     {
       "title": "The Magician",
       "year": 1958,
       "tmdbId": 29453,
       "tmdbRating": 7.33,
-      "score": 13,
+      "votes": 247,
+      "score": 15,
       "themes": [
         "unravelling"
       ],
+      "rank": 2,
       "director": [
         "Ingmar Bergman"
       ],
@@ -37,52 +76,19 @@
         "metacritic": 86,
         "imdb": 7.5
       },
-      "why": "Ingmar Bergman (directed The Seventh Seal 5★, Persona 5★) · themes: coming apart (with a landing)"
-    },
-    {
-      "title": "The Passion of Anna",
-      "year": 1969,
-      "tmdbId": 42602,
-      "tmdbRating": 7.4,
-      "score": 13,
-      "themes": [
-        "grief-horror"
-      ],
-      "director": [
-        "Ingmar Bergman"
-      ],
-      "runtime": 101,
-      "genres": [
-        "Drama"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/cr01316AyxUZyZrdLwzz3AXrgJc.jpg",
-      "providers": {
-        "flatrate": [
-          "Criterion Channel"
-        ],
-        "rent": [
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
-          "Fandango At Home"
-        ]
-      },
-      "scores": {
-        "rt": 100,
-        "metacritic": null,
-        "imdb": 7.6
-      },
-      "why": "Ingmar Bergman (directed The Seventh Seal 5★, Persona 5★) · themes: grief wearing a mask"
+      "why": "Ingmar Bergman (directed The Seventh Seal 5★, Persona 5★) · Gunnar Björnstrand (stars in The Seventh Seal 5★, Persona 5★) · themes: coming apart (with a landing)"
     },
     {
       "title": "Following",
       "year": 1999,
       "tmdbId": 11660,
-      "tmdbRating": 7.127,
+      "tmdbRating": 7.126,
+      "votes": 1891,
       "score": 12.15,
       "themes": [
         "surveillance"
       ],
+      "rank": 3,
       "director": [
         "Christopher Nolan"
       ],
@@ -121,7 +127,9 @@
       "year": 2002,
       "tmdbId": 320,
       "tmdbRating": 6.956,
+      "votes": 5387,
       "score": 12.15,
+      "rank": 4,
       "director": [
         "Christopher Nolan"
       ],
@@ -154,12 +162,14 @@
       "title": "Burn After Reading",
       "year": 2008,
       "tmdbId": 4944,
-      "tmdbRating": 6.676,
+      "tmdbRating": 6.677,
+      "votes": 5300,
       "score": 8.100000000000001,
       "themes": [
         "unravelling",
         "cruel-comedy"
       ],
+      "rank": 5,
       "director": [
         "Ethan Coen",
         "Joel Coen"
@@ -191,24 +201,111 @@
       "why": "Joel Coen (directed No Country for Old Men 4.5★) · Ethan Coen (directed No Country for Old Men 4.5★) · themes: coming apart (with a landing), comedy that's actually cruel"
     },
     {
-      "title": "Intolerable Cruelty",
-      "year": 2003,
-      "tmdbId": 11775,
-      "tmdbRating": 5.955,
-      "score": 8.100000000000001,
+      "title": "Suburbicon",
+      "year": 2017,
+      "tmdbId": 395458,
+      "tmdbRating": 5.896,
+      "votes": 1825,
+      "score": 9.600000000000001,
       "themes": [
         "cruel-comedy"
       ],
+      "rank": 6,
       "director": [
-        "Joel Coen"
+        "George Clooney"
       ],
-      "runtime": 100,
+      "runtime": 105,
+      "genres": [
+        "Thriller",
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/yqYwf0kPK2SaCWM80msl4nYK6U7.jpg",
+      "providers": {
+        "flatrate": [
+          "fuboTV",
+          "MGM+ Amazon Channel",
+          "Philo",
+          "MGM Plus Roku Premium Channel",
+          "YouTube TV",
+          "MGM Plus"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Spectrum On Demand"
+        ]
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": 42,
+        "imdb": 5.8
+      },
+      "why": "Matt Damon (stars in The Odyssey 5★, Oppenheimer 4★) · Joel Coen (directed No Country for Old Men 4.5★) · themes: comedy that's actually cruel"
+    },
+    {
+      "title": "Kinds of Kindness",
+      "year": 2024,
+      "tmdbId": 1029955,
+      "tmdbRating": 6.482,
+      "votes": 1308,
+      "score": 7.550000000000001,
+      "themes": [
+        "cruel-comedy"
+      ],
+      "rank": 7,
+      "director": [
+        "Yorgos Lanthimos"
+      ],
+      "runtime": 164,
       "genres": [
         "Comedy",
-        "Romance",
-        "Crime"
+        "Drama",
+        "Horror"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/7K8hDwOWsZv0MluyrB8nWlhJOgB.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/50lPmjIpDs8gKfgK7fPIeKzpllh.jpg",
+      "providers": {
+        "flatrate": [
+          "Hulu"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Spectrum On Demand"
+        ]
+      },
+      "scores": {
+        "rt": 71,
+        "metacritic": 64,
+        "imdb": 6.5
+      },
+      "why": "Yorgos Lanthimos (directed Poor Things 4.5★, Bugonia 4.5★) · Emma Stone (stars in Poor Things 4.5★, Bugonia 4.5★) · themes: comedy that's actually cruel"
+    },
+    {
+      "title": "The Favourite",
+      "year": 2018,
+      "tmdbId": 375262,
+      "tmdbRating": 7.486,
+      "votes": 5963,
+      "score": 7.950000000000001,
+      "rank": 8,
+      "director": [
+        "Yorgos Lanthimos"
+      ],
+      "runtime": 120,
+      "genres": [
+        "History",
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/cwBq0onfmeilU5xgqNNjJAMPfpw.jpg",
       "providers": {
         "flatrate": [],
         "rent": [
@@ -220,18 +317,58 @@
         ]
       },
       "scores": {
-        "rt": 76,
-        "metacritic": 71,
-        "imdb": 6.3
+        "rt": 93,
+        "metacritic": 91,
+        "imdb": 7.5
       },
-      "why": "Joel Coen (directed No Country for Old Men 4.5★) · Ethan Coen (directed No Country for Old Men 4.5★) · themes: comedy that's actually cruel"
+      "why": "Yorgos Lanthimos (directed Poor Things 4.5★, Bugonia 4.5★) · Emma Stone (stars in Poor Things 4.5★, Bugonia 4.5★)"
+    },
+    {
+      "title": "The Florida Project",
+      "year": 2017,
+      "tmdbId": 394117,
+      "tmdbRating": 7.426,
+      "votes": 3131,
+      "score": 6.65,
+      "rank": 9,
+      "director": [
+        "Sean Baker"
+      ],
+      "runtime": 112,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/5QnDxdJg1fi6uMSkSi4x8tHsltm.jpg",
+      "providers": {
+        "flatrate": [
+          "HBO Max Amazon Channel",
+          "YouTube TV",
+          "HBO Max"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Spectrum On Demand"
+        ]
+      },
+      "scores": {
+        "rt": 96,
+        "metacritic": 92,
+        "imdb": 7.6
+      },
+      "why": "Willem Dafoe (stars in Poor Things 4.5★, The Lighthouse 4★) · Sean Baker (directed Anora 5★)"
     },
     {
       "title": "The Strange Thing About the Johnsons",
       "year": 2011,
       "tmdbId": 164052,
       "tmdbRating": 6.83,
+      "votes": 385,
       "score": 6.75,
+      "rank": 10,
       "director": [
         "Ari Aster"
       ],
@@ -256,11 +393,13 @@
       "title": "Okja",
       "year": 2017,
       "tmdbId": 387426,
-      "tmdbRating": 7.331,
+      "tmdbRating": 7.33,
+      "votes": 4571,
       "score": 5.700000000000001,
       "themes": [
         "doubling"
       ],
+      "rank": 11,
       "director": [
         "Bong Joon Ho"
       ],
@@ -290,7 +429,9 @@
       "year": 2009,
       "tmdbId": 30018,
       "tmdbRating": 7.703,
+      "votes": 1706,
       "score": 5.700000000000001,
+      "rank": 12,
       "director": [
         "Bong Joon Ho"
       ],
@@ -322,19 +463,135 @@
       "why": "Bong Joon Ho (directed Parasite 4.5★)"
     },
     {
-      "title": "The Florida Project",
-      "year": 2017,
-      "tmdbId": 394117,
-      "tmdbRating": 7.427,
-      "score": 5.4,
-      "director": [
-        "Sean Baker"
+      "title": "The Passion of Anna",
+      "year": 1969,
+      "tmdbId": 42602,
+      "tmdbRating": 7.4,
+      "votes": 203,
+      "score": 15,
+      "themes": [
+        "grief-horror"
       ],
-      "runtime": 112,
+      "rank": 13,
+      "director": [
+        "Ingmar Bergman"
+      ],
+      "runtime": 101,
       "genres": [
         "Drama"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/5QnDxdJg1fi6uMSkSi4x8tHsltm.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/cr01316AyxUZyZrdLwzz3AXrgJc.jpg",
+      "providers": {
+        "flatrate": [
+          "Criterion Channel"
+        ],
+        "rent": [
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "scores": {
+        "rt": 100,
+        "metacritic": null,
+        "imdb": 7.6
+      },
+      "why": "Ingmar Bergman (directed The Seventh Seal 5★, Persona 5★) · Bibi Andersson (stars in The Seventh Seal 5★, Persona 5★) · themes: grief wearing a mask"
+    },
+    {
+      "title": "Scenes from a Marriage",
+      "year": 1974,
+      "tmdbId": 133919,
+      "tmdbRating": 8.045,
+      "votes": 404,
+      "score": 15,
+      "themes": [
+        "cruel-comedy"
+      ],
+      "rank": 14,
+      "director": [
+        "Ingmar Bergman"
+      ],
+      "runtime": 169,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/ArKEdvJesIktFX8OAhcdKAOLl6I.jpg",
+      "providers": {
+        "flatrate": [
+          "HBO Max Amazon Channel",
+          "YouTube TV",
+          "Criterion Channel",
+          "HBO Max"
+        ],
+        "rent": [
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 8.3
+      },
+      "why": "Ingmar Bergman (directed The Seventh Seal 5★, Persona 5★) · Bibi Andersson (stars in The Seventh Seal 5★, Persona 5★) · themes: comedy that's actually cruel"
+    },
+    {
+      "title": "Winter Light",
+      "year": 1963,
+      "tmdbId": 29455,
+      "tmdbRating": 7.879,
+      "votes": 509,
+      "score": 15,
+      "rank": 15,
+      "director": [
+        "Ingmar Bergman"
+      ],
+      "runtime": 80,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/wDxrEssdjFWYwIZLbr06RQNcg1q.jpg",
+      "providers": {
+        "flatrate": [
+          "Criterion Channel"
+        ],
+        "rent": [
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "scores": {
+        "rt": 77,
+        "metacritic": null,
+        "imdb": 8
+      },
+      "why": "Ingmar Bergman (directed The Seventh Seal 5★, Persona 5★) · Gunnar Björnstrand (stars in The Seventh Seal 5★, Persona 5★)"
+    },
+    {
+      "title": "Man of Steel",
+      "year": 2013,
+      "tmdbId": 49521,
+      "tmdbRating": 6.654,
+      "votes": 16360,
+      "score": 12.15,
+      "rank": 16,
+      "director": [
+        "Zack Snyder"
+      ],
+      "runtime": 143,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/8GFtkImmK0K1VaUChR0n9O61CFU.jpg",
       "providers": {
         "flatrate": [
           "HBO Max Amazon Channel",
@@ -347,22 +604,311 @@
           "Google Play Movies",
           "YouTube",
           "Fandango At Home",
+          "Plex"
+        ]
+      },
+      "scores": {
+        "rt": 56,
+        "metacritic": 55,
+        "imdb": 7.1
+      },
+      "why": "Christopher Nolan (directed The Odyssey 5★, The Prestige 4.5★, Oppenheimer 4★)"
+    },
+    {
+      "title": "Doodlebug",
+      "year": 1997,
+      "tmdbId": 43629,
+      "tmdbRating": 6.531,
+      "votes": 495,
+      "score": 12.15,
+      "rank": 17,
+      "director": [
+        "Christopher Nolan"
+      ],
+      "runtime": 3,
+      "genres": [
+        "Horror"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/cXDFFv6yZNW3vUHOKKUPJNnL0So.jpg",
+      "providers": {
+        "flatrate": [
+          "Criterion Channel"
+        ],
+        "rent": []
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 7
+      },
+      "why": "Christopher Nolan (directed The Odyssey 5★, The Prestige 4.5★, Oppenheimer 4★)"
+    },
+    {
+      "title": "True Grit",
+      "year": 2010,
+      "tmdbId": 44264,
+      "tmdbRating": 7.306,
+      "votes": 5811,
+      "score": 9.600000000000001,
+      "rank": 18,
+      "director": [
+        "Ethan Coen",
+        "Joel Coen"
+      ],
+      "runtime": 110,
+      "genres": [
+        "Drama",
+        "Adventure",
+        "Western"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/tCrB8pcjadZjsDk7rleGJaIv78k.jpg",
+      "providers": {
+        "flatrate": [
+          "fuboTV",
+          "Paramount Plus Premium",
+          "Paramount Plus Essential",
+          "Paramount+ Amazon Channel",
+          "YouTube TV",
+          "Paramount+ Roku Premium Channel"
+        ],
+        "rent": [
+          "JustWatch TV",
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
           "Spectrum On Demand"
         ]
       },
       "scores": {
-        "rt": 96,
-        "metacritic": 92,
+        "rt": 95,
+        "metacritic": 80,
         "imdb": 7.6
       },
-      "why": "Sean Baker (directed Anora 5★)"
+      "why": "Matt Damon (stars in The Odyssey 5★, Oppenheimer 4★) · Joel Coen (directed No Country for Old Men 4.5★)"
+    },
+    {
+      "title": "Paris Je T'aime",
+      "year": 2006,
+      "tmdbId": 2266,
+      "tmdbRating": 6.759,
+      "votes": 845,
+      "score": 9.350000000000001,
+      "rank": 19,
+      "director": [
+        "Olivier Assayas",
+        "Frédéric Auburtin",
+        "Gurinder Chadha",
+        "Sylvain Chomet",
+        "Isabel Coixet",
+        "Wes Craven",
+        "Alfonso Cuarón",
+        "Gérard Depardieu",
+        "Christopher Doyle",
+        "Richard LaGravenese",
+        "Vincenzo Natali",
+        "Alexander Payne",
+        "Walter Salles",
+        "Oliver Schmitz",
+        "Nobuhiro Suwa",
+        "Daniela Thomas",
+        "Tom Tykwer",
+        "Gus Van Sant",
+        "Joel Coen",
+        "Ethan Coen",
+        "Bruno Podalydès"
+      ],
+      "runtime": 120,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/mcke8Uvw8QDToAZQ94UGo7VU0g6.jpg",
+      "providers": {
+        "flatrate": [
+          "Amazon Prime Video",
+          "fuboTV",
+          "Amazon Prime Video with Ads"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "Fandango At Home"
+        ]
+      },
+      "scores": {
+        "rt": 85,
+        "metacritic": 66,
+        "imdb": 7.2
+      },
+      "why": "Willem Dafoe (stars in Poor Things 4.5★, The Lighthouse 4★) · Joel Coen (directed No Country for Old Men 4.5★)"
+    },
+    {
+      "title": "Intolerable Cruelty",
+      "year": 2003,
+      "tmdbId": 11775,
+      "tmdbRating": 5.955,
+      "votes": 1683,
+      "score": 8.100000000000001,
+      "themes": [
+        "cruel-comedy"
+      ],
+      "rank": 20,
+      "director": [
+        "Joel Coen"
+      ],
+      "runtime": 100,
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Crime"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/7K8hDwOWsZv0MluyrB8nWlhJOgB.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "scores": {
+        "rt": 76,
+        "metacritic": 71,
+        "imdb": 6.3
+      },
+      "why": "Joel Coen (directed No Country for Old Men 4.5★) · Ethan Coen (directed No Country for Old Men 4.5★) · themes: comedy that's actually cruel"
+    },
+    {
+      "title": "The Host",
+      "year": 2006,
+      "tmdbId": 1255,
+      "tmdbRating": 6.978,
+      "votes": 3178,
+      "score": 5.700000000000001,
+      "rank": 21,
+      "director": [
+        "Bong Joon Ho"
+      ],
+      "runtime": 120,
+      "genres": [
+        "Horror",
+        "Drama",
+        "Science Fiction"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/dEDLY3KeghKFzks5nTDWdigVikr.jpg",
+      "providers": {
+        "flatrate": [
+          "Amazon Prime Video",
+          "YouTube TV",
+          "Amazon Prime Video with Ads",
+          "Magnolia Selects Amazon Channel",
+          "Monsters and Nightmares Amazon Channel",
+          "Warriors and Gangsters Amazon Channel"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "FlixFling"
+        ]
+      },
+      "scores": {
+        "rt": 93,
+        "metacritic": 85,
+        "imdb": 7.1
+      },
+      "why": "Bong Joon Ho (directed Parasite 4.5★)"
+    },
+    {
+      "title": "Snowpiercer",
+      "year": 2013,
+      "tmdbId": 110415,
+      "tmdbRating": 6.907,
+      "votes": 10516,
+      "score": 5.700000000000001,
+      "rank": 22,
+      "director": [
+        "Bong Joon Ho"
+      ],
+      "runtime": 127,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/kw6YQudA0TMcNmGUGy5XIw7zbnV.jpg",
+      "providers": {
+        "flatrate": [
+          "MovieSphere+ Amazon Channel"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "scores": {
+        "rt": 94,
+        "metacritic": 84,
+        "imdb": 7.1
+      },
+      "why": "Bong Joon Ho (directed Parasite 4.5★)"
+    },
+    {
+      "title": "Sea Fog",
+      "year": 2014,
+      "tmdbId": 272691,
+      "tmdbRating": 6.9,
+      "votes": 179,
+      "score": 5.700000000000001,
+      "rank": 23,
+      "director": [
+        "Shim Sung-bo"
+      ],
+      "runtime": 111,
+      "genres": [
+        "Thriller",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/gnqv8hSNKfNZXKsJXMxJocDVGK7.jpg",
+      "providers": {
+        "flatrate": [
+          "Cineverse Amazon Channel",
+          "ARROW"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "FlixFling"
+        ]
+      },
+      "scores": {
+        "rt": 77,
+        "metacritic": 61,
+        "imdb": 6.8
+      },
+      "why": "Bong Joon Ho (directed Parasite 4.5★)"
     },
     {
       "title": "Left-Handed Girl",
       "year": 2025,
       "tmdbId": 999075,
-      "tmdbRating": 7.3,
+      "tmdbRating": 7.286,
+      "votes": 182,
       "score": 5.4,
+      "rank": 24,
       "director": [
         "Tsou Shih-ching"
       ],
@@ -386,21 +932,283 @@
       "why": "Sean Baker (directed Anora 5★)"
     },
     {
-      "title": "The Favourite",
-      "year": 2018,
-      "tmdbId": 375262,
-      "tmdbRating": 7.487,
-      "score": 4.800000000000001,
+      "title": "Tangerine",
+      "year": 2015,
+      "tmdbId": 308084,
+      "tmdbRating": 6.866,
+      "votes": 810,
+      "score": 5.4,
+      "rank": 25,
       "director": [
-        "Yorgos Lanthimos"
+        "Sean Baker"
       ],
-      "runtime": 120,
+      "runtime": 87,
       "genres": [
-        "History",
         "Comedy",
         "Drama"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/cwBq0onfmeilU5xgqNNjJAMPfpw.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/EKLR5c61XQzBTeMokFrmS3kdt8.jpg",
+      "providers": {
+        "flatrate": [
+          "Amazon Prime Video",
+          "fuboTV",
+          "Philo",
+          "YouTube TV",
+          "Amazon Prime Video with Ads"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "FlixFling",
+          "Spectrum On Demand"
+        ]
+      },
+      "scores": {
+        "rt": 96,
+        "metacritic": 86,
+        "imdb": 7.1
+      },
+      "why": "Sean Baker (directed Anora 5★)"
+    },
+    {
+      "title": "Starlet",
+      "year": 2012,
+      "tmdbId": 91679,
+      "tmdbRating": 6.8,
+      "votes": 202,
+      "score": 5.4,
+      "rank": 26,
+      "director": [
+        "Sean Baker"
+      ],
+      "runtime": 103,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/8mVU5KjD5b4Df3CRTnJqKFSwg5y.jpg",
+      "providers": {
+        "flatrate": [
+          "Criterion Channel"
+        ],
+        "rent": [
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "scores": {
+        "rt": 87,
+        "metacritic": 74,
+        "imdb": 6.9
+      },
+      "why": "Sean Baker (directed Anora 5★)"
+    },
+    {
+      "title": "Red Rocket",
+      "year": 2021,
+      "tmdbId": 763329,
+      "tmdbRating": 6.797,
+      "votes": 640,
+      "score": 5.4,
+      "rank": 27,
+      "director": [
+        "Sean Baker"
+      ],
+      "runtime": 130,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/345gLhiNpItU1ICx8OxJQwjgPmH.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Plex"
+        ]
+      },
+      "scores": {
+        "rt": 90,
+        "metacritic": 76,
+        "imdb": 7.1
+      },
+      "why": "Sean Baker (directed Anora 5★)"
+    },
+    {
+      "title": "Natural Born Killers",
+      "year": 1994,
+      "tmdbId": 241,
+      "tmdbRating": 7.054,
+      "votes": 3843,
+      "score": 3.8000000000000003,
+      "themes": [
+        "cruel-comedy"
+      ],
+      "rank": 28,
+      "director": [
+        "Oliver Stone"
+      ],
+      "runtime": 119,
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/fEKZwT91gxvkAoyPgpNXo8W5fu0.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Spectrum On Demand"
+        ]
+      },
+      "scores": {
+        "rt": 52,
+        "metacritic": 74,
+        "imdb": 7.2
+      },
+      "why": "Quentin Tarantino (directed Once Upon a Time... in Hollywood 4★) · themes: comedy that's actually cruel"
+    },
+    {
+      "title": "Nimic",
+      "year": 2020,
+      "tmdbId": 621749,
+      "tmdbRating": 6.567,
+      "votes": 314,
+      "score": 4.800000000000001,
+      "rank": 29,
+      "director": [
+        "Yorgos Lanthimos"
+      ],
+      "runtime": 12,
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Mystery",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/gRzUDFYke2DCVxmddotNatQ5FDl.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": []
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 6.5
+      },
+      "why": "Yorgos Lanthimos (directed Poor Things 4.5★, Bugonia 4.5★)"
+    },
+    {
+      "title": "13 Hours: The Secret Soldiers of Benghazi",
+      "year": 2016,
+      "tmdbId": 300671,
+      "tmdbRating": 7.277,
+      "votes": 3995,
+      "score": 3.2,
+      "themes": [
+        "grief-horror"
+      ],
+      "rank": 30,
+      "director": [
+        "Michael Bay"
+      ],
+      "runtime": 144,
+      "genres": [
+        "War",
+        "History",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/fZlAxZMo6BId1SiqyjLmkd7oUB7.jpg",
+      "providers": {
+        "flatrate": [
+          "fuboTV",
+          "MGM+ Amazon Channel",
+          "Paramount Plus Premium",
+          "Philo",
+          "Paramount+ Amazon Channel",
+          "YouTube TV",
+          "Paramount+ Roku Premium Channel"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Plex"
+        ]
+      },
+      "scores": {
+        "rt": 52,
+        "metacritic": 48,
+        "imdb": 7.3
+      },
+      "why": "John Krasinski (directed A Quiet Place 4★) · themes: grief wearing a mask"
+    },
+    {
+      "title": "Alps",
+      "year": 2011,
+      "tmdbId": 81857,
+      "tmdbRating": 6.215,
+      "votes": 349,
+      "score": 4.800000000000001,
+      "rank": 31,
+      "director": [
+        "Yorgos Lanthimos"
+      ],
+      "runtime": 94,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/nF5A64lC0MuuEK6qNmOfQpY6mRv.jpg",
+      "providers": {
+        "flatrate": [
+          "Kino Film Collection"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "scores": {
+        "rt": 75,
+        "metacritic": 69,
+        "imdb": 6.3
+      },
+      "why": "Yorgos Lanthimos (directed Poor Things 4.5★, Bugonia 4.5★)"
+    },
+    {
+      "title": "Promised Land",
+      "year": 2012,
+      "tmdbId": 133694,
+      "tmdbRating": 6.291,
+      "votes": 750,
+      "score": 4.7,
+      "rank": 32,
+      "director": [
+        "Gus Van Sant"
+      ],
+      "runtime": 106,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/5C0b6Wu4Z0V4NuA1cD8SZU7FCkb.jpg",
       "providers": {
         "flatrate": [],
         "rent": [
@@ -412,11 +1220,2283 @@
         ]
       },
       "scores": {
-        "rt": 93,
-        "metacritic": 91,
-        "imdb": 7.5
+        "rt": 53,
+        "metacritic": 55,
+        "imdb": 6.6
       },
-      "why": "Yorgos Lanthimos (directed Poor Things 4.5★, Bugonia 4.5★)"
+      "why": "Matt Damon (stars in The Odyssey 5★, Oppenheimer 4★) · John Krasinski (directed A Quiet Place 4★)"
+    },
+    {
+      "title": "Aloha",
+      "year": 2015,
+      "tmdbId": 222936,
+      "tmdbRating": 5.514,
+      "votes": 2174,
+      "score": 4.7,
+      "rank": 33,
+      "director": [
+        "Cameron Crowe"
+      ],
+      "runtime": 105,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/58Y4CjcRX8AtMNtI0AXu9H7iebP.jpg",
+      "providers": {
+        "flatrate": [
+          "Netflix"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Plex"
+        ]
+      },
+      "scores": {
+        "rt": 20,
+        "metacritic": 40,
+        "imdb": 5.4
+      },
+      "why": "Emma Stone (stars in Poor Things 4.5★, Bugonia 4.5★) · John Krasinski (directed A Quiet Place 4★)"
+    },
+    {
+      "title": "Haunt",
+      "year": 2019,
+      "tmdbId": 517116,
+      "tmdbRating": 6.67,
+      "votes": 1388,
+      "score": 4.4,
+      "rank": 34,
+      "director": [
+        "Scott Beck",
+        "Bryan Woods"
+      ],
+      "runtime": 93,
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/haQSrjFlq30I60UVN1VsB6uRwKM.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "scores": {
+        "rt": 71,
+        "metacritic": 69,
+        "imdb": 6.3
+      },
+      "why": "Bryan Woods (wrote A Quiet Place 4★) · Scott Beck (wrote A Quiet Place 4★)"
+    },
+    {
+      "title": "The Boogeyman",
+      "year": 2023,
+      "tmdbId": 532408,
+      "tmdbRating": 6.378,
+      "votes": 1123,
+      "score": 4.4,
+      "rank": 35,
+      "director": [
+        "Rob Savage"
+      ],
+      "runtime": 99,
+      "genres": [
+        "Horror"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/pYwZdnXVnVxAr7dx4MEK7tTK9gI.jpg",
+      "providers": {
+        "flatrate": [
+          "Hulu"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "scores": {
+        "rt": 60,
+        "metacritic": 55,
+        "imdb": 5.9
+      },
+      "why": "Bryan Woods (wrote A Quiet Place 4★) · Scott Beck (wrote A Quiet Place 4★)"
+    },
+    {
+      "title": "65",
+      "year": 2023,
+      "tmdbId": 700391,
+      "tmdbRating": 5.946,
+      "votes": 2892,
+      "score": 4.4,
+      "rank": 36,
+      "director": [
+        "Scott Beck",
+        "Bryan Woods"
+      ],
+      "runtime": 92,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/rzRb63TldOKdKydCvWJM8B6EkPM.jpg",
+      "providers": {
+        "flatrate": [
+          "Amazon Prime Video",
+          "Hulu",
+          "Amazon Prime Video with Ads"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Spectrum On Demand"
+        ]
+      },
+      "scores": {
+        "rt": 35,
+        "metacritic": 40,
+        "imdb": 5.4
+      },
+      "why": "Bryan Woods (wrote A Quiet Place 4★) · Scott Beck (wrote A Quiet Place 4★)"
+    },
+    {
+      "title": "Beastie Boys Story",
+      "year": 2020,
+      "tmdbId": 664416,
+      "tmdbRating": 7.479,
+      "votes": 190,
+      "score": 4,
+      "rank": 37,
+      "director": [
+        "Spike Jonze"
+      ],
+      "runtime": 120,
+      "genres": [
+        "Music",
+        "Documentary"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/mph9vxXnEgiFrkrUqMk40DpPtEX.jpg",
+      "providers": {
+        "flatrate": [
+          "Apple TV",
+          "Apple TV Amazon Channel"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "scores": {
+        "rt": 95,
+        "metacritic": 74,
+        "imdb": 7.7
+      },
+      "why": "Spike Jonze (directed Being John Malkovich 4.5★, Adaptation. 4★)"
+    },
+    {
+      "title": "Kill Bill: The Whole Bloody Affair",
+      "year": 2011,
+      "tmdbId": 414419,
+      "tmdbRating": 8.1,
+      "votes": 1355,
+      "score": 3.8000000000000003,
+      "rank": 38,
+      "director": [
+        "Quentin Tarantino"
+      ],
+      "runtime": 254,
+      "genres": [
+        "Action",
+        "Crime"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/nSOJfWJCdVFZQwXQA7RXn7FIIiY.jpg",
+      "providers": {
+        "flatrate": [
+          "Peacock Premium",
+          "Peacock Premium Plus"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Plex"
+        ]
+      },
+      "scores": {
+        "rt": 100,
+        "metacritic": 95,
+        "imdb": 8.8
+      },
+      "why": "Quentin Tarantino (directed Once Upon a Time... in Hollywood 4★)"
+    },
+    {
+      "title": "I'm Here",
+      "year": 2010,
+      "tmdbId": 37058,
+      "tmdbRating": 7.2,
+      "votes": 198,
+      "score": 4,
+      "rank": 39,
+      "director": [
+        "Spike Jonze"
+      ],
+      "runtime": 32,
+      "genres": [
+        "Romance",
+        "Science Fiction",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/1jq9zUwPIFGid3BMrLLcm3YY2nY.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": []
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 7.7
+      },
+      "why": "Spike Jonze (directed Being John Malkovich 4.5★, Adaptation. 4★)"
+    },
+    {
+      "title": "Kill Bill: Vol. 2",
+      "year": 2004,
+      "tmdbId": 393,
+      "tmdbRating": 7.9,
+      "votes": 15214,
+      "score": 3.8000000000000003,
+      "rank": 40,
+      "director": [
+        "Quentin Tarantino"
+      ],
+      "runtime": 136,
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/2yhg0mZQMhDyvUQ4rG1IZ4oIA8L.jpg",
+      "providers": {
+        "flatrate": [
+          "Philo",
+          "YouTube TV"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "scores": {
+        "rt": 84,
+        "metacritic": 83,
+        "imdb": 8
+      },
+      "why": "Quentin Tarantino (directed Once Upon a Time... in Hollywood 4★)"
+    },
+    {
+      "title": "The Last Duel",
+      "year": 2021,
+      "tmdbId": 617653,
+      "tmdbRating": 7.4,
+      "votes": 3903,
+      "score": 3.9000000000000004,
+      "rank": 41,
+      "director": [
+        "Ridley Scott"
+      ],
+      "runtime": 153,
+      "genres": [
+        "Drama",
+        "History",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/zjrJE0fpzPvX8saJXj8VNfcjBoU.jpg",
+      "providers": {
+        "flatrate": [
+          "Hulu",
+          "fuboTV",
+          "YouTube TV"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Matt Damon (stars in The Odyssey 5★, Oppenheimer 4★) · Ridley Scott (directed Prometheus 4.5★)"
+    },
+    {
+      "title": "The Hateful Eight",
+      "year": 2015,
+      "tmdbId": 273248,
+      "tmdbRating": 7.756,
+      "votes": 15411,
+      "score": 3.8000000000000003,
+      "rank": 42,
+      "director": [
+        "Quentin Tarantino"
+      ],
+      "runtime": 188,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Western"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/jIywvdPjia2t3eKYbjVTcwBQlG8.jpg",
+      "providers": {
+        "flatrate": [
+          "Philo"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube"
+        ]
+      },
+      "why": "Quentin Tarantino (directed Once Upon a Time... in Hollywood 4★)"
+    },
+    {
+      "title": "Jackie Brown",
+      "year": 1997,
+      "tmdbId": 184,
+      "tmdbRating": 7.357,
+      "votes": 7000,
+      "score": 3.8000000000000003,
+      "rank": 43,
+      "director": [
+        "Quentin Tarantino"
+      ],
+      "runtime": 154,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/rOUx7qg4KmEh1juEDwqzbDSL1Nr.jpg",
+      "providers": {
+        "flatrate": [
+          "YouTube TV"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Quentin Tarantino (directed Once Upon a Time... in Hollywood 4★)"
+    },
+    {
+      "title": "Where the Wild Things Are",
+      "year": 2009,
+      "tmdbId": 16523,
+      "tmdbRating": 6.5,
+      "votes": 2039,
+      "score": 4,
+      "rank": 44,
+      "director": [
+        "Spike Jonze"
+      ],
+      "runtime": 101,
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Family",
+        "Fantasy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/pzVqDpSzOg32IpXghHGSGAAArl6.jpg",
+      "providers": {
+        "flatrate": [
+          "Paramount Plus Essential"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Spectrum On Demand"
+        ]
+      },
+      "why": "Spike Jonze (directed Being John Malkovich 4.5★, Adaptation. 4★)"
+    },
+    {
+      "title": "Drive-Away Dolls",
+      "year": 2024,
+      "tmdbId": 957304,
+      "tmdbRating": 5.528,
+      "votes": 595,
+      "score": 4.050000000000001,
+      "rank": 45,
+      "director": [
+        "Ethan Coen"
+      ],
+      "runtime": 84,
+      "genres": [
+        "Comedy",
+        "Crime"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/6QPKmqntFgLm6sB47AtSelEGGPM.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Spectrum On Demand"
+        ]
+      },
+      "why": "Ethan Coen (directed No Country for Old Men 4.5★)"
+    },
+    {
+      "title": "Birdman or (The Unexpected Virtue of Ignorance)",
+      "year": 2014,
+      "tmdbId": 194662,
+      "tmdbRating": 7.438,
+      "votes": 13667,
+      "score": 1.5,
+      "themes": [
+        "cruel-comedy",
+        "doubling"
+      ],
+      "rank": 46,
+      "director": [
+        "Alejandro G. Iñárritu"
+      ],
+      "runtime": 120,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/rHUg2AuIuLSIYMYFgavVwqt1jtc.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Emma Stone (stars in Poor Things 4.5★, Bugonia 4.5★) · themes: comedy that's actually cruel, doubling & doppelgangers"
+    },
+    {
+      "title": "Love Lies Bleeding",
+      "year": 2024,
+      "tmdbId": 948549,
+      "tmdbRating": 6.5,
+      "votes": 983,
+      "score": 2.7,
+      "themes": [
+        "body-horror"
+      ],
+      "rank": 47,
+      "director": [
+        "Rose Glass"
+      ],
+      "runtime": 104,
+      "genres": [
+        "Crime",
+        "Romance",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/xImj8RLe39YK0lyVu9kXv7ApN8p.jpg",
+      "providers": {
+        "flatrate": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Spectrum On Demand",
+          "Plex"
+        ]
+      },
+      "why": "Rose Glass (directed Saint Maud 4★) · themes: the body betrays"
+    },
+    {
+      "title": "Cruella",
+      "year": 2021,
+      "tmdbId": 337404,
+      "tmdbRating": 7.973,
+      "votes": 10165,
+      "score": 3.1500000000000004,
+      "rank": 48,
+      "director": [
+        "Craig Gillespie"
+      ],
+      "runtime": 134,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/hjS9mH8KvRiGHgjk6VUZH7OT0Ng.jpg",
+      "providers": {
+        "flatrate": [
+          "Disney Plus"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Emma Stone (stars in Poor Things 4.5★, Bugonia 4.5★) · Tony McNamara (wrote Poor Things 4.5★)"
+    },
+    {
+      "title": "Born in China",
+      "year": 2016,
+      "tmdbId": 355277,
+      "tmdbRating": 7.3,
+      "votes": 173,
+      "score": 3.2,
+      "rank": 49,
+      "director": [
+        "Lu Chuan"
+      ],
+      "runtime": 76,
+      "genres": [
+        "Documentary"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/c8xdrR1ZtCXMmaxyxYwaGSndvV9.jpg",
+      "providers": {
+        "flatrate": [
+          "Disney Plus"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "John Krasinski (directed A Quiet Place 4★)"
+    },
+    {
+      "title": "DC League of Super-Pets",
+      "year": 2022,
+      "tmdbId": 539681,
+      "tmdbRating": 7.155,
+      "votes": 1750,
+      "score": 3.2,
+      "rank": 50,
+      "director": [
+        "Jared Stern"
+      ],
+      "runtime": 105,
+      "genres": [
+        "Family",
+        "Comedy",
+        "Adventure",
+        "Animation",
+        "Science Fiction"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/qpPMewlugFaejXjz4YNDnpTniFX.jpg",
+      "providers": {
+        "flatrate": [
+          "HBO Max Amazon Channel",
+          "HBO Max"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Spectrum On Demand",
+          "Plex"
+        ]
+      },
+      "why": "John Krasinski (directed A Quiet Place 4★)"
+    },
+    {
+      "title": "Thelma & Louise",
+      "year": 1991,
+      "tmdbId": 1541,
+      "tmdbRating": 7.6,
+      "votes": 3919,
+      "score": 2.4000000000000004,
+      "themes": [
+        "surveillance"
+      ],
+      "rank": 51,
+      "director": [
+        "Ridley Scott"
+      ],
+      "runtime": 130,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Adventure"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/vbRAGLzbC75QfiKD1lKjmnQGuph.jpg",
+      "providers": {
+        "flatrate": [
+          "fuboTV",
+          "MGM+ Amazon Channel",
+          "Philo",
+          "MGM Plus Roku Premium Channel",
+          "YouTube TV",
+          "MGM Plus"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Plex"
+        ]
+      },
+      "why": "Ridley Scott (directed Prometheus 4.5★) · themes: watched & watching"
+    },
+    {
+      "title": "American Gangster",
+      "year": 2007,
+      "tmdbId": 4982,
+      "tmdbRating": 7.595,
+      "votes": 6111,
+      "score": 2.4000000000000004,
+      "themes": [
+        "surveillance"
+      ],
+      "rank": 52,
+      "director": [
+        "Ridley Scott"
+      ],
+      "runtime": 157,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/sX9idXDqRUxE5ffww3n3RV5gL55.jpg",
+      "providers": {
+        "flatrate": [
+          "Netflix",
+          "YouTube TV",
+          "Netflix Standard with Ads"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Ridley Scott (directed Prometheus 4.5★) · themes: watched & watching"
+    },
+    {
+      "title": "The Raid 2",
+      "year": 2014,
+      "tmdbId": 180299,
+      "tmdbRating": 7.612,
+      "votes": 2628,
+      "score": 2.7,
+      "rank": 53,
+      "director": [
+        "Gareth Evans"
+      ],
+      "runtime": 150,
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/mlGuKlIDLdPhYjz1QBXi0FmyYik.jpg",
+      "providers": {
+        "flatrate": [
+          "Sony Pictures Core Amazon Channel"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Plex"
+        ]
+      },
+      "why": "Gareth Evans (directed Apostle 4★)"
+    },
+    {
+      "title": "The Raid",
+      "year": 2012,
+      "tmdbId": 94329,
+      "tmdbRating": 7.41,
+      "votes": 3940,
+      "score": 2.7,
+      "rank": 54,
+      "director": [
+        "Gareth Evans"
+      ],
+      "runtime": 101,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/Abnm1Ws3JH0ReCfEhLMPwPcMcGO.jpg",
+      "providers": {
+        "flatrate": [
+          "Hulu",
+          "Sony Pictures Core Amazon Channel"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Plex"
+        ]
+      },
+      "why": "Gareth Evans (directed Apostle 4★)"
+    },
+    {
+      "title": "Mad Max 2",
+      "year": 1981,
+      "tmdbId": 8810,
+      "tmdbRating": 7.392,
+      "votes": 4228,
+      "score": 2.7,
+      "rank": 55,
+      "director": [
+        "George Miller"
+      ],
+      "runtime": 96,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/l1KVEhkGDpWRzQ0VqIhZqDDuOim.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Plex"
+        ]
+      },
+      "why": "George Miller (directed Mad Max: Fury Road 4★)"
+    },
+    {
+      "title": "Lorenzo's Oil",
+      "year": 1992,
+      "tmdbId": 2007,
+      "tmdbRating": 7.109,
+      "votes": 576,
+      "score": 2.7,
+      "rank": 56,
+      "director": [
+        "George Miller"
+      ],
+      "runtime": 135,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/suRf59zRu1h8Zq4Gxekn6UiLGaM.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "George Miller (directed Mad Max: Fury Road 4★)"
+    },
+    {
+      "title": "Three Thousand Years of Longing",
+      "year": 2022,
+      "tmdbId": 556694,
+      "tmdbRating": 6.9,
+      "votes": 1686,
+      "score": 2.7,
+      "rank": 57,
+      "director": [
+        "George Miller"
+      ],
+      "runtime": 108,
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Romance"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/nS7DNl4A7XnDncZX70UJ8ALAihF.jpg",
+      "providers": {
+        "flatrate": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Plex"
+        ]
+      },
+      "why": "George Miller (directed Mad Max: Fury Road 4★)"
+    },
+    {
+      "title": "Confessions of a Dangerous Mind",
+      "year": 2002,
+      "tmdbId": 4912,
+      "tmdbRating": 6.687,
+      "votes": 1278,
+      "score": 2.75,
+      "rank": 58,
+      "director": [
+        "George Clooney"
+      ],
+      "runtime": 113,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Drama",
+        "Romance",
+        "Thriller",
+        "History"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/mM58ABMRzwn5zVx6BS7IiNK0j3F.jpg",
+      "providers": {
+        "flatrate": [
+          "MGM Plus"
+        ],
+        "rent": [
+          "JustWatch TV",
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Charlie Kaufman (wrote Being John Malkovich 4.5★, Adaptation. 4★)"
+    },
+    {
+      "title": "The Legend of Bagger Vance",
+      "year": 2000,
+      "tmdbId": 4958,
+      "tmdbRating": 6.602,
+      "votes": 998,
+      "score": 2.75,
+      "rank": 59,
+      "director": [
+        "Robert Redford"
+      ],
+      "runtime": 126,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Fantasy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/7jKjh9PZvHJYYtCycQmTbBoZVV4.jpg",
+      "providers": {
+        "flatrate": [
+          "fuboTV",
+          "MGM+ Amazon Channel",
+          "Philo",
+          "MGM Plus Roku Premium Channel",
+          "YouTube TV",
+          "MGM Plus"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Matt Damon (stars in The Odyssey 5★, Oppenheimer 4★) · Charlize Theron (stars in Prometheus 4.5★, Mad Max: Fury Road 4★)"
+    },
+    {
+      "title": "Blade Runner",
+      "year": 1982,
+      "tmdbId": 78,
+      "tmdbRating": 7.935,
+      "votes": 15151,
+      "score": 2.4000000000000004,
+      "rank": 60,
+      "director": [
+        "Ridley Scott"
+      ],
+      "runtime": 118,
+      "genres": [
+        "Science Fiction",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/63N9uy8nd9j7Eog2axPQ8lbr3Wj.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Ridley Scott (directed Prometheus 4.5★)"
+    },
+    {
+      "title": "Orion and the Dark",
+      "year": 2024,
+      "tmdbId": 1139829,
+      "tmdbRating": 6.529,
+      "votes": 660,
+      "score": 2.75,
+      "rank": 61,
+      "director": [
+        "Sean Charmatz"
+      ],
+      "runtime": 90,
+      "genres": [
+        "Animation",
+        "Family",
+        "Comedy",
+        "Fantasy",
+        "Adventure"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/N2ddXhBX5kqwA9flbm2yqFtX6b.jpg",
+      "providers": {
+        "flatrate": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ],
+        "rent": []
+      },
+      "why": "Charlie Kaufman (wrote Being John Malkovich 4.5★, Adaptation. 4★)"
+    },
+    {
+      "title": "Mad Max",
+      "year": 1979,
+      "tmdbId": 9659,
+      "tmdbRating": 6.683,
+      "votes": 5020,
+      "score": 2.7,
+      "rank": 62,
+      "director": [
+        "George Miller"
+      ],
+      "runtime": 91,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/5LrI4GiCSrChgkdskVZiwv643Kg.jpg",
+      "providers": {
+        "flatrate": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "rent": [
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Plex"
+        ]
+      },
+      "why": "George Miller (directed Mad Max: Fury Road 4★)"
+    },
+    {
+      "title": "The Witches of Eastwick",
+      "year": 1987,
+      "tmdbId": 6069,
+      "tmdbRating": 6.5,
+      "votes": 1578,
+      "score": 2.7,
+      "rank": 63,
+      "director": [
+        "George Miller"
+      ],
+      "runtime": 118,
+      "genres": [
+        "Comedy",
+        "Fantasy",
+        "Horror"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/p5OivnZuXfy5E3BKKFIeSidmwys.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "George Miller (directed Mad Max: Fury Road 4★)"
+    },
+    {
+      "title": "Merantau",
+      "year": 2009,
+      "tmdbId": 34626,
+      "tmdbRating": 6.5,
+      "votes": 241,
+      "score": 2.7,
+      "rank": 64,
+      "director": [
+        "Gareth Evans"
+      ],
+      "runtime": 134,
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/60Vd3zovl6XeRH8GQOsM9fwMHRO.jpg",
+      "providers": {
+        "flatrate": [
+          "Philo",
+          "Magnolia Selects Amazon Channel",
+          "Warriors and Gangsters Amazon Channel"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "FlixFling"
+        ]
+      },
+      "why": "Gareth Evans (directed Apostle 4★)"
+    },
+    {
+      "title": "The Hunt",
+      "year": 2020,
+      "tmdbId": 514847,
+      "tmdbRating": 6.651,
+      "votes": 3723,
+      "score": 1.6500000000000001,
+      "themes": [
+        "cruel-comedy"
+      ],
+      "rank": 65,
+      "director": [
+        "Craig Zobel"
+      ],
+      "runtime": 90,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Horror"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/wxPhn4ef1EAo5njxwBkAEVrlJJG.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Damon Lindelof (wrote Prometheus 4.5★) · themes: comedy that's actually cruel"
+    },
+    {
+      "title": "The Roses",
+      "year": 2025,
+      "tmdbId": 1267905,
+      "tmdbRating": 6.65,
+      "votes": 725,
+      "score": 1.6500000000000001,
+      "themes": [
+        "cruel-comedy"
+      ],
+      "rank": 66,
+      "director": [
+        "Jay Roach"
+      ],
+      "runtime": 105,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/99O8HLHklXGzvF2TqiRqr7WddzT.jpg",
+      "providers": {
+        "flatrate": [
+          "Hulu"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Tony McNamara (wrote Poor Things 4.5★) · themes: comedy that's actually cruel"
+    },
+    {
+      "title": "Havoc",
+      "year": 2025,
+      "tmdbId": 668489,
+      "tmdbRating": 6.384,
+      "votes": 1277,
+      "score": 2.7,
+      "rank": 67,
+      "director": [
+        "Gareth Evans"
+      ],
+      "runtime": 107,
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/r46leE6PSzLR3pnVzaxx5Q30yUF.jpg",
+      "providers": {
+        "flatrate": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ],
+        "rent": []
+      },
+      "why": "Gareth Evans (directed Apostle 4★)"
+    },
+    {
+      "title": "The Great Wall",
+      "year": 2016,
+      "tmdbId": 311324,
+      "tmdbRating": 6.033,
+      "votes": 5597,
+      "score": 2.75,
+      "rank": 68,
+      "director": [
+        "Zhang Yimou"
+      ],
+      "runtime": 103,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/p70dq1YxabemdZDm5K6Q8G10wSn.jpg",
+      "providers": {
+        "flatrate": [
+          "YouTube TV"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Matt Damon (stars in The Odyssey 5★, Oppenheimer 4★) · Willem Dafoe (stars in Poor Things 4.5★, The Lighthouse 4★)"
+    },
+    {
+      "title": "V/H/S/2",
+      "year": 2013,
+      "tmdbId": 159117,
+      "tmdbRating": 6.2,
+      "votes": 1201,
+      "score": 2.7,
+      "rank": 69,
+      "director": [
+        "Simon Barrett",
+        "Adam Wingard",
+        "Eduardo Sánchez",
+        "Gregg Hale",
+        "Timo Tjahjanto",
+        "Gareth Evans",
+        "Jason Eisener"
+      ],
+      "runtime": 96,
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/o4hcWsHaHaNQ9BBReOxLvYJNRhA.jpg",
+      "providers": {
+        "flatrate": [
+          "fuboTV",
+          "Philo",
+          "YouTube TV"
+        ],
+        "rent": [
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "FlixFling"
+        ]
+      },
+      "why": "Gareth Evans (directed Apostle 4★)"
+    },
+    {
+      "title": "Black Hawk Down",
+      "year": 2001,
+      "tmdbId": 855,
+      "tmdbRating": 7.395,
+      "votes": 6446,
+      "score": 2.4000000000000004,
+      "rank": 70,
+      "director": [
+        "Ridley Scott"
+      ],
+      "runtime": 145,
+      "genres": [
+        "Action",
+        "War",
+        "History"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/7fU5dSqKRL4XHeEUz62rCKBfYok.jpg",
+      "providers": {
+        "flatrate": [
+          "Hulu",
+          "Philo",
+          "YouTube TV",
+          "BBC America"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Spectrum On Demand"
+        ]
+      },
+      "why": "Ridley Scott (directed Prometheus 4.5★)"
+    },
+    {
+      "title": "Human Nature",
+      "year": 2001,
+      "tmdbId": 441,
+      "tmdbRating": 5.992,
+      "votes": 298,
+      "score": 2.75,
+      "rank": 71,
+      "director": [
+        "Michel Gondry"
+      ],
+      "runtime": 96,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/eyEgsPIwsr9bUV9n9INH46L5KuM.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Charlie Kaufman (wrote Being John Malkovich 4.5★, Adaptation. 4★)"
+    },
+    {
+      "title": "Dogma",
+      "year": 1999,
+      "tmdbId": 1832,
+      "tmdbRating": 6.938,
+      "votes": 2890,
+      "score": 1.5,
+      "themes": [
+        "cruel-comedy"
+      ],
+      "rank": 72,
+      "director": [
+        "Kevin Smith"
+      ],
+      "runtime": 130,
+      "genres": [
+        "Fantasy",
+        "Comedy",
+        "Adventure"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/oxhHl2YokTqcP44QK5tiTgjgLgk.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Google Play Movies",
+          "YouTube"
+        ]
+      },
+      "why": "Matt Damon (stars in The Odyssey 5★, Oppenheimer 4★) · themes: comedy that's actually cruel"
+    },
+    {
+      "title": "Contagion",
+      "year": 2011,
+      "tmdbId": 39538,
+      "tmdbRating": 6.65,
+      "votes": 6605,
+      "score": 1.5,
+      "themes": [
+        "body-horror"
+      ],
+      "rank": 73,
+      "director": [
+        "Steven Soderbergh"
+      ],
+      "runtime": 106,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/qL0IooP0bjXy0KXl9KEyPo22ll0.jpg",
+      "providers": {
+        "flatrate": [
+          "HBO Max Amazon Channel",
+          "YouTube TV",
+          "Cinemax Amazon Channel",
+          "HBO Max",
+          "Cinemax Apple TV Channel"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Plex"
+        ]
+      },
+      "why": "Matt Damon (stars in The Odyssey 5★, Oppenheimer 4★) · themes: the body betrays"
+    },
+    {
+      "title": "The Mitchells vs. the Machines",
+      "year": 2021,
+      "tmdbId": 501929,
+      "tmdbRating": 7.833,
+      "votes": 3419,
+      "score": 1.6,
+      "rank": 74,
+      "director": [
+        "Mike Rianda"
+      ],
+      "runtime": 110,
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/mI2Di7HmskQQ34kz0iau6J1vr70.jpg",
+      "providers": {
+        "flatrate": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Eric André (wrote Bad Trip 4★)"
+    },
+    {
+      "title": "The Help",
+      "year": 2011,
+      "tmdbId": 50014,
+      "tmdbRating": 8.205,
+      "votes": 9138,
+      "score": 1.5,
+      "rank": 75,
+      "director": [
+        "Tate Taylor"
+      ],
+      "runtime": 146,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/3kmfoWWEc9Vtyuaf9v5VipRgdjx.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Emma Stone (stars in Poor Things 4.5★, Bugonia 4.5★)"
+    },
+    {
+      "title": "Good Will Hunting",
+      "year": 1997,
+      "tmdbId": 489,
+      "tmdbRating": 8.163,
+      "votes": 14015,
+      "score": 1.5,
+      "rank": 76,
+      "director": [
+        "Gus Van Sant"
+      ],
+      "runtime": 127,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/z2FnLKpFi1HPO7BEJxdkv6hpJSU.jpg",
+      "providers": {
+        "flatrate": [
+          "Paramount Plus Premium",
+          "Paramount Plus Essential",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel"
+        ],
+        "rent": [
+          "JustWatch TV",
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "FlixFling",
+          "Spectrum On Demand"
+        ]
+      },
+      "why": "Matt Damon (stars in The Odyssey 5★, Oppenheimer 4★)"
+    },
+    {
+      "title": "Star Trek Into Darkness",
+      "year": 2013,
+      "tmdbId": 54138,
+      "tmdbRating": 7.324,
+      "votes": 9745,
+      "score": 1.6500000000000001,
+      "rank": 77,
+      "director": [
+        "J.J. Abrams"
+      ],
+      "runtime": 132,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/Aim3kVNh1MPIxPEFeJrl9e9Uf1a.jpg",
+      "providers": {
+        "flatrate": [
+          "Paramount Plus Premium",
+          "Paramount Plus Essential",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Spectrum On Demand",
+          "Plex"
+        ]
+      },
+      "why": "Damon Lindelof (wrote Prometheus 4.5★)"
+    },
+    {
+      "title": "La La Land",
+      "year": 2016,
+      "tmdbId": 313369,
+      "tmdbRating": 7.898,
+      "votes": 18252,
+      "score": 1.5,
+      "rank": 78,
+      "director": [
+        "Damien Chazelle"
+      ],
+      "runtime": 129,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "FlixFling",
+          "Plex"
+        ]
+      },
+      "why": "Emma Stone (stars in Poor Things 4.5★, Bugonia 4.5★)"
+    },
+    {
+      "title": "Trolls Band Together",
+      "year": 2023,
+      "tmdbId": 901362,
+      "tmdbRating": 7.244,
+      "votes": 1009,
+      "score": 1.6,
+      "rank": 79,
+      "director": [
+        "Walt Dohrn"
+      ],
+      "runtime": 91,
+      "genres": [
+        "Animation",
+        "Family",
+        "Music",
+        "Fantasy",
+        "Comedy",
+        "Adventure"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/3ySgD2xwasTHOK6R9bNZiEwKgYo.jpg",
+      "providers": {
+        "flatrate": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Spectrum On Demand"
+        ]
+      },
+      "why": "Eric André (wrote Bad Trip 4★)"
+    },
+    {
+      "title": "The Croods: A New Age",
+      "year": 2020,
+      "tmdbId": 529203,
+      "tmdbRating": 7.439,
+      "votes": 4181,
+      "score": 1.5,
+      "rank": 80,
+      "director": [
+        "Joel Crawford"
+      ],
+      "runtime": 95,
+      "genres": [
+        "Animation",
+        "Family",
+        "Adventure",
+        "Fantasy",
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/tbVZ3Sq88dZaCANlUcewQuHQOaE.jpg",
+      "providers": {
+        "flatrate": [
+          "Peacock Premium",
+          "Peacock Premium Plus"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "FlixFling"
+        ]
+      },
+      "why": "Emma Stone (stars in Poor Things 4.5★, Bugonia 4.5★)"
+    },
+    {
+      "title": "Crazy, Stupid, Love.",
+      "year": 2011,
+      "tmdbId": 50646,
+      "tmdbRating": 7.275,
+      "votes": 9370,
+      "score": 1.5,
+      "rank": 81,
+      "director": [
+        "Glenn Ficarra",
+        "John Requa"
+      ],
+      "runtime": 118,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/p4RafgAPk558muOjnBMHhMArjS2.jpg",
+      "providers": {
+        "flatrate": [
+          "HBO Max Amazon Channel",
+          "YouTube TV",
+          "HBO Max"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Spectrum On Demand"
+        ]
+      },
+      "why": "Emma Stone (stars in Poor Things 4.5★, Bugonia 4.5★)"
+    },
+    {
+      "title": "Jackass Forever",
+      "year": 2022,
+      "tmdbId": 656663,
+      "tmdbRating": 6.788,
+      "votes": 932,
+      "score": 1.6,
+      "rank": 82,
+      "director": [
+        "Jeff Tremaine"
+      ],
+      "runtime": 96,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Documentary"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/ruHDFumJfW7F2vEqTZEQQ9xT7CA.jpg",
+      "providers": {
+        "flatrate": [
+          "Paramount Plus Premium",
+          "Paramount Plus Essential",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel"
+        ],
+        "rent": [
+          "JustWatch TV",
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Spectrum On Demand"
+        ]
+      },
+      "why": "Eric André (wrote Bad Trip 4★)"
+    },
+    {
+      "title": "Togo",
+      "year": 2019,
+      "tmdbId": 606856,
+      "tmdbRating": 8.137,
+      "votes": 2327,
+      "score": 1.25,
+      "rank": 83,
+      "director": [
+        "Ericson Core"
+      ],
+      "runtime": 113,
+      "genres": [
+        "Adventure",
+        "Family"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/921q4gPNN4J6UxvKaw6SCNBe3F8.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": []
+      },
+      "why": "Willem Dafoe (stars in Poor Things 4.5★, The Lighthouse 4★)"
+    },
+    {
+      "title": "Remember Me",
+      "year": 2010,
+      "tmdbId": 23169,
+      "tmdbRating": 7.103,
+      "votes": 3757,
+      "score": 1.5,
+      "rank": 84,
+      "director": [
+        "Allen Coulter"
+      ],
+      "runtime": 113,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/j7umuMiLCHvWT7wYhFKJOTFSokF.jpg",
+      "providers": {
+        "flatrate": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Robert Pattinson (stars in The Odyssey 5★, The Lighthouse 4★)"
+    },
+    {
+      "title": "Water for Elephants",
+      "year": 2011,
+      "tmdbId": 55787,
+      "tmdbRating": 6.93,
+      "votes": 2641,
+      "score": 1.5,
+      "rank": 85,
+      "director": [
+        "Francis Lawrence"
+      ],
+      "runtime": 122,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/8T7Hvb9trKvCAmbSI8cEIU0Sl2T.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Robert Pattinson (stars in The Odyssey 5★, The Lighthouse 4★)"
+    },
+    {
+      "title": "Tomorrowland",
+      "year": 2015,
+      "tmdbId": 158852,
+      "tmdbRating": 6.297,
+      "votes": 7401,
+      "score": 1.6500000000000001,
+      "rank": 86,
+      "director": [
+        "Brad Bird"
+      ],
+      "runtime": 130,
+      "genres": [
+        "Adventure",
+        "Family",
+        "Mystery",
+        "Science Fiction"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/kziYpr5Nfw60P0My8aj1sgCEqed.jpg",
+      "providers": {
+        "flatrate": [
+          "Disney Plus"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Damon Lindelof (wrote Prometheus 4.5★)"
+    },
+    {
+      "title": "Little Brother",
+      "year": 2026,
+      "tmdbId": 1397385,
+      "tmdbRating": 6.419,
+      "votes": 278,
+      "score": 1.6,
+      "rank": 87,
+      "director": [
+        "Matt Spicer"
+      ],
+      "runtime": 101,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/hIJpXb7Xaje2mebN9ylsS7blQzP.jpg",
+      "providers": {
+        "flatrate": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ],
+        "rent": []
+      },
+      "why": "Eric André (wrote Bad Trip 4★)"
+    },
+    {
+      "title": "Ashby",
+      "year": 2015,
+      "tmdbId": 330112,
+      "tmdbRating": 6.206,
+      "votes": 466,
+      "score": 1.6500000000000001,
+      "rank": 88,
+      "director": [
+        "Tony McNamara"
+      ],
+      "runtime": 102,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/hQDEvfqoYD33JnMWKccVDeWOkVG.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Tony McNamara (wrote Poor Things 4.5★)"
+    },
+    {
+      "title": "Jackass 4.5",
+      "year": 2022,
+      "tmdbId": 828853,
+      "tmdbRating": 6.404,
+      "votes": 401,
+      "score": 1.6,
+      "rank": 89,
+      "director": [
+        "Jeff Tremaine"
+      ],
+      "runtime": 90,
+      "genres": [
+        "Comedy",
+        "Action",
+        "Documentary"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/bl686OSeMQOvs90IQAgt8QipCsB.jpg",
+      "providers": {
+        "flatrate": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Spectrum On Demand"
+        ]
+      },
+      "why": "Eric André (wrote Bad Trip 4★)"
+    },
+    {
+      "title": "Platoon",
+      "year": 1986,
+      "tmdbId": 792,
+      "tmdbRating": 7.751,
+      "votes": 5176,
+      "score": 1.25,
+      "rank": 90,
+      "director": [
+        "Oliver Stone"
+      ],
+      "runtime": 120,
+      "genres": [
+        "Drama",
+        "War",
+        "Action"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/m3mmFkPQKvPZq5exmh0bDuXlD9T.jpg",
+      "providers": {
+        "flatrate": [
+          "Amazon Prime Video",
+          "MGM Plus Roku Premium Channel",
+          "YouTube TV",
+          "MGM Plus",
+          "Amazon Prime Video with Ads"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Spectrum On Demand",
+          "Plex"
+        ]
+      },
+      "why": "Willem Dafoe (stars in Poor Things 4.5★, The Lighthouse 4★)"
+    },
+    {
+      "title": "Mississippi Burning",
+      "year": 1988,
+      "tmdbId": 1632,
+      "tmdbRating": 7.673,
+      "votes": 1974,
+      "score": 1.25,
+      "rank": 91,
+      "director": [
+        "Alan Parker"
+      ],
+      "runtime": 128,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/wvEx2WbxZXYljQ9vSoq37NgeXcJ.jpg",
+      "providers": {
+        "flatrate": [
+          "Amazon Prime Video",
+          "MGM Plus Roku Premium Channel",
+          "MGM Plus",
+          "Amazon Prime Video with Ads"
+        ],
+        "rent": [
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Willem Dafoe (stars in Poor Things 4.5★, The Lighthouse 4★)"
+    },
+    {
+      "title": "Kubo and the Two Strings",
+      "year": 2016,
+      "tmdbId": 313297,
+      "tmdbRating": 7.635,
+      "votes": 3851,
+      "score": 1.25,
+      "rank": 92,
+      "director": [
+        "Travis Knight"
+      ],
+      "runtime": 102,
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Family"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/ewcOCkuuKAKULGUnbBVaO1htt0D.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Spectrum On Demand"
+        ]
+      },
+      "why": "Charlize Theron (stars in Prometheus 4.5★, Mad Max: Fury Road 4★)"
+    },
+    {
+      "title": "The Twilight Saga: Breaking Dawn - Part 2",
+      "year": 2012,
+      "tmdbId": 50620,
+      "tmdbRating": 6.5,
+      "votes": 9426,
+      "score": 1.5,
+      "rank": 93,
+      "director": [
+        "Bill Condon"
+      ],
+      "runtime": 115,
+      "genres": [
+        "Fantasy",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/7IGdPaKujv0BjI0Zd0m0a4CzEjJ.jpg",
+      "providers": {
+        "flatrate": [
+          "Hulu",
+          "HBO Max Amazon Channel",
+          "YouTube TV"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Spectrum On Demand",
+          "Plex"
+        ]
+      },
+      "why": "Robert Pattinson (stars in The Odyssey 5★, The Lighthouse 4★)"
+    },
+    {
+      "title": "Men of Honor",
+      "year": 2000,
+      "tmdbId": 11978,
+      "tmdbRating": 7.491,
+      "votes": 2539,
+      "score": 1.25,
+      "rank": 94,
+      "director": [
+        "George Tillman Jr."
+      ],
+      "runtime": 129,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/wNUAnXV1mzOOfvnVBIYsalkk078.jpg",
+      "providers": {
+        "flatrate": [
+          "Amazon Prime Video",
+          "fuboTV",
+          "Amazon Prime Video with Ads"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Charlize Theron (stars in Prometheus 4.5★, Mad Max: Fury Road 4★)"
+    },
+    {
+      "title": "The Devil's Advocate",
+      "year": 1997,
+      "tmdbId": 1813,
+      "tmdbRating": 7.479,
+      "votes": 6895,
+      "score": 1.25,
+      "rank": 95,
+      "director": [
+        "Taylor Hackford"
+      ],
+      "runtime": 144,
+      "genres": [
+        "Horror",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/5ZzBGpxy55OQzHxKVY11IpY6a0o.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Spectrum On Demand"
+        ]
+      },
+      "why": "Charlize Theron (stars in Prometheus 4.5★, Mad Max: Fury Road 4★)"
+    },
+    {
+      "title": "Inside Man",
+      "year": 2006,
+      "tmdbId": 388,
+      "tmdbRating": 7.41,
+      "votes": 6437,
+      "score": 1.25,
+      "rank": 96,
+      "director": [
+        "Spike Lee"
+      ],
+      "runtime": 129,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/ffMUgkDZICNiyaws1Jkv8qG8uFW.jpg",
+      "providers": {
+        "flatrate": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Willem Dafoe (stars in Poor Things 4.5★, The Lighthouse 4★)"
+    },
+    {
+      "title": "The Lost City of Z",
+      "year": 2017,
+      "tmdbId": 314095,
+      "tmdbRating": 6.39,
+      "votes": 3118,
+      "score": 1.5,
+      "rank": 97,
+      "director": [
+        "James Gray"
+      ],
+      "runtime": 141,
+      "genres": [
+        "Adventure",
+        "Drama",
+        "History"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/8SxHVNk6tqXYwygmDzz1YuJEm2J.jpg",
+      "providers": {
+        "flatrate": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "rent": [
+          "Google Play Movies",
+          "YouTube",
+          "FlixFling"
+        ]
+      },
+      "why": "Robert Pattinson (stars in The Odyssey 5★, The Lighthouse 4★)"
+    },
+    {
+      "title": "Twilight",
+      "year": 2008,
+      "tmdbId": 8966,
+      "tmdbRating": 6.281,
+      "votes": 14507,
+      "score": 1.5,
+      "rank": 98,
+      "director": [
+        "Catherine Hardwicke"
+      ],
+      "runtime": 122,
+      "genres": [
+        "Fantasy",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/3Gkb6jm6962ADUPaCBqzz9CTbn9.jpg",
+      "providers": {
+        "flatrate": [
+          "Hulu",
+          "YouTube TV"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Plex"
+        ]
+      },
+      "why": "Robert Pattinson (stars in The Odyssey 5★, The Lighthouse 4★)"
+    },
+    {
+      "title": "The Boondock Saints",
+      "year": 1999,
+      "tmdbId": 8374,
+      "tmdbRating": 7.251,
+      "votes": 2732,
+      "score": 1.25,
+      "rank": 99,
+      "director": [
+        "Troy Duffy"
+      ],
+      "runtime": 108,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/wtLUmkWg41xFLpvmUWAN1mm65f6.jpg",
+      "providers": {
+        "flatrate": [
+          "Amazon Prime Video",
+          "Hulu",
+          "Peacock Premium",
+          "Amazon Prime Video with Ads",
+          "Peacock Premium Plus"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Willem Dafoe (stars in Poor Things 4.5★, The Lighthouse 4★)"
+    },
+    {
+      "title": "North Country",
+      "year": 2005,
+      "tmdbId": 9701,
+      "tmdbRating": 7.248,
+      "votes": 751,
+      "score": 1.25,
+      "rank": 100,
+      "director": [
+        "Niki Caro"
+      ],
+      "runtime": 126,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/upxUN4zmX79o49mBW9htKZDeNq7.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Spectrum On Demand"
+        ]
+      },
+      "why": "Charlize Theron (stars in Prometheus 4.5★, Mad Max: Fury Road 4★)"
     }
   ],
   "themePicks": [
@@ -425,6 +3505,7 @@
       "year": 1998,
       "tmdbId": 10494,
       "tmdbRating": 8.3,
+      "votes": 3265,
       "theme": "unravelling",
       "why": "unravelling — the thread through 3 of your loved films",
       "director": [
@@ -449,11 +3530,71 @@
           "YouTube",
           "Fandango At Home"
         ]
-      },
-      "scores": {
-        "rt": 85,
-        "metacritic": 67,
-        "imdb": 8
+      }
+    },
+    {
+      "title": "Modern Times",
+      "year": 1936,
+      "tmdbId": 3082,
+      "tmdbRating": 8.281,
+      "votes": 4124,
+      "theme": "unravelling",
+      "why": "unravelling — the thread through 3 of your loved films",
+      "director": [
+        "Charlie Chaplin"
+      ],
+      "runtime": 87,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/7uoiKOEjxBBW0AgDGQWrlfGQ90w.jpg",
+      "providers": {
+        "flatrate": [
+          "Amazon Prime Video",
+          "HBO Max Amazon Channel",
+          "YouTube TV",
+          "Criterion Channel",
+          "HBO Max",
+          "Amazon Prime Video with Ads"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Fandango At Home"
+        ]
+      }
+    },
+    {
+      "title": "Sunset Boulevard",
+      "year": 1950,
+      "tmdbId": 599,
+      "tmdbRating": 8.274,
+      "votes": 2970,
+      "theme": "unravelling",
+      "why": "unravelling — the thread through 3 of your loved films",
+      "director": [
+        "Billy Wilder"
+      ],
+      "runtime": 110,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/zt8aQ6ksqK6p1AopC5zVTDS9pKT.jpg",
+      "providers": {
+        "flatrate": [
+          "Kanopy"
+        ],
+        "rent": [
+          "JustWatch TV",
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Spectrum On Demand"
+        ]
       }
     },
     {
@@ -461,6 +3602,7 @@
       "year": 2020,
       "tmdbId": 770156,
       "tmdbRating": 8.358,
+      "votes": 367,
       "theme": "grief-horror",
       "why": "grief-horror — the thread through 4 of your loved films",
       "director": [
@@ -488,11 +3630,66 @@
           "YouTube",
           "Fandango At Home"
         ]
-      },
-      "scores": {
-        "rt": null,
-        "metacritic": null,
-        "imdb": 7.1
+      }
+    },
+    {
+      "title": "Prayers for Bobby",
+      "year": 2009,
+      "tmdbId": 21634,
+      "tmdbRating": 8.062,
+      "votes": 638,
+      "theme": "grief-horror",
+      "why": "grief-horror — the thread through 4 of your loved films",
+      "director": [
+        "Russell Mulcahy"
+      ],
+      "runtime": 89,
+      "genres": [
+        "Drama",
+        "History",
+        "TV Movie"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/1viFwXluAettogGDsTrSUUg29lZ.jpg",
+      "providers": {
+        "flatrate": [
+          "Disney Plus",
+          "Hulu",
+          "Lifetime Movie Club",
+          "Lifetime Movie Club Apple TV Channel",
+          "Lifetime Movie Club Amazon Channel"
+        ],
+        "rent": []
+      }
+    },
+    {
+      "title": "Dear Zachary: A Letter to a Son About His Father",
+      "year": 2008,
+      "tmdbId": 15584,
+      "tmdbRating": 8.046,
+      "votes": 588,
+      "theme": "grief-horror",
+      "why": "grief-horror — the thread through 4 of your loved films",
+      "director": [
+        "Kurt Kuenne"
+      ],
+      "runtime": 94,
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/yYVHGe7U55Ojx11y5A82phPpCHv.jpg",
+      "providers": {
+        "flatrate": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
       }
     },
     {
@@ -500,6 +3697,7 @@
       "year": 1997,
       "tmdbId": 637,
       "tmdbRating": 8.439,
+      "votes": 14095,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 2 of your loved films",
       "director": [
@@ -526,11 +3724,253 @@
           "YouTube",
           "Fandango At Home"
         ]
-      },
-      "scores": {
-        "rt": 80,
-        "metacritic": 58,
-        "imdb": 8.6
+      }
+    },
+    {
+      "title": "The Great Dictator",
+      "year": 1940,
+      "tmdbId": 914,
+      "tmdbRating": 8.28,
+      "votes": 3743,
+      "theme": "cruel-comedy",
+      "why": "cruel-comedy — the thread through 2 of your loved films",
+      "director": [
+        "Charlie Chaplin"
+      ],
+      "runtime": 125,
+      "genres": [
+        "Comedy",
+        "War"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/nhMXB8GTdswYMCL9nepDZymJCOr.jpg",
+      "providers": {
+        "flatrate": [
+          "fuboTV",
+          "HBO Max Amazon Channel",
+          "YouTube TV",
+          "Criterion Channel",
+          "HBO Max",
+          "IndieFlix Shorts Amazon Channel"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Fandango At Home"
+        ]
+      }
+    },
+    {
+      "title": "I Swear",
+      "year": 2025,
+      "tmdbId": 1317149,
+      "tmdbRating": 8.24,
+      "votes": 400,
+      "theme": "cruel-comedy",
+      "why": "cruel-comedy — the thread through 2 of your loved films",
+      "director": [
+        "Kirk Jones"
+      ],
+      "runtime": 121,
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/vUwyhNWBKkSwK8ELvEeBRwV724h.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Plex"
+        ]
+      }
+    },
+    {
+      "title": "The Quintessential Quintuplets Movie",
+      "year": 2022,
+      "tmdbId": 820067,
+      "tmdbRating": 8.3,
+      "votes": 447,
+      "theme": "doubling",
+      "why": "doubling — the thread through 2 of your loved films",
+      "director": [
+        "Masato Jimbo"
+      ],
+      "runtime": 136,
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/sg7klpt1xwK1IJirBI9EHaqQwJ5.jpg",
+      "providers": {
+        "flatrate": [
+          "Netflix",
+          "Crunchyroll",
+          "Crunchyroll Amazon Channel",
+          "Netflix Standard with Ads"
+        ],
+        "rent": [
+          "Apple TV Store"
+        ]
+      }
+    },
+    {
+      "title": "Incendies",
+      "year": 2010,
+      "tmdbId": 46738,
+      "tmdbRating": 8.112,
+      "votes": 3354,
+      "theme": "doubling",
+      "why": "doubling — the thread through 2 of your loved films",
+      "director": [
+        "Denis Villeneuve"
+      ],
+      "runtime": 131,
+      "genres": [
+        "Drama",
+        "War",
+        "Mystery"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/yH6DAQVgbyj72S66gN4WWVoTjuf.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      }
+    },
+    {
+      "title": "The Young Girls of Rochefort",
+      "year": 1967,
+      "tmdbId": 2433,
+      "tmdbRating": 7.672,
+      "votes": 661,
+      "theme": "doubling",
+      "why": "doubling — the thread through 2 of your loved films",
+      "director": [
+        "Jacques Demy"
+      ],
+      "runtime": 126,
+      "genres": [
+        "Romance",
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/jtxhyGaYhurH6KsjvP1jV3dDypz.jpg",
+      "providers": {
+        "flatrate": [
+          "HBO Max Amazon Channel",
+          "YouTube TV",
+          "Criterion Channel",
+          "HBO Max"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Fandango At Home"
+        ]
+      }
+    },
+    {
+      "title": "The Thing",
+      "year": 1982,
+      "tmdbId": 1091,
+      "tmdbRating": 8.1,
+      "votes": 8065,
+      "theme": "body-horror",
+      "why": "body-horror — the thread through 2 of your loved films",
+      "director": [
+        "John Carpenter"
+      ],
+      "runtime": 109,
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Science Fiction"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/ob1NaOSYDC4iBaFkTgIUecaMFGT.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      }
+    },
+    {
+      "title": "Lee Cronin's The Mummy",
+      "year": 2026,
+      "tmdbId": 1304313,
+      "tmdbRating": 7.956,
+      "votes": 2351,
+      "theme": "body-horror",
+      "why": "body-horror — the thread through 2 of your loved films",
+      "director": [
+        "Lee Cronin"
+      ],
+      "runtime": 133,
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/1q308iixueCU4pFtSYugNOevtNx.jpg",
+      "providers": {
+        "flatrate": [
+          "HBO Max Amazon Channel",
+          "HBO Max"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Plex"
+        ]
+      }
+    },
+    {
+      "title": "Dragon Ball Super: Broly",
+      "year": 2018,
+      "tmdbId": 503314,
+      "tmdbRating": 7.948,
+      "votes": 3212,
+      "theme": "body-horror",
+      "why": "body-horror — the thread through 2 of your loved films",
+      "director": [
+        "Tatsuya Nagamine"
+      ],
+      "runtime": 101,
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Animation"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/uMEgkyiPznZP5AiMSWAk2jsj5gC.jpg",
+      "providers": {
+        "flatrate": [
+          "Hulu",
+          "Crunchyroll",
+          "Crunchyroll Amazon Channel",
+          "YouTube TV"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "Fandango At Home"
+        ]
       }
     }
   ]
