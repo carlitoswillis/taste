@@ -63,7 +63,15 @@ In the page that pool is something to browse rather than a fixed list:
 - **Lenses** — `under 100 min`, `long haul`, `pre-1980`, `this century`, `deep cuts`, `critics agree`. The shape of an evening, not another genre filter.
 - **Order & shuffle** — best fit, highest rated, newest, oldest, or shuffled. Shuffle holds still until you press it again.
 - **Show more / show all** — the headline unfolds into the whole pool.
-- **My streaming** — pick the services you actually pay for and suggestions narrow to what you can watch tonight; cards get a `▶ Criterion Channel` badge. **Off unless you pick something** — no selection means no filtering. Optionally count rent & buy as available too. Your picks live in the browser (`localStorage`), so they survive reloads and never reach the repo; `config.json` can carry a `"services": [...]` list to seed a fresh browser.
+- **My streaming** — pick the services you actually pay for and everything narrows to what you can watch tonight; cards get a `▶ Criterion Channel` badge. **Off unless you pick something** — no selection means no filtering. Optionally count rent & buy as available too. Your picks live in the browser (`localStorage`), so they survive reloads and never reach the repo; `config.json` can carry a `"services": [...]` list to seed a fresh browser.
+
+The same lenses and service filter run over **Up next**, so the queue answers "what can I
+actually watch tonight" and not just "what did I argue for". Two rules keep that honest: a
+filtered queue always says what it withheld (`2 · 17 filtered out`), and cards keep their real
+rank — filtering never renumbers the argument. The queue drops the `deep cuts` lens, since
+enrichment carries no vote counts and a lens that silently matches nothing is worse than no
+lens. The services drawer sits at the top of the tab because it governs all of it: queue,
+spotlight and suggestions alike.
 
 TMDB lists every reselling of a service separately — *Netflix*, *Netflix Standard with Ads*,
 *HBO Max Amazon Channel*. The app collapses those to the thing you'd actually say you have,

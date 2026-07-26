@@ -28,12 +28,18 @@ filmography meters (see `ai/plans/ui-rework.md`).
 
 **Suggestion pools.** The suggesters write a deep ranked pool (`items`, plus `head` marking
 where the tight top ends); the client decides how much of it to show. One shared layer in
-`app.js` serves all three media:
+`app.js` serves all three media *and* both hand-ranked queues (`queue`, `tvqueue`):
 - `poolView(medium, items)` — filter (lens + streaming services) → order → cut to the
-  unfolded length. `poolControls` / `poolList` / `poolMore` render it, `wirePool` binds it.
-  Per-medium view state lives in `state.pool[medium]` and is deliberately *not* persisted:
-  a fresh visit starts from the ranking the engine produced.
+  unfolded length; returns `hidden` so a filtered view can admit what it withheld.
+  `poolControls` / `poolList` / `poolMore` render it, `wirePool` binds it. Per-medium view
+  state lives in `state.pool[medium]` and is deliberately *not* persisted: a fresh visit
+  starts from the ranking the engine produced. The queues start at `shown: Infinity` — they
+  are curated, so there is nothing to unfold.
 - `LENSES` — shape-of-the-evening predicates (runtime, era, obscurity, critical standing).
+  `FACTS[medium]` normalises a row before a predicate sees it: suggestions carry their own
+  runtime/providers, queue entries get them from `enrichment.json` keyed `"Title (Year)"`.
+  That indirection is why the same lens code works over both. The queue lens set omits
+  `deep cuts` because enrichment has no vote counts.
 - Shuffle is `hash32(title + seed)`, so an order holds still while you interact with it and
   reshuffles wholesale when the seed bumps. The "Tonight" spotlight indexes the pool by
   `Math.floor(Date.now() / 86400000)`, so it rotates daily with no rerun.

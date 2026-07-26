@@ -29,6 +29,9 @@ const state = {
     film: { lens: "all", order: "fit", shown: 0, seed: 1, spin: 0 },
     tv: { lens: "all", order: "fit", shown: 0, seed: 1, spin: 0 },
     book: { lens: "all", order: "fit", shown: 0, seed: 1, spin: 0 },
+    // the two hand-ranked queues: curated, so they start fully unfolded
+    queue: { lens: "all", order: "fit", shown: Infinity, seed: 1, spin: 0 },
+    tvqueue: { lens: "all", order: "fit", shown: Infinity, seed: 1, spin: 0 },
   },
 };
 
@@ -268,8 +271,13 @@ function serviceOptions(pools) {
       for (const s of servicesOf(item)) counts.set(s, (counts.get(s) ?? 0) + 1);
     }
   }
-  for (const s of state.prefs.services) if (!counts.has(s)) counts.set(s, 0); // keep picks visible
-  return [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  const ranked = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  // Cap the tail. Deep pools drag in a long list of niche channels carrying one
+  // title each; past a couple of dozen the row is a wall, not a control. Sorted
+  // by coverage, so what's cut is what would have filtered almost nothing.
+  const kept = ranked.slice(0, 24);
+  for (const s of state.prefs.services) if (!kept.some(([n]) => n === s)) kept.push([s, counts.get(s) ?? 0]);
+  return kept;
 }
 
 function servicesBlock(pools) {
@@ -296,33 +304,57 @@ function servicesBlock(pools) {
 
 // ---------- suggestion pools: lenses, order, rotation ----------
 
-// [id, label, predicate] — the shape of a night, not another genre list
+// [id, label, predicate] — the shape of a night, not another genre list.
+// Predicates read a normalised facts object, never the raw row: a suggestion
+// carries its own runtime and providers, a queue entry gets them from
+// enrichment. FACTS below is what reconciles the two.
+const ALL = ["all", "everything", () => true];
+const ACCLAIMED = ["acclaimed", "critics agree", (i) => (i.scores?.rt ?? 0) >= 90 || (i.scores?.metacritic ?? 0) >= 80];
+const SHORT = ["short", "under 100 min", (i) => i.runtime > 0 && i.runtime < 100];
+const LONG = ["long", "long haul", (i) => i.runtime >= 140];
+const OLDER = ["older", "pre-1980", (i) => i.year < 1980];
+const NEWER = ["newer", "this century", (i) => i.year >= 2000];
+
 const LENSES = {
-  film: [
-    ["all", "everything", () => true],
-    ["short", "under 100 min", (i) => i.runtime > 0 && i.runtime < 100],
-    ["long", "long haul", (i) => i.runtime >= 140],
-    ["older", "pre-1980", (i) => i.year < 1980],
-    ["newer", "this century", (i) => i.year >= 2000],
-    ["deep", "deep cuts", (i) => (i.votes ?? 0) > 0 && i.votes < 1200],
-    ["acclaimed", "critics agree", (i) => (i.scores?.rt ?? 0) >= 90 || (i.scores?.metacritic ?? 0) >= 80],
-  ],
+  film: [ALL, SHORT, LONG, OLDER, NEWER, ["deep", "deep cuts", (i) => (i.votes ?? 0) > 0 && i.votes < 1200], ACCLAIMED],
+  // the queue drops "deep cuts": enrichment carries no vote counts, and a lens
+  // that silently matches nothing is worse than no lens
+  queue: [ALL, SHORT, LONG, OLDER, NEWER, ACCLAIMED],
   tv: [
-    ["all", "everything", () => true],
+    ALL,
     ["mini", "one season", (i) => i.seasons === 1],
     ["long", "long haul", (i) => i.seasons >= 4],
     ["older", "pre-2010", (i) => i.year < 2010],
     ["newer", "recent", (i) => i.year >= 2015],
     ["deep", "deep cuts", (i) => (i.votes ?? 0) > 0 && i.votes < 600],
-    ["acclaimed", "critics agree", (i) => (i.scores?.rt ?? 0) >= 90 || (i.scores?.metacritic ?? 0) >= 80],
+    ACCLAIMED,
+  ],
+  tvqueue: [
+    ALL,
+    ["mini", "one season", (i) => i.seasons === 1],
+    ["long", "long haul", (i) => i.seasons >= 4],
+    ["older", "pre-2010", (i) => i.year < 2010],
+    ["newer", "recent", (i) => i.year >= 2015],
+    ACCLAIMED,
   ],
   book: [
-    ["all", "everything", () => true],
+    ALL,
     ["short", "under 300 pp", (i) => i.pages > 0 && i.pages < 300],
     ["long", "doorstop", (i) => i.pages >= 500],
     ["older", "pre-1970", (i) => i.year && i.year < 1970],
-    ["newer", "this century", (i) => i.year >= 2000],
+    NEWER,
   ],
+};
+
+// How to read filterable facts off a row. Suggestions already carry theirs;
+// queue entries are hand-written, so runtime/providers/scores come from the
+// enrichment file keyed by "Title (Year)".
+const FACTS = {
+  film: (i) => i,
+  tv: (i) => i,
+  book: (i) => i,
+  queue: (f) => ({ ...f, ...enrichFor(f) }),
+  tvqueue: (w) => ({ ...w, ...tvEnrichFor(w) }),
 };
 
 const ORDERS = [
@@ -363,11 +395,15 @@ const today = () => Math.floor(Date.now() / 86400000);
 // filter → order → cut to the unfolded length, for one medium's pool
 function poolView(medium, items) {
   const v = state.pool[medium];
+  const facts = FACTS[medium];
   const lens = LENSES[medium].find((l) => l[0] === v.lens) ?? LENSES[medium][0];
-  let list = items.filter(lens[2]);
-  if (medium !== "book") list = list.filter(onMyServices);
-  list = [...list].sort(orderFn(v.order, v.seed));
-  return { all: list, shown: list.slice(0, v.shown), v };
+  let list = items.filter((i) => {
+    const f = facts(i);
+    return lens[2](f) && (medium === "book" || onMyServices(f));
+  });
+  const cmp = orderFn(v.order, v.seed);
+  list = [...list].sort((a, b) => cmp(facts(a), facts(b)));
+  return { all: list, shown: list.slice(0, v.shown), v, hidden: items.length - list.length };
 }
 
 function poolControls(medium, view) {
@@ -381,13 +417,18 @@ function poolControls(medium, view) {
   const orders = ORDERS.map(
     ([id, label]) => `<option value="${id}"${v.order === id ? " selected" : ""}>${esc(label)}</option>`
   ).join("");
+  // say what's being withheld — hiding rows out of a hand-ranked queue without
+  // admitting it would be the worst version of this feature
+  const showing = Math.min(v.shown, all.length);
+  const count = showing < all.length ? `${showing} of ${all.length}` : `${all.length}`;
+  const hidden = view.hidden > 0 ? `<span class="hid"> · ${view.hidden} filtered out</span>` : "";
   return `
     <div class="poolbar" data-medium="${medium}">
       <div class="controls">${chips}</div>
       <div class="controls">
-        <select class="pool-order" aria-label="Order suggestions">${orders}</select>
-        <button class="btn small pool-shuffle" title="Reshuffle the whole pool">⤫ Shuffle</button>
-        <span class="poolcount">${Math.min(v.shown, all.length)} of ${all.length}</span>
+        <select class="pool-order" aria-label="Order">${orders}</select>
+        <button class="btn small pool-shuffle" title="Reshuffle">⤫ Shuffle</button>
+        <span class="poolcount">${count}${hidden}</span>
       </div>
     </div>`;
 }
@@ -489,9 +530,9 @@ function renderHeader() {
 function renderWatch() {
   const { watchlist, "old-films": oldFilms } = state.data;
   const q = state.q;
-  const items = watchlist
-    .filter((f) => matches(q, f.title, f.director, f.why))
-    .sort((a, b) => a.rank - b.rank);
+  const searched = watchlist.filter((f) => matches(q, f.title, f.director, f.why));
+  const queueView = poolView("queue", searched);
+  const items = queueView.shown;
 
   const queueHtml = items.length
     ? items
@@ -515,7 +556,13 @@ function renderWatch() {
     </div>`;
         })
         .join("")
-    : `<div class="empty">${q ? "Nothing in the queue matches that search." : "Queue is empty — add the next thing worth arguing for."}</div>`;
+    : `<div class="empty">${
+        q
+          ? "Nothing in the queue matches that search."
+          : queueView.hidden
+          ? "Everything in the queue is filtered out — drop a lens or a service."
+          : "Queue is empty — add the next thing worth arguing for."
+      }</div>`;
 
   // ---- suggestions: one deep pool, browsed through lenses ----
   const sugg = state.data.suggestions;
@@ -575,7 +622,6 @@ function renderWatch() {
     ? `
     <h2 class="sect">Suggested by the data <span class="n">· ${suggView.all.length}${narrowed ? ` of ${suggAll.length}` : ""}</span></h2>
     <p class="lede">Generated from the people behind your 4★+ films — directors, writers, actors, weighted by your scores — minus everything already logged. ${state.data.watched ? "" : "<strong>Your full watch history isn't imported yet</strong>, so some of these you'll have seen — run the Letterboxd CSV import to fix that (README has the two steps)."} Regenerate with <span style="font-family:var(--mono)">npm run suggest</span>.</p>
-    ${servicesBlock([sugg?.items, sugg?.themePicks])}
     ${poolControls("film", suggView)}
     ${suggHtml}
     ${poolMore("film", suggView)}`
@@ -608,10 +654,20 @@ function renderWatch() {
       .join("")}`
     : "";
 
+  // one drawer at the top of the tab: the services govern the queue, the
+  // spotlight and the suggestions alike, so the control belongs above all three
+  const servicesHtml = servicesBlock([
+    watchlist.map(FACTS.queue),
+    sugg?.items,
+    sugg?.themePicks,
+  ]);
+
   $("#tab-watch").innerHTML = `
+    ${servicesHtml}
     ${spotHtml}
     <h2 class="sect">Up next <span class="n">· ${items.length}</span>${state.canWrite ? ` <button class="btn small" id="queue-open" style="margin-left:10px">+ Add</button>` : ""}</h2>
     <p class="lede">The ranked argument for what to watch, not a wishlist. Logging a film clears it from the queue.</p>
+    ${searched.length > 4 ? poolControls("queue", queueView) : ""}
     ${queueHtml}
     ${suggSection}
     ${themePickSection}
@@ -810,9 +866,9 @@ function renderTV() {
     })
     .join("");
 
-  const queue = (state.data.tvWatchlist ?? [])
-    .filter((w) => matches(q, w.title, w.creator, w.why))
-    .sort((a, b) => a.rank - b.rank);
+  const queueSearched = (state.data.tvWatchlist ?? []).filter((w) => matches(q, w.title, w.creator, w.why));
+  const queueView = poolView("tvqueue", queueSearched);
+  const queue = queueView.shown;
   const queueHtml = queue.length
     ? queue
         .map((w) => {
@@ -834,7 +890,13 @@ function renderTV() {
     </div>`;
         })
         .join("")
-    : `<div class="empty">${q ? "Nothing in the TV queue matches that search." : "TV queue is empty — the suggestions below are where the film log points."}</div>`;
+    : `<div class="empty">${
+        q
+          ? "Nothing in the TV queue matches that search."
+          : queueView.hidden
+          ? "Everything in the TV queue is filtered out — drop a lens or a service."
+          : "TV queue is empty — the suggestions below are where the film log points."
+      }</div>`;
 
   const sugg = state.data.tvSuggestions;
   const suggAll = (sugg?.items ?? []).filter((s) => matches(q, s.title, s.creators?.join(" "), s.why));
@@ -881,16 +943,17 @@ function renderTV() {
     ? `
     <h2 class="sect">Suggested by the data <span class="n">· ${suggView.all.length}${state.prefs.services.length ? ` of ${suggAll.length}` : ""}</span></h2>
     <p class="lede">Built from the people behind your 4★+ films${sugg.basedOn ? ` (${sugg.basedOn} of them)` : ""} — creators, writers, directors crossing into TV — minus everything already logged or queued. Regenerate with <span style="font-family:var(--mono)">npm run suggest:tv</span>.</p>
-    ${servicesBlock([sugg?.items])}
     ${poolControls("tv", suggView)}
     ${suggHtml}
     ${poolMore("tv", suggView)}`
     : "";
 
   $("#tab-tv").innerHTML = `
+    ${servicesBlock([(state.data.tvWatchlist ?? []).map(FACTS.tvqueue), sugg?.items])}
     ${watching.length ? `<h2 class="sect">Watching now <span class="n">· ${watching.length}</span></h2>${watchingHtml}` : ""}
     <h2 class="sect">Up next <span class="n">· ${queue.length}</span></h2>
     <p class="lede">The ranked TV queue. Logging a series clears it from here.</p>
+    ${queueSearched.length > 4 ? poolControls("tvqueue", queueView) : ""}
     ${queueHtml}
     ${suggSection}
     <h2 class="sect">Series log <span class="n">· ${logRows.length}</span>${state.canWrite ? ` <button class="btn small" id="tv-log-open" style="margin-left:10px">+ Log a series</button>` : ""}</h2>
