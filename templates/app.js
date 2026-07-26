@@ -20,7 +20,39 @@ const state = {
   filmTheme: "all",
   kwTheme: new Map(),
   themeName: new Map(),
+  // browsing preferences that outlive a reload — the picked streaming services
+  prefs: { services: [], includeRent: false },
+  // per-medium view of the suggestion pool: which lens, what order, how many
+  // rows are unfolded, and the shuffle seed. Not persisted: a fresh visit
+  // should start from the ranking the engine actually produced.
+  pool: {
+    film: { lens: "all", order: "fit", shown: 0, seed: 1, spin: 0 },
+    tv: { lens: "all", order: "fit", shown: 0, seed: 1, spin: 0 },
+    book: { lens: "all", order: "fit", shown: 0, seed: 1, spin: 0 },
+  },
 };
+
+// ---------- persisted prefs ----------
+
+const PREFS_KEY = "taste.prefs";
+
+function loadPrefs() {
+  let saved = null;
+  try {
+    saved = JSON.parse(localStorage.getItem(PREFS_KEY));
+  } catch {}
+  // config.json can seed the service list for a fresh browser; localStorage wins after that
+  state.prefs = {
+    services: saved?.services ?? state.data.config?.services ?? [],
+    includeRent: saved?.includeRent ?? false,
+  };
+}
+
+function savePrefs() {
+  try {
+    localStorage.setItem(PREFS_KEY, JSON.stringify(state.prefs));
+  } catch {}
+}
 
 // ---------- data ----------
 
@@ -57,6 +89,11 @@ async function loadAll() {
     for (const k of t.keywords ?? []) state.kwTheme.set(k.toLowerCase().trim(), t.id);
   }
   state.canWrite = await fetch("api/health").then((r) => r.ok).catch(() => false);
+  loadPrefs();
+  // start each pool unfolded to the engine's headline, the rest a click away
+  state.pool.film.shown ||= state.data.suggestions?.head ?? 12;
+  state.pool.tv.shown ||= state.data.tvSuggestions?.head ?? 10;
+  state.pool.book.shown ||= state.data.bookSuggestions?.head ?? 12;
 }
 
 async function api(path, body) {
@@ -124,9 +161,14 @@ function scoreBits(e) {
   return s.join(" · ");
 }
 
+// collapsed through canonService, so "Netflix, Netflix Standard with Ads,
+// Netflix basic with Ads" reads as the one service it actually is
 function streamBits(e) {
-  if (e?.providers?.flatrate?.length) return `stream: ${esc(e.providers.flatrate.slice(0, 3).join(", "))}`;
-  if (e?.providers?.rent?.length) return `rent: ${esc(e.providers.rent.slice(0, 3).join(", "))}`;
+  const names = (list) => [...new Set((list ?? []).map(canonService))];
+  const flat = names(e?.providers?.flatrate);
+  if (flat.length) return `stream: ${esc(flat.slice(0, 3).join(", "))}`;
+  const rent = names(e?.providers?.rent);
+  if (rent.length) return `rent: ${esc(rent.slice(0, 3).join(", "))}`;
   return "";
 }
 
@@ -147,6 +189,281 @@ const poster = (e, h = 66) =>
 
 const matches = (q, ...fields) =>
   !q || fields.some((f) => String(f ?? "").toLowerCase().includes(q));
+
+// ---------- streaming services ----------
+// TMDB lists every reselling of a service separately — "Netflix", "Netflix
+// Standard with Ads", "HBO Max Amazon Channel", three flavours of Paramount+.
+// Nobody subscribes to those separately, so collapse them to the thing you'd
+// actually say you have. First match wins; put the specific patterns first.
+const SERVICE_ALIASES = [
+  [/^netflix/i, "Netflix"],
+  [/^(hbo )?max/i, "HBO Max"],
+  [/^amazon prime video/i, "Prime Video"],
+  [/^paramount/i, "Paramount+"],
+  [/^peacock/i, "Peacock"],
+  [/^disney/i, "Disney+"],
+  [/^hulu/i, "Hulu"],
+  [/^apple tv/i, "Apple TV"],
+  [/^criterion/i, "Criterion Channel"],
+  [/^amc/i, "AMC+"],
+  [/^mgm/i, "MGM+"],
+  [/^starz/i, "Starz"],
+  [/^showtime/i, "Showtime"],
+  [/^shudder/i, "Shudder"],
+  [/^mubi/i, "MUBI"],
+  [/^britbox/i, "BritBox"],
+  [/^sundance/i, "Sundance Now"],
+  [/^fubo/i, "fuboTV"],
+  [/^philo/i, "Philo"],
+  [/^kanopy/i, "Kanopy"],
+  [/^hoopla/i, "Hoopla"],
+  [/^tubi/i, "Tubi"],
+  [/^pluto/i, "Pluto TV"],
+  [/^(the )?roku channel/i, "Roku Channel"],
+  [/^plex/i, "Plex"],
+  [/^youtube tv/i, "YouTube TV"],
+  [/^youtube/i, "YouTube"],
+  [/^google play/i, "Google Play"],
+  [/^fandango/i, "Fandango at Home"],
+];
+
+const canonService = (name) => {
+  for (const [re, label] of SERVICE_ALIASES) if (re.test(name)) return label;
+  return String(name)
+    .replace(/\s+(amazon|apple tv|roku premium|roku)\s+channel\s*$/i, "")
+    .replace(/\s+with ads$/i, "")
+    .trim();
+};
+
+// the subscription services an item streams on, deduplicated
+const servicesOf = (item) => [...new Set((item?.providers?.flatrate ?? []).map(canonService))];
+const rentable = (item) => (item?.providers?.rent ?? []).length > 0;
+
+const myServicesFor = (item) => servicesOf(item).filter((s) => state.prefs.services.includes(s));
+
+// Off by default: nothing is filtered until services are actually picked. With
+// "count rent & buy" on, anything you could pay to rent counts as reachable too.
+const onMyServices = (item) => {
+  if (!state.prefs.services.length) return true;
+  if (myServicesFor(item).length) return true;
+  return state.prefs.includeRent && rentable(item);
+};
+
+// "▶ Criterion Channel" on cards that land on something you have
+const serviceBadge = (item) => {
+  if (!state.prefs.services.length) return "";
+  const mine = myServicesFor(item);
+  if (mine.length) return `<span class="svc-badge">▶ ${esc(mine.slice(0, 2).join(", "))}</span>`;
+  return state.prefs.includeRent && rentable(item) ? `<span class="svc-badge rent">rent</span>` : "";
+};
+
+// Every subscription service in a pool, most common first. Built from the data,
+// so it only offers services that could actually match something — and only
+// flatrate ones: "do you have Netflix" is a real question, "do you have Google
+// Play" is not. Renting stays available through the checkbox below.
+function serviceOptions(pools) {
+  const counts = new Map();
+  for (const items of pools) {
+    for (const item of items ?? []) {
+      for (const s of servicesOf(item)) counts.set(s, (counts.get(s) ?? 0) + 1);
+    }
+  }
+  for (const s of state.prefs.services) if (!counts.has(s)) counts.set(s, 0); // keep picks visible
+  return [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+}
+
+function servicesBlock(pools) {
+  const opts = serviceOptions(pools);
+  if (!opts.length) return "";
+  const picked = state.prefs.services;
+  const chips = opts
+    .map(
+      ([name, n]) =>
+        `<button class="fchip svc-chip" data-service="${esc(name)}" aria-pressed="${picked.includes(name)}" title="${n} here">${esc(name)}</button>`
+    )
+    .join("");
+  return `
+    <details class="services"${picked.length ? " open" : ""}>
+      <summary>My streaming ${picked.length ? `<span class="n">· ${picked.length} on</span>` : `<span class="n">· off</span>`}</summary>
+      <p class="lede">Pick what you actually pay for and the suggestions narrow to it. Pick nothing and nothing is filtered — this is opt-in, not a permanent lens.</p>
+      <div class="controls">${chips}</div>
+      <div class="controls">
+        <label class="checkline"><input type="checkbox" class="svc-rent"${state.prefs.includeRent ? " checked" : ""}> count rent &amp; buy as available</label>
+        ${picked.length ? `<button class="btn small svc-clear">Clear</button>` : ""}
+      </div>
+    </details>`;
+}
+
+// ---------- suggestion pools: lenses, order, rotation ----------
+
+// [id, label, predicate] — the shape of a night, not another genre list
+const LENSES = {
+  film: [
+    ["all", "everything", () => true],
+    ["short", "under 100 min", (i) => i.runtime > 0 && i.runtime < 100],
+    ["long", "long haul", (i) => i.runtime >= 140],
+    ["older", "pre-1980", (i) => i.year < 1980],
+    ["newer", "this century", (i) => i.year >= 2000],
+    ["deep", "deep cuts", (i) => (i.votes ?? 0) > 0 && i.votes < 1200],
+    ["acclaimed", "critics agree", (i) => (i.scores?.rt ?? 0) >= 90 || (i.scores?.metacritic ?? 0) >= 80],
+  ],
+  tv: [
+    ["all", "everything", () => true],
+    ["mini", "one season", (i) => i.seasons === 1],
+    ["long", "long haul", (i) => i.seasons >= 4],
+    ["older", "pre-2010", (i) => i.year < 2010],
+    ["newer", "recent", (i) => i.year >= 2015],
+    ["deep", "deep cuts", (i) => (i.votes ?? 0) > 0 && i.votes < 600],
+    ["acclaimed", "critics agree", (i) => (i.scores?.rt ?? 0) >= 90 || (i.scores?.metacritic ?? 0) >= 80],
+  ],
+  book: [
+    ["all", "everything", () => true],
+    ["short", "under 300 pp", (i) => i.pages > 0 && i.pages < 300],
+    ["long", "doorstop", (i) => i.pages >= 500],
+    ["older", "pre-1970", (i) => i.year && i.year < 1970],
+    ["newer", "this century", (i) => i.year >= 2000],
+  ],
+};
+
+const ORDERS = [
+  ["fit", "best fit"],
+  ["rated", "highest rated"],
+  ["newest", "newest first"],
+  ["oldest", "oldest first"],
+  ["shuffle", "shuffled"],
+];
+
+// stable 32-bit hash — shuffling by hash(title + seed) keeps an order steady
+// while you interact with it, and reshuffles wholesale when the seed changes
+const hash32 = (s) => {
+  let h = 2166136261;
+  for (let i = 0; i < s.length; i++) {
+    h ^= s.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return h >>> 0;
+};
+const itemKey = (i) => `${i.title}|${i.year ?? i.author ?? ""}`;
+const ratingOf = (i) =>
+  i.scores?.metacritic != null ? i.scores.metacritic / 10 : i.tmdbRating ?? i.olRating?.average ?? 0;
+
+function orderFn(order, seed) {
+  return {
+    fit: (a, b) => (a.rank ?? 999) - (b.rank ?? 999),
+    rated: (a, b) => ratingOf(b) - ratingOf(a),
+    newest: (a, b) => (b.year ?? 0) - (a.year ?? 0),
+    oldest: (a, b) => (a.year ?? 9999) - (b.year ?? 9999),
+    shuffle: (a, b) => hash32(itemKey(a) + seed) - hash32(itemKey(b) + seed),
+  }[order];
+}
+
+// days since epoch — the spotlight moves on its own once a day, no click needed
+const today = () => Math.floor(Date.now() / 86400000);
+
+// filter → order → cut to the unfolded length, for one medium's pool
+function poolView(medium, items) {
+  const v = state.pool[medium];
+  const lens = LENSES[medium].find((l) => l[0] === v.lens) ?? LENSES[medium][0];
+  let list = items.filter(lens[2]);
+  if (medium !== "book") list = list.filter(onMyServices);
+  list = [...list].sort(orderFn(v.order, v.seed));
+  return { all: list, shown: list.slice(0, v.shown), v };
+}
+
+function poolControls(medium, view) {
+  const { all, v } = view;
+  const chips = LENSES[medium]
+    .map(
+      ([id, label]) =>
+        `<button class="fchip lens-chip" data-lens="${id}" aria-pressed="${v.lens === id}">${esc(label)}</button>`
+    )
+    .join("");
+  const orders = ORDERS.map(
+    ([id, label]) => `<option value="${id}"${v.order === id ? " selected" : ""}>${esc(label)}</option>`
+  ).join("");
+  return `
+    <div class="poolbar" data-medium="${medium}">
+      <div class="controls">${chips}</div>
+      <div class="controls">
+        <select class="pool-order" aria-label="Order suggestions">${orders}</select>
+        <button class="btn small pool-shuffle" title="Reshuffle the whole pool">⤫ Shuffle</button>
+        <span class="poolcount">${Math.min(v.shown, all.length)} of ${all.length}</span>
+      </div>
+    </div>`;
+}
+
+// the pool's own cards, in their own container — the spotlight and the theme
+// picks are separate sections and must not be caught by the pool's controls
+function poolList(medium, view, card, emptyNote = "Nothing left after those filters — drop a lens or a service.") {
+  const html = view.shown.map((i) => card(i)).join("");
+  return `<div class="poollist" data-medium="${medium}">${html || `<div class="empty">${emptyNote}</div>`}</div>`;
+}
+
+function poolMore(medium, view) {
+  const { all, v } = view;
+  if (all.length <= v.shown) return "";
+  const step = Math.min(12, all.length - v.shown);
+  return `
+    <div class="poolmore" data-medium="${medium}">
+      <button class="btn pool-more">Show ${step} more</button>
+      <button class="btn pool-all">Show all ${all.length}</button>
+    </div>`;
+}
+
+// One handler set for every pool bar in the container. `rerender` is the tab's
+// own render function — state changes, then the tab redraws itself.
+function wirePool(container, rerender) {
+  $$(".poolbar", container).forEach((bar) => {
+    const v = state.pool[bar.dataset.medium];
+    $$(".lens-chip", bar).forEach((c) =>
+      c.addEventListener("click", () => {
+        v.lens = c.dataset.lens;
+        rerender();
+      })
+    );
+    $(".pool-order", bar).addEventListener("change", (e) => {
+      v.order = e.target.value;
+      rerender();
+    });
+    $(".pool-shuffle", bar).addEventListener("click", () => {
+      v.order = "shuffle";
+      v.seed = (v.seed + 1) | 0;
+      rerender();
+    });
+  });
+  $$(".poolmore", container).forEach((el) => {
+    const v = state.pool[el.dataset.medium];
+    $(".pool-more", el).addEventListener("click", () => {
+      v.shown += 12;
+      rerender();
+    });
+    $(".pool-all", el).addEventListener("click", () => {
+      v.shown = Infinity;
+      rerender();
+    });
+  });
+  $$(".svc-chip", container).forEach((c) =>
+    c.addEventListener("click", () => {
+      const name = c.dataset.service;
+      const picked = state.prefs.services;
+      state.prefs.services = picked.includes(name) ? picked.filter((s) => s !== name) : [...picked, name];
+      savePrefs();
+      rerender();
+    })
+  );
+  // classes, not ids: Watch and TV each render their own drawer over the same
+  // shared preference, and duplicate ids in one document are invalid
+  $(".svc-rent", container)?.addEventListener("change", (e) => {
+    state.prefs.includeRent = e.target.checked;
+    savePrefs();
+    rerender();
+  });
+  $(".svc-clear", container)?.addEventListener("click", () => {
+    state.prefs.services = [];
+    savePrefs();
+    rerender();
+  });
+}
 
 // ---------- header ----------
 
@@ -186,7 +503,7 @@ function renderWatch() {
       <div class="rank">${f.rank}</div>
       ${poster(e)}
       <div class="body">
-        <div class="title">${esc(f.title)}</div>
+        <div class="title">${esc(f.title)}${serviceBadge(e)}</div>
         <div class="meta">${f.year} · ${esc(f.director)}${runtime ? " · " + esc(runtime) : ""}${e?.genres?.length ? " · " + esc(e.genres.slice(0, 2).join(", ")) : ""}${adaptBadge(f)}</div>
         <div class="why">${md(f.why)}</div>
         ${availability(f, e)}
@@ -200,17 +517,14 @@ function renderWatch() {
         .join("")
     : `<div class="empty">${q ? "Nothing in the queue matches that search." : "Queue is empty — add the next thing worth arguing for."}</div>`;
 
+  // ---- suggestions: one deep pool, browsed through lenses ----
   const sugg = state.data.suggestions;
-  const suggItems = (sugg?.items ?? []).filter((s) => matches(q, s.title, s.director?.join(" "), s.why));
-  const suggHtml = sugg
-    ? suggItems
-        .map(
-          (s) => `
+  const filmCard = (s, mark) => `
     <div class="card qcard sugg" data-title="${esc(s.title)}" data-year="${s.year}" data-why="${esc(s.why)}">
-      <div class="rank">?</div>
+      <div class="rank">${mark ?? s.rank ?? "?"}</div>
       ${poster(s)}
       <div class="body">
-        <div class="title">${esc(s.title)}</div>
+        <div class="title">${esc(s.title)}${serviceBadge(s)}</div>
         <div class="meta">${s.year} · ${esc(s.director?.join(", ") ?? "")}${s.runtime ? ` · ${Math.floor(s.runtime / 60)}h${String(s.runtime % 60).padStart(2, "0")}` : ""}${s.genres?.length ? " · " + esc(s.genres.slice(0, 2).join(", ")) : ""}${s.themes?.length ? " " + tchips(s.themes) : ""}${adaptBadge(s)}</div>
         <div class="why">Because ${esc(s.why)}</div>
         ${availability(null, s)}
@@ -218,9 +532,21 @@ function renderWatch() {
       <div class="side">
         ${state.canWrite ? `<button class="btn small act-queue-sugg">Queue it</button><button class="btn small act-logged">Seen it</button>` : ""}
       </div>
-    </div>`
-        )
-        .join("")
+    </div>`;
+
+  const suggAll = (sugg?.items ?? []).filter((s) => matches(q, s.title, s.director?.join(" "), s.why));
+  const suggView = poolView("film", suggAll);
+  const suggHtml = poolList("film", suggView, (s) => filmCard(s));
+
+  // the spotlight: one card off the top of the pool, moved by the date rather
+  // than by a rerun — plus a reroll for when tonight's isn't it
+  const spot = suggView.all.length
+    ? suggView.all[hash32(`${today() + state.pool.film.spin}`) % Math.min(suggView.all.length, 24)]
+    : null;
+  const spotHtml = spot
+    ? `
+    <h2 class="sect">Tonight <span class="n">· rotates daily</span> <button class="btn small" id="spot-reroll" style="margin-left:10px">Reroll</button></h2>
+    <div class="spotlight">${filmCard(spot, "●")}</div>`
     : "";
 
   const trials = oldFilms.filter((f) => matches(q, f.title, f.note));
@@ -244,18 +570,24 @@ function renderWatch() {
     )
     .join("");
 
+  const narrowed = state.prefs.services.length;
   const suggSection = sugg
     ? `
-    <h2 class="sect">Suggested by the data <span class="n">· ${suggItems.length}</span></h2>
+    <h2 class="sect">Suggested by the data <span class="n">· ${suggView.all.length}${narrowed ? ` of ${suggAll.length}` : ""}</span></h2>
     <p class="lede">Generated from the people behind your 4★+ films — directors, writers, actors, weighted by your scores — minus everything already logged. ${state.data.watched ? "" : "<strong>Your full watch history isn't imported yet</strong>, so some of these you'll have seen — run the Letterboxd CSV import to fix that (README has the two steps)."} Regenerate with <span style="font-family:var(--mono)">npm run suggest</span>.</p>
-    ${suggHtml || `<div class="empty">No suggestions match that search.</div>`}`
+    ${servicesBlock([sugg?.items, sugg?.themePicks])}
+    ${poolControls("film", suggView)}
+    ${suggHtml}
+    ${poolMore("film", suggView)}`
     : "";
 
-  const picks = (sugg?.themePicks ?? []).filter((s) => matches(q, s.title, s.director?.join(" "), s.why));
+  const picks = (sugg?.themePicks ?? [])
+    .filter((s) => matches(q, s.title, s.director?.join(" "), s.why))
+    .filter(onMyServices);
   const themePickSection = picks.length
     ? `
     <h2 class="sect">From the themes <span class="n">· ${picks.length}</span></h2>
-    <p class="lede">One pick per strongest theme — well-rated films carrying the threads your loved films share, no person connection required.</p>
+    <p class="lede">Well-rated films carrying the threads your loved films share, several per theme, no person connection required.</p>
     ${picks
       .map(
         (s) => `
@@ -263,7 +595,7 @@ function renderWatch() {
       <div class="rank">~</div>
       ${poster(s)}
       <div class="body">
-        <div class="title">${esc(s.title)}</div>
+        <div class="title">${esc(s.title)}${serviceBadge(s)}</div>
         <div class="meta">${s.year} · ${esc(s.director?.join(", ") ?? "")}${s.runtime ? ` · ${Math.floor(s.runtime / 60)}h${String(s.runtime % 60).padStart(2, "0")}` : ""}${s.genres?.length ? " · " + esc(s.genres.slice(0, 2).join(", ")) : ""} ${tchips([s.theme])}</div>
         <div class="why">${esc(s.why)}</div>
         ${availability(null, s)}
@@ -277,6 +609,7 @@ function renderWatch() {
     : "";
 
   $("#tab-watch").innerHTML = `
+    ${spotHtml}
     <h2 class="sect">Up next <span class="n">· ${items.length}</span>${state.canWrite ? ` <button class="btn small" id="queue-open" style="margin-left:10px">+ Add</button>` : ""}</h2>
     <p class="lede">The ranked argument for what to watch, not a wishlist. Logging a film clears it from the queue.</p>
     ${queueHtml}
@@ -287,6 +620,11 @@ function renderWatch() {
     ${trialHtml}`;
 
   $("#queue-open")?.addEventListener("click", () => $("#queue-dialog").showModal());
+  $("#spot-reroll")?.addEventListener("click", () => {
+    state.pool.film.spin++;
+    renderWatch();
+  });
+  wirePool($("#tab-watch"), renderWatch);
 
   $$("#tab-watch .act-queue-sugg").forEach((b) =>
     b.addEventListener("click", async () => {
@@ -484,7 +822,7 @@ function renderTV() {
       <div class="rank">${w.rank}</div>
       ${poster(e)}
       <div class="body">
-        <div class="title">${esc(w.title)}</div>
+        <div class="title">${esc(w.title)}${serviceBadge(e)}</div>
         <div class="meta">${[w.year, w.creator, seriesMeta(e)].filter(Boolean).map(esc).join(" · ")}</div>
         <div class="why">${md(w.why)}</div>
         ${availability(null, e)}
@@ -499,16 +837,17 @@ function renderTV() {
     : `<div class="empty">${q ? "Nothing in the TV queue matches that search." : "TV queue is empty — the suggestions below are where the film log points."}</div>`;
 
   const sugg = state.data.tvSuggestions;
-  const suggItems = (sugg?.items ?? []).filter((s) => matches(q, s.title, s.creators?.join(" "), s.why));
-  const suggHtml = sugg
-    ? suggItems
-        .map(
-          (s) => `
+  const suggAll = (sugg?.items ?? []).filter((s) => matches(q, s.title, s.creators?.join(" "), s.why));
+  const suggView = poolView("tv", suggAll);
+  const suggHtml = poolList(
+    "tv",
+    suggView,
+    (s) => `
     <div class="card qcard sugg" data-title="${esc(s.title)}" data-year="${s.year}" data-creator="${esc(s.creators?.[0] ?? "")}" data-why="${esc(s.why)}">
-      <div class="rank">?</div>
+      <div class="rank">${s.rank ?? "?"}</div>
       ${poster(s)}
       <div class="body">
-        <div class="title">${esc(s.title)}</div>
+        <div class="title">${esc(s.title)}${serviceBadge(s)}</div>
         <div class="meta">${[s.year, s.creators?.join(", "), seriesMeta(s)].filter(Boolean).map(esc).join(" · ")}${s.genres?.length ? " · " + esc(s.genres.slice(0, 2).join(", ")) : ""}${s.themes?.length ? " " + tchips(s.themes) : ""}</div>
         <div class="why">Because ${esc(s.why)}</div>
         ${availability(null, s)}
@@ -517,9 +856,7 @@ function renderTV() {
         ${state.canWrite ? `<button class="btn small act-tv-queue">Queue it</button><button class="btn small act-tv-logged">Seen it</button>` : ""}
       </div>
     </div>`
-        )
-        .join("")
-    : "";
+  );
 
   const logRows = ratings
     .filter((r) => matches(q, r.title, r.creator, r.note))
@@ -542,9 +879,12 @@ function renderTV() {
 
   const suggSection = sugg
     ? `
-    <h2 class="sect">Suggested by the data <span class="n">· ${suggItems.length}</span></h2>
+    <h2 class="sect">Suggested by the data <span class="n">· ${suggView.all.length}${state.prefs.services.length ? ` of ${suggAll.length}` : ""}</span></h2>
     <p class="lede">Built from the people behind your 4★+ films${sugg.basedOn ? ` (${sugg.basedOn} of them)` : ""} — creators, writers, directors crossing into TV — minus everything already logged or queued. Regenerate with <span style="font-family:var(--mono)">npm run suggest:tv</span>.</p>
-    ${suggHtml || `<div class="empty">No TV suggestions match that search.</div>`}`
+    ${servicesBlock([sugg?.items])}
+    ${poolControls("tv", suggView)}
+    ${suggHtml}
+    ${poolMore("tv", suggView)}`
     : "";
 
   $("#tab-tv").innerHTML = `
@@ -557,6 +897,7 @@ function renderTV() {
     ${logHtml}`;
 
   $("#tv-log-open")?.addEventListener("click", () => openLogDialog({ medium: "tv" }));
+  wirePool($("#tab-tv"), renderTV);
 
   $$("#tab-tv .act-tv-finish").forEach((b) =>
     b.addEventListener("click", () => {
@@ -657,12 +998,14 @@ function renderBooks() {
     .join("");
 
   const sugg = state.data.bookSuggestions;
-  const suggItems = (sugg?.items ?? []).filter(
+  const suggAll = (sugg?.items ?? []).filter(
     (s) => !onShelf(s.title, s.author) && matches(q, s.title, s.author, s.why)
   );
-  const suggHtml = sugg
-    ? suggItems
-        .map((s) => {
+  const suggView = poolView("book", suggAll);
+  const suggHtml = poolList(
+    "book",
+    suggView,
+    (s) => {
           const e = bookEnrichFor(s);
           const meta = [
             s.author,
@@ -675,7 +1018,7 @@ function renderBooks() {
             .join(" · ");
           return `
     <div class="card qcard sugg" data-title="${esc(s.title)}" data-author="${esc(s.author)}" data-why="${esc(s.why)}">
-      <div class="rank">?</div>
+      <div class="rank">${s.rank ?? "?"}</div>
       ${s.cover ? `<img class="poster book-cover" src="${esc(s.cover)}" alt="" loading="lazy">` : `<span class="poster book-cover empty-p"></span>`}
       <div class="body">
         <div class="title">${esc(s.title)}</div>
@@ -687,9 +1030,9 @@ function renderBooks() {
         ${state.canWrite ? `<button class="btn small act-book-shelve">Shelve it</button>` : ""}
       </div>
     </div>`;
-        })
-        .join("")
-    : "";
+    },
+    'Nothing left after that lens — try "everything".'
+  );
 
   const shelf = books
     .filter((b) => (b.status === "read" || b.status === "reading") && matches(q, b.title, b.author, b.note))
@@ -774,9 +1117,11 @@ function renderBooks() {
 
   const suggSection = sugg
     ? `
-    <h2 class="sect">Suggested by the data <span class="n">· ${suggItems.length}</span></h2>
+    <h2 class="sect">Suggested by the data <span class="n">· ${suggView.all.length}</span></h2>
     <p class="lede">Source novels of your 4★+ films first, then the authors behind them. Regenerate with <span style="font-family:var(--mono)">npm run suggest:books</span>.</p>
-    ${suggHtml || `<div class="empty">No book suggestions match that search.</div>`}`
+    ${poolControls("book", suggView)}
+    ${suggHtml}
+    ${poolMore("book", suggView)}`
     : "";
 
   $("#tab-books").innerHTML = `
@@ -799,6 +1144,7 @@ function renderBooks() {
     }`;
 
   $("#book-log-open")?.addEventListener("click", () => openLogDialog({ medium: "book" }));
+  wirePool($("#tab-books"), renderBooks);
 
   $$("#tab-books .act-book-read").forEach((b) =>
     b.addEventListener("click", () => {

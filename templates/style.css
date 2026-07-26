@@ -159,6 +159,50 @@ span.poster.empty-p{border:1px solid var(--line)}
 .tchip{display:inline-block;font:500 11px var(--mono);padding:1px 7px;margin-right:4px;
        border:1px solid var(--tung-dim);border-radius:9px;color:var(--tung);opacity:.85}
 
+/* ---------- suggestion pool: services, lenses, rotation ---------- */
+.services{
+  background:var(--surface);border:1px solid var(--line);border-radius:4px;
+  padding:12px 16px;margin-bottom:14px;
+}
+.services[open]{border-color:var(--tung-dim)}
+.services summary{
+  cursor:pointer;list-style:none;
+  font-family:var(--display);font-weight:700;font-size:12px;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--dim);
+}
+.services summary::-webkit-details-marker{display:none}
+.services summary::before{content:"▸ ";color:var(--tung-dim)}
+.services[open] summary::before{content:"▾ "}
+.services summary:hover{color:var(--ink)}
+.services summary .n{color:var(--tung);letter-spacing:.08em}
+.services .lede{margin:10px 0 12px;font-size:13.5px}
+.services .controls{margin-bottom:0}
+.services .controls+.controls{margin-top:10px}
+.checkline{
+  display:inline-flex;align-items:center;gap:7px;
+  font:500 12px var(--mono);color:var(--dim);cursor:pointer;
+}
+.checkline input{accent-color:var(--tung);cursor:pointer}
+
+.poolbar{margin-bottom:12px}
+.poolbar .controls{margin-bottom:6px}
+.poolcount{font:500 12px var(--mono);color:var(--dim);margin-left:auto}
+.poolmore{display:flex;gap:8px;margin:4px 0 6px}
+
+.svc-badge{
+  display:inline-block;font:600 10.5px/1 var(--mono);letter-spacing:.06em;
+  color:var(--tung);border:1px solid var(--tung-dim);border-radius:2px;
+  padding:3px 6px;margin-left:9px;vertical-align:2px;white-space:nowrap;
+}
+.svc-badge.rent{color:var(--dim);border-color:var(--line)}
+
+.spotlight .card{
+  border-color:var(--tung-dim);
+  background:linear-gradient(180deg,var(--raise),var(--surface));
+  box-shadow:0 0 0 1px rgba(232,168,62,.08),0 10px 26px rgba(0,0,0,.35);
+}
+.spotlight .qcard .rank{font-size:16px;color:var(--tung)}
+
 /* ---------- tv & books ---------- */
 .book-cover{aspect-ratio:2/3;height:auto}
 .chip.watching,.chip.reading{border:1px solid var(--tung-dim);color:var(--tung)}

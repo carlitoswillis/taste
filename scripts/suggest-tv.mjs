@@ -6,7 +6,10 @@
 // curated themes nudge the ranking, same as suggest.mjs. Needs enrichment
 // (enrich-tmdb.mjs, and enrich-tv.mjs once shows are logged) and a TMDB key;
 // adds critic scores when OMDB_API_KEY is set.
-// Run: npm run suggest:tv
+//
+// Like suggest.mjs this writes a deep pool: the first HEAD items are the tight
+// headline (max 2 per person), the rest fill out to --pool with a looser cap.
+// Run: npm run suggest:tv [-- --pool=40 --people=26]
 
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
@@ -27,6 +30,19 @@ if (!key && !token) {
   console.error("Set TMDB_API_KEY or TMDB_TOKEN first.");
   process.exit(1);
 }
+
+// --- sizing knobs (mirrors suggest.mjs) -------------------------------------
+const numArg = (name, dflt) => {
+  const hit = process.argv.find((a) => a.startsWith(`--${name}=`));
+  const n = hit ? Number(hit.split("=")[1]) : NaN;
+  return Number.isFinite(n) && n > 0 ? Math.floor(n) : dflt;
+};
+const POOL = numArg("pool", 40);
+const HEAD = Math.min(numArg("head", 10), POOL);
+const PEOPLE = numArg("people", 26);
+const HEAD_CAP = 2;
+const POOL_CAP = 5;
+const OMDB_MAX = numArg("omdb", 30);
 
 const read = async (name, fallback) => {
   try {
@@ -107,7 +123,7 @@ for (const show of tvRatings) {
 
 const topPeople = [...people.entries()]
   .sort((a, b) => b[1].weight - a[1].weight)
-  .slice(0, 18);
+  .slice(0, PEOPLE);
 
 console.log("Top connections:");
 for (const [, p] of topPeople.slice(0, 10)) {
@@ -170,10 +186,10 @@ const themeScoreOf = (keywords) => {
 };
 
 if (useThemes) {
-  const top40 = [...candidates.values()]
+  const shortlist = [...candidates.values()]
     .sort((a, b) => b.score * 2 + b.tmdbRating / 2 - (a.score * 2 + a.tmdbRating / 2))
-    .slice(0, 40);
-  for (const c of top40) {
+    .slice(0, POOL * 2);
+  for (const c of shortlist) {
     const kw = await tmdb(`/tv/${c.tmdbId}/keywords`);
     await pause();
     const { score, themes } = themeScoreOf(kw.results ?? []);
@@ -182,25 +198,33 @@ if (useThemes) {
   }
 }
 
-// Rank, but cap how many slots any one person can take.
-const PER_PERSON_CAP = 2;
+// Rank in two passes: tight per-person cap for the headline, looser one to fill
+// out the pool — same shape as suggest.mjs.
 const sorted = [...candidates.values()]
   .map((c) => ({ ...c, rankScore: c.score * 2 + (c.themeScore ?? 0) * THEME_BLEND + c.tmdbRating / 2 }))
   .sort((a, b) => b.rankScore - a.rankScore);
 const taken = new Map(); // person id -> count
+const chosen = new Set(); // tmdb ids already placed
 const ranked = [];
-for (const c of sorted) {
-  if (ranked.length >= 10) break;
-  const primary = c.contributors.reduce((a, b) => (people.get(b.id).weight > people.get(a.id).weight ? b : a));
-  if ((taken.get(primary.id) ?? 0) >= PER_PERSON_CAP) continue;
-  taken.set(primary.id, (taken.get(primary.id) ?? 0) + 1);
-  ranked.push(c);
+for (const { limit, cap } of [{ limit: HEAD, cap: HEAD_CAP }, { limit: POOL, cap: POOL_CAP }]) {
+  for (const c of sorted) {
+    if (ranked.length >= limit) break;
+    if (chosen.has(c.tmdbId)) continue;
+    const primary = c.contributors.reduce((a, b) => (people.get(b.id).weight > people.get(a.id).weight ? b : a));
+    if ((taken.get(primary.id) ?? 0) >= cap) continue;
+    taken.set(primary.id, (taken.get(primary.id) ?? 0) + 1);
+    chosen.add(c.tmdbId);
+    ranked.push(c);
+  }
 }
+ranked.forEach((c, i) => (c.rank = i + 1));
 
 // --- flesh out the picks: creators, size, providers, critic scores ----------
 const omdbKey = process.env.OMDB_API_KEY;
 const VERB = { creator: "created", director: "directed", writer: "wrote", actor: "stars in" };
+let enriched = 0;
 for (const c of ranked) {
+  if (++enriched % 20 === 0) console.log(`  …enriched ${enriched}/${ranked.length}`);
   const detail = await tmdb(`/tv/${c.tmdbId}`, { append_to_response: "external_ids,watch/providers" });
   await pause();
   const providers = detail["watch/providers"]?.results?.[region] ?? {};
@@ -215,7 +239,7 @@ for (const c of ranked) {
     flatrate: providers.flatrate?.map((x) => x.provider_name) ?? [],
     rent: providers.rent?.map((x) => x.provider_name) ?? [],
   };
-  if (omdbKey && detail.external_ids?.imdb_id) {
+  if (omdbKey && detail.external_ids?.imdb_id && enriched <= OMDB_MAX) {
     const data = await fetch(`https://www.omdbapi.com/?i=${detail.external_ids.imdb_id}&apikey=${omdbKey}`).then((r) => r.json()).catch(() => null);
     if (data?.Response !== "False" && data?.Ratings) {
       const by = Object.fromEntries(data.Ratings.map((r) => [r.Source, r.Value]));
@@ -237,9 +261,9 @@ for (const c of ranked) {
   if (c.themes?.length) c.why += ` · themes: ${c.themes.map((t) => (themeName.get(t) ?? t).toLowerCase()).join(", ")}`;
   else delete c.themes;
   delete c.contributors;
-  delete c.votes;
   delete c.rankScore;
   delete c.themeScore;
+  // votes survives: the UI's "deep cuts" lens is a vote-count filter
 }
 
 const out = {
@@ -247,8 +271,9 @@ const out = {
   basedOn:
     ratings.filter((r) => r.score >= 4).length +
     tvRatings.filter((r) => r.score >= 4 && r.status !== "abandoned").length,
+  head: Math.min(HEAD, ranked.length),
   items: ranked,
 };
 await writeFile(path.join(root, "data/tv-suggestions.json"), JSON.stringify(out, null, 2) + "\n");
-console.log(`\n${ranked.length} suggestions -> data/tv-suggestions.json`);
-for (const c of ranked) console.log(`  ${c.title} (${c.year}) — ${c.why}`);
+console.log(`\n${ranked.length} suggestions (head ${out.head}) -> data/tv-suggestions.json`);
+for (const c of ranked) console.log(`  ${c.rank}. ${c.title} (${c.year}) — ${c.why}`);

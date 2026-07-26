@@ -19,12 +19,28 @@ and git is the history.
   and watch providers, keyed `"Title (Year)"`). Safe to delete; scripts regenerate them.
 
 ### 2. App shell (`templates/`)
-`index.html` + `app.js` (ES module) + `style.css`. Four tabs — Watch next, Films, Directors,
-Taste — rendered client-side from fetched JSON, with search, sort, and tier filters. Logging
-dialogs post to the API; on page load the app probes `api/health` and falls back to read-only
-(no log buttons) when the API is absent, e.g. on a static export. Design: "projection booth"
-tungsten-dark, Futura/Avenir/SF Mono system faces, sprocket-dot filmography meters
-(see `ai/plans/ui-rework.md`).
+`index.html` + `app.js` (ES module) + `style.css`. Six tabs — Watch next, Films, TV, Books,
+Directors, Taste — rendered client-side from fetched JSON, with search, sort, and tier
+filters. Logging dialogs post to the API; on page load the app probes `api/health` and falls
+back to read-only (no log buttons) when the API is absent, e.g. on a static export. Design:
+"projection booth" tungsten-dark, Futura/Avenir/SF Mono system faces, sprocket-dot
+filmography meters (see `ai/plans/ui-rework.md`).
+
+**Suggestion pools.** The suggesters write a deep ranked pool (`items`, plus `head` marking
+where the tight top ends); the client decides how much of it to show. One shared layer in
+`app.js` serves all three media:
+- `poolView(medium, items)` — filter (lens + streaming services) → order → cut to the
+  unfolded length. `poolControls` / `poolList` / `poolMore` render it, `wirePool` binds it.
+  Per-medium view state lives in `state.pool[medium]` and is deliberately *not* persisted:
+  a fresh visit starts from the ranking the engine produced.
+- `LENSES` — shape-of-the-evening predicates (runtime, era, obscurity, critical standing).
+- Shuffle is `hash32(title + seed)`, so an order holds still while you interact with it and
+  reshuffles wholesale when the seed bumps. The "Tonight" spotlight indexes the pool by
+  `Math.floor(Date.now() / 86400000)`, so it rotates daily with no rerun.
+- `canonService` collapses TMDB's per-reseller provider names ("Netflix Standard with Ads",
+  "HBO Max Amazon Channel") into the service a person would say they have. The picked
+  services live in `localStorage` under `taste.prefs` (seeded from `config.json.services`)
+  — filtering is off entirely until something is picked.
 
 ### 3. Local server (`scripts/serve.mjs`, `npm start`, port 4747)
 Zero-dep, binds 127.0.0.1 only. Serves the shell from `templates/`, data live from `data/`,
