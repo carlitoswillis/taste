@@ -14,15 +14,23 @@ import { fileURLToPath } from "node:url";
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 
+const config = JSON.parse(await readFile(path.join(root, "config.json"), "utf8"));
+
 // --- sizing knobs (mirrors suggest.mjs) -------------------------------------
-const numArg = (name, dflt) => {
+// --flag > config.json "suggest.book" > the defaults here
+const num = (name, configured, dflt) => {
   const hit = process.argv.find((a) => a.startsWith(`--${name}=`));
-  const n = hit ? Number(hit.split("=")[1]) : NaN;
-  return Number.isFinite(n) && n > 0 ? Math.floor(n) : dflt;
+  // an empty or junk `--flag=` falls through to config, not past it to dflt
+  for (const v of [hit?.split("=")[1], configured]) {
+    const n = Number(v);
+    if (v != null && v !== "" && Number.isFinite(n) && n > 0) return Math.floor(n);
+  }
+  return dflt;
 };
-const POOL = numArg("pool", 40);
-const HEAD = Math.min(numArg("head", 12), POOL);
-const AUTHORS = numArg("authors", 12);
+const tuning = config.suggest?.book ?? {};
+const POOL = num("pool", tuning.pool, 40);
+const HEAD = Math.min(num("head", tuning.head, 12), POOL);
+const AUTHORS = num("authors", tuning.authors, 12);
 const HEAD_CAP = 2; // per author, inside the headline
 const POOL_CAP = 4; // per author, across the whole pool
 

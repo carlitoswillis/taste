@@ -57,13 +57,54 @@ npm run suggest -- --pool=100 --people=40   # deeper pool, more people chased
 npm run suggest -- --pool=24                # a smaller, tighter list
 ```
 
+`--pool` is a ceiling, not a promise: it's capped by how many unseen candidates those
+filmographies actually yield. If it prints `73 suggestions`, the data ran out — raise
+`--people` to raise the ceiling.
+
+Flags apply to one run. To change the sizes **for good**, edit the `suggest` block in
+`config.json` — that's what the daily sync reads, so without it every overnight run snaps
+back to the built-in numbers:
+
+```json
+"suggest": {
+  "film": { "pool": 60, "people": 30 },
+  "tv":   { "pool": 40, "people": 26 },
+  "book": { "pool": 40, "authors": 12 }
+}
+```
+
+Precedence is `--flag` → `config.json` → built-in default.
+
+### Refreshing without a laptop
+
+**Actions → [Refresh suggestions](../../actions/workflows/refresh.yml) → Run workflow.**
+Works from github.com or the GitHub mobile app: pick films / tv / books / everything,
+optionally type a pool and people size, run. It commits the new data, republishes the site,
+and writes the top of the new pool into the run summary so you can read the result on your
+phone without opening a diff. Leave the size fields blank to use `config.json`.
+
+The published site links to it too — the `Refresh suggestions ↗` button next to the
+read-only badge in the footer. That's a deep link to the workflow, not a one-tap trigger:
+the page is public, so it holds no credentials and can't dispatch anything by itself.
+
+`config.json` is editable from the GitHub web UI as well, so the permanent sizes can be
+changed from a phone the same way.
+
 In the page that pool is something to browse rather than a fixed list:
 
 - **Tonight** — one card off the top, picked by the date. It moves on its own once a day; *Reroll* if tonight's isn't it.
 - **Lenses** — `under 100 min`, `long haul`, `pre-1980`, `this century`, `deep cuts`, `critics agree`. The shape of an evening, not another genre filter.
 - **Order & shuffle** — best fit, highest rated, newest, oldest, or shuffled. Shuffle holds still until you press it again.
 - **Show more / show all** — the headline unfolds into the whole pool.
-- **My streaming** — pick the services you actually pay for and suggestions narrow to what you can watch tonight; cards get a `▶ Criterion Channel` badge. **Off unless you pick something** — no selection means no filtering. Optionally count rent & buy as available too. Your picks live in the browser (`localStorage`), so they survive reloads and never reach the repo; `config.json` can carry a `"services": [...]` list to seed a fresh browser.
+- **My streaming** — pick the services you actually pay for and everything narrows to what you can watch tonight; cards get a `▶ Criterion Channel` badge. **Off unless you pick something** — no selection means no filtering. Optionally count rent & buy as available too. Your picks live in the browser (`localStorage`), so they survive reloads and never reach the repo; `config.json` can carry a `"services": [...]` list to seed a fresh browser.
+
+The same lenses and service filter run over **Up next**, so the queue answers "what can I
+actually watch tonight" and not just "what did I argue for". Two rules keep that honest: a
+filtered queue always says what it withheld (`2 · 17 filtered out`), and cards keep their real
+rank — filtering never renumbers the argument. The queue drops the `deep cuts` lens, since
+enrichment carries no vote counts and a lens that silently matches nothing is worse than no
+lens. The services drawer sits at the top of the tab because it governs all of it: queue,
+spotlight and suggestions alike.
 
 TMDB lists every reselling of a service separately — *Netflix*, *Netflix Standard with Ads*,
 *HBO Max Amazon Channel*. The app collapses those to the thing you'd actually say you have,
@@ -89,6 +130,7 @@ This repo is one person's profile, but nothing in the code is specific to them:
 ## Automation
 
 - **Sync** (`.github/workflows/sync.yml`): daily, pulls your latest Letterboxd activity via RSS and — if a `TMDB_API_KEY` secret is set — refreshes metadata and where-to-watch data. Commits only when something changed.
+- **Refresh suggestions** (`.github/workflows/refresh.yml`): manual, phone-friendly. Regenerates any of the three suggestion pools at a size you choose and republishes. Owner-only.
 - **Deploy** (`.github/workflows/deploy.yml`): manual-trigger only. This app is local-first; run this workflow only if you deliberately want a public copy on GitHub Pages.
 
 ### APIs used

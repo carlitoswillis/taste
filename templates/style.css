@@ -81,6 +81,13 @@ h2.sect .n{color:var(--tung)}
 .lede{color:var(--dim);font-size:14.5px;max-width:62ch;margin-bottom:16px}
 .lede strong{color:var(--ink)}
 
+.refresh-link{
+  display:inline-block;font:600 11px/1 var(--mono);letter-spacing:.08em;
+  color:var(--tung);border:1px solid var(--tung-dim);padding:5px 8px;border-radius:3px;
+  margin-left:6px;vertical-align:2px;text-decoration:none;
+}
+.refresh-link:hover{background:var(--tung);color:#1a1206;border-color:var(--tung)}
+
 .readonly{
   display:inline-block;font:600 11px/1 var(--mono);letter-spacing:.08em;
   color:var(--dim);border:1px dashed var(--line);padding:5px 8px;border-radius:3px;
@@ -187,6 +194,7 @@ span.poster.empty-p{border:1px solid var(--line)}
 .poolbar{margin-bottom:12px}
 .poolbar .controls{margin-bottom:6px}
 .poolcount{font:500 12px var(--mono);color:var(--dim);margin-left:auto}
+.poolcount .hid{color:var(--tung-dim)}
 .poolmore{display:flex;gap:8px;margin:4px 0 6px}
 
 .svc-badge{

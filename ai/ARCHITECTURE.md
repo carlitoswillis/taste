@@ -28,12 +28,18 @@ filmography meters (see `ai/plans/ui-rework.md`).
 
 **Suggestion pools.** The suggesters write a deep ranked pool (`items`, plus `head` marking
 where the tight top ends); the client decides how much of it to show. One shared layer in
-`app.js` serves all three media:
+`app.js` serves all three media *and* both hand-ranked queues (`queue`, `tvqueue`):
 - `poolView(medium, items)` — filter (lens + streaming services) → order → cut to the
-  unfolded length. `poolControls` / `poolList` / `poolMore` render it, `wirePool` binds it.
-  Per-medium view state lives in `state.pool[medium]` and is deliberately *not* persisted:
-  a fresh visit starts from the ranking the engine produced.
+  unfolded length; returns `hidden` so a filtered view can admit what it withheld.
+  `poolControls` / `poolList` / `poolMore` render it, `wirePool` binds it. Per-medium view
+  state lives in `state.pool[medium]` and is deliberately *not* persisted: a fresh visit
+  starts from the ranking the engine produced. The queues start at `shown: Infinity` — they
+  are curated, so there is nothing to unfold.
 - `LENSES` — shape-of-the-evening predicates (runtime, era, obscurity, critical standing).
+  `FACTS[medium]` normalises a row before a predicate sees it: suggestions carry their own
+  runtime/providers, queue entries get them from `enrichment.json` keyed `"Title (Year)"`.
+  That indirection is why the same lens code works over both. The queue lens set omits
+  `deep cuts` because enrichment has no vote counts.
 - Shuffle is `hash32(title + seed)`, so an order holds still while you interact with it and
   reshuffles wholesale when the seed bumps. The "Tonight" spotlight indexes the pool by
   `Math.floor(Date.now() / 86400000)`, so it rotates daily with no rerun.
@@ -70,8 +76,19 @@ deploy; the result is read-only.
 
 ### 6. Infrastructure (GitHub, optional)
 Private repo, version control only.
-- `deploy.yml` — Pages deploy, **manual trigger only** (workflow_dispatch).
-- `sync.yml` — daily Letterboxd/TMDB refresh committing changed data files.
+- `deploy.yml` — Pages deploy; also `workflow_call`, so other workflows republish through it.
+- `sync.yml` — daily Letterboxd/TMDB refresh committing changed data files, then publishes.
+- `refresh.yml` — on-demand suggestion regeneration from the Actions UI (phone-friendly):
+  choice of medium, optional pool/people overrides, commits + republishes, and writes the
+  new pool's head into the run summary. Owner-guarded; inputs are passed through `env` and
+  digit-checked rather than interpolated into the shell.
+
+**Suggestion sizing.** `config.json.suggest.{film,tv,book}` holds the pool sizes; each
+suggester resolves `--flag` → config → built-in default via its `num()` helper. The config
+layer exists because the daily sync passes no flags — without it, any hand-tuned pool would
+be silently reset overnight. `num()` treats an empty or non-numeric flag as *absent* and
+falls through to config, so a form that assembles flags from blank fields can't clobber the
+configured size.
 
 ## Data Flow
 ```

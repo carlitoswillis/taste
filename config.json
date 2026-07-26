@@ -4,5 +4,11 @@
   "letterboxd": "carlitxs",
   "region": "US",
   "filmsSeen": 340,
-  "filmographiesFinished": 5
+  "filmographiesFinished": 5,
+  "repo": "carlitoswillis/taste",
+  "suggest": {
+    "film": { "pool": 100, "people": 40 },
+    "tv": { "pool": 40, "people": 26 },
+    "book": { "pool": 40, "authors": 12 }
+  }
 }
