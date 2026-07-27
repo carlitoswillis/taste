@@ -60941,5 +60941,181 @@
         "name": "helen of troy"
       }
     ]
+  },
+  "Lee Cronin's The Mummy (2026)": {
+    "id": "m:1304313",
+    "tmdbId": 1304313,
+    "imdbId": "tt32612507",
+    "director": [
+      {
+        "id": 1398631,
+        "name": "Lee Cronin"
+      }
+    ],
+    "writers": [
+      {
+        "id": 1398631,
+        "name": "Lee Cronin"
+      }
+    ],
+    "cast": [
+      {
+        "id": 1007683,
+        "name": "Jack Reynor"
+      },
+      {
+        "id": 1425019,
+        "name": "Laia Costa"
+      },
+      {
+        "id": 1952051,
+        "name": "May Calamawy"
+      },
+      {
+        "id": 3524429,
+        "name": "Natalie Grace"
+      },
+      {
+        "id": 2886183,
+        "name": "Shylo Molina"
+      },
+      {
+        "id": 3768556,
+        "name": "Billie Roy"
+      },
+      {
+        "id": 1029593,
+        "name": "Veronica Falcón"
+      },
+      {
+        "id": 1743875,
+        "name": "Hayat Kamille"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 736,
+        "name": "journalist"
+      },
+      {
+        "id": 1160,
+        "name": "egypt"
+      },
+      {
+        "id": 1299,
+        "name": "monster"
+      },
+      {
+        "id": 4720,
+        "name": "ritual"
+      },
+      {
+        "id": 1930,
+        "name": "kidnapping"
+      },
+      {
+        "id": 1949,
+        "name": "pyramid"
+      },
+      {
+        "id": 5340,
+        "name": "investigation"
+      },
+      {
+        "id": 6152,
+        "name": "supernatural"
+      },
+      {
+        "id": 2904,
+        "name": "mummy"
+      },
+      {
+        "id": 9712,
+        "name": "possession"
+      },
+      {
+        "id": 10941,
+        "name": "disappearance"
+      },
+      {
+        "id": 10541,
+        "name": "curse"
+      },
+      {
+        "id": 15001,
+        "name": "demon"
+      },
+      {
+        "id": 156081,
+        "name": "tomb"
+      },
+      {
+        "id": 156091,
+        "name": "missing person"
+      },
+      {
+        "id": 162810,
+        "name": "macabre"
+      },
+      {
+        "id": 197582,
+        "name": "mysterious"
+      },
+      {
+        "id": 256183,
+        "name": "supernatural horror"
+      },
+      {
+        "id": 283085,
+        "name": "body horror"
+      },
+      {
+        "id": 325777,
+        "name": "bewildered"
+      },
+      {
+        "id": 325787,
+        "name": "complicated"
+      },
+      {
+        "id": 325818,
+        "name": "frightened"
+      }
+    ],
+    "runtime": 133,
+    "genres": [
+      "Horror",
+      "Mystery"
+    ],
+    "tmdbRating": 7.956,
+    "poster": "https://image.tmdb.org/t/p/w342/1q308iixueCU4pFtSYugNOevtNx.jpg",
+    "providers": {
+      "flatrate": [
+        "HBO Max Amazon Channel",
+        "HBO Max"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "Plex"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/1304313-lee-cronin-s-the-mummy/watch?locale=US",
+    "region": "US",
+    "scores": {
+      "rt": null,
+      "metacritic": 47,
+      "imdb": 6.2
+    }
   }
 }

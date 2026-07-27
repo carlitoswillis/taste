@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-26T23:57:34.352Z",
+  "generated": "2026-07-27T12:38:20.758Z",
   "basedOn": 27,
   "head": 12,
   "items": [
@@ -47,7 +47,7 @@
       "year": 1957,
       "tmdbId": 614,
       "tmdbRating": 8.072,
-      "votes": 1826,
+      "votes": 1827,
       "score": 15.399999999999999,
       "rank": 2,
       "director": [
@@ -83,7 +83,7 @@
       "year": 1999,
       "tmdbId": 11660,
       "tmdbRating": 7.126,
-      "votes": 1891,
+      "votes": 1892,
       "score": 12.15,
       "themes": [
         "surveillance"
@@ -127,7 +127,7 @@
       "year": 2002,
       "tmdbId": 320,
       "tmdbRating": 6.956,
-      "votes": 5387,
+      "votes": 5390,
       "score": 12.15,
       "rank": 4,
       "director": [
@@ -162,8 +162,8 @@
       "title": "Burn After Reading",
       "year": 2008,
       "tmdbId": 4944,
-      "tmdbRating": 6.677,
-      "votes": 5300,
+      "tmdbRating": 6.678,
+      "votes": 5301,
       "score": 8.100000000000001,
       "themes": [
         "unravelling",
@@ -205,7 +205,7 @@
       "year": 2010,
       "tmdbId": 44264,
       "tmdbRating": 7.306,
-      "votes": 5812,
+      "votes": 5813,
       "score": 9.000000000000002,
       "rank": 6,
       "director": [
@@ -388,8 +388,8 @@
       "title": "The Florida Project",
       "year": 2017,
       "tmdbId": 394117,
-      "tmdbRating": 7.4,
-      "votes": 3131,
+      "tmdbRating": 7.426,
+      "votes": 3132,
       "score": 6.15,
       "rank": 11,
       "director": [
@@ -547,8 +547,8 @@
       "title": "Winter Light",
       "year": 1963,
       "tmdbId": 29455,
-      "tmdbRating": 7.883,
-      "votes": 510,
+      "tmdbRating": 7.9,
+      "votes": 511,
       "score": 14.2,
       "rank": 15,
       "director": [
@@ -667,8 +667,8 @@
       "title": "The Man Who Wasn't There",
       "year": 2001,
       "tmdbId": 10778,
-      "tmdbRating": 7.509,
-      "votes": 1773,
+      "tmdbRating": 7.51,
+      "votes": 1774,
       "score": 8.100000000000001,
       "rank": 18,
       "director": [
@@ -703,7 +703,7 @@
       "year": 1991,
       "tmdbId": 290,
       "tmdbRating": 7.467,
-      "votes": 1901,
+      "votes": 1902,
       "score": 8.100000000000001,
       "rank": 19,
       "director": [
@@ -739,7 +739,7 @@
       "year": 2013,
       "tmdbId": 110415,
       "tmdbRating": 6.907,
-      "votes": 10517,
+      "votes": 10518,
       "score": 5.700000000000001,
       "rank": 20,
       "director": [
@@ -780,8 +780,8 @@
       "score": 5.700000000000001,
       "rank": 21,
       "director": [
-        "Leos Carax",
         "Bong Joon Ho",
+        "Leos Carax",
         "Michel Gondry"
       ],
       "runtime": 112,
@@ -959,7 +959,7 @@
       "year": 2013,
       "tmdbId": 49521,
       "tmdbRating": 6.654,
-      "votes": 16360,
+      "votes": 16364,
       "score": 4.86,
       "rank": 26,
       "director": [
@@ -1130,8 +1130,8 @@
       "title": "Kill Bill: The Whole Bloody Affair",
       "year": 2011,
       "tmdbId": 414419,
-      "tmdbRating": 8.1,
-      "votes": 1355,
+      "tmdbRating": 8.108,
+      "votes": 1356,
       "score": 3.8000000000000003,
       "rank": 31,
       "director": [
@@ -1197,8 +1197,8 @@
       "title": "Kill Bill: Vol. 2",
       "year": 2004,
       "tmdbId": 393,
-      "tmdbRating": 7.877,
-      "votes": 15217,
+      "tmdbRating": 7.9,
+      "votes": 15220,
       "score": 3.8000000000000003,
       "rank": 33,
       "director": [
@@ -1236,7 +1236,7 @@
       "year": 2015,
       "tmdbId": 273248,
       "tmdbRating": 7.756,
-      "votes": 15413,
+      "votes": 15417,
       "score": 3.8000000000000003,
       "rank": 34,
       "director": [
@@ -1272,7 +1272,7 @@
       "year": 1997,
       "tmdbId": 184,
       "tmdbRating": 7.357,
-      "votes": 7001,
+      "votes": 7002,
       "score": 3.8000000000000003,
       "rank": 35,
       "director": [
@@ -1495,8 +1495,8 @@
       "title": "The Last Duel",
       "year": 2021,
       "tmdbId": 617653,
-      "tmdbRating": 7.404,
-      "votes": 3905,
+      "tmdbRating": 7.403,
+      "votes": 3908,
       "score": 3.3000000000000003,
       "rank": 41,
       "director": [
@@ -1665,8 +1665,8 @@
       "title": "IF",
       "year": 2024,
       "tmdbId": 639720,
-      "tmdbRating": 6.9,
-      "votes": 1647,
+      "tmdbRating": 6.946,
+      "votes": 1648,
       "score": 3.2,
       "rank": 46,
       "director": [
@@ -1734,7 +1734,7 @@
       "year": 1991,
       "tmdbId": 1541,
       "tmdbRating": 7.604,
-      "votes": 3920,
+      "votes": 3921,
       "score": 2.4000000000000004,
       "themes": [
         "surveillance"
@@ -1774,8 +1774,8 @@
       "title": "American Gangster",
       "year": 2007,
       "tmdbId": 4982,
-      "tmdbRating": 7.594,
-      "votes": 6112,
+      "tmdbRating": 7.595,
+      "votes": 6113,
       "score": 2.4000000000000004,
       "themes": [
         "surveillance"
@@ -1807,46 +1807,13 @@
       "why": "Ridley Scott directed this — you rated Prometheus 4.5★ · themes: watched & watching"
     },
     {
-      "title": "Birdman or (The Unexpected Virtue of Ignorance)",
-      "year": 2014,
-      "tmdbId": 194662,
-      "tmdbRating": 7.438,
-      "votes": 13669,
-      "score": 0.8999999999999999,
-      "themes": [
-        "cruel-comedy",
-        "doubling"
-      ],
-      "rank": 50,
-      "director": [
-        "Alejandro G. Iñárritu"
-      ],
-      "runtime": 120,
-      "genres": [
-        "Drama",
-        "Comedy"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/rHUg2AuIuLSIYMYFgavVwqt1jtc.jpg",
-      "providers": {
-        "flatrate": [],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
-          "Fandango At Home"
-        ]
-      },
-      "why": "Emma Stone stars in this — you rated Poor Things 4.5★, Bugonia 4.5★ · themes: comedy that's actually cruel, doubling & doppelgangers"
-    },
-    {
       "title": "The Raid 2",
       "year": 2014,
       "tmdbId": 180299,
-      "tmdbRating": 7.612,
-      "votes": 2628,
+      "tmdbRating": 7.613,
+      "votes": 2629,
       "score": 2.7,
-      "rank": 51,
+      "rank": 50,
       "director": [
         "Gareth Evans"
       ],
@@ -1871,6 +1838,39 @@
         ]
       },
       "why": "Gareth Evans wrote and directed this — you rated Apostle 4★"
+    },
+    {
+      "title": "Birdman or (The Unexpected Virtue of Ignorance)",
+      "year": 2014,
+      "tmdbId": 194662,
+      "tmdbRating": 7.4,
+      "votes": 13670,
+      "score": 0.8999999999999999,
+      "themes": [
+        "cruel-comedy",
+        "doubling"
+      ],
+      "rank": 51,
+      "director": [
+        "Alejandro G. Iñárritu"
+      ],
+      "runtime": 120,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/rHUg2AuIuLSIYMYFgavVwqt1jtc.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Emma Stone stars in this — you rated Poor Things 4.5★, Bugonia 4.5★ · themes: comedy that's actually cruel, doubling & doppelgangers"
     },
     {
       "title": "The Raid",
@@ -1910,8 +1910,8 @@
       "title": "Mad Max 2",
       "year": 1981,
       "tmdbId": 8810,
-      "tmdbRating": 7.392,
-      "votes": 4228,
+      "tmdbRating": 7.391,
+      "votes": 4229,
       "score": 2.7,
       "rank": 53,
       "director": [
@@ -2004,7 +2004,7 @@
       "year": 1982,
       "tmdbId": 78,
       "tmdbRating": 7.935,
-      "votes": 15155,
+      "votes": 15159,
       "score": 2.4000000000000004,
       "rank": 56,
       "director": [
@@ -2156,8 +2156,8 @@
       "title": "Havoc",
       "year": 2025,
       "tmdbId": 668489,
-      "tmdbRating": 6.388,
-      "votes": 1279,
+      "tmdbRating": 6.39,
+      "votes": 1280,
       "score": 2.7,
       "rank": 61,
       "director": [
@@ -2189,13 +2189,13 @@
       "score": 2.7,
       "rank": 62,
       "director": [
-        "Simon Barrett",
-        "Adam Wingard",
         "Eduardo Sánchez",
-        "Gregg Hale",
         "Timo Tjahjanto",
         "Gareth Evans",
-        "Jason Eisener"
+        "Gregg Hale",
+        "Simon Barrett",
+        "Jason Eisener",
+        "Adam Wingard"
       ],
       "runtime": 96,
       "genres": [
@@ -2224,7 +2224,7 @@
       "year": 2001,
       "tmdbId": 855,
       "tmdbRating": 7.395,
-      "votes": 6449,
+      "votes": 6450,
       "score": 2.4000000000000004,
       "rank": 63,
       "director": [
@@ -2259,8 +2259,8 @@
       "title": "Cruella",
       "year": 2021,
       "tmdbId": 337404,
-      "tmdbRating": 8,
-      "votes": 10168,
+      "tmdbRating": 7.972,
+      "votes": 10170,
       "score": 2.22,
       "rank": 64,
       "director": [
@@ -2327,7 +2327,7 @@
       "year": 2020,
       "tmdbId": 514847,
       "tmdbRating": 6.651,
-      "votes": 3723,
+      "votes": 3724,
       "score": 1.3200000000000003,
       "themes": [
         "cruel-comedy"
@@ -2481,8 +2481,8 @@
       "title": "Contagion",
       "year": 2011,
       "tmdbId": 39538,
-      "tmdbRating": 6.65,
-      "votes": 6606,
+      "tmdbRating": 6.651,
+      "votes": 6607,
       "score": 0.8999999999999999,
       "themes": [
         "body-horror"
@@ -2559,7 +2559,7 @@
       "year": 2016,
       "tmdbId": 311324,
       "tmdbRating": 6.033,
-      "votes": 5597,
+      "votes": 5598,
       "score": 1.65,
       "rank": 73,
       "director": [
@@ -2591,7 +2591,7 @@
       "year": 2013,
       "tmdbId": 54138,
       "tmdbRating": 7.324,
-      "votes": 9747,
+      "votes": 9748,
       "score": 1.3200000000000003,
       "rank": 74,
       "director": [
@@ -2693,7 +2693,7 @@
       "year": 1997,
       "tmdbId": 489,
       "tmdbRating": 8.163,
-      "votes": 14018,
+      "votes": 14023,
       "score": 0.8999999999999999,
       "rank": 77,
       "director": [
@@ -2729,7 +2729,7 @@
       "year": 2021,
       "tmdbId": 501929,
       "tmdbRating": 7.833,
-      "votes": 3420,
+      "votes": 3421,
       "score": 0.96,
       "rank": 78,
       "director": [
@@ -2761,7 +2761,7 @@
       "title": "Tomorrowland",
       "year": 2015,
       "tmdbId": 158852,
-      "tmdbRating": 6.298,
+      "tmdbRating": 6.3,
       "votes": 7402,
       "score": 1.3200000000000003,
       "rank": 79,
@@ -2828,8 +2828,8 @@
       "title": "La La Land",
       "year": 2016,
       "tmdbId": 313369,
-      "tmdbRating": 7.9,
-      "votes": 18252,
+      "tmdbRating": 7.898,
+      "votes": 18256,
       "score": 0.8999999999999999,
       "rank": 81,
       "director": [
@@ -2987,7 +2987,7 @@
       "year": 2011,
       "tmdbId": 50646,
       "tmdbRating": 7.275,
-      "votes": 9370,
+      "votes": 9372,
       "score": 0.8999999999999999,
       "rank": 86,
       "director": [
@@ -3023,7 +3023,7 @@
       "year": 1986,
       "tmdbId": 792,
       "tmdbRating": 7.751,
-      "votes": 5178,
+      "votes": 5180,
       "score": 0.75,
       "rank": 87,
       "director": [
@@ -3127,8 +3127,8 @@
       "title": "Kubo and the Two Strings",
       "year": 2016,
       "tmdbId": 313297,
-      "tmdbRating": 7.635,
-      "votes": 3852,
+      "tmdbRating": 7.636,
+      "votes": 3855,
       "score": 0.75,
       "rank": 90,
       "director": [
@@ -3256,8 +3256,8 @@
       "title": "The Devil's Advocate",
       "year": 1997,
       "tmdbId": 1813,
-      "tmdbRating": 7.479,
-      "votes": 6896,
+      "tmdbRating": 7.48,
+      "votes": 6900,
       "score": 0.75,
       "rank": 94,
       "director": [
@@ -3288,7 +3288,7 @@
       "year": 2006,
       "tmdbId": 388,
       "tmdbRating": 7.41,
-      "votes": 6439,
+      "votes": 6441,
       "score": 0.75,
       "rank": 95,
       "director": [
@@ -3320,8 +3320,8 @@
       "title": "Little Brother",
       "year": 2026,
       "tmdbId": 1397385,
-      "tmdbRating": 6.42,
-      "votes": 280,
+      "tmdbRating": 6.422,
+      "votes": 283,
       "score": 0.96,
       "rank": 96,
       "director": [
@@ -3478,7 +3478,7 @@
       "year": 1998,
       "tmdbId": 10494,
       "tmdbRating": 8.3,
-      "votes": 3265,
+      "votes": 3267,
       "theme": "unravelling",
       "why": "unravelling — the thread through 3 of your loved films",
       "director": [
@@ -3543,8 +3543,8 @@
       "title": "Sunset Boulevard",
       "year": 1950,
       "tmdbId": 599,
-      "tmdbRating": 8.274,
-      "votes": 2970,
+      "tmdbRating": 8.3,
+      "votes": 2971,
       "theme": "unravelling",
       "why": "unravelling — the thread through 3 of your loved films",
       "director": [
@@ -3669,8 +3669,8 @@
       "title": "Life Is Beautiful",
       "year": 1997,
       "tmdbId": 637,
-      "tmdbRating": 8.439,
-      "votes": 14097,
+      "tmdbRating": 8.4,
+      "votes": 14098,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 2 of your loved films",
       "director": [
@@ -3736,8 +3736,8 @@
       "title": "I Swear",
       "year": 2025,
       "tmdbId": 1317149,
-      "tmdbRating": 8.237,
-      "votes": 401,
+      "tmdbRating": 8.241,
+      "votes": 402,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 2 of your loved films",
       "director": [
@@ -3796,7 +3796,7 @@
       "year": 2010,
       "tmdbId": 46738,
       "tmdbRating": 8.112,
-      "votes": 3354,
+      "votes": 3355,
       "theme": "doubling",
       "why": "doubling — the thread through 2 of your loved films",
       "director": [
@@ -3856,8 +3856,8 @@
       "title": "The Thing",
       "year": 1982,
       "tmdbId": 1091,
-      "tmdbRating": 8.1,
-      "votes": 8065,
+      "tmdbRating": 8.071,
+      "votes": 8067,
       "theme": "body-horror",
       "why": "body-horror — the thread through 2 of your loved films",
       "director": [
@@ -3885,8 +3885,8 @@
       "title": "Dragon Ball Super: Broly",
       "year": 2018,
       "tmdbId": 503314,
-      "tmdbRating": 7.948,
-      "votes": 3213,
+      "tmdbRating": 7.949,
+      "votes": 3214,
       "theme": "body-horror",
       "why": "body-horror — the thread through 2 of your loved films",
       "director": [
@@ -3919,7 +3919,7 @@
       "year": 1988,
       "tmdbId": 149,
       "tmdbRating": 7.937,
-      "votes": 4854,
+      "votes": 4856,
       "theme": "body-horror",
       "why": "body-horror — the thread through 2 of your loved films",
       "director": [
