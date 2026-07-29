@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-28T11:29:16.182Z",
+  "generated": "2026-07-29T11:36:10.458Z",
   "basedOn": {
     "lovedFilms": 27,
     "ratedBooks": 0,
@@ -212,6 +212,23 @@
       "rank": 12
     },
     {
+      "title": "The extremes",
+      "author": "Christopher Priest",
+      "olWork": "OL166485W",
+      "year": 1998,
+      "pages": 393,
+      "cover": "https://covers.openlibrary.org/b/id/288113-M.jpg",
+      "editionCount": 9,
+      "olRating": {
+        "average": 4,
+        "count": 1
+      },
+      "weight": 4.08,
+      "rankScore": 12.16,
+      "why": "Christopher Priest — wrote the book behind The Prestige (2006) 4.5★",
+      "rank": 13
+    },
+    {
       "title": "The inverted world",
       "author": "Christopher Priest",
       "olWork": "OL166496W",
@@ -225,23 +242,6 @@
       },
       "weight": 4.08,
       "rankScore": 11.66,
-      "why": "Christopher Priest — wrote the book behind The Prestige (2006) 4.5★",
-      "rank": 13
-    },
-    {
-      "title": "The Gradual",
-      "author": "Christopher Priest",
-      "olWork": "OL19369697W",
-      "year": 2015,
-      "pages": 352,
-      "cover": "https://covers.openlibrary.org/b/id/8494691-M.jpg",
-      "editionCount": 8,
-      "olRating": {
-        "average": 3,
-        "count": 1
-      },
-      "weight": 4.08,
-      "rankScore": 11.16,
       "why": "Christopher Priest — wrote the book behind The Prestige (2006) 4.5★",
       "rank": 14
     },
@@ -535,6 +535,23 @@
       "rank": 31
     },
     {
+      "title": "The Stand",
+      "author": "Stephen King",
+      "olWork": "OL81618W",
+      "year": 1978,
+      "pages": 1153,
+      "cover": "https://covers.openlibrary.org/b/id/9255992-M.jpg",
+      "editionCount": 85,
+      "olRating": {
+        "average": 4.322222,
+        "count": 90
+      },
+      "weight": 0.88,
+      "rankScore": 6.08,
+      "why": "thriller on the page — you over-index on it in film · horror on the page — you over-index on it in film",
+      "rank": 32
+    },
+    {
       "title": "The Sea of Monsters",
       "author": "Rick Riordan",
       "olWork": "OL492646W",
@@ -549,7 +566,7 @@
       "weight": 0.76,
       "rankScore": 5.99,
       "why": "thriller on the page — you over-index on it in film · fantasy on the page — you over-index on it in film",
-      "rank": 32
+      "rank": 33
     },
     {
       "title": "Watchmen",
@@ -566,7 +583,7 @@
       "weight": 0.66,
       "rankScore": 5.79,
       "why": "science fiction on the page — you over-index on it in film · fantasy on the page — you over-index on it in film",
-      "rank": 33
+      "rank": 34
     },
     {
       "title": "The Complete Sherlock Holmes [4 novels, 56 stories]",
@@ -583,7 +600,7 @@
       "weight": 0.46,
       "rankScore": 5.43,
       "why": "thriller on the page — you over-index on it in film",
-      "rank": 34
+      "rank": 35
     },
     {
       "title": "The Silver Eyes (Five Nights At Freddy's #1)",
@@ -600,7 +617,7 @@
       "weight": 0.42,
       "rankScore": 5.42,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 35
+      "rank": 36
     },
     {
       "title": "Season of Mists",
@@ -617,7 +634,7 @@
       "weight": 0.42,
       "rankScore": 5.38,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 36
+      "rank": 37
     },
     {
       "title": "Maus I",
@@ -634,7 +651,7 @@
       "weight": 0.42,
       "rankScore": 5.33,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 37
+      "rank": 38
     },
     {
       "title": "Feet of Clay",
@@ -651,7 +668,7 @@
       "weight": 0.42,
       "rankScore": 5.31,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 38
+      "rank": 39
     },
     {
       "title": "The Throne of Fire",
@@ -668,23 +685,6 @@
       "weight": 0.36,
       "rankScore": 5.31,
       "why": "science fiction on the page — you over-index on it in film",
-      "rank": 39
-    },
-    {
-      "title": "The Raven",
-      "author": "Edgar Allan Poe",
-      "olWork": "OL41081W",
-      "year": 1845,
-      "pages": 42,
-      "cover": "https://covers.openlibrary.org/b/id/8246077-M.jpg",
-      "editionCount": 287,
-      "olRating": {
-        "average": 4.4666667,
-        "count": 60
-      },
-      "weight": 0.42,
-      "rankScore": 5.31,
-      "why": "horror on the page — you over-index on it in film",
       "rank": 40
     }
   ]
