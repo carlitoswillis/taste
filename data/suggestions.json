@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-31T11:36:37.487Z",
+  "generated": "2026-08-01T10:49:42.604Z",
   "basedOn": 27,
   "head": 12,
   "items": [
@@ -46,8 +46,8 @@
       "title": "Wild Strawberries",
       "year": 1957,
       "tmdbId": 614,
-      "tmdbRating": 8.071,
-      "votes": 1829,
+      "tmdbRating": 8.07,
+      "votes": 1830,
       "score": 15.399999999999999,
       "rank": 2,
       "director": [
@@ -83,7 +83,7 @@
       "year": 1999,
       "tmdbId": 11660,
       "tmdbRating": 7.124,
-      "votes": 1896,
+      "votes": 1897,
       "score": 12.15,
       "themes": [
         "surveillance"
@@ -126,8 +126,8 @@
       "title": "Insomnia",
       "year": 2002,
       "tmdbId": 320,
-      "tmdbRating": 6.954,
-      "votes": 5398,
+      "tmdbRating": 6.955,
+      "votes": 5401,
       "score": 12.15,
       "rank": 4,
       "director": [
@@ -162,8 +162,8 @@
       "title": "Burn After Reading",
       "year": 2008,
       "tmdbId": 4944,
-      "tmdbRating": 6.7,
-      "votes": 5307,
+      "tmdbRating": 6.677,
+      "votes": 5310,
       "score": 8.100000000000001,
       "themes": [
         "unravelling",
@@ -205,7 +205,7 @@
       "year": 2010,
       "tmdbId": 44264,
       "tmdbRating": 7.306,
-      "votes": 5820,
+      "votes": 5823,
       "score": 9.000000000000002,
       "rank": 6,
       "director": [
@@ -325,7 +325,7 @@
       "title": "The Strange Thing About the Johnsons",
       "year": 2011,
       "tmdbId": 164052,
-      "tmdbRating": 6.828,
+      "tmdbRating": 6.8,
       "votes": 386,
       "score": 6.75,
       "rank": 9,
@@ -353,8 +353,8 @@
       "title": "Okja",
       "year": 2017,
       "tmdbId": 387426,
-      "tmdbRating": 7.3,
-      "votes": 4577,
+      "tmdbRating": 7.328,
+      "votes": 4578,
       "score": 5.700000000000001,
       "themes": [
         "doubling"
@@ -367,7 +367,8 @@
       "genres": [
         "Adventure",
         "Drama",
-        "Science Fiction"
+        "Science Fiction",
+        "Action"
       ],
       "poster": "https://image.tmdb.org/t/p/w342/pHlRr2MfjK77VIIAO7p0R4jhsJI.jpg",
       "providers": {
@@ -427,7 +428,7 @@
       "year": 2006,
       "tmdbId": 1255,
       "tmdbRating": 6.977,
-      "votes": 3183,
+      "votes": 3186,
       "score": 5.700000000000001,
       "rank": 12,
       "director": [
@@ -615,24 +616,24 @@
       "score": 8.850000000000001,
       "rank": 17,
       "director": [
-        "Olivier Assayas",
-        "Frédéric Auburtin",
-        "Gurinder Chadha",
         "Sylvain Chomet",
+        "Tom Tykwer",
+        "Gurinder Chadha",
+        "Richard LaGravenese",
         "Isabel Coixet",
-        "Wes Craven",
+        "Nobuhiro Suwa",
+        "Frédéric Auburtin",
         "Alfonso Cuarón",
         "Gérard Depardieu",
-        "Christopher Doyle",
-        "Richard LaGravenese",
-        "Vincenzo Natali",
-        "Alexander Payne",
         "Walter Salles",
-        "Oliver Schmitz",
-        "Nobuhiro Suwa",
+        "Christopher Doyle",
+        "Wes Craven",
         "Daniela Thomas",
-        "Tom Tykwer",
+        "Vincenzo Natali",
+        "Oliver Schmitz",
         "Gus Van Sant",
+        "Olivier Assayas",
+        "Alexander Payne",
         "Joel Coen",
         "Ethan Coen",
         "Bruno Podalydès"
@@ -702,8 +703,8 @@
       "title": "Barton Fink",
       "year": 1991,
       "tmdbId": 290,
-      "tmdbRating": 7.464,
-      "votes": 1906,
+      "tmdbRating": 7.465,
+      "votes": 1907,
       "score": 8.100000000000001,
       "rank": 19,
       "director": [
@@ -735,47 +736,13 @@
       "why": "Joel Coen wrote and directed this — you rated No Country for Old Men 4.5★ · Ethan Coen wrote and directed this — you rated No Country for Old Men 4.5★"
     },
     {
-      "title": "Tokyo!",
-      "year": 2008,
-      "tmdbId": 8938,
-      "tmdbRating": 6.9,
-      "votes": 265,
-      "score": 5.700000000000001,
-      "rank": 20,
-      "director": [
-        "Bong Joon Ho",
-        "Leos Carax",
-        "Michel Gondry"
-      ],
-      "runtime": 112,
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Fantasy",
-        "Romance"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/6xbq2EBAOwy0V7bzd1um3sJX1jd.jpg",
-      "providers": {
-        "flatrate": [],
-        "rent": [
-          "Amazon Video"
-        ]
-      },
-      "scores": {
-        "rt": 76,
-        "metacritic": 63,
-        "imdb": 7
-      },
-      "why": "Bong Joon Ho wrote and directed this — you rated Parasite 4.5★"
-    },
-    {
       "title": "Snowpiercer",
       "year": 2013,
       "tmdbId": 110415,
-      "tmdbRating": 6.9,
-      "votes": 10525,
+      "tmdbRating": 6.907,
+      "votes": 10527,
       "score": 5.700000000000001,
-      "rank": 21,
+      "rank": 20,
       "director": [
         "Bong Joon Ho"
       ],
@@ -806,11 +773,45 @@
       "why": "Bong Joon Ho wrote and directed this — you rated Parasite 4.5★"
     },
     {
+      "title": "Tokyo!",
+      "year": 2008,
+      "tmdbId": 8938,
+      "tmdbRating": 6.872,
+      "votes": 265,
+      "score": 5.700000000000001,
+      "rank": 21,
+      "director": [
+        "Leos Carax",
+        "Bong Joon Ho",
+        "Michel Gondry"
+      ],
+      "runtime": 112,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Fantasy",
+        "Romance"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/6xbq2EBAOwy0V7bzd1um3sJX1jd.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video"
+        ]
+      },
+      "scores": {
+        "rt": 76,
+        "metacritic": 63,
+        "imdb": 7
+      },
+      "why": "Bong Joon Ho wrote and directed this — you rated Parasite 4.5★"
+    },
+    {
       "title": "Barking Dogs Never Bite",
       "year": 2000,
       "tmdbId": 21531,
-      "tmdbRating": 6.754,
-      "votes": 305,
+      "tmdbRating": 6.758,
+      "votes": 306,
       "score": 5.700000000000001,
       "rank": 22,
       "director": [
@@ -959,7 +960,7 @@
       "year": 2013,
       "tmdbId": 49521,
       "tmdbRating": 6.655,
-      "votes": 16384,
+      "votes": 16389,
       "score": 4.86,
       "rank": 26,
       "director": [
@@ -1028,7 +1029,7 @@
       "title": "Alps",
       "year": 2011,
       "tmdbId": 81857,
-      "tmdbRating": 6.214,
+      "tmdbRating": 6.213,
       "votes": 350,
       "score": 4.800000000000001,
       "rank": 28,
@@ -1130,7 +1131,7 @@
       "title": "Kill Bill: The Whole Bloody Affair",
       "year": 2011,
       "tmdbId": 414419,
-      "tmdbRating": 8.109,
+      "tmdbRating": 8.1,
       "votes": 1359,
       "score": 3.8000000000000003,
       "rank": 31,
@@ -1198,7 +1199,7 @@
       "year": 2004,
       "tmdbId": 393,
       "tmdbRating": 7.877,
-      "votes": 15233,
+      "votes": 15237,
       "score": 3.8000000000000003,
       "rank": 33,
       "director": [
@@ -1235,7 +1236,7 @@
       "year": 2015,
       "tmdbId": 273248,
       "tmdbRating": 7.756,
-      "votes": 15428,
+      "votes": 15431,
       "score": 3.8000000000000003,
       "rank": 34,
       "director": [
@@ -1347,7 +1348,7 @@
       "year": 2007,
       "tmdbId": 285923,
       "tmdbRating": 7.003,
-      "votes": 1911,
+      "votes": 1912,
       "score": 3.8000000000000003,
       "rank": 37,
       "director": [
@@ -1451,8 +1452,8 @@
       "title": "Love Lies Bleeding",
       "year": 2024,
       "tmdbId": 948549,
-      "tmdbRating": 6.541,
-      "votes": 986,
+      "tmdbRating": 6.542,
+      "votes": 987,
       "score": 2.7,
       "themes": [
         "body-horror"
@@ -1529,8 +1530,8 @@
       "title": "The Boogeyman",
       "year": 2023,
       "tmdbId": 532408,
-      "tmdbRating": 6.4,
-      "votes": 1124,
+      "tmdbRating": 6.385,
+      "votes": 1126,
       "score": 3.5200000000000005,
       "rank": 42,
       "director": [
@@ -1666,7 +1667,7 @@
       "year": 2024,
       "tmdbId": 639720,
       "tmdbRating": 6.945,
-      "votes": 1650,
+      "votes": 1652,
       "score": 3.2,
       "rank": 46,
       "director": [
@@ -1733,7 +1734,7 @@
       "title": "Thelma & Louise",
       "year": 1991,
       "tmdbId": 1541,
-      "tmdbRating": 7.601,
+      "tmdbRating": 7.6,
       "votes": 3927,
       "score": 2.4000000000000004,
       "themes": [
@@ -1775,7 +1776,7 @@
       "year": 2007,
       "tmdbId": 4982,
       "tmdbRating": 7.594,
-      "votes": 6121,
+      "votes": 6124,
       "score": 2.4000000000000004,
       "themes": [
         "surveillance"
@@ -1807,13 +1808,46 @@
       "why": "Ridley Scott directed this — you rated Prometheus 4.5★ · themes: watched & watching"
     },
     {
+      "title": "Birdman or (The Unexpected Virtue of Ignorance)",
+      "year": 2014,
+      "tmdbId": 194662,
+      "tmdbRating": 7.438,
+      "votes": 13683,
+      "score": 0.8999999999999999,
+      "themes": [
+        "cruel-comedy",
+        "doubling"
+      ],
+      "rank": 50,
+      "director": [
+        "Alejandro G. Iñárritu"
+      ],
+      "runtime": 120,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/rHUg2AuIuLSIYMYFgavVwqt1jtc.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Emma Stone stars in this — you rated Poor Things 4.5★, Bugonia 4.5★ · themes: comedy that's actually cruel, doubling & doppelgangers"
+    },
+    {
       "title": "The Raid 2",
       "year": 2014,
       "tmdbId": 180299,
       "tmdbRating": 7.611,
-      "votes": 2631,
+      "votes": 2633,
       "score": 2.7,
-      "rank": 50,
+      "rank": 51,
       "director": [
         "Gareth Evans"
       ],
@@ -1840,44 +1874,11 @@
       "why": "Gareth Evans wrote and directed this — you rated Apostle 4★"
     },
     {
-      "title": "Birdman or (The Unexpected Virtue of Ignorance)",
-      "year": 2014,
-      "tmdbId": 194662,
-      "tmdbRating": 7.4,
-      "votes": 13679,
-      "score": 0.8999999999999999,
-      "themes": [
-        "cruel-comedy",
-        "doubling"
-      ],
-      "rank": 51,
-      "director": [
-        "Alejandro G. Iñárritu"
-      ],
-      "runtime": 120,
-      "genres": [
-        "Drama",
-        "Comedy"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/rHUg2AuIuLSIYMYFgavVwqt1jtc.jpg",
-      "providers": {
-        "flatrate": [],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
-          "Fandango At Home"
-        ]
-      },
-      "why": "Emma Stone stars in this — you rated Poor Things 4.5★, Bugonia 4.5★ · themes: comedy that's actually cruel, doubling & doppelgangers"
-    },
-    {
       "title": "The Raid",
       "year": 2012,
       "tmdbId": 94329,
       "tmdbRating": 7.408,
-      "votes": 3945,
+      "votes": 3946,
       "score": 2.7,
       "rank": 52,
       "director": [
@@ -1910,8 +1911,8 @@
       "title": "Mad Max 2",
       "year": 1981,
       "tmdbId": 8810,
-      "tmdbRating": 7.391,
-      "votes": 4233,
+      "tmdbRating": 7.392,
+      "votes": 4235,
       "score": 2.7,
       "rank": 53,
       "director": [
@@ -1970,7 +1971,7 @@
       "year": 2022,
       "tmdbId": 556694,
       "tmdbRating": 6.883,
-      "votes": 1691,
+      "votes": 1692,
       "score": 2.7,
       "rank": 55,
       "director": [
@@ -2004,7 +2005,7 @@
       "year": 1982,
       "tmdbId": 78,
       "tmdbRating": 7.935,
-      "votes": 15170,
+      "votes": 15172,
       "score": 2.4000000000000004,
       "rank": 56,
       "director": [
@@ -2033,7 +2034,7 @@
       "year": 1979,
       "tmdbId": 9659,
       "tmdbRating": 6.683,
-      "votes": 5022,
+      "votes": 5027,
       "score": 2.7,
       "rank": 57,
       "director": [
@@ -2130,8 +2131,8 @@
       "title": "Tom Clancy's Jack Ryan: Ghost War",
       "year": 2026,
       "tmdbId": 1380291,
-      "tmdbRating": 6.986,
-      "votes": 698,
+      "tmdbRating": 6.982,
+      "votes": 701,
       "score": 2.5600000000000005,
       "rank": 60,
       "director": [
@@ -2156,8 +2157,8 @@
       "title": "Havoc",
       "year": 2025,
       "tmdbId": 668489,
-      "tmdbRating": 6.392,
-      "votes": 1286,
+      "tmdbRating": 6.393,
+      "votes": 1288,
       "score": 2.7,
       "rank": 61,
       "director": [
@@ -2224,7 +2225,7 @@
       "year": 2001,
       "tmdbId": 855,
       "tmdbRating": 7.395,
-      "votes": 6457,
+      "votes": 6460,
       "score": 2.4000000000000004,
       "rank": 63,
       "director": [
@@ -2260,7 +2261,7 @@
       "year": 2021,
       "tmdbId": 337404,
       "tmdbRating": 7.971,
-      "votes": 10178,
+      "votes": 10179,
       "score": 2.22,
       "rank": 64,
       "director": [
@@ -2452,7 +2453,7 @@
       "year": 1999,
       "tmdbId": 1832,
       "tmdbRating": 6.938,
-      "votes": 2899,
+      "votes": 2900,
       "score": 0.8999999999999999,
       "themes": [
         "cruel-comedy"
@@ -2482,7 +2483,7 @@
       "year": 2011,
       "tmdbId": 39538,
       "tmdbRating": 6.651,
-      "votes": 6614,
+      "votes": 6617,
       "score": 0.8999999999999999,
       "themes": [
         "body-horror"
@@ -2559,7 +2560,7 @@
       "year": 2016,
       "tmdbId": 311324,
       "tmdbRating": 6.034,
-      "votes": 5602,
+      "votes": 5604,
       "score": 1.65,
       "rank": 73,
       "director": [
@@ -2590,8 +2591,8 @@
       "title": "Star Trek Into Darkness",
       "year": 2013,
       "tmdbId": 54138,
-      "tmdbRating": 7.324,
-      "votes": 9757,
+      "tmdbRating": 7.323,
+      "votes": 9762,
       "score": 1.3200000000000003,
       "rank": 74,
       "director": [
@@ -2664,8 +2665,8 @@
       "title": "The Help",
       "year": 2011,
       "tmdbId": 50014,
-      "tmdbRating": 8.205,
-      "votes": 9150,
+      "tmdbRating": 8.206,
+      "votes": 9153,
       "score": 0.8999999999999999,
       "rank": 76,
       "director": [
@@ -2693,7 +2694,7 @@
       "year": 1997,
       "tmdbId": 489,
       "tmdbRating": 8.163,
-      "votes": 14052,
+      "votes": 14055,
       "score": 0.8999999999999999,
       "rank": 77,
       "director": [
@@ -2761,8 +2762,8 @@
       "title": "Tomorrowland",
       "year": 2015,
       "tmdbId": 158852,
-      "tmdbRating": 6.298,
-      "votes": 7407,
+      "tmdbRating": 6.3,
+      "votes": 7412,
       "score": 1.3200000000000003,
       "rank": 79,
       "director": [
@@ -2829,7 +2830,7 @@
       "year": 2016,
       "tmdbId": 313369,
       "tmdbRating": 7.897,
-      "votes": 18268,
+      "votes": 18272,
       "score": 0.8999999999999999,
       "rank": 81,
       "director": [
@@ -2890,7 +2891,7 @@
       "title": "Togo",
       "year": 2019,
       "tmdbId": 606856,
-      "tmdbRating": 8.137,
+      "tmdbRating": 8.138,
       "votes": 2332,
       "score": 0.75,
       "rank": 83,
@@ -2913,8 +2914,8 @@
       "title": "Trolls Band Together",
       "year": 2023,
       "tmdbId": 901362,
-      "tmdbRating": 7.248,
-      "votes": 1012,
+      "tmdbRating": 7.25,
+      "votes": 1014,
       "score": 0.96,
       "rank": 84,
       "director": [
@@ -2951,7 +2952,7 @@
       "year": 2020,
       "tmdbId": 529203,
       "tmdbRating": 7.439,
-      "votes": 4184,
+      "votes": 4189,
       "score": 0.8999999999999999,
       "rank": 85,
       "director": [
@@ -2986,8 +2987,8 @@
       "title": "Crazy, Stupid, Love.",
       "year": 2011,
       "tmdbId": 50646,
-      "tmdbRating": 7.276,
-      "votes": 9378,
+      "tmdbRating": 7.277,
+      "votes": 9381,
       "score": 0.8999999999999999,
       "rank": 86,
       "director": [
@@ -3023,7 +3024,7 @@
       "year": 1986,
       "tmdbId": 792,
       "tmdbRating": 7.749,
-      "votes": 5185,
+      "votes": 5187,
       "score": 0.75,
       "rank": 87,
       "director": [
@@ -3093,7 +3094,7 @@
       "year": 1988,
       "tmdbId": 1632,
       "tmdbRating": 7.675,
-      "votes": 1982,
+      "votes": 1984,
       "score": 0.75,
       "rank": 89,
       "director": [
@@ -3221,13 +3222,44 @@
       "why": "Robert Pattinson stars in this — you rated The Odyssey 5★, The Lighthouse 4★"
     },
     {
+      "title": "The Devil's Advocate",
+      "year": 1997,
+      "tmdbId": 1813,
+      "tmdbRating": 7.5,
+      "votes": 6910,
+      "score": 0.75,
+      "rank": 93,
+      "director": [
+        "Taylor Hackford"
+      ],
+      "runtime": 144,
+      "genres": [
+        "Horror",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/5ZzBGpxy55OQzHxKVY11IpY6a0o.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Spectrum On Demand"
+        ]
+      },
+      "why": "Charlize Theron stars in this — you rated Prometheus 4.5★, Mad Max: Fury Road 4★"
+    },
+    {
       "title": "Men of Honor",
       "year": 2000,
       "tmdbId": 11978,
       "tmdbRating": 7.491,
       "votes": 2542,
       "score": 0.75,
-      "rank": 93,
+      "rank": 94,
       "director": [
         "George Tillman Jr."
       ],
@@ -3254,42 +3286,11 @@
       "why": "Charlize Theron stars in this — you rated Prometheus 4.5★, Mad Max: Fury Road 4★"
     },
     {
-      "title": "The Devil's Advocate",
-      "year": 1997,
-      "tmdbId": 1813,
-      "tmdbRating": 7.48,
-      "votes": 6909,
-      "score": 0.75,
-      "rank": 94,
-      "director": [
-        "Taylor Hackford"
-      ],
-      "runtime": 144,
-      "genres": [
-        "Horror",
-        "Drama",
-        "Mystery"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/5ZzBGpxy55OQzHxKVY11IpY6a0o.jpg",
-      "providers": {
-        "flatrate": [],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
-          "Fandango At Home",
-          "Spectrum On Demand"
-        ]
-      },
-      "why": "Charlize Theron stars in this — you rated Prometheus 4.5★, Mad Max: Fury Road 4★"
-    },
-    {
       "title": "Inside Man",
       "year": 2006,
       "tmdbId": 388,
-      "tmdbRating": 7.411,
-      "votes": 6447,
+      "tmdbRating": 7.41,
+      "votes": 6450,
       "score": 0.75,
       "rank": 95,
       "director": [
@@ -3321,8 +3322,8 @@
       "title": "Little Brother",
       "year": 2026,
       "tmdbId": 1397385,
-      "tmdbRating": 6.456,
-      "votes": 296,
+      "tmdbRating": 6.45,
+      "votes": 299,
       "score": 0.96,
       "rank": 96,
       "director": [
@@ -3343,13 +3344,42 @@
       "why": "Eric André stars in this — you rated Bad Trip 4★"
     },
     {
+      "title": "North Country",
+      "year": 2005,
+      "tmdbId": 9701,
+      "tmdbRating": 7.252,
+      "votes": 752,
+      "score": 0.75,
+      "rank": 97,
+      "director": [
+        "Niki Caro"
+      ],
+      "runtime": 126,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/upxUN4zmX79o49mBW9htKZDeNq7.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Spectrum On Demand"
+        ]
+      },
+      "why": "Charlize Theron stars in this — you rated Prometheus 4.5★, Mad Max: Fury Road 4★"
+    },
+    {
       "title": "The Boondock Saints",
       "year": 1999,
       "tmdbId": 8374,
-      "tmdbRating": 7.251,
-      "votes": 2736,
+      "tmdbRating": 7.252,
+      "votes": 2737,
       "score": 0.75,
-      "rank": 97,
+      "rank": 98,
       "director": [
         "Troy Duffy"
       ],
@@ -3377,35 +3407,6 @@
         ]
       },
       "why": "Willem Dafoe stars in this — you rated Poor Things 4.5★, The Lighthouse 4★"
-    },
-    {
-      "title": "North Country",
-      "year": 2005,
-      "tmdbId": 9701,
-      "tmdbRating": 7.248,
-      "votes": 751,
-      "score": 0.75,
-      "rank": 98,
-      "director": [
-        "Niki Caro"
-      ],
-      "runtime": 126,
-      "genres": [
-        "Drama"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/upxUN4zmX79o49mBW9htKZDeNq7.jpg",
-      "providers": {
-        "flatrate": [],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
-          "Fandango At Home",
-          "Spectrum On Demand"
-        ]
-      },
-      "why": "Charlize Theron stars in this — you rated Prometheus 4.5★, Mad Max: Fury Road 4★"
     },
     {
       "title": "Monster",
@@ -3440,8 +3441,8 @@
       "title": "The Twilight Saga: Breaking Dawn - Part 2",
       "year": 2012,
       "tmdbId": 50620,
-      "tmdbRating": 6.454,
-      "votes": 9432,
+      "tmdbRating": 6.453,
+      "votes": 9433,
       "score": 0.8999999999999999,
       "rank": 100,
       "director": [
@@ -3478,8 +3479,8 @@
       "title": "Perfect Blue",
       "year": 1998,
       "tmdbId": 10494,
-      "tmdbRating": 8.303,
-      "votes": 3271,
+      "tmdbRating": 8.3,
+      "votes": 3274,
       "theme": "unravelling",
       "why": "unravelling — the thread through 3 of your loved films",
       "director": [
@@ -3610,8 +3611,8 @@
       "title": "Prayers for Bobby",
       "year": 2009,
       "tmdbId": 21634,
-      "tmdbRating": 8.062,
-      "votes": 638,
+      "tmdbRating": 8.068,
+      "votes": 640,
       "theme": "grief-horror",
       "why": "grief-horror — the thread through 4 of your loved films",
       "director": [
@@ -3670,8 +3671,8 @@
       "title": "Life Is Beautiful",
       "year": 1997,
       "tmdbId": 637,
-      "tmdbRating": 8.439,
-      "votes": 14105,
+      "tmdbRating": 8.438,
+      "votes": 14108,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 2 of your loved films",
       "director": [
@@ -3704,8 +3705,8 @@
       "title": "The Great Dictator",
       "year": 1940,
       "tmdbId": 914,
-      "tmdbRating": 8.28,
-      "votes": 3745,
+      "tmdbRating": 8.279,
+      "votes": 3748,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 2 of your loved films",
       "director": [
@@ -3797,7 +3798,7 @@
       "year": 2010,
       "tmdbId": 46738,
       "tmdbRating": 8.108,
-      "votes": 3373,
+      "votes": 3375,
       "theme": "doubling",
       "why": "doubling — the thread through 2 of your loved films",
       "director": [
@@ -3858,7 +3859,7 @@
       "year": 1982,
       "tmdbId": 1091,
       "tmdbRating": 8.072,
-      "votes": 8081,
+      "votes": 8084,
       "theme": "body-horror",
       "why": "body-horror — the thread through 2 of your loved films",
       "director": [
@@ -3886,8 +3887,8 @@
       "title": "Spider-Man: Brand New Day",
       "year": 2026,
       "tmdbId": 969681,
-      "tmdbRating": 7.988,
-      "votes": 320,
+      "tmdbRating": 8.048,
+      "votes": 448,
       "theme": "body-horror",
       "why": "body-horror — the thread through 2 of your loved films",
       "director": [
