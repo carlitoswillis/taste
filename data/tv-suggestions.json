@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-01T10:50:02.289Z",
+  "generated": "2026-08-02T10:52:02.505Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -69,8 +69,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.751,
-      "votes": 983,
+      "tmdbRating": 7.752,
+      "votes": 985,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -106,8 +106,8 @@
       "title": "Jackass",
       "year": 2000,
       "tmdbId": 1795,
-      "tmdbRating": 6.654,
-      "votes": 296,
+      "tmdbRating": 6.655,
+      "votes": 297,
       "score": 4,
       "rank": 4,
       "creators": [
@@ -212,8 +212,8 @@
       "title": "ER",
       "year": 1994,
       "tmdbId": 4588,
-      "tmdbRating": 7.831,
-      "votes": 941,
+      "tmdbRating": 7.833,
+      "votes": 942,
       "score": 3.0400000000000005,
       "rank": 7,
       "creators": [
@@ -247,8 +247,8 @@
       "title": "CSI: Crime Scene Investigation",
       "year": 2000,
       "tmdbId": 1431,
-      "tmdbRating": 7.624,
-      "votes": 1408,
+      "tmdbRating": 7.621,
+      "votes": 1410,
       "score": 3.0400000000000005,
       "rank": 8,
       "creators": [
@@ -288,7 +288,7 @@
       "year": 2005,
       "tmdbId": 2316,
       "tmdbRating": 8.6,
-      "votes": 5338,
+      "votes": 5340,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -322,7 +322,7 @@
       "year": 2020,
       "tmdbId": 85021,
       "tmdbRating": 7.813,
-      "votes": 688,
+      "votes": 689,
       "score": 2.7,
       "rank": 10,
       "creators": [
@@ -401,8 +401,8 @@
       "title": "DAVE",
       "year": 2020,
       "tmdbId": 97084,
-      "tmdbRating": 7.297,
-      "votes": 192,
+      "tmdbRating": 7.306,
+      "votes": 193,
       "score": 3.0400000000000005,
       "rank": 12,
       "creators": [
@@ -470,8 +470,8 @@
       "title": "Mr. Pickles",
       "year": 2014,
       "tmdbId": 61593,
-      "tmdbRating": 8.139,
-      "votes": 857,
+      "tmdbRating": 8.138,
+      "votes": 858,
       "score": 2.16,
       "rank": 14,
       "creators": [
@@ -583,7 +583,7 @@
       "year": 2011,
       "tmdbId": 1411,
       "tmdbRating": 8.091,
-      "votes": 2102,
+      "votes": 2104,
       "score": 1.6500000000000001,
       "themes": [
         "surveillance"
@@ -624,7 +624,7 @@
       "year": 2018,
       "tmdbId": 73375,
       "tmdbRating": 7.677,
-      "votes": 1841,
+      "votes": 1843,
       "score": 1.92,
       "rank": 18,
       "creators": [
@@ -724,7 +724,7 @@
       "year": 2020,
       "tmdbId": 85723,
       "tmdbRating": 7.508,
-      "votes": 1809,
+      "votes": 1811,
       "score": 1.9200000000000004,
       "rank": 21,
       "creators": [
@@ -755,7 +755,7 @@
       "year": 2016,
       "tmdbId": 63247,
       "tmdbRating": 8.021,
-      "votes": 6280,
+      "votes": 6284,
       "score": 1.6500000000000001,
       "rank": 22,
       "creators": [
@@ -786,8 +786,8 @@
       "title": "Dope Thief",
       "year": 2025,
       "tmdbId": 209876,
-      "tmdbRating": 6.429,
-      "votes": 126,
+      "tmdbRating": 6.449,
+      "votes": 127,
       "score": 1.9200000000000004,
       "rank": 23,
       "creators": [
