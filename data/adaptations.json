@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-03T12:36:34.513Z",
+  "generated": "2026-08-04T11:32:59.992Z",
   "edges": [
     {
       "book": {
@@ -1237,12 +1237,6 @@
       "olKey": "OL18404A",
       "adaptedBy": [
         {
-          "director": "Christopher Nolan",
-          "films": [
-            "The Odyssey"
-          ]
-        },
-        {
           "director": "Joel Coen",
           "films": [
             "O Brother, Where Art Thou?"
@@ -1252,6 +1246,12 @@
           "director": "Ethan Coen",
           "films": [
             "O Brother, Where Art Thou?"
+          ]
+        },
+        {
+          "director": "Christopher Nolan",
+          "films": [
+            "The Odyssey"
           ]
         }
       ],
@@ -1336,6 +1336,20 @@
           "director": "Ingmar Bergman",
           "films": [
             "The Image Makers"
+          ]
+        }
+      ],
+      "weight": 2.56
+    },
+    {
+      "name": "Per Anders Fogelström",
+      "wikidata": "Q705753",
+      "olKey": "OL128703A",
+      "adaptedBy": [
+        {
+          "director": "Ingmar Bergman",
+          "films": [
+            "Summer with Monika"
           ]
         }
       ],
