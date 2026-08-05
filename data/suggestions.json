@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-04T11:34:18.471Z",
+  "generated": "2026-08-05T11:30:02.124Z",
   "basedOn": 27,
   "head": 12,
   "items": [
@@ -46,7 +46,7 @@
       "title": "Wild Strawberries",
       "year": 1957,
       "tmdbId": 614,
-      "tmdbRating": 8.07,
+      "tmdbRating": 8.1,
       "votes": 1830,
       "score": 15.399999999999999,
       "rank": 2,
@@ -83,7 +83,7 @@
       "year": 1999,
       "tmdbId": 11660,
       "tmdbRating": 7.128,
-      "votes": 1910,
+      "votes": 1911,
       "score": 12.15,
       "themes": [
         "surveillance"
@@ -127,7 +127,7 @@
       "year": 2002,
       "tmdbId": 320,
       "tmdbRating": 6.955,
-      "votes": 5411,
+      "votes": 5414,
       "score": 12.15,
       "rank": 4,
       "director": [
@@ -163,7 +163,7 @@
       "year": 2008,
       "tmdbId": 4944,
       "tmdbRating": 6.677,
-      "votes": 5320,
+      "votes": 5323,
       "score": 8.100000000000001,
       "themes": [
         "unravelling",
@@ -205,12 +205,12 @@
       "year": 2010,
       "tmdbId": 44264,
       "tmdbRating": 7.306,
-      "votes": 5836,
+      "votes": 5837,
       "score": 9.000000000000002,
       "rank": 6,
       "director": [
-        "Joel Coen",
-        "Ethan Coen"
+        "Ethan Coen",
+        "Joel Coen"
       ],
       "runtime": 110,
       "genres": [
@@ -252,7 +252,7 @@
       "year": 2024,
       "tmdbId": 1029955,
       "tmdbRating": 6.481,
-      "votes": 1317,
+      "votes": 1319,
       "score": 6.450000000000001,
       "themes": [
         "cruel-comedy"
@@ -293,7 +293,7 @@
       "year": 2018,
       "tmdbId": 375262,
       "tmdbRating": 7.484,
-      "votes": 5974,
+      "votes": 5975,
       "score": 7.020000000000001,
       "rank": 8,
       "director": [
@@ -356,7 +356,7 @@
       "year": 2017,
       "tmdbId": 387426,
       "tmdbRating": 7.327,
-      "votes": 4583,
+      "votes": 4584,
       "score": 5.700000000000001,
       "themes": [
         "doubling"
@@ -430,7 +430,7 @@
       "year": 2006,
       "tmdbId": 1255,
       "tmdbRating": 6.976,
-      "votes": 3189,
+      "votes": 3191,
       "score": 5.700000000000001,
       "rank": 12,
       "director": [
@@ -613,31 +613,31 @@
       "title": "Paris Je T'aime",
       "year": 2006,
       "tmdbId": 2266,
-      "tmdbRating": 6.764,
-      "votes": 849,
+      "tmdbRating": 6.766,
+      "votes": 850,
       "score": 8.850000000000001,
       "rank": 17,
       "director": [
-        "Olivier Assayas",
+        "Isabel Coixet",
+        "Sylvain Chomet",
+        "Vincenzo Natali",
+        "Wes Craven",
+        "Gus Van Sant",
+        "Nobuhiro Suwa",
+        "Daniela Thomas",
         "Frédéric Auburtin",
         "Gurinder Chadha",
-        "Sylvain Chomet",
-        "Isabel Coixet",
-        "Wes Craven",
         "Alfonso Cuarón",
         "Gérard Depardieu",
         "Christopher Doyle",
-        "Richard LaGravenese",
-        "Vincenzo Natali",
         "Alexander Payne",
-        "Walter Salles",
-        "Oliver Schmitz",
-        "Nobuhiro Suwa",
-        "Daniela Thomas",
         "Tom Tykwer",
-        "Gus Van Sant",
-        "Joel Coen",
+        "Oliver Schmitz",
+        "Olivier Assayas",
+        "Richard LaGravenese",
+        "Walter Salles",
         "Ethan Coen",
+        "Joel Coen",
         "Bruno Podalydès"
       ],
       "runtime": 120,
@@ -670,8 +670,8 @@
       "title": "The Man Who Wasn't There",
       "year": 2001,
       "tmdbId": 10778,
-      "tmdbRating": 7.507,
-      "votes": 1779,
+      "tmdbRating": 7.508,
+      "votes": 1780,
       "score": 8.100000000000001,
       "rank": 18,
       "director": [
@@ -706,7 +706,7 @@
       "year": 1991,
       "tmdbId": 290,
       "tmdbRating": 7.464,
-      "votes": 1911,
+      "votes": 1912,
       "score": 8.100000000000001,
       "rank": 19,
       "director": [
@@ -742,7 +742,7 @@
       "year": 2013,
       "tmdbId": 110415,
       "tmdbRating": 6.906,
-      "votes": 10540,
+      "votes": 10542,
       "score": 5.700000000000001,
       "rank": 20,
       "director": [
@@ -758,6 +758,7 @@
       "providers": {
         "flatrate": [
           "Amazon Prime Video",
+          "Hulu",
           "Amazon Prime Video with Ads",
           "MovieSphere+ Amazon Channel"
         ],
@@ -785,8 +786,8 @@
       "score": 5.700000000000001,
       "rank": 21,
       "director": [
-        "Leos Carax",
         "Bong Joon Ho",
+        "Leos Carax",
         "Michel Gondry"
       ],
       "runtime": 112,
@@ -967,7 +968,7 @@
       "year": 2013,
       "tmdbId": 49521,
       "tmdbRating": 6.656,
-      "votes": 16409,
+      "votes": 16414,
       "score": 4.86,
       "rank": 26,
       "director": [
@@ -1071,8 +1072,8 @@
       "title": "Left-Handed Girl",
       "year": 2025,
       "tmdbId": 999075,
-      "tmdbRating": 7.279,
-      "votes": 183,
+      "tmdbRating": 7.277,
+      "votes": 184,
       "score": 4.32,
       "rank": 29,
       "director": [
@@ -1139,7 +1140,7 @@
       "year": 2011,
       "tmdbId": 414419,
       "tmdbRating": 8.1,
-      "votes": 1363,
+      "votes": 1365,
       "score": 3.8000000000000003,
       "rank": 31,
       "director": [
@@ -1206,7 +1207,7 @@
       "year": 2004,
       "tmdbId": 393,
       "tmdbRating": 7.876,
-      "votes": 15255,
+      "votes": 15260,
       "score": 3.8000000000000003,
       "rank": 33,
       "director": [
@@ -1242,8 +1243,8 @@
       "title": "The Hateful Eight",
       "year": 2015,
       "tmdbId": 273248,
-      "tmdbRating": 7.757,
-      "votes": 15450,
+      "tmdbRating": 7.756,
+      "votes": 15456,
       "score": 3.8000000000000003,
       "rank": 34,
       "director": [
@@ -1277,7 +1278,7 @@
       "year": 1997,
       "tmdbId": 184,
       "tmdbRating": 7.356,
-      "votes": 7026,
+      "votes": 7028,
       "score": 3.8000000000000003,
       "rank": 35,
       "director": [
@@ -1355,7 +1356,7 @@
       "title": "Grindhouse",
       "year": 2007,
       "tmdbId": 285923,
-      "tmdbRating": 7.004,
+      "tmdbRating": 7,
       "votes": 1914,
       "score": 3.8000000000000003,
       "rank": 37,
@@ -1460,7 +1461,7 @@
       "title": "Love Lies Bleeding",
       "year": 2024,
       "tmdbId": 948549,
-      "tmdbRating": 6.547,
+      "tmdbRating": 6.5,
       "votes": 991,
       "score": 2.7,
       "themes": [
@@ -1584,8 +1585,6 @@
       "poster": "https://image.tmdb.org/t/p/w342/fZlAxZMo6BId1SiqyjLmkd7oUB7.jpg",
       "providers": {
         "flatrate": [
-          "Paramount Plus Premium",
-          "Philo",
           "YouTube TV"
         ],
         "rent": [
@@ -1667,8 +1666,8 @@
       "title": "IF",
       "year": 2024,
       "tmdbId": 639720,
-      "tmdbRating": 6.942,
-      "votes": 1660,
+      "tmdbRating": 6.941,
+      "votes": 1661,
       "score": 3.2,
       "rank": 46,
       "director": [
@@ -1735,8 +1734,8 @@
       "title": "Thelma & Louise",
       "year": 1991,
       "tmdbId": 1541,
-      "tmdbRating": 7.602,
-      "votes": 3935,
+      "tmdbRating": 7.6,
+      "votes": 3937,
       "score": 2.4000000000000004,
       "themes": [
         "surveillance"
@@ -1776,8 +1775,8 @@
       "title": "American Gangster",
       "year": 2007,
       "tmdbId": 4982,
-      "tmdbRating": 7.593,
-      "votes": 6135,
+      "tmdbRating": 7.594,
+      "votes": 6136,
       "score": 2.4000000000000004,
       "themes": [
         "surveillance"
@@ -1796,12 +1795,12 @@
         "flatrate": [
           "Netflix",
           "Philo",
-          "Starz Apple TV Channel",
-          "Starz Roku Premium Channel",
           "YouTube TV",
-          "Starz",
           "Starz Amazon Channel",
-          "Netflix Standard with Ads"
+          "Netflix Standard with Ads",
+          "Starz",
+          "Starz Apple TV Channel",
+          "Starz Roku Premium Channel"
         ],
         "rent": [
           "Amazon Video",
@@ -1818,7 +1817,7 @@
       "year": 2014,
       "tmdbId": 194662,
       "tmdbRating": 7.438,
-      "votes": 13693,
+      "votes": 13697,
       "score": 0.8999999999999999,
       "themes": [
         "cruel-comedy",
@@ -1883,8 +1882,8 @@
       "title": "The Raid",
       "year": 2012,
       "tmdbId": 94329,
-      "tmdbRating": 7.408,
-      "votes": 3953,
+      "tmdbRating": 7.405,
+      "votes": 3957,
       "score": 2.7,
       "rank": 52,
       "director": [
@@ -1917,8 +1916,8 @@
       "title": "Mad Max 2",
       "year": 1981,
       "tmdbId": 8810,
-      "tmdbRating": 7.391,
-      "votes": 4241,
+      "tmdbRating": 7.39,
+      "votes": 4242,
       "score": 2.7,
       "rank": 53,
       "director": [
@@ -1976,8 +1975,8 @@
       "title": "Three Thousand Years of Longing",
       "year": 2022,
       "tmdbId": 556694,
-      "tmdbRating": 6.882,
-      "votes": 1698,
+      "tmdbRating": 6.88,
+      "votes": 1699,
       "score": 2.7,
       "rank": 55,
       "director": [
@@ -2011,7 +2010,7 @@
       "year": 1982,
       "tmdbId": 78,
       "tmdbRating": 7.934,
-      "votes": 15188,
+      "votes": 15193,
       "score": 2.4000000000000004,
       "rank": 56,
       "director": [
@@ -2039,8 +2038,8 @@
       "title": "Mad Max",
       "year": 1979,
       "tmdbId": 9659,
-      "tmdbRating": 6.683,
-      "votes": 5034,
+      "tmdbRating": 6.682,
+      "votes": 5035,
       "score": 2.7,
       "rank": 57,
       "director": [
@@ -2070,7 +2069,7 @@
       "year": 1987,
       "tmdbId": 6069,
       "tmdbRating": 6.546,
-      "votes": 1584,
+      "votes": 1585,
       "score": 2.7,
       "rank": 58,
       "director": [
@@ -2134,8 +2133,8 @@
       "title": "Tom Clancy's Jack Ryan: Ghost War",
       "year": 2026,
       "tmdbId": 1380291,
-      "tmdbRating": 6.959,
-      "votes": 710,
+      "tmdbRating": 6.955,
+      "votes": 712,
       "score": 2.5600000000000005,
       "rank": 60,
       "director": [
@@ -2227,8 +2226,8 @@
       "title": "Black Hawk Down",
       "year": 2001,
       "tmdbId": 855,
-      "tmdbRating": 7.397,
-      "votes": 6473,
+      "tmdbRating": 7.398,
+      "votes": 6475,
       "score": 2.4000000000000004,
       "rank": 63,
       "director": [
@@ -2263,7 +2262,7 @@
       "year": 2021,
       "tmdbId": 337404,
       "tmdbRating": 7.971,
-      "votes": 10185,
+      "votes": 10188,
       "score": 2.22,
       "rank": 64,
       "director": [
@@ -2295,8 +2294,8 @@
       "title": "The Roses",
       "year": 2025,
       "tmdbId": 1267905,
-      "tmdbRating": 6.7,
-      "votes": 732,
+      "tmdbRating": 6.647,
+      "votes": 735,
       "score": 1.3200000000000003,
       "themes": [
         "cruel-comedy"
@@ -2330,7 +2329,7 @@
       "title": "The Hunt",
       "year": 2020,
       "tmdbId": 514847,
-      "tmdbRating": 6.647,
+      "tmdbRating": 6.6,
       "votes": 3739,
       "score": 1.3200000000000003,
       "themes": [
@@ -2361,8 +2360,8 @@
       "title": "Confessions of a Dangerous Mind",
       "year": 2002,
       "tmdbId": 4912,
-      "tmdbRating": 6.684,
-      "votes": 1287,
+      "tmdbRating": 6.682,
+      "votes": 1288,
       "score": 2.2,
       "rank": 67,
       "director": [
@@ -2401,8 +2400,8 @@
       "title": "Orion and the Dark",
       "year": 2024,
       "tmdbId": 1139829,
-      "tmdbRating": 6.517,
-      "votes": 666,
+      "tmdbRating": 6.516,
+      "votes": 667,
       "score": 2.2,
       "rank": 68,
       "director": [
@@ -2459,7 +2458,7 @@
       "title": "Dogma",
       "year": 1999,
       "tmdbId": 1832,
-      "tmdbRating": 6.939,
+      "tmdbRating": 6.9,
       "votes": 2909,
       "score": 0.8999999999999999,
       "themes": [
@@ -2490,7 +2489,7 @@
       "year": 2011,
       "tmdbId": 39538,
       "tmdbRating": 6.651,
-      "votes": 6623,
+      "votes": 6624,
       "score": 0.8999999999999999,
       "themes": [
         "body-horror"
@@ -2566,8 +2565,8 @@
       "title": "The Great Wall",
       "year": 2016,
       "tmdbId": 311324,
-      "tmdbRating": 6.034,
-      "votes": 5614,
+      "tmdbRating": 6.033,
+      "votes": 5616,
       "score": 1.65,
       "rank": 73,
       "director": [
@@ -2598,8 +2597,8 @@
       "title": "Star Trek Into Darkness",
       "year": 2013,
       "tmdbId": 54138,
-      "tmdbRating": 7.323,
-      "votes": 9774,
+      "tmdbRating": 7.324,
+      "votes": 9776,
       "score": 1.3200000000000003,
       "rank": 74,
       "director": [
@@ -2635,8 +2634,8 @@
       "title": "Jackass Forever",
       "year": 2022,
       "tmdbId": 656663,
-      "tmdbRating": 6.788,
-      "votes": 940,
+      "tmdbRating": 6.793,
+      "votes": 942,
       "score": 1.2800000000000002,
       "rank": 75,
       "director": [
@@ -2673,7 +2672,7 @@
       "year": 2011,
       "tmdbId": 50014,
       "tmdbRating": 8.205,
-      "votes": 9159,
+      "votes": 9162,
       "score": 0.8999999999999999,
       "rank": 76,
       "director": [
@@ -2704,7 +2703,7 @@
       "year": 1997,
       "tmdbId": 489,
       "tmdbRating": 8.163,
-      "votes": 14072,
+      "votes": 14078,
       "score": 0.8999999999999999,
       "rank": 77,
       "director": [
@@ -2721,6 +2720,7 @@
           "Paramount Plus Essential",
           "Peacock Premium",
           "Paramount+ Amazon Channel",
+          "MGM Plus",
           "Paramount+ Roku Premium Channel",
           "Peacock Premium Plus"
         ],
@@ -2742,7 +2742,7 @@
       "year": 2021,
       "tmdbId": 501929,
       "tmdbRating": 7.832,
-      "votes": 3429,
+      "votes": 3431,
       "score": 0.96,
       "rank": 78,
       "director": [
@@ -2774,8 +2774,8 @@
       "title": "Tomorrowland",
       "year": 2015,
       "tmdbId": 158852,
-      "tmdbRating": 6.304,
-      "votes": 7429,
+      "tmdbRating": 6.305,
+      "votes": 7432,
       "score": 1.3200000000000003,
       "rank": 79,
       "director": [
@@ -2842,7 +2842,7 @@
       "year": 2016,
       "tmdbId": 313369,
       "tmdbRating": 7.897,
-      "votes": 18289,
+      "votes": 18295,
       "score": 0.8999999999999999,
       "rank": 81,
       "director": [
@@ -2856,7 +2856,9 @@
       ],
       "poster": "https://image.tmdb.org/t/p/w342/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg",
       "providers": {
-        "flatrate": [],
+        "flatrate": [
+          "fuboTV"
+        ],
         "rent": [
           "Amazon Video",
           "Apple TV Store",
@@ -3000,7 +3002,7 @@
       "year": 2011,
       "tmdbId": 50646,
       "tmdbRating": 7.277,
-      "votes": 9393,
+      "votes": 9397,
       "score": 0.8999999999999999,
       "rank": 86,
       "director": [
@@ -3036,7 +3038,7 @@
       "year": 1986,
       "tmdbId": 792,
       "tmdbRating": 7.749,
-      "votes": 5194,
+      "votes": 5195,
       "score": 0.75,
       "rank": 87,
       "director": [
@@ -3143,7 +3145,7 @@
       "year": 2016,
       "tmdbId": 313297,
       "tmdbRating": 7.638,
-      "votes": 3864,
+      "votes": 3866,
       "score": 0.75,
       "rank": 90,
       "director": [
@@ -3254,7 +3256,6 @@
       "providers": {
         "flatrate": [
           "Amazon Prime Video",
-          "FXNow",
           "Amazon Prime Video with Ads"
         ],
         "rent": [
@@ -3272,7 +3273,7 @@
       "year": 1997,
       "tmdbId": 1813,
       "tmdbRating": 7.48,
-      "votes": 6922,
+      "votes": 6924,
       "score": 0.75,
       "rank": 94,
       "director": [
@@ -3287,7 +3288,6 @@
       "poster": "https://image.tmdb.org/t/p/w342/5ZzBGpxy55OQzHxKVY11IpY6a0o.jpg",
       "providers": {
         "flatrate": [
-          "Philo",
           "AMC+ Amazon Channel",
           "AMC+ Roku Premium Channel",
           "AMC"
@@ -3308,7 +3308,7 @@
       "year": 2006,
       "tmdbId": 388,
       "tmdbRating": 7.411,
-      "votes": 6459,
+      "votes": 6461,
       "score": 0.75,
       "rank": 95,
       "director": [
@@ -3340,8 +3340,8 @@
       "title": "Little Brother",
       "year": 2026,
       "tmdbId": 1397385,
-      "tmdbRating": 6.461,
-      "votes": 304,
+      "tmdbRating": 6.467,
+      "votes": 306,
       "score": 0.96,
       "rank": 96,
       "director": [
@@ -3460,7 +3460,7 @@
       "year": 2012,
       "tmdbId": 50620,
       "tmdbRating": 6.453,
-      "votes": 9441,
+      "votes": 9444,
       "score": 0.8999999999999999,
       "rank": 100,
       "director": [
@@ -3498,7 +3498,7 @@
       "year": 1998,
       "tmdbId": 10494,
       "tmdbRating": 8.302,
-      "votes": 3277,
+      "votes": 3278,
       "theme": "unravelling",
       "why": "unravelling — the thread through 3 of your loved films",
       "director": [
@@ -3529,8 +3529,8 @@
       "title": "Modern Times",
       "year": 1936,
       "tmdbId": 3082,
-      "tmdbRating": 8.281,
-      "votes": 4131,
+      "tmdbRating": 8.282,
+      "votes": 4132,
       "theme": "unravelling",
       "why": "unravelling — the thread through 3 of your loved films",
       "director": [
@@ -3577,6 +3577,7 @@
       "poster": "https://image.tmdb.org/t/p/w342/zt8aQ6ksqK6p1AopC5zVTDS9pKT.jpg",
       "providers": {
         "flatrate": [
+          "fuboTV",
           "Kanopy"
         ],
         "rent": [
@@ -3658,7 +3659,7 @@
       "title": "Dear Zachary: A Letter to a Son About His Father",
       "year": 2008,
       "tmdbId": 15584,
-      "tmdbRating": 8.053,
+      "tmdbRating": 8.1,
       "votes": 590,
       "theme": "grief-horror",
       "why": "grief-horror — the thread through 4 of your loved films",
@@ -3689,8 +3690,8 @@
       "title": "Life Is Beautiful",
       "year": 1997,
       "tmdbId": 637,
-      "tmdbRating": 8.438,
-      "votes": 14121,
+      "tmdbRating": 8.439,
+      "votes": 14123,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 2 of your loved films",
       "director": [
@@ -3707,6 +3708,7 @@
           "Paramount Plus Premium",
           "Paramount Plus Essential",
           "Paramount+ Amazon Channel",
+          "MGM Plus",
           "Paramount+ Roku Premium Channel"
         ],
         "rent": [
@@ -3723,8 +3725,8 @@
       "title": "The Great Dictator",
       "year": 1940,
       "tmdbId": 914,
-      "tmdbRating": 8.28,
-      "votes": 3752,
+      "tmdbRating": 8.3,
+      "votes": 3753,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 2 of your loved films",
       "director": [
@@ -3756,8 +3758,8 @@
       "title": "I Swear",
       "year": 2025,
       "tmdbId": 1317149,
-      "tmdbRating": 8.224,
-      "votes": 418,
+      "tmdbRating": 8.226,
+      "votes": 419,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 2 of your loved films",
       "director": [
@@ -3785,8 +3787,8 @@
       "title": "The Quintessential Quintuplets Movie",
       "year": 2022,
       "tmdbId": 820067,
-      "tmdbRating": 8.3,
-      "votes": 447,
+      "tmdbRating": 8.291,
+      "votes": 448,
       "theme": "doubling",
       "why": "doubling — the thread through 2 of your loved films",
       "director": [
@@ -3816,7 +3818,7 @@
       "year": 2010,
       "tmdbId": 46738,
       "tmdbRating": 8.108,
-      "votes": 3380,
+      "votes": 3381,
       "theme": "doubling",
       "why": "doubling — the thread through 2 of your loved films",
       "director": [
@@ -3877,7 +3879,7 @@
       "year": 1982,
       "tmdbId": 1091,
       "tmdbRating": 8.072,
-      "votes": 8093,
+      "votes": 8100,
       "theme": "body-horror",
       "why": "body-horror — the thread through 2 of your loved films",
       "director": [
@@ -3889,7 +3891,7 @@
         "Mystery",
         "Science Fiction"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/ob1NaOSYDC4iBaFkTgIUecaMFGT.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/tzGY49kseSE9QAKk47uuDGwnSCu.jpg",
       "providers": {
         "flatrate": [],
         "rent": [
@@ -3905,8 +3907,8 @@
       "title": "Spider-Man: Brand New Day",
       "year": 2026,
       "tmdbId": 969681,
-      "tmdbRating": 7.976,
-      "votes": 858,
+      "tmdbRating": 7.994,
+      "votes": 949,
       "theme": "body-horror",
       "why": "body-horror — the thread through 2 of your loved films",
       "director": [
@@ -3929,7 +3931,7 @@
       "year": 2018,
       "tmdbId": 503314,
       "tmdbRating": 7.949,
-      "votes": 3216,
+      "votes": 3217,
       "theme": "body-horror",
       "why": "body-horror — the thread through 2 of your loved films",
       "director": [
