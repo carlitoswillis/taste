@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-05T11:28:37.955Z",
+  "generated": "2026-08-06T11:32:37.395Z",
   "edges": [
     {
       "book": {
@@ -1237,6 +1237,12 @@
       "olKey": "OL18404A",
       "adaptedBy": [
         {
+          "director": "Christopher Nolan",
+          "films": [
+            "The Odyssey"
+          ]
+        },
+        {
           "director": "Joel Coen",
           "films": [
             "O Brother, Where Art Thou?"
@@ -1246,12 +1252,6 @@
           "director": "Ethan Coen",
           "films": [
             "O Brother, Where Art Thou?"
-          ]
-        },
-        {
-          "director": "Christopher Nolan",
-          "films": [
-            "The Odyssey"
           ]
         }
       ],
@@ -1424,20 +1424,6 @@
       "weight": 1.92
     },
     {
-      "name": "Shel Silverstein",
-      "wikidata": "Q361257",
-      "olKey": "OL548174A",
-      "adaptedBy": [
-        {
-          "director": "Spike Jonze",
-          "films": [
-            "I'm Here"
-          ]
-        }
-      ],
-      "weight": 1.6
-    },
-    {
       "name": "Susan Orlean",
       "wikidata": "Q273168",
       "olKey": "OL20986A",
@@ -1460,6 +1446,20 @@
           "director": "Spike Jonze",
           "films": [
             "Where the Wild Things Are"
+          ]
+        }
+      ],
+      "weight": 1.6
+    },
+    {
+      "name": "Shel Silverstein",
+      "wikidata": "Q361257",
+      "olKey": "OL548174A",
+      "adaptedBy": [
+        {
+          "director": "Spike Jonze",
+          "films": [
+            "I'm Here"
           ]
         }
       ],
