@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-06T11:33:56.199Z",
+  "generated": "2026-08-07T10:11:48.352Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -70,7 +70,7 @@
       "year": 2023,
       "tmdbId": 154385,
       "tmdbRating": 7.745,
-      "votes": 992,
+      "votes": 993,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -213,7 +213,7 @@
       "year": 1994,
       "tmdbId": 4588,
       "tmdbRating": 7.835,
-      "votes": 943,
+      "votes": 944,
       "score": 3.0400000000000005,
       "rank": 7,
       "creators": [
@@ -247,8 +247,8 @@
       "title": "CSI: Crime Scene Investigation",
       "year": 2000,
       "tmdbId": 1431,
-      "tmdbRating": 7.622,
-      "votes": 1411,
+      "tmdbRating": 7.62,
+      "votes": 1413,
       "score": 3.0400000000000005,
       "rank": 8,
       "creators": [
@@ -287,8 +287,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.6,
-      "votes": 5353,
+      "tmdbRating": 8.587,
+      "votes": 5357,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -301,7 +301,7 @@
       "genres": [
         "Comedy"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/AcsDnYMUKwYepl75Uc1Hb4aKvDC.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg",
       "providers": {
         "flatrate": [
           "Peacock Premium",
@@ -321,8 +321,8 @@
       "title": "Gangs of London",
       "year": 2020,
       "tmdbId": 85021,
-      "tmdbRating": 7.813,
-      "votes": 690,
+      "tmdbRating": 7.816,
+      "votes": 691,
       "score": 2.7,
       "rank": 10,
       "creators": [
@@ -362,8 +362,8 @@
       "title": "Twisted Metal",
       "year": 2023,
       "tmdbId": 133748,
-      "tmdbRating": 7.697,
-      "votes": 544,
+      "tmdbRating": 7.701,
+      "votes": 545,
       "score": 3.0400000000000005,
       "themes": [
         "identity"
@@ -506,7 +506,7 @@
       "year": 2005,
       "tmdbId": 292,
       "tmdbRating": 8,
-      "votes": 104,
+      "votes": 105,
       "score": 1.1,
       "themes": [
         "cruel-comedy"
@@ -583,7 +583,7 @@
       "year": 2011,
       "tmdbId": 1411,
       "tmdbRating": 8.092,
-      "votes": 2110,
+      "votes": 2114,
       "score": 1.6500000000000001,
       "themes": [
         "surveillance"
@@ -624,7 +624,7 @@
       "year": 2018,
       "tmdbId": 73375,
       "tmdbRating": 7.679,
-      "votes": 1849,
+      "votes": 1851,
       "score": 1.92,
       "rank": 18,
       "creators": [
@@ -723,8 +723,8 @@
       "title": "Raised by Wolves",
       "year": 2020,
       "tmdbId": 85723,
-      "tmdbRating": 7.509,
-      "votes": 1814,
+      "tmdbRating": 7.508,
+      "votes": 1816,
       "score": 1.9200000000000004,
       "rank": 21,
       "creators": [
@@ -755,7 +755,7 @@
       "year": 2016,
       "tmdbId": 63247,
       "tmdbRating": 8.021,
-      "votes": 6293,
+      "votes": 6294,
       "score": 1.6500000000000001,
       "rank": 22,
       "creators": [
