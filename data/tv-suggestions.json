@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-07T10:11:48.352Z",
+  "generated": "2026-08-08T09:54:26.512Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -69,8 +69,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.745,
-      "votes": 993,
+      "tmdbRating": 7.742,
+      "votes": 994,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -212,7 +212,7 @@
       "title": "ER",
       "year": 1994,
       "tmdbId": 4588,
-      "tmdbRating": 7.835,
+      "tmdbRating": 7.8,
       "votes": 944,
       "score": 3.0400000000000005,
       "rank": 7,
@@ -287,8 +287,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.587,
-      "votes": 5357,
+      "tmdbRating": 8.586,
+      "votes": 5358,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -321,8 +321,8 @@
       "title": "Gangs of London",
       "year": 2020,
       "tmdbId": 85021,
-      "tmdbRating": 7.816,
-      "votes": 691,
+      "tmdbRating": 7.812,
+      "votes": 692,
       "score": 2.7,
       "rank": 10,
       "creators": [
@@ -583,7 +583,7 @@
       "year": 2011,
       "tmdbId": 1411,
       "tmdbRating": 8.092,
-      "votes": 2114,
+      "votes": 2115,
       "score": 1.6500000000000001,
       "themes": [
         "surveillance"
@@ -623,8 +623,8 @@
       "title": "Tom Clancy's Jack Ryan",
       "year": 2018,
       "tmdbId": 73375,
-      "tmdbRating": 7.679,
-      "votes": 1851,
+      "tmdbRating": 7.678,
+      "votes": 1852,
       "score": 1.92,
       "rank": 18,
       "creators": [
