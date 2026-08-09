@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-08T09:54:26.512Z",
+  "generated": "2026-08-09T09:57:25.488Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -69,8 +69,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.742,
-      "votes": 994,
+      "tmdbRating": 7.743,
+      "votes": 995,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -126,7 +126,6 @@
       "providers": {
         "flatrate": [
           "Paramount Plus Premium",
-          "Paramount Plus Essential",
           "Paramount Plus Apple TV Channel ",
           "Paramount+ Amazon Channel",
           "Paramount+ Roku Premium Channel"
@@ -269,7 +268,6 @@
         "flatrate": [
           "Hulu",
           "Paramount Plus Premium",
-          "Paramount Plus Essential",
           "Paramount Plus Apple TV Channel ",
           "Paramount+ Amazon Channel",
           "Paramount+ Roku Premium Channel"
@@ -288,7 +286,7 @@
       "year": 2005,
       "tmdbId": 2316,
       "tmdbRating": 8.586,
-      "votes": 5358,
+      "votes": 5361,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -470,8 +468,8 @@
       "title": "Mr. Pickles",
       "year": 2014,
       "tmdbId": 61593,
-      "tmdbRating": 8.138,
-      "votes": 858,
+      "tmdbRating": 8.139,
+      "votes": 861,
       "score": 2.16,
       "rank": 14,
       "creators": [
@@ -545,8 +543,8 @@
       "title": "Blue Mountain State",
       "year": 2010,
       "tmdbId": 31941,
-      "tmdbRating": 7.585,
-      "votes": 468,
+      "tmdbRating": 7.588,
+      "votes": 469,
       "score": 2.16,
       "rank": 16,
       "creators": [
@@ -583,7 +581,7 @@
       "year": 2011,
       "tmdbId": 1411,
       "tmdbRating": 8.092,
-      "votes": 2115,
+      "votes": 2116,
       "score": 1.6500000000000001,
       "themes": [
         "surveillance"
@@ -623,8 +621,8 @@
       "title": "Tom Clancy's Jack Ryan",
       "year": 2018,
       "tmdbId": 73375,
-      "tmdbRating": 7.678,
-      "votes": 1852,
+      "tmdbRating": 7.68,
+      "votes": 1853,
       "score": 1.92,
       "rank": 18,
       "creators": [
@@ -755,7 +753,7 @@
       "year": 2016,
       "tmdbId": 63247,
       "tmdbRating": 8.021,
-      "votes": 6294,
+      "votes": 6296,
       "score": 1.6500000000000001,
       "rank": 22,
       "creators": [
