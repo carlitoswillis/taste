@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-10T10:37:34.044Z",
+  "generated": "2026-08-11T10:11:56.079Z",
   "basedOn": {
     "lovedFilms": 27,
     "ratedBooks": 0,
@@ -439,13 +439,13 @@
       "year": 2021,
       "pages": 496,
       "cover": "https://covers.openlibrary.org/b/id/11200092-M.jpg",
-      "editionCount": 31,
+      "editionCount": 32,
       "olRating": {
-        "average": 4.491228,
-        "count": 171
+        "average": 4.5,
+        "count": 176
       },
       "weight": 0.82,
-      "rankScore": 6.13,
+      "rankScore": 6.14,
       "why": "thriller on the page — you over-index on it in film · science fiction on the page — you over-index on it in film",
       "rank": 26
     },

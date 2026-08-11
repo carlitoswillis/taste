@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-10T10:37:14.848Z",
+  "generated": "2026-08-11T10:11:38.462Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -69,8 +69,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.743,
-      "votes": 996,
+      "tmdbRating": 7.742,
+      "votes": 997,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -126,6 +126,7 @@
       "providers": {
         "flatrate": [
           "Paramount Plus Premium",
+          "Paramount Plus Essential",
           "Paramount Plus Apple TV Channel ",
           "Paramount+ Amazon Channel",
           "Paramount+ Roku Premium Channel"
@@ -212,7 +213,7 @@
       "year": 1994,
       "tmdbId": 4588,
       "tmdbRating": 7.833,
-      "votes": 945,
+      "votes": 946,
       "score": 3.0400000000000005,
       "rank": 7,
       "creators": [
@@ -268,6 +269,7 @@
         "flatrate": [
           "Hulu",
           "Paramount Plus Premium",
+          "Paramount Plus Essential",
           "Paramount Plus Apple TV Channel ",
           "Paramount+ Amazon Channel",
           "Paramount+ Roku Premium Channel"
@@ -286,7 +288,7 @@
       "year": 2005,
       "tmdbId": 2316,
       "tmdbRating": 8.586,
-      "votes": 5365,
+      "votes": 5368,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -580,8 +582,8 @@
       "title": "Person of Interest",
       "year": 2011,
       "tmdbId": 1411,
-      "tmdbRating": 8.1,
-      "votes": 2116,
+      "tmdbRating": 8.092,
+      "votes": 2117,
       "score": 1.6500000000000001,
       "themes": [
         "surveillance"
@@ -721,8 +723,8 @@
       "title": "Raised by Wolves",
       "year": 2020,
       "tmdbId": 85723,
-      "tmdbRating": 7.508,
-      "votes": 1817,
+      "tmdbRating": 7.507,
+      "votes": 1818,
       "score": 1.9200000000000004,
       "rank": 21,
       "creators": [
@@ -752,8 +754,8 @@
       "title": "Westworld",
       "year": 2016,
       "tmdbId": 63247,
-      "tmdbRating": 8,
-      "votes": 6296,
+      "tmdbRating": 8.021,
+      "votes": 6299,
       "score": 1.6500000000000001,
       "rank": 22,
       "creators": [
