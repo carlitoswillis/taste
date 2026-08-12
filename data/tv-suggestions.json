@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-11T10:11:38.462Z",
+  "generated": "2026-08-12T10:21:09.715Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -247,8 +247,8 @@
       "title": "CSI: Crime Scene Investigation",
       "year": 2000,
       "tmdbId": 1431,
-      "tmdbRating": 7.62,
-      "votes": 1413,
+      "tmdbRating": 7.622,
+      "votes": 1414,
       "score": 3.0400000000000005,
       "rank": 8,
       "creators": [
@@ -288,7 +288,7 @@
       "year": 2005,
       "tmdbId": 2316,
       "tmdbRating": 8.586,
-      "votes": 5368,
+      "votes": 5369,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -363,7 +363,7 @@
       "year": 2023,
       "tmdbId": 133748,
       "tmdbRating": 7.7,
-      "votes": 546,
+      "votes": 547,
       "score": 3.0400000000000005,
       "themes": [
         "identity"
@@ -470,8 +470,8 @@
       "title": "Mr. Pickles",
       "year": 2014,
       "tmdbId": 61593,
-      "tmdbRating": 8.139,
-      "votes": 861,
+      "tmdbRating": 8.138,
+      "votes": 862,
       "score": 2.16,
       "rank": 14,
       "creators": [
@@ -624,7 +624,7 @@
       "year": 2018,
       "tmdbId": 73375,
       "tmdbRating": 7.679,
-      "votes": 1854,
+      "votes": 1855,
       "score": 1.92,
       "rank": 18,
       "creators": [
@@ -754,8 +754,8 @@
       "title": "Westworld",
       "year": 2016,
       "tmdbId": 63247,
-      "tmdbRating": 8.021,
-      "votes": 6299,
+      "tmdbRating": 8.022,
+      "votes": 6301,
       "score": 1.6500000000000001,
       "rank": 22,
       "creators": [
