@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-12T10:21:09.715Z",
+  "generated": "2026-08-13T10:22:53.784Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -39,8 +39,8 @@
       "title": "Scenes from a Marriage",
       "year": 1973,
       "tmdbId": 65170,
-      "tmdbRating": 8.1,
-      "votes": 146,
+      "tmdbRating": 8.078,
+      "votes": 147,
       "score": 13,
       "rank": 2,
       "creators": [
@@ -70,7 +70,7 @@
       "year": 2023,
       "tmdbId": 154385,
       "tmdbRating": 7.742,
-      "votes": 997,
+      "votes": 998,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -212,8 +212,8 @@
       "title": "ER",
       "year": 1994,
       "tmdbId": 4588,
-      "tmdbRating": 7.833,
-      "votes": 946,
+      "tmdbRating": 7.829,
+      "votes": 948,
       "score": 3.0400000000000005,
       "rank": 7,
       "creators": [
@@ -231,7 +231,6 @@
         "flatrate": [
           "Hulu",
           "HBO Max Amazon Channel",
-          "YouTube TV",
           "HBO Max"
         ],
         "rent": []
@@ -247,7 +246,7 @@
       "title": "CSI: Crime Scene Investigation",
       "year": 2000,
       "tmdbId": 1431,
-      "tmdbRating": 7.622,
+      "tmdbRating": 7.621,
       "votes": 1414,
       "score": 3.0400000000000005,
       "rank": 8,
@@ -287,8 +286,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.586,
-      "votes": 5369,
+      "tmdbRating": 8.585,
+      "votes": 5373,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -346,7 +345,6 @@
           "AMC+ Amazon Channel",
           "AMC+ Roku Premium Channel",
           "AMC+",
-          "YouTube TV",
           "Spectrum On Demand"
         ],
         "rent": []
@@ -435,7 +433,7 @@
       "title": "Butterfly",
       "year": 2025,
       "tmdbId": 227114,
-      "tmdbRating": 7.228,
+      "tmdbRating": 7.2,
       "votes": 138,
       "score": 3.0400000000000005,
       "rank": 13,
@@ -528,7 +526,6 @@
       "providers": {
         "flatrate": [
           "HBO Max Amazon Channel",
-          "YouTube TV",
           "Adult Swim",
           "HBO Max"
         ],
@@ -565,7 +562,6 @@
         "flatrate": [
           "Amazon Prime Video",
           "Philo",
-          "YouTube TV",
           "Amazon Prime Video with Ads",
           "MovieSphere+ Amazon Channel"
         ],
@@ -582,8 +578,8 @@
       "title": "Person of Interest",
       "year": 2011,
       "tmdbId": 1411,
-      "tmdbRating": 8.092,
-      "votes": 2117,
+      "tmdbRating": 8.093,
+      "votes": 2118,
       "score": 1.6500000000000001,
       "themes": [
         "surveillance"
@@ -754,8 +750,8 @@
       "title": "Westworld",
       "year": 2016,
       "tmdbId": 63247,
-      "tmdbRating": 8.022,
-      "votes": 6301,
+      "tmdbRating": 8.021,
+      "votes": 6308,
       "score": 1.6500000000000001,
       "rank": 22,
       "creators": [
