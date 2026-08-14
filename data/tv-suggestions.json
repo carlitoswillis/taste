@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13T10:22:53.784Z",
+  "generated": "2026-08-14T10:17:46.875Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -70,7 +70,7 @@
       "year": 2023,
       "tmdbId": 154385,
       "tmdbRating": 7.742,
-      "votes": 998,
+      "votes": 999,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -246,7 +246,7 @@
       "title": "CSI: Crime Scene Investigation",
       "year": 2000,
       "tmdbId": 1431,
-      "tmdbRating": 7.621,
+      "tmdbRating": 7.6,
       "votes": 1414,
       "score": 3.0400000000000005,
       "rank": 8,
@@ -286,8 +286,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.585,
-      "votes": 5373,
+      "tmdbRating": 8.584,
+      "votes": 5376,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -468,8 +468,8 @@
       "title": "Mr. Pickles",
       "year": 2014,
       "tmdbId": 61593,
-      "tmdbRating": 8.138,
-      "votes": 862,
+      "tmdbRating": 8.14,
+      "votes": 863,
       "score": 2.16,
       "rank": 14,
       "creators": [
@@ -526,6 +526,7 @@
       "providers": {
         "flatrate": [
           "HBO Max Amazon Channel",
+          "YouTube TV",
           "Adult Swim",
           "HBO Max"
         ],
@@ -578,8 +579,8 @@
       "title": "Person of Interest",
       "year": 2011,
       "tmdbId": 1411,
-      "tmdbRating": 8.093,
-      "votes": 2118,
+      "tmdbRating": 8.092,
+      "votes": 2119,
       "score": 1.6500000000000001,
       "themes": [
         "surveillance"
@@ -619,8 +620,8 @@
       "title": "Tom Clancy's Jack Ryan",
       "year": 2018,
       "tmdbId": 73375,
-      "tmdbRating": 7.679,
-      "votes": 1855,
+      "tmdbRating": 7.68,
+      "votes": 1856,
       "score": 1.92,
       "rank": 18,
       "creators": [
@@ -655,7 +656,7 @@
       "year": 2014,
       "tmdbId": 60705,
       "tmdbRating": 6.7,
-      "votes": 168,
+      "votes": 169,
       "score": 2.16,
       "rank": 19,
       "creators": [
@@ -720,7 +721,7 @@
       "year": 2020,
       "tmdbId": 85723,
       "tmdbRating": 7.507,
-      "votes": 1818,
+      "votes": 1819,
       "score": 1.9200000000000004,
       "rank": 21,
       "creators": [
@@ -750,8 +751,8 @@
       "title": "Westworld",
       "year": 2016,
       "tmdbId": 63247,
-      "tmdbRating": 8.021,
-      "votes": 6308,
+      "tmdbRating": 8.019,
+      "votes": 6314,
       "score": 1.6500000000000001,
       "rank": 22,
       "creators": [
@@ -782,8 +783,8 @@
       "title": "Dope Thief",
       "year": 2025,
       "tmdbId": 209876,
-      "tmdbRating": 6.469,
-      "votes": 128,
+      "tmdbRating": 6.457,
+      "votes": 129,
       "score": 1.9200000000000004,
       "rank": 23,
       "creators": [
