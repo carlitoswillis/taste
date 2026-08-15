@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-14T10:18:08.156Z",
+  "generated": "2026-08-15T09:40:18.897Z",
   "basedOn": {
     "lovedFilms": 27,
     "ratedBooks": 0,
@@ -620,23 +620,6 @@
       "rank": 36
     },
     {
-      "title": "The Raven",
-      "author": "Edgar Allan Poe",
-      "olWork": "OL41081W",
-      "year": 1845,
-      "pages": 42,
-      "cover": "https://covers.openlibrary.org/b/id/8246077-M.jpg",
-      "editionCount": 287,
-      "olRating": {
-        "average": 4.4666667,
-        "count": 60
-      },
-      "weight": 0.42,
-      "rankScore": 5.31,
-      "why": "horror on the page — you over-index on it in film",
-      "rank": 37
-    },
-    {
       "title": "Percy Jackson's Greek Gods",
       "author": "Rick Riordan",
       "olWork": "OL17054790W",
@@ -651,6 +634,23 @@
       "weight": 0.3,
       "rankScore": 5.3,
       "why": "fantasy on the page — you over-index on it in film",
+      "rank": 37
+    },
+    {
+      "title": "The Raven",
+      "author": "Edgar Allan Poe",
+      "olWork": "OL41081W",
+      "year": 1845,
+      "pages": 42,
+      "cover": "https://covers.openlibrary.org/b/id/8246077-M.jpg",
+      "editionCount": 287,
+      "olRating": {
+        "average": 4.4590163,
+        "count": 61
+      },
+      "weight": 0.42,
+      "rankScore": 5.3,
+      "why": "horror on the page — you over-index on it in film",
       "rank": 38
     },
     {

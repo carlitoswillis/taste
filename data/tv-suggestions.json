@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-14T10:17:46.875Z",
+  "generated": "2026-08-15T09:39:55.709Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -287,7 +287,7 @@
       "year": 2005,
       "tmdbId": 2316,
       "tmdbRating": 8.584,
-      "votes": 5376,
+      "votes": 5380,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -360,8 +360,8 @@
       "title": "Twisted Metal",
       "year": 2023,
       "tmdbId": 133748,
-      "tmdbRating": 7.7,
-      "votes": 547,
+      "tmdbRating": 7.697,
+      "votes": 548,
       "score": 3.0400000000000005,
       "themes": [
         "identity"
@@ -543,7 +543,7 @@
       "title": "Blue Mountain State",
       "year": 2010,
       "tmdbId": 31941,
-      "tmdbRating": 7.588,
+      "tmdbRating": 7.6,
       "votes": 469,
       "score": 2.16,
       "rank": 16,
@@ -705,7 +705,8 @@
       "providers": {
         "flatrate": [
           "Netflix",
-          "Netflix Standard with Ads"
+          "Netflix Standard with Ads",
+          "Howdy Amazon Channel"
         ],
         "rent": []
       },
@@ -720,7 +721,7 @@
       "title": "Raised by Wolves",
       "year": 2020,
       "tmdbId": 85723,
-      "tmdbRating": 7.507,
+      "tmdbRating": 7.506,
       "votes": 1819,
       "score": 1.9200000000000004,
       "rank": 21,
@@ -752,7 +753,7 @@
       "year": 2016,
       "tmdbId": 63247,
       "tmdbRating": 8.019,
-      "votes": 6314,
+      "votes": 6318,
       "score": 1.6500000000000001,
       "rank": 22,
       "creators": [
