@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-15T09:40:18.897Z",
+  "generated": "2026-08-16T09:41:32.023Z",
   "basedOn": {
     "lovedFilms": 27,
     "ratedBooks": 0,
@@ -509,8 +509,8 @@
       "cover": "https://covers.openlibrary.org/b/id/7774899-M.jpg",
       "editionCount": 43,
       "olRating": {
-        "average": 4.4680853,
-        "count": 235
+        "average": 4.4686193,
+        "count": 239
       },
       "weight": 0.66,
       "rankScore": 5.79,
@@ -577,11 +577,11 @@
       "cover": "https://covers.openlibrary.org/b/id/10210168-M.jpg",
       "editionCount": 66,
       "olRating": {
-        "average": 4.4938273,
-        "count": 162
+        "average": 4.4969325,
+        "count": 163
       },
       "weight": 0.42,
-      "rankScore": 5.33,
+      "rankScore": 5.34,
       "why": "horror on the page — you over-index on it in film",
       "rank": 34
     },

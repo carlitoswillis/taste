@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-15T09:39:55.709Z",
+  "generated": "2026-08-16T09:41:13.603Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -39,7 +39,7 @@
       "title": "Scenes from a Marriage",
       "year": 1973,
       "tmdbId": 65170,
-      "tmdbRating": 8.078,
+      "tmdbRating": 8.1,
       "votes": 147,
       "score": 13,
       "rank": 2,
@@ -246,8 +246,8 @@
       "title": "CSI: Crime Scene Investigation",
       "year": 2000,
       "tmdbId": 1431,
-      "tmdbRating": 7.6,
-      "votes": 1414,
+      "tmdbRating": 7.623,
+      "votes": 1415,
       "score": 3.0400000000000005,
       "rank": 8,
       "creators": [
@@ -286,8 +286,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.584,
-      "votes": 5380,
+      "tmdbRating": 8.585,
+      "votes": 5381,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -360,8 +360,8 @@
       "title": "Twisted Metal",
       "year": 2023,
       "tmdbId": 133748,
-      "tmdbRating": 7.697,
-      "votes": 548,
+      "tmdbRating": 7.694,
+      "votes": 549,
       "score": 3.0400000000000005,
       "themes": [
         "identity"
@@ -433,8 +433,8 @@
       "title": "Butterfly",
       "year": 2025,
       "tmdbId": 227114,
-      "tmdbRating": 7.2,
-      "votes": 138,
+      "tmdbRating": 7.227,
+      "votes": 139,
       "score": 3.0400000000000005,
       "rank": 13,
       "creators": [
@@ -580,7 +580,7 @@
       "year": 2011,
       "tmdbId": 1411,
       "tmdbRating": 8.092,
-      "votes": 2119,
+      "votes": 2120,
       "score": 1.6500000000000001,
       "themes": [
         "surveillance"
@@ -594,7 +594,6 @@
       "episodeRuntime": 44,
       "showStatus": "Ended",
       "genres": [
-        "Drama",
         "Action & Adventure",
         "Crime",
         "Sci-Fi & Fantasy"
@@ -620,8 +619,8 @@
       "title": "Tom Clancy's Jack Ryan",
       "year": 2018,
       "tmdbId": 73375,
-      "tmdbRating": 7.68,
-      "votes": 1856,
+      "tmdbRating": 7.681,
+      "votes": 1858,
       "score": 1.92,
       "rank": 18,
       "creators": [
@@ -721,8 +720,8 @@
       "title": "Raised by Wolves",
       "year": 2020,
       "tmdbId": 85723,
-      "tmdbRating": 7.506,
-      "votes": 1819,
+      "tmdbRating": 7.505,
+      "votes": 1821,
       "score": 1.9200000000000004,
       "rank": 21,
       "creators": [
@@ -753,7 +752,7 @@
       "year": 2016,
       "tmdbId": 63247,
       "tmdbRating": 8.019,
-      "votes": 6318,
+      "votes": 6320,
       "score": 1.6500000000000001,
       "rank": 22,
       "creators": [
