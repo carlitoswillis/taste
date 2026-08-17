@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-16T09:41:13.603Z",
+  "generated": "2026-08-17T09:56:49.571Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -69,8 +69,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.742,
-      "votes": 999,
+      "tmdbRating": 7.743,
+      "votes": 1001,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -212,7 +212,7 @@
       "title": "ER",
       "year": 1994,
       "tmdbId": 4588,
-      "tmdbRating": 7.829,
+      "tmdbRating": 7.83,
       "votes": 948,
       "score": 3.0400000000000005,
       "rank": 7,
@@ -286,8 +286,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.585,
-      "votes": 5381,
+      "tmdbRating": 8.584,
+      "votes": 5384,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -579,8 +579,8 @@
       "title": "Person of Interest",
       "year": 2011,
       "tmdbId": 1411,
-      "tmdbRating": 8.092,
-      "votes": 2120,
+      "tmdbRating": 8.094,
+      "votes": 2122,
       "score": 1.6500000000000001,
       "themes": [
         "surveillance"
@@ -720,8 +720,8 @@
       "title": "Raised by Wolves",
       "year": 2020,
       "tmdbId": 85723,
-      "tmdbRating": 7.505,
-      "votes": 1821,
+      "tmdbRating": 7.506,
+      "votes": 1822,
       "score": 1.9200000000000004,
       "rank": 21,
       "creators": [
@@ -752,7 +752,7 @@
       "year": 2016,
       "tmdbId": 63247,
       "tmdbRating": 8.019,
-      "votes": 6320,
+      "votes": 6321,
       "score": 1.6500000000000001,
       "rank": 22,
       "creators": [
