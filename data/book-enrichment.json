@@ -1907,8 +1907,8 @@
     "description": "The Martian is a 2011 science fiction novel written by Andy Weir. It was his debut novel under his own name. It was originally self-published in 2011; Crown Publishing purchased the rights and re-released it in 2014. The story follows an American astronaut, Mark Watney, as he becomes stranded alone on Mars in 2035 and must improvise in order to survive.",
     "editionCount": 74,
     "olRating": {
-      "average": 4.4011974,
-      "count": 334
+      "average": 4.397626,
+      "count": 337
     },
     "adaptedAs": [
       "The Martian (2015)"
@@ -2618,37 +2618,37 @@
     ]
   },
   "Catching Fire (Suzanne Collins)": {
-    "id": "b:OL15518787W",
-    "olWork": "OL15518787W",
+    "id": "b:OL5735360W",
+    "olWork": "OL5735360W",
     "authors": [
       {
         "key": "OL1394359A",
         "name": "Suzanne Collins"
       }
     ],
-    "firstPublished": 2010,
-    "pages": 1136,
+    "firstPublished": null,
+    "pages": null,
     "subjects": [
-      "Romance",
-      "Drama",
-      "Young adult fiction",
-      "Television game shows",
-      "Dystopian",
-      "Girls",
-      "Fiction",
-      "Science fiction",
-      "Interpersonal relations",
-      "Dystopias",
-      "Survival Stories",
-      "Self-Esteem & Self-Reliance"
+      "Action/Adventure",
+      "Fantasy",
+      "teen fiction",
+      "juvenile works",
+      "interdependence",
+      "independence",
+      "Games",
+      "Apocalyptic literature",
+      "Competition",
+      "teenage girls",
+      "sisters",
+      "poverty"
     ],
-    "coverId": 12878880,
-    "cover": "https://covers.openlibrary.org/b/id/12878880-M.jpg",
-    "description": "The stunning Hunger Games trilogy is complete! The extraordinary, ground breaking New York Times bestsellers The Hunger Games and Catching Fire, along with the third book in The Hunger Games trilogy by Suzanne Collins, Mockingjay, are available for the first time ever in e-book. Stunning, gripping, and powerful.",
-    "editionCount": 29,
+    "coverId": 12646539,
+    "cover": "https://covers.openlibrary.org/b/id/12646539-M.jpg",
+    "description": "Against all odds, Katniss Everdeen has won the Hunger Games. She and fellow District 12 tribute Peeta Mellark are miraculously still alive. Katniss should be relieved, happy even. After all, she has returned to her family and her longtime friend, Gale. Yet nothing is the way Katniss wishes it to be. Gale holds her at an icy distance. Peeta has turned his back on her completely. And there are whispers of a rebellion against the Capitol—a rebellion that Katniss and Peeta may have helped create. \r\n\r\nMuch to her shock, Katniss has fueled an unrest that she's afraid she cannot stop. And what scares",
+    "editionCount": 0,
     "olRating": {
-      "average": 4.529412,
-      "count": 17
+      "average": 0,
+      "count": 0
     },
     "adaptedAs": [
       "The Hunger Games: Catching Fire (2013)"
