@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18T09:49:57.602Z",
+  "generated": "2026-08-19T09:50:01.086Z",
   "basedOn": {
     "lovedFilms": 27,
     "ratedBooks": 0,
@@ -237,11 +237,11 @@
       "cover": "https://covers.openlibrary.org/b/id/2950338-M.jpg",
       "editionCount": 19,
       "olRating": {
-        "average": 3.5,
-        "count": 8
+        "average": 3.7,
+        "count": 10
       },
       "weight": 4.08,
-      "rankScore": 11.66,
+      "rankScore": 11.86,
       "why": "Christopher Priest — wrote the book behind The Prestige (2006) 4.5★",
       "rank": 14
     },
@@ -628,11 +628,11 @@
       "cover": "https://covers.openlibrary.org/b/id/7396660-M.jpg",
       "editionCount": 27,
       "olRating": {
-        "average": 4.7027025,
-        "count": 74
+        "average": 4.7066665,
+        "count": 75
       },
       "weight": 0.3,
-      "rankScore": 5.3,
+      "rankScore": 5.31,
       "why": "fantasy on the page — you over-index on it in film",
       "rank": 37
     },
@@ -662,11 +662,11 @@
       "cover": "https://covers.openlibrary.org/b/id/9320507-M.jpg",
       "editionCount": 23,
       "olRating": {
-        "average": 4.6896553,
-        "count": 58
+        "average": 4.6833334,
+        "count": 60
       },
       "weight": 0.3,
-      "rankScore": 5.29,
+      "rankScore": 5.28,
       "why": "fantasy on the page — you over-index on it in film",
       "rank": 39
     },
