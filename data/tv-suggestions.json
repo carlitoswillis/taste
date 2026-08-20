@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-19T09:49:41.076Z",
+  "generated": "2026-08-20T09:51:05.364Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -48,7 +48,7 @@
       ],
       "seasons": 1,
       "episodes": 6,
-      "episodeRuntime": 60,
+      "episodeRuntime": 297,
       "showStatus": "Ended",
       "genres": [
         "Drama"
@@ -69,8 +69,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.743,
-      "votes": 1003,
+      "tmdbRating": 7.744,
+      "votes": 1006,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -106,7 +106,7 @@
       "title": "Jackass",
       "year": 2000,
       "tmdbId": 1795,
-      "tmdbRating": 6.649,
+      "tmdbRating": 6.6,
       "votes": 298,
       "score": 4,
       "rank": 4,
@@ -127,7 +127,7 @@
         "flatrate": [
           "Paramount Plus Premium",
           "Paramount Plus Essential",
-          "Paramount Plus Apple TV Channel ",
+          "Paramount Plus Apple TV channel",
           "Paramount+ Amazon Channel",
           "Paramount+ Roku Premium Channel"
         ],
@@ -269,7 +269,7 @@
           "Hulu",
           "Paramount Plus Premium",
           "Paramount Plus Essential",
-          "Paramount Plus Apple TV Channel ",
+          "Paramount Plus Apple TV channel",
           "Paramount+ Amazon Channel",
           "Paramount+ Roku Premium Channel"
         ],
@@ -286,8 +286,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.6,
-      "votes": 5389,
+      "tmdbRating": 8.583,
+      "votes": 5393,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -341,7 +341,7 @@
       "providers": {
         "flatrate": [
           "Philo",
-          "AMC Plus Apple TV Channel ",
+          "AMC Plus Apple TV channel",
           "AMC+ Amazon Channel",
           "AMC+ Roku Premium Channel",
           "AMC+",
@@ -433,7 +433,7 @@
       "title": "Butterfly",
       "year": 2025,
       "tmdbId": 227114,
-      "tmdbRating": 7.227,
+      "tmdbRating": 7.2,
       "votes": 139,
       "score": 3.0400000000000005,
       "rank": 13,
@@ -468,8 +468,8 @@
       "title": "Mr. Pickles",
       "year": 2014,
       "tmdbId": 61593,
-      "tmdbRating": 8.14,
-      "votes": 863,
+      "tmdbRating": 8.134,
+      "votes": 864,
       "score": 2.16,
       "rank": 14,
       "creators": [
@@ -580,7 +580,7 @@
       "year": 2011,
       "tmdbId": 1411,
       "tmdbRating": 8.096,
-      "votes": 2126,
+      "votes": 2127,
       "score": 1.6500000000000001,
       "themes": [
         "surveillance"
@@ -720,8 +720,8 @@
       "title": "Raised by Wolves",
       "year": 2020,
       "tmdbId": 85723,
-      "tmdbRating": 7.503,
-      "votes": 1826,
+      "tmdbRating": 7.502,
+      "votes": 1828,
       "score": 1.9200000000000004,
       "rank": 21,
       "creators": [
