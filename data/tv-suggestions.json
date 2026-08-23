@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-22T09:42:05.870Z",
+  "generated": "2026-08-23T09:43:25.500Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -69,8 +69,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.748,
-      "votes": 1008,
+      "tmdbRating": 7.75,
+      "votes": 1009,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -212,8 +212,8 @@
       "title": "ER",
       "year": 1994,
       "tmdbId": 4588,
-      "tmdbRating": 7.8,
-      "votes": 949,
+      "tmdbRating": 7.831,
+      "votes": 948,
       "score": 3.0400000000000005,
       "rank": 7,
       "creators": [
@@ -286,8 +286,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.6,
-      "votes": 5401,
+      "tmdbRating": 8.583,
+      "votes": 5405,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -321,7 +321,7 @@
       "year": 2020,
       "tmdbId": 85021,
       "tmdbRating": 7.819,
-      "votes": 695,
+      "votes": 696,
       "score": 2.7,
       "rank": 10,
       "creators": [
@@ -399,7 +399,7 @@
       "title": "DAVE",
       "year": 2020,
       "tmdbId": 97084,
-      "tmdbRating": 7.306,
+      "tmdbRating": 7.311,
       "votes": 193,
       "score": 3.0400000000000005,
       "rank": 12,
@@ -433,8 +433,8 @@
       "title": "Butterfly",
       "year": 2025,
       "tmdbId": 227114,
-      "tmdbRating": 7.2,
-      "votes": 139,
+      "tmdbRating": 7.229,
+      "votes": 140,
       "score": 3.0400000000000005,
       "rank": 13,
       "creators": [
@@ -468,8 +468,8 @@
       "title": "Mr. Pickles",
       "year": 2014,
       "tmdbId": 61593,
-      "tmdbRating": 8.134,
-      "votes": 864,
+      "tmdbRating": 8.136,
+      "votes": 865,
       "score": 2.16,
       "rank": 14,
       "creators": [
@@ -619,8 +619,8 @@
       "title": "Tom Clancy's Jack Ryan",
       "year": 2018,
       "tmdbId": 73375,
-      "tmdbRating": 7.682,
-      "votes": 1862,
+      "tmdbRating": 7.681,
+      "votes": 1863,
       "score": 1.92,
       "rank": 18,
       "creators": [
@@ -654,8 +654,8 @@
       "title": "Faking It",
       "year": 2014,
       "tmdbId": 60705,
-      "tmdbRating": 6.682,
-      "votes": 170,
+      "tmdbRating": 6.696,
+      "votes": 171,
       "score": 2.16,
       "rank": 19,
       "creators": [
@@ -720,7 +720,7 @@
       "title": "Raised by Wolves",
       "year": 2020,
       "tmdbId": 85723,
-      "tmdbRating": 7.502,
+      "tmdbRating": 7.504,
       "votes": 1829,
       "score": 1.9200000000000004,
       "rank": 21,
@@ -752,7 +752,7 @@
       "year": 2016,
       "tmdbId": 63247,
       "tmdbRating": 8.018,
-      "votes": 6333,
+      "votes": 6335,
       "score": 1.6500000000000001,
       "rank": 22,
       "creators": [
@@ -783,8 +783,8 @@
       "title": "Dope Thief",
       "year": 2025,
       "tmdbId": 209876,
-      "tmdbRating": 6.469,
-      "votes": 130,
+      "tmdbRating": 6.481,
+      "votes": 131,
       "score": 1.9200000000000004,
       "rank": 23,
       "creators": [
