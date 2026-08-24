@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-23T09:43:25.500Z",
+  "generated": "2026-08-24T10:04:09.128Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -69,8 +69,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.75,
-      "votes": 1009,
+      "tmdbRating": 7.748,
+      "votes": 1010,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -212,7 +212,7 @@
       "title": "ER",
       "year": 1994,
       "tmdbId": 4588,
-      "tmdbRating": 7.831,
+      "tmdbRating": 7.8,
       "votes": 948,
       "score": 3.0400000000000005,
       "rank": 7,
@@ -286,8 +286,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.583,
-      "votes": 5405,
+      "tmdbRating": 8.581,
+      "votes": 5411,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -320,7 +320,7 @@
       "title": "Gangs of London",
       "year": 2020,
       "tmdbId": 85021,
-      "tmdbRating": 7.819,
+      "tmdbRating": 7.8,
       "votes": 696,
       "score": 2.7,
       "rank": 10,
@@ -399,8 +399,8 @@
       "title": "DAVE",
       "year": 2020,
       "tmdbId": 97084,
-      "tmdbRating": 7.311,
-      "votes": 193,
+      "tmdbRating": 7.307,
+      "votes": 192,
       "score": 3.0400000000000005,
       "rank": 12,
       "creators": [
@@ -433,8 +433,8 @@
       "title": "Butterfly",
       "year": 2025,
       "tmdbId": 227114,
-      "tmdbRating": 7.229,
-      "votes": 140,
+      "tmdbRating": 7.206,
+      "votes": 141,
       "score": 3.0400000000000005,
       "rank": 13,
       "creators": [
@@ -619,8 +619,8 @@
       "title": "Tom Clancy's Jack Ryan",
       "year": 2018,
       "tmdbId": 73375,
-      "tmdbRating": 7.681,
-      "votes": 1863,
+      "tmdbRating": 7.68,
+      "votes": 1865,
       "score": 1.92,
       "rank": 18,
       "creators": [
@@ -721,7 +721,7 @@
       "year": 2020,
       "tmdbId": 85723,
       "tmdbRating": 7.504,
-      "votes": 1829,
+      "votes": 1830,
       "score": 1.9200000000000004,
       "rank": 21,
       "creators": [
@@ -751,8 +751,8 @@
       "title": "Westworld",
       "year": 2016,
       "tmdbId": 63247,
-      "tmdbRating": 8.018,
-      "votes": 6335,
+      "tmdbRating": 8.017,
+      "votes": 6336,
       "score": 1.6500000000000001,
       "rank": 22,
       "creators": [
