@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-25T09:51:53.363Z",
+  "generated": "2026-08-26T09:57:34.568Z",
   "basedOn": {
     "lovedFilms": 27,
     "ratedBooks": 0,
@@ -442,7 +442,7 @@
       "editionCount": 32,
       "olRating": {
         "average": 4.5,
-        "count": 176
+        "count": 178
       },
       "weight": 0.82,
       "rankScore": 6.14,
