@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-26T09:57:18.982Z",
+  "generated": "2026-08-27T19:52:08.275Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -69,8 +69,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.747,
-      "votes": 1010,
+      "tmdbRating": 7.749,
+      "votes": 1012,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -286,8 +286,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.581,
-      "votes": 5413,
+      "tmdbRating": 8.6,
+      "votes": 5416,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -360,8 +360,8 @@
       "title": "Twisted Metal",
       "year": 2023,
       "tmdbId": 133748,
-      "tmdbRating": 7.688,
-      "votes": 552,
+      "tmdbRating": 7.687,
+      "votes": 553,
       "score": 3.0400000000000005,
       "themes": [
         "identity"
@@ -433,8 +433,8 @@
       "title": "Butterfly",
       "year": 2025,
       "tmdbId": 227114,
-      "tmdbRating": 7.206,
-      "votes": 141,
+      "tmdbRating": 7.211,
+      "votes": 142,
       "score": 3.0400000000000005,
       "rank": 13,
       "creators": [
@@ -579,8 +579,8 @@
       "title": "Person of Interest",
       "year": 2011,
       "tmdbId": 1411,
-      "tmdbRating": 8.098,
-      "votes": 2130,
+      "tmdbRating": 8.099,
+      "votes": 2131,
       "score": 1.6500000000000001,
       "themes": [
         "surveillance"
@@ -620,7 +620,7 @@
       "year": 2018,
       "tmdbId": 73375,
       "tmdbRating": 7.68,
-      "votes": 1865,
+      "votes": 1866,
       "score": 1.92,
       "rank": 18,
       "creators": [
@@ -752,7 +752,7 @@
       "year": 2016,
       "tmdbId": 63247,
       "tmdbRating": 8.017,
-      "votes": 6339,
+      "votes": 6340,
       "score": 1.6500000000000001,
       "rank": 22,
       "creators": [
