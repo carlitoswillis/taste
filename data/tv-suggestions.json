@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-27T19:52:08.275Z",
+  "generated": "2026-08-28T20:52:22.572Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -69,8 +69,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.749,
-      "votes": 1012,
+      "tmdbRating": 7.746,
+      "votes": 1015,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -106,8 +106,8 @@
       "title": "Jackass",
       "year": 2000,
       "tmdbId": 1795,
-      "tmdbRating": 6.651,
-      "votes": 299,
+      "tmdbRating": 6.652,
+      "votes": 300,
       "score": 4,
       "rank": 4,
       "creators": [
@@ -122,7 +122,7 @@
       "genres": [
         "Comedy"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/q8O8ElquAya9SugLNH6N5TWNE4h.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/qfvWWe29efaM501aPu8GcNEYP3V.jpg",
       "providers": {
         "flatrate": [
           "Paramount Plus Premium",
@@ -213,7 +213,7 @@
       "year": 1994,
       "tmdbId": 4588,
       "tmdbRating": 7.8,
-      "votes": 948,
+      "votes": 950,
       "score": 3.0400000000000005,
       "rank": 7,
       "creators": [
@@ -286,8 +286,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.6,
-      "votes": 5416,
+      "tmdbRating": 8.581,
+      "votes": 5420,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -360,8 +360,8 @@
       "title": "Twisted Metal",
       "year": 2023,
       "tmdbId": 133748,
-      "tmdbRating": 7.687,
-      "votes": 553,
+      "tmdbRating": 7.69,
+      "votes": 554,
       "score": 3.0400000000000005,
       "themes": [
         "identity"
@@ -433,7 +433,7 @@
       "title": "Butterfly",
       "year": 2025,
       "tmdbId": 227114,
-      "tmdbRating": 7.211,
+      "tmdbRating": 7.204,
       "votes": 142,
       "score": 3.0400000000000005,
       "rank": 13,
@@ -579,7 +579,7 @@
       "title": "Person of Interest",
       "year": 2011,
       "tmdbId": 1411,
-      "tmdbRating": 8.099,
+      "tmdbRating": 8.1,
       "votes": 2131,
       "score": 1.6500000000000001,
       "themes": [
@@ -720,8 +720,8 @@
       "title": "Raised by Wolves",
       "year": 2020,
       "tmdbId": 85723,
-      "tmdbRating": 7.503,
-      "votes": 1832,
+      "tmdbRating": 7.502,
+      "votes": 1834,
       "score": 1.9200000000000004,
       "rank": 21,
       "creators": [
@@ -752,7 +752,7 @@
       "year": 2016,
       "tmdbId": 63247,
       "tmdbRating": 8.017,
-      "votes": 6340,
+      "votes": 6341,
       "score": 1.6500000000000001,
       "rank": 22,
       "creators": [
