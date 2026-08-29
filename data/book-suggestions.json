@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28T20:52:38.405Z",
+  "generated": "2026-08-29T14:30:05.172Z",
   "basedOn": {
     "lovedFilms": 27,
     "ratedBooks": 0,
@@ -229,13 +229,13 @@
       "rank": 13
     },
     {
-      "title": "The extremes",
+      "title": "The Dream Archipelago",
       "author": "Christopher Priest",
-      "olWork": "OL166485W",
-      "year": 1998,
-      "pages": 393,
-      "cover": "https://covers.openlibrary.org/b/id/288113-M.jpg",
-      "editionCount": 9,
+      "olWork": "OL166484W",
+      "year": 1981,
+      "pages": 320,
+      "cover": "https://covers.openlibrary.org/b/id/404577-M.jpg",
+      "editionCount": 8,
       "olRating": {
         "average": 4,
         "count": 1
@@ -246,13 +246,13 @@
       "rank": 14
     },
     {
-      "title": "The Dream Archipelago",
+      "title": "The extremes",
       "author": "Christopher Priest",
-      "olWork": "OL166484W",
-      "year": 1981,
-      "pages": 320,
-      "cover": "https://covers.openlibrary.org/b/id/404577-M.jpg",
-      "editionCount": 8,
+      "olWork": "OL166485W",
+      "year": 1998,
+      "pages": 393,
+      "cover": "https://covers.openlibrary.org/b/id/288113-M.jpg",
+      "editionCount": 9,
       "olRating": {
         "average": 4,
         "count": 1
