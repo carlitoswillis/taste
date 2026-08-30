@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-29T14:29:46.180Z",
+  "generated": "2026-08-30T14:27:23.527Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -71,7 +71,7 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.746,
+      "tmdbRating": 7.7,
       "votes": 1015,
       "score": 3.0400000000000005,
       "themes": [
@@ -108,8 +108,8 @@
       "title": "Jackass",
       "year": 2000,
       "tmdbId": 1795,
-      "tmdbRating": 6.652,
-      "votes": 300,
+      "tmdbRating": 6.65,
+      "votes": 301,
       "score": 4,
       "rank": 4,
       "creators": [
@@ -248,8 +248,8 @@
       "title": "CSI: Crime Scene Investigation",
       "year": 2000,
       "tmdbId": 1431,
-      "tmdbRating": 7.622,
-      "votes": 1421,
+      "tmdbRating": 7.621,
+      "votes": 1422,
       "score": 3.0400000000000005,
       "rank": 8,
       "creators": [
@@ -435,7 +435,7 @@
       "title": "Butterfly",
       "year": 2025,
       "tmdbId": 227114,
-      "tmdbRating": 7.211,
+      "tmdbRating": 7.204,
       "votes": 142,
       "score": 3.0400000000000005,
       "rank": 13,
@@ -582,7 +582,7 @@
       "year": 2011,
       "tmdbId": 1411,
       "tmdbRating": 8.099,
-      "votes": 2134,
+      "votes": 2135,
       "score": 1.6500000000000001,
       "themes": [
         "surveillance"
@@ -622,7 +622,7 @@
       "year": 2018,
       "tmdbId": 73375,
       "tmdbRating": 7.681,
-      "votes": 1868,
+      "votes": 1869,
       "score": 1.92,
       "rank": 18,
       "creators": [
@@ -753,8 +753,8 @@
       "title": "Westworld",
       "year": 2016,
       "tmdbId": 63247,
-      "tmdbRating": 8.016,
-      "votes": 6343,
+      "tmdbRating": 8.018,
+      "votes": 6342,
       "score": 1.6500000000000001,
       "rank": 22,
       "creators": [

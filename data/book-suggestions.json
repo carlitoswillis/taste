@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-29T14:30:05.172Z",
+  "generated": "2026-08-30T14:27:40.876Z",
   "basedOn": {
     "lovedFilms": 27,
     "ratedBooks": 0,
@@ -165,15 +165,15 @@
       "author": "Cormac McCarthy",
       "olWork": "OL40869W",
       "year": 1998,
-      "pages": 304,
+      "pages": 294,
       "cover": "https://covers.openlibrary.org/b/id/9158767-M.jpg",
       "editionCount": 29,
       "olRating": {
-        "average": 4.6666665,
-        "count": 3
+        "average": 4.5,
+        "count": 4
       },
       "weight": 3.12,
-      "rankScore": 10.91,
+      "rankScore": 10.74,
       "why": "Cormac McCarthy — wrote the book behind No Country for Old Men (2007) 4.5★",
       "rank": 10
     },
@@ -288,11 +288,11 @@
       "cover": "https://covers.openlibrary.org/b/id/9296908-M.jpg",
       "editionCount": 23,
       "olRating": {
-        "average": 4.375,
-        "count": 8
+        "average": 4.3333335,
+        "count": 9
       },
       "weight": 3.12,
-      "rankScore": 10.62,
+      "rankScore": 10.57,
       "why": "Cormac McCarthy — wrote the book behind No Country for Old Men (2007) 4.5★",
       "rank": 17
     },
@@ -467,23 +467,6 @@
       "rank": 27
     },
     {
-      "title": "The Stand",
-      "author": "Stephen King",
-      "olWork": "OL81618W",
-      "year": 1978,
-      "pages": 1153,
-      "cover": "https://covers.openlibrary.org/b/id/9255992-M.jpg",
-      "editionCount": 85,
-      "olRating": {
-        "average": 4.322222,
-        "count": 90
-      },
-      "weight": 0.88,
-      "rankScore": 6.08,
-      "why": "thriller on the page — you over-index on it in film · horror on the page — you over-index on it in film",
-      "rank": 28
-    },
-    {
       "title": "The Green Mile",
       "author": "Stephen King",
       "olWork": "OL81629W",
@@ -498,7 +481,7 @@
       "weight": 0.88,
       "rankScore": 6.07,
       "why": "thriller on the page — you over-index on it in film · horror on the page — you over-index on it in film",
-      "rank": 29
+      "rank": 28
     },
     {
       "title": "The Martian",
@@ -515,7 +498,7 @@
       "weight": 0.82,
       "rankScore": 6.04,
       "why": "thriller on the page — you over-index on it in film · science fiction on the page — you over-index on it in film",
-      "rank": 30
+      "rank": 29
     },
     {
       "title": "The Sea of Monsters",
@@ -532,7 +515,7 @@
       "weight": 0.76,
       "rankScore": 5.98,
       "why": "thriller on the page — you over-index on it in film · fantasy on the page — you over-index on it in film",
-      "rank": 31
+      "rank": 30
     },
     {
       "title": "Watchmen",
@@ -549,7 +532,7 @@
       "weight": 0.66,
       "rankScore": 5.79,
       "why": "science fiction on the page — you over-index on it in film · fantasy on the page — you over-index on it in film",
-      "rank": 32
+      "rank": 31
     },
     {
       "title": "The Complete Sherlock Holmes [4 novels, 56 stories]",
@@ -566,7 +549,7 @@
       "weight": 0.46,
       "rankScore": 5.43,
       "why": "thriller on the page — you over-index on it in film",
-      "rank": 33
+      "rank": 32
     },
     {
       "title": "The Silver Eyes (Five Nights At Freddy's #1)",
@@ -583,7 +566,7 @@
       "weight": 0.42,
       "rankScore": 5.43,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 34
+      "rank": 33
     },
     {
       "title": "Season of Mists",
@@ -600,7 +583,7 @@
       "weight": 0.42,
       "rankScore": 5.38,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 35
+      "rank": 34
     },
     {
       "title": "Maus I",
@@ -611,13 +594,13 @@
       "cover": "https://covers.openlibrary.org/b/id/10210168-M.jpg",
       "editionCount": 66,
       "olRating": {
-        "average": 4.4969325,
-        "count": 163
+        "average": 4.487805,
+        "count": 164
       },
       "weight": 0.42,
-      "rankScore": 5.34,
+      "rankScore": 5.33,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 36
+      "rank": 35
     },
     {
       "title": "Feet of Clay",
@@ -634,7 +617,7 @@
       "weight": 0.42,
       "rankScore": 5.31,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 37
+      "rank": 36
     },
     {
       "title": "The Throne of Fire",
@@ -651,7 +634,7 @@
       "weight": 0.36,
       "rankScore": 5.31,
       "why": "science fiction on the page — you over-index on it in film",
-      "rank": 38
+      "rank": 37
     },
     {
       "title": "Percy Jackson's Greek Gods",
@@ -668,7 +651,7 @@
       "weight": 0.3,
       "rankScore": 5.31,
       "why": "fantasy on the page — you over-index on it in film",
-      "rank": 39
+      "rank": 38
     },
     {
       "title": "The Raven",
@@ -685,6 +668,23 @@
       "weight": 0.42,
       "rankScore": 5.3,
       "why": "horror on the page — you over-index on it in film",
+      "rank": 39
+    },
+    {
+      "title": "Words of Radiance",
+      "author": "Brandon Sanderson",
+      "olWork": "OL16813053W",
+      "year": 2012,
+      "pages": 1088,
+      "cover": "https://covers.openlibrary.org/b/id/14658334-M.jpg",
+      "editionCount": 23,
+      "olRating": {
+        "average": 4.6875,
+        "count": 96
+      },
+      "weight": 0.3,
+      "rankScore": 5.29,
+      "why": "fantasy on the page — you over-index on it in film",
       "rank": 40
     }
   ]
