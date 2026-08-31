@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-30T14:27:03.433Z",
+  "generated": "2026-08-31T17:05:58.509Z",
   "basedOn": 27,
   "head": 12,
   "items": [
@@ -82,7 +82,7 @@
       "year": 1999,
       "tmdbId": 11660,
       "tmdbRating": 7.119,
-      "votes": 1948,
+      "votes": 1949,
       "score": 12.15,
       "themes": [
         "surveillance"
@@ -124,8 +124,8 @@
       "title": "Insomnia",
       "year": 2002,
       "tmdbId": 320,
-      "tmdbRating": 6.953,
-      "votes": 5490,
+      "tmdbRating": 6.952,
+      "votes": 5496,
       "score": 12.15,
       "rank": 4,
       "director": [
@@ -161,7 +161,7 @@
       "year": 2008,
       "tmdbId": 4944,
       "tmdbRating": 6.678,
-      "votes": 5370,
+      "votes": 5371,
       "score": 8.100000000000001,
       "themes": [
         "unravelling",
@@ -202,13 +202,13 @@
       "title": "True Grit",
       "year": 2010,
       "tmdbId": 44264,
-      "tmdbRating": 7.305,
-      "votes": 5886,
+      "tmdbRating": 7.306,
+      "votes": 5890,
       "score": 9.000000000000002,
       "rank": 6,
       "director": [
-        "Joel Coen",
-        "Ethan Coen"
+        "Ethan Coen",
+        "Joel Coen"
       ],
       "runtime": 110,
       "genres": [
@@ -289,7 +289,7 @@
       "year": 2018,
       "tmdbId": 375262,
       "tmdbRating": 7.479,
-      "votes": 6019,
+      "votes": 6021,
       "score": 7.020000000000001,
       "rank": 8,
       "director": [
@@ -323,8 +323,8 @@
       "title": "The Strange Thing About the Johnsons",
       "year": 2011,
       "tmdbId": 164052,
-      "tmdbRating": 6.811,
-      "votes": 396,
+      "tmdbRating": 6.809,
+      "votes": 397,
       "score": 6.75,
       "rank": 9,
       "director": [
@@ -352,7 +352,7 @@
       "year": 2017,
       "tmdbId": 387426,
       "tmdbRating": 7.325,
-      "votes": 4616,
+      "votes": 4617,
       "score": 5.700000000000001,
       "themes": [
         "doubling"
@@ -387,8 +387,8 @@
       "title": "The Florida Project",
       "year": 2017,
       "tmdbId": 394117,
-      "tmdbRating": 7.428,
-      "votes": 3169,
+      "tmdbRating": 7.427,
+      "votes": 3171,
       "score": 6.15,
       "rank": 11,
       "director": [
@@ -425,7 +425,7 @@
       "year": 2006,
       "tmdbId": 1255,
       "tmdbRating": 6.977,
-      "votes": 3221,
+      "votes": 3222,
       "score": 5.700000000000001,
       "rank": 12,
       "director": [
@@ -612,24 +612,24 @@
       "score": 8.850000000000001,
       "rank": 17,
       "director": [
-        "Sylvain Chomet",
-        "Tom Tykwer",
-        "Gurinder Chadha",
-        "Richard LaGravenese",
-        "Isabel Coixet",
-        "Nobuhiro Suwa",
+        "Olivier Assayas",
         "Frédéric Auburtin",
+        "Gurinder Chadha",
+        "Sylvain Chomet",
+        "Isabel Coixet",
+        "Wes Craven",
         "Alfonso Cuarón",
         "Gérard Depardieu",
-        "Walter Salles",
         "Christopher Doyle",
-        "Wes Craven",
-        "Daniela Thomas",
+        "Richard LaGravenese",
         "Vincenzo Natali",
-        "Oliver Schmitz",
-        "Gus Van Sant",
-        "Olivier Assayas",
         "Alexander Payne",
+        "Walter Salles",
+        "Oliver Schmitz",
+        "Nobuhiro Suwa",
+        "Daniela Thomas",
+        "Tom Tykwer",
+        "Gus Van Sant",
         "Joel Coen",
         "Ethan Coen",
         "Bruno Podalydès"
@@ -701,7 +701,7 @@
       "year": 1991,
       "tmdbId": 290,
       "tmdbRating": 7.464,
-      "votes": 1935,
+      "votes": 1936,
       "score": 8.100000000000001,
       "rank": 19,
       "director": [
@@ -737,7 +737,7 @@
       "year": 2013,
       "tmdbId": 110415,
       "tmdbRating": 6.909,
-      "votes": 10622,
+      "votes": 10625,
       "score": 5.700000000000001,
       "rank": 20,
       "director": [
@@ -781,8 +781,8 @@
       "score": 5.700000000000001,
       "rank": 21,
       "director": [
-        "Leos Carax",
         "Bong Joon Ho",
+        "Leos Carax",
         "Michel Gondry"
       ],
       "runtime": 112,
@@ -962,7 +962,7 @@
       "year": 2013,
       "tmdbId": 49521,
       "tmdbRating": 6.66,
-      "votes": 16526,
+      "votes": 16531,
       "score": 4.86,
       "rank": 26,
       "director": [
@@ -1200,7 +1200,7 @@
       "year": 2004,
       "tmdbId": 393,
       "tmdbRating": 7.875,
-      "votes": 15371,
+      "votes": 15376,
       "score": 3.8000000000000003,
       "rank": 33,
       "director": [
@@ -1238,7 +1238,7 @@
       "year": 2015,
       "tmdbId": 273248,
       "tmdbRating": 7.757,
-      "votes": 15548,
+      "votes": 15554,
       "score": 3.8000000000000003,
       "rank": 34,
       "director": [
@@ -1273,8 +1273,8 @@
       "title": "Jackie Brown",
       "year": 1997,
       "tmdbId": 184,
-      "tmdbRating": 7.356,
-      "votes": 7083,
+      "tmdbRating": 7.357,
+      "votes": 7089,
       "score": 3.8000000000000003,
       "rank": 35,
       "director": [
@@ -1311,7 +1311,7 @@
       "year": 2009,
       "tmdbId": 16523,
       "tmdbRating": 6.5,
-      "votes": 2060,
+      "votes": 2062,
       "score": 4,
       "rank": 36,
       "director": [
@@ -1352,13 +1352,13 @@
       "title": "Grindhouse",
       "year": 2007,
       "tmdbId": 285923,
-      "tmdbRating": 7.003,
+      "tmdbRating": 7,
       "votes": 1926,
       "score": 3.8000000000000003,
       "rank": 37,
       "director": [
-        "Quentin Tarantino",
-        "Robert Rodriguez"
+        "Robert Rodriguez",
+        "Quentin Tarantino"
       ],
       "runtime": 191,
       "genres": [
@@ -1427,8 +1427,8 @@
       "score": 3.5200000000000005,
       "rank": 39,
       "director": [
-        "Bryan Woods",
-        "Scott Beck"
+        "Scott Beck",
+        "Bryan Woods"
       ],
       "runtime": 93,
       "genres": [
@@ -1498,7 +1498,7 @@
       "year": 2021,
       "tmdbId": 617653,
       "tmdbRating": 7.4,
-      "votes": 3973,
+      "votes": 3976,
       "score": 3.3000000000000003,
       "rank": 41,
       "director": [
@@ -1530,8 +1530,8 @@
       "title": "The Boogeyman",
       "year": 2023,
       "tmdbId": 532408,
-      "tmdbRating": 6.377,
-      "votes": 1151,
+      "tmdbRating": 6.376,
+      "votes": 1153,
       "score": 3.5200000000000005,
       "rank": 42,
       "director": [
@@ -1560,8 +1560,8 @@
       "title": "Promised Land",
       "year": 2012,
       "tmdbId": 133694,
-      "tmdbRating": 6.285,
-      "votes": 758,
+      "tmdbRating": 6.287,
+      "votes": 759,
       "score": 3.4600000000000004,
       "rank": 43,
       "director": [
@@ -1588,8 +1588,8 @@
       "title": "65",
       "year": 2023,
       "tmdbId": 700391,
-      "tmdbRating": 5.952,
-      "votes": 2944,
+      "tmdbRating": 5.954,
+      "votes": 2946,
       "score": 3.5200000000000005,
       "rank": 44,
       "director": [
@@ -1695,7 +1695,7 @@
       "year": 1991,
       "tmdbId": 1541,
       "tmdbRating": 7.595,
-      "votes": 3977,
+      "votes": 3978,
       "score": 2.4000000000000004,
       "themes": [
         "surveillance"
@@ -1735,7 +1735,7 @@
       "year": 2007,
       "tmdbId": 4982,
       "tmdbRating": 7.594,
-      "votes": 6186,
+      "votes": 6189,
       "score": 2.4000000000000004,
       "themes": [
         "surveillance"
@@ -1774,7 +1774,7 @@
       "year": 2014,
       "tmdbId": 194662,
       "tmdbRating": 7.435,
-      "votes": 13778,
+      "votes": 13780,
       "score": 0.8999999999999999,
       "themes": [
         "cruel-comedy",
@@ -1807,7 +1807,7 @@
       "year": 2014,
       "tmdbId": 180299,
       "tmdbRating": 7.614,
-      "votes": 2677,
+      "votes": 2678,
       "score": 2.7,
       "rank": 50,
       "director": [
@@ -1840,7 +1840,7 @@
       "year": 2012,
       "tmdbId": 94329,
       "tmdbRating": 7.412,
-      "votes": 4005,
+      "votes": 4006,
       "score": 2.7,
       "rank": 51,
       "director": [
@@ -1874,7 +1874,7 @@
       "year": 1981,
       "tmdbId": 8810,
       "tmdbRating": 7.393,
-      "votes": 4280,
+      "votes": 4282,
       "score": 2.7,
       "rank": 52,
       "director": [
@@ -1966,8 +1966,8 @@
       "title": "Blade Runner",
       "year": 1982,
       "tmdbId": 78,
-      "tmdbRating": 7.935,
-      "votes": 15326,
+      "tmdbRating": 7.936,
+      "votes": 15337,
       "score": 2.4000000000000004,
       "rank": 55,
       "director": [
@@ -1995,8 +1995,8 @@
       "title": "Mad Max",
       "year": 1979,
       "tmdbId": 9659,
-      "tmdbRating": 6.682,
-      "votes": 5077,
+      "tmdbRating": 6.683,
+      "votes": 5079,
       "score": 2.7,
       "rank": 56,
       "director": [
@@ -2026,7 +2026,7 @@
       "year": 1987,
       "tmdbId": 6069,
       "tmdbRating": 6.548,
-      "votes": 1603,
+      "votes": 1604,
       "score": 2.7,
       "rank": 57,
       "director": [
@@ -2091,7 +2091,7 @@
       "year": 2025,
       "tmdbId": 668489,
       "tmdbRating": 6.403,
-      "votes": 1321,
+      "votes": 1322,
       "score": 2.7,
       "rank": 59,
       "director": [
@@ -2118,8 +2118,8 @@
       "title": "Tom Clancy's Jack Ryan: Ghost War",
       "year": 2026,
       "tmdbId": 1380291,
-      "tmdbRating": 6.934,
-      "votes": 754,
+      "tmdbRating": 6.9,
+      "votes": 757,
       "score": 2.5600000000000005,
       "rank": 60,
       "director": [
@@ -2149,13 +2149,13 @@
       "score": 2.7,
       "rank": 61,
       "director": [
-        "Simon Barrett",
-        "Adam Wingard",
         "Eduardo Sánchez",
-        "Gregg Hale",
         "Timo Tjahjanto",
         "Gareth Evans",
-        "Jason Eisener"
+        "Gregg Hale",
+        "Simon Barrett",
+        "Jason Eisener",
+        "Adam Wingard"
       ],
       "runtime": 96,
       "genres": [
@@ -2183,7 +2183,7 @@
       "year": 2001,
       "tmdbId": 855,
       "tmdbRating": 7.399,
-      "votes": 6539,
+      "votes": 6541,
       "score": 2.4000000000000004,
       "rank": 62,
       "director": [
@@ -2263,7 +2263,8 @@
       "poster": "https://image.tmdb.org/t/p/w342/58Y4CjcRX8AtMNtI0AXu9H7iebP.jpg",
       "providers": {
         "flatrate": [
-          "Netflix"
+          "Netflix",
+          "fuboTV"
         ],
         "rent": [
           "Amazon Video",
@@ -2280,8 +2281,8 @@
       "title": "The Hunt",
       "year": 2020,
       "tmdbId": 514847,
-      "tmdbRating": 6.648,
-      "votes": 3782,
+      "tmdbRating": 6.649,
+      "votes": 3787,
       "score": 1.3200000000000003,
       "themes": [
         "cruel-comedy"
@@ -2346,8 +2347,8 @@
       "title": "Confessions of a Dangerous Mind",
       "year": 2002,
       "tmdbId": 4912,
-      "tmdbRating": 6.676,
-      "votes": 1300,
+      "tmdbRating": 6.675,
+      "votes": 1301,
       "score": 2.2,
       "rank": 67,
       "director": [
@@ -2445,7 +2446,7 @@
       "year": 1999,
       "tmdbId": 1832,
       "tmdbRating": 6.941,
-      "votes": 2940,
+      "votes": 2941,
       "score": 0.8999999999999999,
       "themes": [
         "cruel-comedy"
@@ -2475,7 +2476,7 @@
       "year": 2011,
       "tmdbId": 39538,
       "tmdbRating": 6.653,
-      "votes": 6691,
+      "votes": 6692,
       "score": 0.8999999999999999,
       "themes": [
         "body-horror"
@@ -2513,8 +2514,8 @@
       "title": "The Legend of Bagger Vance",
       "year": 2000,
       "tmdbId": 4958,
-      "tmdbRating": 6.607,
-      "votes": 1014,
+      "tmdbRating": 6.609,
+      "votes": 1016,
       "score": 1.65,
       "rank": 72,
       "director": [
@@ -2549,8 +2550,8 @@
       "title": "The Great Wall",
       "year": 2016,
       "tmdbId": 311324,
-      "tmdbRating": 6.031,
-      "votes": 5649,
+      "tmdbRating": 6.032,
+      "votes": 5652,
       "score": 1.65,
       "rank": 73,
       "director": [
@@ -2583,7 +2584,7 @@
       "year": 2013,
       "tmdbId": 54138,
       "tmdbRating": 7.321,
-      "votes": 9837,
+      "votes": 9839,
       "score": 1.3200000000000003,
       "rank": 74,
       "director": [
@@ -2619,8 +2620,8 @@
       "title": "Jackass Forever",
       "year": 2022,
       "tmdbId": 656663,
-      "tmdbRating": 6.81,
-      "votes": 960,
+      "tmdbRating": 6.8,
+      "votes": 964,
       "score": 1.2800000000000002,
       "rank": 75,
       "director": [
@@ -2657,7 +2658,7 @@
       "year": 2011,
       "tmdbId": 50014,
       "tmdbRating": 8.206,
-      "votes": 9235,
+      "votes": 9237,
       "score": 0.8999999999999999,
       "rank": 76,
       "director": [
@@ -2689,8 +2690,8 @@
       "title": "Good Will Hunting",
       "year": 1997,
       "tmdbId": 489,
-      "tmdbRating": 8.2,
-      "votes": 14212,
+      "tmdbRating": 8.165,
+      "votes": 14218,
       "score": 0.8999999999999999,
       "rank": 77,
       "director": [
@@ -2729,7 +2730,7 @@
       "year": 2021,
       "tmdbId": 501929,
       "tmdbRating": 7.83,
-      "votes": 3472,
+      "votes": 3473,
       "score": 0.96,
       "rank": 78,
       "director": [
@@ -2762,7 +2763,7 @@
       "year": 2015,
       "tmdbId": 158852,
       "tmdbRating": 6.31,
-      "votes": 7481,
+      "votes": 7483,
       "score": 1.3200000000000003,
       "rank": 79,
       "director": [
@@ -2794,8 +2795,8 @@
       "title": "Jackass 4.5",
       "year": 2022,
       "tmdbId": 828853,
-      "tmdbRating": 6.426,
-      "votes": 414,
+      "tmdbRating": 6.425,
+      "votes": 415,
       "score": 1.2800000000000002,
       "rank": 80,
       "director": [
@@ -2829,7 +2830,7 @@
       "year": 2016,
       "tmdbId": 313369,
       "tmdbRating": 7.897,
-      "votes": 18404,
+      "votes": 18410,
       "score": 0.8999999999999999,
       "rank": 81,
       "director": [
@@ -2954,7 +2955,7 @@
       "year": 2020,
       "tmdbId": 529203,
       "tmdbRating": 7.438,
-      "votes": 4222,
+      "votes": 4223,
       "score": 0.8999999999999999,
       "rank": 85,
       "director": [
@@ -2990,7 +2991,7 @@
       "year": 2011,
       "tmdbId": 50646,
       "tmdbRating": 7.277,
-      "votes": 9468,
+      "votes": 9471,
       "score": 0.8999999999999999,
       "rank": 86,
       "director": [
@@ -3024,8 +3025,8 @@
       "title": "Platoon",
       "year": 1986,
       "tmdbId": 792,
-      "tmdbRating": 7.75,
-      "votes": 5243,
+      "tmdbRating": 7.751,
+      "votes": 5247,
       "score": 0.75,
       "rank": 87,
       "director": [
@@ -3062,8 +3063,8 @@
       "title": "Remember Me",
       "year": 2010,
       "tmdbId": 23169,
-      "tmdbRating": 7.097,
-      "votes": 3783,
+      "tmdbRating": 7.096,
+      "votes": 3784,
       "score": 0.8999999999999999,
       "rank": 88,
       "director": [
@@ -3097,7 +3098,7 @@
       "year": 1988,
       "tmdbId": 1632,
       "tmdbRating": 7.675,
-      "votes": 2010,
+      "votes": 2011,
       "score": 0.75,
       "rank": 89,
       "director": [
@@ -3132,8 +3133,8 @@
       "title": "Kubo and the Two Strings",
       "year": 2016,
       "tmdbId": 313297,
-      "tmdbRating": 7.641,
-      "votes": 3898,
+      "tmdbRating": 7.64,
+      "votes": 3901,
       "score": 0.75,
       "rank": 90,
       "director": [
@@ -3164,7 +3165,7 @@
       "year": 2011,
       "tmdbId": 71469,
       "tmdbRating": 5.299,
-      "votes": 1623,
+      "votes": 1625,
       "score": 1.3200000000000003,
       "rank": 91,
       "director": [
@@ -3229,7 +3230,7 @@
       "year": 2000,
       "tmdbId": 11978,
       "tmdbRating": 7.495,
-      "votes": 2567,
+      "votes": 2570,
       "score": 0.75,
       "rank": 93,
       "director": [
@@ -3260,7 +3261,7 @@
       "year": 1997,
       "tmdbId": 1813,
       "tmdbRating": 7.481,
-      "votes": 6993,
+      "votes": 6995,
       "score": 0.75,
       "rank": 94,
       "director": [
@@ -3274,7 +3275,9 @@
       ],
       "poster": "https://image.tmdb.org/t/p/w342/5ZzBGpxy55OQzHxKVY11IpY6a0o.jpg",
       "providers": {
-        "flatrate": [],
+        "flatrate": [
+          "Philo"
+        ],
         "rent": [
           "Amazon Video",
           "Apple TV Store",
@@ -3291,7 +3294,7 @@
       "year": 2006,
       "tmdbId": 388,
       "tmdbRating": 7.41,
-      "votes": 6522,
+      "votes": 6526,
       "score": 0.75,
       "rank": 95,
       "director": [
@@ -3323,8 +3326,8 @@
       "title": "Little Brother",
       "year": 2026,
       "tmdbId": 1397385,
-      "tmdbRating": 6.426,
-      "votes": 346,
+      "tmdbRating": 6.432,
+      "votes": 348,
       "score": 0.96,
       "rank": 96,
       "director": [
@@ -3379,8 +3382,8 @@
       "title": "The Boondock Saints",
       "year": 1999,
       "tmdbId": 8374,
-      "tmdbRating": 7.239,
-      "votes": 2777,
+      "tmdbRating": 7.24,
+      "votes": 2778,
       "score": 0.75,
       "rank": 98,
       "director": [
@@ -3415,8 +3418,8 @@
       "title": "Monster",
       "year": 2003,
       "tmdbId": 504,
-      "tmdbRating": 7.203,
-      "votes": 2610,
+      "tmdbRating": 7.204,
+      "votes": 2611,
       "score": 0.75,
       "rank": 99,
       "director": [
@@ -3445,7 +3448,7 @@
       "year": 2012,
       "tmdbId": 50620,
       "tmdbRating": 6.452,
-      "votes": 9478,
+      "votes": 9480,
       "score": 0.8999999999999999,
       "rank": 100,
       "director": [
@@ -3480,8 +3483,8 @@
       "title": "Perfect Blue",
       "year": 1998,
       "tmdbId": 10494,
-      "tmdbRating": 8.307,
-      "votes": 3315,
+      "tmdbRating": 8.3,
+      "votes": 3318,
       "theme": "unravelling",
       "why": "unravelling — the thread through 3 of your loved films",
       "director": [
@@ -3511,8 +3514,8 @@
       "title": "Modern Times",
       "year": 1936,
       "tmdbId": 3082,
-      "tmdbRating": 8.284,
-      "votes": 4167,
+      "tmdbRating": 8.283,
+      "votes": 4168,
       "theme": "unravelling",
       "why": "unravelling — the thread through 3 of your loved films",
       "director": [
@@ -3545,8 +3548,8 @@
       "title": "Sunset Boulevard",
       "year": 1950,
       "tmdbId": 599,
-      "tmdbRating": 8.273,
-      "votes": 3005,
+      "tmdbRating": 8.274,
+      "votes": 3006,
       "theme": "unravelling",
       "why": "unravelling — the thread through 3 of your loved films",
       "director": [
@@ -3670,7 +3673,7 @@
       "year": 1997,
       "tmdbId": 637,
       "tmdbRating": 8.437,
-      "votes": 14197,
+      "votes": 14199,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 2 of your loved films",
       "director": [
@@ -3736,8 +3739,8 @@
       "title": "I Swear",
       "year": 2025,
       "tmdbId": 1317149,
-      "tmdbRating": 8.2,
-      "votes": 511,
+      "tmdbRating": 8.242,
+      "votes": 514,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 2 of your loved films",
       "director": [
@@ -3798,7 +3801,7 @@
       "title": "Incendies",
       "year": 2010,
       "tmdbId": 46738,
-      "tmdbRating": 8.101,
+      "tmdbRating": 8.1,
       "votes": 3434,
       "theme": "doubling",
       "why": "doubling — the thread through 2 of your loved films",
@@ -3827,8 +3830,8 @@
       "title": "The Young Girls of Rochefort",
       "year": 1967,
       "tmdbId": 2433,
-      "tmdbRating": 7.671,
-      "votes": 667,
+      "tmdbRating": 7.67,
+      "votes": 668,
       "theme": "doubling",
       "why": "doubling — the thread through 2 of your loved films",
       "director": [
@@ -3859,7 +3862,7 @@
       "year": 1982,
       "tmdbId": 1091,
       "tmdbRating": 8.073,
-      "votes": 8192,
+      "votes": 8195,
       "theme": "body-horror",
       "why": "body-horror — the thread through 2 of your loved films",
       "director": [
@@ -3888,7 +3891,7 @@
       "year": 2018,
       "tmdbId": 503314,
       "tmdbRating": 7.957,
-      "votes": 3251,
+      "votes": 3252,
       "theme": "body-horror",
       "why": "body-horror — the thread through 2 of your loved films",
       "director": [
@@ -3919,8 +3922,8 @@
       "title": "Akira",
       "year": 1988,
       "tmdbId": 149,
-      "tmdbRating": 7.939,
-      "votes": 4935,
+      "tmdbRating": 7.94,
+      "votes": 4938,
       "theme": "body-horror",
       "why": "body-horror — the thread through 2 of your loved films",
       "director": [

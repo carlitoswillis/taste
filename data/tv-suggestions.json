@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-30T14:27:23.527Z",
+  "generated": "2026-08-31T17:06:13.081Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -71,8 +71,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.7,
-      "votes": 1015,
+      "tmdbRating": 7.749,
+      "votes": 1018,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -214,8 +214,8 @@
       "title": "ER",
       "year": 1994,
       "tmdbId": 4588,
-      "tmdbRating": 7.8,
-      "votes": 950,
+      "tmdbRating": 7.83,
+      "votes": 951,
       "score": 3.0400000000000005,
       "rank": 7,
       "creators": [
@@ -248,8 +248,8 @@
       "title": "CSI: Crime Scene Investigation",
       "year": 2000,
       "tmdbId": 1431,
-      "tmdbRating": 7.621,
-      "votes": 1422,
+      "tmdbRating": 7.618,
+      "votes": 1425,
       "score": 3.0400000000000005,
       "rank": 8,
       "creators": [
@@ -289,7 +289,7 @@
       "year": 2005,
       "tmdbId": 2316,
       "tmdbRating": 8.581,
-      "votes": 5423,
+      "votes": 5427,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -322,8 +322,8 @@
       "title": "Gangs of London",
       "year": 2020,
       "tmdbId": 85021,
-      "tmdbRating": 7.818,
-      "votes": 699,
+      "tmdbRating": 7.817,
+      "votes": 700,
       "score": 2.7,
       "rank": 10,
       "creators": [
@@ -435,7 +435,7 @@
       "title": "Butterfly",
       "year": 2025,
       "tmdbId": 227114,
-      "tmdbRating": 7.204,
+      "tmdbRating": 7.211,
       "votes": 142,
       "score": 3.0400000000000005,
       "rank": 13,
@@ -582,7 +582,7 @@
       "year": 2011,
       "tmdbId": 1411,
       "tmdbRating": 8.099,
-      "votes": 2135,
+      "votes": 2137,
       "score": 1.6500000000000001,
       "themes": [
         "surveillance"
@@ -723,7 +723,7 @@
       "year": 2020,
       "tmdbId": 85723,
       "tmdbRating": 7.502,
-      "votes": 1835,
+      "votes": 1836,
       "score": 1.9200000000000004,
       "rank": 21,
       "creators": [
@@ -754,7 +754,7 @@
       "year": 2016,
       "tmdbId": 63247,
       "tmdbRating": 8.018,
-      "votes": 6342,
+      "votes": 6344,
       "score": 1.6500000000000001,
       "rank": 22,
       "creators": [
