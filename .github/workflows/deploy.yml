@@ -30,7 +30,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # ref: main so the workflow_call from sync.yml builds the data commit the
+      # sync job just pushed, not the (stale) SHA that triggered the run.
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-node@v4
         with:
           node-version: 22
