@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-31T17:06:13.081Z",
+  "generated": "2026-09-01T14:10:11.657Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -72,7 +72,7 @@
       "year": 2023,
       "tmdbId": 154385,
       "tmdbRating": 7.749,
-      "votes": 1018,
+      "votes": 1019,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -289,7 +289,7 @@
       "year": 2005,
       "tmdbId": 2316,
       "tmdbRating": 8.581,
-      "votes": 5427,
+      "votes": 5429,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -435,7 +435,7 @@
       "title": "Butterfly",
       "year": 2025,
       "tmdbId": 227114,
-      "tmdbRating": 7.211,
+      "tmdbRating": 7.204,
       "votes": 142,
       "score": 3.0400000000000005,
       "rank": 13,
@@ -582,7 +582,7 @@
       "year": 2011,
       "tmdbId": 1411,
       "tmdbRating": 8.099,
-      "votes": 2137,
+      "votes": 2136,
       "score": 1.6500000000000001,
       "themes": [
         "surveillance"
@@ -621,8 +621,8 @@
       "title": "Tom Clancy's Jack Ryan",
       "year": 2018,
       "tmdbId": 73375,
-      "tmdbRating": 7.681,
-      "votes": 1869,
+      "tmdbRating": 7.682,
+      "votes": 1872,
       "score": 1.92,
       "rank": 18,
       "creators": [
@@ -754,7 +754,7 @@
       "year": 2016,
       "tmdbId": 63247,
       "tmdbRating": 8.018,
-      "votes": 6344,
+      "votes": 6345,
       "score": 1.6500000000000001,
       "rank": 22,
       "creators": [
