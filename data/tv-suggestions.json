@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-01T14:10:11.657Z",
+  "generated": "2026-09-02T13:39:59.564Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -71,7 +71,7 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.749,
+      "tmdbRating": 7.7,
       "votes": 1019,
       "score": 3.0400000000000005,
       "themes": [
@@ -215,7 +215,7 @@
       "year": 1994,
       "tmdbId": 4588,
       "tmdbRating": 7.83,
-      "votes": 951,
+      "votes": 952,
       "score": 3.0400000000000005,
       "rank": 7,
       "creators": [
@@ -248,8 +248,8 @@
       "title": "CSI: Crime Scene Investigation",
       "year": 2000,
       "tmdbId": 1431,
-      "tmdbRating": 7.618,
-      "votes": 1425,
+      "tmdbRating": 7.615,
+      "votes": 1427,
       "score": 3.0400000000000005,
       "rank": 8,
       "creators": [
@@ -289,7 +289,7 @@
       "year": 2005,
       "tmdbId": 2316,
       "tmdbRating": 8.581,
-      "votes": 5429,
+      "votes": 5431,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -323,7 +323,7 @@
       "year": 2020,
       "tmdbId": 85021,
       "tmdbRating": 7.817,
-      "votes": 700,
+      "votes": 701,
       "score": 2.7,
       "rank": 10,
       "creators": [
@@ -435,7 +435,7 @@
       "title": "Butterfly",
       "year": 2025,
       "tmdbId": 227114,
-      "tmdbRating": 7.204,
+      "tmdbRating": 7.211,
       "votes": 142,
       "score": 3.0400000000000005,
       "rank": 13,
@@ -581,8 +581,8 @@
       "title": "Person of Interest",
       "year": 2011,
       "tmdbId": 1411,
-      "tmdbRating": 8.099,
-      "votes": 2136,
+      "tmdbRating": 8.1,
+      "votes": 2141,
       "score": 1.6500000000000001,
       "themes": [
         "surveillance"
@@ -622,7 +622,7 @@
       "year": 2018,
       "tmdbId": 73375,
       "tmdbRating": 7.682,
-      "votes": 1872,
+      "votes": 1873,
       "score": 1.92,
       "rank": 18,
       "creators": [
@@ -754,7 +754,7 @@
       "year": 2016,
       "tmdbId": 63247,
       "tmdbRating": 8.018,
-      "votes": 6345,
+      "votes": 6348,
       "score": 1.6500000000000001,
       "rank": 22,
       "creators": [
