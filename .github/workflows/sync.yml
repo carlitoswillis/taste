@@ -23,11 +23,9 @@ jobs:
         with:
           node-version: 22
 
-      # Goes red and annotates the run when the feed returns nothing, but does
-      # not stop the sync: enrichment, themes and suggestions don't depend on it.
-      - name: Fetch Letterboxd RSS
-        continue-on-error: true
-        run: node scripts/fetch-letterboxd.mjs
+      # The Letterboxd RSS fetch was removed 2026-09-02: the account's public
+      # feed has never carried an entry, so the step failed on every run and
+      # continue-on-error hid it. Import history with `npm run import` instead.
 
       - name: Enrich from TMDB (skipped if no key configured)
         if: ${{ env.TMDB_API_KEY != '' }}
