@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-02T13:39:39.777Z",
+  "generated": "2026-09-03T04:41:11.743Z",
   "basedOn": 27,
   "head": 12,
   "items": [
@@ -82,7 +82,7 @@
       "year": 1999,
       "tmdbId": 11660,
       "tmdbRating": 7.119,
-      "votes": 1951,
+      "votes": 1953,
       "score": 12.15,
       "themes": [
         "surveillance"
@@ -125,7 +125,7 @@
       "year": 2002,
       "tmdbId": 320,
       "tmdbRating": 6.953,
-      "votes": 5501,
+      "votes": 5503,
       "score": 12.15,
       "rank": 4,
       "director": [
@@ -161,7 +161,7 @@
       "year": 2008,
       "tmdbId": 4944,
       "tmdbRating": 6.679,
-      "votes": 5375,
+      "votes": 5377,
       "score": 8.100000000000001,
       "themes": [
         "unravelling",
@@ -203,7 +203,7 @@
       "year": 2010,
       "tmdbId": 44264,
       "tmdbRating": 7.306,
-      "votes": 5894,
+      "votes": 5896,
       "score": 9.000000000000002,
       "rank": 6,
       "director": [
@@ -246,8 +246,8 @@
       "title": "Kinds of Kindness",
       "year": 2024,
       "tmdbId": 1029955,
-      "tmdbRating": 6.48,
-      "votes": 1346,
+      "tmdbRating": 6.5,
+      "votes": 1347,
       "score": 6.450000000000001,
       "themes": [
         "cruel-comedy"
@@ -287,7 +287,7 @@
       "year": 2018,
       "tmdbId": 375262,
       "tmdbRating": 7.48,
-      "votes": 6025,
+      "votes": 6026,
       "score": 7.020000000000001,
       "rank": 8,
       "director": [
@@ -350,7 +350,7 @@
       "year": 2017,
       "tmdbId": 387426,
       "tmdbRating": 7.325,
-      "votes": 4618,
+      "votes": 4619,
       "score": 5.700000000000001,
       "themes": [
         "doubling"
@@ -385,8 +385,8 @@
       "title": "The Florida Project",
       "year": 2017,
       "tmdbId": 394117,
-      "tmdbRating": 7.427,
-      "votes": 3174,
+      "tmdbRating": 7.426,
+      "votes": 3176,
       "score": 6.15,
       "rank": 11,
       "director": [
@@ -420,7 +420,7 @@
       "year": 2006,
       "tmdbId": 1255,
       "tmdbRating": 6.978,
-      "votes": 3227,
+      "votes": 3228,
       "score": 5.700000000000001,
       "rank": 12,
       "director": [
@@ -731,7 +731,7 @@
       "year": 2013,
       "tmdbId": 110415,
       "tmdbRating": 6.91,
-      "votes": 10635,
+      "votes": 10638,
       "score": 5.700000000000001,
       "rank": 20,
       "director": [
@@ -749,7 +749,8 @@
           "Amazon Prime Video",
           "Hulu",
           "Amazon Prime Video with Ads",
-          "MovieSphere+ Amazon Channel"
+          "MovieSphere+ Amazon Channel",
+          "Howdy Amazon Channel"
         ],
         "rent": [
           "Amazon Video",
@@ -880,51 +881,13 @@
       "why": "Sean Baker wrote and directed this — you rated Anora 5★"
     },
     {
-      "title": "Red Rocket",
-      "year": 2021,
-      "tmdbId": 763329,
-      "tmdbRating": 6.803,
-      "votes": 659,
-      "score": 5.4,
-      "rank": 24,
-      "director": [
-        "Sean Baker"
-      ],
-      "runtime": 130,
-      "genres": [
-        "Drama",
-        "Comedy"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/345gLhiNpItU1ICx8OxJQwjgPmH.jpg",
-      "providers": {
-        "flatrate": [
-          "Amazon Prime Video",
-          "Amazon Prime Video with Ads"
-        ],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
-          "Fandango At Home",
-          "Plex"
-        ]
-      },
-      "scores": {
-        "rt": 90,
-        "metacritic": 76,
-        "imdb": 7.1
-      },
-      "why": "Sean Baker wrote and directed this — you rated Anora 5★"
-    },
-    {
       "title": "Starlet",
       "year": 2012,
       "tmdbId": 91679,
       "tmdbRating": 6.802,
       "votes": 205,
       "score": 5.4,
-      "rank": 25,
+      "rank": 24,
       "director": [
         "Sean Baker"
       ],
@@ -952,11 +915,46 @@
       "why": "Sean Baker wrote and directed this — you rated Anora 5★"
     },
     {
+      "title": "Red Rocket",
+      "year": 2021,
+      "tmdbId": 763329,
+      "tmdbRating": 6.802,
+      "votes": 660,
+      "score": 5.4,
+      "rank": 25,
+      "director": [
+        "Sean Baker"
+      ],
+      "runtime": 130,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/345gLhiNpItU1ICx8OxJQwjgPmH.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Plex"
+        ]
+      },
+      "scores": {
+        "rt": 90,
+        "metacritic": 76,
+        "imdb": 7.1
+      },
+      "why": "Sean Baker wrote and directed this — you rated Anora 5★"
+    },
+    {
       "title": "Man of Steel",
       "year": 2013,
       "tmdbId": 49521,
       "tmdbRating": 6.66,
-      "votes": 16541,
+      "votes": 16545,
       "score": 4.86,
       "rank": 26,
       "director": [
@@ -1130,8 +1128,8 @@
       "title": "Kill Bill: The Whole Bloody Affair",
       "year": 2011,
       "tmdbId": 414419,
-      "tmdbRating": 8.122,
-      "votes": 1398,
+      "tmdbRating": 8.123,
+      "votes": 1400,
       "score": 3.8000000000000003,
       "rank": 31,
       "director": [
@@ -1197,7 +1195,7 @@
       "year": 2004,
       "tmdbId": 393,
       "tmdbRating": 7.874,
-      "votes": 15384,
+      "votes": 15392,
       "score": 3.8000000000000003,
       "rank": 33,
       "director": [
@@ -1234,8 +1232,8 @@
       "title": "The Hateful Eight",
       "year": 2015,
       "tmdbId": 273248,
-      "tmdbRating": 7.757,
-      "votes": 15561,
+      "tmdbRating": 7.756,
+      "votes": 15564,
       "score": 3.8000000000000003,
       "rank": 34,
       "director": [
@@ -1270,8 +1268,8 @@
       "title": "Jackie Brown",
       "year": 1997,
       "tmdbId": 184,
-      "tmdbRating": 7.356,
-      "votes": 7093,
+      "tmdbRating": 7.357,
+      "votes": 7096,
       "score": 3.8000000000000003,
       "rank": 35,
       "director": [
@@ -1307,8 +1305,8 @@
       "title": "Where the Wild Things Are",
       "year": 2009,
       "tmdbId": 16523,
-      "tmdbRating": 6.5,
-      "votes": 2063,
+      "tmdbRating": 6.499,
+      "votes": 2064,
       "score": 4,
       "rank": 36,
       "director": [
@@ -1350,7 +1348,7 @@
       "year": 2007,
       "tmdbId": 285923,
       "tmdbRating": 7.003,
-      "votes": 1926,
+      "votes": 1928,
       "score": 3.8000000000000003,
       "rank": 37,
       "director": [
@@ -1419,8 +1417,8 @@
       "title": "The Dog Stars",
       "year": 2026,
       "tmdbId": 1384216,
-      "tmdbRating": 6.691,
-      "votes": 157,
+      "tmdbRating": 6.692,
+      "votes": 167,
       "score": 2.4000000000000004,
       "themes": [
         "grief-horror"
@@ -1521,8 +1519,8 @@
       "title": "The Last Duel",
       "year": 2021,
       "tmdbId": 617653,
-      "tmdbRating": 7.4,
-      "votes": 3982,
+      "tmdbRating": 7.401,
+      "votes": 3983,
       "score": 3.3000000000000003,
       "rank": 42,
       "director": [
@@ -1538,7 +1536,8 @@
       "providers": {
         "flatrate": [
           "fuboTV",
-          "YouTube TV"
+          "YouTube TV",
+          "FXNow"
         ],
         "rent": [
           "Amazon Video",
@@ -1617,8 +1616,8 @@
       "score": 3.5200000000000005,
       "rank": 45,
       "director": [
-        "Scott Beck",
-        "Bryan Woods"
+        "Bryan Woods",
+        "Scott Beck"
       ],
       "runtime": 92,
       "genres": [
@@ -1649,7 +1648,7 @@
       "year": 2024,
       "tmdbId": 639720,
       "tmdbRating": 6.941,
-      "votes": 1684,
+      "votes": 1685,
       "score": 3.2,
       "rank": 46,
       "director": [
@@ -1719,7 +1718,7 @@
       "year": 2007,
       "tmdbId": 4982,
       "tmdbRating": 7.594,
-      "votes": 6192,
+      "votes": 6193,
       "score": 2.4000000000000004,
       "themes": [
         "surveillance"
@@ -1799,8 +1798,8 @@
       "title": "Birdman or (The Unexpected Virtue of Ignorance)",
       "year": 2014,
       "tmdbId": 194662,
-      "tmdbRating": 7.436,
-      "votes": 13788,
+      "tmdbRating": 7.435,
+      "votes": 13791,
       "score": 0.8999999999999999,
       "themes": [
         "cruel-comedy",
@@ -1835,8 +1834,8 @@
       "title": "The Raid 2",
       "year": 2014,
       "tmdbId": 180299,
-      "tmdbRating": 7.614,
-      "votes": 2679,
+      "tmdbRating": 7.613,
+      "votes": 2681,
       "score": 2.7,
       "rank": 51,
       "director": [
@@ -1869,7 +1868,7 @@
       "year": 2012,
       "tmdbId": 94329,
       "tmdbRating": 7.412,
-      "votes": 4010,
+      "votes": 4012,
       "score": 2.7,
       "rank": 52,
       "director": [
@@ -1903,7 +1902,7 @@
       "year": 1981,
       "tmdbId": 8810,
       "tmdbRating": 7.394,
-      "votes": 4283,
+      "votes": 4284,
       "score": 2.7,
       "rank": 53,
       "director": [
@@ -1962,7 +1961,7 @@
       "year": 2022,
       "tmdbId": 556694,
       "tmdbRating": 6.879,
-      "votes": 1721,
+      "votes": 1722,
       "score": 2.7,
       "rank": 55,
       "director": [
@@ -1976,10 +1975,7 @@
       ],
       "poster": "https://image.tmdb.org/t/p/w342/nS7DNl4A7XnDncZX70UJ8ALAihF.jpg",
       "providers": {
-        "flatrate": [
-          "Amazon Prime Video",
-          "Amazon Prime Video with Ads"
-        ],
+        "flatrate": [],
         "rent": [
           "Amazon Video",
           "Apple TV Store",
@@ -1995,8 +1991,8 @@
       "title": "Blade Runner",
       "year": 1982,
       "tmdbId": 78,
-      "tmdbRating": 7.935,
-      "votes": 15346,
+      "tmdbRating": 7.9,
+      "votes": 15351,
       "score": 2.4000000000000004,
       "rank": 56,
       "director": [
@@ -2024,8 +2020,8 @@
       "title": "Mad Max",
       "year": 1979,
       "tmdbId": 9659,
-      "tmdbRating": 6.682,
-      "votes": 5081,
+      "tmdbRating": 6.683,
+      "votes": 5083,
       "score": 2.7,
       "rank": 57,
       "director": [
@@ -2054,8 +2050,8 @@
       "title": "The Witches of Eastwick",
       "year": 1987,
       "tmdbId": 6069,
-      "tmdbRating": 6.549,
-      "votes": 1605,
+      "tmdbRating": 6.55,
+      "votes": 1606,
       "score": 2.7,
       "rank": 58,
       "director": [
@@ -2084,8 +2080,8 @@
       "title": "Merantau",
       "year": 2009,
       "tmdbId": 34626,
-      "tmdbRating": 6.465,
-      "votes": 244,
+      "tmdbRating": 6.467,
+      "votes": 245,
       "score": 2.7,
       "rank": 59,
       "director": [
@@ -2120,7 +2116,7 @@
       "year": 2025,
       "tmdbId": 668489,
       "tmdbRating": 6.405,
-      "votes": 1324,
+      "votes": 1325,
       "score": 2.7,
       "rank": 60,
       "director": [
@@ -2147,8 +2143,8 @@
       "title": "Tom Clancy's Jack Ryan: Ghost War",
       "year": 2026,
       "tmdbId": 1380291,
-      "tmdbRating": 6.93,
-      "votes": 761,
+      "tmdbRating": 6.928,
+      "votes": 762,
       "score": 2.5600000000000005,
       "rank": 61,
       "director": [
@@ -2173,18 +2169,18 @@
       "title": "V/H/S/2",
       "year": 2013,
       "tmdbId": 159117,
-      "tmdbRating": 6.205,
-      "votes": 1221,
+      "tmdbRating": 6.203,
+      "votes": 1222,
       "score": 2.7,
       "rank": 62,
       "director": [
-        "Simon Barrett",
-        "Adam Wingard",
         "Eduardo Sánchez",
-        "Gregg Hale",
         "Timo Tjahjanto",
         "Gareth Evans",
-        "Jason Eisener"
+        "Gregg Hale",
+        "Simon Barrett",
+        "Jason Eisener",
+        "Adam Wingard"
       ],
       "runtime": 96,
       "genres": [
@@ -2212,7 +2208,7 @@
       "year": 2021,
       "tmdbId": 337404,
       "tmdbRating": 7.967,
-      "votes": 10268,
+      "votes": 10270,
       "score": 2.22,
       "rank": 63,
       "director": [
@@ -2259,7 +2255,8 @@
       "poster": "https://image.tmdb.org/t/p/w342/58Y4CjcRX8AtMNtI0AXu9H7iebP.jpg",
       "providers": {
         "flatrate": [
-          "Netflix"
+          "Netflix",
+          "fuboTV"
         ],
         "rent": [
           "Amazon Video",
@@ -2312,7 +2309,7 @@
       "year": 2020,
       "tmdbId": 514847,
       "tmdbRating": 6.65,
-      "votes": 3789,
+      "votes": 3790,
       "score": 1.3200000000000003,
       "themes": [
         "cruel-comedy"
@@ -2440,8 +2437,8 @@
       "title": "Dogma",
       "year": 1999,
       "tmdbId": 1832,
-      "tmdbRating": 6.943,
-      "votes": 2943,
+      "tmdbRating": 6.944,
+      "votes": 2945,
       "score": 0.8999999999999999,
       "themes": [
         "cruel-comedy"
@@ -2473,7 +2470,7 @@
       "year": 2011,
       "tmdbId": 39538,
       "tmdbRating": 6.653,
-      "votes": 6694,
+      "votes": 6696,
       "score": 0.8999999999999999,
       "themes": [
         "body-horror"
@@ -2527,8 +2524,6 @@
       "poster": "https://image.tmdb.org/t/p/w342/7jKjh9PZvHJYYtCycQmTbBoZVV4.jpg",
       "providers": {
         "flatrate": [
-          "MGM+ Amazon Channel",
-          "Philo",
           "MGM Plus Roku Premium Channel",
           "MGM Plus"
         ],
@@ -2547,7 +2542,7 @@
       "year": 2016,
       "tmdbId": 311324,
       "tmdbRating": 6.032,
-      "votes": 5653,
+      "votes": 5655,
       "score": 1.65,
       "rank": 73,
       "director": [
@@ -2580,7 +2575,7 @@
       "year": 2013,
       "tmdbId": 54138,
       "tmdbRating": 7.32,
-      "votes": 9845,
+      "votes": 9847,
       "score": 1.3200000000000003,
       "rank": 74,
       "director": [
@@ -2597,6 +2592,7 @@
         "flatrate": [
           "Paramount Plus Premium",
           "Paramount Plus Essential",
+          "Peacock Premium",
           "Paramount+ Amazon Channel",
           "Paramount+ Roku Premium Channel"
         ],
@@ -2617,7 +2613,7 @@
       "year": 2022,
       "tmdbId": 656663,
       "tmdbRating": 6.81,
-      "votes": 967,
+      "votes": 968,
       "score": 1.2800000000000002,
       "rank": 75,
       "director": [
@@ -2653,8 +2649,8 @@
       "title": "The Help",
       "year": 2011,
       "tmdbId": 50014,
-      "tmdbRating": 8.2,
-      "votes": 9241,
+      "tmdbRating": 8.206,
+      "votes": 9242,
       "score": 0.8999999999999999,
       "rank": 76,
       "director": [
@@ -2667,10 +2663,9 @@
       "poster": "https://image.tmdb.org/t/p/w342/3kmfoWWEc9Vtyuaf9v5VipRgdjx.jpg",
       "providers": {
         "flatrate": [
-          "Peacock Premium",
+          "fuboTV",
           "YouTube TV",
-          "Peacock Premium Plus",
-          "Howdy Amazon Channel"
+          "FXNow"
         ],
         "rent": [
           "Amazon Video",
@@ -2687,7 +2682,7 @@
       "year": 1997,
       "tmdbId": 489,
       "tmdbRating": 8.165,
-      "votes": 14231,
+      "votes": 14238,
       "score": 0.8999999999999999,
       "rank": 77,
       "director": [
@@ -2726,8 +2721,8 @@
       "title": "The Mitchells vs. the Machines",
       "year": 2021,
       "tmdbId": 501929,
-      "tmdbRating": 7.83,
-      "votes": 3475,
+      "tmdbRating": 7.829,
+      "votes": 3476,
       "score": 0.96,
       "rank": 78,
       "director": [
@@ -2826,8 +2821,8 @@
       "title": "La La Land",
       "year": 2016,
       "tmdbId": 313369,
-      "tmdbRating": 7.9,
-      "votes": 18421,
+      "tmdbRating": 7.896,
+      "votes": 18424,
       "score": 0.8999999999999999,
       "rank": 81,
       "director": [
@@ -2987,8 +2982,8 @@
       "title": "Crazy, Stupid, Love.",
       "year": 2011,
       "tmdbId": 50646,
-      "tmdbRating": 7.277,
-      "votes": 9480,
+      "tmdbRating": 7.278,
+      "votes": 9483,
       "score": 0.8999999999999999,
       "rank": 86,
       "director": [
@@ -3023,7 +3018,7 @@
       "year": 1986,
       "tmdbId": 792,
       "tmdbRating": 7.75,
-      "votes": 5251,
+      "votes": 5254,
       "score": 0.75,
       "rank": 87,
       "director": [
@@ -3061,7 +3056,7 @@
       "year": 2010,
       "tmdbId": 23169,
       "tmdbRating": 7.097,
-      "votes": 3786,
+      "votes": 3787,
       "score": 0.8999999999999999,
       "rank": 88,
       "director": [
@@ -3077,8 +3072,7 @@
         "flatrate": [
           "Amazon Prime Video",
           "Amazon Prime Video with Ads",
-          "Lionsgate+ Amazon Channels",
-          "Howdy Amazon Channel"
+          "Lionsgate+ Amazon Channels"
         ],
         "rent": [
           "Amazon Video",
@@ -3094,8 +3088,8 @@
       "title": "Mississippi Burning",
       "year": 1988,
       "tmdbId": 1632,
-      "tmdbRating": 7.675,
-      "votes": 2011,
+      "tmdbRating": 7.674,
+      "votes": 2012,
       "score": 0.75,
       "rank": 89,
       "director": [
@@ -3130,7 +3124,7 @@
       "title": "Kubo and the Two Strings",
       "year": 2016,
       "tmdbId": 313297,
-      "tmdbRating": 7.64,
+      "tmdbRating": 7.6,
       "votes": 3905,
       "score": 0.75,
       "rank": 90,
@@ -3162,7 +3156,7 @@
       "year": 2011,
       "tmdbId": 71469,
       "tmdbRating": 5.299,
-      "votes": 1625,
+      "votes": 1626,
       "score": 1.3200000000000003,
       "rank": 91,
       "director": [
@@ -3259,7 +3253,7 @@
       "year": 1997,
       "tmdbId": 1813,
       "tmdbRating": 7.481,
-      "votes": 7002,
+      "votes": 7005,
       "score": 0.75,
       "rank": 94,
       "director": [
@@ -3273,9 +3267,7 @@
       ],
       "poster": "https://image.tmdb.org/t/p/w342/5ZzBGpxy55OQzHxKVY11IpY6a0o.jpg",
       "providers": {
-        "flatrate": [
-          "Philo"
-        ],
+        "flatrate": [],
         "rent": [
           "Amazon Video",
           "Apple TV Store",
@@ -3292,7 +3284,7 @@
       "year": 2006,
       "tmdbId": 388,
       "tmdbRating": 7.41,
-      "votes": 6528,
+      "votes": 6530,
       "score": 0.75,
       "rank": 95,
       "director": [
@@ -3321,13 +3313,38 @@
       "why": "Willem Dafoe stars in this — you rated Poor Things 4.5★, The Lighthouse 4★"
     },
     {
+      "title": "Little Brother",
+      "year": 2026,
+      "tmdbId": 1397385,
+      "tmdbRating": 6.428,
+      "votes": 349,
+      "score": 0.96,
+      "rank": 96,
+      "director": [
+        "Matt Spicer"
+      ],
+      "runtime": 101,
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/hIJpXb7Xaje2mebN9ylsS7blQzP.jpg",
+      "providers": {
+        "flatrate": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ],
+        "rent": []
+      },
+      "why": "Eric André stars in this — you rated Bad Trip 4★"
+    },
+    {
       "title": "North Country",
       "year": 2005,
       "tmdbId": 9701,
       "tmdbRating": 7.256,
       "votes": 756,
       "score": 0.75,
-      "rank": 96,
+      "rank": 97,
       "director": [
         "Niki Caro"
       ],
@@ -3352,36 +3369,11 @@
       "why": "Charlize Theron stars in this — you rated Prometheus 4.5★, Mad Max: Fury Road 4★"
     },
     {
-      "title": "Little Brother",
-      "year": 2026,
-      "tmdbId": 1397385,
-      "tmdbRating": 6.4,
-      "votes": 348,
-      "score": 0.96,
-      "rank": 97,
-      "director": [
-        "Matt Spicer"
-      ],
-      "runtime": 101,
-      "genres": [
-        "Comedy"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/hIJpXb7Xaje2mebN9ylsS7blQzP.jpg",
-      "providers": {
-        "flatrate": [
-          "Netflix",
-          "Netflix Standard with Ads"
-        ],
-        "rent": []
-      },
-      "why": "Eric André stars in this — you rated Bad Trip 4★"
-    },
-    {
       "title": "The Boondock Saints",
       "year": 1999,
       "tmdbId": 8374,
       "tmdbRating": 7.24,
-      "votes": 2782,
+      "votes": 2783,
       "score": 0.75,
       "rank": 98,
       "director": [
@@ -3461,7 +3453,8 @@
       "poster": "https://image.tmdb.org/t/p/w342/7IGdPaKujv0BjI0Zd0m0a4CzEjJ.jpg",
       "providers": {
         "flatrate": [
-          "Hulu"
+          "Hulu",
+          "Peacock Premium"
         ],
         "rent": [
           "Amazon Video",
@@ -3547,7 +3540,7 @@
       "year": 1950,
       "tmdbId": 599,
       "tmdbRating": 8.274,
-      "votes": 3009,
+      "votes": 3011,
       "theme": "unravelling",
       "why": "unravelling — the thread through 3 of your loved films",
       "director": [
@@ -3614,7 +3607,7 @@
       "year": 2023,
       "tmdbId": 1058616,
       "tmdbRating": 8.077,
-      "votes": 310,
+      "votes": 311,
       "theme": "grief-horror",
       "why": "grief-horror — the thread through 4 of your loved films",
       "director": [
@@ -3671,7 +3664,7 @@
       "year": 1997,
       "tmdbId": 637,
       "tmdbRating": 8.437,
-      "votes": 14205,
+      "votes": 14207,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 2 of your loved films",
       "director": [
@@ -3740,8 +3733,8 @@
       "title": "I Swear",
       "year": 2025,
       "tmdbId": 1317149,
-      "tmdbRating": 8.238,
-      "votes": 519,
+      "tmdbRating": 8.237,
+      "votes": 525,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 2 of your loved films",
       "director": [
@@ -3772,8 +3765,8 @@
       "title": "The Quintessential Quintuplets Movie",
       "year": 2022,
       "tmdbId": 820067,
-      "tmdbRating": 8.271,
-      "votes": 452,
+      "tmdbRating": 8.275,
+      "votes": 453,
       "theme": "doubling",
       "why": "doubling — the thread through 2 of your loved films",
       "director": [
@@ -3863,7 +3856,7 @@
       "year": 1982,
       "tmdbId": 1091,
       "tmdbRating": 8.073,
-      "votes": 8209,
+      "votes": 8212,
       "theme": "body-horror",
       "why": "body-horror — the thread through 2 of your loved films",
       "director": [
@@ -3927,7 +3920,7 @@
       "year": 1988,
       "tmdbId": 149,
       "tmdbRating": 7.94,
-      "votes": 4945,
+      "votes": 4948,
       "theme": "body-horror",
       "why": "body-horror — the thread through 2 of your loved films",
       "director": [
