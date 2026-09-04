@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-03T13:34:34.264Z",
+  "generated": "2026-09-04T13:31:16.592Z",
   "edges": [
     {
       "book": {
@@ -101,6 +101,318 @@
       },
       "screen": "The Devil All the Time (2020)",
       "screenId": "m:499932",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Seven Pillars of Wisdom",
+        "author": "T. E. Lawrence",
+        "olWork": "OL830503W",
+        "wikidata": "Q24323"
+      },
+      "screen": "Lawrence of Arabia (1962)",
+      "screenId": "m:947",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "World War Z",
+        "author": "Max Brooks",
+        "olWork": "OL5969057W",
+        "wikidata": "Q28172"
+      },
+      "screen": "World War Z (2013)",
+      "screenId": "m:72190",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Dracula",
+        "author": "Bram Stoker",
+        "olWork": "OL85892W",
+        "wikidata": "Q41542"
+      },
+      "screen": "Nosferatu (1922)",
+      "screenId": "m:653",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Harry Potter and the Philosopher's Stone",
+        "author": "J. K. Rowling",
+        "olWork": "OL82563W",
+        "wikidata": "Q43361"
+      },
+      "screen": "Harry Potter and the Philosopher's Stone (2001)",
+      "screenId": "m:671",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Harry Potter and the Deathly Hallows",
+        "author": "J. K. Rowling",
+        "olWork": "OL82586W",
+        "wikidata": "Q46758"
+      },
+      "screen": "Harry Potter and the Deathly Hallows: Part 2 (2011)",
+      "screenId": "m:12444",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Harry Potter and the Prisoner of Azkaban",
+        "author": "J. K. Rowling",
+        "olWork": "OL82536W",
+        "wikidata": "Q47598"
+      },
+      "screen": "Harry Potter and the Prisoner of Azkaban (2004)",
+      "screenId": "m:673",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Cowboys & Aliens",
+        "author": "Fred Van Lente, Andrew Foley",
+        "olWork": "OL15082673W",
+        "wikidata": "Q92182"
+      },
+      "screen": "Cowboys & Aliens (2011)",
+      "screenId": "m:49849",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Heart of Darkness",
+        "author": "Joseph Conrad",
+        "olWork": "OL38663W",
+        "wikidata": "Q129778"
+      },
+      "screen": "Apocalypse Now (1979)",
+      "screenId": "m:28",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Fellowship of the Ring",
+        "author": "J. R. R. Tolkien",
+        "olWork": "OL14933414W",
+        "wikidata": "Q208002"
+      },
+      "screen": "The Lord of the Rings: The Fellowship of the Ring (2001)",
+      "screenId": "m:120",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Rapunzel",
+        "author": "Brothers Grimm, Jacob Grimm, Wilhelm Grimm",
+        "olWork": null,
+        "wikidata": "Q273585"
+      },
+      "screen": "Tangled (2010)",
+      "screenId": "m:38757",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Two Towers",
+        "author": "J. R. R. Tolkien",
+        "olWork": "OL27479W",
+        "wikidata": "Q332388"
+      },
+      "screen": "The Lord of the Rings: The Two Towers (2002)",
+      "screenId": "m:121",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "American Psycho",
+        "author": "Bret Easton Ellis",
+        "olWork": "OL1812933W",
+        "wikidata": "Q466504"
+      },
+      "screen": "American Psycho (2000)",
+      "screenId": "m:1359",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Forrest Gump",
+        "author": "Winston Groom",
+        "olWork": "OL1898760W",
+        "wikidata": "Q552213"
+      },
+      "screen": "Forrest Gump (1994)",
+      "screenId": "m:13",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Catching Fire",
+        "author": "Suzanne Collins",
+        "olWork": "OL5735360W",
+        "wikidata": "Q837140"
+      },
+      "screen": "The Hunger Games: Catching Fire (2013)",
+      "screenId": "m:101299",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Assassination of Jesse James by the Coward Robert Ford",
+        "author": "Ron Hansen",
+        "olWork": "OL64715W",
+        "wikidata": "Q1212222"
+      },
+      "screen": "The Assassination of Jesse James by the Coward Robert Ford (2007)",
+      "screenId": "m:4512",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Golden Egg",
+        "author": "Tim Krabbé",
+        "olWork": "OL2086032W",
+        "wikidata": "Q2428779"
+      },
+      "screen": "The Vanishing (1988)",
+      "screenId": "m:8740",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Men in Black",
+        "author": "Lowell Cunningham",
+        "olWork": null,
+        "wikidata": "Q2759785"
+      },
+      "screen": "Men (2022)",
+      "screenId": "m:607",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Accidental Billionaires",
+        "author": "Ben Mezrich",
+        "olWork": "OL14924476W",
+        "wikidata": "Q2977762"
+      },
+      "screen": "The Social Network (2010)",
+      "screenId": "m:37799",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Requiem for a Dream",
+        "author": "Hubert Selby Jr.",
+        "olWork": "OL2737320W",
+        "wikidata": "Q3428183"
+      },
+      "screen": "Requiem for a Dream (2000)",
+      "screenId": "m:641",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Gone Girl",
+        "author": "Gillian Flynn",
+        "olWork": "OL35889560M",
+        "wikidata": "Q5581570"
+      },
+      "screen": "Gone Girl (2014)",
+      "screenId": "m:210577",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Story of Your Life",
+        "author": "Ted Chiang",
+        "olWork": null,
+        "wikidata": "Q7620415"
+      },
+      "screen": "Arrival (2016)",
+      "screenId": "m:329865",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Drive",
+        "author": "James Sallis",
+        "olWork": null,
+        "wikidata": "Q16630058"
+      },
+      "screen": "Drive (2011)",
+      "screenId": "m:64690",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Coldest City",
+        "author": "Antony Johnston",
+        "olWork": "OL25986758M",
+        "wikidata": "Q47139476"
+      },
+      "screen": "Atomic Blonde (2017)",
+      "screenId": "m:341013",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Don't Look Now",
+        "author": "Daphne du Maurier",
+        "olWork": null,
+        "wikidata": "Q109715166"
+      },
+      "screen": "Don't Look Now (1973)",
+      "screenId": "m:931",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -491,318 +803,6 @@
       },
       "screen": "The Wolf of Wall Street (2013)",
       "screenId": "m:106646",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Seven Pillars of Wisdom",
-        "author": "T. E. Lawrence",
-        "olWork": "OL830503W",
-        "wikidata": "Q24323"
-      },
-      "screen": "Lawrence of Arabia (1962)",
-      "screenId": "m:947",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "World War Z",
-        "author": "Max Brooks",
-        "olWork": "OL5969057W",
-        "wikidata": "Q28172"
-      },
-      "screen": "World War Z (2013)",
-      "screenId": "m:72190",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Dracula",
-        "author": "Bram Stoker",
-        "olWork": "OL85892W",
-        "wikidata": "Q41542"
-      },
-      "screen": "Nosferatu (1922)",
-      "screenId": "m:653",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Harry Potter and the Philosopher's Stone",
-        "author": "J. K. Rowling",
-        "olWork": "OL82563W",
-        "wikidata": "Q43361"
-      },
-      "screen": "Harry Potter and the Philosopher's Stone (2001)",
-      "screenId": "m:671",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Harry Potter and the Deathly Hallows",
-        "author": "J. K. Rowling",
-        "olWork": "OL82586W",
-        "wikidata": "Q46758"
-      },
-      "screen": "Harry Potter and the Deathly Hallows: Part 2 (2011)",
-      "screenId": "m:12444",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Harry Potter and the Prisoner of Azkaban",
-        "author": "J. K. Rowling",
-        "olWork": "OL82536W",
-        "wikidata": "Q47598"
-      },
-      "screen": "Harry Potter and the Prisoner of Azkaban (2004)",
-      "screenId": "m:673",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Cowboys & Aliens",
-        "author": "Fred Van Lente, Andrew Foley",
-        "olWork": "OL15082673W",
-        "wikidata": "Q92182"
-      },
-      "screen": "Cowboys & Aliens (2011)",
-      "screenId": "m:49849",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Heart of Darkness",
-        "author": "Joseph Conrad",
-        "olWork": "OL38663W",
-        "wikidata": "Q129778"
-      },
-      "screen": "Apocalypse Now (1979)",
-      "screenId": "m:28",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "The Fellowship of the Ring",
-        "author": "J. R. R. Tolkien",
-        "olWork": "OL14933414W",
-        "wikidata": "Q208002"
-      },
-      "screen": "The Lord of the Rings: The Fellowship of the Ring (2001)",
-      "screenId": "m:120",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Rapunzel",
-        "author": "Brothers Grimm, Jacob Grimm, Wilhelm Grimm",
-        "olWork": null,
-        "wikidata": "Q273585"
-      },
-      "screen": "Tangled (2010)",
-      "screenId": "m:38757",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "The Two Towers",
-        "author": "J. R. R. Tolkien",
-        "olWork": "OL27479W",
-        "wikidata": "Q332388"
-      },
-      "screen": "The Lord of the Rings: The Two Towers (2002)",
-      "screenId": "m:121",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "American Psycho",
-        "author": "Bret Easton Ellis",
-        "olWork": "OL1812933W",
-        "wikidata": "Q466504"
-      },
-      "screen": "American Psycho (2000)",
-      "screenId": "m:1359",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Forrest Gump",
-        "author": "Winston Groom",
-        "olWork": "OL1898760W",
-        "wikidata": "Q552213"
-      },
-      "screen": "Forrest Gump (1994)",
-      "screenId": "m:13",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Catching Fire",
-        "author": "Suzanne Collins",
-        "olWork": "OL5735360W",
-        "wikidata": "Q837140"
-      },
-      "screen": "The Hunger Games: Catching Fire (2013)",
-      "screenId": "m:101299",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "The Assassination of Jesse James by the Coward Robert Ford",
-        "author": "Ron Hansen",
-        "olWork": "OL64715W",
-        "wikidata": "Q1212222"
-      },
-      "screen": "The Assassination of Jesse James by the Coward Robert Ford (2007)",
-      "screenId": "m:4512",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "The Golden Egg",
-        "author": "Tim Krabbé",
-        "olWork": "OL2086032W",
-        "wikidata": "Q2428779"
-      },
-      "screen": "The Vanishing (1988)",
-      "screenId": "m:8740",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "The Men in Black",
-        "author": "Lowell Cunningham",
-        "olWork": null,
-        "wikidata": "Q2759785"
-      },
-      "screen": "Men (2022)",
-      "screenId": "m:607",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "The Accidental Billionaires",
-        "author": "Ben Mezrich",
-        "olWork": "OL14924476W",
-        "wikidata": "Q2977762"
-      },
-      "screen": "The Social Network (2010)",
-      "screenId": "m:37799",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Requiem for a Dream",
-        "author": "Hubert Selby Jr.",
-        "olWork": "OL2737320W",
-        "wikidata": "Q3428183"
-      },
-      "screen": "Requiem for a Dream (2000)",
-      "screenId": "m:641",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Gone Girl",
-        "author": "Gillian Flynn",
-        "olWork": "OL35889560M",
-        "wikidata": "Q5581570"
-      },
-      "screen": "Gone Girl (2014)",
-      "screenId": "m:210577",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Story of Your Life",
-        "author": "Ted Chiang",
-        "olWork": null,
-        "wikidata": "Q7620415"
-      },
-      "screen": "Arrival (2016)",
-      "screenId": "m:329865",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Drive",
-        "author": "James Sallis",
-        "olWork": null,
-        "wikidata": "Q16630058"
-      },
-      "screen": "Drive (2011)",
-      "screenId": "m:64690",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "The Coldest City",
-        "author": "Antony Johnston",
-        "olWork": "OL25986758M",
-        "wikidata": "Q47139476"
-      },
-      "screen": "Atomic Blonde (2017)",
-      "screenId": "m:341013",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Don't Look Now",
-        "author": "Daphne du Maurier",
-        "olWork": null,
-        "wikidata": "Q109715166"
-      },
-      "screen": "Don't Look Now (1973)",
-      "screenId": "m:931",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -1237,12 +1237,6 @@
       "olKey": "OL18404A",
       "adaptedBy": [
         {
-          "director": "Christopher Nolan",
-          "films": [
-            "The Odyssey"
-          ]
-        },
-        {
           "director": "Joel Coen",
           "films": [
             "O Brother, Where Art Thou?"
@@ -1252,6 +1246,12 @@
           "director": "Ethan Coen",
           "films": [
             "O Brother, Where Art Thou?"
+          ]
+        },
+        {
+          "director": "Christopher Nolan",
+          "films": [
+            "The Odyssey"
           ]
         }
       ],
