@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-04T13:32:45.748Z",
+  "generated": "2026-09-05T12:43:20.516Z",
   "basedOn": {
     "lovedFilms": 27,
     "ratedBooks": 0,
@@ -195,20 +195,20 @@
       "rank": 11
     },
     {
-      "title": "Crossing Mandelbaum Gate",
-      "author": "Kai Bird",
-      "olWork": "OL15568965W",
-      "year": 2010,
-      "pages": 424,
-      "cover": "https://covers.openlibrary.org/b/id/7264874-M.jpg",
-      "editionCount": 8,
+      "title": "Scener ur ett äktenskap",
+      "author": "Ingmar Bergman",
+      "olWork": "OL2810868W",
+      "year": 1973,
+      "pages": 206,
+      "cover": "https://covers.openlibrary.org/b/id/4466832-M.jpg",
+      "editionCount": 10,
       "olRating": {
-        "average": null,
-        "count": 0
+        "average": 4,
+        "count": 1
       },
-      "weight": 3.68,
-      "rankScore": 9.86,
-      "why": "Kai Bird — wrote the book behind Oppenheimer (2023) 4★",
+      "weight": 2.56,
+      "rankScore": 9.12,
+      "why": "Ingmar Bergman adapted him (The Seventh Seal)",
       "rank": 12
     },
     {
@@ -331,23 +331,6 @@
       "rank": 19
     },
     {
-      "title": "Scener ur ett äktenskap",
-      "author": "Ingmar Bergman",
-      "olWork": "OL2810868W",
-      "year": 1973,
-      "pages": 206,
-      "cover": "https://covers.openlibrary.org/b/id/4466832-M.jpg",
-      "editionCount": 10,
-      "olRating": {
-        "average": 4,
-        "count": 1
-      },
-      "weight": 2.56,
-      "rankScore": 9.12,
-      "why": "Ingmar Bergman adapted him (The Seventh Seal)",
-      "rank": 20
-    },
-    {
       "title": "The Library Book",
       "author": "Susan Orlean",
       "olWork": "OL17930369W",
@@ -362,7 +345,7 @@
       "weight": 2.4,
       "rankScore": 8.97,
       "why": "Susan Orlean — wrote the book behind Adaptation. (2002) 4★",
-      "rank": 21
+      "rank": 20
     },
     {
       "title": "The Dog of the South",
@@ -379,7 +362,7 @@
       "weight": 1.92,
       "rankScore": 8.34,
       "why": "Charles Portis — Joel Coen adapted him (True Grit)",
-      "rank": 22
+      "rank": 21
     },
     {
       "title": "True Grit",
@@ -396,7 +379,7 @@
       "weight": 1.92,
       "rankScore": 7.92,
       "why": "Charles Portis — Joel Coen adapted him (True Grit)",
-      "rank": 23
+      "rank": 22
     },
     {
       "title": "Norwood",
@@ -413,7 +396,7 @@
       "weight": 1.92,
       "rankScore": 7.84,
       "why": "Charles Portis — Joel Coen adapted him (True Grit)",
-      "rank": 24
+      "rank": 23
     },
     {
       "title": "Wood painting",
@@ -430,7 +413,7 @@
       "weight": 2.8,
       "rankScore": 6.6,
       "why": "the book behind The Seventh Seal (1957) 5★",
-      "rank": 25
+      "rank": 24
     },
     {
       "title": "Works (Carrie / Night Shift / 'Salem's Lot / Shining)",
@@ -447,7 +430,7 @@
       "weight": 0.88,
       "rankScore": 6.58,
       "why": "thriller on the page — you over-index on it in film · horror on the page — you over-index on it in film",
-      "rank": 26
+      "rank": 25
     },
     {
       "title": "Project Hail Mary",
@@ -464,7 +447,7 @@
       "weight": 0.82,
       "rankScore": 6.14,
       "why": "thriller on the page — you over-index on it in film · science fiction on the page — you over-index on it in film",
-      "rank": 27
+      "rank": 26
     },
     {
       "title": "The Green Mile",
@@ -481,7 +464,7 @@
       "weight": 0.88,
       "rankScore": 6.07,
       "why": "thriller on the page — you over-index on it in film · horror on the page — you over-index on it in film",
-      "rank": 28
+      "rank": 27
     },
     {
       "title": "The Martian",
@@ -498,7 +481,7 @@
       "weight": 0.82,
       "rankScore": 6.04,
       "why": "thriller on the page — you over-index on it in film · science fiction on the page — you over-index on it in film",
-      "rank": 29
+      "rank": 28
     },
     {
       "title": "The Sea of Monsters",
@@ -515,7 +498,7 @@
       "weight": 0.76,
       "rankScore": 5.98,
       "why": "thriller on the page — you over-index on it in film · fantasy on the page — you over-index on it in film",
-      "rank": 30
+      "rank": 29
     },
     {
       "title": "Watchmen",
@@ -532,7 +515,7 @@
       "weight": 0.66,
       "rankScore": 5.79,
       "why": "science fiction on the page — you over-index on it in film · fantasy on the page — you over-index on it in film",
-      "rank": 31
+      "rank": 30
     },
     {
       "title": "The Complete Sherlock Holmes [4 novels, 56 stories]",
@@ -549,7 +532,7 @@
       "weight": 0.46,
       "rankScore": 5.43,
       "why": "thriller on the page — you over-index on it in film",
-      "rank": 32
+      "rank": 31
     },
     {
       "title": "The Silver Eyes (Five Nights At Freddy's #1)",
@@ -566,7 +549,7 @@
       "weight": 0.42,
       "rankScore": 5.43,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 33
+      "rank": 32
     },
     {
       "title": "Season of Mists",
@@ -583,7 +566,7 @@
       "weight": 0.42,
       "rankScore": 5.38,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 34
+      "rank": 33
     },
     {
       "title": "Maus I",
@@ -600,7 +583,7 @@
       "weight": 0.42,
       "rankScore": 5.33,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 35
+      "rank": 34
     },
     {
       "title": "Feet of Clay",
@@ -617,7 +600,7 @@
       "weight": 0.42,
       "rankScore": 5.31,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 36
+      "rank": 35
     },
     {
       "title": "The Throne of Fire",
@@ -634,24 +617,7 @@
       "weight": 0.36,
       "rankScore": 5.31,
       "why": "science fiction on the page — you over-index on it in film",
-      "rank": 37
-    },
-    {
-      "title": "Percy Jackson's Greek Gods",
-      "author": "Rick Riordan",
-      "olWork": "OL17054790W",
-      "year": 2006,
-      "pages": 406,
-      "cover": "https://covers.openlibrary.org/b/id/7396660-M.jpg",
-      "editionCount": 27,
-      "olRating": {
-        "average": 4.7066665,
-        "count": 75
-      },
-      "weight": 0.3,
-      "rankScore": 5.31,
-      "why": "fantasy on the page — you over-index on it in film",
-      "rank": 38
+      "rank": 36
     },
     {
       "title": "The Raven",
@@ -668,7 +634,24 @@
       "weight": 0.42,
       "rankScore": 5.3,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 39
+      "rank": 37
+    },
+    {
+      "title": "Percy Jackson's Greek Gods",
+      "author": "Rick Riordan",
+      "olWork": "OL17054790W",
+      "year": 2006,
+      "pages": 406,
+      "cover": "https://covers.openlibrary.org/b/id/7396660-M.jpg",
+      "editionCount": 27,
+      "olRating": {
+        "average": 4.6973686,
+        "count": 76
+      },
+      "weight": 0.3,
+      "rankScore": 5.3,
+      "why": "fantasy on the page — you over-index on it in film",
+      "rank": 38
     },
     {
       "title": "Words of Radiance",
@@ -684,6 +667,23 @@
       },
       "weight": 0.3,
       "rankScore": 5.29,
+      "why": "fantasy on the page — you over-index on it in film",
+      "rank": 39
+    },
+    {
+      "title": "Keeper of the Lost Cities",
+      "author": "Shannon Messenger",
+      "olWork": "OL16361049W",
+      "year": 2012,
+      "pages": 512,
+      "cover": "https://covers.openlibrary.org/b/id/9320507-M.jpg",
+      "editionCount": 23,
+      "olRating": {
+        "average": 4.677419,
+        "count": 62
+      },
+      "weight": 0.3,
+      "rankScore": 5.28,
       "why": "fantasy on the page — you over-index on it in film",
       "rank": 40
     }
