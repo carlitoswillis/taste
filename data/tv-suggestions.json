@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-06T12:54:38.644Z",
+  "generated": "2026-09-07T15:04:22.410Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -71,8 +71,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.8,
-      "votes": 1020,
+      "tmdbRating": 7.751,
+      "votes": 1021,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -214,7 +214,7 @@
       "title": "ER",
       "year": 1994,
       "tmdbId": 4588,
-      "tmdbRating": 7.828,
+      "tmdbRating": 7.8,
       "votes": 954,
       "score": 3.0400000000000005,
       "rank": 7,
@@ -249,7 +249,7 @@
       "year": 2000,
       "tmdbId": 1431,
       "tmdbRating": 7.616,
-      "votes": 1428,
+      "votes": 1429,
       "score": 3.0400000000000005,
       "rank": 8,
       "creators": [
@@ -289,7 +289,7 @@
       "year": 2005,
       "tmdbId": 2316,
       "tmdbRating": 8.582,
-      "votes": 5441,
+      "votes": 5442,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -435,8 +435,8 @@
       "title": "Butterfly",
       "year": 2025,
       "tmdbId": 227114,
-      "tmdbRating": 7.224,
-      "votes": 143,
+      "tmdbRating": 7.221,
+      "votes": 145,
       "score": 3.0400000000000005,
       "rank": 13,
       "creators": [
@@ -470,8 +470,8 @@
       "title": "Mr. Pickles",
       "year": 2014,
       "tmdbId": 61593,
-      "tmdbRating": 8.134,
-      "votes": 867,
+      "tmdbRating": 8.136,
+      "votes": 868,
       "score": 2.16,
       "rank": 14,
       "creators": [
@@ -581,7 +581,7 @@
       "title": "Person of Interest",
       "year": 2011,
       "tmdbId": 1411,
-      "tmdbRating": 8.101,
+      "tmdbRating": 8.1,
       "votes": 2145,
       "score": 1.6500000000000001,
       "themes": [
@@ -753,8 +753,8 @@
       "title": "Westworld",
       "year": 2016,
       "tmdbId": 63247,
-      "tmdbRating": 8,
-      "votes": 6354,
+      "tmdbRating": 8.018,
+      "votes": 6355,
       "score": 1.6500000000000001,
       "rank": 22,
       "creators": [
