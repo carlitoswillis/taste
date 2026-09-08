@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-07T15:04:59.663Z",
+  "generated": "2026-09-08T13:37:10.779Z",
   "basedOn": {
     "lovedFilms": 27,
     "ratedBooks": 0,
@@ -7,6 +7,23 @@
   },
   "head": 12,
   "items": [
+    {
+      "title": "The Prestige",
+      "author": "Christopher Priest",
+      "olWork": "OL166497W",
+      "year": 1901,
+      "pages": 384,
+      "cover": "https://covers.openlibrary.org/b/id/3850762-M.jpg",
+      "editionCount": 24,
+      "olRating": {
+        "average": 3.625,
+        "count": 8
+      },
+      "weight": 6.18,
+      "rankScore": 15.99,
+      "why": "the book behind The Prestige (2006) 4.5★",
+      "rank": 1
+    },
     {
       "title": "Poor Things",
       "author": "Alasdair Gray",
@@ -22,7 +39,7 @@
       "weight": 5.22,
       "rankScore": 14.94,
       "why": "the book behind Poor Things (2023) 4.5★",
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "No Country for Old Men",
@@ -39,7 +56,7 @@
       "weight": 5.22,
       "rankScore": 14.55,
       "why": "the book behind No Country for Old Men (2007) 4.5★",
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "American Prometheus",
@@ -56,7 +73,24 @@
       "weight": 5.08,
       "rankScore": 14.07,
       "why": "the book behind Oppenheimer (2023) 4★",
-      "rank": 3
+      "rank": 4
+    },
+    {
+      "title": "The Affirmation",
+      "author": "Christopher Priest",
+      "olWork": "OL166482W",
+      "year": 1981,
+      "pages": 224,
+      "cover": "https://covers.openlibrary.org/b/id/4377814-M.jpg",
+      "editionCount": 16,
+      "olRating": {
+        "average": 4,
+        "count": 1
+      },
+      "weight": 4.08,
+      "rankScore": 12.16,
+      "why": "Christopher Priest — wrote the book behind The Prestige (2006) 4.5★",
+      "rank": 5
     },
     {
       "title": "Lanark",
@@ -73,7 +107,7 @@
       "weight": 3.12,
       "rankScore": 11.24,
       "why": "Alasdair Gray — wrote the book behind Poor Things (2023) 4.5★",
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "The Orchid Thief",
@@ -90,7 +124,7 @@
       "weight": 3.8,
       "rankScore": 11.03,
       "why": "the book behind Adaptation. (2002) 4★",
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Cities of the Plain",
@@ -107,7 +141,7 @@
       "weight": 3.12,
       "rankScore": 10.74,
       "why": "Cormac McCarthy — wrote the book behind No Country for Old Men (2007) 4.5★",
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Four Screenplays of Ingmar Bergman",
@@ -124,7 +158,7 @@
       "weight": 2.56,
       "rankScore": 10.12,
       "why": "Ingmar Bergman adapted him (The Seventh Seal)",
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Odyssey",
@@ -141,7 +175,7 @@
       "weight": 2.8,
       "rankScore": 9.64,
       "why": "the book behind The Odyssey (2026) 5★",
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Scener ur ett äktenskap",
@@ -158,7 +192,7 @@
       "weight": 2.56,
       "rankScore": 9.12,
       "why": "Ingmar Bergman adapted him (The Seventh Seal)",
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "The Library Book",
@@ -175,41 +209,41 @@
       "weight": 2.4,
       "rankScore": 8.97,
       "why": "Susan Orlean — wrote the book behind Adaptation. (2002) 4★",
-      "rank": 10
-    },
-    {
-      "title": "The Dog of the South",
-      "author": "Charles Portis",
-      "olWork": "OL104533W",
-      "year": 1979,
-      "pages": 256,
-      "cover": "https://covers.openlibrary.org/b/id/4440820-M.jpg",
-      "editionCount": 11,
-      "olRating": {
-        "average": 4.5,
-        "count": 4
-      },
-      "weight": 1.92,
-      "rankScore": 8.34,
-      "why": "Charles Portis — Joel Coen adapted him (True Grit)",
-      "rank": 11
-    },
-    {
-      "title": "True Grit",
-      "author": "Charles Portis",
-      "olWork": "OL104535W",
-      "year": 1968,
-      "pages": 215,
-      "cover": "https://covers.openlibrary.org/b/id/488237-M.jpg",
-      "editionCount": 25,
-      "olRating": {
-        "average": 4.076923,
-        "count": 13
-      },
-      "weight": 1.92,
-      "rankScore": 7.92,
-      "why": "Charles Portis — Joel Coen adapted him (True Grit)",
       "rank": 12
+    },
+    {
+      "title": "The Dream Archipelago",
+      "author": "Christopher Priest",
+      "olWork": "OL166484W",
+      "year": 1981,
+      "pages": 320,
+      "cover": "https://covers.openlibrary.org/b/id/404577-M.jpg",
+      "editionCount": 8,
+      "olRating": {
+        "average": 4,
+        "count": 1
+      },
+      "weight": 4.08,
+      "rankScore": 12.16,
+      "why": "Christopher Priest — wrote the book behind The Prestige (2006) 4.5★",
+      "rank": 13
+    },
+    {
+      "title": "The extremes",
+      "author": "Christopher Priest",
+      "olWork": "OL166485W",
+      "year": 1998,
+      "pages": 393,
+      "cover": "https://covers.openlibrary.org/b/id/288113-M.jpg",
+      "editionCount": 9,
+      "olRating": {
+        "average": 4,
+        "count": 1
+      },
+      "weight": 4.08,
+      "rankScore": 12.16,
+      "why": "Christopher Priest — wrote the book behind The Prestige (2006) 4.5★",
+      "rank": 14
     },
     {
       "title": "Stella Maris",
@@ -226,7 +260,7 @@
       "weight": 3.12,
       "rankScore": 10.74,
       "why": "Cormac McCarthy — wrote the book behind No Country for Old Men (2007) 4.5★",
-      "rank": 13
+      "rank": 15
     },
     {
       "title": "Suttree",
@@ -243,7 +277,7 @@
       "weight": 3.12,
       "rankScore": 10.57,
       "why": "Cormac McCarthy — wrote the book behind No Country for Old Men (2007) 4.5★",
-      "rank": 14
+      "rank": 16
     },
     {
       "title": "1982 Janine",
@@ -260,7 +294,7 @@
       "weight": 3.12,
       "rankScore": 10.24,
       "why": "Alasdair Gray — wrote the book behind Poor Things (2023) 4.5★",
-      "rank": 15
+      "rank": 17
     },
     {
       "title": "The fall of Kelvin Walker",
@@ -277,7 +311,41 @@
       "weight": 3.12,
       "rankScore": 10.24,
       "why": "Alasdair Gray — wrote the book behind Poor Things (2023) 4.5★",
-      "rank": 16
+      "rank": 18
+    },
+    {
+      "title": "The Dog of the South",
+      "author": "Charles Portis",
+      "olWork": "OL104533W",
+      "year": 1979,
+      "pages": 256,
+      "cover": "https://covers.openlibrary.org/b/id/4440820-M.jpg",
+      "editionCount": 11,
+      "olRating": {
+        "average": 4.5,
+        "count": 4
+      },
+      "weight": 1.92,
+      "rankScore": 8.34,
+      "why": "Charles Portis — Joel Coen adapted him (True Grit)",
+      "rank": 19
+    },
+    {
+      "title": "True Grit",
+      "author": "Charles Portis",
+      "olWork": "OL104535W",
+      "year": 1968,
+      "pages": 215,
+      "cover": "https://covers.openlibrary.org/b/id/488237-M.jpg",
+      "editionCount": 25,
+      "olRating": {
+        "average": 4.071429,
+        "count": 14
+      },
+      "weight": 1.92,
+      "rankScore": 7.91,
+      "why": "Charles Portis — Joel Coen adapted him (True Grit)",
+      "rank": 20
     },
     {
       "title": "Norwood",
@@ -294,24 +362,24 @@
       "weight": 1.92,
       "rankScore": 7.84,
       "why": "Charles Portis — Joel Coen adapted him (True Grit)",
-      "rank": 17
+      "rank": 21
     },
     {
-      "title": "The Prestige",
-      "author": "Christopher Priest",
-      "olWork": "OL166497W",
-      "year": 1901,
-      "pages": 384,
-      "cover": "https://covers.openlibrary.org/b/id/3850762-M.jpg",
-      "editionCount": 24,
+      "title": "The Martian",
+      "author": "Andy Weir",
+      "olWork": "OL17091839W",
+      "year": 2011,
+      "pages": 407,
+      "cover": "https://covers.openlibrary.org/b/id/11447888-M.jpg",
+      "editionCount": 74,
       "olRating": {
-        "average": 3.625,
-        "count": 8
+        "average": 4.397626,
+        "count": 337
       },
-      "weight": 2.1,
-      "rankScore": 7.82,
-      "why": "the book behind The Prestige (2006) 4.5★",
-      "rank": 18
+      "weight": 1.12,
+      "rankScore": 6.64,
+      "why": "thriller on the page — you over-index on it in film · science fiction on the page — you over-index on it in film",
+      "rank": 22
     },
     {
       "title": "Wood painting",
@@ -328,7 +396,7 @@
       "weight": 2.8,
       "rankScore": 6.6,
       "why": "the book behind The Seventh Seal (1957) 5★",
-      "rank": 19
+      "rank": 23
     },
     {
       "title": "Works (Carrie / Night Shift / 'Salem's Lot / Shining)",
@@ -345,7 +413,7 @@
       "weight": 0.88,
       "rankScore": 6.58,
       "why": "thriller on the page — you over-index on it in film · horror on the page — you over-index on it in film",
-      "rank": 20
+      "rank": 24
     },
     {
       "title": "Project Hail Mary",
@@ -362,7 +430,7 @@
       "weight": 0.82,
       "rankScore": 6.14,
       "why": "thriller on the page — you over-index on it in film · science fiction on the page — you over-index on it in film",
-      "rank": 21
+      "rank": 25
     },
     {
       "title": "The Green Mile",
@@ -379,24 +447,7 @@
       "weight": 0.88,
       "rankScore": 6.07,
       "why": "thriller on the page — you over-index on it in film · horror on the page — you over-index on it in film",
-      "rank": 22
-    },
-    {
-      "title": "The Martian",
-      "author": "Andy Weir",
-      "olWork": "OL17091839W",
-      "year": 2011,
-      "pages": 407,
-      "cover": "https://covers.openlibrary.org/b/id/11447888-M.jpg",
-      "editionCount": 74,
-      "olRating": {
-        "average": 4.397626,
-        "count": 337
-      },
-      "weight": 0.82,
-      "rankScore": 6.04,
-      "why": "thriller on the page — you over-index on it in film · science fiction on the page — you over-index on it in film",
-      "rank": 23
+      "rank": 26
     },
     {
       "title": "The Sea of Monsters",
@@ -413,7 +464,7 @@
       "weight": 0.76,
       "rankScore": 5.98,
       "why": "thriller on the page — you over-index on it in film · fantasy on the page — you over-index on it in film",
-      "rank": 24
+      "rank": 27
     },
     {
       "title": "Watchmen",
@@ -430,7 +481,7 @@
       "weight": 0.66,
       "rankScore": 5.79,
       "why": "science fiction on the page — you over-index on it in film · fantasy on the page — you over-index on it in film",
-      "rank": 25
+      "rank": 28
     },
     {
       "title": "The Complete Sherlock Holmes [4 novels, 56 stories]",
@@ -447,7 +498,7 @@
       "weight": 0.46,
       "rankScore": 5.43,
       "why": "thriller on the page — you over-index on it in film",
-      "rank": 26
+      "rank": 29
     },
     {
       "title": "The Silver Eyes (Five Nights At Freddy's #1)",
@@ -464,7 +515,7 @@
       "weight": 0.42,
       "rankScore": 5.43,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 27
+      "rank": 30
     },
     {
       "title": "Season of Mists",
@@ -481,7 +532,7 @@
       "weight": 0.42,
       "rankScore": 5.38,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 28
+      "rank": 31
     },
     {
       "title": "Maus I",
@@ -498,7 +549,7 @@
       "weight": 0.42,
       "rankScore": 5.33,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 29
+      "rank": 32
     },
     {
       "title": "Feet of Clay",
@@ -515,7 +566,7 @@
       "weight": 0.42,
       "rankScore": 5.31,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 30
+      "rank": 33
     },
     {
       "title": "The Throne of Fire",
@@ -524,7 +575,7 @@
       "year": 2011,
       "pages": 452,
       "cover": "https://covers.openlibrary.org/b/id/6934834-M.jpg",
-      "editionCount": 40,
+      "editionCount": 42,
       "olRating": {
         "average": 4.591837,
         "count": 49
@@ -532,7 +583,7 @@
       "weight": 0.36,
       "rankScore": 5.31,
       "why": "science fiction on the page — you over-index on it in film",
-      "rank": 31
+      "rank": 34
     },
     {
       "title": "The Raven",
@@ -549,7 +600,7 @@
       "weight": 0.42,
       "rankScore": 5.3,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 32
+      "rank": 35
     },
     {
       "title": "Percy Jackson's Greek Gods",
@@ -566,7 +617,7 @@
       "weight": 0.3,
       "rankScore": 5.3,
       "why": "fantasy on the page — you over-index on it in film",
-      "rank": 33
+      "rank": 36
     },
     {
       "title": "Words of Radiance",
@@ -583,7 +634,7 @@
       "weight": 0.3,
       "rankScore": 5.29,
       "why": "fantasy on the page — you over-index on it in film",
-      "rank": 34
+      "rank": 37
     },
     {
       "title": "Keeper of the Lost Cities",
@@ -600,7 +651,7 @@
       "weight": 0.3,
       "rankScore": 5.28,
       "why": "fantasy on the page — you over-index on it in film",
-      "rank": 35
+      "rank": 38
     },
     {
       "title": "Miss Peregrine's Home for Peculiar Children",
@@ -617,7 +668,7 @@
       "weight": 0.42,
       "rankScore": 5.27,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 36
+      "rank": 39
     },
     {
       "title": "Six of Crows",
@@ -634,57 +685,6 @@
       "weight": 0.36,
       "rankScore": 5.26,
       "why": "science fiction on the page — you over-index on it in film",
-      "rank": 37
-    },
-    {
-      "title": "The School for Good and Evil",
-      "author": "Soman Chainani",
-      "olWork": "OL16810944W",
-      "year": 2007,
-      "pages": 496,
-      "cover": "https://covers.openlibrary.org/b/id/7879561-M.jpg",
-      "editionCount": 17,
-      "olRating": {
-        "average": 4.6545453,
-        "count": 55
-      },
-      "weight": 0.3,
-      "rankScore": 5.25,
-      "why": "fantasy on the page — you over-index on it in film",
-      "rank": 38
-    },
-    {
-      "title": "The Hitchhiker's Guide to the Galaxy",
-      "author": "Douglas Adams",
-      "olWork": "OL2163649W",
-      "year": 1979,
-      "pages": 216,
-      "cover": "https://covers.openlibrary.org/b/id/12986869-M.jpg",
-      "editionCount": 130,
-      "olRating": {
-        "average": 4.511236,
-        "count": 178
-      },
-      "weight": 0.36,
-      "rankScore": 5.23,
-      "why": "science fiction on the page — you over-index on it in film",
-      "rank": 39
-    },
-    {
-      "title": "The Stand",
-      "author": "Stephen King",
-      "olWork": "OL81618W",
-      "year": 1978,
-      "pages": 1153,
-      "cover": "https://covers.openlibrary.org/b/id/9255992-M.jpg",
-      "editionCount": 85,
-      "olRating": {
-        "average": 4.2967033,
-        "count": 91
-      },
-      "weight": 0.46,
-      "rankScore": 5.22,
-      "why": "thriller on the page — you over-index on it in film",
       "rank": 40
     }
   ]

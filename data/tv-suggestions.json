@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-07T15:04:22.410Z",
+  "generated": "2026-09-08T13:36:49.412Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -72,7 +72,7 @@
       "year": 2023,
       "tmdbId": 154385,
       "tmdbRating": 7.751,
-      "votes": 1021,
+      "votes": 1024,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -108,8 +108,8 @@
       "title": "Jackass",
       "year": 2000,
       "tmdbId": 1795,
-      "tmdbRating": 6.654,
-      "votes": 302,
+      "tmdbRating": 6.665,
+      "votes": 303,
       "score": 4,
       "rank": 4,
       "creators": [
@@ -215,7 +215,7 @@
       "year": 1994,
       "tmdbId": 4588,
       "tmdbRating": 7.8,
-      "votes": 954,
+      "votes": 956,
       "score": 3.0400000000000005,
       "rank": 7,
       "creators": [
@@ -289,7 +289,7 @@
       "year": 2005,
       "tmdbId": 2316,
       "tmdbRating": 8.582,
-      "votes": 5442,
+      "votes": 5443,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -362,8 +362,8 @@
       "title": "Twisted Metal",
       "year": 2023,
       "tmdbId": 133748,
-      "tmdbRating": 7.69,
-      "votes": 554,
+      "tmdbRating": 7.686,
+      "votes": 555,
       "score": 3.0400000000000005,
       "themes": [
         "identity"
@@ -505,8 +505,8 @@
       "title": "Moral Orel",
       "year": 2005,
       "tmdbId": 292,
-      "tmdbRating": 8,
-      "votes": 106,
+      "tmdbRating": 7.963,
+      "votes": 107,
       "score": 1.1,
       "themes": [
         "cruel-comedy"
@@ -581,8 +581,8 @@
       "title": "Person of Interest",
       "year": 2011,
       "tmdbId": 1411,
-      "tmdbRating": 8.1,
-      "votes": 2145,
+      "tmdbRating": 8.098,
+      "votes": 2148,
       "score": 1.6500000000000001,
       "themes": [
         "surveillance"
@@ -622,7 +622,7 @@
       "year": 2018,
       "tmdbId": 73375,
       "tmdbRating": 7.684,
-      "votes": 1877,
+      "votes": 1878,
       "score": 1.92,
       "rank": 18,
       "creators": [
@@ -722,8 +722,8 @@
       "title": "Raised by Wolves",
       "year": 2020,
       "tmdbId": 85723,
-      "tmdbRating": 7.5,
-      "votes": 1840,
+      "tmdbRating": 7.498,
+      "votes": 1841,
       "score": 1.9200000000000004,
       "rank": 21,
       "creators": [
@@ -754,7 +754,7 @@
       "year": 2016,
       "tmdbId": 63247,
       "tmdbRating": 8.018,
-      "votes": 6355,
+      "votes": 6356,
       "score": 1.6500000000000001,
       "rank": 22,
       "creators": [
