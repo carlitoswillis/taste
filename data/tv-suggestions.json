@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-08T13:36:49.412Z",
+  "generated": "2026-09-09T13:43:13.613Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -72,7 +72,7 @@
       "year": 2023,
       "tmdbId": 154385,
       "tmdbRating": 7.751,
-      "votes": 1024,
+      "votes": 1025,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -108,8 +108,8 @@
       "title": "Jackass",
       "year": 2000,
       "tmdbId": 1795,
-      "tmdbRating": 6.665,
-      "votes": 303,
+      "tmdbRating": 6.702,
+      "votes": 307,
       "score": 4,
       "rank": 4,
       "creators": [
@@ -214,8 +214,8 @@
       "title": "ER",
       "year": 1994,
       "tmdbId": 4588,
-      "tmdbRating": 7.8,
-      "votes": 956,
+      "tmdbRating": 7.827,
+      "votes": 958,
       "score": 3.0400000000000005,
       "rank": 7,
       "creators": [
@@ -288,8 +288,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.582,
-      "votes": 5443,
+      "tmdbRating": 8.583,
+      "votes": 5450,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -302,7 +302,7 @@
       "genres": [
         "Comedy"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/dg9e5fPRRId8PoBE0F6jl5y85Eu.jpg",
       "providers": {
         "flatrate": [
           "Peacock Premium",
@@ -322,8 +322,8 @@
       "title": "Gangs of London",
       "year": 2020,
       "tmdbId": 85021,
-      "tmdbRating": 7.821,
-      "votes": 704,
+      "tmdbRating": 7.816,
+      "votes": 706,
       "score": 2.7,
       "rank": 10,
       "creators": [
@@ -363,7 +363,7 @@
       "year": 2023,
       "tmdbId": 133748,
       "tmdbRating": 7.686,
-      "votes": 555,
+      "votes": 556,
       "score": 3.0400000000000005,
       "themes": [
         "identity"
@@ -435,7 +435,7 @@
       "title": "Butterfly",
       "year": 2025,
       "tmdbId": 227114,
-      "tmdbRating": 7.221,
+      "tmdbRating": 7.214,
       "votes": 145,
       "score": 3.0400000000000005,
       "rank": 13,
@@ -582,7 +582,7 @@
       "year": 2011,
       "tmdbId": 1411,
       "tmdbRating": 8.098,
-      "votes": 2148,
+      "votes": 2151,
       "score": 1.6500000000000001,
       "themes": [
         "surveillance"
@@ -622,7 +622,7 @@
       "year": 2018,
       "tmdbId": 73375,
       "tmdbRating": 7.684,
-      "votes": 1878,
+      "votes": 1879,
       "score": 1.92,
       "rank": 18,
       "creators": [
@@ -688,8 +688,8 @@
       "title": "Suburgatory",
       "year": 2011,
       "tmdbId": 39357,
-      "tmdbRating": 6.673,
-      "votes": 234,
+      "tmdbRating": 6.67,
+      "votes": 235,
       "score": 2.16,
       "rank": 20,
       "creators": [
@@ -753,8 +753,8 @@
       "title": "Westworld",
       "year": 2016,
       "tmdbId": 63247,
-      "tmdbRating": 8.018,
-      "votes": 6356,
+      "tmdbRating": 8.017,
+      "votes": 6361,
       "score": 1.6500000000000001,
       "rank": 22,
       "creators": [
