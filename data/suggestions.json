@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-11T13:34:39.994Z",
+  "generated": "2026-09-12T12:52:06.812Z",
   "basedOn": 27,
   "head": 12,
   "items": [
@@ -82,7 +82,7 @@
       "year": 1999,
       "tmdbId": 11660,
       "tmdbRating": 7.118,
-      "votes": 1958,
+      "votes": 1960,
       "score": 12.15,
       "themes": [
         "surveillance"
@@ -125,7 +125,7 @@
       "year": 2002,
       "tmdbId": 320,
       "tmdbRating": 6.954,
-      "votes": 5520,
+      "votes": 5522,
       "score": 12.15,
       "rank": 4,
       "director": [
@@ -161,7 +161,7 @@
       "year": 2008,
       "tmdbId": 4944,
       "tmdbRating": 6.679,
-      "votes": 5392,
+      "votes": 5393,
       "score": 8.100000000000001,
       "themes": [
         "unravelling",
@@ -199,8 +199,8 @@
       "title": "True Grit",
       "year": 2010,
       "tmdbId": 44264,
-      "tmdbRating": 7.3,
-      "votes": 5912,
+      "tmdbRating": 7.305,
+      "votes": 5913,
       "score": 9.000000000000002,
       "rank": 6,
       "director": [
@@ -243,8 +243,8 @@
       "title": "Kinds of Kindness",
       "year": 2024,
       "tmdbId": 1029955,
-      "tmdbRating": 6.475,
-      "votes": 1353,
+      "tmdbRating": 6.477,
+      "votes": 1354,
       "score": 6.450000000000001,
       "themes": [
         "cruel-comedy"
@@ -344,8 +344,8 @@
       "title": "Okja",
       "year": 2017,
       "tmdbId": 387426,
-      "tmdbRating": 7.324,
-      "votes": 4625,
+      "tmdbRating": 7.325,
+      "votes": 4626,
       "score": 5.700000000000001,
       "themes": [
         "doubling"
@@ -380,8 +380,8 @@
       "title": "The Florida Project",
       "year": 2017,
       "tmdbId": 394117,
-      "tmdbRating": 7.424,
-      "votes": 3183,
+      "tmdbRating": 7.425,
+      "votes": 3184,
       "score": 6.15,
       "rank": 11,
       "director": [
@@ -414,8 +414,8 @@
       "title": "The Host",
       "year": 2006,
       "tmdbId": 1255,
-      "tmdbRating": 6.979,
-      "votes": 3234,
+      "tmdbRating": 6.98,
+      "votes": 3235,
       "score": 5.700000000000001,
       "rank": 12,
       "director": [
@@ -494,7 +494,7 @@
       "title": "Scenes from a Marriage",
       "year": 1974,
       "tmdbId": 133919,
-      "tmdbRating": 8,
+      "tmdbRating": 8.045,
       "votes": 408,
       "score": 14.2,
       "themes": [
@@ -656,7 +656,7 @@
       "year": 2001,
       "tmdbId": 10778,
       "tmdbRating": 7.507,
-      "votes": 1806,
+      "votes": 1807,
       "score": 8.100000000000001,
       "rank": 18,
       "director": [
@@ -691,7 +691,7 @@
       "year": 1991,
       "tmdbId": 290,
       "tmdbRating": 7.463,
-      "votes": 1940,
+      "votes": 1941,
       "score": 8.100000000000001,
       "rank": 19,
       "director": [
@@ -727,7 +727,7 @@
       "year": 2013,
       "tmdbId": 110415,
       "tmdbRating": 6.91,
-      "votes": 10660,
+      "votes": 10662,
       "score": 5.700000000000001,
       "rank": 20,
       "director": [
@@ -772,8 +772,8 @@
       "score": 5.700000000000001,
       "rank": 21,
       "director": [
-        "Leos Carax",
         "Bong Joon Ho",
+        "Leos Carax",
         "Michel Gondry"
       ],
       "runtime": 112,
@@ -950,7 +950,7 @@
       "year": 2013,
       "tmdbId": 49521,
       "tmdbRating": 6.661,
-      "votes": 16574,
+      "votes": 16577,
       "score": 4.86,
       "rank": 26,
       "director": [
@@ -970,8 +970,7 @@
           "TNT",
           "TBS",
           "tru TV",
-          "HBO Max",
-          "DC Amazon Channel"
+          "HBO Max"
         ],
         "rent": [
           "Amazon Video",
@@ -1125,8 +1124,8 @@
       "title": "Kill Bill: The Whole Bloody Affair",
       "year": 2011,
       "tmdbId": 414419,
-      "tmdbRating": 8.123,
-      "votes": 1413,
+      "tmdbRating": 8.118,
+      "votes": 1417,
       "score": 3.8000000000000003,
       "rank": 31,
       "director": [
@@ -1192,7 +1191,7 @@
       "year": 2004,
       "tmdbId": 393,
       "tmdbRating": 7.873,
-      "votes": 15421,
+      "votes": 15425,
       "score": 3.8000000000000003,
       "rank": 33,
       "director": [
@@ -1230,7 +1229,7 @@
       "year": 2015,
       "tmdbId": 273248,
       "tmdbRating": 7.755,
-      "votes": 15586,
+      "votes": 15588,
       "score": 3.8000000000000003,
       "rank": 34,
       "director": [
@@ -1266,7 +1265,7 @@
       "year": 1997,
       "tmdbId": 184,
       "tmdbRating": 7.358,
-      "votes": 7106,
+      "votes": 7107,
       "score": 3.8000000000000003,
       "rank": 35,
       "director": [
@@ -1302,8 +1301,8 @@
       "title": "Where the Wild Things Are",
       "year": 2009,
       "tmdbId": 16523,
-      "tmdbRating": 6.496,
-      "votes": 2069,
+      "tmdbRating": 6.497,
+      "votes": 2070,
       "score": 4,
       "rank": 36,
       "director": [
@@ -1414,8 +1413,8 @@
       "title": "The Dog Stars",
       "year": 2026,
       "tmdbId": 1384216,
-      "tmdbRating": 6.63,
-      "votes": 239,
+      "tmdbRating": 6.619,
+      "votes": 244,
       "score": 2.4000000000000004,
       "themes": [
         "grief-horror"
@@ -1450,8 +1449,8 @@
       "score": 3.5200000000000005,
       "rank": 40,
       "director": [
-        "Scott Beck",
-        "Bryan Woods"
+        "Bryan Woods",
+        "Scott Beck"
       ],
       "runtime": 93,
       "genres": [
@@ -1480,8 +1479,8 @@
       "title": "Love Lies Bleeding",
       "year": 2024,
       "tmdbId": 948549,
-      "tmdbRating": 6.548,
-      "votes": 1019,
+      "tmdbRating": 6.553,
+      "votes": 1021,
       "score": 2.7,
       "themes": [
         "body-horror"
@@ -1607,8 +1606,8 @@
       "title": "65",
       "year": 2023,
       "tmdbId": 700391,
-      "tmdbRating": 5.953,
-      "votes": 2957,
+      "tmdbRating": 5.954,
+      "votes": 2959,
       "score": 3.5200000000000005,
       "rank": 45,
       "director": [
@@ -1713,8 +1712,8 @@
       "title": "American Gangster",
       "year": 2007,
       "tmdbId": 4982,
-      "tmdbRating": 7.596,
-      "votes": 6218,
+      "tmdbRating": 7.597,
+      "votes": 6220,
       "score": 2.4000000000000004,
       "themes": [
         "surveillance"
@@ -1754,7 +1753,7 @@
       "year": 1991,
       "tmdbId": 1541,
       "tmdbRating": 7.595,
-      "votes": 3994,
+      "votes": 3995,
       "score": 2.4000000000000004,
       "themes": [
         "surveillance"
@@ -1828,7 +1827,7 @@
       "year": 2014,
       "tmdbId": 194662,
       "tmdbRating": 7.435,
-      "votes": 13809,
+      "votes": 13810,
       "score": 0.8999999999999999,
       "themes": [
         "cruel-comedy",
@@ -1956,8 +1955,8 @@
       "title": "Three Thousand Years of Longing",
       "year": 2022,
       "tmdbId": 556694,
-      "tmdbRating": 6.878,
-      "votes": 1729,
+      "tmdbRating": 6.879,
+      "votes": 1731,
       "score": 2.7,
       "rank": 55,
       "director": [
@@ -1988,7 +1987,7 @@
       "year": 1982,
       "tmdbId": 78,
       "tmdbRating": 7.936,
-      "votes": 15378,
+      "votes": 15384,
       "score": 2.4000000000000004,
       "rank": 56,
       "director": [
@@ -2171,18 +2170,18 @@
       "title": "V/H/S/2",
       "year": 2013,
       "tmdbId": 159117,
-      "tmdbRating": 6.21,
-      "votes": 1226,
+      "tmdbRating": 6.214,
+      "votes": 1227,
       "score": 2.7,
       "rank": 62,
       "director": [
-        "Adam Wingard",
-        "Gregg Hale",
         "Eduardo Sánchez",
-        "Simon Barrett",
         "Timo Tjahjanto",
+        "Gareth Evans",
+        "Gregg Hale",
+        "Simon Barrett",
         "Jason Eisener",
-        "Gareth Evans"
+        "Adam Wingard"
       ],
       "runtime": 96,
       "genres": [
@@ -2209,8 +2208,8 @@
       "title": "Cruella",
       "year": 2021,
       "tmdbId": 337404,
-      "tmdbRating": 7.966,
-      "votes": 10287,
+      "tmdbRating": 7.967,
+      "votes": 10289,
       "score": 2.22,
       "rank": 63,
       "director": [
@@ -2275,7 +2274,7 @@
       "year": 2020,
       "tmdbId": 514847,
       "tmdbRating": 6.652,
-      "votes": 3802,
+      "votes": 3803,
       "score": 1.3200000000000003,
       "themes": [
         "cruel-comedy"
@@ -2305,8 +2304,8 @@
       "title": "The Roses",
       "year": 2025,
       "tmdbId": 1267905,
-      "tmdbRating": 6.649,
-      "votes": 773,
+      "tmdbRating": 6.644,
+      "votes": 774,
       "score": 1.3200000000000003,
       "themes": [
         "cruel-comedy"
@@ -2473,7 +2472,7 @@
       "year": 2011,
       "tmdbId": 39538,
       "tmdbRating": 6.655,
-      "votes": 6708,
+      "votes": 6710,
       "score": 0.8999999999999999,
       "themes": [
         "body-horror"
@@ -2541,8 +2540,8 @@
       "title": "The Great Wall",
       "year": 2016,
       "tmdbId": 311324,
-      "tmdbRating": 6.032,
-      "votes": 5666,
+      "tmdbRating": 6.033,
+      "votes": 5667,
       "score": 1.65,
       "rank": 73,
       "director": [
@@ -2575,7 +2574,7 @@
       "year": 2013,
       "tmdbId": 54138,
       "tmdbRating": 7.32,
-      "votes": 9859,
+      "votes": 9860,
       "score": 1.3200000000000003,
       "rank": 74,
       "director": [
@@ -2650,8 +2649,8 @@
       "title": "The Help",
       "year": 2011,
       "tmdbId": 50014,
-      "tmdbRating": 8.204,
-      "votes": 9260,
+      "tmdbRating": 8.205,
+      "votes": 9263,
       "score": 0.8999999999999999,
       "rank": 76,
       "director": [
@@ -2682,8 +2681,8 @@
       "title": "Good Will Hunting",
       "year": 1997,
       "tmdbId": 489,
-      "tmdbRating": 8.166,
-      "votes": 14280,
+      "tmdbRating": 8.167,
+      "votes": 14283,
       "score": 0.8999999999999999,
       "rank": 77,
       "director": [
@@ -2723,7 +2722,7 @@
       "year": 2021,
       "tmdbId": 501929,
       "tmdbRating": 7.829,
-      "votes": 3486,
+      "votes": 3487,
       "score": 0.96,
       "rank": 78,
       "director": [
@@ -2822,8 +2821,8 @@
       "title": "La La Land",
       "year": 2016,
       "tmdbId": 313369,
-      "tmdbRating": 7.9,
-      "votes": 18454,
+      "tmdbRating": 7.895,
+      "votes": 18457,
       "score": 0.8999999999999999,
       "rank": 81,
       "director": [
@@ -2910,8 +2909,8 @@
       "title": "Trolls Band Together",
       "year": 2023,
       "tmdbId": 901362,
-      "tmdbRating": 7.243,
-      "votes": 1028,
+      "tmdbRating": 7.246,
+      "votes": 1029,
       "score": 0.96,
       "rank": 84,
       "director": [
@@ -2984,7 +2983,7 @@
       "year": 2011,
       "tmdbId": 50646,
       "tmdbRating": 7.279,
-      "votes": 9504,
+      "votes": 9505,
       "score": 0.8999999999999999,
       "rank": 86,
       "director": [
@@ -3019,7 +3018,7 @@
       "year": 1986,
       "tmdbId": 792,
       "tmdbRating": 7.747,
-      "votes": 5268,
+      "votes": 5270,
       "score": 0.75,
       "rank": 87,
       "director": [
@@ -3056,8 +3055,8 @@
       "title": "Remember Me",
       "year": 2010,
       "tmdbId": 23169,
-      "tmdbRating": 7.097,
-      "votes": 3793,
+      "tmdbRating": 7.098,
+      "votes": 3796,
       "score": 0.8999999999999999,
       "rank": 88,
       "director": [
@@ -3072,8 +3071,10 @@
       "providers": {
         "flatrate": [
           "Amazon Prime Video",
+          "Peacock Premium",
           "Lionsgate+ Amazon Channels",
-          "Amazon Prime Video with Ads"
+          "Amazon Prime Video with Ads",
+          "Peacock Premium Plus"
         ],
         "rent": [
           "Amazon Video",
@@ -3090,7 +3091,7 @@
       "year": 1988,
       "tmdbId": 1632,
       "tmdbRating": 7.675,
-      "votes": 2017,
+      "votes": 2019,
       "score": 0.75,
       "rank": 89,
       "director": [
@@ -3125,8 +3126,8 @@
       "title": "Kubo and the Two Strings",
       "year": 2016,
       "tmdbId": 313297,
-      "tmdbRating": 7.64,
-      "votes": 3914,
+      "tmdbRating": 7.639,
+      "votes": 3918,
       "score": 0.75,
       "rank": 90,
       "director": [
@@ -3159,7 +3160,7 @@
       "year": 2011,
       "tmdbId": 71469,
       "tmdbRating": 5.298,
-      "votes": 1627,
+      "votes": 1628,
       "score": 1.3200000000000003,
       "rank": 91,
       "director": [
@@ -3223,8 +3224,8 @@
       "title": "Men of Honor",
       "year": 2000,
       "tmdbId": 11978,
-      "tmdbRating": 7.496,
-      "votes": 2576,
+      "tmdbRating": 7.497,
+      "votes": 2577,
       "score": 0.75,
       "rank": 93,
       "director": [
@@ -3254,8 +3255,8 @@
       "title": "The Devil's Advocate",
       "year": 1997,
       "tmdbId": 1813,
-      "tmdbRating": 7.481,
-      "votes": 7022,
+      "tmdbRating": 7.482,
+      "votes": 7024,
       "score": 0.75,
       "rank": 94,
       "director": [
@@ -3286,7 +3287,7 @@
       "year": 2006,
       "tmdbId": 388,
       "tmdbRating": 7.41,
-      "votes": 6547,
+      "votes": 6548,
       "score": 0.75,
       "rank": 95,
       "director": [
@@ -3350,7 +3351,7 @@
       "year": 1999,
       "tmdbId": 8374,
       "tmdbRating": 7.242,
-      "votes": 2791,
+      "votes": 2792,
       "score": 0.75,
       "rank": 97,
       "director": [
@@ -3477,8 +3478,8 @@
       "title": "Perfect Blue",
       "year": 1998,
       "tmdbId": 10494,
-      "tmdbRating": 8.306,
-      "votes": 3341,
+      "tmdbRating": 8.3,
+      "votes": 3342,
       "theme": "unravelling",
       "why": "unravelling — the thread through 3 of your loved films",
       "director": [
@@ -3636,31 +3637,34 @@
       }
     },
     {
-      "title": "Prayers for Bobby",
-      "year": 2009,
-      "tmdbId": 21634,
-      "tmdbRating": 8.059,
-      "votes": 653,
+      "title": "Dear Zachary: A Letter to a Son About His Father",
+      "year": 2008,
+      "tmdbId": 15584,
+      "tmdbRating": 8.06,
+      "votes": 602,
       "theme": "grief-horror",
       "why": "grief-horror — the thread through 4 of your loved films",
       "director": [
-        "Russell Mulcahy"
+        "Kurt Kuenne"
       ],
-      "runtime": 89,
+      "runtime": 94,
       "genres": [
-        "Drama",
-        "History",
-        "TV Movie"
+        "Documentary",
+        "Crime"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/1viFwXluAettogGDsTrSUUg29lZ.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/yYVHGe7U55Ojx11y5A82phPpCHv.jpg",
       "providers": {
         "flatrate": [
-          "Disney Plus",
-          "Lifetime Movie Club",
-          "Lifetime Movie Club Apple TV channel",
-          "Lifetime Movie Club Amazon Channel"
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
         ],
-        "rent": []
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
       }
     },
     {
@@ -3668,7 +3672,7 @@
       "year": 1997,
       "tmdbId": 637,
       "tmdbRating": 8.437,
-      "votes": 14224,
+      "votes": 14227,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 2 of your loved films",
       "director": [
@@ -3737,8 +3741,8 @@
       "title": "I Swear",
       "year": 2025,
       "tmdbId": 1317149,
-      "tmdbRating": 8.3,
-      "votes": 551,
+      "tmdbRating": 8.269,
+      "votes": 554,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 2 of your loved films",
       "director": [
@@ -3799,8 +3803,8 @@
       "title": "Incendies",
       "year": 2010,
       "tmdbId": 46738,
-      "tmdbRating": 8.102,
-      "votes": 3455,
+      "tmdbRating": 8.103,
+      "votes": 3456,
       "theme": "doubling",
       "why": "doubling — the thread through 2 of your loved films",
       "director": [
@@ -3860,7 +3864,7 @@
       "year": 1982,
       "tmdbId": 1091,
       "tmdbRating": 8.073,
-      "votes": 8237,
+      "votes": 8240,
       "theme": "body-horror",
       "why": "body-horror — the thread through 2 of your loved films",
       "director": [
@@ -3891,8 +3895,8 @@
       "title": "Dragon Ball Super: Broly",
       "year": 2018,
       "tmdbId": 503314,
-      "tmdbRating": 7.959,
-      "votes": 3259,
+      "tmdbRating": 7.958,
+      "votes": 3261,
       "theme": "body-horror",
       "why": "body-horror — the thread through 2 of your loved films",
       "director": [
@@ -3924,7 +3928,7 @@
       "year": 1988,
       "tmdbId": 149,
       "tmdbRating": 7.941,
-      "votes": 4971,
+      "votes": 4973,
       "theme": "body-horror",
       "why": "body-horror — the thread through 2 of your loved films",
       "director": [
