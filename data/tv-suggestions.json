@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-14T15:55:07.528Z",
+  "generated": "2026-09-15T14:21:10.816Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -7,7 +7,7 @@
       "title": "Fanny and Alexander",
       "year": 1984,
       "tmdbId": 33153,
-      "tmdbRating": 8.253,
+      "tmdbRating": 8.3,
       "votes": 150,
       "score": 13,
       "rank": 1,
@@ -71,8 +71,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.8,
-      "votes": 1027,
+      "tmdbRating": 7.752,
+      "votes": 1028,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -214,8 +214,8 @@
       "title": "ER",
       "year": 1994,
       "tmdbId": 4588,
-      "tmdbRating": 7.814,
-      "votes": 962,
+      "tmdbRating": 7.816,
+      "votes": 963,
       "score": 3.0400000000000005,
       "rank": 7,
       "creators": [
@@ -289,7 +289,7 @@
       "year": 2005,
       "tmdbId": 2316,
       "tmdbRating": 8.581,
-      "votes": 5464,
+      "votes": 5467,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -322,8 +322,8 @@
       "title": "Gangs of London",
       "year": 2020,
       "tmdbId": 85021,
-      "tmdbRating": 7.816,
-      "votes": 708,
+      "tmdbRating": 7.819,
+      "votes": 709,
       "score": 2.7,
       "rank": 10,
       "creators": [
@@ -613,7 +613,7 @@
       "year": 2011,
       "tmdbId": 1411,
       "tmdbRating": 8.096,
-      "votes": 2155,
+      "votes": 2156,
       "score": 1.6500000000000001,
       "themes": [
         "surveillance"
@@ -785,7 +785,7 @@
       "year": 2016,
       "tmdbId": 63247,
       "tmdbRating": 8.015,
-      "votes": 6367,
+      "votes": 6368,
       "score": 1.6500000000000001,
       "rank": 23,
       "creators": [

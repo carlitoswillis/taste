@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-14T15:54:49.977Z",
+  "generated": "2026-09-15T14:20:51.848Z",
   "basedOn": 27,
   "head": 12,
   "items": [
@@ -81,8 +81,8 @@
       "title": "Following",
       "year": 1999,
       "tmdbId": 11660,
-      "tmdbRating": 7.118,
-      "votes": 1960,
+      "tmdbRating": 7.119,
+      "votes": 1961,
       "score": 12.15,
       "themes": [
         "surveillance"
@@ -125,7 +125,7 @@
       "year": 2002,
       "tmdbId": 320,
       "tmdbRating": 6.954,
-      "votes": 5525,
+      "votes": 5526,
       "score": 12.15,
       "rank": 4,
       "director": [
@@ -243,8 +243,8 @@
       "title": "Kinds of Kindness",
       "year": 2024,
       "tmdbId": 1029955,
-      "tmdbRating": 6.474,
-      "votes": 1356,
+      "tmdbRating": 6.477,
+      "votes": 1357,
       "score": 6.450000000000001,
       "themes": [
         "cruel-comedy"
@@ -282,7 +282,7 @@
       "year": 2018,
       "tmdbId": 375262,
       "tmdbRating": 7.48,
-      "votes": 6036,
+      "votes": 6039,
       "score": 7.020000000000001,
       "rank": 8,
       "director": [
@@ -316,8 +316,8 @@
       "title": "The Strange Thing About the Johnsons",
       "year": 2011,
       "tmdbId": 164052,
-      "tmdbRating": 6.807,
-      "votes": 399,
+      "tmdbRating": 6.8,
+      "votes": 400,
       "score": 6.75,
       "rank": 9,
       "director": [
@@ -568,8 +568,8 @@
       "title": "Doodlebug",
       "year": 1997,
       "tmdbId": 43629,
-      "tmdbRating": 6.504,
-      "votes": 504,
+      "tmdbRating": 6.505,
+      "votes": 505,
       "score": 12.15,
       "rank": 16,
       "director": [
@@ -801,8 +801,8 @@
       "title": "Barking Dogs Never Bite",
       "year": 2000,
       "tmdbId": 21531,
-      "tmdbRating": 6.766,
-      "votes": 316,
+      "tmdbRating": 6.767,
+      "votes": 317,
       "score": 5.700000000000001,
       "rank": 22,
       "director": [
@@ -950,7 +950,7 @@
       "year": 2013,
       "tmdbId": 49521,
       "tmdbRating": 6.66,
-      "votes": 16585,
+      "votes": 16590,
       "score": 4.86,
       "rank": 26,
       "director": [
@@ -992,8 +992,8 @@
       "title": "Nimic",
       "year": 2020,
       "tmdbId": 621749,
-      "tmdbRating": 6.57,
-      "votes": 321,
+      "tmdbRating": 6.581,
+      "votes": 322,
       "score": 4.800000000000001,
       "rank": 27,
       "director": [
@@ -1022,7 +1022,7 @@
       "title": "Alps",
       "year": 2011,
       "tmdbId": 81857,
-      "tmdbRating": 6.201,
+      "tmdbRating": 6.2,
       "votes": 359,
       "score": 4.800000000000001,
       "rank": 28,
@@ -1229,7 +1229,7 @@
       "year": 2015,
       "tmdbId": 273248,
       "tmdbRating": 7.756,
-      "votes": 15597,
+      "votes": 15598,
       "score": 3.8000000000000003,
       "rank": 34,
       "director": [
@@ -1349,8 +1349,8 @@
       "score": 3.8000000000000003,
       "rank": 37,
       "director": [
-        "Quentin Tarantino",
-        "Robert Rodriguez"
+        "Robert Rodriguez",
+        "Quentin Tarantino"
       ],
       "runtime": 191,
       "genres": [
@@ -1414,8 +1414,8 @@
       "title": "The Dog Stars",
       "year": 2026,
       "tmdbId": 1384216,
-      "tmdbRating": 6.613,
-      "votes": 260,
+      "tmdbRating": 6.621,
+      "votes": 265,
       "score": 2.4000000000000004,
       "themes": [
         "grief-horror"
@@ -1480,8 +1480,8 @@
       "title": "Love Lies Bleeding",
       "year": 2024,
       "tmdbId": 948549,
-      "tmdbRating": 6.558,
-      "votes": 1024,
+      "tmdbRating": 6.561,
+      "votes": 1025,
       "score": 2.7,
       "themes": [
         "body-horror"
@@ -1607,13 +1607,13 @@
       "title": "65",
       "year": 2023,
       "tmdbId": 700391,
-      "tmdbRating": 5.953,
-      "votes": 2961,
+      "tmdbRating": 5.955,
+      "votes": 2962,
       "score": 3.5200000000000005,
       "rank": 45,
       "director": [
-        "Bryan Woods",
-        "Scott Beck"
+        "Scott Beck",
+        "Bryan Woods"
       ],
       "runtime": 92,
       "genres": [
@@ -1714,7 +1714,7 @@
       "year": 2007,
       "tmdbId": 4982,
       "tmdbRating": 7.596,
-      "votes": 6225,
+      "votes": 6226,
       "score": 2.4000000000000004,
       "themes": [
         "surveillance"
@@ -1754,7 +1754,7 @@
       "year": 1991,
       "tmdbId": 1541,
       "tmdbRating": 7.595,
-      "votes": 3995,
+      "votes": 3996,
       "score": 2.4000000000000004,
       "themes": [
         "surveillance"
@@ -1828,7 +1828,7 @@
       "year": 2014,
       "tmdbId": 194662,
       "tmdbRating": 7.435,
-      "votes": 13818,
+      "votes": 13820,
       "score": 0.8999999999999999,
       "themes": [
         "cruel-comedy",
@@ -1863,8 +1863,8 @@
       "title": "The Raid",
       "year": 2012,
       "tmdbId": 94329,
-      "tmdbRating": 7.411,
-      "votes": 4027,
+      "tmdbRating": 7.412,
+      "votes": 4028,
       "score": 2.7,
       "rank": 52,
       "director": [
@@ -1898,7 +1898,7 @@
       "year": 1981,
       "tmdbId": 8810,
       "tmdbRating": 7.391,
-      "votes": 4306,
+      "votes": 4307,
       "score": 2.7,
       "rank": 53,
       "director": [
@@ -2112,7 +2112,7 @@
       "title": "Havoc",
       "year": 2025,
       "tmdbId": 668489,
-      "tmdbRating": 6.405,
+      "tmdbRating": 6.4,
       "votes": 1333,
       "score": 2.7,
       "rank": 60,
@@ -2171,18 +2171,18 @@
       "title": "V/H/S/2",
       "year": 2013,
       "tmdbId": 159117,
-      "tmdbRating": 6.212,
-      "votes": 1229,
+      "tmdbRating": 6.215,
+      "votes": 1230,
       "score": 2.7,
       "rank": 62,
       "director": [
+        "Simon Barrett",
+        "Adam Wingard",
         "Eduardo Sánchez",
+        "Gregg Hale",
         "Timo Tjahjanto",
         "Gareth Evans",
-        "Gregg Hale",
-        "Simon Barrett",
-        "Jason Eisener",
-        "Adam Wingard"
+        "Jason Eisener"
       ],
       "runtime": 96,
       "genres": [
@@ -2210,7 +2210,7 @@
       "year": 2021,
       "tmdbId": 337404,
       "tmdbRating": 7.966,
-      "votes": 10295,
+      "votes": 10296,
       "score": 2.22,
       "rank": 63,
       "director": [
@@ -2305,8 +2305,8 @@
       "title": "The Roses",
       "year": 2025,
       "tmdbId": 1267905,
-      "tmdbRating": 6.644,
-      "votes": 774,
+      "tmdbRating": 6.637,
+      "votes": 776,
       "score": 1.3200000000000003,
       "themes": [
         "cruel-comedy"
@@ -2439,7 +2439,7 @@
       "year": 1999,
       "tmdbId": 1832,
       "tmdbRating": 6.944,
-      "votes": 2964,
+      "votes": 2965,
       "score": 0.8999999999999999,
       "themes": [
         "cruel-comedy"
@@ -2575,7 +2575,7 @@
       "year": 2013,
       "tmdbId": 54138,
       "tmdbRating": 7.32,
-      "votes": 9864,
+      "votes": 9865,
       "score": 1.3200000000000003,
       "rank": 74,
       "director": [
@@ -2614,7 +2614,7 @@
       "year": 2022,
       "tmdbId": 656663,
       "tmdbRating": 6.814,
-      "votes": 976,
+      "votes": 977,
       "score": 1.2800000000000002,
       "rank": 75,
       "director": [
@@ -2651,7 +2651,7 @@
       "year": 2011,
       "tmdbId": 50014,
       "tmdbRating": 8.205,
-      "votes": 9266,
+      "votes": 9268,
       "score": 0.8999999999999999,
       "rank": 76,
       "director": [
@@ -2683,7 +2683,7 @@
       "year": 1997,
       "tmdbId": 489,
       "tmdbRating": 8.167,
-      "votes": 14291,
+      "votes": 14297,
       "score": 0.8999999999999999,
       "rank": 77,
       "director": [
@@ -2723,7 +2723,7 @@
       "year": 2021,
       "tmdbId": 501929,
       "tmdbRating": 7.829,
-      "votes": 3487,
+      "votes": 3488,
       "score": 0.96,
       "rank": 78,
       "director": [
@@ -2823,7 +2823,7 @@
       "year": 2016,
       "tmdbId": 313369,
       "tmdbRating": 7.895,
-      "votes": 18470,
+      "votes": 18473,
       "score": 0.8999999999999999,
       "rank": 81,
       "director": [
@@ -2838,7 +2838,6 @@
       "poster": "https://image.tmdb.org/t/p/w342/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg",
       "providers": {
         "flatrate": [
-          "fuboTV",
           "Lionsgate+ Amazon Channels"
         ],
         "rent": [
@@ -2887,8 +2886,8 @@
       "title": "Togo",
       "year": 2019,
       "tmdbId": 606856,
-      "tmdbRating": 8.139,
-      "votes": 2357,
+      "tmdbRating": 8.14,
+      "votes": 2359,
       "score": 0.75,
       "rank": 83,
       "director": [
@@ -2981,27 +2980,24 @@
       "why": "Emma Stone stars in this — you rated Poor Things 4.5★, Bugonia 4.5★"
     },
     {
-      "title": "Crazy, Stupid, Love.",
-      "year": 2011,
-      "tmdbId": 50646,
-      "tmdbRating": 7.279,
-      "votes": 9506,
+      "title": "Zombieland",
+      "year": 2009,
+      "tmdbId": 19908,
+      "tmdbRating": 7.3,
+      "votes": 13466,
       "score": 0.8999999999999999,
       "rank": 86,
       "director": [
-        "Glenn Ficarra",
-        "John Requa"
+        "Ruben Fleischer"
       ],
-      "runtime": 118,
+      "runtime": 88,
       "genres": [
         "Comedy",
-        "Drama",
-        "Romance"
+        "Horror"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/p4RafgAPk558muOjnBMHhMArjS2.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/dUkAmAyPVqubSBNRjRqCgHggZcK.jpg",
       "providers": {
         "flatrate": [
-          "HBO Max Amazon Channel",
           "HBO Max"
         ],
         "rent": [
@@ -3010,7 +3006,8 @@
           "Google Play Movies",
           "YouTube",
           "Fandango At Home",
-          "Spectrum On Demand"
+          "Spectrum On Demand",
+          "Plex"
         ]
       },
       "why": "Emma Stone stars in this — you rated Poor Things 4.5★, Bugonia 4.5★"
@@ -3019,7 +3016,7 @@
       "title": "Platoon",
       "year": 1986,
       "tmdbId": 792,
-      "tmdbRating": 7.747,
+      "tmdbRating": 7.7,
       "votes": 5271,
       "score": 0.75,
       "rank": 87,
@@ -3057,8 +3054,8 @@
       "title": "Remember Me",
       "year": 2010,
       "tmdbId": 23169,
-      "tmdbRating": 7.098,
-      "votes": 3799,
+      "tmdbRating": 7.097,
+      "votes": 3801,
       "score": 0.8999999999999999,
       "rank": 88,
       "director": [
@@ -3092,8 +3089,8 @@
       "title": "Mississippi Burning",
       "year": 1988,
       "tmdbId": 1632,
-      "tmdbRating": 7.675,
-      "votes": 2019,
+      "tmdbRating": 7.673,
+      "votes": 2020,
       "score": 0.75,
       "rank": 89,
       "director": [
@@ -3128,8 +3125,8 @@
       "title": "Kubo and the Two Strings",
       "year": 2016,
       "tmdbId": 313297,
-      "tmdbRating": 7.64,
-      "votes": 3921,
+      "tmdbRating": 7.641,
+      "votes": 3923,
       "score": 0.75,
       "rank": 90,
       "director": [
@@ -3227,7 +3224,7 @@
       "year": 2000,
       "tmdbId": 11978,
       "tmdbRating": 7.499,
-      "votes": 2579,
+      "votes": 2581,
       "score": 0.75,
       "rank": 93,
       "director": [
@@ -3258,7 +3255,7 @@
       "year": 1997,
       "tmdbId": 1813,
       "tmdbRating": 7.482,
-      "votes": 7027,
+      "votes": 7028,
       "score": 0.75,
       "rank": 94,
       "director": [
@@ -3288,8 +3285,8 @@
       "title": "Inside Man",
       "year": 2006,
       "tmdbId": 388,
-      "tmdbRating": 7.4,
-      "votes": 6551,
+      "tmdbRating": 7.41,
+      "votes": 6552,
       "score": 0.75,
       "rank": 95,
       "director": [
@@ -3352,8 +3349,8 @@
       "title": "The Boondock Saints",
       "year": 1999,
       "tmdbId": 8374,
-      "tmdbRating": 7.243,
-      "votes": 2793,
+      "tmdbRating": 7.242,
+      "votes": 2794,
       "score": 0.75,
       "rank": 97,
       "director": [
@@ -3442,8 +3439,8 @@
       "title": "The Twilight Saga: Breaking Dawn - Part 2",
       "year": 2012,
       "tmdbId": 50620,
-      "tmdbRating": 6.5,
-      "votes": 9492,
+      "tmdbRating": 6.451,
+      "votes": 9493,
       "score": 0.8999999999999999,
       "rank": 100,
       "director": [
@@ -3512,7 +3509,7 @@
       "year": 1936,
       "tmdbId": 3082,
       "tmdbRating": 8.282,
-      "votes": 4185,
+      "votes": 4188,
       "theme": "unravelling",
       "why": "unravelling — the thread through 3 of your loved films",
       "director": [
@@ -3546,8 +3543,8 @@
       "title": "Sunset Boulevard",
       "year": 1950,
       "tmdbId": 599,
-      "tmdbRating": 8.274,
-      "votes": 3020,
+      "tmdbRating": 8.273,
+      "votes": 3021,
       "theme": "unravelling",
       "why": "unravelling — the thread through 3 of your loved films",
       "director": [
@@ -3578,8 +3575,8 @@
       "title": "Lucy Shimmers and the Prince of Peace",
       "year": 2020,
       "tmdbId": 770156,
-      "tmdbRating": 8.392,
-      "votes": 376,
+      "tmdbRating": 8.397,
+      "votes": 377,
       "theme": "grief-horror",
       "why": "grief-horror — the thread through 4 of your loved films",
       "director": [
@@ -3643,7 +3640,7 @@
       "year": 2008,
       "tmdbId": 15584,
       "tmdbRating": 8.06,
-      "votes": 602,
+      "votes": 603,
       "theme": "grief-horror",
       "why": "grief-horror — the thread through 4 of your loved films",
       "director": [
@@ -3674,7 +3671,7 @@
       "year": 1997,
       "tmdbId": 637,
       "tmdbRating": 8.437,
-      "votes": 14237,
+      "votes": 14239,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 2 of your loved films",
       "director": [
@@ -3712,7 +3709,7 @@
       "year": 1940,
       "tmdbId": 914,
       "tmdbRating": 8.285,
-      "votes": 3804,
+      "votes": 3806,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 2 of your loved films",
       "director": [
@@ -3745,8 +3742,8 @@
       "title": "I Swear",
       "year": 2025,
       "tmdbId": 1317149,
-      "tmdbRating": 8.25,
-      "votes": 563,
+      "tmdbRating": 8.255,
+      "votes": 566,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 2 of your loved films",
       "director": [
@@ -3807,8 +3804,8 @@
       "title": "Incendies",
       "year": 2010,
       "tmdbId": 46738,
-      "tmdbRating": 8.103,
-      "votes": 3458,
+      "tmdbRating": 8.1,
+      "votes": 3460,
       "theme": "doubling",
       "why": "doubling — the thread through 2 of your loved films",
       "director": [
@@ -3836,8 +3833,8 @@
       "title": "The Young Girls of Rochefort",
       "year": 1967,
       "tmdbId": 2433,
-      "tmdbRating": 7.672,
-      "votes": 670,
+      "tmdbRating": 7.67,
+      "votes": 672,
       "theme": "doubling",
       "why": "doubling — the thread through 2 of your loved films",
       "director": [
@@ -3932,7 +3929,7 @@
       "year": 1988,
       "tmdbId": 149,
       "tmdbRating": 7.941,
-      "votes": 4979,
+      "votes": 4980,
       "theme": "body-horror",
       "why": "body-horror — the thread through 2 of your loved films",
       "director": [
