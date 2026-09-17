@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-16T14:13:33.272Z",
+  "generated": "2026-09-17T14:18:26.358Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -71,7 +71,7 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.752,
+      "tmdbRating": 7.8,
       "votes": 1028,
       "score": 3.0400000000000005,
       "themes": [
@@ -289,7 +289,7 @@
       "year": 2005,
       "tmdbId": 2316,
       "tmdbRating": 8.582,
-      "votes": 5470,
+      "votes": 5474,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -322,7 +322,7 @@
       "title": "Gangs of London",
       "year": 2020,
       "tmdbId": 85021,
-      "tmdbRating": 7.819,
+      "tmdbRating": 7.818,
       "votes": 710,
       "score": 2.7,
       "rank": 10,
@@ -612,8 +612,8 @@
       "title": "Person of Interest",
       "year": 2011,
       "tmdbId": 1411,
-      "tmdbRating": 8.097,
-      "votes": 2158,
+      "tmdbRating": 8.1,
+      "votes": 2160,
       "score": 1.6500000000000001,
       "themes": [
         "surveillance"
@@ -719,8 +719,8 @@
       "title": "Suburgatory",
       "year": 2011,
       "tmdbId": 39357,
-      "tmdbRating": 6.67,
-      "votes": 235,
+      "tmdbRating": 6.667,
+      "votes": 236,
       "score": 2.16,
       "rank": 21,
       "creators": [
