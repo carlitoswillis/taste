@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17T14:18:26.358Z",
+  "generated": "2026-09-18T13:36:36.105Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -7,7 +7,7 @@
       "title": "Fanny and Alexander",
       "year": 1984,
       "tmdbId": 33153,
-      "tmdbRating": 8.265,
+      "tmdbRating": 8.3,
       "votes": 151,
       "score": 13,
       "rank": 1,
@@ -71,8 +71,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.8,
-      "votes": 1028,
+      "tmdbRating": 7.753,
+      "votes": 1029,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -214,8 +214,8 @@
       "title": "ER",
       "year": 1994,
       "tmdbId": 4588,
-      "tmdbRating": 7.816,
-      "votes": 963,
+      "tmdbRating": 7.813,
+      "votes": 965,
       "score": 3.0400000000000005,
       "rank": 7,
       "creators": [
@@ -249,7 +249,7 @@
       "year": 2000,
       "tmdbId": 1431,
       "tmdbRating": 7.608,
-      "votes": 1432,
+      "votes": 1434,
       "score": 3.0400000000000005,
       "rank": 8,
       "creators": [
@@ -288,8 +288,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.582,
-      "votes": 5474,
+      "tmdbRating": 8.6,
+      "votes": 5476,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -302,7 +302,7 @@
       "genres": [
         "Comedy"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/dg9e5fPRRId8PoBE0F6jl5y85Eu.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg",
       "providers": {
         "flatrate": [
           "Peacock Premium",
@@ -505,7 +505,7 @@
       "title": "Moral Orel",
       "year": 2005,
       "tmdbId": 292,
-      "tmdbRating": 7.963,
+      "tmdbRating": 8,
       "votes": 107,
       "score": 1.1,
       "themes": [
@@ -653,7 +653,7 @@
       "year": 2018,
       "tmdbId": 73375,
       "tmdbRating": 7.682,
-      "votes": 1886,
+      "votes": 1887,
       "score": 1.92,
       "rank": 19,
       "creators": [

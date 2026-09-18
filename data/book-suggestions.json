@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17T14:18:42.808Z",
+  "generated": "2026-09-18T13:36:53.573Z",
   "basedOn": {
     "lovedFilms": 27,
     "ratedBooks": 0,
@@ -371,7 +371,7 @@
       "year": 1968,
       "pages": 215,
       "cover": "https://covers.openlibrary.org/b/id/488237-M.jpg",
-      "editionCount": 25,
+      "editionCount": 26,
       "olRating": {
         "average": 4.071429,
         "count": 14
