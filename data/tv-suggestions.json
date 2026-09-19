@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18T13:36:36.105Z",
+  "generated": "2026-09-19T13:10:49.172Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -71,8 +71,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.753,
-      "votes": 1029,
+      "tmdbRating": 7.754,
+      "votes": 1030,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -612,7 +612,7 @@
       "title": "Person of Interest",
       "year": 2011,
       "tmdbId": 1411,
-      "tmdbRating": 8.1,
+      "tmdbRating": 8.098,
       "votes": 2160,
       "score": 1.6500000000000001,
       "themes": [
@@ -785,7 +785,7 @@
       "year": 2016,
       "tmdbId": 63247,
       "tmdbRating": 8.015,
-      "votes": 6373,
+      "votes": 6377,
       "score": 1.6500000000000001,
       "rank": 23,
       "creators": [
@@ -800,7 +800,7 @@
         "Sci-Fi & Fantasy",
         "Western"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/ALlSU9du9iRiKIIoY1sREGNqQ5.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/8MfgyFHf7XEboZJPZXCIDqqiz6e.jpg",
       "providers": {
         "flatrate": [],
         "rent": []
