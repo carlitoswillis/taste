@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21T15:54:30.026Z",
+  "generated": "2026-09-22T14:02:05.831Z",
   "edges": [
     {
       "book": {
@@ -101,396 +101,6 @@
       },
       "screen": "The Devil All the Time (2020)",
       "screenId": "m:499932",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Iliad",
-        "author": "Homer",
-        "olWork": "OL34610657W",
-        "wikidata": "Q8275"
-      },
-      "screen": "Troy (2004)",
-      "screenId": "m:652",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "The Hunger Games",
-        "author": "Suzanne Collins",
-        "olWork": "OL5735363W",
-        "wikidata": "Q11678"
-      },
-      "screen": "The Hunger Games (2012)",
-      "screenId": "m:70160",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Odyssey",
-        "author": "Homer",
-        "olWork": "OL61982W",
-        "wikidata": "Q35160"
-      },
-      "screen": "O Brother, Where Art Thou? (2000)",
-      "screenId": "m:134",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Harry Potter and the Goblet of Fire",
-        "author": "J. K. Rowling",
-        "olWork": "OL82560W",
-        "wikidata": "Q46751"
-      },
-      "screen": "Harry Potter and the Goblet of Fire (2005)",
-      "screenId": "m:674",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Harry Potter and the Chamber of Secrets",
-        "author": "J. K. Rowling",
-        "olWork": "OL82537W",
-        "wikidata": "Q47209"
-      },
-      "screen": "Harry Potter and the Chamber of Secrets (2002)",
-      "screenId": "m:672",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Frankenstein; or, The Modern Prometheus",
-        "author": "Mary Shelley",
-        "olWork": "OL450063W",
-        "wikidata": "Q150827"
-      },
-      "screen": "Frankenstein (2025)",
-      "screenId": "m:1062722",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "King Lear",
-        "author": "William Shakespeare",
-        "olWork": "OL259026W",
-        "wikidata": "Q181598"
-      },
-      "screen": "Ran (1985)",
-      "screenId": "m:11645",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "The Shining",
-        "author": "Stephen King",
-        "olWork": "OL81633W",
-        "wikidata": "Q470937"
-      },
-      "screen": "The Shining (1980)",
-      "screenId": "m:694",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "It",
-        "author": "Stephen King",
-        "olWork": "OL81613W",
-        "wikidata": "Q602288"
-      },
-      "screen": "It (2017)",
-      "screenId": "m:346364",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Shutter Island",
-        "author": "Dennis Lehane",
-        "olWork": "OL17654868W",
-        "wikidata": "Q612511"
-      },
-      "screen": "Shutter Island (2010)",
-      "screenId": "m:11324",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Jurassic Park",
-        "author": "Michael Crichton",
-        "olWork": "OL46881W",
-        "wikidata": "Q756866"
-      },
-      "screen": "Jurassic Park (1993)",
-      "screenId": "m:329",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Fight Club",
-        "author": "Chuck Palahniuk",
-        "olWork": "OL18941W",
-        "wikidata": "Q837283"
-      },
-      "screen": "Fight Club (1999)",
-      "screenId": "m:550",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Roadside Picnic",
-        "author": "Arkady and Boris Strugatsky",
-        "olWork": "OL16465148W",
-        "wikidata": "Q848517"
-      },
-      "screen": "Stalker (1979)",
-      "screenId": "m:1398",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "The Silence of the Lambs",
-        "author": "Thomas Harris",
-        "olWork": "OL24376962M",
-        "wikidata": "Q897685"
-      },
-      "screen": "The Silence of the Lambs (1991)",
-      "screenId": "m:274",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Shrek!",
-        "author": "William Steig",
-        "olWork": "OL15152042W",
-        "wikidata": "Q920424"
-      },
-      "screen": "Shrek (2001)",
-      "screenId": "m:808",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "City of God",
-        "author": "Paulo Lins",
-        "olWork": "OL1756960W",
-        "wikidata": "Q946496"
-      },
-      "screen": "City of God (2002)",
-      "screenId": "m:598",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "The Double",
-        "author": "José Saramago",
-        "olWork": "OL7923009W",
-        "wikidata": "Q1192973"
-      },
-      "screen": "Enemy (2013)",
-      "screenId": "m:181886",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Scott Pilgrim",
-        "author": "Bryan Lee O'Malley",
-        "olWork": "OL17481869W",
-        "wikidata": "Q1199291"
-      },
-      "screen": "Scott Pilgrim vs. the World (2010)",
-      "screenId": "m:22538",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Psycho",
-        "author": "Robert Bloch",
-        "olWork": null,
-        "wikidata": "Q1275361"
-      },
-      "screen": "Psycho (1960)",
-      "screenId": "m:539",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Old Boy",
-        "author": "Garon Tsuchiya, Nobuaki Minegishi",
-        "olWork": null,
-        "wikidata": "Q1648035"
-      },
-      "screen": "Oldboy (2003)",
-      "screenId": "m:670",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "The Devil Wears Prada",
-        "author": "Lauren Weisberger",
-        "olWork": "OL15137662W",
-        "wikidata": "Q2037865"
-      },
-      "screen": "The Devil Wears Prada (2006)",
-      "screenId": "m:350",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "The Sentinel",
-        "author": "Arthur C. Clarke",
-        "olWork": null,
-        "wikidata": "Q2688051"
-      },
-      "screen": "2001: A Space Odyssey (1968)",
-      "screenId": "m:62",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "\"—All You Zombies—\"",
-        "author": "Robert A. Heinlein",
-        "olWork": null,
-        "wikidata": "Q4729912"
-      },
-      "screen": "Predestination (2014)",
-      "screenId": "m:206487",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Encounter in the Dawn",
-        "author": "Arthur C. Clarke",
-        "olWork": null,
-        "wikidata": "Q5375577"
-      },
-      "screen": "2001: A Space Odyssey (1968)",
-      "screenId": "m:62",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Oil!",
-        "author": "Upton Sinclair",
-        "olWork": "OL115071W",
-        "wikidata": "Q7081270"
-      },
-      "screen": "There Will Be Blood (2007)",
-      "screenId": "m:7345",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Queen Bees and Wannabes",
-        "author": "Rosalind Wiseman",
-        "olWork": "OL16035008W",
-        "wikidata": "Q7270232"
-      },
-      "screen": "Mean Girls (2004)",
-      "screenId": "m:10625",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Three-Ten to Yuma",
-        "author": "Elmore Leonard",
-        "olWork": null,
-        "wikidata": "Q7797235"
-      },
-      "screen": "3:10 to Yuma (2007)",
-      "screenId": "m:5176",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Catch Me If You Can",
-        "author": "Frank Abagnale, Jr.",
-        "olWork": "OL4494342W",
-        "wikidata": "Q12857422"
-      },
-      "screen": "Catch Me If You Can (2002)",
-      "screenId": "m:640",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Annihilation",
-        "author": "Jeff VanderMeer",
-        "olWork": "OL17268007W",
-        "wikidata": "Q16961640"
-      },
-      "screen": "Annihilation (2018)",
-      "screenId": "m:300668",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "The Wolf of Wall Street",
-        "author": "Jordan Belfort",
-        "olWork": "OL8383186W",
-        "wikidata": "Q19902843"
-      },
-      "screen": "The Wolf of Wall Street (2013)",
-      "screenId": "m:106646",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -900,6 +510,396 @@
     },
     {
       "book": {
+        "title": "Iliad",
+        "author": "Homer",
+        "olWork": "OL34610657W",
+        "wikidata": "Q8275"
+      },
+      "screen": "Troy (2004)",
+      "screenId": "m:652",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "olWork": "OL5735363W",
+        "wikidata": "Q11678"
+      },
+      "screen": "The Hunger Games (2012)",
+      "screenId": "m:70160",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Odyssey",
+        "author": "Homer",
+        "olWork": "OL61982W",
+        "wikidata": "Q35160"
+      },
+      "screen": "O Brother, Where Art Thou? (2000)",
+      "screenId": "m:134",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Harry Potter and the Goblet of Fire",
+        "author": "J. K. Rowling",
+        "olWork": "OL82560W",
+        "wikidata": "Q46751"
+      },
+      "screen": "Harry Potter and the Goblet of Fire (2005)",
+      "screenId": "m:674",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Harry Potter and the Chamber of Secrets",
+        "author": "J. K. Rowling",
+        "olWork": "OL82537W",
+        "wikidata": "Q47209"
+      },
+      "screen": "Harry Potter and the Chamber of Secrets (2002)",
+      "screenId": "m:672",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Frankenstein; or, The Modern Prometheus",
+        "author": "Mary Shelley",
+        "olWork": "OL450063W",
+        "wikidata": "Q150827"
+      },
+      "screen": "Frankenstein (2025)",
+      "screenId": "m:1062722",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "King Lear",
+        "author": "William Shakespeare",
+        "olWork": "OL259026W",
+        "wikidata": "Q181598"
+      },
+      "screen": "Ran (1985)",
+      "screenId": "m:11645",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Shining",
+        "author": "Stephen King",
+        "olWork": "OL81633W",
+        "wikidata": "Q470937"
+      },
+      "screen": "The Shining (1980)",
+      "screenId": "m:694",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "It",
+        "author": "Stephen King",
+        "olWork": "OL81613W",
+        "wikidata": "Q602288"
+      },
+      "screen": "It (2017)",
+      "screenId": "m:346364",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Shutter Island",
+        "author": "Dennis Lehane",
+        "olWork": "OL17654868W",
+        "wikidata": "Q612511"
+      },
+      "screen": "Shutter Island (2010)",
+      "screenId": "m:11324",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Jurassic Park",
+        "author": "Michael Crichton",
+        "olWork": "OL46881W",
+        "wikidata": "Q756866"
+      },
+      "screen": "Jurassic Park (1993)",
+      "screenId": "m:329",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Fight Club",
+        "author": "Chuck Palahniuk",
+        "olWork": "OL18941W",
+        "wikidata": "Q837283"
+      },
+      "screen": "Fight Club (1999)",
+      "screenId": "m:550",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Roadside Picnic",
+        "author": "Arkady and Boris Strugatsky",
+        "olWork": "OL16465148W",
+        "wikidata": "Q848517"
+      },
+      "screen": "Stalker (1979)",
+      "screenId": "m:1398",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Silence of the Lambs",
+        "author": "Thomas Harris",
+        "olWork": "OL24376962M",
+        "wikidata": "Q897685"
+      },
+      "screen": "The Silence of the Lambs (1991)",
+      "screenId": "m:274",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Shrek!",
+        "author": "William Steig",
+        "olWork": "OL15152042W",
+        "wikidata": "Q920424"
+      },
+      "screen": "Shrek (2001)",
+      "screenId": "m:808",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "City of God",
+        "author": "Paulo Lins",
+        "olWork": "OL1756960W",
+        "wikidata": "Q946496"
+      },
+      "screen": "City of God (2002)",
+      "screenId": "m:598",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Double",
+        "author": "José Saramago",
+        "olWork": "OL7923009W",
+        "wikidata": "Q1192973"
+      },
+      "screen": "Enemy (2013)",
+      "screenId": "m:181886",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Scott Pilgrim",
+        "author": "Bryan Lee O'Malley",
+        "olWork": "OL17481869W",
+        "wikidata": "Q1199291"
+      },
+      "screen": "Scott Pilgrim vs. the World (2010)",
+      "screenId": "m:22538",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Psycho",
+        "author": "Robert Bloch",
+        "olWork": null,
+        "wikidata": "Q1275361"
+      },
+      "screen": "Psycho (1960)",
+      "screenId": "m:539",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Old Boy",
+        "author": "Garon Tsuchiya, Nobuaki Minegishi",
+        "olWork": null,
+        "wikidata": "Q1648035"
+      },
+      "screen": "Oldboy (2003)",
+      "screenId": "m:670",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Devil Wears Prada",
+        "author": "Lauren Weisberger",
+        "olWork": "OL15137662W",
+        "wikidata": "Q2037865"
+      },
+      "screen": "The Devil Wears Prada (2006)",
+      "screenId": "m:350",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Sentinel",
+        "author": "Arthur C. Clarke",
+        "olWork": null,
+        "wikidata": "Q2688051"
+      },
+      "screen": "2001: A Space Odyssey (1968)",
+      "screenId": "m:62",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "\"—All You Zombies—\"",
+        "author": "Robert A. Heinlein",
+        "olWork": null,
+        "wikidata": "Q4729912"
+      },
+      "screen": "Predestination (2014)",
+      "screenId": "m:206487",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Encounter in the Dawn",
+        "author": "Arthur C. Clarke",
+        "olWork": null,
+        "wikidata": "Q5375577"
+      },
+      "screen": "2001: A Space Odyssey (1968)",
+      "screenId": "m:62",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Oil!",
+        "author": "Upton Sinclair",
+        "olWork": "OL115071W",
+        "wikidata": "Q7081270"
+      },
+      "screen": "There Will Be Blood (2007)",
+      "screenId": "m:7345",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Queen Bees and Wannabes",
+        "author": "Rosalind Wiseman",
+        "olWork": "OL16035008W",
+        "wikidata": "Q7270232"
+      },
+      "screen": "Mean Girls (2004)",
+      "screenId": "m:10625",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Three-Ten to Yuma",
+        "author": "Elmore Leonard",
+        "olWork": null,
+        "wikidata": "Q7797235"
+      },
+      "screen": "3:10 to Yuma (2007)",
+      "screenId": "m:5176",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Catch Me If You Can",
+        "author": "Frank Abagnale, Jr.",
+        "olWork": "OL4494342W",
+        "wikidata": "Q12857422"
+      },
+      "screen": "Catch Me If You Can (2002)",
+      "screenId": "m:640",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Annihilation",
+        "author": "Jeff VanderMeer",
+        "olWork": "OL17268007W",
+        "wikidata": "Q16961640"
+      },
+      "screen": "Annihilation (2018)",
+      "screenId": "m:300668",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Wolf of Wall Street",
+        "author": "Jordan Belfort",
+        "olWork": "OL8383186W",
+        "wikidata": "Q19902843"
+      },
+      "screen": "The Wolf of Wall Street (2013)",
+      "screenId": "m:106646",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
         "title": "Dracula",
         "author": "Bram Stoker",
         "olWork": "OL85892W",
@@ -1250,12 +1250,6 @@
       "olKey": "OL18404A",
       "adaptedBy": [
         {
-          "director": "Christopher Nolan",
-          "films": [
-            "The Odyssey"
-          ]
-        },
-        {
           "director": "Joel Coen",
           "films": [
             "O Brother, Where Art Thou?"
@@ -1265,6 +1259,12 @@
           "director": "Ethan Coen",
           "films": [
             "O Brother, Where Art Thou?"
+          ]
+        },
+        {
+          "director": "Christopher Nolan",
+          "films": [
+            "The Odyssey"
           ]
         }
       ],
