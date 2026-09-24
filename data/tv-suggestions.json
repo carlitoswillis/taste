@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-23T14:15:06.007Z",
+  "generated": "2026-09-24T14:14:52.503Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -71,8 +71,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.758,
-      "votes": 1037,
+      "tmdbRating": 7.757,
+      "votes": 1039,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -108,7 +108,7 @@
       "title": "Jackass",
       "year": 2000,
       "tmdbId": 1795,
-      "tmdbRating": 6.7,
+      "tmdbRating": 6.748,
       "votes": 315,
       "score": 4,
       "rank": 4,
@@ -183,7 +183,7 @@
       "title": "50 States of Fright",
       "year": 2020,
       "tmdbId": 94251,
-      "tmdbRating": 7.192,
+      "tmdbRating": 7.212,
       "votes": 104,
       "score": 3.5200000000000005,
       "rank": 6,
@@ -288,8 +288,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.583,
-      "votes": 5496,
+      "tmdbRating": 8.584,
+      "votes": 5500,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -307,6 +307,7 @@
         "flatrate": [
           "Peacock Premium",
           "YouTube TV",
+          "TBS",
           "Peacock Premium Plus"
         ],
         "rent": []
@@ -362,8 +363,8 @@
       "title": "Twisted Metal",
       "year": 2023,
       "tmdbId": 133748,
-      "tmdbRating": 7.682,
-      "votes": 559,
+      "tmdbRating": 7.68,
+      "votes": 560,
       "score": 3.0400000000000005,
       "themes": [
         "identity"
@@ -435,7 +436,7 @@
       "title": "Butterfly",
       "year": 2025,
       "tmdbId": 227114,
-      "tmdbRating": 7.226,
+      "tmdbRating": 7.219,
       "votes": 146,
       "score": 3.0400000000000005,
       "rank": 13,
@@ -581,8 +582,8 @@
       "title": "Person of Interest",
       "year": 2011,
       "tmdbId": 1411,
-      "tmdbRating": 8.1,
-      "votes": 2165,
+      "tmdbRating": 8.096,
+      "votes": 2167,
       "score": 1.6500000000000001,
       "themes": [
         "surveillance"
@@ -622,7 +623,7 @@
       "year": 2018,
       "tmdbId": 73375,
       "tmdbRating": 7.683,
-      "votes": 1891,
+      "votes": 1892,
       "score": 1.92,
       "rank": 18,
       "creators": [
@@ -722,8 +723,8 @@
       "title": "Raised by Wolves",
       "year": 2020,
       "tmdbId": 85723,
-      "tmdbRating": 7.495,
-      "votes": 1852,
+      "tmdbRating": 7.497,
+      "votes": 1853,
       "score": 1.9200000000000004,
       "rank": 21,
       "creators": [
@@ -753,7 +754,7 @@
       "title": "Westworld",
       "year": 2016,
       "tmdbId": 63247,
-      "tmdbRating": 8.013,
+      "tmdbRating": 8.014,
       "votes": 6387,
       "score": 1.6500000000000001,
       "rank": 22,
@@ -785,8 +786,8 @@
       "title": "Dope Thief",
       "year": 2025,
       "tmdbId": 209876,
-      "tmdbRating": 6.507,
-      "votes": 134,
+      "tmdbRating": 6.496,
+      "votes": 135,
       "score": 1.9200000000000004,
       "rank": 23,
       "creators": [
