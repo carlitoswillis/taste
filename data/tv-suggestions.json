@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-24T14:14:52.503Z",
+  "generated": "2026-09-25T14:37:28.012Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -214,8 +214,8 @@
       "title": "ER",
       "year": 1994,
       "tmdbId": 4588,
-      "tmdbRating": 7.8,
-      "votes": 968,
+      "tmdbRating": 7.816,
+      "votes": 969,
       "score": 3.0400000000000005,
       "rank": 7,
       "creators": [
@@ -289,7 +289,7 @@
       "year": 2005,
       "tmdbId": 2316,
       "tmdbRating": 8.584,
-      "votes": 5500,
+      "votes": 5503,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -623,7 +623,7 @@
       "year": 2018,
       "tmdbId": 73375,
       "tmdbRating": 7.683,
-      "votes": 1892,
+      "votes": 1893,
       "score": 1.92,
       "rank": 18,
       "creators": [
@@ -754,8 +754,8 @@
       "title": "Westworld",
       "year": 2016,
       "tmdbId": 63247,
-      "tmdbRating": 8.014,
-      "votes": 6387,
+      "tmdbRating": 8.013,
+      "votes": 6388,
       "score": 1.6500000000000001,
       "rank": 22,
       "creators": [

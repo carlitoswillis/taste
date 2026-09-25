@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-24T14:15:10.589Z",
+  "generated": "2026-09-25T14:37:45.544Z",
   "basedOn": {
     "lovedFilms": 27,
     "ratedBooks": 0,
@@ -488,12 +488,12 @@
       "author": "Rick Riordan",
       "olWork": "OL492646W",
       "year": 2005,
-      "pages": 285,
+      "pages": 282,
       "cover": "https://covers.openlibrary.org/b/id/108909-M.jpg",
-      "editionCount": 83,
+      "editionCount": 84,
       "olRating": {
-        "average": 4.4569893,
-        "count": 186
+        "average": 4.4574466,
+        "count": 188
       },
       "weight": 0.76,
       "rankScore": 5.98,
