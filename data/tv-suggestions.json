@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-25T14:37:28.012Z",
+  "generated": "2026-09-26T13:46:22.085Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -71,8 +71,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.757,
-      "votes": 1039,
+      "tmdbRating": 7.759,
+      "votes": 1040,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -108,7 +108,7 @@
       "title": "Jackass",
       "year": 2000,
       "tmdbId": 1795,
-      "tmdbRating": 6.748,
+      "tmdbRating": 6.7,
       "votes": 315,
       "score": 4,
       "rank": 4,
@@ -289,7 +289,7 @@
       "year": 2005,
       "tmdbId": 2316,
       "tmdbRating": 8.584,
-      "votes": 5503,
+      "votes": 5505,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -324,7 +324,7 @@
       "year": 2020,
       "tmdbId": 85021,
       "tmdbRating": 7.81,
-      "votes": 715,
+      "votes": 717,
       "score": 2.7,
       "rank": 10,
       "creators": [
@@ -546,8 +546,8 @@
       "title": "Blue Mountain State",
       "year": 2010,
       "tmdbId": 31941,
-      "tmdbRating": 7.6,
-      "votes": 471,
+      "tmdbRating": 7.581,
+      "votes": 473,
       "score": 2.16,
       "rank": 16,
       "creators": [
@@ -582,8 +582,8 @@
       "title": "Person of Interest",
       "year": 2011,
       "tmdbId": 1411,
-      "tmdbRating": 8.096,
-      "votes": 2167,
+      "tmdbRating": 8.095,
+      "votes": 2168,
       "score": 1.6500000000000001,
       "themes": [
         "surveillance"
@@ -623,7 +623,7 @@
       "year": 2018,
       "tmdbId": 73375,
       "tmdbRating": 7.683,
-      "votes": 1893,
+      "votes": 1894,
       "score": 1.92,
       "rank": 18,
       "creators": [
@@ -723,8 +723,8 @@
       "title": "Raised by Wolves",
       "year": 2020,
       "tmdbId": 85723,
-      "tmdbRating": 7.497,
-      "votes": 1853,
+      "tmdbRating": 7.496,
+      "votes": 1855,
       "score": 1.9200000000000004,
       "rank": 21,
       "creators": [
@@ -755,7 +755,7 @@
       "year": 2016,
       "tmdbId": 63247,
       "tmdbRating": 8.013,
-      "votes": 6388,
+      "votes": 6393,
       "score": 1.6500000000000001,
       "rank": 22,
       "creators": [
