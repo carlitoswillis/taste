@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-26T13:46:22.085Z",
+  "generated": "2026-09-27T14:43:02.346Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -71,8 +71,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.759,
-      "votes": 1040,
+      "tmdbRating": 7.758,
+      "votes": 1042,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -108,8 +108,8 @@
       "title": "Jackass",
       "year": 2000,
       "tmdbId": 1795,
-      "tmdbRating": 6.7,
-      "votes": 315,
+      "tmdbRating": 6.8,
+      "votes": 316,
       "score": 4,
       "rank": 4,
       "creators": [
@@ -146,8 +146,8 @@
       "title": "The Eric Andre Show",
       "year": 2012,
       "tmdbId": 56590,
-      "tmdbRating": 7.886,
-      "votes": 176,
+      "tmdbRating": 7.9,
+      "votes": 177,
       "score": 3.0400000000000005,
       "themes": [
         "surveillance"
@@ -214,8 +214,8 @@
       "title": "ER",
       "year": 1994,
       "tmdbId": 4588,
-      "tmdbRating": 7.816,
-      "votes": 969,
+      "tmdbRating": 7.819,
+      "votes": 970,
       "score": 3.0400000000000005,
       "rank": 7,
       "creators": [
@@ -248,8 +248,8 @@
       "title": "CSI: Crime Scene Investigation",
       "year": 2000,
       "tmdbId": 1431,
-      "tmdbRating": 7.609,
-      "votes": 1436,
+      "tmdbRating": 7.607,
+      "votes": 1437,
       "score": 3.0400000000000005,
       "rank": 8,
       "creators": [
@@ -288,8 +288,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.584,
-      "votes": 5505,
+      "tmdbRating": 8.6,
+      "votes": 5508,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -363,8 +363,8 @@
       "title": "Twisted Metal",
       "year": 2023,
       "tmdbId": 133748,
-      "tmdbRating": 7.68,
-      "votes": 560,
+      "tmdbRating": 7.677,
+      "votes": 561,
       "score": 3.0400000000000005,
       "themes": [
         "identity"
@@ -471,8 +471,8 @@
       "title": "Mr. Pickles",
       "year": 2014,
       "tmdbId": 61593,
-      "tmdbRating": 8.136,
-      "votes": 872,
+      "tmdbRating": 8.139,
+      "votes": 873,
       "score": 2.16,
       "rank": 14,
       "creators": [
@@ -546,8 +546,8 @@
       "title": "Blue Mountain State",
       "year": 2010,
       "tmdbId": 31941,
-      "tmdbRating": 7.581,
-      "votes": 473,
+      "tmdbRating": 7.582,
+      "votes": 474,
       "score": 2.16,
       "rank": 16,
       "creators": [
@@ -583,7 +583,7 @@
       "year": 2011,
       "tmdbId": 1411,
       "tmdbRating": 8.095,
-      "votes": 2168,
+      "votes": 2171,
       "score": 1.6500000000000001,
       "themes": [
         "surveillance"
@@ -622,8 +622,8 @@
       "title": "Tom Clancy's Jack Ryan",
       "year": 2018,
       "tmdbId": 73375,
-      "tmdbRating": 7.683,
-      "votes": 1894,
+      "tmdbRating": 7.682,
+      "votes": 1897,
       "score": 1.92,
       "rank": 18,
       "creators": [
@@ -723,8 +723,8 @@
       "title": "Raised by Wolves",
       "year": 2020,
       "tmdbId": 85723,
-      "tmdbRating": 7.496,
-      "votes": 1855,
+      "tmdbRating": 7.495,
+      "votes": 1857,
       "score": 1.9200000000000004,
       "rank": 21,
       "creators": [
@@ -754,8 +754,8 @@
       "title": "Westworld",
       "year": 2016,
       "tmdbId": 63247,
-      "tmdbRating": 8.013,
-      "votes": 6393,
+      "tmdbRating": 8.012,
+      "votes": 6397,
       "score": 1.6500000000000001,
       "rank": 22,
       "creators": [
@@ -786,7 +786,7 @@
       "title": "Dope Thief",
       "year": 2025,
       "tmdbId": 209876,
-      "tmdbRating": 6.496,
+      "tmdbRating": 6.5,
       "votes": 135,
       "score": 1.9200000000000004,
       "rank": 23,
