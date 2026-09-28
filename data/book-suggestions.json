@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-27T14:43:21.625Z",
+  "generated": "2026-09-28T17:40:49.412Z",
   "basedOn": {
     "lovedFilms": 27,
     "ratedBooks": 0,
@@ -458,11 +458,11 @@
       "cover": "https://covers.openlibrary.org/b/id/11200092-M.jpg",
       "editionCount": 32,
       "olRating": {
-        "average": 4.5055556,
-        "count": 180
+        "average": 4.5163045,
+        "count": 184
       },
       "weight": 0.82,
-      "rankScore": 6.15,
+      "rankScore": 6.16,
       "why": "thriller on the page — you over-index on it in film · science fiction on the page — you over-index on it in film",
       "rank": 27
     },
@@ -473,7 +473,7 @@
       "year": 1996,
       "pages": 465,
       "cover": "https://covers.openlibrary.org/b/id/9334567-M.jpg",
-      "editionCount": 91,
+      "editionCount": 92,
       "olRating": {
         "average": 4.309091,
         "count": 110
