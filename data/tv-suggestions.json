@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-28T17:40:31.411Z",
+  "generated": "2026-09-29T15:49:23.825Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -72,7 +72,7 @@
       "year": 2023,
       "tmdbId": 154385,
       "tmdbRating": 7.757,
-      "votes": 1043,
+      "votes": 1045,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -214,7 +214,7 @@
       "title": "ER",
       "year": 1994,
       "tmdbId": 4588,
-      "tmdbRating": 7.818,
+      "tmdbRating": 7.8,
       "votes": 971,
       "score": 3.0400000000000005,
       "rank": 7,
@@ -248,7 +248,7 @@
       "title": "CSI: Crime Scene Investigation",
       "year": 2000,
       "tmdbId": 1431,
-      "tmdbRating": 7.606,
+      "tmdbRating": 7.6,
       "votes": 1438,
       "score": 3.0400000000000005,
       "rank": 8,
@@ -288,7 +288,7 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.582,
+      "tmdbRating": 8.6,
       "votes": 5517,
       "score": 2.5600000000000005,
       "rank": 9,
@@ -472,7 +472,7 @@
       "year": 2014,
       "tmdbId": 61593,
       "tmdbRating": 8.1,
-      "votes": 873,
+      "votes": 874,
       "score": 2.16,
       "rank": 14,
       "creators": [
@@ -582,7 +582,7 @@
       "title": "Person of Interest",
       "year": 2011,
       "tmdbId": 1411,
-      "tmdbRating": 8.095,
+      "tmdbRating": 8.1,
       "votes": 2172,
       "score": 1.6500000000000001,
       "themes": [
@@ -623,7 +623,7 @@
       "year": 2018,
       "tmdbId": 73375,
       "tmdbRating": 7.68,
-      "votes": 1899,
+      "votes": 1900,
       "score": 1.92,
       "rank": 18,
       "creators": [
@@ -724,7 +724,7 @@
       "year": 2020,
       "tmdbId": 85723,
       "tmdbRating": 7.495,
-      "votes": 1858,
+      "votes": 1857,
       "score": 1.9200000000000004,
       "rank": 21,
       "creators": [
@@ -754,8 +754,8 @@
       "title": "Westworld",
       "year": 2016,
       "tmdbId": 63247,
-      "tmdbRating": 8.012,
-      "votes": 6398,
+      "tmdbRating": 8.013,
+      "votes": 6402,
       "score": 1.6500000000000001,
       "rank": 22,
       "creators": [
