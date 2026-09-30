@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-29T15:49:23.825Z",
+  "generated": "2026-09-30T15:56:00.764Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -248,8 +248,8 @@
       "title": "CSI: Crime Scene Investigation",
       "year": 2000,
       "tmdbId": 1431,
-      "tmdbRating": 7.6,
-      "votes": 1438,
+      "tmdbRating": 7.605,
+      "votes": 1439,
       "score": 3.0400000000000005,
       "rank": 8,
       "creators": [
@@ -288,8 +288,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.6,
-      "votes": 5517,
+      "tmdbRating": 8.583,
+      "votes": 5519,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -622,8 +622,8 @@
       "title": "Tom Clancy's Jack Ryan",
       "year": 2018,
       "tmdbId": 73375,
-      "tmdbRating": 7.68,
-      "votes": 1900,
+      "tmdbRating": 7.679,
+      "votes": 1901,
       "score": 1.92,
       "rank": 18,
       "creators": [
@@ -723,7 +723,7 @@
       "title": "Raised by Wolves",
       "year": 2020,
       "tmdbId": 85723,
-      "tmdbRating": 7.495,
+      "tmdbRating": 7.5,
       "votes": 1857,
       "score": 1.9200000000000004,
       "rank": 21,
