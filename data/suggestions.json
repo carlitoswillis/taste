@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-01T16:26:03.408Z",
+  "generated": "2026-10-02T15:47:50.717Z",
   "basedOn": 27,
   "head": 12,
   "items": [
@@ -82,7 +82,7 @@
       "year": 1999,
       "tmdbId": 11660,
       "tmdbRating": 7.115,
-      "votes": 1980,
+      "votes": 1981,
       "score": 12.15,
       "themes": [
         "surveillance"
@@ -123,8 +123,8 @@
       "title": "Insomnia",
       "year": 2002,
       "tmdbId": 320,
-      "tmdbRating": 6.954,
-      "votes": 5557,
+      "tmdbRating": 6.955,
+      "votes": 5561,
       "score": 12.15,
       "rank": 4,
       "director": [
@@ -138,7 +138,10 @@
       ],
       "poster": "https://image.tmdb.org/t/p/w342/riVXh3EimGO0y5dgQxEWPRy5Itg.jpg",
       "providers": {
-        "flatrate": [],
+        "flatrate": [
+          "Apple TV",
+          "Apple TV Amazon Channel"
+        ],
         "rent": [
           "Amazon Video",
           "Apple TV Store",
@@ -199,7 +202,7 @@
       "year": 2010,
       "tmdbId": 44264,
       "tmdbRating": 7.304,
-      "votes": 5940,
+      "votes": 5941,
       "score": 9.000000000000002,
       "rank": 6,
       "director": [
@@ -281,7 +284,7 @@
       "year": 2018,
       "tmdbId": 375262,
       "tmdbRating": 7.479,
-      "votes": 6066,
+      "votes": 6068,
       "score": 7.020000000000001,
       "rank": 8,
       "director": [
@@ -344,7 +347,7 @@
       "year": 2017,
       "tmdbId": 387426,
       "tmdbRating": 7.322,
-      "votes": 4648,
+      "votes": 4649,
       "score": 5.700000000000001,
       "themes": [
         "doubling"
@@ -726,7 +729,7 @@
       "year": 2013,
       "tmdbId": 110415,
       "tmdbRating": 6.909,
-      "votes": 10720,
+      "votes": 10723,
       "score": 5.700000000000001,
       "rank": 20,
       "director": [
@@ -742,10 +745,7 @@
       "providers": {
         "flatrate": [
           "Hulu",
-          "Amazon Prime Video",
-          "Amazon Prime Video with Ads",
-          "MovieSphere+ Amazon Channel",
-          "Howdy Amazon Channel"
+          "Lionsgate+ Amazon Channel"
         ],
         "rent": [
           "Amazon Video",
@@ -949,7 +949,7 @@
       "year": 2013,
       "tmdbId": 49521,
       "tmdbRating": 6.661,
-      "votes": 16643,
+      "votes": 16645,
       "score": 4.86,
       "rank": 26,
       "director": [
@@ -1123,8 +1123,8 @@
       "title": "Kill Bill: The Whole Bloody Affair",
       "year": 2011,
       "tmdbId": 414419,
-      "tmdbRating": 8.1,
-      "votes": 1435,
+      "tmdbRating": 8.108,
+      "votes": 1436,
       "score": 3.8000000000000003,
       "rank": 31,
       "director": [
@@ -1139,7 +1139,10 @@
       ],
       "poster": "https://image.tmdb.org/t/p/w342/nSOJfWJCdVFZQwXQA7RXn7FIIiY.jpg",
       "providers": {
-        "flatrate": [],
+        "flatrate": [
+          "Lionsgate+ Amazon Channel",
+          "MovieSphere+ Amazon Channel"
+        ],
         "rent": [
           "Amazon Video",
           "Apple TV Store",
@@ -1189,8 +1192,8 @@
       "title": "Kill Bill: Vol. 2",
       "year": 2004,
       "tmdbId": 393,
-      "tmdbRating": 7.873,
-      "votes": 15486,
+      "tmdbRating": 7.874,
+      "votes": 15491,
       "score": 3.8000000000000003,
       "rank": 33,
       "director": [
@@ -1228,7 +1231,7 @@
       "year": 2015,
       "tmdbId": 273248,
       "tmdbRating": 7.755,
-      "votes": 15658,
+      "votes": 15663,
       "score": 3.8000000000000003,
       "rank": 34,
       "director": [
@@ -1264,7 +1267,7 @@
       "year": 1997,
       "tmdbId": 184,
       "tmdbRating": 7.359,
-      "votes": 7146,
+      "votes": 7148,
       "score": 3.8000000000000003,
       "rank": 35,
       "director": [
@@ -1445,13 +1448,13 @@
       "title": "Haunt",
       "year": 2019,
       "tmdbId": 517116,
-      "tmdbRating": 6.7,
-      "votes": 1426,
+      "tmdbRating": 6.665,
+      "votes": 1427,
       "score": 3.5200000000000005,
       "rank": 40,
       "director": [
-        "Bryan Woods",
-        "Scott Beck"
+        "Scott Beck",
+        "Bryan Woods"
       ],
       "runtime": 93,
       "genres": [
@@ -1460,7 +1463,11 @@
       ],
       "poster": "https://image.tmdb.org/t/p/w342/haQSrjFlq30I60UVN1VsB6uRwKM.jpg",
       "providers": {
-        "flatrate": [],
+        "flatrate": [
+          "Philo",
+          "AMC+ Amazon Channel",
+          "Lionsgate+ Amazon Channel"
+        ],
         "rent": [
           "Amazon Video",
           "Apple TV Store",
@@ -1516,7 +1523,7 @@
       "year": 2021,
       "tmdbId": 617653,
       "tmdbRating": 7.396,
-      "votes": 4026,
+      "votes": 4028,
       "score": 3.3000000000000003,
       "rank": 42,
       "director": [
@@ -1549,8 +1556,8 @@
       "title": "The Boogeyman",
       "year": 2023,
       "tmdbId": 532408,
-      "tmdbRating": 6.372,
-      "votes": 1183,
+      "tmdbRating": 6.4,
+      "votes": 1184,
       "score": 3.5200000000000005,
       "rank": 43,
       "director": [
@@ -1579,8 +1586,8 @@
       "title": "Promised Land",
       "year": 2012,
       "tmdbId": 133694,
-      "tmdbRating": 6.3,
-      "votes": 765,
+      "tmdbRating": 6.298,
+      "votes": 766,
       "score": 3.4600000000000004,
       "rank": 44,
       "director": [
@@ -1643,8 +1650,8 @@
       "title": "IF",
       "year": 2024,
       "tmdbId": 639720,
-      "tmdbRating": 6.9,
-      "votes": 1701,
+      "tmdbRating": 6.937,
+      "votes": 1702,
       "score": 3.2,
       "rank": 46,
       "director": [
@@ -1713,8 +1720,8 @@
       "title": "Thelma & Louise",
       "year": 1991,
       "tmdbId": 1541,
-      "tmdbRating": 7.596,
-      "votes": 4014,
+      "tmdbRating": 7.6,
+      "votes": 4015,
       "score": 2.4000000000000004,
       "themes": [
         "surveillance"
@@ -1733,10 +1740,11 @@
       "providers": {
         "flatrate": [
           "Hulu",
-          "MGM+ Amazon Channel",
+          "Amazon Prime Video",
           "Philo",
           "MGM Plus Roku Premium Channel",
-          "MGM Plus"
+          "MGM Plus",
+          "Amazon Prime Video with Ads"
         ],
         "rent": [
           "Amazon Video",
@@ -1754,7 +1762,7 @@
       "year": 2007,
       "tmdbId": 4982,
       "tmdbRating": 7.594,
-      "votes": 6264,
+      "votes": 6266,
       "score": 2.4000000000000004,
       "themes": [
         "surveillance"
@@ -1771,10 +1779,13 @@
       "poster": "https://image.tmdb.org/t/p/w342/sX9idXDqRUxE5ffww3n3RV5gL55.jpg",
       "providers": {
         "flatrate": [
+          "Apple TV",
+          "MGM+ Amazon Channel",
           "MGM Plus Roku Premium Channel",
           "YouTube TV",
           "MGM Plus",
-          "Starz Apple TV channel"
+          "Starz Apple TV channel",
+          "Apple TV Amazon Channel"
         ],
         "rent": [
           "Amazon Video",
@@ -1787,13 +1798,49 @@
       "why": "Ridley Scott directed this — you rated Prometheus 4.5★ · themes: watched & watching"
     },
     {
+      "title": "Birdman or (The Unexpected Virtue of Ignorance)",
+      "year": 2014,
+      "tmdbId": 194662,
+      "tmdbRating": 7.436,
+      "votes": 13870,
+      "score": 0.8999999999999999,
+      "themes": [
+        "cruel-comedy",
+        "doubling"
+      ],
+      "rank": 50,
+      "director": [
+        "Alejandro G. Iñárritu"
+      ],
+      "runtime": 120,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/rHUg2AuIuLSIYMYFgavVwqt1jtc.jpg",
+      "providers": {
+        "flatrate": [
+          "HBO Max Amazon Channel",
+          "HBO Max"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Emma Stone stars in this — you rated Poor Things 4.5★, Bugonia 4.5★ · themes: comedy that's actually cruel, doubling & doppelgangers"
+    },
+    {
       "title": "The Raid 2",
       "year": 2014,
       "tmdbId": 180299,
-      "tmdbRating": 7.616,
+      "tmdbRating": 7.6,
       "votes": 2702,
       "score": 2.7,
-      "rank": 50,
+      "rank": 51,
       "director": [
         "Gareth Evans"
       ],
@@ -1820,46 +1867,10 @@
       "why": "Gareth Evans wrote and directed this — you rated Apostle 4★"
     },
     {
-      "title": "Birdman or (The Unexpected Virtue of Ignorance)",
-      "year": 2014,
-      "tmdbId": 194662,
-      "tmdbRating": 7.436,
-      "votes": 13867,
-      "score": 0.8999999999999999,
-      "themes": [
-        "cruel-comedy",
-        "doubling"
-      ],
-      "rank": 51,
-      "director": [
-        "Alejandro G. Iñárritu"
-      ],
-      "runtime": 120,
-      "genres": [
-        "Drama",
-        "Comedy"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/rHUg2AuIuLSIYMYFgavVwqt1jtc.jpg",
-      "providers": {
-        "flatrate": [
-          "HBO Max Amazon Channel",
-          "HBO Max"
-        ],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
-          "Fandango At Home"
-        ]
-      },
-      "why": "Emma Stone stars in this — you rated Poor Things 4.5★, Bugonia 4.5★ · themes: comedy that's actually cruel, doubling & doppelgangers"
-    },
-    {
       "title": "The Raid",
       "year": 2012,
       "tmdbId": 94329,
-      "tmdbRating": 7.411,
+      "tmdbRating": 7.4,
       "votes": 4051,
       "score": 2.7,
       "rank": 52,
@@ -1894,7 +1905,7 @@
       "year": 1981,
       "tmdbId": 8810,
       "tmdbRating": 7.39,
-      "votes": 4332,
+      "votes": 4333,
       "score": 2.7,
       "rank": 53,
       "director": [
@@ -1924,8 +1935,8 @@
       "title": "Lorenzo's Oil",
       "year": 1992,
       "tmdbId": 2007,
-      "tmdbRating": 7.105,
-      "votes": 588,
+      "tmdbRating": 7.107,
+      "votes": 589,
       "score": 2.7,
       "rank": 54,
       "director": [
@@ -1984,7 +1995,7 @@
       "year": 1982,
       "tmdbId": 78,
       "tmdbRating": 7.936,
-      "votes": 15458,
+      "votes": 15462,
       "score": 2.4000000000000004,
       "rank": 56,
       "director": [
@@ -2013,7 +2024,7 @@
       "year": 1979,
       "tmdbId": 9659,
       "tmdbRating": 6.681,
-      "votes": 5130,
+      "votes": 5132,
       "score": 2.7,
       "rank": 57,
       "director": [
@@ -2167,18 +2178,18 @@
       "title": "V/H/S/2",
       "year": 2013,
       "tmdbId": 159117,
-      "tmdbRating": 6.2,
-      "votes": 1240,
+      "tmdbRating": 6.214,
+      "votes": 1241,
       "score": 2.7,
       "rank": 62,
       "director": [
-        "Eduardo Sánchez",
-        "Timo Tjahjanto",
-        "Gareth Evans",
+        "Adam Wingard",
         "Gregg Hale",
+        "Eduardo Sánchez",
         "Simon Barrett",
+        "Timo Tjahjanto",
         "Jason Eisener",
-        "Adam Wingard"
+        "Gareth Evans"
       ],
       "runtime": 96,
       "genres": [
@@ -2206,7 +2217,7 @@
       "year": 2021,
       "tmdbId": 337404,
       "tmdbRating": 7.964,
-      "votes": 10337,
+      "votes": 10341,
       "score": 2.22,
       "rank": 63,
       "director": [
@@ -2252,7 +2263,8 @@
       "poster": "https://image.tmdb.org/t/p/w342/58Y4CjcRX8AtMNtI0AXu9H7iebP.jpg",
       "providers": {
         "flatrate": [
-          "Netflix"
+          "Hulu",
+          "Sony Pictures Core Amazon Channel"
         ],
         "rent": [
           "Amazon Video",
@@ -2354,7 +2366,6 @@
       "poster": "https://image.tmdb.org/t/p/w342/mM58ABMRzwn5zVx6BS7IiNK0j3F.jpg",
       "providers": {
         "flatrate": [
-          "MGM+ Amazon Channel",
           "Philo",
           "MGM Plus Roku Premium Channel",
           "MGM Plus"
@@ -2433,7 +2444,7 @@
       "year": 1999,
       "tmdbId": 1832,
       "tmdbRating": 6.944,
-      "votes": 2983,
+      "votes": 2984,
       "score": 0.8999999999999999,
       "themes": [
         "cruel-comedy"
@@ -2450,7 +2461,9 @@
       ],
       "poster": "https://image.tmdb.org/t/p/w342/oxhHl2YokTqcP44QK5tiTgjgLgk.jpg",
       "providers": {
-        "flatrate": [],
+        "flatrate": [
+          "MovieSphere+ Amazon Channel"
+        ],
         "rent": [
           "Amazon Video",
           "Apple TV Store",
@@ -2466,8 +2479,8 @@
       "title": "Contagion",
       "year": 2011,
       "tmdbId": 39538,
-      "tmdbRating": 6.655,
-      "votes": 6737,
+      "tmdbRating": 6.656,
+      "votes": 6739,
       "score": 0.8999999999999999,
       "themes": [
         "body-horror"
@@ -2536,7 +2549,7 @@
       "year": 2016,
       "tmdbId": 311324,
       "tmdbRating": 6.035,
-      "votes": 5689,
+      "votes": 5691,
       "score": 1.65,
       "rank": 73,
       "director": [
@@ -2569,7 +2582,7 @@
       "year": 2013,
       "tmdbId": 54138,
       "tmdbRating": 7.321,
-      "votes": 9897,
+      "votes": 9899,
       "score": 1.3200000000000003,
       "rank": 74,
       "director": [
@@ -2586,10 +2599,8 @@
         "flatrate": [
           "Paramount Plus Premium",
           "Paramount Plus Essential",
-          "Peacock Premium",
           "Paramount+ Amazon Channel",
-          "Paramount+ Roku Premium Channel",
-          "Peacock Premium Plus"
+          "Paramount+ Roku Premium Channel"
         ],
         "rent": [
           "Amazon Video",
@@ -2645,7 +2656,7 @@
       "year": 2011,
       "tmdbId": 50014,
       "tmdbRating": 8.207,
-      "votes": 9301,
+      "votes": 9304,
       "score": 0.8999999999999999,
       "rank": 76,
       "director": [
@@ -2658,9 +2669,10 @@
       "poster": "https://image.tmdb.org/t/p/w342/3kmfoWWEc9Vtyuaf9v5VipRgdjx.jpg",
       "providers": {
         "flatrate": [
-          "fuboTV",
+          "Amazon Prime Video",
           "YouTube TV",
-          "FXNow"
+          "FXNow",
+          "Amazon Prime Video with Ads"
         ],
         "rent": [
           "Amazon Video",
@@ -2677,7 +2689,7 @@
       "year": 1997,
       "tmdbId": 489,
       "tmdbRating": 8.165,
-      "votes": 14363,
+      "votes": 14368,
       "score": 0.8999999999999999,
       "rank": 77,
       "director": [
@@ -2690,13 +2702,14 @@
       "poster": "https://image.tmdb.org/t/p/w342/z2FnLKpFi1HPO7BEJxdkv6hpJSU.jpg",
       "providers": {
         "flatrate": [
-          "MGM+ Amazon Channel",
+          "Apple TV",
           "Paramount Plus Premium",
           "Paramount Plus Essential",
           "Philo",
           "Paramount+ Amazon Channel",
           "MGM Plus",
-          "Paramount+ Roku Premium Channel"
+          "Paramount+ Roku Premium Channel",
+          "Apple TV Amazon Channel"
         ],
         "rent": [
           "JustWatch TV",
@@ -2749,7 +2762,7 @@
       "year": 2015,
       "tmdbId": 158852,
       "tmdbRating": 6.311,
-      "votes": 7521,
+      "votes": 7522,
       "score": 1.3200000000000003,
       "rank": 79,
       "director": [
@@ -2816,7 +2829,7 @@
       "year": 2016,
       "tmdbId": 313369,
       "tmdbRating": 7.895,
-      "votes": 18536,
+      "votes": 18542,
       "score": 0.8999999999999999,
       "rank": 81,
       "director": [
@@ -2980,7 +2993,7 @@
       "year": 2011,
       "tmdbId": 50646,
       "tmdbRating": 7.278,
-      "votes": 9541,
+      "votes": 9546,
       "score": 0.8999999999999999,
       "rank": 86,
       "director": [
@@ -3014,8 +3027,8 @@
       "title": "Platoon",
       "year": 1986,
       "tmdbId": 792,
-      "tmdbRating": 7.748,
-      "votes": 5306,
+      "tmdbRating": 7.747,
+      "votes": 5309,
       "score": 0.75,
       "rank": 87,
       "director": [
@@ -3052,8 +3065,8 @@
       "title": "Remember Me",
       "year": 2010,
       "tmdbId": 23169,
-      "tmdbRating": 7.1,
-      "votes": 3811,
+      "tmdbRating": 7.098,
+      "votes": 3812,
       "score": 0.8999999999999999,
       "rank": 88,
       "director": [
@@ -3067,10 +3080,8 @@
       "poster": "https://image.tmdb.org/t/p/w342/j7umuMiLCHvWT7wYhFKJOTFSokF.jpg",
       "providers": {
         "flatrate": [
-          "Amazon Prime Video",
           "Peacock Premium",
           "Lionsgate+ Amazon Channel",
-          "Amazon Prime Video with Ads",
           "Peacock Premium Plus"
         ],
         "rent": [
@@ -3088,7 +3099,7 @@
       "year": 1988,
       "tmdbId": 1632,
       "tmdbRating": 7.677,
-      "votes": 2032,
+      "votes": 2033,
       "score": 0.75,
       "rank": 89,
       "director": [
@@ -3106,6 +3117,7 @@
         "flatrate": [
           "fuboTV",
           "MGM+ Amazon Channel",
+          "Philo",
           "MGM Plus Roku Premium Channel",
           "MGM Plus"
         ],
@@ -3138,7 +3150,11 @@
       "poster": "https://image.tmdb.org/t/p/w342/la6QA9tk4Foq8OBH2Dyh5dTcw6H.jpg",
       "providers": {
         "flatrate": [
-          "Hulu"
+          "Hulu",
+          "HBO Max Amazon Channel",
+          "Peacock Premium",
+          "HBO Max",
+          "Peacock Premium Plus"
         ],
         "rent": [
           "Amazon Video",
@@ -3252,7 +3268,7 @@
       "year": 1997,
       "tmdbId": 1813,
       "tmdbRating": 7.482,
-      "votes": 7075,
+      "votes": 7078,
       "score": 0.75,
       "rank": 94,
       "director": [
@@ -3266,7 +3282,9 @@
       ],
       "poster": "https://image.tmdb.org/t/p/w342/5ZzBGpxy55OQzHxKVY11IpY6a0o.jpg",
       "providers": {
-        "flatrate": [],
+        "flatrate": [
+          "Philo"
+        ],
         "rent": [
           "Amazon Video",
           "Apple TV Store",
@@ -3283,7 +3301,7 @@
       "year": 2006,
       "tmdbId": 388,
       "tmdbRating": 7.409,
-      "votes": 6589,
+      "votes": 6592,
       "score": 0.75,
       "rank": 95,
       "director": [
@@ -3312,7 +3330,7 @@
       "title": "North Country",
       "year": 2005,
       "tmdbId": 9701,
-      "tmdbRating": 7.257,
+      "tmdbRating": 7.3,
       "votes": 760,
       "score": 0.75,
       "rank": 96,
@@ -3470,8 +3488,8 @@
       "title": "Perfect Blue",
       "year": 1998,
       "tmdbId": 10494,
-      "tmdbRating": 8.3,
-      "votes": 3376,
+      "tmdbRating": 8.305,
+      "votes": 3378,
       "theme": "unravelling",
       "why": "unravelling — the thread through 3 of your loved films",
       "director": [
@@ -3501,8 +3519,8 @@
       "title": "Modern Times",
       "year": 1936,
       "tmdbId": 3082,
-      "tmdbRating": 8.3,
-      "votes": 4208,
+      "tmdbRating": 8.281,
+      "votes": 4209,
       "theme": "unravelling",
       "why": "unravelling — the thread through 3 of your loved films",
       "director": [
@@ -3521,7 +3539,6 @@
           "HBO Max Amazon Channel",
           "YouTube TV",
           "Criterion Channel",
-          "TCM",
           "HBO Max",
           "Amazon Prime Video with Ads"
         ],
@@ -3537,7 +3554,7 @@
       "year": 1950,
       "tmdbId": 599,
       "tmdbRating": 8.274,
-      "votes": 3042,
+      "votes": 3044,
       "theme": "unravelling",
       "why": "unravelling — the thread through 3 of your loved films",
       "director": [
@@ -3550,6 +3567,8 @@
       "poster": "https://image.tmdb.org/t/p/w342/zt8aQ6ksqK6p1AopC5zVTDS9pKT.jpg",
       "providers": {
         "flatrate": [
+          "MGM+ Amazon Channel",
+          "MGM Plus Roku Premium Channel",
           "Kanopy",
           "MGM Plus"
         ],
@@ -3664,7 +3683,7 @@
       "year": 1997,
       "tmdbId": 637,
       "tmdbRating": 8.436,
-      "votes": 14279,
+      "votes": 14282,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 2 of your loved films",
       "director": [
@@ -3701,8 +3720,8 @@
       "title": "The Great Dictator",
       "year": 1940,
       "tmdbId": 914,
-      "tmdbRating": 8.3,
-      "votes": 3818,
+      "tmdbRating": 8.284,
+      "votes": 3819,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 2 of your loved films",
       "director": [
@@ -3736,8 +3755,8 @@
       "title": "I Swear",
       "year": 2025,
       "tmdbId": 1317149,
-      "tmdbRating": 8.273,
-      "votes": 591,
+      "tmdbRating": 8.276,
+      "votes": 596,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 2 of your loved films",
       "director": [
@@ -3796,8 +3815,8 @@
       "title": "Incendies",
       "year": 2010,
       "tmdbId": 46738,
-      "tmdbRating": 8.105,
-      "votes": 3494,
+      "tmdbRating": 8.104,
+      "votes": 3495,
       "theme": "doubling",
       "why": "doubling — the thread through 2 of your loved films",
       "director": [
@@ -3843,7 +3862,6 @@
         "flatrate": [
           "HBO Max Amazon Channel",
           "Criterion Channel",
-          "TCM",
           "HBO Max"
         ],
         "rent": [
@@ -3857,8 +3875,8 @@
       "title": "The Thing",
       "year": 1982,
       "tmdbId": 1091,
-      "tmdbRating": 8.1,
-      "votes": 8297,
+      "tmdbRating": 8.075,
+      "votes": 8302,
       "theme": "body-horror",
       "why": "body-horror — the thread through 2 of your loved films",
       "director": [
@@ -3874,7 +3892,10 @@
       "providers": {
         "flatrate": [
           "Amazon Prime Video",
+          "Philo",
+          "AMC+ Amazon Channel",
           "AMC+ Roku Premium Channel",
+          "AMC",
           "Amazon Prime Video with Ads"
         ],
         "rent": [
@@ -3891,7 +3912,7 @@
       "year": 2018,
       "tmdbId": 503314,
       "tmdbRating": 7.964,
-      "votes": 3278,
+      "votes": 3279,
       "theme": "body-horror",
       "why": "body-horror — the thread through 2 of your loved films",
       "director": [
@@ -3922,8 +3943,8 @@
       "title": "Akira",
       "year": 1988,
       "tmdbId": 149,
-      "tmdbRating": 7.94,
-      "votes": 5039,
+      "tmdbRating": 7.939,
+      "votes": 5041,
       "theme": "body-horror",
       "why": "body-horror — the thread through 2 of your loved films",
       "director": [
