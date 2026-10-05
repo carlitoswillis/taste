@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-04T14:48:52.248Z",
+  "generated": "2026-10-05T18:25:20.344Z",
   "basedOn": 27,
   "head": 10,
   "items": [
@@ -289,7 +289,7 @@
       "year": 2005,
       "tmdbId": 2316,
       "tmdbRating": 8.584,
-      "votes": 5531,
+      "votes": 5533,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -324,7 +324,7 @@
       "year": 2020,
       "tmdbId": 85021,
       "tmdbRating": 7.805,
-      "votes": 719,
+      "votes": 720,
       "score": 2.7,
       "rank": 10,
       "creators": [
@@ -506,8 +506,8 @@
       "title": "Moral Orel",
       "year": 2005,
       "tmdbId": 292,
-      "tmdbRating": 8,
-      "votes": 108,
+      "tmdbRating": 7.972,
+      "votes": 109,
       "score": 1.1,
       "themes": [
         "cruel-comedy"
@@ -581,8 +581,8 @@
       "title": "Person of Interest",
       "year": 2011,
       "tmdbId": 1411,
-      "tmdbRating": 8.098,
-      "votes": 2180,
+      "tmdbRating": 8.099,
+      "votes": 2181,
       "score": 1.6500000000000001,
       "themes": [
         "surveillance"
@@ -618,13 +618,45 @@
       "why": "Jonathan Nolan created this (wrote The Prestige 4.5★) · themes: watched & watching"
     },
     {
+      "title": "Faking It",
+      "year": 2014,
+      "tmdbId": 60705,
+      "tmdbRating": 6.723,
+      "votes": 173,
+      "score": 2.16,
+      "rank": 18,
+      "creators": [
+        "Dana Goodman",
+        "Julia Lea Wolov"
+      ],
+      "seasons": 3,
+      "episodes": 38,
+      "episodeRuntime": 22,
+      "showStatus": "Canceled",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/vb9J7q977HB3AmvLETpmWIyIyTP.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": []
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 7.3
+      },
+      "why": "Drew Hancock wrote for this (directed Companion 4★)"
+    },
+    {
       "title": "Tom Clancy's Jack Ryan",
       "year": 2018,
       "tmdbId": 73375,
       "tmdbRating": 7.678,
       "votes": 1906,
       "score": 1.92,
-      "rank": 18,
+      "rank": 19,
       "creators": [
         "Graham Roland",
         "Carlton Cuse"
@@ -659,7 +691,7 @@
       "tmdbRating": 6.7,
       "votes": 236,
       "score": 2.16,
-      "rank": 19,
+      "rank": 20,
       "creators": [
         "Emily Kapnek"
       ],
@@ -683,38 +715,6 @@
         "rt": null,
         "metacritic": null,
         "imdb": 7.2
-      },
-      "why": "Drew Hancock wrote for this (directed Companion 4★)"
-    },
-    {
-      "title": "Faking It",
-      "year": 2014,
-      "tmdbId": 60705,
-      "tmdbRating": 6.7,
-      "votes": 172,
-      "score": 2.16,
-      "rank": 20,
-      "creators": [
-        "Dana Goodman",
-        "Julia Lea Wolov"
-      ],
-      "seasons": 3,
-      "episodes": 38,
-      "episodeRuntime": 22,
-      "showStatus": "Canceled",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/vb9J7q977HB3AmvLETpmWIyIyTP.jpg",
-      "providers": {
-        "flatrate": [],
-        "rent": []
-      },
-      "scores": {
-        "rt": null,
-        "metacritic": null,
-        "imdb": 7.3
       },
       "why": "Drew Hancock wrote for this (directed Companion 4★)"
     },

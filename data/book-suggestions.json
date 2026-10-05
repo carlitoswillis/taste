@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-04T14:49:11.727Z",
+  "generated": "2026-10-05T18:25:37.667Z",
   "basedOn": {
     "lovedFilms": 27,
     "ratedBooks": 0,
@@ -501,6 +501,23 @@
       "rank": 29
     },
     {
+      "title": "The Shining",
+      "author": "Stephen King",
+      "olWork": "OL81633W",
+      "year": 1977,
+      "pages": 506,
+      "cover": "https://covers.openlibrary.org/b/id/12376585-M.jpg",
+      "editionCount": 97,
+      "olRating": {
+        "average": 4.173611,
+        "count": 288
+      },
+      "weight": 0.88,
+      "rankScore": 5.93,
+      "why": "thriller on the page — you over-index on it in film · horror on the page — you over-index on it in film",
+      "rank": 30
+    },
+    {
       "title": "Watchmen",
       "author": "Alan Moore",
       "olWork": "OL2897798W",
@@ -515,7 +532,7 @@
       "weight": 0.66,
       "rankScore": 5.79,
       "why": "science fiction on the page — you over-index on it in film · fantasy on the page — you over-index on it in film",
-      "rank": 30
+      "rank": 31
     },
     {
       "title": "The Complete Sherlock Holmes [4 novels, 56 stories]",
@@ -532,7 +549,7 @@
       "weight": 0.46,
       "rankScore": 5.43,
       "why": "thriller on the page — you over-index on it in film",
-      "rank": 31
+      "rank": 32
     },
     {
       "title": "The Silver Eyes (Five Nights At Freddy's #1)",
@@ -549,7 +566,7 @@
       "weight": 0.42,
       "rankScore": 5.43,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 32
+      "rank": 33
     },
     {
       "title": "Season of Mists",
@@ -566,7 +583,7 @@
       "weight": 0.42,
       "rankScore": 5.38,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 33
+      "rank": 34
     },
     {
       "title": "Maus I",
@@ -583,7 +600,7 @@
       "weight": 0.42,
       "rankScore": 5.33,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 34
+      "rank": 35
     },
     {
       "title": "Feet of Clay",
@@ -600,7 +617,7 @@
       "weight": 0.42,
       "rankScore": 5.31,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 35
+      "rank": 36
     },
     {
       "title": "The Throne of Fire",
@@ -617,7 +634,7 @@
       "weight": 0.36,
       "rankScore": 5.31,
       "why": "science fiction on the page — you over-index on it in film",
-      "rank": 36
+      "rank": 37
     },
     {
       "title": "The Raven",
@@ -634,7 +651,7 @@
       "weight": 0.42,
       "rankScore": 5.3,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 37
+      "rank": 38
     },
     {
       "title": "Percy Jackson's Greek Gods",
@@ -651,7 +668,7 @@
       "weight": 0.3,
       "rankScore": 5.3,
       "why": "fantasy on the page — you over-index on it in film",
-      "rank": 38
+      "rank": 39
     },
     {
       "title": "Words of Radiance",
@@ -667,23 +684,6 @@
       },
       "weight": 0.3,
       "rankScore": 5.29,
-      "why": "fantasy on the page — you over-index on it in film",
-      "rank": 39
-    },
-    {
-      "title": "Keeper of the Lost Cities",
-      "author": "Shannon Messenger",
-      "olWork": "OL16361049W",
-      "year": 2012,
-      "pages": 512,
-      "cover": "https://covers.openlibrary.org/b/id/9320507-M.jpg",
-      "editionCount": 23,
-      "olRating": {
-        "average": 4.677419,
-        "count": 62
-      },
-      "weight": 0.3,
-      "rankScore": 5.28,
       "why": "fantasy on the page — you over-index on it in film",
       "rank": 40
     }
