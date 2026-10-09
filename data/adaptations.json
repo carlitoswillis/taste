@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-08T16:27:03.009Z",
+  "generated": "2026-10-09T02:59:22.754Z",
   "edges": [
     {
       "book": {
@@ -68,19 +68,6 @@
     },
     {
       "book": {
-        "title": "The Orchid Thief",
-        "author": "Susan Orlean",
-        "olWork": "OL14860220W",
-        "wikidata": "Q7755297"
-      },
-      "screen": "Adaptation. (2002)",
-      "screenId": "m:2757",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
         "title": "American Prometheus",
         "author": "Martin J. Sherwin, Kai Bird",
         "olWork": "OL1905682W",
@@ -88,6 +75,19 @@
       },
       "screen": "Oppenheimer (2023)",
       "screenId": "m:872585",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Orchid Thief",
+        "author": "Susan Orlean",
+        "olWork": "OL14860220W",
+        "wikidata": "Q7755297"
+      },
+      "screen": "Adaptation. (2002)",
+      "screenId": "m:2757",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -127,19 +127,6 @@
       },
       "screen": "The Hunger Games (2012)",
       "screenId": "m:70160",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Odyssey",
-        "author": "Homer",
-        "olWork": "OL61982W",
-        "wikidata": "Q35160"
-      },
-      "screen": "O Brother, Where Art Thou? (2000)",
-      "screenId": "m:134",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -393,19 +380,6 @@
     },
     {
       "book": {
-        "title": "\"—All You Zombies—\"",
-        "author": "Robert A. Heinlein",
-        "olWork": null,
-        "wikidata": "Q4729912"
-      },
-      "screen": "Predestination (2014)",
-      "screenId": "m:206487",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
         "title": "Encounter in the Dawn",
         "author": "Arthur C. Clarke",
         "olWork": null,
@@ -517,6 +491,19 @@
       },
       "screen": "World War Z (2013)",
       "screenId": "m:72190",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Odyssey",
+        "author": "Homer",
+        "olWork": "OL61982W",
+        "wikidata": "Q35160"
+      },
+      "screen": "O Brother, Where Art Thou? (2000)",
+      "screenId": "m:134",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -744,6 +731,19 @@
     },
     {
       "book": {
+        "title": "\"—All You Zombies—\"",
+        "author": "Robert A. Heinlein",
+        "olWork": null,
+        "wikidata": "Q4729912"
+      },
+      "screen": "Predestination (2014)",
+      "screenId": "m:206487",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
         "title": "Gone Girl",
         "author": "Gillian Flynn",
         "olWork": "OL35889560M",
@@ -913,19 +913,6 @@
     },
     {
       "book": {
-        "title": "Uglies",
-        "author": "Scott Westerfeld",
-        "olWork": "OL547172W",
-        "wikidata": "Q543375"
-      },
-      "screen": "Uglies (2024)",
-      "screenId": "m:748167",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
         "title": "Sir Gawain and the Green Knight",
         "author": "Pearl poet",
         "olWork": "OL18568727W",
@@ -933,6 +920,19 @@
       },
       "screen": "The Green Knight (2021)",
       "screenId": "m:559907",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Hellblazer",
+        "author": "Alan Moore, Garth Ennis, Jamie Delano",
+        "olWork": null,
+        "wikidata": "Q1035139"
+      },
+      "screen": "Constantine (2005)",
+      "screenId": "m:561",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -1043,6 +1043,19 @@
     },
     {
       "book": {
+        "title": "The Gray Man",
+        "author": "Mark Greaney",
+        "olWork": null,
+        "wikidata": "Q28419642"
+      },
+      "screen": "The Gray Man (2022)",
+      "screenId": "m:725201",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
         "title": "Conclave",
         "author": "Robert Harris",
         "olWork": "OL20085470W",
@@ -1108,19 +1121,6 @@
     },
     {
       "book": {
-        "title": "Mickey7",
-        "author": "Edward Ashton",
-        "olWork": "OL24546118W",
-        "wikidata": "Q113520957"
-      },
-      "screen": "Mickey 17 (2025)",
-      "screenId": "m:696506",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
         "title": "Black Klansman: Race, Hate, and the Undercover Investigation of a Lifetime",
         "author": "Ron Stallworth",
         "olWork": "OL19742770W",
@@ -1141,6 +1141,19 @@
       },
       "screen": "The Monkey (2025)",
       "screenId": "m:1124620",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Uglies",
+        "author": "Scott Westerfeld",
+        "olWork": "OL547172W",
+        "wikidata": "Q543375"
+      },
+      "screen": "Uglies (2024)",
+      "screenId": "m:748167",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -1199,6 +1212,19 @@
     },
     {
       "book": {
+        "title": "Mickey7",
+        "author": "Edward Ashton",
+        "olWork": "OL24546118W",
+        "wikidata": "Q113520957"
+      },
+      "screen": "Mickey 17 (2025)",
+      "screenId": "m:696506",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
         "title": "Caught Stealing",
         "author": "Charlie Huston",
         "olWork": "OL5732047W",
@@ -1250,12 +1276,6 @@
       "olKey": "OL18404A",
       "adaptedBy": [
         {
-          "director": "Christopher Nolan",
-          "films": [
-            "The Odyssey"
-          ]
-        },
-        {
           "director": "Joel Coen",
           "films": [
             "O Brother, Where Art Thou?"
@@ -1266,9 +1286,55 @@
           "films": [
             "O Brother, Where Art Thou?"
           ]
+        },
+        {
+          "director": "Christopher Nolan",
+          "films": [
+            "The Odyssey"
+          ]
         }
       ],
-      "weight": 4.8
+      "weight": 6.08
+    },
+    {
+      "name": "Cormac McCarthy",
+      "wikidata": "Q272610",
+      "olKey": "OL28104A",
+      "adaptedBy": [
+        {
+          "director": "Joel Coen",
+          "films": [
+            "No Country for Old Men"
+          ]
+        },
+        {
+          "director": "Ethan Coen",
+          "films": [
+            "No Country for Old Men"
+          ]
+        }
+      ],
+      "weight": 3.2
+    },
+    {
+      "name": "Charles Portis",
+      "wikidata": "Q1065817",
+      "olKey": "OL18901A",
+      "adaptedBy": [
+        {
+          "director": "Joel Coen",
+          "films": [
+            "True Grit"
+          ]
+        },
+        {
+          "director": "Ethan Coen",
+          "films": [
+            "True Grit"
+          ]
+        }
+      ],
+      "weight": 3.2
     },
     {
       "name": "Martin J. Sherwin",
@@ -1383,26 +1449,6 @@
       "weight": 2.56
     },
     {
-      "name": "Cormac McCarthy",
-      "wikidata": "Q272610",
-      "olKey": "OL28104A",
-      "adaptedBy": [
-        {
-          "director": "Joel Coen",
-          "films": [
-            "No Country for Old Men"
-          ]
-        },
-        {
-          "director": "Ethan Coen",
-          "films": [
-            "No Country for Old Men"
-          ]
-        }
-      ],
-      "weight": 1.92
-    },
-    {
       "name": "Alasdair Gray",
       "wikidata": "Q729121",
       "olKey": "OL343363A",
@@ -1417,24 +1463,18 @@
       "weight": 1.92
     },
     {
-      "name": "Charles Portis",
-      "wikidata": "Q1065817",
-      "olKey": "OL18901A",
+      "name": "William Shakespeare",
+      "wikidata": "Q692",
+      "olKey": "OL9388A",
       "adaptedBy": [
         {
           "director": "Joel Coen",
           "films": [
-            "True Grit"
-          ]
-        },
-        {
-          "director": "Ethan Coen",
-          "films": [
-            "True Grit"
+            "The Tragedy of Macbeth"
           ]
         }
       ],
-      "weight": 1.92
+      "weight": 1.6
     },
     {
       "name": "Susan Orlean",
@@ -1491,48 +1531,6 @@
         }
       ],
       "weight": 1.28
-    },
-    {
-      "name": "William Shakespeare",
-      "wikidata": "Q692",
-      "olKey": "OL9388A",
-      "adaptedBy": [
-        {
-          "director": "Joel Coen",
-          "films": [
-            "The Tragedy of Macbeth"
-          ]
-        }
-      ],
-      "weight": 0.96
-    },
-    {
-      "name": "Benjamin Legrand",
-      "wikidata": "Q2896144",
-      "olKey": "OL350379A",
-      "adaptedBy": [
-        {
-          "director": "Bong Joon Ho",
-          "films": [
-            "Snowpiercer"
-          ]
-        }
-      ],
-      "weight": 0.96
-    },
-    {
-      "name": "Edward Ashton",
-      "wikidata": "Q113521077",
-      "olKey": "OL5718783A",
-      "adaptedBy": [
-        {
-          "director": "Bong Joon Ho",
-          "films": [
-            "Mickey 17"
-          ]
-        }
-      ],
-      "weight": 0.96
     }
   ]
 }

@@ -61117,5 +61117,2789 @@
       "metacritic": 47,
       "imdb": 6.2
     }
+  },
+  "Burn After Reading (2008)": {
+    "id": "m:4944",
+    "tmdbId": 4944,
+    "imdbId": "tt0887883",
+    "director": [
+      {
+        "id": 1224,
+        "name": "Ethan Coen"
+      },
+      {
+        "id": 1223,
+        "name": "Joel Coen"
+      }
+    ],
+    "writers": [
+      {
+        "id": 1223,
+        "name": "Joel Coen"
+      },
+      {
+        "id": 1224,
+        "name": "Ethan Coen"
+      }
+    ],
+    "cast": [
+      {
+        "id": 1461,
+        "name": "George Clooney"
+      },
+      {
+        "id": 3910,
+        "name": "Frances McDormand"
+      },
+      {
+        "id": 287,
+        "name": "Brad Pitt"
+      },
+      {
+        "id": 6949,
+        "name": "John Malkovich"
+      },
+      {
+        "id": 3063,
+        "name": "Tilda Swinton"
+      },
+      {
+        "id": 28633,
+        "name": "Richard Jenkins"
+      },
+      {
+        "id": 126713,
+        "name": "Elizabeth Marvel"
+      },
+      {
+        "id": 33533,
+        "name": "David Rasche"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 521,
+        "name": "washington dc, usa"
+      },
+      {
+        "id": 1936,
+        "name": "blackmail"
+      },
+      {
+        "id": 2340,
+        "name": "paranoia"
+      },
+      {
+        "id": 10123,
+        "name": "dark comedy"
+      },
+      {
+        "id": 4553,
+        "name": "black humor"
+      },
+      {
+        "id": 4585,
+        "name": "plastic surgery"
+      },
+      {
+        "id": 6683,
+        "name": "autobiography"
+      },
+      {
+        "id": 10937,
+        "name": "memory"
+      },
+      {
+        "id": 13092,
+        "name": "corpse"
+      },
+      {
+        "id": 15160,
+        "name": "divorce"
+      },
+      {
+        "id": 33610,
+        "name": "gym"
+      },
+      {
+        "id": 33650,
+        "name": "disc"
+      },
+      {
+        "id": 163412,
+        "name": "fitness"
+      },
+      {
+        "id": 182195,
+        "name": "online dating"
+      },
+      {
+        "id": 197170,
+        "name": "memoirs"
+      },
+      {
+        "id": 213852,
+        "name": "personal trainer"
+      },
+      {
+        "id": 329894,
+        "name": "shaggy dog story"
+      },
+      {
+        "id": 360110,
+        "name": "ex-priest"
+      }
+    ],
+    "runtime": 96,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "tmdbRating": 6.7,
+    "poster": "https://image.tmdb.org/t/p/w342/jdwSkQu3XirmX18MNj8CqFWsCk.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/4944-burn-after-reading/watch?locale=US",
+    "region": "US",
+    "scores": {
+      "rt": 78,
+      "metacritic": 63,
+      "imdb": 7
+    }
+  },
+  "The Invite (2026)": {
+    "id": "m:950028",
+    "tmdbId": 950028,
+    "imdbId": "tt14173636",
+    "director": [
+      {
+        "id": 59315,
+        "name": "Olivia Wilde"
+      }
+    ],
+    "writers": [
+      {
+        "id": 80591,
+        "name": "Rashida Jones"
+      },
+      {
+        "id": 78500,
+        "name": "Will McCormack"
+      }
+    ],
+    "cast": [
+      {
+        "id": 59315,
+        "name": "Olivia Wilde"
+      },
+      {
+        "id": 19274,
+        "name": "Seth Rogen"
+      },
+      {
+        "id": 955,
+        "name": "Penélope Cruz"
+      },
+      {
+        "id": 819,
+        "name": "Edward Norton"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 1157,
+        "name": "husband wife relationship"
+      },
+      {
+        "id": 582,
+        "name": "san francisco, california"
+      },
+      {
+        "id": 10123,
+        "name": "dark comedy"
+      },
+      {
+        "id": 9714,
+        "name": "remake"
+      },
+      {
+        "id": 192094,
+        "name": "firefighter"
+      },
+      {
+        "id": 195999,
+        "name": "sexologist"
+      },
+      {
+        "id": 209792,
+        "name": "candid"
+      },
+      {
+        "id": 251667,
+        "name": "anxious"
+      },
+      {
+        "id": 325813,
+        "name": "exuberant"
+      },
+      {
+        "id": 352496,
+        "name": "neighbors"
+      }
+    ],
+    "runtime": 107,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "tmdbRating": 7.216,
+    "poster": "https://image.tmdb.org/t/p/w342/b7Dr8Chzse8VagexAporUu2RtLx.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Fandango At Home",
+        "Plex"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/950028-the-invite/watch?locale=US",
+    "region": "US",
+    "scores": {
+      "rt": 96,
+      "metacritic": 82,
+      "imdb": 7.5
+    }
+  },
+  "Spider-Man: Brand New Day (2026)": {
+    "id": "m:969681",
+    "tmdbId": 969681,
+    "imdbId": "tt22084616",
+    "director": [
+      {
+        "id": 1144604,
+        "name": "Destin Daniel Cretton"
+      }
+    ],
+    "writers": [
+      {
+        "id": 1350918,
+        "name": "Erik Sommers"
+      },
+      {
+        "id": 1246890,
+        "name": "Chris McKenna"
+      }
+    ],
+    "cast": [
+      {
+        "id": 1136406,
+        "name": "Tom Holland"
+      },
+      {
+        "id": 1590797,
+        "name": "Sadie Sink"
+      },
+      {
+        "id": 2028037,
+        "name": "Tramell Tillman"
+      },
+      {
+        "id": 505710,
+        "name": "Zendaya"
+      },
+      {
+        "id": 1649152,
+        "name": "Jacob Batalon"
+      },
+      {
+        "id": 19498,
+        "name": "Jon Bernthal"
+      },
+      {
+        "id": 103,
+        "name": "Mark Ruffalo"
+      },
+      {
+        "id": 1373737,
+        "name": "Florence Pugh"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 9678,
+        "name": "mind control"
+      },
+      {
+        "id": 242,
+        "name": "new york city"
+      },
+      {
+        "id": 1701,
+        "name": "hero"
+      },
+      {
+        "id": 2766,
+        "name": "mutation"
+      },
+      {
+        "id": 1308,
+        "name": "secret identity"
+      },
+      {
+        "id": 9715,
+        "name": "superhero"
+      },
+      {
+        "id": 3986,
+        "name": "spider"
+      },
+      {
+        "id": 3289,
+        "name": "villain"
+      },
+      {
+        "id": 9717,
+        "name": "based on comic"
+      },
+      {
+        "id": 9663,
+        "name": "sequel"
+      },
+      {
+        "id": 12375,
+        "name": "transhumanism"
+      },
+      {
+        "id": 33637,
+        "name": "super power"
+      },
+      {
+        "id": 158456,
+        "name": "masked vigilante"
+      },
+      {
+        "id": 169909,
+        "name": "spider web"
+      },
+      {
+        "id": 179430,
+        "name": "aftercreditsstinger"
+      },
+      {
+        "id": 180547,
+        "name": "marvel cinematic universe (mcu)"
+      },
+      {
+        "id": 180734,
+        "name": "masked superhero"
+      },
+      {
+        "id": 193946,
+        "name": "fight for justice"
+      },
+      {
+        "id": 233300,
+        "name": "genetic mutation"
+      }
+    ],
+    "runtime": 145,
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ],
+    "tmdbRating": 8.3,
+    "poster": "https://image.tmdb.org/t/p/w342/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/969681-spider-man-brand-new-day/watch?locale=US",
+    "region": "US",
+    "scores": {
+      "rt": 90,
+      "metacritic": 66,
+      "imdb": 8
+    }
+  },
+  "Bring Her Back (2025)": {
+    "id": "m:1151031",
+    "tmdbId": 1151031,
+    "imdbId": "tt32246771",
+    "director": [
+      {
+        "id": 2070452,
+        "name": "Michael Philippou"
+      },
+      {
+        "id": 2070453,
+        "name": "Danny Philippou"
+      }
+    ],
+    "writers": [
+      {
+        "id": 2070453,
+        "name": "Danny Philippou"
+      },
+      {
+        "id": 3764010,
+        "name": "Bill Hinzman"
+      }
+    ],
+    "cast": [
+      {
+        "id": 1840063,
+        "name": "Billy Barratt"
+      },
+      {
+        "id": 39658,
+        "name": "Sally Hawkins"
+      },
+      {
+        "id": 3253214,
+        "name": "Mischa Heywood"
+      },
+      {
+        "id": 4741316,
+        "name": "Jonah Wren Phillips"
+      },
+      {
+        "id": 216979,
+        "name": "Stephen Phillips"
+      },
+      {
+        "id": 1560405,
+        "name": "Sally-Anne Upton"
+      },
+      {
+        "id": 4741323,
+        "name": "Sora Wong"
+      },
+      {
+        "id": 5012628,
+        "name": "Kathryn Adams"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 380,
+        "name": "sibling relationship"
+      },
+      {
+        "id": 4720,
+        "name": "ritual"
+      },
+      {
+        "id": 6152,
+        "name": "supernatural"
+      },
+      {
+        "id": 10201,
+        "name": "death of father"
+      },
+      {
+        "id": 9872,
+        "name": "grief"
+      },
+      {
+        "id": 34079,
+        "name": "death"
+      },
+      {
+        "id": 164881,
+        "name": "death of daughter"
+      },
+      {
+        "id": 200918,
+        "name": "angry"
+      },
+      {
+        "id": 202371,
+        "name": "aggressive"
+      },
+      {
+        "id": 209568,
+        "name": "folk horror"
+      },
+      {
+        "id": 249816,
+        "name": "foster mom"
+      },
+      {
+        "id": 254844,
+        "name": "blind child"
+      },
+      {
+        "id": 256183,
+        "name": "supernatural horror"
+      },
+      {
+        "id": 267689,
+        "name": "gaslighting"
+      },
+      {
+        "id": 283085,
+        "name": "body horror"
+      },
+      {
+        "id": 315058,
+        "name": "horror"
+      }
+    ],
+    "runtime": 104,
+    "genres": [
+      "Horror"
+    ],
+    "tmdbRating": 7.3,
+    "poster": "https://image.tmdb.org/t/p/w342/1Q3GlCXGYWELifxANYZ5OVMRVZl.jpg",
+    "providers": {
+      "flatrate": [
+        "HBO Max Amazon Channel",
+        "Cinemax Amazon Channel",
+        "HBO Max",
+        "Cinemax Apple TV channel"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/1151031-bring-her-back/watch?locale=US",
+    "region": "US",
+    "scores": {
+      "rt": 89,
+      "metacritic": 75,
+      "imdb": 7.1
+    }
+  },
+  "The First Omen (2024)": {
+    "id": "m:437342",
+    "tmdbId": 437342,
+    "imdbId": "tt5672290",
+    "director": [
+      {
+        "id": 1706480,
+        "name": "Arkasha Stevenson"
+      }
+    ],
+    "writers": [
+      {
+        "id": 1706480,
+        "name": "Arkasha Stevenson"
+      },
+      {
+        "id": 1814636,
+        "name": "Tim Smith"
+      },
+      {
+        "id": 2381662,
+        "name": "Keith Thomas"
+      },
+      {
+        "id": 1592196,
+        "name": "Ben Jacoby"
+      }
+    ],
+    "cast": [
+      {
+        "id": 1472584,
+        "name": "Nell Tiger Free"
+      },
+      {
+        "id": 202032,
+        "name": "Ralph Ineson"
+      },
+      {
+        "id": 27396,
+        "name": "Sonia Braga"
+      },
+      {
+        "id": 1260004,
+        "name": "Tawfeek Barhom"
+      },
+      {
+        "id": 2264673,
+        "name": "María Caballero"
+      },
+      {
+        "id": 4391,
+        "name": "Charles Dance"
+      },
+      {
+        "id": 2440,
+        "name": "Bill Nighy"
+      },
+      {
+        "id": 4481145,
+        "name": "Nicole Sorace"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 588,
+        "name": "rome, italy"
+      },
+      {
+        "id": 745,
+        "name": "nun"
+      },
+      {
+        "id": 530,
+        "name": "prophecy"
+      },
+      {
+        "id": 131,
+        "name": "italy"
+      },
+      {
+        "id": 1228,
+        "name": "1970s"
+      },
+      {
+        "id": 3335,
+        "name": "halloween"
+      },
+      {
+        "id": 3099,
+        "name": "satanism"
+      },
+      {
+        "id": 4084,
+        "name": "devil's son"
+      },
+      {
+        "id": 4087,
+        "name": "revelation"
+      },
+      {
+        "id": 8685,
+        "name": "anti-christ"
+      },
+      {
+        "id": 9675,
+        "name": "prequel"
+      },
+      {
+        "id": 10093,
+        "name": "priest"
+      },
+      {
+        "id": 11322,
+        "name": "female protagonist"
+      },
+      {
+        "id": 14765,
+        "name": "church"
+      },
+      {
+        "id": 193282,
+        "name": "dark secret"
+      },
+      {
+        "id": 200234,
+        "name": "shocking"
+      },
+      {
+        "id": 239680,
+        "name": "religious horror"
+      },
+      {
+        "id": 314730,
+        "name": "suspenseful"
+      }
+    ],
+    "runtime": 119,
+    "genres": [
+      "Horror"
+    ],
+    "tmdbRating": 6.8,
+    "poster": "https://image.tmdb.org/t/p/w342/tnsDyNNkOxYUyjD8CNJoAla6YvY.jpg",
+    "providers": {
+      "flatrate": [
+        "Amazon Prime Video",
+        "fuboTV",
+        "Amazon Prime Video with Ads"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "Spectrum On Demand"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/437342-the-first-omen/watch?locale=US",
+    "region": "US",
+    "scores": {
+      "rt": 84,
+      "metacritic": 65,
+      "imdb": 6.5
+    }
+  },
+  "They Cloned Tyrone (2023)": {
+    "id": "m:736769",
+    "tmdbId": 736769,
+    "imdbId": "tt9873892",
+    "director": [
+      {
+        "id": 1663692,
+        "name": "Juel Taylor"
+      }
+    ],
+    "writers": [
+      {
+        "id": 1663692,
+        "name": "Juel Taylor"
+      },
+      {
+        "id": 1691546,
+        "name": "Tony Rettenmaier"
+      }
+    ],
+    "cast": [
+      {
+        "id": 236695,
+        "name": "John Boyega"
+      },
+      {
+        "id": 134,
+        "name": "Jamie Foxx"
+      },
+      {
+        "id": 970219,
+        "name": "Teyonah Parris"
+      },
+      {
+        "id": 2628,
+        "name": "Kiefer Sutherland"
+      },
+      {
+        "id": 58563,
+        "name": "David Alan Grier"
+      },
+      {
+        "id": 1507385,
+        "name": "J. Alphonse Nicholson"
+      },
+      {
+        "id": 1652527,
+        "name": "Tamberla Perry"
+      },
+      {
+        "id": 3229834,
+        "name": "Eric Robinson Jr."
+      }
+    ],
+    "keywords": [
+      {
+        "id": 2908,
+        "name": "secret society"
+      },
+      {
+        "id": 2968,
+        "name": "grave"
+      },
+      {
+        "id": 10410,
+        "name": "conspiracy"
+      },
+      {
+        "id": 33424,
+        "name": "cynical"
+      },
+      {
+        "id": 199524,
+        "name": "disturbed"
+      },
+      {
+        "id": 200918,
+        "name": "angry"
+      },
+      {
+        "id": 201864,
+        "name": "hostile"
+      },
+      {
+        "id": 251667,
+        "name": "anxious"
+      },
+      {
+        "id": 266753,
+        "name": "cautionary"
+      },
+      {
+        "id": 309974,
+        "name": "absurd"
+      },
+      {
+        "id": 311315,
+        "name": "dramatic"
+      },
+      {
+        "id": 314730,
+        "name": "suspenseful"
+      },
+      {
+        "id": 315905,
+        "name": "offbeat"
+      }
+    ],
+    "runtime": 122,
+    "genres": [
+      "Comedy",
+      "Science Fiction",
+      "Mystery"
+    ],
+    "tmdbRating": 6.555,
+    "poster": "https://image.tmdb.org/t/p/w342/hnzXoDaK346U4ByfvQenu2DZnTg.jpg",
+    "providers": {
+      "flatrate": [
+        "Netflix",
+        "Netflix Standard with Ads"
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "providersLink": "https://www.themoviedb.org/movie/736769-they-cloned-tyrone/watch?locale=US",
+    "region": "US",
+    "scores": {
+      "rt": 95,
+      "metacritic": 74,
+      "imdb": 6.7
+    }
+  },
+  "Resident Evil (2026)": {
+    "id": "m:1423191",
+    "tmdbId": 1423191,
+    "imdbId": "tt35538033",
+    "director": [
+      {
+        "id": 84833,
+        "name": "Zach Cregger"
+      }
+    ],
+    "writers": [
+      {
+        "id": 2104243,
+        "name": "Shay Hatten"
+      },
+      {
+        "id": 84833,
+        "name": "Zach Cregger"
+      }
+    ],
+    "cast": [
+      {
+        "id": 148992,
+        "name": "Austin Abrams"
+      },
+      {
+        "id": 1294982,
+        "name": "Paul Walter Hauser"
+      },
+      {
+        "id": 3119545,
+        "name": "Kali Reis"
+      },
+      {
+        "id": 1838225,
+        "name": "Zach Cherry"
+      },
+      {
+        "id": 1169291,
+        "name": "Johnno Wilson"
+      },
+      {
+        "id": 2445714,
+        "name": "Shaun W. Loeser"
+      },
+      {
+        "id": 84833,
+        "name": "Zach Cregger"
+      },
+      {
+        "id": 1362996,
+        "name": "Emily Piggford"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 9744,
+        "name": "outbreak"
+      },
+      {
+        "id": 10349,
+        "name": "survival"
+      },
+      {
+        "id": 11181,
+        "name": "decapitation"
+      },
+      {
+        "id": 12377,
+        "name": "zombie"
+      },
+      {
+        "id": 41645,
+        "name": "based on video game"
+      },
+      {
+        "id": 50009,
+        "name": "survival horror"
+      },
+      {
+        "id": 161184,
+        "name": "reboot"
+      },
+      {
+        "id": 186565,
+        "name": "zombie apocalypse"
+      },
+      {
+        "id": 188839,
+        "name": "courier service"
+      },
+      {
+        "id": 283085,
+        "name": "body horror"
+      },
+      {
+        "id": 360949,
+        "name": "zombie horror"
+      }
+    ],
+    "runtime": 95,
+    "genres": [
+      "Horror",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "tmdbRating": 7.319,
+    "poster": "https://image.tmdb.org/t/p/w342/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [],
+      "buy": []
+    },
+    "providersLink": null,
+    "region": "US",
+    "scores": {
+      "rt": 96,
+      "metacritic": null,
+      "imdb": null
+    }
+  },
+  "The End of Oak Street (2026)": {
+    "id": "m:1101383",
+    "tmdbId": 1101383,
+    "imdbId": "tt27165187",
+    "director": [
+      {
+        "id": 558929,
+        "name": "David Robert Mitchell"
+      }
+    ],
+    "writers": [
+      {
+        "id": 558929,
+        "name": "David Robert Mitchell"
+      }
+    ],
+    "cast": [
+      {
+        "id": 1813,
+        "name": "Anne Hathaway"
+      },
+      {
+        "id": 3061,
+        "name": "Ewan McGregor"
+      },
+      {
+        "id": 1104567,
+        "name": "Maisy Stella"
+      },
+      {
+        "id": 1721268,
+        "name": "Christian Convery"
+      },
+      {
+        "id": 1900828,
+        "name": "Jordan Alexa Davis"
+      },
+      {
+        "id": 1211946,
+        "name": "P.J. Byrne"
+      },
+      {
+        "id": 1488908,
+        "name": "Hudson Meek"
+      },
+      {
+        "id": 156395,
+        "name": "Anne Gee Byrd"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 3822,
+        "name": "teleportation"
+      },
+      {
+        "id": 3891,
+        "name": "giant snake"
+      },
+      {
+        "id": 4379,
+        "name": "time travel"
+      },
+      {
+        "id": 3417,
+        "name": "wormhole"
+      },
+      {
+        "id": 10235,
+        "name": "family relationships"
+      },
+      {
+        "id": 10532,
+        "name": "suburbia"
+      },
+      {
+        "id": 10349,
+        "name": "survival"
+      },
+      {
+        "id": 10789,
+        "name": "prehistoric creature"
+      },
+      {
+        "id": 12616,
+        "name": "dinosaur"
+      },
+      {
+        "id": 50009,
+        "name": "survival horror"
+      },
+      {
+        "id": 180523,
+        "name": "neighborhood"
+      },
+      {
+        "id": 208289,
+        "name": "1980s"
+      },
+      {
+        "id": 221189,
+        "name": "suburban"
+      },
+      {
+        "id": 306351,
+        "name": "nuclear family"
+      },
+      {
+        "id": 327857,
+        "name": "survival adventure"
+      },
+      {
+        "id": 381211,
+        "name": "suburbs"
+      }
+    ],
+    "runtime": 100,
+    "genres": [
+      "Science Fiction",
+      "Mystery",
+      "Thriller"
+    ],
+    "tmdbRating": 7.081,
+    "poster": "https://image.tmdb.org/t/p/w342/fYXqpgPmHMphSF2W30GbTeJVIa5.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "Plex"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/1101383-the-end-of-oak-street/watch?locale=US",
+    "region": "US",
+    "scores": {
+      "rt": 86,
+      "metacritic": 69,
+      "imdb": 6.5
+    }
+  },
+  "Primetime (2026)": {
+    "id": "m:1375441",
+    "tmdbId": 1375441,
+    "imdbId": "tt34206385",
+    "director": [
+      {
+        "id": 1405665,
+        "name": "Lance Oppenheim"
+      }
+    ],
+    "writers": [
+      {
+        "id": 5016022,
+        "name": "Ajon Singh"
+      }
+    ],
+    "cast": [
+      {
+        "id": 11288,
+        "name": "Robert Pattinson"
+      },
+      {
+        "id": 28044,
+        "name": "Merritt Wever"
+      },
+      {
+        "id": 61263,
+        "name": "Skyler Gisondo"
+      },
+      {
+        "id": 1232599,
+        "name": "Matthew Maher"
+      },
+      {
+        "id": 2344346,
+        "name": "Phoebe Bridgers"
+      },
+      {
+        "id": 5268306,
+        "name": "Victor Brunette"
+      },
+      {
+        "id": 71913,
+        "name": "Bokeem Woodbine"
+      },
+      {
+        "id": 6400465,
+        "name": "Michael Chachere"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 2337,
+        "name": "pedophilia"
+      },
+      {
+        "id": 1326,
+        "name": "infidelity"
+      },
+      {
+        "id": 1196,
+        "name": "florida"
+      },
+      {
+        "id": 242,
+        "name": "new york city"
+      },
+      {
+        "id": 1157,
+        "name": "husband wife relationship"
+      },
+      {
+        "id": 917,
+        "name": "journalism"
+      },
+      {
+        "id": 1556,
+        "name": "texas"
+      },
+      {
+        "id": 9887,
+        "name": "surrealism"
+      },
+      {
+        "id": 9672,
+        "name": "based on true story"
+      },
+      {
+        "id": 3979,
+        "name": "hidden camera"
+      },
+      {
+        "id": 12565,
+        "name": "psychological thriller"
+      },
+      {
+        "id": 15295,
+        "name": "confrontation"
+      },
+      {
+        "id": 167428,
+        "name": "sting operation"
+      },
+      {
+        "id": 173971,
+        "name": "taunting"
+      },
+      {
+        "id": 203286,
+        "name": "network"
+      },
+      {
+        "id": 222793,
+        "name": "online predator"
+      },
+      {
+        "id": 239275,
+        "name": "based on magazine, newspaper or article"
+      },
+      {
+        "id": 244530,
+        "name": "malicious"
+      },
+      {
+        "id": 252104,
+        "name": "2000s"
+      },
+      {
+        "id": 275693,
+        "name": "reality tv"
+      }
+    ],
+    "runtime": 110,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "tmdbRating": 6.8,
+    "poster": "https://image.tmdb.org/t/p/w342/lmrulvLbmaejTix1YaMxo1oGhH1.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [],
+      "buy": [
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/1375441-primetime/watch?locale=US",
+    "region": "US",
+    "scores": {
+      "rt": 86,
+      "metacritic": 75,
+      "imdb": 8.7
+    }
+  },
+  "Coyote vs. Acme (2026)": {
+    "id": "m:1204680",
+    "tmdbId": 1204680,
+    "imdbId": "tt1756855",
+    "director": [
+      {
+        "id": 1101410,
+        "name": "Dave Green"
+      }
+    ],
+    "writers": [
+      {
+        "id": 1887252,
+        "name": "Samy Burch"
+      }
+    ],
+    "cast": [
+      {
+        "id": 62831,
+        "name": "Will Forte"
+      },
+      {
+        "id": 1452046,
+        "name": "Lana Condor"
+      },
+      {
+        "id": 56446,
+        "name": "John Cena"
+      },
+      {
+        "id": 1120700,
+        "name": "Tone Bell"
+      },
+      {
+        "id": 1572541,
+        "name": "Martha Kelly"
+      },
+      {
+        "id": 40481,
+        "name": "Luis Guzmán"
+      },
+      {
+        "id": 1211946,
+        "name": "P.J. Byrne"
+      },
+      {
+        "id": 1542758,
+        "name": "John Early"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 934,
+        "name": "judge"
+      },
+      {
+        "id": 7335,
+        "name": "lawsuit"
+      },
+      {
+        "id": 10909,
+        "name": "lawyer"
+      },
+      {
+        "id": 33519,
+        "name": "courtroom"
+      },
+      {
+        "id": 167982,
+        "name": "unlikely friendship"
+      },
+      {
+        "id": 193517,
+        "name": "coyote"
+      },
+      {
+        "id": 209220,
+        "name": "live action and animation"
+      },
+      {
+        "id": 239275,
+        "name": "based on magazine, newspaper or article"
+      },
+      {
+        "id": 262297,
+        "name": "cartoon characters"
+      },
+      {
+        "id": 275266,
+        "name": "cgi-live action hybrid"
+      },
+      {
+        "id": 309974,
+        "name": "absurd"
+      },
+      {
+        "id": 311315,
+        "name": "dramatic"
+      },
+      {
+        "id": 325781,
+        "name": "celebratory"
+      }
+    ],
+    "runtime": 103,
+    "genres": [
+      "Comedy",
+      "Adventure",
+      "Family"
+    ],
+    "tmdbRating": 7.5,
+    "poster": "https://image.tmdb.org/t/p/w342/kYDCl2y0VPvhT5eYWbMRInPoB03.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Fandango At Home",
+        "Plex"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/1204680-coyote-vs-acme/watch?locale=US",
+    "region": "US",
+    "scores": {
+      "rt": 96,
+      "metacritic": 77,
+      "imdb": 7.6
+    }
+  },
+  "Immortals (2011)": {
+    "id": "m:37958",
+    "tmdbId": 37958,
+    "imdbId": "tt1253864",
+    "director": [
+      {
+        "id": 56512,
+        "name": "Tarsem Singh"
+      }
+    ],
+    "writers": [
+      {
+        "id": 119254,
+        "name": "Vlas Parlapanides"
+      },
+      {
+        "id": 119253,
+        "name": "Charley Parlapanides"
+      }
+    ],
+    "cast": [
+      {
+        "id": 73968,
+        "name": "Henry Cavill"
+      },
+      {
+        "id": 2295,
+        "name": "Mickey Rourke"
+      },
+      {
+        "id": 10822,
+        "name": "Stephen Dorff"
+      },
+      {
+        "id": 76792,
+        "name": "Freida Pinto"
+      },
+      {
+        "id": 114019,
+        "name": "Luke Evans"
+      },
+      {
+        "id": 5049,
+        "name": "John Hurt"
+      },
+      {
+        "id": 79505,
+        "name": "Joseph Morgan"
+      },
+      {
+        "id": 103554,
+        "name": "Isabel Lucas"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 6092,
+        "name": "army"
+      },
+      {
+        "id": 351,
+        "name": "poison"
+      },
+      {
+        "id": 2035,
+        "name": "mythology"
+      },
+      {
+        "id": 8985,
+        "name": "zeus"
+      },
+      {
+        "id": 9725,
+        "name": "sword fight"
+      },
+      {
+        "id": 10166,
+        "name": "minotaur"
+      },
+      {
+        "id": 14667,
+        "name": "poseidon"
+      },
+      {
+        "id": 18096,
+        "name": "spear"
+      },
+      {
+        "id": 18101,
+        "name": "bow and arrow"
+      },
+      {
+        "id": 18129,
+        "name": "labyrinth"
+      },
+      {
+        "id": 162861,
+        "name": "ancient greece"
+      },
+      {
+        "id": 206491,
+        "name": "greek god"
+      },
+      {
+        "id": 293198,
+        "name": "fantasy"
+      },
+      {
+        "id": 343520,
+        "name": "13th century bc"
+      }
+    ],
+    "runtime": 110,
+    "genres": [
+      "Fantasy",
+      "Action",
+      "Drama"
+    ],
+    "tmdbRating": 6.054,
+    "poster": "https://image.tmdb.org/t/p/w342/4SPPX5KIyaQ9O8n5rLvvUIiIhpF.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "Spectrum On Demand"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/37958-immortals/watch?locale=US",
+    "region": "US",
+    "scores": {
+      "rt": 50,
+      "metacritic": 46,
+      "imdb": 6
+    }
+  },
+  "Before the Devil Knows You're Dead (2007)": {
+    "id": "m:7972",
+    "tmdbId": 7972,
+    "imdbId": "tt0292963",
+    "director": [
+      {
+        "id": 39996,
+        "name": "Sidney Lumet"
+      }
+    ],
+    "writers": [
+      {
+        "id": 53455,
+        "name": "Kelly Masterson"
+      }
+    ],
+    "cast": [
+      {
+        "id": 1233,
+        "name": "Philip Seymour Hoffman"
+      },
+      {
+        "id": 569,
+        "name": "Ethan Hawke"
+      },
+      {
+        "id": 3926,
+        "name": "Albert Finney"
+      },
+      {
+        "id": 3141,
+        "name": "Marisa Tomei"
+      },
+      {
+        "id": 53441,
+        "name": "Aleksa Palladino"
+      },
+      {
+        "id": 335,
+        "name": "Michael Shannon"
+      },
+      {
+        "id": 39388,
+        "name": "Amy Ryan"
+      },
+      {
+        "id": 53448,
+        "name": "Sarah Livingston"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 5600,
+        "name": "daughter"
+      },
+      {
+        "id": 3658,
+        "name": "career"
+      },
+      {
+        "id": 380,
+        "name": "sibling relationship"
+      },
+      {
+        "id": 1438,
+        "name": "office"
+      },
+      {
+        "id": 1803,
+        "name": "drug addiction"
+      },
+      {
+        "id": 5332,
+        "name": "greed"
+      },
+      {
+        "id": 5340,
+        "name": "investigation"
+      },
+      {
+        "id": 3607,
+        "name": "hold-up robbery"
+      },
+      {
+        "id": 5905,
+        "name": "father"
+      },
+      {
+        "id": 6282,
+        "name": "workplace"
+      },
+      {
+        "id": 7439,
+        "name": "woman between two men"
+      },
+      {
+        "id": 11612,
+        "name": "hospital"
+      },
+      {
+        "id": 11157,
+        "name": "sibling rivalry"
+      },
+      {
+        "id": 156237,
+        "name": "jewelry store"
+      },
+      {
+        "id": 188665,
+        "name": "botched robbery"
+      },
+      {
+        "id": 199524,
+        "name": "disturbed"
+      },
+      {
+        "id": 201456,
+        "name": "paranoid"
+      },
+      {
+        "id": 325790,
+        "name": "cruel"
+      },
+      {
+        "id": 325802,
+        "name": "doubtful"
+      }
+    ],
+    "runtime": 117,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "tmdbRating": 7.105,
+    "poster": "https://image.tmdb.org/t/p/w342/h4QXi4Ysuc3zICiK9jHxjCAK9Oh.jpg",
+    "providers": {
+      "flatrate": [
+        "Amazon Prime Video",
+        "Hulu",
+        "fuboTV",
+        "Night Flight Plus",
+        "Amazon Prime Video with Ads",
+        "Shout! Factory Amazon Channel"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/7972-before-the-devil-knows-you-re-dead/watch?locale=US",
+    "region": "US",
+    "scores": {
+      "rt": 89,
+      "metacritic": 86,
+      "imdb": 7.3
+    }
+  },
+  "Constantine (2005)": {
+    "id": "m:561",
+    "tmdbId": 561,
+    "imdbId": "tt0360486",
+    "director": [
+      {
+        "id": 10943,
+        "name": "Francis Lawrence"
+      }
+    ],
+    "writers": [
+      {
+        "id": 10947,
+        "name": "Kevin Brodbin"
+      },
+      {
+        "id": 10948,
+        "name": "Frank A. Cappello"
+      },
+      {
+        "id": 10947,
+        "name": "Kevin Brodbin"
+      }
+    ],
+    "cast": [
+      {
+        "id": 6384,
+        "name": "Keanu Reeves"
+      },
+      {
+        "id": 3293,
+        "name": "Rachel Weisz"
+      },
+      {
+        "id": 10959,
+        "name": "Shia LaBeouf"
+      },
+      {
+        "id": 938,
+        "name": "Djimon Hounsou"
+      },
+      {
+        "id": 10960,
+        "name": "Max Baker"
+      },
+      {
+        "id": 3201,
+        "name": "Pruitt Taylor Vince"
+      },
+      {
+        "id": 10961,
+        "name": "Gavin Rossdale"
+      },
+      {
+        "id": 3063,
+        "name": "Tilda Swinton"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 1430,
+        "name": "self sacrifice"
+      },
+      {
+        "id": 290,
+        "name": "angel"
+      },
+      {
+        "id": 186,
+        "name": "christianity"
+      },
+      {
+        "id": 718,
+        "name": "confession"
+      },
+      {
+        "id": 9715,
+        "name": "superhero"
+      },
+      {
+        "id": 6152,
+        "name": "supernatural"
+      },
+      {
+        "id": 2626,
+        "name": "exorcism"
+      },
+      {
+        "id": 3648,
+        "name": "archangel gabriel"
+      },
+      {
+        "id": 3649,
+        "name": "holy water"
+      },
+      {
+        "id": 11436,
+        "name": "redemption"
+      },
+      {
+        "id": 9717,
+        "name": "based on comic"
+      },
+      {
+        "id": 10139,
+        "name": "lucifer"
+      },
+      {
+        "id": 15001,
+        "name": "demon"
+      },
+      {
+        "id": 15208,
+        "name": "biting"
+      },
+      {
+        "id": 156174,
+        "name": "occult"
+      },
+      {
+        "id": 179430,
+        "name": "aftercreditsstinger"
+      },
+      {
+        "id": 186425,
+        "name": "demon hunter"
+      },
+      {
+        "id": 241580,
+        "name": "mysticism"
+      },
+      {
+        "id": 251513,
+        "name": "supernatural power"
+      },
+      {
+        "id": 269233,
+        "name": "good versus evil"
+      },
+      {
+        "id": 325786,
+        "name": "compassionate"
+      },
+      {
+        "id": 325791,
+        "name": "defiant"
+      }
+    ],
+    "runtime": 121,
+    "genres": [
+      "Fantasy",
+      "Action",
+      "Horror"
+    ],
+    "tmdbRating": 7.2,
+    "poster": "https://image.tmdb.org/t/p/w342/vPYgvd2MwHlxTamAOjwVQp4qs1W.jpg",
+    "providers": {
+      "flatrate": [
+        "HBO Max Amazon Channel",
+        "AMC",
+        "HBO Max"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "Spectrum On Demand"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/561-constantine/watch?locale=US",
+    "region": "US",
+    "scores": {
+      "rt": 46,
+      "metacritic": 50,
+      "imdb": 7
+    }
+  },
+  "Black Bag (2025)": {
+    "id": "m:1233575",
+    "tmdbId": 1233575,
+    "imdbId": "tt30988739",
+    "director": [
+      {
+        "id": 1884,
+        "name": "Steven Soderbergh"
+      }
+    ],
+    "writers": [
+      {
+        "id": 508,
+        "name": "David Koepp"
+      }
+    ],
+    "cast": [
+      {
+        "id": 112,
+        "name": "Cate Blanchett"
+      },
+      {
+        "id": 17288,
+        "name": "Michael Fassbender"
+      },
+      {
+        "id": 52891,
+        "name": "Tom Burke"
+      },
+      {
+        "id": 2673762,
+        "name": "Marisa Abela"
+      },
+      {
+        "id": 1628687,
+        "name": "Regé-Jean Page"
+      },
+      {
+        "id": 2038,
+        "name": "Naomie Harris"
+      },
+      {
+        "id": 63764,
+        "name": "Gustaf Skarsgård"
+      },
+      {
+        "id": 1399750,
+        "name": "Kae Alexander"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 212,
+        "name": "london, england"
+      },
+      {
+        "id": 1157,
+        "name": "husband wife relationship"
+      },
+      {
+        "id": 470,
+        "name": "spy"
+      },
+      {
+        "id": 1222,
+        "name": "zurich"
+      },
+      {
+        "id": 6038,
+        "name": "marriage"
+      },
+      {
+        "id": 3301,
+        "name": "suspicion"
+      },
+      {
+        "id": 12997,
+        "name": "dinner"
+      },
+      {
+        "id": 190981,
+        "name": "intelligence officer"
+      },
+      {
+        "id": 209673,
+        "name": "calm"
+      },
+      {
+        "id": 274497,
+        "name": "polygraph"
+      },
+      {
+        "id": 325837,
+        "name": "modest"
+      }
+    ],
+    "runtime": 94,
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "tmdbRating": 6.373,
+    "poster": "https://image.tmdb.org/t/p/w342/hHPovtU4b96LHcoeEwRkGHI5btw.jpg",
+    "providers": {
+      "flatrate": [
+        "Peacock Premium",
+        "Peacock Premium Plus"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "FlixFling"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/1233575-black-bag/watch?locale=US",
+    "region": "US",
+    "scores": {
+      "rt": 96,
+      "metacritic": 85,
+      "imdb": 6.7
+    }
+  },
+  "The Nice Guys (2016)": {
+    "id": "m:290250",
+    "tmdbId": 290250,
+    "imdbId": "tt3799694",
+    "director": [
+      {
+        "id": 1108,
+        "name": "Shane Black"
+      }
+    ],
+    "writers": [
+      {
+        "id": 1108,
+        "name": "Shane Black"
+      },
+      {
+        "id": 1182718,
+        "name": "Anthony Bagarozzi"
+      }
+    ],
+    "cast": [
+      {
+        "id": 934,
+        "name": "Russell Crowe"
+      },
+      {
+        "id": 30614,
+        "name": "Ryan Gosling"
+      },
+      {
+        "id": 1265629,
+        "name": "Angourie Rice"
+      },
+      {
+        "id": 66743,
+        "name": "Matt Bomer"
+      },
+      {
+        "id": 1392137,
+        "name": "Margaret Qualley"
+      },
+      {
+        "id": 60033,
+        "name": "Yaya DaCosta"
+      },
+      {
+        "id": 65827,
+        "name": "Keith David"
+      },
+      {
+        "id": 1078613,
+        "name": "Beau Knapp"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 5600,
+        "name": "daughter"
+      },
+      {
+        "id": 703,
+        "name": "detective"
+      },
+      {
+        "id": 1228,
+        "name": "1970s"
+      },
+      {
+        "id": 5340,
+        "name": "investigation"
+      },
+      {
+        "id": 7464,
+        "name": "alcoholism"
+      },
+      {
+        "id": 11168,
+        "name": "private investigator"
+      },
+      {
+        "id": 10410,
+        "name": "conspiracy"
+      },
+      {
+        "id": 12570,
+        "name": "whodunit"
+      },
+      {
+        "id": 33457,
+        "name": "alcoholic"
+      },
+      {
+        "id": 167316,
+        "name": "buddy cop"
+      },
+      {
+        "id": 185525,
+        "name": "private eye"
+      },
+      {
+        "id": 207268,
+        "name": "neo-noir"
+      },
+      {
+        "id": 240303,
+        "name": "father daughter relationship"
+      },
+      {
+        "id": 311315,
+        "name": "dramatic"
+      },
+      {
+        "id": 325765,
+        "name": "amused"
+      },
+      {
+        "id": 325778,
+        "name": "bold"
+      },
+      {
+        "id": 325856,
+        "name": "vibrant"
+      },
+      {
+        "id": 376202,
+        "name": "bumbling detective"
+      }
+    ],
+    "runtime": 116,
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Action"
+    ],
+    "tmdbRating": 7.1,
+    "poster": "https://image.tmdb.org/t/p/w342/clq4So9spa9cXk3MZy2iMdqkxP2.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "Spectrum On Demand"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/290250-the-nice-guys/watch?locale=US",
+    "region": "US",
+    "scores": {
+      "rt": 91,
+      "metacritic": 70,
+      "imdb": 7.4
+    }
+  },
+  "The Gray Man (2022)": {
+    "id": "m:725201",
+    "tmdbId": 725201,
+    "imdbId": "tt1649418",
+    "director": [
+      {
+        "id": 19272,
+        "name": "Joe Russo"
+      },
+      {
+        "id": 19271,
+        "name": "Anthony Russo"
+      }
+    ],
+    "writers": [
+      {
+        "id": 19272,
+        "name": "Joe Russo"
+      },
+      {
+        "id": 5552,
+        "name": "Stephen McFeely"
+      },
+      {
+        "id": 5551,
+        "name": "Christopher Markus"
+      }
+    ],
+    "cast": [
+      {
+        "id": 30614,
+        "name": "Ryan Gosling"
+      },
+      {
+        "id": 16828,
+        "name": "Chris Evans"
+      },
+      {
+        "id": 224513,
+        "name": "Ana de Armas"
+      },
+      {
+        "id": 879,
+        "name": "Billy Bob Thornton"
+      },
+      {
+        "id": 1202689,
+        "name": "Jessica Henwick"
+      },
+      {
+        "id": 550165,
+        "name": "Dhanush"
+      },
+      {
+        "id": 1981,
+        "name": "Alfre Woodard"
+      },
+      {
+        "id": 1628687,
+        "name": "Regé-Jean Page"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 591,
+        "name": "central intelligence agency (cia)"
+      },
+      {
+        "id": 818,
+        "name": "based on novel or book"
+      },
+      {
+        "id": 2708,
+        "name": "hitman"
+      },
+      {
+        "id": 1930,
+        "name": "kidnapping"
+      },
+      {
+        "id": 33705,
+        "name": "agent"
+      },
+      {
+        "id": 176802,
+        "name": "rogue agent"
+      },
+      {
+        "id": 181644,
+        "name": "hunted"
+      },
+      {
+        "id": 212801,
+        "name": "ex-cia agent"
+      }
+    ],
+    "runtime": 128,
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "tmdbRating": 6.9,
+    "poster": "https://image.tmdb.org/t/p/w342/8cXbitsS6dWQ5gfMTZdorpAAzEH.jpg",
+    "providers": {
+      "flatrate": [
+        "Netflix",
+        "Netflix Standard with Ads"
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "providersLink": "https://www.themoviedb.org/movie/725201-the-gray-man/watch?locale=US",
+    "region": "US",
+    "scores": {
+      "rt": 45,
+      "metacritic": 49,
+      "imdb": 6.5
+    }
+  },
+  "Cries and Whispers (1972)": {
+    "id": "m:10238",
+    "tmdbId": 10238,
+    "imdbId": "tt0069467",
+    "director": [
+      {
+        "id": 6648,
+        "name": "Ingmar Bergman"
+      }
+    ],
+    "writers": [
+      {
+        "id": 6648,
+        "name": "Ingmar Bergman"
+      }
+    ],
+    "cast": [
+      {
+        "id": 11916,
+        "name": "Liv Ullmann"
+      },
+      {
+        "id": 8742,
+        "name": "Ingrid Thulin"
+      },
+      {
+        "id": 67521,
+        "name": "Kari Sylwan"
+      },
+      {
+        "id": 7569,
+        "name": "Harriet Andersson"
+      },
+      {
+        "id": 38127,
+        "name": "Erland Josephson"
+      },
+      {
+        "id": 572207,
+        "name": "Georg Årlin"
+      },
+      {
+        "id": 6664,
+        "name": "Anders Ek"
+      },
+      {
+        "id": 4456,
+        "name": "Henning Moritzen"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 3737,
+        "name": "dying and death"
+      },
+      {
+        "id": 380,
+        "name": "sibling relationship"
+      },
+      {
+        "id": 1192,
+        "name": "sweden"
+      },
+      {
+        "id": 5923,
+        "name": "sister"
+      },
+      {
+        "id": 10163,
+        "name": "cancer"
+      },
+      {
+        "id": 12545,
+        "name": "mansion"
+      },
+      {
+        "id": 207928,
+        "name": "19th century"
+      }
+    ],
+    "runtime": 95,
+    "genres": [
+      "Drama"
+    ],
+    "tmdbRating": 7.9,
+    "poster": "https://image.tmdb.org/t/p/w342/a1bMgB09YDvvRN9SitCclUYragr.jpg",
+    "providers": {
+      "flatrate": [
+        "HBO Max Amazon Channel",
+        "Criterion Channel",
+        "HBO Max"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/10238-viskningar-och-rop/watch?locale=US",
+    "region": "US",
+    "scores": {
+      "rt": 92,
+      "metacritic": null,
+      "imdb": 7.9
+    }
+  },
+  "The Sadness (2021)": {
+    "id": "m:776797",
+    "tmdbId": 776797,
+    "imdbId": "tt13872248",
+    "director": [
+      {
+        "id": 1445916,
+        "name": "Rob Jabbaz"
+      }
+    ],
+    "writers": [
+      {
+        "id": 1445916,
+        "name": "Rob Jabbaz"
+      }
+    ],
+    "cast": [
+      {
+        "id": 2407771,
+        "name": "Berant Zhu"
+      },
+      {
+        "id": 2874730,
+        "name": "Regina Lei"
+      },
+      {
+        "id": 2889663,
+        "name": "Wang Tzu-chiang"
+      },
+      {
+        "id": 2896620,
+        "name": "Apple Chen"
+      },
+      {
+        "id": 2298208,
+        "name": "Lan Wei-hua"
+      },
+      {
+        "id": 1473997,
+        "name": "Ralf Chiu"
+      },
+      {
+        "id": 3491259,
+        "name": "Huang Lueh-geng"
+      },
+      {
+        "id": 1260978,
+        "name": "Emerson Tsai"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 570,
+        "name": "rape"
+      },
+      {
+        "id": 1583,
+        "name": "mass murder"
+      },
+      {
+        "id": 14624,
+        "name": "cruelty"
+      },
+      {
+        "id": 188957,
+        "name": "virus"
+      },
+      {
+        "id": 188973,
+        "name": "pandemic"
+      },
+      {
+        "id": 242410,
+        "name": "depraved"
+      },
+      {
+        "id": 278235,
+        "name": "cannibalism"
+      },
+      {
+        "id": 328072,
+        "name": "fight for survival"
+      }
+    ],
+    "runtime": 100,
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "tmdbRating": 6.8,
+    "poster": "https://image.tmdb.org/t/p/w342/a7VHvhROWorsWrtNKQnLZTxpxuG.jpg",
+    "providers": {
+      "flatrate": [
+        "Philo",
+        "AMC Plus Apple TV channel",
+        "AMC+ Amazon Channel",
+        "AMC+ Roku Premium Channel",
+        "AMC+",
+        "Shudder",
+        "Shudder Amazon Channel",
+        "Shudder Apple TV channel"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/776797/watch?locale=US",
+    "region": "US",
+    "scores": {
+      "rt": 88,
+      "metacritic": 68,
+      "imdb": 6.5
+    }
+  },
+  "Burning (2018)": {
+    "id": "m:1632",
+    "tmdbId": 1632,
+    "imdbId": "tt0095647",
+    "director": [
+      {
+        "id": 9168,
+        "name": "Alan Parker"
+      }
+    ],
+    "writers": [
+      {
+        "id": 18246,
+        "name": "Chris Gerolmo"
+      }
+    ],
+    "cast": [
+      {
+        "id": 193,
+        "name": "Gene Hackman"
+      },
+      {
+        "id": 5293,
+        "name": "Willem Dafoe"
+      },
+      {
+        "id": 3910,
+        "name": "Frances McDormand"
+      },
+      {
+        "id": 1370,
+        "name": "Brad Dourif"
+      },
+      {
+        "id": 8655,
+        "name": "R. Lee Ermey"
+      },
+      {
+        "id": 2886,
+        "name": "Gailard Sartain"
+      },
+      {
+        "id": 537,
+        "name": "Stephen Tobolowsky"
+      },
+      {
+        "id": 12132,
+        "name": "Michael Rooker"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 236,
+        "name": "suicide"
+      },
+      {
+        "id": 798,
+        "name": "sheriff"
+      },
+      {
+        "id": 6149,
+        "name": "police"
+      },
+      {
+        "id": 3739,
+        "name": "funeral"
+      },
+      {
+        "id": 529,
+        "name": "ku klux klan"
+      },
+      {
+        "id": 787,
+        "name": "mississippi river"
+      },
+      {
+        "id": 1366,
+        "name": "shotgun"
+      },
+      {
+        "id": 1812,
+        "name": "fbi"
+      },
+      {
+        "id": 1559,
+        "name": "deputy sheriff"
+      },
+      {
+        "id": 2669,
+        "name": "motel"
+      },
+      {
+        "id": 4410,
+        "name": "u.s. navy"
+      },
+      {
+        "id": 6399,
+        "name": "rope"
+      },
+      {
+        "id": 5664,
+        "name": "burning cross"
+      },
+      {
+        "id": 9672,
+        "name": "based on true story"
+      },
+      {
+        "id": 9826,
+        "name": "murder"
+      },
+      {
+        "id": 12425,
+        "name": "racism"
+      },
+      {
+        "id": 311315,
+        "name": "dramatic"
+      },
+      {
+        "id": 325762,
+        "name": "adoring"
+      },
+      {
+        "id": 325780,
+        "name": "callous"
+      },
+      {
+        "id": 325786,
+        "name": "compassionate"
+      },
+      {
+        "id": 325799,
+        "name": "disheartening"
+      },
+      {
+        "id": 325806,
+        "name": "empathetic"
+      },
+      {
+        "id": 325823,
+        "name": "harsh"
+      }
+    ],
+    "runtime": 128,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
+    "tmdbRating": 7.7,
+    "poster": "https://image.tmdb.org/t/p/w342/hTv8Bkq3W1vwKi1IWCLWQW9PNU4.jpg",
+    "providers": {
+      "flatrate": [
+        "fuboTV",
+        "MGM+ Amazon Channel",
+        "Philo",
+        "MGM Plus Roku Premium Channel",
+        "MGM Plus"
+      ],
+      "rent": [
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/1632-mississippi-burning/watch?locale=US",
+    "region": "US",
+    "scores": {
+      "rt": 79,
+      "metacritic": 65,
+      "imdb": 7.8
+    }
   }
 }

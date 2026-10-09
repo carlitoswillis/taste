@@ -1,72 +1,79 @@
 {
-  "generated": "2026-10-08",
+  "generated": "2026-10-09",
   "counts": {
-    "seen": 339,
-    "rated": 35,
-    "scored": 30,
-    "perfect": 4
+    "seen": 361,
+    "rated": 45,
+    "scored": 40,
+    "perfect": 5
   },
   "tiers": {
-    "4": 14,
-    "5": 4,
+    "4": 17,
+    "5": 5,
     "4.5": 9,
-    "3.5": 2,
+    "3.5": 8,
     "2.5": 1
   },
   "decades": {
     "1920": 1,
     "1950": 1,
-    "1960": 4,
-    "1970": 5,
-    "1980": 9,
+    "1960": 5,
+    "1970": 6,
+    "1980": 11,
     "1990": 21,
-    "2000": 59,
-    "2010": 110,
-    "2020": 129
+    "2000": 62,
+    "2010": 113,
+    "2020": 141
   },
   "genreTilt": [
     {
       "genre": "Drama",
-      "lovedShare": 0.48148148148148145,
-      "seenShare": 0.34023668639053256,
-      "tilt": 0.1412447950909489
-    },
-    {
-      "genre": "Horror",
-      "lovedShare": 0.3333333333333333,
-      "seenShare": 0.2514792899408284,
-      "tilt": 0.0818540433925049
-    },
-    {
-      "genre": "Fantasy",
-      "lovedShare": 0.18518518518518517,
-      "seenShare": 0.10355029585798817,
-      "tilt": 0.08163488932719701
+      "lovedShare": 0.4838709677419355,
+      "seenShare": 0.34444444444444444,
+      "tilt": 0.13942652329749106
     },
     {
       "genre": "Mystery",
-      "lovedShare": 0.2222222222222222,
-      "seenShare": 0.14792899408284024,
-      "tilt": 0.07429322813938197
+      "lovedShare": 0.25806451612903225,
+      "seenShare": 0.15,
+      "tilt": 0.10806451612903226
     },
     {
       "genre": "Comedy",
-      "lovedShare": 0.2962962962962963,
-      "seenShare": 0.2455621301775148,
-      "tilt": 0.05073416611878148
+      "lovedShare": 0.3225806451612903,
+      "seenShare": 0.24444444444444444,
+      "tilt": 0.07813620071684588
+    },
+    {
+      "genre": "Fantasy",
+      "lovedShare": 0.16129032258064516,
+      "seenShare": 0.10277777777777777,
+      "tilt": 0.05851254480286738
+    },
+    {
+      "genre": "Horror",
+      "lovedShare": 0.2903225806451613,
+      "seenShare": 0.25833333333333336,
+      "tilt": 0.03198924731182795
     },
     {
       "genre": "Romance",
-      "lovedShare": 0.1111111111111111,
-      "seenShare": 0.06804733727810651,
-      "tilt": 0.043063773833004595
+      "lovedShare": 0.0967741935483871,
+      "seenShare": 0.06666666666666667,
+      "tilt": 0.03010752688172043
     }
   ],
   "genreCoverage": {
-    "loved": 27,
-    "seen": 338
+    "loved": 31,
+    "seen": 360
   },
   "lovedAgainstCritics": [
+    {
+      "title": "They Cloned Tyrone",
+      "year": 2023,
+      "mine": 5,
+      "imdb": 6.7,
+      "gap": 3.3
+    },
     {
       "title": "Anora",
       "year": 2024,
@@ -80,13 +87,6 @@
       "mine": 5,
       "imdb": 8,
       "gap": 2
-    },
-    {
-      "title": "Prometheus",
-      "year": 2012,
-      "mine": 4.5,
-      "imdb": 7,
-      "gap": 2
     }
   ],
   "coldAgainstCritics": [
@@ -98,20 +98,20 @@
       "gap": -2.8
     },
     {
+      "title": "Spider-Man: Brand New Day",
+      "year": 2026,
+      "mine": 3.5,
+      "imdb": 8,
+      "gap": -1
+    },
+    {
       "title": "Everything Everywhere All at Once",
       "year": 2022,
       "mine": 3.5,
       "imdb": 7.7,
       "gap": -0.7000000000000002
-    },
-    {
-      "title": "Oppenheimer",
-      "year": 2023,
-      "mine": 4,
-      "imdb": 8.2,
-      "gap": -0.1999999999999993
     }
   ],
   "profileUpdated": "2026-07-22",
-  "newSinceProfile": 2
+  "newSinceProfile": 24
 }
