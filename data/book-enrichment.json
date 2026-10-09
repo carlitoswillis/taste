@@ -2949,5 +2949,39 @@
   },
   "The Backrooms (http://www.wikidata.org/.well-known/genid/7650bc321f8603d92013efd1a1cb7e28)": {
     "unmatched": true
+  },
+  "Hellblazer (Alan Moore, Garth Ennis, Jamie Delano)": {
+    "unmatched": true
+  },
+  "The Gray Man (Mark Greaney)": {
+    "id": "b:OL21758985W",
+    "olWork": "OL21758985W",
+    "authors": [
+      {
+        "key": "OL6820714A",
+        "name": "Mark Greaney"
+      }
+    ],
+    "firstPublished": 2012,
+    "pages": 400,
+    "subjects": [
+      "Assassins",
+      "Fiction",
+      "FICTION / Thrillers",
+      "Fiction, general",
+      "Court Gentry (Fictitious character)",
+      "Suspense fiction"
+    ],
+    "coverId": 10402247,
+    "cover": "https://covers.openlibrary.org/b/id/10402247-M.jpg",
+    "description": null,
+    "editionCount": 4,
+    "olRating": {
+      "average": 3.75,
+      "count": 4
+    },
+    "adaptedAs": [
+      "The Gray Man (2022)"
+    ]
   }
 }
