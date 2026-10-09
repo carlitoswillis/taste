@@ -156,6 +156,29 @@ function themesFor(film) {
 const tchips = (ids) =>
   (ids ?? []).map((id) => `<span class="tchip">${esc(state.themeName.get(id) ?? id)}</span>`).join("");
 
+// "Joel Coen wrote and directed this — you rated X · Ethan Coen wrote and directed this — you rated X"
+// → "Joel Coen and Ethan Coen wrote and directed this — you rated X". Same evidence, said once.
+function tidyWhy(why) {
+  if (!why) return "";
+  const groups = new Map();
+  for (const clause of String(why).split(" · ")) {
+    const m = clause.match(/^(.+?) (wrote and directed|directed|wrote|stars in|created|co-wrote) this — (.+)$/);
+    if (!m) { groups.set(clause, { raw: clause }); continue; }
+    const key = `${m[2]}|${m[3]}`;
+    const g = groups.get(key) ?? { who: [], verb: m[2], tail: m[3] };
+    g.who.push(m[1]);
+    groups.set(key, g);
+  }
+  return [...groups.values()].map((g) => {
+    if (g.raw) return g.raw;
+    const who = g.who.length > 1 ? g.who.slice(0, -1).join(", ") + " and " + g.who.at(-1) : g.who[0];
+    return `${who} ${g.verb} this — ${g.tail}`;
+  }).join(" · ");
+}
+
+// ISO timestamp → "2026-10-08"; the heading is a date, not a log line
+const fmtDay = (iso) => (iso ? String(iso).slice(0, 10) : "");
+
 function scoreBits(e) {
   if (!e?.scores) return "";
   const s = [];
@@ -639,7 +662,7 @@ function renderWatch() {
       <div class="body">
         <div class="title">${esc(s.title)}${serviceBadge(s)}</div>
         <div class="meta">${s.year} · ${esc(s.director?.join(", ") ?? "")}${s.runtime ? ` · ${Math.floor(s.runtime / 60)}h${String(s.runtime % 60).padStart(2, "0")}` : ""}${s.genres?.length ? " · " + esc(s.genres.slice(0, 2).join(", ")) : ""}${s.themes?.length ? " " + tchips(s.themes) : ""}${adaptBadge(s)}</div>
-        <div class="why">Because ${esc(s.why)}</div>
+        <div class="why">Because ${esc(tidyWhy(s.why))}</div>
         ${availability(null, s)}
       </div>
       <div class="side">
@@ -1043,7 +1066,7 @@ function renderTV() {
       <div class="body">
         <div class="title">${esc(s.title)}${serviceBadge(s)}</div>
         <div class="meta">${[s.year, s.creators?.join(", "), seriesMeta(s)].filter(Boolean).map(esc).join(" · ")}${s.genres?.length ? " · " + esc(s.genres.slice(0, 2).join(", ")) : ""}${s.themes?.length ? " " + tchips(s.themes) : ""}</div>
-        <div class="why">Because ${esc(s.why)}</div>
+        <div class="why">Because ${esc(tidyWhy(s.why))}</div>
         ${availability(null, s)}
       </div>
       <div class="side">
@@ -1218,7 +1241,7 @@ function renderBooks() {
       <div class="body">
         <div class="title">${esc(s.title)}</div>
         <div class="meta">${meta}</div>
-        <div class="why">Because ${esc(s.why)}</div>
+        <div class="why">Because ${esc(tidyWhy(s.why))}</div>
         ${subjectChips(e?.subjects) ? `<div class="avail">${subjectChips(e?.subjects)}</div>` : ""}
       </div>
       <div class="side">
@@ -1434,7 +1457,7 @@ function renderDirectors() {
         <span style="margin-left:auto;font:500 12px var(--mono);color:var(--dim)">${d.seen} seen</span></div>
       <div class="sprockets" aria-label="${d.seen} seen, ${d.remaining.length}${d.openEnded ? " or more" : ""} remaining">${dots}</div>
       <div class="note">${md(d.note)}</div>
-      ${d.remaining.length ? `<div class="queue-names">next: ${d.remaining.map(esc).join(" · ")}</div>` : ""}
+      ${d.remaining.length ? `<div class="queue-names">next: ${d.remaining.map((n) => `<b>${esc(n)}</b>`).join(" · ")}</div>` : ""}
       ${(() => { const tv = tvCreditsFor(d.name); return tv.length ? `<div class="queue-names">also on TV: ${tv.map(esc).join(" · ")}</div>` : ""; })()}
     </div>`;
     })
@@ -1483,7 +1506,7 @@ function computedSection() {
       : "";
 
   return `
-    <h2 class="sect">Computed from the data <span class="n">· refreshed ${esc(s.generated)}</span></h2>
+    <h2 class="sect">Computed from the data <span class="n">· refreshed ${esc(fmtDay(s.generated))}</span></h2>
     ${stale}
     <div class="grid2">
       <div class="card statcard"><h3>Score spread</h3>${tierRows}</div>
@@ -1531,7 +1554,7 @@ function themesSection() {
     .join("");
 
   return `
-    <h2 class="sect">Themes <span class="n">· refreshed ${esc(t.generated)}</span></h2>
+    <h2 class="sect">Themes <span class="n">· refreshed ${esc(fmtDay(t.generated))}</span></h2>
     <div class="grid2">
       <div class="card statcard"><h3>Named themes — where 4★+ over-indexes</h3>${themeRows}</div>
       <div class="card statcard"><h3>Emerging — unmapped keywords in loved films</h3>${emergent || `<div class="empty">nothing emergent yet</div>`}

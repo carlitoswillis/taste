@@ -226,5 +226,65 @@
     "director": "Ari Aster",
     "score": null,
     "note": "Completes Aster."
+  },
+  {
+    "title": "Burn After Reading",
+    "year": 2008,
+    "director": null,
+    "score": 4
+  },
+  {
+    "title": "The Invite",
+    "year": 2026,
+    "director": null,
+    "score": 3.5
+  },
+  {
+    "title": "Spider-Man: Brand New Day",
+    "year": 2026,
+    "director": null,
+    "score": 3.5
+  },
+  {
+    "title": "Bring Her Back",
+    "year": 2025,
+    "director": null,
+    "score": 3.5
+  },
+  {
+    "title": "The First Omen",
+    "year": 2024,
+    "director": null,
+    "score": 3.5
+  },
+  {
+    "title": "They Cloned Tyrone",
+    "year": 2023,
+    "director": null,
+    "score": 5
+  },
+  {
+    "title": "Resident Evil",
+    "year": 2026,
+    "director": null,
+    "score": 3.5
+  },
+  {
+    "title": "The End of Oak Street",
+    "year": 2026,
+    "director": null,
+    "score": 4
+  },
+  {
+    "title": "Primetime",
+    "year": 2026,
+    "director": null,
+    "score": 4
+  },
+  {
+    "title": "Coyote vs. Acme",
+    "year": 2026,
+    "director": null,
+    "score": 3.5
   }
 ]
