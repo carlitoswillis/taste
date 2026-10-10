@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-09T16:11:38.203Z",
+  "generated": "2026-10-10T15:23:04.224Z",
   "basedOn": 31,
   "head": 10,
   "items": [
@@ -71,8 +71,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.8,
-      "votes": 1052,
+      "tmdbRating": 7.757,
+      "votes": 1053,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -288,8 +288,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.584,
-      "votes": 5555,
+      "tmdbRating": 8.6,
+      "votes": 5561,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -402,8 +402,8 @@
       "title": "DAVE",
       "year": 2020,
       "tmdbId": 97084,
-      "tmdbRating": 7.3,
-      "votes": 195,
+      "tmdbRating": 7.306,
+      "votes": 196,
       "score": 3.0400000000000005,
       "rank": 12,
       "creators": [
@@ -472,7 +472,7 @@
       "year": 2005,
       "tmdbId": 292,
       "tmdbRating": 7.964,
-      "votes": 110,
+      "votes": 111,
       "score": 1.1,
       "themes": [
         "cruel-comedy"
@@ -581,7 +581,7 @@
       "title": "Super Pumped: The Battle for Uber",
       "year": 2022,
       "tmdbId": 126301,
-      "tmdbRating": 6.975,
+      "tmdbRating": 7,
       "votes": 100,
       "score": 2.2800000000000002,
       "rank": 17,
