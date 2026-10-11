@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-10T15:23:20.661Z",
+  "generated": "2026-10-11T15:39:45.097Z",
   "basedOn": {
     "lovedFilms": 31,
     "ratedBooks": 0,
@@ -450,23 +450,6 @@
       "rank": 26
     },
     {
-      "title": "The Complete Sherlock Holmes [4 novels, 56 stories]",
-      "author": "Arthur Conan Doyle",
-      "olWork": "OL262554W",
-      "year": 1900,
-      "pages": 1122,
-      "cover": "https://covers.openlibrary.org/b/id/12501284-M.jpg",
-      "editionCount": 118,
-      "olRating": {
-        "average": 4.510638,
-        "count": 47
-      },
-      "weight": 0.86,
-      "rankScore": 6.23,
-      "why": "thriller on the page — you over-index on it in film · mystery on the page — you over-index on it in film",
-      "rank": 27
-    },
-    {
       "title": "The Martian",
       "author": "Andy Weir",
       "olWork": "OL17091839W",
@@ -481,7 +464,7 @@
       "weight": 0.91,
       "rankScore": 6.22,
       "why": "thriller on the page — you over-index on it in film · science fiction on the page — you over-index on it in film",
-      "rank": 28
+      "rank": 27
     },
     {
       "title": "Six of Crows",
@@ -498,7 +481,7 @@
       "weight": 0.81,
       "rankScore": 6.16,
       "why": "science fiction on the page — you over-index on it in film · mystery on the page — you over-index on it in film",
-      "rank": 29
+      "rank": 28
     },
     {
       "title": "Watchmen",
@@ -515,7 +498,7 @@
       "weight": 0.81,
       "rankScore": 6.09,
       "why": "science fiction on the page — you over-index on it in film · mystery on the page — you over-index on it in film",
-      "rank": 30
+      "rank": 29
     },
     {
       "title": "The Green Mile",
@@ -532,6 +515,23 @@
       "weight": 0.86,
       "rankScore": 6.03,
       "why": "thriller on the page — you over-index on it in film · horror on the page — you over-index on it in film",
+      "rank": 30
+    },
+    {
+      "title": "And Then There Were None",
+      "author": "Agatha Christie",
+      "olWork": "OL471565W",
+      "year": 1939,
+      "pages": 222,
+      "cover": "https://covers.openlibrary.org/b/id/11172296-M.jpg",
+      "editionCount": 215,
+      "olRating": {
+        "average": 4.276243,
+        "count": 181
+      },
+      "weight": 0.86,
+      "rankScore": 6,
+      "why": "thriller on the page — you over-index on it in film · mystery on the page — you over-index on it in film",
       "rank": 31
     },
     {
@@ -552,6 +552,23 @@
       "rank": 32
     },
     {
+      "title": "The Complete Sherlock Holmes [4 novels, 56 stories]",
+      "author": "Arthur Conan Doyle",
+      "olWork": "OL262554W",
+      "year": 1900,
+      "pages": 1122,
+      "cover": "https://covers.openlibrary.org/b/id/12501284-M.jpg",
+      "editionCount": 118,
+      "olRating": {
+        "average": 4.510638,
+        "count": 47
+      },
+      "weight": 0.48,
+      "rankScore": 5.47,
+      "why": "thriller on the page — you over-index on it in film",
+      "rank": 33
+    },
+    {
       "title": "The Throne of Fire",
       "author": "Rick Riordan",
       "olWork": "OL15946464W",
@@ -566,7 +583,7 @@
       "weight": 0.43,
       "rankScore": 5.45,
       "why": "science fiction on the page — you over-index on it in film",
-      "rank": 33
+      "rank": 34
     },
     {
       "title": "The Sea of Monsters",
@@ -583,7 +600,7 @@
       "weight": 0.48,
       "rankScore": 5.42,
       "why": "thriller on the page — you over-index on it in film",
-      "rank": 34
+      "rank": 35
     },
     {
       "title": "The Hitchhiker's Guide to the Galaxy",
@@ -600,7 +617,7 @@
       "weight": 0.43,
       "rankScore": 5.37,
       "why": "science fiction on the page — you over-index on it in film",
-      "rank": 35
+      "rank": 36
     },
     {
       "title": "The Silver Eyes (Five Nights At Freddy's #1)",
@@ -617,7 +634,7 @@
       "weight": 0.38,
       "rankScore": 5.35,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 36
+      "rank": 37
     },
     {
       "title": "Amulet",
@@ -634,7 +651,7 @@
       "weight": 0.38,
       "rankScore": 5.33,
       "why": "mystery on the page — you over-index on it in film",
-      "rank": 37
+      "rank": 38
     },
     {
       "title": "Season of Mists",
@@ -651,7 +668,7 @@
       "weight": 0.38,
       "rankScore": 5.3,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 38
+      "rank": 39
     },
     {
       "title": "Stories of Your Life and Others",
@@ -668,23 +685,6 @@
       "weight": 0.43,
       "rankScore": 5.3,
       "why": "science fiction on the page — you over-index on it in film",
-      "rank": 39
-    },
-    {
-      "title": "The Stand",
-      "author": "Stephen King",
-      "olWork": "OL81618W",
-      "year": 1978,
-      "pages": 1153,
-      "cover": "https://covers.openlibrary.org/b/id/9255992-M.jpg",
-      "editionCount": 87,
-      "olRating": {
-        "average": 4.2967033,
-        "count": 91
-      },
-      "weight": 0.48,
-      "rankScore": 5.26,
-      "why": "thriller on the page — you over-index on it in film",
       "rank": 40
     }
   ]

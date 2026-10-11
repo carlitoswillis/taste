@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-10T15:21:20.641Z",
+  "generated": "2026-10-11T15:38:10.523Z",
   "edges": [
     {
       "book": {
@@ -471,448 +471,6 @@
     },
     {
       "book": {
-        "title": "The Monkey",
-        "author": "Stephen King",
-        "olWork": null,
-        "wikidata": "Q127265"
-      },
-      "screen": "The Monkey (2025)",
-      "screenId": "m:1124620",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Uglies",
-        "author": "Scott Westerfeld",
-        "olWork": "OL547172W",
-        "wikidata": "Q543375"
-      },
-      "screen": "Uglies (2024)",
-      "screenId": "m:748167",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Elvis and Me",
-        "author": "Priscilla Presley",
-        "olWork": "OL35665934W",
-        "wikidata": "Q5368251"
-      },
-      "screen": "Priscilla (2023)",
-      "screenId": "m:1020006",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Bullet Train",
-        "author": "Kōtarō Isaka",
-        "olWork": "OL24375262W",
-        "wikidata": "Q11340979"
-      },
-      "screen": "Bullet Train (2022)",
-      "screenId": "m:718930",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "The Ballad of Songbirds and Snakes",
-        "author": "Suzanne Collins",
-        "olWork": "OL28122267M",
-        "wikidata": "Q81925268"
-      },
-      "screen": "The Hunger Games: The Ballad of Songbirds & Snakes (2023)",
-      "screenId": "m:695721",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "The Backrooms",
-        "author": "http://www.wikidata.org/.well-known/genid/7650bc321f8603d92013efd1a1cb7e28",
-        "olWork": null,
-        "wikidata": "Q110904767"
-      },
-      "screen": "Backrooms (2026)",
-      "screenId": "m:1083381",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Mickey7",
-        "author": "Edward Ashton",
-        "olWork": "OL24546118W",
-        "wikidata": "Q113520957"
-      },
-      "screen": "Mickey 17 (2025)",
-      "screenId": "m:696506",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Caught Stealing",
-        "author": "Charlie Huston",
-        "olWork": "OL5732047W",
-        "wikidata": "Q130680390"
-      },
-      "screen": "Caught Stealing (2025)",
-      "screenId": "m:1245993",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "The Wild Robot",
-        "author": "Peter Brown",
-        "olWork": null,
-        "wikidata": "Q130723969"
-      },
-      "screen": "The Wild Robot (2024)",
-      "screenId": "m:1184918",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Dracula",
-        "author": "Bram Stoker",
-        "olWork": "OL85892W",
-        "wikidata": "Q41542"
-      },
-      "screen": "Nosferatu (2024)",
-      "screenId": "m:426063",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Barbie",
-        "author": "Ruth Handler",
-        "olWork": null,
-        "wikidata": "Q167447"
-      },
-      "screen": "Barbie (2023)",
-      "screenId": "m:346698",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Dune",
-        "author": "Frank Herbert",
-        "olWork": "OL893415W",
-        "wikidata": "Q190192"
-      },
-      "screen": "Dune (2021)",
-      "screenId": "m:438631",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Dune",
-        "author": "Frank Herbert",
-        "olWork": "OL893415W",
-        "wikidata": "Q190192"
-      },
-      "screen": "Dune: Part Two (2024)",
-      "screenId": "m:693134",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Zodiac",
-        "author": "Robert Graysmith",
-        "olWork": "OL2728912W",
-        "wikidata": "Q218156"
-      },
-      "screen": "Zodiac (2007)",
-      "screenId": "m:1949",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "The Return of the King",
-        "author": "J. R. R. Tolkien",
-        "olWork": "OL27479W",
-        "wikidata": "Q332581"
-      },
-      "screen": "The Lord of the Rings: The Return of the King (2003)",
-      "screenId": "m:122",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "The Crow",
-        "author": "James O'Barr",
-        "olWork": null,
-        "wikidata": "Q466708"
-      },
-      "screen": "The Crow (1994)",
-      "screenId": "m:9495",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Coraline",
-        "author": "Neil Gaiman",
-        "olWork": "OL679358W",
-        "wikidata": "Q475125"
-      },
-      "screen": "Coraline (2009)",
-      "screenId": "m:14836",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Sir Gawain and the Green Knight",
-        "author": "Pearl poet",
-        "olWork": "OL18568727W",
-        "wikidata": "Q756715"
-      },
-      "screen": "The Green Knight (2021)",
-      "screenId": "m:559907",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Hellblazer",
-        "author": "Alan Moore, Garth Ennis, Jamie Delano",
-        "olWork": null,
-        "wikidata": "Q1035139"
-      },
-      "screen": "Constantine (2005)",
-      "screenId": "m:561",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "The Double",
-        "author": "Fyodor Dostoyevsky",
-        "olWork": "OL14948248W",
-        "wikidata": "Q1192975"
-      },
-      "screen": "The Double (2013)",
-      "screenId": "m:146015",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Jaws",
-        "author": "Peter Benchley",
-        "olWork": "OL3454888W",
-        "wikidata": "Q1322449"
-      },
-      "screen": "Jaws (1975)",
-      "screenId": "m:578",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Brokeback Mountain",
-        "author": "Annie Proulx",
-        "olWork": "OL265677W",
-        "wikidata": "Q2699263"
-      },
-      "screen": "Brokeback Mountain (2005)",
-      "screenId": "m:142",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Fingersmith",
-        "author": "Sarah Waters",
-        "olWork": "OL35581651W",
-        "wikidata": "Q2756027"
-      },
-      "screen": "The Handmaiden (2016)",
-      "screenId": "m:290098",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Under the Skin",
-        "author": "Michel Faber",
-        "olWork": "OL56004W",
-        "wikidata": "Q3965250"
-      },
-      "screen": "Under the Skin (2013)",
-      "screenId": "m:97370",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Memento Mori",
-        "author": "Jonathan Nolan",
-        "olWork": null,
-        "wikidata": "Q6815203"
-      },
-      "screen": "Memento (2000)",
-      "screenId": "m:77",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "The Martian",
-        "author": "Andy Weir",
-        "olWork": "OL32815550M",
-        "wikidata": "Q17111624"
-      },
-      "screen": "The Martian (2015)",
-      "screenId": "m:286217",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Be Cool",
-        "author": "Elmore Leonard",
-        "olWork": "OL111640W",
-        "wikidata": "Q20888931"
-      },
-      "screen": "Be Cool (2005)",
-      "screenId": "m:4551",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "The Gray Man",
-        "author": "Mark Greaney",
-        "olWork": null,
-        "wikidata": "Q28419642"
-      },
-      "screen": "The Gray Man (2022)",
-      "screenId": "m:725201",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Conclave",
-        "author": "Robert Harris",
-        "olWork": "OL20085470W",
-        "wikidata": "Q56301616"
-      },
-      "screen": "Conclave (2024)",
-      "screenId": "m:974576",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Spaceman of Bohemia",
-        "author": "Jaroslav Kalfař",
-        "olWork": "OL20049986W",
-        "wikidata": "Q65074936"
-      },
-      "screen": "Spaceman (2024)",
-      "screenId": "m:636706",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "I'm Thinking of Ending Things",
-        "author": "Iain Reid",
-        "olWork": "OL20028344W",
-        "wikidata": "Q65091567"
-      },
-      "screen": "I'm Thinking of Ending Things (2020)",
-      "screenId": "m:500840",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Project Hail Mary",
-        "author": "Andy Weir",
-        "olWork": "OL21745884W",
-        "wikidata": "Q106852836"
-      },
-      "screen": "Project Hail Mary (2026)",
-      "screenId": "m:687163",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "The Power of the Dog",
-        "author": "Thomas Savage",
-        "olWork": "OL4649188W",
-        "wikidata": "Q108587556"
-      },
-      "screen": "The Power of the Dog (2021)",
-      "screenId": "m:600583",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Black Klansman: Race, Hate, and the Undercover Investigation of a Lifetime",
-        "author": "Ron Stallworth",
-        "olWork": "OL19742770W",
-        "wikidata": "Q114869892"
-      },
-      "screen": "BlacKkKlansman (2018)",
-      "screenId": "m:487558",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
         "title": "Seven Pillars of Wisdom",
         "author": "T. E. Lawrence",
         "olWork": "OL830503W",
@@ -1248,6 +806,448 @@
       "status": "confirmed",
       "source": "wikidata",
       "read": false
+    },
+    {
+      "book": {
+        "title": "Dracula",
+        "author": "Bram Stoker",
+        "olWork": "OL85892W",
+        "wikidata": "Q41542"
+      },
+      "screen": "Nosferatu (2024)",
+      "screenId": "m:426063",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Barbie",
+        "author": "Ruth Handler",
+        "olWork": null,
+        "wikidata": "Q167447"
+      },
+      "screen": "Barbie (2023)",
+      "screenId": "m:346698",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Dune",
+        "author": "Frank Herbert",
+        "olWork": "OL893415W",
+        "wikidata": "Q190192"
+      },
+      "screen": "Dune (2021)",
+      "screenId": "m:438631",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Dune",
+        "author": "Frank Herbert",
+        "olWork": "OL893415W",
+        "wikidata": "Q190192"
+      },
+      "screen": "Dune: Part Two (2024)",
+      "screenId": "m:693134",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Zodiac",
+        "author": "Robert Graysmith",
+        "olWork": "OL2728912W",
+        "wikidata": "Q218156"
+      },
+      "screen": "Zodiac (2007)",
+      "screenId": "m:1949",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Return of the King",
+        "author": "J. R. R. Tolkien",
+        "olWork": "OL27479W",
+        "wikidata": "Q332581"
+      },
+      "screen": "The Lord of the Rings: The Return of the King (2003)",
+      "screenId": "m:122",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Crow",
+        "author": "James O'Barr",
+        "olWork": null,
+        "wikidata": "Q466708"
+      },
+      "screen": "The Crow (1994)",
+      "screenId": "m:9495",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Coraline",
+        "author": "Neil Gaiman",
+        "olWork": "OL679358W",
+        "wikidata": "Q475125"
+      },
+      "screen": "Coraline (2009)",
+      "screenId": "m:14836",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Sir Gawain and the Green Knight",
+        "author": "Pearl poet",
+        "olWork": "OL18568727W",
+        "wikidata": "Q756715"
+      },
+      "screen": "The Green Knight (2021)",
+      "screenId": "m:559907",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Hellblazer",
+        "author": "Alan Moore, Garth Ennis, Jamie Delano",
+        "olWork": null,
+        "wikidata": "Q1035139"
+      },
+      "screen": "Constantine (2005)",
+      "screenId": "m:561",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Double",
+        "author": "Fyodor Dostoyevsky",
+        "olWork": "OL14948248W",
+        "wikidata": "Q1192975"
+      },
+      "screen": "The Double (2013)",
+      "screenId": "m:146015",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Jaws",
+        "author": "Peter Benchley",
+        "olWork": "OL3454888W",
+        "wikidata": "Q1322449"
+      },
+      "screen": "Jaws (1975)",
+      "screenId": "m:578",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Brokeback Mountain",
+        "author": "Annie Proulx",
+        "olWork": "OL265677W",
+        "wikidata": "Q2699263"
+      },
+      "screen": "Brokeback Mountain (2005)",
+      "screenId": "m:142",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Fingersmith",
+        "author": "Sarah Waters",
+        "olWork": "OL35581651W",
+        "wikidata": "Q2756027"
+      },
+      "screen": "The Handmaiden (2016)",
+      "screenId": "m:290098",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Under the Skin",
+        "author": "Michel Faber",
+        "olWork": "OL56004W",
+        "wikidata": "Q3965250"
+      },
+      "screen": "Under the Skin (2013)",
+      "screenId": "m:97370",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Memento Mori",
+        "author": "Jonathan Nolan",
+        "olWork": null,
+        "wikidata": "Q6815203"
+      },
+      "screen": "Memento (2000)",
+      "screenId": "m:77",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Martian",
+        "author": "Andy Weir",
+        "olWork": "OL32815550M",
+        "wikidata": "Q17111624"
+      },
+      "screen": "The Martian (2015)",
+      "screenId": "m:286217",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Be Cool",
+        "author": "Elmore Leonard",
+        "olWork": "OL111640W",
+        "wikidata": "Q20888931"
+      },
+      "screen": "Be Cool (2005)",
+      "screenId": "m:4551",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Gray Man",
+        "author": "Mark Greaney",
+        "olWork": null,
+        "wikidata": "Q28419642"
+      },
+      "screen": "The Gray Man (2022)",
+      "screenId": "m:725201",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Conclave",
+        "author": "Robert Harris",
+        "olWork": "OL20085470W",
+        "wikidata": "Q56301616"
+      },
+      "screen": "Conclave (2024)",
+      "screenId": "m:974576",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Spaceman of Bohemia",
+        "author": "Jaroslav Kalfař",
+        "olWork": "OL20049986W",
+        "wikidata": "Q65074936"
+      },
+      "screen": "Spaceman (2024)",
+      "screenId": "m:636706",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "I'm Thinking of Ending Things",
+        "author": "Iain Reid",
+        "olWork": "OL20028344W",
+        "wikidata": "Q65091567"
+      },
+      "screen": "I'm Thinking of Ending Things (2020)",
+      "screenId": "m:500840",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Project Hail Mary",
+        "author": "Andy Weir",
+        "olWork": "OL21745884W",
+        "wikidata": "Q106852836"
+      },
+      "screen": "Project Hail Mary (2026)",
+      "screenId": "m:687163",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Power of the Dog",
+        "author": "Thomas Savage",
+        "olWork": "OL4649188W",
+        "wikidata": "Q108587556"
+      },
+      "screen": "The Power of the Dog (2021)",
+      "screenId": "m:600583",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Black Klansman: Race, Hate, and the Undercover Investigation of a Lifetime",
+        "author": "Ron Stallworth",
+        "olWork": "OL19742770W",
+        "wikidata": "Q114869892"
+      },
+      "screen": "BlacKkKlansman (2018)",
+      "screenId": "m:487558",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Monkey",
+        "author": "Stephen King",
+        "olWork": null,
+        "wikidata": "Q127265"
+      },
+      "screen": "The Monkey (2025)",
+      "screenId": "m:1124620",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Uglies",
+        "author": "Scott Westerfeld",
+        "olWork": "OL547172W",
+        "wikidata": "Q543375"
+      },
+      "screen": "Uglies (2024)",
+      "screenId": "m:748167",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Elvis and Me",
+        "author": "Priscilla Presley",
+        "olWork": "OL35665934W",
+        "wikidata": "Q5368251"
+      },
+      "screen": "Priscilla (2023)",
+      "screenId": "m:1020006",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Bullet Train",
+        "author": "Kōtarō Isaka",
+        "olWork": "OL24375262W",
+        "wikidata": "Q11340979"
+      },
+      "screen": "Bullet Train (2022)",
+      "screenId": "m:718930",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Ballad of Songbirds and Snakes",
+        "author": "Suzanne Collins",
+        "olWork": "OL28122267M",
+        "wikidata": "Q81925268"
+      },
+      "screen": "The Hunger Games: The Ballad of Songbirds & Snakes (2023)",
+      "screenId": "m:695721",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Backrooms",
+        "author": "http://www.wikidata.org/.well-known/genid/7650bc321f8603d92013efd1a1cb7e28",
+        "olWork": null,
+        "wikidata": "Q110904767"
+      },
+      "screen": "Backrooms (2026)",
+      "screenId": "m:1083381",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Mickey7",
+        "author": "Edward Ashton",
+        "olWork": "OL24546118W",
+        "wikidata": "Q113520957"
+      },
+      "screen": "Mickey 17 (2025)",
+      "screenId": "m:696506",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Caught Stealing",
+        "author": "Charlie Huston",
+        "olWork": "OL5732047W",
+        "wikidata": "Q130680390"
+      },
+      "screen": "Caught Stealing (2025)",
+      "screenId": "m:1245993",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Wild Robot",
+        "author": "Peter Brown",
+        "olWork": null,
+        "wikidata": "Q130723969"
+      },
+      "screen": "The Wild Robot (2024)",
+      "screenId": "m:1184918",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
     }
   ],
   "rejected": [],
@@ -1276,6 +1276,12 @@
       "olKey": "OL18404A",
       "adaptedBy": [
         {
+          "director": "Christopher Nolan",
+          "films": [
+            "The Odyssey"
+          ]
+        },
+        {
           "director": "Joel Coen",
           "films": [
             "O Brother, Where Art Thou?"
@@ -1285,12 +1291,6 @@
           "director": "Ethan Coen",
           "films": [
             "O Brother, Where Art Thou?"
-          ]
-        },
-        {
-          "director": "Christopher Nolan",
-          "films": [
-            "The Odyssey"
           ]
         }
       ],
@@ -1463,20 +1463,6 @@
       "weight": 1.92
     },
     {
-      "name": "William Shakespeare",
-      "wikidata": "Q692",
-      "olKey": "OL9388A",
-      "adaptedBy": [
-        {
-          "director": "Joel Coen",
-          "films": [
-            "The Tragedy of Macbeth"
-          ]
-        }
-      ],
-      "weight": 1.6
-    },
-    {
       "name": "Susan Orlean",
       "wikidata": "Q273168",
       "olKey": "OL20986A",
@@ -1513,6 +1499,20 @@
           "director": "Spike Jonze",
           "films": [
             "I'm Here"
+          ]
+        }
+      ],
+      "weight": 1.6
+    },
+    {
+      "name": "William Shakespeare",
+      "wikidata": "Q692",
+      "olKey": "OL9388A",
+      "adaptedBy": [
+        {
+          "director": "Joel Coen",
+          "films": [
+            "The Tragedy of Macbeth"
           ]
         }
       ],
