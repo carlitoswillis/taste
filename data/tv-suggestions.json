@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-12T19:01:49.976Z",
+  "generated": "2026-10-13T16:57:29.970Z",
   "basedOn": 31,
   "head": 10,
   "items": [
@@ -71,8 +71,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.8,
-      "votes": 1056,
+      "tmdbRating": 7.757,
+      "votes": 1058,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -288,8 +288,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.6,
-      "votes": 5571,
+      "tmdbRating": 8.583,
+      "votes": 5577,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -323,8 +323,8 @@
       "title": "Gangs of London",
       "year": 2020,
       "tmdbId": 85021,
-      "tmdbRating": 7.804,
-      "votes": 723,
+      "tmdbRating": 7.803,
+      "votes": 724,
       "score": 2.7,
       "rank": 10,
       "creators": [
@@ -530,8 +530,7 @@
       "poster": "https://image.tmdb.org/t/p/w342/bSWmZnvXIOoqZ7eLderyInsouiF.jpg",
       "providers": {
         "flatrate": [
-          "YouTube TV",
-          "Adult Swim"
+          "YouTube TV"
         ],
         "rent": []
       },
