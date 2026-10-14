@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-13T16:57:29.970Z",
+  "generated": "2026-10-14T14:31:18.280Z",
   "basedOn": 31,
   "head": 10,
   "items": [
@@ -71,7 +71,7 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.757,
+      "tmdbRating": 7.8,
       "votes": 1058,
       "score": 3.0400000000000005,
       "themes": [
@@ -248,8 +248,8 @@
       "title": "CSI: Crime Scene Investigation",
       "year": 2000,
       "tmdbId": 1431,
-      "tmdbRating": 7.6,
-      "votes": 1439,
+      "tmdbRating": 7.606,
+      "votes": 1440,
       "score": 3.0400000000000005,
       "rank": 8,
       "creators": [
@@ -288,8 +288,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.583,
-      "votes": 5577,
+      "tmdbRating": 8.6,
+      "votes": 5579,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -608,45 +608,13 @@
       "why": "Quentin Tarantino stars in this (directed Once Upon a Time... in Hollywood 4★)"
     },
     {
-      "title": "Faking It",
-      "year": 2014,
-      "tmdbId": 60705,
-      "tmdbRating": 6.724,
-      "votes": 174,
-      "score": 2.16,
-      "rank": 18,
-      "creators": [
-        "Dana Goodman",
-        "Julia Lea Wolov"
-      ],
-      "seasons": 3,
-      "episodes": 38,
-      "episodeRuntime": 22,
-      "showStatus": "Canceled",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/vb9J7q977HB3AmvLETpmWIyIyTP.jpg",
-      "providers": {
-        "flatrate": [],
-        "rent": []
-      },
-      "scores": {
-        "rt": null,
-        "metacritic": null,
-        "imdb": 7.3
-      },
-      "why": "Drew Hancock wrote for this (directed Companion 4★)"
-    },
-    {
       "title": "Tom Clancy's Jack Ryan",
       "year": 2018,
       "tmdbId": 73375,
-      "tmdbRating": 7.678,
+      "tmdbRating": 7.7,
       "votes": 1911,
       "score": 1.92,
-      "rank": 19,
+      "rank": 18,
       "creators": [
         "Graham Roland",
         "Carlton Cuse"
@@ -673,6 +641,38 @@
         "imdb": 8
       },
       "why": "John Krasinski stars in this (directed A Quiet Place 4★)"
+    },
+    {
+      "title": "Faking It",
+      "year": 2014,
+      "tmdbId": 60705,
+      "tmdbRating": 6.724,
+      "votes": 174,
+      "score": 2.16,
+      "rank": 19,
+      "creators": [
+        "Dana Goodman",
+        "Julia Lea Wolov"
+      ],
+      "seasons": 3,
+      "episodes": 38,
+      "episodeRuntime": 22,
+      "showStatus": "Canceled",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/vb9J7q977HB3AmvLETpmWIyIyTP.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": []
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 7.3
+      },
+      "why": "Drew Hancock wrote for this (directed Companion 4★)"
     },
     {
       "title": "Suburgatory",
