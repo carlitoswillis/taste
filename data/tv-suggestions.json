@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-14T14:31:18.280Z",
+  "generated": "2026-10-15T14:11:12.705Z",
   "basedOn": 31,
   "head": 10,
   "items": [
@@ -146,8 +146,8 @@
       "title": "The Eric Andre Show",
       "year": 2012,
       "tmdbId": 56590,
-      "tmdbRating": 7.86,
-      "votes": 179,
+      "tmdbRating": 7.865,
+      "votes": 178,
       "score": 3.0400000000000005,
       "themes": [
         "surveillance"
@@ -288,8 +288,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.6,
-      "votes": 5579,
+      "tmdbRating": 8.583,
+      "votes": 5580,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -323,8 +323,8 @@
       "title": "Gangs of London",
       "year": 2020,
       "tmdbId": 85021,
-      "tmdbRating": 7.803,
-      "votes": 724,
+      "tmdbRating": 7.802,
+      "votes": 725,
       "score": 2.7,
       "rank": 10,
       "creators": [
@@ -363,8 +363,8 @@
       "title": "Twisted Metal",
       "year": 2023,
       "tmdbId": 133748,
-      "tmdbRating": 7.7,
-      "votes": 563,
+      "tmdbRating": 7.672,
+      "votes": 564,
       "score": 3.0400000000000005,
       "themes": [
         "identity"
@@ -678,8 +678,8 @@
       "title": "Suburgatory",
       "year": 2011,
       "tmdbId": 39357,
-      "tmdbRating": 6.7,
-      "votes": 236,
+      "tmdbRating": 6.673,
+      "votes": 237,
       "score": 2.16,
       "rank": 20,
       "creators": [
@@ -712,8 +712,8 @@
       "title": "Raised by Wolves",
       "year": 2020,
       "tmdbId": 85723,
-      "tmdbRating": 7.5,
-      "votes": 1862,
+      "tmdbRating": 7.494,
+      "votes": 1863,
       "score": 1.9200000000000004,
       "rank": 21,
       "creators": [

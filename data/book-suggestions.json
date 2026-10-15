@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-14T14:31:34.203Z",
+  "generated": "2026-10-15T14:11:32.926Z",
   "basedOn": {
     "lovedFilms": 31,
     "ratedBooks": 0,
@@ -541,13 +541,13 @@
       "year": 1977,
       "pages": 506,
       "cover": "https://covers.openlibrary.org/b/id/12376585-M.jpg",
-      "editionCount": 97,
+      "editionCount": 98,
       "olRating": {
-        "average": 4.173611,
-        "count": 288
+        "average": 4.1793103,
+        "count": 290
       },
       "weight": 0.86,
-      "rankScore": 5.89,
+      "rankScore": 5.9,
       "why": "thriller on the page — you over-index on it in film · horror on the page — you over-index on it in film",
       "rank": 32
     },
