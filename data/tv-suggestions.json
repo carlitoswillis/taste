@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T14:11:12.705Z",
+  "generated": "2026-10-16T13:58:31.628Z",
   "basedOn": 31,
   "head": 10,
   "items": [
@@ -71,8 +71,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.8,
-      "votes": 1058,
+      "tmdbRating": 7.757,
+      "votes": 1059,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -289,7 +289,7 @@
       "year": 2005,
       "tmdbId": 2316,
       "tmdbRating": 8.583,
-      "votes": 5580,
+      "votes": 5584,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -713,7 +713,7 @@
       "year": 2020,
       "tmdbId": 85723,
       "tmdbRating": 7.494,
-      "votes": 1863,
+      "votes": 1864,
       "score": 1.9200000000000004,
       "rank": 21,
       "creators": [
