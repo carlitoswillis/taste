@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T13:16:32.279Z",
+  "generated": "2026-10-19T16:28:18.335Z",
   "basedOn": 31,
   "head": 10,
   "items": [
@@ -72,7 +72,7 @@
       "year": 2023,
       "tmdbId": 154385,
       "tmdbRating": 7.758,
-      "votes": 1060,
+      "votes": 1061,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -289,7 +289,7 @@
       "year": 2005,
       "tmdbId": 2316,
       "tmdbRating": 8.583,
-      "votes": 5590,
+      "votes": 5594,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -363,8 +363,8 @@
       "title": "Twisted Metal",
       "year": 2023,
       "tmdbId": 133748,
-      "tmdbRating": 7.676,
-      "votes": 565,
+      "tmdbRating": 7.679,
+      "votes": 567,
       "score": 3.0400000000000005,
       "themes": [
         "identity"
@@ -580,8 +580,8 @@
       "title": "Super Pumped: The Battle for Uber",
       "year": 2022,
       "tmdbId": 126301,
-      "tmdbRating": 6.946,
-      "votes": 101,
+      "tmdbRating": 6.956,
+      "votes": 102,
       "score": 2.2800000000000002,
       "rank": 17,
       "creators": [
@@ -643,8 +643,8 @@
       "title": "Tom Clancy's Jack Ryan",
       "year": 2018,
       "tmdbId": 73375,
-      "tmdbRating": 7.677,
-      "votes": 1912,
+      "tmdbRating": 7.676,
+      "votes": 1913,
       "score": 1.92,
       "rank": 19,
       "creators": [
@@ -712,8 +712,8 @@
       "title": "Raised by Wolves",
       "year": 2020,
       "tmdbId": 85723,
-      "tmdbRating": 7.494,
-      "votes": 1864,
+      "tmdbRating": 7.493,
+      "votes": 1867,
       "score": 1.9200000000000004,
       "rank": 21,
       "creators": [
@@ -743,8 +743,8 @@
       "title": "Dope Thief",
       "year": 2025,
       "tmdbId": 209876,
-      "tmdbRating": 6.511,
-      "votes": 137,
+      "tmdbRating": 6.554,
+      "votes": 139,
       "score": 1.9200000000000004,
       "rank": 22,
       "creators": [
