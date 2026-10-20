@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19T16:28:18.335Z",
+  "generated": "2026-10-20T14:19:14.707Z",
   "basedOn": 31,
   "head": 10,
   "items": [
@@ -71,8 +71,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.758,
-      "votes": 1061,
+      "tmdbRating": 7.8,
+      "votes": 1060,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -108,8 +108,8 @@
       "title": "Jackass",
       "year": 2000,
       "tmdbId": 1795,
-      "tmdbRating": 6.8,
-      "votes": 316,
+      "tmdbRating": 6.74,
+      "votes": 317,
       "score": 4,
       "rank": 4,
       "creators": [
@@ -214,8 +214,8 @@
       "title": "ER",
       "year": 1994,
       "tmdbId": 4588,
-      "tmdbRating": 7.8,
-      "votes": 972,
+      "tmdbRating": 7.818,
+      "votes": 973,
       "score": 3.0400000000000005,
       "rank": 7,
       "creators": [
@@ -248,8 +248,8 @@
       "title": "CSI: Crime Scene Investigation",
       "year": 2000,
       "tmdbId": 1431,
-      "tmdbRating": 7.606,
-      "votes": 1440,
+      "tmdbRating": 7.607,
+      "votes": 1441,
       "score": 3.0400000000000005,
       "rank": 8,
       "creators": [
@@ -288,8 +288,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.583,
-      "votes": 5594,
+      "tmdbRating": 8.585,
+      "votes": 5600,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -402,8 +402,8 @@
       "title": "DAVE",
       "year": 2020,
       "tmdbId": 97084,
-      "tmdbRating": 7.3,
-      "votes": 196,
+      "tmdbRating": 7.31,
+      "votes": 197,
       "score": 3.0400000000000005,
       "rank": 12,
       "creators": [
@@ -545,8 +545,8 @@
       "title": "Blue Mountain State",
       "year": 2010,
       "tmdbId": 31941,
-      "tmdbRating": 7.6,
-      "votes": 477,
+      "tmdbRating": 7.585,
+      "votes": 479,
       "score": 2.16,
       "rank": 16,
       "creators": [
@@ -643,8 +643,8 @@
       "title": "Tom Clancy's Jack Ryan",
       "year": 2018,
       "tmdbId": 73375,
-      "tmdbRating": 7.676,
-      "votes": 1913,
+      "tmdbRating": 7.677,
+      "votes": 1915,
       "score": 1.92,
       "rank": 19,
       "creators": [
@@ -713,7 +713,7 @@
       "year": 2020,
       "tmdbId": 85723,
       "tmdbRating": 7.493,
-      "votes": 1867,
+      "votes": 1866,
       "score": 1.9200000000000004,
       "rank": 21,
       "creators": [
