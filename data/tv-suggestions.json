@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T14:19:14.707Z",
+  "generated": "2026-10-21T14:30:36.460Z",
   "basedOn": 31,
   "head": 10,
   "items": [
@@ -39,7 +39,7 @@
       "title": "Scenes from a Marriage",
       "year": 1973,
       "tmdbId": 65170,
-      "tmdbRating": 8.09,
+      "tmdbRating": 8.1,
       "votes": 150,
       "score": 13,
       "rank": 2,
@@ -215,7 +215,7 @@
       "year": 1994,
       "tmdbId": 4588,
       "tmdbRating": 7.818,
-      "votes": 973,
+      "votes": 974,
       "score": 3.0400000000000005,
       "rank": 7,
       "creators": [
@@ -288,8 +288,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.585,
-      "votes": 5600,
+      "tmdbRating": 8.586,
+      "votes": 5613,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -363,8 +363,8 @@
       "title": "Twisted Metal",
       "year": 2023,
       "tmdbId": 133748,
-      "tmdbRating": 7.679,
-      "votes": 567,
+      "tmdbRating": 7.678,
+      "votes": 569,
       "score": 3.0400000000000005,
       "themes": [
         "identity"
@@ -436,8 +436,8 @@
       "title": "Butterfly",
       "year": 2025,
       "tmdbId": 227114,
-      "tmdbRating": 7.201,
-      "votes": 147,
+      "tmdbRating": 7.197,
+      "votes": 150,
       "score": 3.0400000000000005,
       "rank": 13,
       "creators": [
@@ -545,8 +545,8 @@
       "title": "Blue Mountain State",
       "year": 2010,
       "tmdbId": 31941,
-      "tmdbRating": 7.585,
-      "votes": 479,
+      "tmdbRating": 7.581,
+      "votes": 480,
       "score": 2.16,
       "rank": 16,
       "creators": [
@@ -643,8 +643,8 @@
       "title": "Tom Clancy's Jack Ryan",
       "year": 2018,
       "tmdbId": 73375,
-      "tmdbRating": 7.677,
-      "votes": 1915,
+      "tmdbRating": 7.675,
+      "votes": 1917,
       "score": 1.92,
       "rank": 19,
       "creators": [
