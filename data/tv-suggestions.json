@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T14:30:36.460Z",
+  "generated": "2026-10-22T14:31:53.272Z",
   "basedOn": 31,
   "head": 10,
   "items": [
@@ -154,7 +154,7 @@
       ],
       "rank": 5,
       "creators": [
-        "Eric Andre"
+        "Eric André"
       ],
       "seasons": 6,
       "episodes": 60,
@@ -214,7 +214,7 @@
       "title": "ER",
       "year": 1994,
       "tmdbId": 4588,
-      "tmdbRating": 7.818,
+      "tmdbRating": 7.8,
       "votes": 974,
       "score": 3.0400000000000005,
       "rank": 7,
@@ -288,8 +288,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.586,
-      "votes": 5613,
+      "tmdbRating": 8.6,
+      "votes": 5615,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -363,8 +363,8 @@
       "title": "Twisted Metal",
       "year": 2023,
       "tmdbId": 133748,
-      "tmdbRating": 7.678,
-      "votes": 569,
+      "tmdbRating": 7.681,
+      "votes": 570,
       "score": 3.0400000000000005,
       "themes": [
         "identity"
@@ -713,7 +713,7 @@
       "year": 2020,
       "tmdbId": 85723,
       "tmdbRating": 7.493,
-      "votes": 1866,
+      "votes": 1867,
       "score": 1.9200000000000004,
       "rank": 21,
       "creators": [
