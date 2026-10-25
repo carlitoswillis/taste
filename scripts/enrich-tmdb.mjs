@@ -13,6 +13,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { pickMatch, searchMovie } from "./lib/tmdb-match.mjs";
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 
@@ -72,8 +73,11 @@ for (const film of films) {
   // "writers" marks the current schema; older entries get refetched (scores kept)
   if (out[k]?.tmdbId && out[k].writers) continue;
 
-  const search = await tmdb("/search/movie", { query: film.title, year: film.year });
-  const match = search.results?.[0];
+  // A TMDB id from the source (Letterboxd film page) wins outright; otherwise
+  // search with a strict year check and exact-title preference.
+  let match;
+  if (film.tmdbId) match = { id: film.tmdbId };
+  else match = pickMatch(await searchMovie(tmdb, film.title, film.year), film.title, film.year);
   if (!match) {
     console.warn(`  no TMDB match: ${k}`);
     continue;
@@ -93,7 +97,7 @@ for (const film of films) {
     tmdbRating: detail.vote_average ?? null,
     overview: detail.overview ?? "",
     tagline: detail.tagline ?? "",
-    poster: match.poster_path ? `https://image.tmdb.org/t/p/w342${match.poster_path}` : null,
+    poster: (match.poster_path ?? detail.poster_path) ? `https://image.tmdb.org/t/p/w342${match.poster_path ?? detail.poster_path}` : null,
     backdrop: detail.backdrop_path ?? null, // TMDB path ("/abc.jpg"), 16:9; prefix https://image.tmdb.org/t/p/<size>
     providers: {
       flatrate: providers.flatrate?.map((p) => p.provider_name) ?? [],

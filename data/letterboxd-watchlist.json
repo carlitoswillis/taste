@@ -1,5 +1,5 @@
 {
-  "fetched": 1792935686075,
+  "fetched": 1792954055214,
   "user": "carlitxs",
   "items": [
     {
@@ -7,539 +7,616 @@
       "year": 2008,
       "slug": "walle",
       "link": "https://letterboxd.com/film/walle/",
-      "position": 1
+      "position": 1,
+      "tmdbId": 10681
     },
     {
       "title": "Cronos",
       "year": 1992,
       "slug": "cronos",
       "link": "https://letterboxd.com/film/cronos/",
-      "position": 2
+      "position": 2,
+      "tmdbId": 11655
     },
     {
       "title": "La Haine",
       "year": 1995,
       "slug": "la-haine",
       "link": "https://letterboxd.com/film/la-haine/",
-      "position": 3
+      "position": 3,
+      "tmdbId": 406
     },
     {
       "title": "The Worst Person in the World",
       "year": 2021,
       "slug": "the-worst-person-in-the-world",
       "link": "https://letterboxd.com/film/the-worst-person-in-the-world/",
-      "position": 4
+      "position": 4,
+      "tmdbId": 660120
     },
     {
       "title": "Beau Is Afraid",
       "year": 2023,
       "slug": "beau-is-afraid",
       "link": "https://letterboxd.com/film/beau-is-afraid/",
-      "position": 5
+      "position": 5,
+      "tmdbId": 798286
     },
     {
       "title": "The Stranger",
       "year": 2025,
       "slug": "the-stranger-2025-1",
       "link": "https://letterboxd.com/film/the-stranger-2025-1/",
-      "position": 6
+      "position": 6,
+      "tmdbId": 1429348
     },
     {
       "title": "Blood Simple",
       "year": 1984,
       "slug": "blood-simple",
       "link": "https://letterboxd.com/film/blood-simple/",
-      "position": 7
+      "position": 7,
+      "tmdbId": 11368
     },
     {
       "title": "Dog Day Afternoon",
       "year": 1975,
       "slug": "dog-day-afternoon",
       "link": "https://letterboxd.com/film/dog-day-afternoon/",
-      "position": 8
+      "position": 8,
+      "tmdbId": 968
     },
     {
       "title": "Crimes of the Future",
       "year": 1970,
       "slug": "crimes-of-the-future",
       "link": "https://letterboxd.com/film/crimes-of-the-future/",
-      "position": 9
+      "position": 9,
+      "tmdbId": 27371
     },
     {
       "title": "Spider",
       "year": 2002,
       "slug": "spider",
       "link": "https://letterboxd.com/film/spider/",
-      "position": 10
+      "position": 10,
+      "tmdbId": 9613
     },
     {
       "title": "Rabid",
       "year": 1977,
       "slug": "rabid",
       "link": "https://letterboxd.com/film/rabid/",
-      "position": 11
+      "position": 11,
+      "tmdbId": 29437
     },
     {
       "title": "A Dangerous Method",
       "year": 2011,
       "slug": "a-dangerous-method",
       "link": "https://letterboxd.com/film/a-dangerous-method/",
-      "position": 12
+      "position": 12,
+      "tmdbId": 48231
     },
     {
       "title": "Cosmopolis",
       "year": 2012,
       "slug": "cosmopolis",
       "link": "https://letterboxd.com/film/cosmopolis/",
-      "position": 13
+      "position": 13,
+      "tmdbId": 49014
     },
     {
       "title": "The Dead Zone",
       "year": 1983,
       "slug": "the-dead-zone",
       "link": "https://letterboxd.com/film/the-dead-zone/",
-      "position": 14
+      "position": 14,
+      "tmdbId": 11336
     },
     {
       "title": "The Brood",
       "year": 1979,
       "slug": "the-brood",
       "link": "https://letterboxd.com/film/the-brood/",
-      "position": 15
+      "position": 15,
+      "tmdbId": 28942
     },
     {
       "title": "eXistenZ",
       "year": 1999,
       "slug": "existenz",
       "link": "https://letterboxd.com/film/existenz/",
-      "position": 16
+      "position": 16,
+      "tmdbId": 1946
     },
     {
       "title": "Scanners",
       "year": 1981,
       "slug": "scanners",
       "link": "https://letterboxd.com/film/scanners/",
-      "position": 17
+      "position": 17,
+      "tmdbId": 9538
     },
     {
       "title": "A History of Violence",
       "year": 2005,
       "slug": "a-history-of-violence",
       "link": "https://letterboxd.com/film/a-history-of-violence/",
-      "position": 18
+      "position": 18,
+      "tmdbId": 59
     },
     {
       "title": "Videodrome",
       "year": 1983,
       "slug": "videodrome",
       "link": "https://letterboxd.com/film/videodrome/",
-      "position": 19
+      "position": 19,
+      "tmdbId": 837
     },
     {
       "title": "The Fly",
       "year": 1986,
       "slug": "the-fly-1986",
       "link": "https://letterboxd.com/film/the-fly-1986/",
-      "position": 20
+      "position": 20,
+      "tmdbId": 9426
     },
     {
       "title": "Wild Horse Nine",
       "year": 2026,
       "slug": "wild-horse-nine",
       "link": "https://letterboxd.com/film/wild-horse-nine/",
-      "position": 21
+      "position": 21,
+      "tmdbId": 891621
     },
     {
       "title": "The Sadness",
       "year": 2021,
       "slug": "the-sadness-2021",
       "link": "https://letterboxd.com/film/the-sadness-2021/",
-      "position": 22
+      "position": 22,
+      "tmdbId": 776797
     },
     {
       "title": "Cries and Whispers",
       "year": 1972,
       "slug": "cries-and-whispers",
       "link": "https://letterboxd.com/film/cries-and-whispers/",
-      "position": 23
+      "position": 23,
+      "tmdbId": 10238
     },
     {
       "title": "Disclosure Day",
       "year": 2026,
       "slug": "disclosure-day",
       "link": "https://letterboxd.com/film/disclosure-day/",
-      "position": 24
+      "position": 24,
+      "tmdbId": 1275779
     },
     {
       "title": "The Notebook",
       "year": 2004,
       "slug": "the-notebook",
       "link": "https://letterboxd.com/film/the-notebook/",
-      "position": 25
+      "position": 25,
+      "tmdbId": 11036
     },
     {
       "title": "The Fall Guy",
       "year": 2024,
       "slug": "the-fall-guy-2024",
       "link": "https://letterboxd.com/film/the-fall-guy-2024/",
-      "position": 26
+      "position": 26,
+      "tmdbId": 746036
     },
     {
       "title": "The Gray Man",
       "year": 2022,
       "slug": "the-gray-man-2022",
       "link": "https://letterboxd.com/film/the-gray-man-2022/",
-      "position": 27
+      "position": 27,
+      "tmdbId": 725201
     },
     {
       "title": "Black Bag",
       "year": 2025,
       "slug": "black-bag-2025",
       "link": "https://letterboxd.com/film/black-bag-2025/",
-      "position": 28
+      "position": 28,
+      "tmdbId": 1233575
     },
     {
       "title": "Donnie Darko",
       "year": 2001,
       "slug": "donnie-darko",
       "link": "https://letterboxd.com/film/donnie-darko/",
-      "position": 29
+      "position": 29,
+      "tmdbId": 141
     },
     {
       "title": "Constantine",
       "year": 2005,
       "slug": "constantine",
       "link": "https://letterboxd.com/film/constantine/",
-      "position": 30
+      "position": 30,
+      "tmdbId": 561
     },
     {
       "title": "2001: A Space Odyssey",
       "year": 1968,
       "slug": "2001-a-space-odyssey",
       "link": "https://letterboxd.com/film/2001-a-space-odyssey/",
-      "position": 31
+      "position": 31,
+      "tmdbId": 62
     },
     {
       "title": "Insidious: Out of the Further",
       "year": 2026,
       "slug": "insidious-out-of-the-further",
       "link": "https://letterboxd.com/film/insidious-out-of-the-further/",
-      "position": 32
+      "position": 32,
+      "tmdbId": 1291595
     },
     {
       "title": "Immortals",
       "year": 2011,
       "slug": "immortals",
       "link": "https://letterboxd.com/film/immortals/",
-      "position": 33
+      "position": 33,
+      "tmdbId": 37958
     },
     {
       "title": "Her Private Hell",
       "year": 2026,
       "slug": "her-private-hell-2026",
       "link": "https://letterboxd.com/film/her-private-hell-2026/",
-      "position": 34
+      "position": 34,
+      "tmdbId": 1469342
     },
     {
       "title": "The Wrong Girls",
       "year": 2026,
       "slug": "the-wrong-girls",
       "link": "https://letterboxd.com/film/the-wrong-girls/",
-      "position": 35
+      "position": 35,
+      "tmdbId": 1226699
     },
     {
       "title": "The Handmaiden",
       "year": 2016,
       "slug": "the-handmaiden",
       "link": "https://letterboxd.com/film/the-handmaiden/",
-      "position": 36
+      "position": 36,
+      "tmdbId": 290098
     },
     {
       "title": "After Hours",
       "year": 1985,
       "slug": "after-hours",
       "link": "https://letterboxd.com/film/after-hours/",
-      "position": 37
+      "position": 37,
+      "tmdbId": 10843
     },
     {
       "title": "The Wailing",
       "year": 2016,
       "slug": "the-wailing",
       "link": "https://letterboxd.com/film/the-wailing/",
-      "position": 38
+      "position": 38,
+      "tmdbId": 293670
     },
     {
       "title": "Memories of Murder",
       "year": 2003,
       "slug": "memories-of-murder",
       "link": "https://letterboxd.com/film/memories-of-murder/",
-      "position": 39
+      "position": 39,
+      "tmdbId": 11423
     },
     {
       "title": "Cure",
       "year": 1997,
       "slug": "cure",
       "link": "https://letterboxd.com/film/cure/",
-      "position": 40
+      "position": 40,
+      "tmdbId": 36095
     },
     {
       "title": "Apocalypse Now",
       "year": 1979,
       "slug": "apocalypse-now",
       "link": "https://letterboxd.com/film/apocalypse-now/",
-      "position": 41
+      "position": 41,
+      "tmdbId": 28
     },
     {
       "title": "Lawrence of Arabia",
       "year": 1962,
       "slug": "lawrence-of-arabia",
       "link": "https://letterboxd.com/film/lawrence-of-arabia/",
-      "position": 42
+      "position": 42,
+      "tmdbId": 947
     },
     {
       "title": "Incendies",
       "year": 2010,
       "slug": "incendies",
       "link": "https://letterboxd.com/film/incendies/",
-      "position": 43
+      "position": 43,
+      "tmdbId": 46738
     },
     {
       "title": "The Fall",
       "year": 2006,
       "slug": "the-fall",
       "link": "https://letterboxd.com/film/the-fall/",
-      "position": 44
+      "position": 44,
+      "tmdbId": 14784
     },
     {
       "title": "The Assassination of Jesse James by the Coward Robert Ford",
       "year": 2007,
       "slug": "the-assassination-of-jesse-james-by-the-coward-robert-ford",
       "link": "https://letterboxd.com/film/the-assassination-of-jesse-james-by-the-coward-robert-ford/",
-      "position": 45
+      "position": 45,
+      "tmdbId": 4512
     },
     {
       "title": "Gladiator",
       "year": 2000,
       "slug": "gladiator-2000",
       "link": "https://letterboxd.com/film/gladiator-2000/",
-      "position": 46
+      "position": 46,
+      "tmdbId": 98
     },
     {
       "title": "The Return",
       "year": 2024,
       "slug": "the-return-2024",
       "link": "https://letterboxd.com/film/the-return-2024/",
-      "position": 47
+      "position": 47,
+      "tmdbId": 975511
     },
     {
       "title": "Erupcja",
       "year": 2025,
       "slug": "erupcja",
       "link": "https://letterboxd.com/film/erupcja/",
-      "position": 48
+      "position": 48,
+      "tmdbId": 1337592
     },
     {
       "title": "Skinamarink",
       "year": 2022,
       "slug": "skinamarink",
       "link": "https://letterboxd.com/film/skinamarink/",
-      "position": 49
+      "position": 49,
+      "tmdbId": 994143
     },
     {
       "title": "Vertigo",
       "year": 1958,
       "slug": "vertigo",
       "link": "https://letterboxd.com/film/vertigo/",
-      "position": 50
+      "position": 50,
+      "tmdbId": 426
     },
     {
       "title": "The Last Stop in Yuma County",
       "year": 2023,
       "slug": "the-last-stop-in-yuma-county",
       "link": "https://letterboxd.com/film/the-last-stop-in-yuma-county/",
-      "position": 51
+      "position": 51,
+      "tmdbId": 1047020
     },
     {
       "title": "Evil Dead Wrath",
       "year": 2028,
       "slug": "evil-dead-wrath",
       "link": "https://letterboxd.com/film/evil-dead-wrath/",
-      "position": 52
+      "position": 52,
+      "tmdbId": 1280608
     },
     {
       "title": "Army of Darkness",
       "year": 1992,
       "slug": "army-of-darkness",
       "link": "https://letterboxd.com/film/army-of-darkness/",
-      "position": 53
+      "position": 53,
+      "tmdbId": 766
     },
     {
       "title": "Evil Dead II",
       "year": 1987,
       "slug": "evil-dead-ii",
       "link": "https://letterboxd.com/film/evil-dead-ii/",
-      "position": 54
+      "position": 54,
+      "tmdbId": 765
     },
     {
       "title": "Evil Dead Rise",
       "year": 2023,
       "slug": "evil-dead-rise",
       "link": "https://letterboxd.com/film/evil-dead-rise/",
-      "position": 55
+      "position": 55,
+      "tmdbId": 713704
     },
     {
       "title": "Evil Dead",
       "year": 2013,
       "slug": "evil-dead",
       "link": "https://letterboxd.com/film/evil-dead/",
-      "position": 56
+      "position": 56,
+      "tmdbId": 109428
     },
     {
       "title": "The Evil Dead",
       "year": 1981,
       "slug": "the-evil-dead",
       "link": "https://letterboxd.com/film/the-evil-dead/",
-      "position": 57
+      "position": 57,
+      "tmdbId": 764
     },
     {
       "title": "Superman",
       "year": 2025,
       "slug": "superman-2025",
       "link": "https://letterboxd.com/film/superman-2025/",
-      "position": 58
+      "position": 58,
+      "tmdbId": 1061474
     },
     {
       "title": "I Saw the Devil",
       "year": 2010,
       "slug": "i-saw-the-devil",
       "link": "https://letterboxd.com/film/i-saw-the-devil/",
-      "position": 59
+      "position": 59,
+      "tmdbId": 49797
     },
     {
       "title": "The Conversation",
       "year": 1974,
       "slug": "the-conversation",
       "link": "https://letterboxd.com/film/the-conversation/",
-      "position": 60
+      "position": 60,
+      "tmdbId": 592
     },
     {
       "title": "Splice",
       "year": 2009,
       "slug": "splice",
       "link": "https://letterboxd.com/film/splice/",
-      "position": 61
+      "position": 61,
+      "tmdbId": 37707
     },
     {
       "title": "Werwulf",
       "year": 2026,
       "slug": "werwulf",
       "link": "https://letterboxd.com/film/werwulf/",
-      "position": 62
+      "position": 62,
+      "tmdbId": 1421903
     },
     {
       "title": "Equilibrium",
       "year": 2002,
       "slug": "equilibrium",
       "link": "https://letterboxd.com/film/equilibrium/",
-      "position": 63
+      "position": 63,
+      "tmdbId": 7299
     },
     {
       "title": "Us",
       "year": 2019,
       "slug": "us-2019",
       "link": "https://letterboxd.com/film/us-2019/",
-      "position": 64
+      "position": 64,
+      "tmdbId": 458723
     },
     {
       "title": "Nirvanna the Band the Show the Movie",
       "year": 2025,
       "slug": "nirvanna-the-band-the-show-the-movie",
       "link": "https://letterboxd.com/film/nirvanna-the-band-the-show-the-movie/",
-      "position": 65
+      "position": 65,
+      "tmdbId": 1154538
     },
     {
       "title": "Conclave",
       "year": 2024,
       "slug": "conclave",
       "link": "https://letterboxd.com/film/conclave/",
-      "position": 66
+      "position": 66,
+      "tmdbId": 974576
     },
     {
       "title": "The Texas Chain Saw Massacre",
       "year": 1974,
       "slug": "the-texas-chain-saw-massacre",
       "link": "https://letterboxd.com/film/the-texas-chain-saw-massacre/",
-      "position": 67
+      "position": 67,
+      "tmdbId": 30497
     },
     {
       "title": "Pulse",
       "year": 2001,
       "slug": "pulse-2001",
       "link": "https://letterboxd.com/film/pulse-2001/",
-      "position": 68
+      "position": 68,
+      "tmdbId": 27324
     },
     {
       "title": "Evil Dead Burn",
       "year": 2026,
       "slug": "evil-dead-burn",
       "link": "https://letterboxd.com/film/evil-dead-burn/",
-      "position": 69
+      "position": 69,
+      "tmdbId": 1212763
     },
     {
       "title": "Apocalypto",
       "year": 2006,
       "slug": "apocalypto",
       "link": "https://letterboxd.com/film/apocalypto/",
-      "position": 70
+      "position": 70,
+      "tmdbId": 1579
     },
     {
       "title": "Spring Breakers",
       "year": 2012,
       "slug": "spring-breakers",
       "link": "https://letterboxd.com/film/spring-breakers/",
-      "position": 71
+      "position": 71,
+      "tmdbId": 122081
     },
     {
       "title": "The Super Mario Galaxy Movie",
       "year": 2026,
       "slug": "the-super-mario-galaxy-movie",
       "link": "https://letterboxd.com/film/the-super-mario-galaxy-movie/",
-      "position": 72
+      "position": 72,
+      "tmdbId": 1226863
     },
     {
       "title": "The Interview",
       "year": 2014,
       "slug": "the-interview-2014",
       "link": "https://letterboxd.com/film/the-interview-2014/",
-      "position": 73
+      "position": 73,
+      "tmdbId": 228967
     },
     {
       "title": "SLC Punk",
       "year": 1998,
       "slug": "slc-punk",
       "link": "https://letterboxd.com/film/slc-punk/",
-      "position": 74
+      "position": 74,
+      "tmdbId": 6396
     },
     {
       "title": "Kung Fu Hustle",
       "year": 2004,
       "slug": "kung-fu-hustle",
       "link": "https://letterboxd.com/film/kung-fu-hustle/",
-      "position": 75
+      "position": 75,
+      "tmdbId": 9470
     },
     {
       "title": "Lock, Stock and Two Smoking Barrels",
       "year": 1998,
       "slug": "lock-stock-and-two-smoking-barrels",
       "link": "https://letterboxd.com/film/lock-stock-and-two-smoking-barrels/",
-      "position": 76
+      "position": 76,
+      "tmdbId": 100
     },
     {
       "title": "Snatch",
       "year": 2000,
       "slug": "snatch",
       "link": "https://letterboxd.com/film/snatch/",
-      "position": 77
+      "position": 77,
+      "tmdbId": 107
     },
     {
       "title": "The Trial",
@@ -553,70 +630,80 @@
       "year": 1991,
       "slug": "barton-fink",
       "link": "https://letterboxd.com/film/barton-fink/",
-      "position": 79
+      "position": 79,
+      "tmdbId": 290
     },
     {
       "title": "Hail, Caesar!",
       "year": 2016,
       "slug": "hail-caesar-2016",
       "link": "https://letterboxd.com/film/hail-caesar-2016/",
-      "position": 80
+      "position": 80,
+      "tmdbId": 270487
     },
     {
       "title": "Avengers: Doomsday",
       "year": 2026,
       "slug": "avengers-doomsday",
       "link": "https://letterboxd.com/film/avengers-doomsday/",
-      "position": 81
+      "position": 81,
+      "tmdbId": 1003596
     },
     {
       "title": "Spider-Man: Beyond the Spider-Verse",
       "year": 2027,
       "slug": "spider-man-beyond-the-spider-verse",
       "link": "https://letterboxd.com/film/spider-man-beyond-the-spider-verse/",
-      "position": 82
+      "position": 82,
+      "tmdbId": 911916
     },
     {
       "title": "Dune: Part Three",
       "year": 2026,
       "slug": "dune-part-three",
       "link": "https://letterboxd.com/film/dune-part-three/",
-      "position": 83
+      "position": 83,
+      "tmdbId": 1170608
     },
     {
       "title": "No Exit",
       "year": 1954,
       "slug": "no-exit-1954",
       "link": "https://letterboxd.com/film/no-exit-1954/",
-      "position": 84
+      "position": 84,
+      "tmdbId": 130650
     },
     {
       "title": "Brazil",
       "year": 1985,
       "slug": "brazil",
       "link": "https://letterboxd.com/film/brazil/",
-      "position": 85
+      "position": 85,
+      "tmdbId": 68
     },
     {
       "title": "Blade Runner",
       "year": 1982,
       "slug": "blade-runner",
       "link": "https://letterboxd.com/film/blade-runner/",
-      "position": 86
+      "position": 86,
+      "tmdbId": 78
     },
     {
       "title": "The Invisible Man",
       "year": 2020,
       "slug": "the-invisible-man-2020",
       "link": "https://letterboxd.com/film/the-invisible-man-2020/",
-      "position": 87
+      "position": 87,
+      "tmdbId": 570670
     },
     {
       "title": "La Notte",
       "year": 1961,
       "slug": "la-notte",
       "link": "https://letterboxd.com/film/la-notte/",
-      "position": 88
+      "position": 88,
+      "tmdbId": 41050
     },
     {
       "title": "Station Eleven",
@@ -630,245 +717,280 @@
       "year": 1998,
       "slug": "armageddon",
       "link": "https://letterboxd.com/film/armageddon/",
-      "position": 90
+      "position": 90,
+      "tmdbId": 95
     },
     {
       "title": "Deep Impact",
       "year": 1998,
       "slug": "deep-impact",
       "link": "https://letterboxd.com/film/deep-impact/",
-      "position": 91
+      "position": 91,
+      "tmdbId": 8656
     },
     {
       "title": "A.I. Artificial Intelligence",
       "year": 2001,
       "slug": "ai-artificial-intelligence",
       "link": "https://letterboxd.com/film/ai-artificial-intelligence/",
-      "position": 92
+      "position": 92,
+      "tmdbId": 644
     },
     {
       "title": "Sunshine",
       "year": 2007,
       "slug": "sunshine-2007",
       "link": "https://letterboxd.com/film/sunshine-2007/",
-      "position": 93
+      "position": 93,
+      "tmdbId": 1272
     },
     {
       "title": "The Housemaid",
       "year": 2025,
       "slug": "the-housemaid-2025",
       "link": "https://letterboxd.com/film/the-housemaid-2025/",
-      "position": 94
+      "position": 94,
+      "tmdbId": 1368166
     },
     {
       "title": "No Other Choice",
       "year": 2025,
       "slug": "no-other-choice-2025",
       "link": "https://letterboxd.com/film/no-other-choice-2025/",
-      "position": 95
+      "position": 95,
+      "tmdbId": 639988
     },
     {
       "title": "A House of Dynamite",
       "year": 2025,
       "slug": "a-house-of-dynamite",
       "link": "https://letterboxd.com/film/a-house-of-dynamite/",
-      "position": 96
+      "position": 96,
+      "tmdbId": 1290159
     },
     {
       "title": "Chainsaw Man – The Movie: Reze Arc",
       "year": 2025,
       "slug": "chainsaw-man-the-movie-reze-arc",
       "link": "https://letterboxd.com/film/chainsaw-man-the-movie-reze-arc/",
-      "position": 97
+      "position": 97,
+      "tmdbId": 1218925
     },
     {
       "title": "Eden",
       "year": 2024,
       "slug": "eden-2024",
       "link": "https://letterboxd.com/film/eden-2024/",
-      "position": 98
+      "position": 98,
+      "tmdbId": 1042834
     },
     {
       "title": "Relay",
       "year": 2024,
       "slug": "relay-2024",
       "link": "https://letterboxd.com/film/relay-2024/",
-      "position": 99
+      "position": 99,
+      "tmdbId": 1088166
     },
     {
       "title": "Silence",
       "year": 2016,
       "slug": "silence",
       "link": "https://letterboxd.com/film/silence/",
-      "position": 100
+      "position": 100,
+      "tmdbId": 68730
     },
     {
       "title": "The Smashing Machine",
       "year": 2025,
       "slug": "the-smashing-machine-2025",
       "link": "https://letterboxd.com/film/the-smashing-machine-2025/",
-      "position": 101
+      "position": 101,
+      "tmdbId": 760329
     },
     {
       "title": "The Fountain",
       "year": 2006,
       "slug": "the-fountain",
       "link": "https://letterboxd.com/film/the-fountain/",
-      "position": 102
+      "position": 102,
+      "tmdbId": 1381
     },
     {
       "title": "Blood in Them Hills",
       "year": 2025,
       "slug": "blood-in-them-hills",
       "link": "https://letterboxd.com/film/blood-in-them-hills/",
-      "position": 103
+      "position": 103,
+      "tmdbId": 1435103
     },
     {
       "title": "Eddington",
       "year": 2025,
       "slug": "eddington",
       "link": "https://letterboxd.com/film/eddington/",
-      "position": 104
+      "position": 104,
+      "tmdbId": 648878
     },
     {
       "title": "Re-Creation",
       "year": 2025,
       "slug": "re-creation",
       "link": "https://letterboxd.com/film/re-creation/",
-      "position": 105
+      "position": 105,
+      "tmdbId": 1246215
     },
     {
       "title": "Couples Weekend",
       "year": 2025,
       "slug": "couples-weekend",
       "link": "https://letterboxd.com/film/couples-weekend/",
-      "position": 106
+      "position": 106,
+      "tmdbId": 1257868
     },
     {
       "title": "One Spoon of Chocolate",
       "year": 2025,
       "slug": "one-spoon-of-chocolate",
       "link": "https://letterboxd.com/film/one-spoon-of-chocolate/",
-      "position": 107
+      "position": 107,
+      "tmdbId": 1290792
     },
     {
       "title": "Sovereign",
       "year": 2025,
       "slug": "sovereign-2025",
       "link": "https://letterboxd.com/film/sovereign-2025/",
-      "position": 108
+      "position": 108,
+      "tmdbId": 1130022
     },
     {
       "title": "Resurrection Road",
       "year": 2025,
       "slug": "resurrection-road",
       "link": "https://letterboxd.com/film/resurrection-road/",
-      "position": 109
+      "position": 109,
+      "tmdbId": 1260794
     },
     {
       "title": "Havoc",
       "year": 2025,
       "slug": "havoc-2025",
       "link": "https://letterboxd.com/film/havoc-2025/",
-      "position": 110
+      "position": 110,
+      "tmdbId": 668489
     },
     {
       "title": "Ash",
       "year": 2025,
       "slug": "ash-2025",
       "link": "https://letterboxd.com/film/ash-2025/",
-      "position": 111
+      "position": 111,
+      "tmdbId": 931349
     },
     {
       "title": "Vitória",
       "year": 2025,
       "slug": "vitoria-2025",
       "link": "https://letterboxd.com/film/vitoria-2025/",
-      "position": 112
+      "position": 112,
+      "tmdbId": 1043808
     },
     {
       "title": "The Electric State",
       "year": 2025,
       "slug": "the-electric-state",
       "link": "https://letterboxd.com/film/the-electric-state/",
-      "position": 113
+      "position": 113,
+      "tmdbId": 777443
     },
     {
       "title": "The Bride!",
       "year": 2026,
       "slug": "the-bride-2026",
       "link": "https://letterboxd.com/film/the-bride-2026/",
-      "position": 114
+      "position": 114,
+      "tmdbId": 1159831
     },
     {
       "title": "Ballerina",
       "year": 2025,
       "slug": "ballerina-2025",
       "link": "https://letterboxd.com/film/ballerina-2025/",
-      "position": 115
+      "position": 115,
+      "tmdbId": 541671
     },
     {
       "title": "Den of Thieves 2: Pantera",
       "year": 2025,
       "slug": "den-of-thieves-2-pantera",
       "link": "https://letterboxd.com/film/den-of-thieves-2-pantera/",
-      "position": 116
+      "position": 116,
+      "tmdbId": 604685
     },
     {
       "title": "Presence",
       "year": 2024,
       "slug": "presence-2024",
       "link": "https://letterboxd.com/film/presence-2024/",
-      "position": 117
+      "position": 117,
+      "tmdbId": 1140535
     },
     {
       "title": "Black Bear",
       "year": 2020,
       "slug": "black-bear",
       "link": "https://letterboxd.com/film/black-bear/",
-      "position": 118
+      "position": 118,
+      "tmdbId": 624788
     },
     {
       "title": "Gladiator II",
       "year": 2024,
       "slug": "gladiator-ii",
       "link": "https://letterboxd.com/film/gladiator-ii/",
-      "position": 119
+      "position": 119,
+      "tmdbId": 558449
     },
     {
       "title": "Animal Kingdom",
       "year": 2010,
       "slug": "animal-kingdom",
       "link": "https://letterboxd.com/film/animal-kingdom/",
-      "position": 120
+      "position": 120,
+      "tmdbId": 44629
     },
     {
       "title": "Zero Dark Thirty",
       "year": 2012,
       "slug": "zero-dark-thirty",
       "link": "https://letterboxd.com/film/zero-dark-thirty/",
-      "position": 121
+      "position": 121,
+      "tmdbId": 97630
     },
     {
       "title": "Shottas",
       "year": 2002,
       "slug": "shottas",
       "link": "https://letterboxd.com/film/shottas/",
-      "position": 122
+      "position": 122,
+      "tmdbId": 13830
     },
     {
       "title": "City of God",
       "year": 2002,
       "slug": "city-of-god",
       "link": "https://letterboxd.com/film/city-of-god/",
-      "position": 123
+      "position": 123,
+      "tmdbId": 598
     },
     {
       "title": "The Apprentice",
       "year": 2024,
       "slug": "the-apprentice-2024",
       "link": "https://letterboxd.com/film/the-apprentice-2024/",
-      "position": 124
+      "position": 124,
+      "tmdbId": 1182047
     },
     {
       "title": "The Good Lord Bird",
@@ -882,21 +1004,24 @@
       "year": 1968,
       "slug": "once-upon-a-time-in-the-west",
       "link": "https://letterboxd.com/film/once-upon-a-time-in-the-west/",
-      "position": 126
+      "position": 126,
+      "tmdbId": 335
     },
     {
       "title": "The Good, the Bad and the Ugly",
       "year": 1966,
       "slug": "the-good-the-bad-and-the-ugly",
       "link": "https://letterboxd.com/film/the-good-the-bad-and-the-ugly/",
-      "position": 127
+      "position": 127,
+      "tmdbId": 429
     },
     {
       "title": "Peaky Blinders: The Immortal Man",
       "year": 2026,
       "slug": "peaky-blinders-the-immortal-man",
       "link": "https://letterboxd.com/film/peaky-blinders-the-immortal-man/",
-      "position": 128
+      "position": 128,
+      "tmdbId": 875828
     },
     {
       "title": "Cowboy Bebop",
@@ -910,70 +1035,80 @@
       "year": 1962,
       "slug": "harakiri",
       "link": "https://letterboxd.com/film/harakiri/",
-      "position": 130
+      "position": 130,
+      "tmdbId": 14537
     },
     {
       "title": "Call Me by Your Name",
       "year": 2017,
       "slug": "call-me-by-your-name",
       "link": "https://letterboxd.com/film/call-me-by-your-name/",
-      "position": 131
+      "position": 131,
+      "tmdbId": 398818
     },
     {
       "title": "The Godfather",
       "year": 1972,
       "slug": "the-godfather",
       "link": "https://letterboxd.com/film/the-godfather/",
-      "position": 132
+      "position": 132,
+      "tmdbId": 238
     },
     {
       "title": "Se7en",
       "year": 1995,
       "slug": "se7en",
       "link": "https://letterboxd.com/film/se7en/",
-      "position": 133
+      "position": 133,
+      "tmdbId": 807
     },
     {
       "title": "Beetlejuice Beetlejuice",
       "year": 2024,
       "slug": "beetlejuice-beetlejuice",
       "link": "https://letterboxd.com/film/beetlejuice-beetlejuice/",
-      "position": 134
+      "position": 134,
+      "tmdbId": 917496
     },
     {
       "title": "Little Women",
       "year": 2019,
       "slug": "little-women-2019",
       "link": "https://letterboxd.com/film/little-women-2019/",
-      "position": 135
+      "position": 135,
+      "tmdbId": 331482
     },
     {
       "title": "Amélie",
       "year": 2001,
       "slug": "amelie",
       "link": "https://letterboxd.com/film/amelie/",
-      "position": 136
+      "position": 136,
+      "tmdbId": 194
     },
     {
       "title": "A Clockwork Orange",
       "year": 1971,
       "slug": "a-clockwork-orange",
       "link": "https://letterboxd.com/film/a-clockwork-orange/",
-      "position": 137
+      "position": 137,
+      "tmdbId": 185
     },
     {
       "title": "Nightcrawler",
       "year": 2014,
       "slug": "nightcrawler",
       "link": "https://letterboxd.com/film/nightcrawler/",
-      "position": 138
+      "position": 138,
+      "tmdbId": 242582
     },
     {
       "title": "Scream",
       "year": 1996,
       "slug": "scream",
       "link": "https://letterboxd.com/film/scream/",
-      "position": 139
+      "position": 139,
+      "tmdbId": 4232
     }
   ]
 }

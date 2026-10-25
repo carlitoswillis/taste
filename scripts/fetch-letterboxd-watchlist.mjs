@@ -86,6 +86,26 @@ const out = {
     .filter((f) => (seen.has(f.slug) ? false : seen.add(f.slug)))
     .map((f, i) => ({ ...f, position: i + 1 })),
 };
+// Letterboxd film pages carry the TMDB id (<body data-tmdb-id="...">); the
+// enrichment prefers it over any title search. Ids already in the previous file
+// are reused so only new films cost a request.
+let prev = new Map();
+try {
+  const old = JSON.parse(await readFile(outPath, "utf8"));
+  prev = new Map((old.items ?? []).filter((f) => f.tmdbId).map((f) => [f.slug, f.tmdbId]));
+} catch {}
+for (const f of out.items) {
+  if (prev.has(f.slug)) { f.tmdbId = prev.get(f.slug); continue; }
+  try {
+    const res = await fetch(f.link, { headers: { "user-agent": UA, accept: "text/html" } });
+    if (res.ok) {
+      const html = await res.text();
+      const id = html.match(/themoviedb\.org\/movie\/(\d+)/)?.[1]; // movie ids only (TV pages link /tv/)
+      if (id) f.tmdbId = Number(id);
+    }
+  } catch {}
+  await new Promise((r) => setTimeout(r, 600));
+}
 // write-then-rename so an interrupted run never leaves a truncated file
 await writeFile(outPath + ".tmp", JSON.stringify(out, null, 2) + "\n");
 await rename(outPath + ".tmp", outPath);

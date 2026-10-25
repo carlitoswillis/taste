@@ -66055,168 +66055,6 @@
     "tagline": "",
     "backdrop": "/BqKararfhJ7FLqF6AStOe7Qbwd.jpg"
   },
-  "Spider (2002)": {
-    "id": "m:557",
-    "tmdbId": 557,
-    "imdbId": "tt0145487",
-    "director": [
-      {
-        "id": 7623,
-        "name": "Sam Raimi"
-      }
-    ],
-    "writers": [
-      {
-        "id": 508,
-        "name": "David Koepp"
-      }
-    ],
-    "cast": [
-      {
-        "id": 2219,
-        "name": "Tobey Maguire"
-      },
-      {
-        "id": 5293,
-        "name": "Willem Dafoe"
-      },
-      {
-        "id": 205,
-        "name": "Kirsten Dunst"
-      },
-      {
-        "id": 17051,
-        "name": "James Franco"
-      },
-      {
-        "id": 19153,
-        "name": "Cliff Robertson"
-      },
-      {
-        "id": 18998,
-        "name": "Rosemary Harris"
-      },
-      {
-        "id": 18999,
-        "name": "J.K. Simmons"
-      },
-      {
-        "id": 20580,
-        "name": "Joe Manganiello"
-      }
-    ],
-    "keywords": [
-      {
-        "id": 242,
-        "name": "new york city"
-      },
-      {
-        "id": 704,
-        "name": "adolescence"
-      },
-      {
-        "id": 1003,
-        "name": "photographer"
-      },
-      {
-        "id": 697,
-        "name": "loss of loved one"
-      },
-      {
-        "id": 6025,
-        "name": "photography"
-      },
-      {
-        "id": 1308,
-        "name": "secret identity"
-      },
-      {
-        "id": 6062,
-        "name": "hostility"
-      },
-      {
-        "id": 9715,
-        "name": "superhero"
-      },
-      {
-        "id": 3986,
-        "name": "spider"
-      },
-      {
-        "id": 5812,
-        "name": "bad boss"
-      },
-      {
-        "id": 3289,
-        "name": "villain"
-      },
-      {
-        "id": 9717,
-        "name": "based on comic"
-      },
-      {
-        "id": 18068,
-        "name": "teenage boy"
-      },
-      {
-        "id": 18425,
-        "name": "teenage love"
-      },
-      {
-        "id": 156075,
-        "name": "evil"
-      },
-      {
-        "id": 163074,
-        "name": "super villain"
-      },
-      {
-        "id": 252759,
-        "name": "taking responsibility"
-      }
-    ],
-    "runtime": 121,
-    "genres": [
-      "Action",
-      "Science Fiction"
-    ],
-    "tmdbRating": 7.36,
-    "poster": "https://image.tmdb.org/t/p/w342/or6XJBVpcEbIkma0V9zshnbEtx4.jpg",
-    "providers": {
-      "flatrate": [
-        "Disney Plus",
-        "fuboTV",
-        "YouTube TV",
-        "FXNow"
-      ],
-      "rent": [
-        "Amazon Video",
-        "Apple TV Store",
-        "Google Play Movies",
-        "YouTube",
-        "Fandango At Home",
-        "Plex"
-      ],
-      "buy": [
-        "Amazon Video",
-        "Apple TV Store",
-        "Google Play Movies",
-        "YouTube",
-        "Fandango At Home"
-      ]
-    },
-    "providersLink": "https://www.themoviedb.org/movie/557-spider-man/watch?locale=US",
-    "providersAt": 1792913225749,
-    "region": "US",
-    "scores": {
-      "rt": 90,
-      "metacritic": 73,
-      "imdb": 7.4
-    },
-    "overview": "After being bitten by a genetically altered spider at Oscorp, nerdy but endearing high school student Peter Parker is endowed with amazing powers to become the superhero known as Spider-Man.",
-    "tagline": "Go for the ultimate spin.",
-    "backdrop": "/zQ8AxTPiCiS5nnwXpwTBPBHSaa5.jpg"
-  },
   "Rabid (1977)": {
     "id": "m:29437",
     "tmdbId": 29437,
@@ -77936,171 +77774,6 @@
     "tagline": "No law. Only disorder.",
     "backdrop": "/7rKyFSg6SdLoCRCVoWLjL5k658k.jpg"
   },
-  "Ash (2025)": {
-    "id": "m:83533",
-    "tmdbId": 83533,
-    "imdbId": "tt1757678",
-    "director": [
-      {
-        "id": 2710,
-        "name": "James Cameron"
-      }
-    ],
-    "writers": [
-      {
-        "id": 2710,
-        "name": "James Cameron"
-      },
-      {
-        "id": 6039,
-        "name": "Shane Salerno"
-      },
-      {
-        "id": 2710,
-        "name": "James Cameron"
-      },
-      {
-        "id": 507,
-        "name": "Josh Friedman"
-      },
-      {
-        "id": 67802,
-        "name": "Rick Jaffa"
-      },
-      {
-        "id": 67803,
-        "name": "Amanda Silver"
-      },
-      {
-        "id": 67802,
-        "name": "Rick Jaffa"
-      },
-      {
-        "id": 67803,
-        "name": "Amanda Silver"
-      }
-    ],
-    "cast": [
-      {
-        "id": 65731,
-        "name": "Sam Worthington"
-      },
-      {
-        "id": 8691,
-        "name": "Zoe Saldaña"
-      },
-      {
-        "id": 10205,
-        "name": "Sigourney Weaver"
-      },
-      {
-        "id": 32747,
-        "name": "Stephen Lang"
-      },
-      {
-        "id": 566331,
-        "name": "Oona Chaplin"
-      },
-      {
-        "id": 1895760,
-        "name": "Jack Champion"
-      },
-      {
-        "id": 204,
-        "name": "Kate Winslet"
-      },
-      {
-        "id": 7248,
-        "name": "Cliff Curtis"
-      }
-    ],
-    "keywords": [
-      {
-        "id": 616,
-        "name": "witch"
-      },
-      {
-        "id": 402,
-        "name": "clone"
-      },
-      {
-        "id": 3386,
-        "name": "space war"
-      },
-      {
-        "id": 10148,
-        "name": "tribe"
-      },
-      {
-        "id": 9663,
-        "name": "sequel"
-      },
-      {
-        "id": 9951,
-        "name": "alien"
-      },
-      {
-        "id": 12375,
-        "name": "transhumanism"
-      },
-      {
-        "id": 18035,
-        "name": "family"
-      },
-      {
-        "id": 195114,
-        "name": "space adventure"
-      },
-      {
-        "id": 196544,
-        "name": "motion capture"
-      },
-      {
-        "id": 205734,
-        "name": "family dynamics"
-      },
-      {
-        "id": 237104,
-        "name": "rival"
-      }
-    ],
-    "runtime": 198,
-    "genres": [
-      "Science Fiction",
-      "Adventure",
-      "Fantasy"
-    ],
-    "tmdbRating": 7.647,
-    "poster": "https://image.tmdb.org/t/p/w342/bRBeSHfGHwkEpImlhxPmOcUsaeg.jpg",
-    "providers": {
-      "flatrate": [
-        "Disney Plus"
-      ],
-      "rent": [
-        "Amazon Video",
-        "Apple TV Store",
-        "Fandango At Home"
-      ],
-      "buy": [
-        "Amazon Video",
-        "Apple TV Store",
-        "Google Play Movies",
-        "YouTube",
-        "Fandango At Home"
-      ]
-    },
-    "providersLink": "https://www.themoviedb.org/movie/83533-avatar-fire-and-ash/watch?locale=US",
-    "providersAt": 1792913256790,
-    "region": "US",
-    "scores": {
-      "rt": 66,
-      "metacritic": 61,
-      "imdb": 7.2
-    },
-    "overview": "In the wake of the devastating war against the RDA and the loss of their eldest son, Jake Sully and Neytiri face a new threat on Pandora: the Ash People, a violent and power-hungry Na'vi tribe led by the ruthless Varang. Jake's family must fight for their survival and the future of Pandora in a conflict that pushes them to their emotional and physical limits.",
-    "tagline": "The world of Pandora will change forever.",
-    "backdrop": "/u8DU5fkLoM5tTRukzPC31oGPxaQ.jpg"
-  },
   "Vitória (2025)": {
     "id": "m:1043808",
     "tmdbId": 1043808,
@@ -81726,5 +81399,287 @@
     "overview": "In a near-future Britain, young Alexander DeLarge and his pals get their kicks beating and raping anyone they please. When not destroying the lives of others, Alex swoons to the music of Beethoven. The state, eager to crack down on juvenile crime, gives an incarcerated Alex the option to undergo an invasive procedure that'll rob him of all personal agency. In a time when conscience is a commodity, can Alex change his tune?",
     "tagline": "Being the adventures of a young man whose principal interests are rape, ultra-violence and Beethoven.",
     "backdrop": "/nLFxvLokHe3bQmrmAfljIfax2jQ.jpg"
+  },
+  "Spider (2002)": {
+    "id": "m:9613",
+    "tmdbId": 9613,
+    "imdbId": "tt0278731",
+    "director": [
+      {
+        "id": 224,
+        "name": "David Cronenberg"
+      }
+    ],
+    "writers": [
+      {
+        "id": 58185,
+        "name": "Patrick McGrath"
+      }
+    ],
+    "cast": [
+      {
+        "id": 5469,
+        "name": "Ralph Fiennes"
+      },
+      {
+        "id": 8436,
+        "name": "Miranda Richardson"
+      },
+      {
+        "id": 5168,
+        "name": "Gabriel Byrne"
+      },
+      {
+        "id": 29791,
+        "name": "Lynn Redgrave"
+      },
+      {
+        "id": 12642,
+        "name": "John Neville"
+      },
+      {
+        "id": 166529,
+        "name": "Philip Craig"
+      },
+      {
+        "id": 1527825,
+        "name": "Bradley Hall"
+      },
+      {
+        "id": 76417,
+        "name": "Gary Reineke"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 212,
+        "name": "london, england"
+      },
+      {
+        "id": 818,
+        "name": "based on novel or book"
+      },
+      {
+        "id": 6259,
+        "name": "psychopath"
+      },
+      {
+        "id": 2884,
+        "name": "asylum"
+      },
+      {
+        "id": 6162,
+        "name": "past"
+      },
+      {
+        "id": 5707,
+        "name": "childhood trauma"
+      },
+      {
+        "id": 5832,
+        "name": "bed and breakfast (b&b)"
+      },
+      {
+        "id": 155479,
+        "name": "british pub"
+      },
+      {
+        "id": 173719,
+        "name": "haunted by the past"
+      },
+      {
+        "id": 224625,
+        "name": "halfway house"
+      }
+    ],
+    "runtime": 98,
+    "genres": [
+      "Thriller",
+      "Drama"
+    ],
+    "tmdbRating": 6.6,
+    "overview": "A mentally disturbed man takes residence in a halfway house. His mind gradually slips back into the realm created by his illness, where he replays a key part of his childhood.",
+    "tagline": "The only thing worse than losing your mind... is finding it again.",
+    "poster": "https://image.tmdb.org/t/p/w342/zvm4WuYxTiGkRagRqHUey0meRQL.jpg",
+    "backdrop": "/zVVYFN9OjiSn43RVYrzgCOu7y6r.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/9613-spider/watch?locale=US",
+    "providersAt": 1792954111945,
+    "region": "US",
+    "scores": {
+      "rt": 84,
+      "metacritic": 83,
+      "imdb": 6.7
+    }
+  },
+  "Ash (2025)": {
+    "id": "m:931349",
+    "tmdbId": 931349,
+    "imdbId": "tt17489650",
+    "director": [
+      {
+        "id": 1056739,
+        "name": "Flying Lotus"
+      }
+    ],
+    "writers": [
+      {
+        "id": 3390060,
+        "name": "Jonni Remmler"
+      }
+    ],
+    "cast": [
+      {
+        "id": 1222992,
+        "name": "Eiza González"
+      },
+      {
+        "id": 84497,
+        "name": "Aaron Paul"
+      },
+      {
+        "id": 113732,
+        "name": "Iko Uwais"
+      },
+      {
+        "id": 167025,
+        "name": "Kate Elliott"
+      },
+      {
+        "id": 1397346,
+        "name": "Beulah Koale"
+      },
+      {
+        "id": 1056739,
+        "name": "Flying Lotus"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 1613,
+        "name": "terraforming"
+      },
+      {
+        "id": 9882,
+        "name": "space"
+      },
+      {
+        "id": 14690,
+        "name": "violent death"
+      },
+      {
+        "id": 33424,
+        "name": "cynical"
+      },
+      {
+        "id": 157634,
+        "name": "parasite"
+      },
+      {
+        "id": 179431,
+        "name": "duringcreditsstinger"
+      },
+      {
+        "id": 189401,
+        "name": "brain surgery"
+      },
+      {
+        "id": 207419,
+        "name": "infected"
+      },
+      {
+        "id": 210591,
+        "name": "distant  planet"
+      },
+      {
+        "id": 231295,
+        "name": "cosmic"
+      },
+      {
+        "id": 283085,
+        "name": "body horror"
+      },
+      {
+        "id": 286664,
+        "name": "mind parasite"
+      },
+      {
+        "id": 288198,
+        "name": "spacesuit"
+      },
+      {
+        "id": 309974,
+        "name": "absurd"
+      },
+      {
+        "id": 322213,
+        "name": "alien parasite"
+      },
+      {
+        "id": 325776,
+        "name": "baffled"
+      },
+      {
+        "id": 325815,
+        "name": "farcical"
+      }
+    ],
+    "runtime": 95,
+    "genres": [
+      "Horror",
+      "Science Fiction"
+    ],
+    "tmdbRating": 5.136,
+    "overview": "On the mysterious planet of Ash, Riya awakens to find her crew slaughtered. When a man named Brion arrives to rescue her, an ordeal of psychological and physical terror ensues while Riya and Brion must decide if they can trust one another to survive.",
+    "tagline": "A new mindbender by Flying Lotus.",
+    "poster": "https://image.tmdb.org/t/p/w342/nRa8B3tQCUK6pVwjasIyQehbvpF.jpg",
+    "backdrop": "/9KSGUPHZpqhqkRXE2eebu701ONU.jpg",
+    "providers": {
+      "flatrate": [
+        "Hulu",
+        "Philo",
+        "AMC Plus Apple TV channel",
+        "AMC+ Amazon Channel",
+        "AMC+ Roku Premium Channel",
+        "AMC+",
+        "Shudder",
+        "Shudder Amazon Channel",
+        "Shudder Apple TV channel"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/931349-ash/watch?locale=US",
+    "providersAt": 1792954112415,
+    "region": "US",
+    "scores": {
+      "rt": 71,
+      "metacritic": 63,
+      "imdb": 4.6
+    }
   }
 }
