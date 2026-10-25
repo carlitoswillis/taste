@@ -3,7 +3,10 @@
 // Same document as the assistant's GET /tv/feed (v1): { v, generated, list:{items}, sent:[], ambient:{items} },
 // built daily (America/Los_Angeles seed, scripts/lib/daily-pick.mjs) from: the whole taste queue, a weighted sample of
 // 30 Letterboxd watchlist films, and 10 recommender picks (source "suggestion", with a `why`), joined to data/enrichment.json. Differences: list items also carry raw `providers` (flatrate/free/rent/buy), plus
-// `backdropUrl` (w780), `detailUrl` (w1280) and `portraitUrl` (w342); `sent` is always [] (no Send to TV queue here).
+// `backdropUrl` (w780), `detailUrl` (w1280) and `portraitUrl` (w342) and `altBackdropUrls` (w780: the film's other backdrops,
+// least black first, from data/tv-backdrops.json; the primary is one that is not mostly black); `sent` is always [] (no Send to TV queue here).
+// Rules (scripts/lib/tv-feed-rules.mjs): JustWatch and other non-stores are never a rent/buy venue; a tagline that only repeats
+// the plot is dropped; a `why` never ends on "The…".
 // Publishes only watchlist-derived films. The path segment is the unguessable part: it lives in config.json
 // (tvFeedPath), is stripped from the published copy of config.json (build.mjs), and robots.txt disallows /tv/.
 // Run after scripts/build.mjs: node scripts/build-tv-feed.mjs
@@ -12,6 +15,7 @@ import { readFileSync, mkdirSync, writeFileSync, existsSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { dateKey, weightedSample, dailySample } from "./lib/daily-pick.mjs";
+import { stores, repeatsOverview, dropDangling, pickStills } from "./lib/tv-feed-rules.mjs";
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const dist = path.join(root, "dist");
@@ -59,7 +63,7 @@ function mapItem(p = {}) {
 function noteFor(p = {}, m) {
   if (m.apps.length) return m.notes[0];
   if (m.other.length) return m.other[0];
-  const rb = [...(p.rent ?? []), ...(p.buy ?? [])];
+  const rb = stores([...(p.rent ?? []), ...(p.buy ?? [])]);
   return rb.length ? `Rent or buy: ${rb.slice(0, 2).join(", ")}` : `Not streaming in ${region}`;
 }
 
@@ -75,7 +79,7 @@ function details(e = {}) {
   }
   if (overview) d.overview = overview;
   const tagline = String(e.tagline ?? "").split(/\s+/).join(" ").trim();
-  if (tagline) d.tagline = tagline;
+  if (tagline && !repeatsOverview(tagline, overview)) d.tagline = tagline;
   if (Number.isInteger(e.runtime) && e.runtime > 0) d.runtime = e.runtime;
   const director = directorOf(e.director);
   if (director) d.director = director;
@@ -91,6 +95,14 @@ const posterPath = (url) => /\/t\/p\/[^/]+(\/[^/?#]+)$/.exec(String(url ?? ""))?
 const normTitle = (t, y) => `${String(t ?? "").normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "")}|${y ?? ""}`;
 
 const enrich = readJson("data/enrichment.json", {});
+// Per film, how black each of its backdrops is (scripts/enrich-backdrops.mjs); a film with no entry keeps TMDB's own pick.
+const BACKDROPS = readJson("data/tv-backdrops.json", {});
+const stillsOf = (c) => {
+  const primary = c.e.backdrop || null;
+  const shares = BACKDROPS[String(c.tmdbId)]?.d;
+  if (!shares) return { primary, alts: [] };
+  return pickStills(primary, shares);
+};
 const watch = readJson("data/watchlist.json", []);
 const sugg = readJson("data/suggestions.json", {});
 const lb = readJson("data/letterboxd-watchlist.json", {});
@@ -148,7 +160,7 @@ const suggPool = fromSugg.filter((c) => !taken.has(c.tmdbId) && !seenFilm.has(no
 const suggPick = dailySample(suggPool, { weight: (c) => Math.pow(Number(c.score) || 0, 1.5), id: (c) => c.tmdbId, k: SUGG_PICKS, date: today, salt: "suggestions" }).map((c) => {
   // suggestions.json `why` is " · "-joined reasons; keep the first one, which is real data from the file.
   const why = String(c.why ?? "").split(" · ")[0].trim();
-  return { ...c, source: "suggestion", why: why.length > 140 ? why.slice(0, 139).replace(/\s+\S*$/, "") + "…" : why };
+  return { ...c, source: "suggestion", why: why.length > 140 ? dropDangling(why.slice(0, 139).replace(/\s+\S*$/, "")) + "…" : why };
 });
 const queue = [...fromWatch, ...lbPick, ...suggPick].slice(0, MAX_LIST);
 globalThis.__groups = { watch: fromWatch.length, lb: lbPick.length, sugg: suggPick.length, date: today };
@@ -158,13 +170,14 @@ const list = queue.map((c) => {
   const p = c.e.providers ?? {};
   const m = mapItem(p);
   const note = noteFor(p, m);
-  const b = c.e.backdrop || null;
+  const { primary: b, alts } = stillsOf(c);
   const pp = posterPath(c.e.poster);
   return {
     id: `${c.source}:${c.tmdbId}`, title: c.title, ...(c.year ? { year: c.year } : {}), source: c.source, apps: m.apps,
-    providers: { flatrate: p.flatrate ?? [], free: p.free ?? [], rent: p.rent ?? [], buy: p.buy ?? [] },
+    providers: { flatrate: p.flatrate ?? [], free: p.free ?? [], rent: stores(p.rent), buy: stores(p.buy) },
     ...(note ? { note } : {}), ...(c.source === "suggestion" && c.why ? { why: c.why } : {}), addedAt: now, ...details(c.e),
     ...(b ? { posterUrl: `${IMG}/w780${b}`, backdropUrl: `${IMG}/w780${b}`, detailUrl: `${IMG}/w1280${b}` } : pp ? { posterUrl: `${IMG}/w342${pp}` } : {}),
+    ...(b && alts.length ? { altBackdropUrls: alts.map((a) => `${IMG}/w780${a}`) } : {}),
     ...(pp ? { portraitUrl: `${IMG}/w342${pp}` } : {}),
   };
 });
@@ -175,7 +188,7 @@ for (const c of [...ambientQueue, ...fromWatch, ...fromLb, ...fromSugg]) {
   if (seen.has(c.tmdbId)) continue;
   seen.add(c.tmdbId);
   const m = mapItem(c.e.providers);
-  const b = c.e.backdrop || null;
+  const b = stillsOf(c).primary;
   if (!m.apps.length || !b) continue; // the ambient screen is a backdrop: no backdrop, no item
   const pp = posterPath(c.e.poster);
   ambient.push({

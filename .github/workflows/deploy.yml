@@ -17,6 +17,7 @@ on:
       - "config.json"
       - "scripts/build.mjs"
       - "scripts/build-tv-feed.mjs"
+      - "scripts/lib/tv-feed-rules.mjs"
 
 permissions:
   contents: read
