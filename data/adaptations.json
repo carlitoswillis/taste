@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T13:21:31.022Z",
+  "generated": "2026-10-25T07:29:48.395Z",
   "edges": [
     {
       "book": {
@@ -68,19 +68,6 @@
     },
     {
       "book": {
-        "title": "American Prometheus",
-        "author": "Martin J. Sherwin, Kai Bird",
-        "olWork": "OL1905682W",
-        "wikidata": "Q4744748"
-      },
-      "screen": "Oppenheimer (2023)",
-      "screenId": "m:872585",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
         "title": "The Orchid Thief",
         "author": "Susan Orlean",
         "olWork": "OL14860220W",
@@ -94,6 +81,19 @@
     },
     {
       "book": {
+        "title": "American Prometheus",
+        "author": "Martin J. Sherwin, Kai Bird",
+        "olWork": "OL1905682W",
+        "wikidata": "Q4744748"
+      },
+      "screen": "Oppenheimer (2023)",
+      "screenId": "m:872585",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
         "title": "The Devil All the Time",
         "author": "Donald Ray Pollock",
         "olWork": "OL29322564W",
@@ -101,19 +101,6 @@
       },
       "screen": "The Devil All the Time (2020)",
       "screenId": "m:499932",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Iliad",
-        "author": "Homer",
-        "olWork": "OL34610657W",
-        "wikidata": "Q8275"
-      },
-      "screen": "Troy (2004)",
-      "screenId": "m:652",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -185,19 +172,6 @@
     },
     {
       "book": {
-        "title": "The Shining",
-        "author": "Stephen King",
-        "olWork": "OL81633W",
-        "wikidata": "Q470937"
-      },
-      "screen": "The Shining (1980)",
-      "screenId": "m:694",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
         "title": "It",
         "author": "Stephen King",
         "olWork": "OL81613W",
@@ -205,32 +179,6 @@
       },
       "screen": "It (2017)",
       "screenId": "m:346364",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Shutter Island",
-        "author": "Dennis Lehane",
-        "olWork": "OL17654868W",
-        "wikidata": "Q612511"
-      },
-      "screen": "Shutter Island (2010)",
-      "screenId": "m:11324",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Jurassic Park",
-        "author": "Michael Crichton",
-        "olWork": "OL46881W",
-        "wikidata": "Q756866"
-      },
-      "screen": "Jurassic Park (1993)",
-      "screenId": "m:329",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -276,19 +224,6 @@
     },
     {
       "book": {
-        "title": "Shrek!",
-        "author": "William Steig",
-        "olWork": "OL15152042W",
-        "wikidata": "Q920424"
-      },
-      "screen": "Shrek (2001)",
-      "screenId": "m:808",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
         "title": "City of God",
         "author": "Paulo Lins",
         "olWork": "OL1756960W",
@@ -296,6 +231,19 @@
       },
       "screen": "City of God (2002)",
       "screenId": "m:598",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Cosmopolis",
+        "author": "Don DeLillo",
+        "olWork": "OL3562808M",
+        "wikidata": "Q1083795"
+      },
+      "screen": "Cosmopolis (2012)",
+      "screenId": "m:49014",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -354,13 +302,13 @@
     },
     {
       "book": {
-        "title": "The Devil Wears Prada",
-        "author": "Lauren Weisberger",
-        "olWork": "OL15137662W",
-        "wikidata": "Q2037865"
+        "title": "Super-Toys Last All Summer Long",
+        "author": "Brian Aldiss",
+        "olWork": "OL892461W",
+        "wikidata": "Q1956434"
       },
-      "screen": "The Devil Wears Prada (2006)",
-      "screenId": "m:350",
+      "screen": "A.I. Artificial Intelligence (2001)",
+      "screenId": "m:644",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -374,6 +322,19 @@
       },
       "screen": "2001: A Space Odyssey (1968)",
       "screenId": "m:62",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Living and the Dead",
+        "author": "Boileau-Narcejac",
+        "olWork": "OL16044773W",
+        "wikidata": "Q3010971"
+      },
+      "screen": "Vertigo (1958)",
+      "screenId": "m:426",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -400,19 +361,6 @@
       },
       "screen": "There Will Be Blood (2007)",
       "screenId": "m:7345",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Queen Bees and Wannabes",
-        "author": "Rosalind Wiseman",
-        "olWork": "OL16035008W",
-        "wikidata": "Q7270232"
-      },
-      "screen": "Mean Girls (2004)",
-      "screenId": "m:10625",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -471,26 +419,13 @@
     },
     {
       "book": {
-        "title": "Seven Pillars of Wisdom",
-        "author": "T. E. Lawrence",
-        "olWork": "OL830503W",
-        "wikidata": "Q24323"
+        "title": "Iliad",
+        "author": "Homer",
+        "olWork": "OL34610657W",
+        "wikidata": "Q8275"
       },
-      "screen": "Lawrence of Arabia (1962)",
-      "screenId": "m:947",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "World War Z",
-        "author": "Max Brooks",
-        "olWork": "OL5969057W",
-        "wikidata": "Q28172"
-      },
-      "screen": "World War Z (2013)",
-      "screenId": "m:72190",
+      "screen": "Troy (2004)",
+      "screenId": "m:652",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -504,32 +439,6 @@
       },
       "screen": "O Brother, Where Art Thou? (2000)",
       "screenId": "m:134",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Dracula",
-        "author": "Bram Stoker",
-        "olWork": "OL85892W",
-        "wikidata": "Q41542"
-      },
-      "screen": "Nosferatu (1922)",
-      "screenId": "m:653",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Harry Potter and the Philosopher's Stone",
-        "author": "J. K. Rowling",
-        "olWork": "OL82563W",
-        "wikidata": "Q43361"
-      },
-      "screen": "Harry Potter and the Philosopher's Stone (2001)",
-      "screenId": "m:671",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -575,19 +484,6 @@
     },
     {
       "book": {
-        "title": "The Fellowship of the Ring",
-        "author": "J. R. R. Tolkien",
-        "olWork": "OL14933414W",
-        "wikidata": "Q208002"
-      },
-      "screen": "The Lord of the Rings: The Fellowship of the Ring (2001)",
-      "screenId": "m:120",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
         "title": "Rapunzel",
         "author": "Brothers Grimm, Jacob Grimm, Wilhelm Grimm",
         "olWork": null,
@@ -627,6 +523,32 @@
     },
     {
       "book": {
+        "title": "The Shining",
+        "author": "Stephen King",
+        "olWork": "OL81633W",
+        "wikidata": "Q470937"
+      },
+      "screen": "The Shining (1980)",
+      "screenId": "m:694",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Little Women",
+        "author": "Louisa May Alcott",
+        "olWork": "OL29983W",
+        "wikidata": "Q523076"
+      },
+      "screen": "Little Women (2019)",
+      "screenId": "m:331482",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
         "title": "Forrest Gump",
         "author": "Winston Groom",
         "olWork": "OL1898760W",
@@ -634,6 +556,58 @@
       },
       "screen": "Forrest Gump (1994)",
       "screenId": "m:13",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Scorched",
+        "author": "Wajdi Mouawad",
+        "olWork": "OL24271516W",
+        "wikidata": "Q577474"
+      },
+      "screen": "Incendies (2010)",
+      "screenId": "m:46738",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Shutter Island",
+        "author": "Dennis Lehane",
+        "olWork": "OL17654868W",
+        "wikidata": "Q612511"
+      },
+      "screen": "Shutter Island (2010)",
+      "screenId": "m:11324",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "A Clockwork Orange",
+        "author": "Anthony Burgess",
+        "olWork": "OL1386747W",
+        "wikidata": "Q692557"
+      },
+      "screen": "A Clockwork Orange (1971)",
+      "screenId": "m:185",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Jurassic Park",
+        "author": "Michael Crichton",
+        "olWork": "OL46881W",
+        "wikidata": "Q756866"
+      },
+      "screen": "Jurassic Park (1993)",
+      "screenId": "m:329",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -653,13 +627,26 @@
     },
     {
       "book": {
-        "title": "The Assassination of Jesse James by the Coward Robert Ford",
-        "author": "Ron Hansen",
-        "olWork": "OL64715W",
-        "wikidata": "Q1212222"
+        "title": "Shrek!",
+        "author": "William Steig",
+        "olWork": "OL15152042W",
+        "wikidata": "Q920424"
       },
-      "screen": "The Assassination of Jesse James by the Coward Robert Ford (2007)",
-      "screenId": "m:4512",
+      "screen": "Shrek (2001)",
+      "screenId": "m:808",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Devil Wears Prada",
+        "author": "Lauren Weisberger",
+        "olWork": "OL15137662W",
+        "wikidata": "Q2037865"
+      },
+      "screen": "The Devil Wears Prada (2006)",
+      "screenId": "m:350",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -692,19 +679,6 @@
     },
     {
       "book": {
-        "title": "The Accidental Billionaires",
-        "author": "Ben Mezrich",
-        "olWork": "OL14924476W",
-        "wikidata": "Q2977762"
-      },
-      "screen": "The Social Network (2010)",
-      "screenId": "m:37799",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
         "title": "Requiem for a Dream",
         "author": "Hubert Selby Jr.",
         "olWork": "OL2737320W",
@@ -712,6 +686,32 @@
       },
       "screen": "Requiem for a Dream (2000)",
       "screenId": "m:641",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Call Me By Your Name",
+        "author": "André Aciman",
+        "olWork": "OL8034526W",
+        "wikidata": "Q3667415"
+      },
+      "screen": "Call Me by Your Name (2017)",
+      "screenId": "m:398818",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Silence",
+        "author": "Shūsaku Endō",
+        "olWork": "OL15391655W",
+        "wikidata": "Q3960523"
+      },
+      "screen": "Silence (2016)",
+      "screenId": "m:68730",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -744,6 +744,331 @@
     },
     {
       "book": {
+        "title": "Queen Bees and Wannabes",
+        "author": "Rosalind Wiseman",
+        "olWork": "OL16035008W",
+        "wikidata": "Q7270232"
+      },
+      "screen": "Mean Girls (2004)",
+      "screenId": "m:10625",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Fly",
+        "author": "George Langelaan",
+        "olWork": null,
+        "wikidata": "Q7734561"
+      },
+      "screen": "The Fly (1986)",
+      "screenId": "m:9426",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Coldest City",
+        "author": "Antony Johnston",
+        "olWork": "OL25986758M",
+        "wikidata": "Q47139476"
+      },
+      "screen": "Atomic Blonde (2017)",
+      "screenId": "m:341013",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Seven Pillars of Wisdom",
+        "author": "T. E. Lawrence",
+        "olWork": "OL830503W",
+        "wikidata": "Q24323"
+      },
+      "screen": "Lawrence of Arabia (1962)",
+      "screenId": "m:947",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "World War Z",
+        "author": "Max Brooks",
+        "olWork": "OL5969057W",
+        "wikidata": "Q28172"
+      },
+      "screen": "World War Z (2013)",
+      "screenId": "m:72190",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Dracula",
+        "author": "Bram Stoker",
+        "olWork": "OL85892W",
+        "wikidata": "Q41542"
+      },
+      "screen": "Nosferatu (1922)",
+      "screenId": "m:653",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Dracula",
+        "author": "Bram Stoker",
+        "olWork": "OL85892W",
+        "wikidata": "Q41542"
+      },
+      "screen": "Nosferatu (2024)",
+      "screenId": "m:426063",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Harry Potter and the Philosopher's Stone",
+        "author": "J. K. Rowling",
+        "olWork": "OL82563W",
+        "wikidata": "Q43361"
+      },
+      "screen": "Harry Potter and the Philosopher's Stone (2001)",
+      "screenId": "m:671",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Harry Potter and the Prisoner of Azkaban",
+        "author": "J. K. Rowling",
+        "olWork": "OL82536W",
+        "wikidata": "Q47598"
+      },
+      "screen": "Harry Potter and the Prisoner of Azkaban (2004)",
+      "screenId": "m:673",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Fellowship of the Ring",
+        "author": "J. R. R. Tolkien",
+        "olWork": "OL14933414W",
+        "wikidata": "Q208002"
+      },
+      "screen": "The Lord of the Rings: The Fellowship of the Ring (2001)",
+      "screenId": "m:120",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Return of the King",
+        "author": "J. R. R. Tolkien",
+        "olWork": "OL27479W",
+        "wikidata": "Q332581"
+      },
+      "screen": "The Lord of the Rings: The Return of the King (2003)",
+      "screenId": "m:122",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Crow",
+        "author": "James O'Barr",
+        "olWork": null,
+        "wikidata": "Q466708"
+      },
+      "screen": "The Crow (1994)",
+      "screenId": "m:9495",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Dead Zone",
+        "author": "Stephen King",
+        "olWork": "OL81630W",
+        "wikidata": "Q466790"
+      },
+      "screen": "The Dead Zone (1983)",
+      "screenId": "m:11336",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Coraline",
+        "author": "Neil Gaiman",
+        "olWork": "OL679358W",
+        "wikidata": "Q475125"
+      },
+      "screen": "Coraline (2009)",
+      "screenId": "m:14836",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Do Androids Dream of Electric Sheep?",
+        "author": "Philip K. Dick",
+        "olWork": "OL2172372W",
+        "wikidata": "Q605249"
+      },
+      "screen": "Blade Runner (1982)",
+      "screenId": "m:78",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Hellblazer",
+        "author": "Alan Moore, Garth Ennis, Jamie Delano",
+        "olWork": null,
+        "wikidata": "Q1035139"
+      },
+      "screen": "Constantine (2005)",
+      "screenId": "m:561",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Assassination of Jesse James by the Coward Robert Ford",
+        "author": "Ron Hansen",
+        "olWork": "OL64715W",
+        "wikidata": "Q1212222"
+      },
+      "screen": "The Assassination of Jesse James by the Coward Robert Ford (2007)",
+      "screenId": "m:4512",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Jaws",
+        "author": "Peter Benchley",
+        "olWork": "OL3454888W",
+        "wikidata": "Q1322449"
+      },
+      "screen": "Jaws (1975)",
+      "screenId": "m:578",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Invisible Man",
+        "author": "H. G. Wells",
+        "olWork": "OL52266W",
+        "wikidata": "Q1539509"
+      },
+      "screen": "The Invisible Man (2020)",
+      "screenId": "m:570670",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Notebook",
+        "author": "Nicholas Sparks",
+        "olWork": "OL995215M",
+        "wikidata": "Q1886814"
+      },
+      "screen": "The Notebook (2004)",
+      "screenId": "m:11036",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Brokeback Mountain",
+        "author": "Annie Proulx",
+        "olWork": "OL265677W",
+        "wikidata": "Q2699263"
+      },
+      "screen": "Brokeback Mountain (2005)",
+      "screenId": "m:142",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Fingersmith",
+        "author": "Sarah Waters",
+        "olWork": "OL35581651W",
+        "wikidata": "Q2756027"
+      },
+      "screen": "The Handmaiden (2016)",
+      "screenId": "m:290098",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Accidental Billionaires",
+        "author": "Ben Mezrich",
+        "olWork": "OL14924476W",
+        "wikidata": "Q2977762"
+      },
+      "screen": "The Social Network (2010)",
+      "screenId": "m:37799",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Under the Skin",
+        "author": "Michel Faber",
+        "olWork": "OL56004W",
+        "wikidata": "Q3965250"
+      },
+      "screen": "Under the Skin (2013)",
+      "screenId": "m:97370",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Memento Mori",
+        "author": "Jonathan Nolan",
+        "olWork": null,
+        "wikidata": "Q6815203"
+      },
+      "screen": "Memento (2000)",
+      "screenId": "m:77",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
         "title": "Story of Your Life",
         "author": "Ted Chiang",
         "olWork": null,
@@ -770,13 +1095,39 @@
     },
     {
       "book": {
-        "title": "The Coldest City",
-        "author": "Antony Johnston",
-        "olWork": "OL25986758M",
-        "wikidata": "Q47139476"
+        "title": "The Martian",
+        "author": "Andy Weir",
+        "olWork": "OL32815550M",
+        "wikidata": "Q17111624"
       },
-      "screen": "Atomic Blonde (2017)",
-      "screenId": "m:341013",
+      "screen": "The Martian (2015)",
+      "screenId": "m:286217",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Be Cool",
+        "author": "Elmore Leonard",
+        "olWork": "OL111640W",
+        "wikidata": "Q20888931"
+      },
+      "screen": "Be Cool (2005)",
+      "screenId": "m:4551",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Power of the Dog",
+        "author": "Thomas Savage",
+        "olWork": "OL4649188W",
+        "wikidata": "Q108587556"
+      },
+      "screen": "The Power of the Dog (2021)",
+      "screenId": "m:600583",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -796,26 +1147,13 @@
     },
     {
       "book": {
-        "title": "Dracula",
-        "author": "Bram Stoker",
-        "olWork": "OL85892W",
-        "wikidata": "Q41542"
+        "title": "Odyssey",
+        "author": "Homer",
+        "olWork": "OL61982W",
+        "wikidata": "Q35160"
       },
-      "screen": "Nosferatu (2024)",
-      "screenId": "m:426063",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Harry Potter and the Prisoner of Azkaban",
-        "author": "J. K. Rowling",
-        "olWork": "OL82536W",
-        "wikidata": "Q47598"
-      },
-      "screen": "Harry Potter and the Prisoner of Azkaban (2004)",
-      "screenId": "m:673",
+      "screen": "The Return (2024)",
+      "screenId": "m:975511",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -874,39 +1212,39 @@
     },
     {
       "book": {
-        "title": "The Return of the King",
-        "author": "J. R. R. Tolkien",
-        "olWork": "OL27479W",
-        "wikidata": "Q332581"
+        "title": "The Godfather",
+        "author": "Mario Puzo",
+        "olWork": "OL1673263W",
+        "wikidata": "Q243556"
       },
-      "screen": "The Lord of the Rings: The Return of the King (2003)",
-      "screenId": "m:122",
+      "screen": "The Godfather (1972)",
+      "screenId": "m:238",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
     },
     {
       "book": {
-        "title": "The Crow",
-        "author": "James O'Barr",
-        "olWork": null,
-        "wikidata": "Q466708"
+        "title": "Dune Messiah",
+        "author": "Frank Herbert",
+        "olWork": "OL26416476W",
+        "wikidata": "Q437383"
       },
-      "screen": "The Crow (1994)",
-      "screenId": "m:9495",
+      "screen": "Dune: Part Three (2026)",
+      "screenId": "m:1170608",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
     },
     {
       "book": {
-        "title": "Coraline",
-        "author": "Neil Gaiman",
-        "olWork": "OL679358W",
-        "wikidata": "Q475125"
+        "title": "Uglies",
+        "author": "Scott Westerfeld",
+        "olWork": "OL547172W",
+        "wikidata": "Q543375"
       },
-      "screen": "Coraline (2009)",
-      "screenId": "m:14836",
+      "screen": "Uglies (2024)",
+      "screenId": "m:748167",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -926,19 +1264,6 @@
     },
     {
       "book": {
-        "title": "Hellblazer",
-        "author": "Alan Moore, Garth Ennis, Jamie Delano",
-        "olWork": null,
-        "wikidata": "Q1035139"
-      },
-      "screen": "Constantine (2005)",
-      "screenId": "m:561",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
         "title": "The Double",
         "author": "Fyodor Dostoyevsky",
         "olWork": "OL14948248W",
@@ -952,91 +1277,13 @@
     },
     {
       "book": {
-        "title": "Jaws",
-        "author": "Peter Benchley",
-        "olWork": "OL3454888W",
-        "wikidata": "Q1322449"
+        "title": "Elvis and Me",
+        "author": "Priscilla Presley",
+        "olWork": "OL35665934W",
+        "wikidata": "Q5368251"
       },
-      "screen": "Jaws (1975)",
-      "screenId": "m:578",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Brokeback Mountain",
-        "author": "Annie Proulx",
-        "olWork": "OL265677W",
-        "wikidata": "Q2699263"
-      },
-      "screen": "Brokeback Mountain (2005)",
-      "screenId": "m:142",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Fingersmith",
-        "author": "Sarah Waters",
-        "olWork": "OL35581651W",
-        "wikidata": "Q2756027"
-      },
-      "screen": "The Handmaiden (2016)",
-      "screenId": "m:290098",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Under the Skin",
-        "author": "Michel Faber",
-        "olWork": "OL56004W",
-        "wikidata": "Q3965250"
-      },
-      "screen": "Under the Skin (2013)",
-      "screenId": "m:97370",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Memento Mori",
-        "author": "Jonathan Nolan",
-        "olWork": null,
-        "wikidata": "Q6815203"
-      },
-      "screen": "Memento (2000)",
-      "screenId": "m:77",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "The Martian",
-        "author": "Andy Weir",
-        "olWork": "OL32815550M",
-        "wikidata": "Q17111624"
-      },
-      "screen": "The Martian (2015)",
-      "screenId": "m:286217",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Be Cool",
-        "author": "Elmore Leonard",
-        "olWork": "OL111640W",
-        "wikidata": "Q20888931"
-      },
-      "screen": "Be Cool (2005)",
-      "screenId": "m:4551",
+      "screen": "Priscilla (2023)",
+      "screenId": "m:1020006",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -1108,13 +1355,26 @@
     },
     {
       "book": {
-        "title": "The Power of the Dog",
-        "author": "Thomas Savage",
-        "olWork": "OL4649188W",
-        "wikidata": "Q108587556"
+        "title": "Mickey7",
+        "author": "Edward Ashton",
+        "olWork": "OL24546118W",
+        "wikidata": "Q113520957"
       },
-      "screen": "The Power of the Dog (2021)",
-      "screenId": "m:600583",
+      "screen": "Mickey 17 (2025)",
+      "screenId": "m:696506",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Talking Cure",
+        "author": "Christopher Hampton",
+        "olWork": null,
+        "wikidata": "Q114868548"
+      },
+      "screen": "A Dangerous Method (2011)",
+      "screenId": "m:48231",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -1134,6 +1394,19 @@
     },
     {
       "book": {
+        "title": "The Electric State",
+        "author": "Simon Stålenhag",
+        "olWork": "OL19761147W",
+        "wikidata": "Q115010844"
+      },
+      "screen": "The Electric State (2025)",
+      "screenId": "m:777443",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
         "title": "The Monkey",
         "author": "Stephen King",
         "olWork": null,
@@ -1147,26 +1420,26 @@
     },
     {
       "book": {
-        "title": "Uglies",
-        "author": "Scott Westerfeld",
-        "olWork": "OL547172W",
-        "wikidata": "Q543375"
+        "title": "The Stranger",
+        "author": "Albert Camus",
+        "olWork": "OL1230613W",
+        "wikidata": "Q163297"
       },
-      "screen": "Uglies (2024)",
-      "screenId": "m:748167",
+      "screen": "The Stranger (2025)",
+      "screenId": "m:1429348",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
     },
     {
       "book": {
-        "title": "Elvis and Me",
-        "author": "Priscilla Presley",
-        "olWork": "OL35665934W",
-        "wikidata": "Q5368251"
+        "title": "The Ax",
+        "author": "Donald E. Westlake",
+        "olWork": "OL19144W",
+        "wikidata": "Q3221851"
       },
-      "screen": "Priscilla (2023)",
-      "screenId": "m:1020006",
+      "screen": "No Other Choice (2025)",
+      "screenId": "m:639988",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -1180,6 +1453,19 @@
       },
       "screen": "Bullet Train (2022)",
       "screenId": "m:718930",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Chainsaw Man",
+        "author": "Tatsuki Fujimoto",
+        "olWork": null,
+        "wikidata": "Q65240543"
+      },
+      "screen": "Chainsaw Man – The Movie: Reze Arc (2025)",
+      "screenId": "m:1218925",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -1212,13 +1498,13 @@
     },
     {
       "book": {
-        "title": "Mickey7",
-        "author": "Edward Ashton",
-        "olWork": "OL24546118W",
-        "wikidata": "Q113520957"
+        "title": "The Housemaid",
+        "author": "Freida McFadden",
+        "olWork": "OL27729743W",
+        "wikidata": "Q121304605"
       },
-      "screen": "Mickey 17 (2025)",
-      "screenId": "m:696506",
+      "screen": "The Housemaid (2025)",
+      "screenId": "m:1368166",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -1267,6 +1553,14 @@
     {
       "screen": "The Amateur (2025)",
       "screenId": "m:1087891"
+    },
+    {
+      "screen": "Cure (1997)",
+      "screenId": "m:36095"
+    },
+    {
+      "screen": "The Bride! (2026)",
+      "screenId": "m:1159831"
     }
   ],
   "adjacentAuthors": [

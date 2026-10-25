@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T13:22:54.304Z",
+  "generated": "2026-10-25T07:31:10.225Z",
   "basedOn": 31,
   "head": 10,
   "items": [
@@ -248,7 +248,7 @@
       "title": "CSI: Crime Scene Investigation",
       "year": 2000,
       "tmdbId": 1431,
-      "tmdbRating": 7.607,
+      "tmdbRating": 7.6,
       "votes": 1441,
       "score": 3.0400000000000005,
       "rank": 8,
@@ -288,8 +288,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.586,
-      "votes": 5626,
+      "tmdbRating": 8.585,
+      "votes": 5633,
       "score": 2.5600000000000005,
       "rank": 9,
       "creators": [
@@ -363,8 +363,8 @@
       "title": "Twisted Metal",
       "year": 2023,
       "tmdbId": 133748,
-      "tmdbRating": 7.681,
-      "votes": 570,
+      "tmdbRating": 7.678,
+      "votes": 571,
       "score": 3.0400000000000005,
       "themes": [
         "identity"
@@ -468,6 +468,40 @@
       "why": "Kitao Sakurai directed episodes (directed Bad Trip 4★)"
     },
     {
+      "title": "Mr. Pickles",
+      "year": 2014,
+      "tmdbId": 61593,
+      "tmdbRating": 8.142,
+      "votes": 875,
+      "score": 2.16,
+      "rank": 14,
+      "creators": [
+        "Will Carsola",
+        "Dave Stewart"
+      ],
+      "seasons": 4,
+      "episodes": 31,
+      "episodeRuntime": 15,
+      "showStatus": "Ended",
+      "genres": [
+        "Comedy",
+        "Animation"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/bSWmZnvXIOoqZ7eLderyInsouiF.jpg",
+      "providers": {
+        "flatrate": [
+          "YouTube TV"
+        ],
+        "rent": []
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 7.3
+      },
+      "why": "Drew Hancock wrote for this (directed Companion 4★)"
+    },
+    {
       "title": "Moral Orel",
       "year": 2005,
       "tmdbId": 292,
@@ -477,7 +511,7 @@
       "themes": [
         "cruel-comedy"
       ],
-      "rank": 14,
+      "rank": 15,
       "creators": [
         "Dino Stamatopoulos"
       ],
@@ -506,40 +540,6 @@
         "imdb": 8.1
       },
       "why": "Charlie Kaufman has a story credit here (wrote Being John Malkovich 4.5★, wrote Adaptation. 4★) · themes: comedy that's actually cruel"
-    },
-    {
-      "title": "Mr. Pickles",
-      "year": 2014,
-      "tmdbId": 61593,
-      "tmdbRating": 8.1,
-      "votes": 874,
-      "score": 2.16,
-      "rank": 15,
-      "creators": [
-        "Will Carsola",
-        "Dave Stewart"
-      ],
-      "seasons": 4,
-      "episodes": 31,
-      "episodeRuntime": 15,
-      "showStatus": "Ended",
-      "genres": [
-        "Comedy",
-        "Animation"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/bSWmZnvXIOoqZ7eLderyInsouiF.jpg",
-      "providers": {
-        "flatrate": [
-          "YouTube TV"
-        ],
-        "rent": []
-      },
-      "scores": {
-        "rt": null,
-        "metacritic": null,
-        "imdb": 7.3
-      },
-      "why": "Drew Hancock wrote for this (directed Companion 4★)"
     },
     {
       "title": "Blue Mountain State",
@@ -644,7 +644,7 @@
       "year": 2018,
       "tmdbId": 73375,
       "tmdbRating": 7.675,
-      "votes": 1918,
+      "votes": 1920,
       "score": 1.92,
       "rank": 19,
       "creators": [
