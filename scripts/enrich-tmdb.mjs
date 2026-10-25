@@ -49,6 +49,13 @@ for (const file of ["data/watchlist.json", "data/ratings.json", "data/old-films.
     films.push(...JSON.parse(await readFile(path.join(root, file), "utf8")));
   } catch {}
 }
+// The Letterboxd watchlist (scripts/fetch-letterboxd-watchlist.mjs) is wrapped
+// as { fetched, user, items }; same "Title (Year)" keys as everything else.
+let lbWatchlist = [];
+try {
+  lbWatchlist = JSON.parse(await readFile(path.join(root, "data/letterboxd-watchlist.json"), "utf8")).items ?? [];
+  films.push(...lbWatchlist);
+} catch {}
 
 const outPath = path.join(root, "data/enrichment.json");
 const existing = existsSync(outPath) ? JSON.parse(await readFile(outPath, "utf8")) : {};
@@ -90,6 +97,7 @@ for (const film of films) {
       buy: providers.buy?.map((p) => p.provider_name) ?? [],
     },
     providersLink: providers.link ?? null,
+    providersAt: Date.now(),
     region,
     scores: existing[k]?.scores, // keep critic scores across schema refreshes
   };
@@ -97,6 +105,30 @@ for (const film of films) {
   hits++;
   console.log(`  enriched: ${k}`);
   await new Promise((r) => setTimeout(r, 120)); // stay friendly to the API
+}
+
+// Provider refresh for the Letterboxd watchlist: these films are picked by
+// "can I stream it tonight", so their where-to-watch data is re-read weekly
+// instead of being frozen at first enrichment like the rest.
+{
+  const WEEK = 7 * 24 * 3600 * 1000;
+  let refreshed = 0;
+  for (const film of lbWatchlist) {
+    const entry = out[`${film.title} (${film.year})`];
+    if (!entry?.tmdbId || (entry.providersAt && Date.now() - entry.providersAt < WEEK)) continue;
+    const data = await tmdb(`/movie/${entry.tmdbId}/watch/providers`);
+    const providers = data.results?.[region] ?? {};
+    entry.providers = {
+      flatrate: providers.flatrate?.map((p) => p.provider_name) ?? [],
+      rent: providers.rent?.map((p) => p.provider_name) ?? [],
+      buy: providers.buy?.map((p) => p.provider_name) ?? [],
+    };
+    entry.providersLink = providers.link ?? null;
+    entry.providersAt = Date.now();
+    refreshed++;
+    await new Promise((r) => setTimeout(r, 120));
+  }
+  console.log(`${refreshed} watchlist films had providers refreshed`);
 }
 
 // Second pass: keywords (and canonical ids) for entries enriched before the

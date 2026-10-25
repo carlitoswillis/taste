@@ -7,6 +7,7 @@
     "start": "node scripts/serve.mjs",
     "build": "node scripts/build.mjs",
     "sync": "node scripts/fetch-letterboxd.mjs",
+    "watchlist:lb": "node scripts/fetch-letterboxd-watchlist.mjs",
     "enrich": "node scripts/enrich-tmdb.mjs",
     "enrich:tv": "node scripts/enrich-tv.mjs",
     "enrich:books": "node scripts/enrich-books.mjs",

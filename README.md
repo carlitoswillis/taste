@@ -22,12 +22,14 @@ data/
   old-films.json     the "old films on trial" experiment, with a verdict field
   calibration.json   reach-for / avoid rules and known blind spots
   letterboxd.json    (generated) recent activity from the Letterboxd RSS feed
+  letterboxd-watchlist.json  (generated) your Letterboxd watchlist, newest added first
   enrichment.json    (generated) TMDB metadata: directors, runtimes, where to watch
 templates/           the app shell: index.html, app.js, style.css
 scripts/
   serve.mjs          the app: serves the shell, live data, and the write API
   build.mjs          static read-only snapshot into dist/ (only for deliberate exports)
   fetch-letterboxd.mjs  pulls the public RSS feed, flags new ratings
+  fetch-letterboxd-watchlist.mjs  scrapes the public watchlist pages (enrich-tmdb picks them up)
   enrich-tmdb.mjs    TMDB search + credits + watch providers (JustWatch data)
 ```
 
@@ -39,6 +41,7 @@ npm run import -- ~/Downloads/letterboxd-export.zip   # full watch history in
 npm run enrich   # metadata, critic scores, where-to-watch (keys from .env)
 npm run suggest  # regenerate the suggestion list
 npm run sync     # refresh recent Letterboxd activity (RSS)
+npm run watchlist:lb  # refresh the Letterboxd watchlist (public page)
 npm run build    # optional: static read-only export into dist/
 ```
 
