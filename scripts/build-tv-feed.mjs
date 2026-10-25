@@ -132,8 +132,20 @@ const lbPick = dailySample(fromLb, { weight: lbWeight, id: (c) => c.tmdbId, k: L
 const seenFilm = new Set();
 for (const f of [...readJson("data/watched.json", []), ...readJson("data/ratings.json", [])]) seenFilm.add(normTitle(f.title, f.year));
 const taken = new Set([...fromWatch, ...lbPick].map((c) => c.tmdbId));
-const suggPool = fromSugg.filter((c) => !taken.has(c.tmdbId) && !seenFilm.has(normTitle(c.title, c.year)) && !names.has(normTitle(c.title, c.year)));
-const suggPick = weightedSample(suggPool, (c) => Number(c.score) || 0, SUGG_PICKS, `suggestions|${today}`).map((c) => {
+// "Within taste" (owner, 2026-10-25): only the recommender's stronger half, and only films that are well regarded
+// (IMDb or TMDB >= 6.8 on >= 150 votes); weight by score^1.5 so the strongest picks surface most. This keeps a
+// one-credit link (e.g. a minor writer) from pushing a weak film onto the TV.
+const MIN_FILM_RATING = 6.8, MIN_VOTES = 150;
+const scores = fromSugg.map((c) => Number(c.score) || 0).sort((a, b) => a - b);
+const medianScore = scores.length ? scores[Math.floor(scores.length / 2)] : 0;
+const wellRegarded = (c) => {
+  const r = Number(c.e.scores?.imdb || c.e.tmdbRating || c.e.tmdbRating) || 0;
+  const v = Number(c.e.votes ?? c.e.voteCount ?? 0);
+  return r >= MIN_FILM_RATING && (v === 0 || v >= MIN_VOTES);
+};
+const suggPool = fromSugg.filter((c) => !taken.has(c.tmdbId) && !seenFilm.has(normTitle(c.title, c.year)) && !names.has(normTitle(c.title, c.year))
+  && (Number(c.score) || 0) >= medianScore && wellRegarded(c));
+const suggPick = dailySample(suggPool, { weight: (c) => Math.pow(Number(c.score) || 0, 1.5), id: (c) => c.tmdbId, k: SUGG_PICKS, date: today, salt: "suggestions" }).map((c) => {
   // suggestions.json `why` is " · "-joined reasons; keep the first one, which is real data from the file.
   const why = String(c.why ?? "").split(" · ")[0].trim();
   return { ...c, source: "suggestion", why: why.length > 140 ? why.slice(0, 139).replace(/\s+\S*$/, "") + "…" : why };
