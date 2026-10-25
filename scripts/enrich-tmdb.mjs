@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-// Enrich films with TMDB metadata — director, runtime, IMDb id, and where to
+// Enrich films with TMDB metadata — director, runtime, IMDb id, the plot
+// (overview), tagline, backdrop path, and where to
 // watch (streaming/rent providers, via the JustWatch data TMDB exposes) — and,
 // when an OMDb key is present, critic scores (Rotten Tomatoes, Metacritic,
 // IMDb) looked up by IMDb id. Writes data/enrichment.json keyed "Title (Year)".
@@ -90,7 +91,10 @@ for (const film of films) {
     runtime: detail.runtime ?? null,
     genres: detail.genres?.map((g) => g.name) ?? [],
     tmdbRating: detail.vote_average ?? null,
+    overview: detail.overview ?? "",
+    tagline: detail.tagline ?? "",
     poster: match.poster_path ? `https://image.tmdb.org/t/p/w342${match.poster_path}` : null,
+    backdrop: detail.backdrop_path ?? null, // TMDB path ("/abc.jpg"), 16:9; prefix https://image.tmdb.org/t/p/<size>
     providers: {
       flatrate: providers.flatrate?.map((p) => p.provider_name) ?? [],
       rent: providers.rent?.map((p) => p.provider_name) ?? [],
@@ -148,7 +152,33 @@ for (const film of films) {
   console.log(`${keyworded} films keyworded via TMDB`);
 }
 
-// Third pass: critic scores from OMDb, by IMDb id, for entries that lack them.
+// Third pass: plot (overview), tagline and backdrop path for entries enriched
+// before those were stored. Presence of "overview" marks it done (an empty
+// string for a film TMDB has no plot for, so it is never refetched). A failed
+// call skips the film instead of aborting the run.
+{
+  let described = 0;
+  for (const [k, entry] of Object.entries(out)) {
+    if (!entry.tmdbId || "overview" in entry) continue;
+    let detail;
+    try {
+      detail = await tmdb(`/movie/${entry.tmdbId}`);
+    } catch (e) {
+      console.warn(`  overview ${k}: ${e.message}`);
+      if (/: 404$/.test(e.message)) { entry.overview = ""; entry.tagline = ""; entry.backdrop = null; } // gone from TMDB: don't retry
+      continue;
+    }
+    entry.overview = detail.overview ?? "";
+    entry.tagline = detail.tagline ?? "";
+    entry.backdrop = detail.backdrop_path ?? null;
+    described++;
+    console.log(`  overview: ${k}`);
+    await new Promise((r) => setTimeout(r, 120));
+  }
+  console.log(`${described} films given an overview via TMDB`);
+}
+
+// Fourth pass: critic scores from OMDb, by IMDb id, for entries that lack them.
 const omdbKey = process.env.OMDB_API_KEY;
 if (omdbKey) {
   let scored = 0;
