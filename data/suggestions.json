@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T07:30:54.878Z",
+  "generated": "2026-10-25T13:44:13.665Z",
   "basedOn": 31,
   "head": 12,
   "items": [
@@ -86,8 +86,8 @@
       "score": 14.4,
       "rank": 3,
       "director": [
-        "Joel Coen",
-        "Ethan Coen"
+        "Ethan Coen",
+        "Joel Coen"
       ],
       "runtime": 110,
       "genres": [
@@ -642,31 +642,31 @@
       "title": "Paris Je T'aime",
       "year": 2006,
       "tmdbId": 2266,
-      "tmdbRating": 6.771,
+      "tmdbRating": 6.8,
       "votes": 874,
       "score": 13.5,
       "rank": 18,
       "director": [
-        "Olivier Assayas",
+        "Isabel Coixet",
+        "Sylvain Chomet",
+        "Vincenzo Natali",
+        "Wes Craven",
+        "Gus Van Sant",
+        "Nobuhiro Suwa",
+        "Daniela Thomas",
         "Frédéric Auburtin",
         "Gurinder Chadha",
-        "Sylvain Chomet",
-        "Isabel Coixet",
-        "Wes Craven",
         "Alfonso Cuarón",
         "Gérard Depardieu",
         "Christopher Doyle",
-        "Richard LaGravenese",
-        "Vincenzo Natali",
         "Alexander Payne",
-        "Walter Salles",
-        "Oliver Schmitz",
-        "Nobuhiro Suwa",
-        "Daniela Thomas",
         "Tom Tykwer",
-        "Gus Van Sant",
-        "Joel Coen",
+        "Oliver Schmitz",
+        "Olivier Assayas",
+        "Richard LaGravenese",
+        "Walter Salles",
         "Ethan Coen",
+        "Joel Coen",
         "Bruno Podalydès"
       ],
       "runtime": 120,
@@ -768,7 +768,7 @@
       "title": "The Host",
       "year": 2006,
       "tmdbId": 1255,
-      "tmdbRating": 6.985,
+      "tmdbRating": 7,
       "votes": 3284,
       "score": 5.700000000000001,
       "rank": 21,
@@ -1064,8 +1064,8 @@
       "title": "Man of Steel",
       "year": 2013,
       "tmdbId": 49521,
-      "tmdbRating": 6.662,
-      "votes": 16747,
+      "tmdbRating": 6.663,
+      "votes": 16748,
       "score": 4.86,
       "rank": 29,
       "director": [
@@ -1276,7 +1276,7 @@
       "title": "Kill Bill: The Whole Bloody Affair",
       "year": 2011,
       "tmdbId": 414419,
-      "tmdbRating": 8.108,
+      "tmdbRating": 8.1,
       "votes": 1462,
       "score": 3.8000000000000003,
       "rank": 35,
@@ -1419,7 +1419,7 @@
       "title": "Jackie Brown",
       "year": 1997,
       "tmdbId": 184,
-      "tmdbRating": 7.357,
+      "tmdbRating": 7.4,
       "votes": 7197,
       "score": 3.8000000000000003,
       "rank": 39,
@@ -1554,8 +1554,8 @@
       "title": "Under the Silver Lake",
       "year": 2018,
       "tmdbId": 396461,
-      "tmdbRating": 6.329,
-      "votes": 1702,
+      "tmdbRating": 6.325,
+      "votes": 1703,
       "score": 2.7,
       "themes": [
         "cruel-comedy"
@@ -2121,7 +2121,7 @@
       "title": "Three Thousand Years of Longing",
       "year": 2022,
       "tmdbId": 556694,
-      "tmdbRating": 6.87,
+      "tmdbRating": 6.9,
       "votes": 1765,
       "score": 2.7,
       "rank": 60,
@@ -2182,7 +2182,7 @@
       "year": 1979,
       "tmdbId": 9659,
       "tmdbRating": 6.683,
-      "votes": 5170,
+      "votes": 5171,
       "score": 2.7,
       "rank": 62,
       "director": [
@@ -2277,7 +2277,7 @@
       "year": 2025,
       "tmdbId": 668489,
       "tmdbRating": 6.39,
-      "votes": 1377,
+      "votes": 1378,
       "score": 2.7,
       "rank": 65,
       "director": [
@@ -2340,13 +2340,13 @@
       "score": 2.7,
       "rank": 67,
       "director": [
-        "Adam Wingard",
-        "Gregg Hale",
         "Eduardo Sánchez",
-        "Simon Barrett",
         "Timo Tjahjanto",
+        "Gareth Evans",
+        "Gregg Hale",
+        "Simon Barrett",
         "Jason Eisener",
-        "Gareth Evans"
+        "Adam Wingard"
       ],
       "runtime": 96,
       "genres": [
@@ -2372,8 +2372,8 @@
       "title": "The Hunt",
       "year": 2020,
       "tmdbId": 514847,
-      "tmdbRating": 6.658,
-      "votes": 3871,
+      "tmdbRating": 6.659,
+      "votes": 3872,
       "score": 1.3200000000000003,
       "themes": [
         "cruel-comedy"
@@ -2694,7 +2694,7 @@
       "year": 2008,
       "tmdbId": 8966,
       "tmdbRating": 6.273,
-      "votes": 14798,
+      "votes": 14801,
       "score": 1.2,
       "themes": [
         "metaphysical"
@@ -2731,7 +2731,7 @@
       "year": 2010,
       "tmdbId": 24021,
       "tmdbRating": 6.184,
-      "votes": 9455,
+      "votes": 9456,
       "score": 1.2,
       "themes": [
         "metaphysical"
@@ -2807,7 +2807,7 @@
       "title": "Star Trek Into Darkness",
       "year": 2013,
       "tmdbId": 54138,
-      "tmdbRating": 7.3,
+      "tmdbRating": 7.322,
       "votes": 9955,
       "score": 1.3200000000000003,
       "rank": 81,
@@ -2956,7 +2956,7 @@
       "year": 1997,
       "tmdbId": 489,
       "tmdbRating": 8.167,
-      "votes": 14494,
+      "votes": 14495,
       "score": 0.8999999999999999,
       "rank": 85,
       "director": [
@@ -3062,7 +3062,7 @@
       "year": 2015,
       "tmdbId": 158852,
       "tmdbRating": 6.313,
-      "votes": 7556,
+      "votes": 7557,
       "score": 1.3200000000000003,
       "rank": 88,
       "director": [
@@ -3327,7 +3327,6 @@
       "poster": "https://image.tmdb.org/t/p/w342/iUrtHcc8rn7iX31Id3MYOT1rbyw.jpg",
       "providers": {
         "flatrate": [
-          "fuboTV",
           "Britbox Apple TV channel",
           "BritBox",
           "MovieSphere+ Amazon Channel",

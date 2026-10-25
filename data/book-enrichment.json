@@ -2984,5 +2984,741 @@
     "adaptedAs": [
       "The Gray Man (2022)"
     ]
+  },
+  "Cosmopolis (Don DeLillo)": {
+    "id": "b:OL1921194W",
+    "olWork": "OL1921194W",
+    "authors": [
+      {
+        "key": "OL230288A",
+        "name": "Don DeLillo"
+      }
+    ],
+    "firstPublished": 2003,
+    "pages": 223,
+    "subjects": [
+      "Psychological fiction",
+      "Self-destructive behavior",
+      "Fiction",
+      "Murder victims",
+      "Young men",
+      "Foreign exchange market",
+      "Billionaires",
+      "18.06 Anglo-American literature",
+      "Victims of crimes",
+      "Markets",
+      "Fiction, psychological",
+      "New york (n.y.), fiction"
+    ],
+    "coverId": 473372,
+    "cover": "https://covers.openlibrary.org/b/id/473372-M.jpg",
+    "description": "\"Eric Packer, a billionaire asset manager at age twenty-eight, emerges from his penthouse triplex and settles into his lavishly customized white stretch limousine. On this day he is a man with two missions: to pursue a cataclysmic bet against the yen and to get a haircut across town.\".\n\n\"His journey to the barbershop is a contemporary odyssey, funny and fast-moving. Stalled in traffic by a presidential motorcade, a music idol's funeral and a violent political demonstration, Eric receives a string of visitors - his experts on security, technology, currency, finance and theory. Sometimes he leav",
+    "editionCount": 35,
+    "olRating": {
+      "average": 3.25,
+      "count": 8
+    },
+    "adaptedAs": [
+      "Cosmopolis (2012)"
+    ]
+  },
+  "Super-Toys Last All Summer Long (Brian Aldiss)": {
+    "id": "b:OL892461W",
+    "olWork": "OL892461W",
+    "authors": [
+      {
+        "key": "OL78952A",
+        "name": "Brian W. Aldiss"
+      }
+    ],
+    "firstPublished": 2001,
+    "pages": 232,
+    "subjects": [
+      "Fiction",
+      "English Science fiction",
+      "Robots",
+      "Parent and child",
+      "Fiction, science fiction, general",
+      "Fiction, short stories (single author)"
+    ],
+    "coverId": 178080,
+    "cover": "https://covers.openlibrary.org/b/id/178080-M.jpg",
+    "description": null,
+    "editionCount": 1,
+    "olRating": {
+      "average": 0,
+      "count": 0
+    },
+    "adaptedAs": [
+      "A.I. Artificial Intelligence (2001)"
+    ]
+  },
+  "The Living and the Dead (Boileau-Narcejac)": {
+    "id": "b:OL16044773W",
+    "olWork": "OL16044773W",
+    "authors": [
+      {
+        "key": "OL6911743A",
+        "name": "Boileau-Narcejac"
+      }
+    ],
+    "firstPublished": null,
+    "pages": null,
+    "subjects": [],
+    "coverId": 6908104,
+    "cover": "https://covers.openlibrary.org/b/id/6908104-M.jpg",
+    "description": "This story of obsession, deceit and human frailty has an almost overpowering intensity... Alongside Patricia Highsmith Pierre Boileau and Thomas Narcejac deserve recognition as part of the great tradition of chilling psychological crime fiction. Crime Fiction Lover Makes a fascinating companion to the Hitchcock film, and is, I think, an amazing book in its own right Lit Love Gallic noir at its most psychologically acute Crime Scene A fantastic book Col's Criminal Library One of the pleasures of reading the book is noting how it compares with, and in places even improves on, the film.",
+    "editionCount": 0,
+    "olRating": {
+      "average": 1,
+      "count": 1
+    },
+    "adaptedAs": [
+      "Vertigo (1958)"
+    ]
+  },
+  "Little Women (Louisa May Alcott)": {
+    "id": "b:OL29983W",
+    "olWork": "OL29983W",
+    "authors": [
+      {
+        "key": "OL26680A",
+        "name": "Louisa May Alcott"
+      }
+    ],
+    "firstPublished": 1848,
+    "pages": 423,
+    "subjects": [
+      "Romans",
+      "Jeunes filles",
+      "Soeurs",
+      "Sisters",
+      "Young women",
+      "Fiction",
+      "Fiction, women",
+      "Young women, fiction",
+      "Family life",
+      "Literatura Norte Americana",
+      "Families",
+      "Juvenile fiction"
+    ],
+    "coverId": 8775559,
+    "cover": "https://covers.openlibrary.org/b/id/8775559-M.jpg",
+    "description": "Louisa May Alcotts classic novel, set during the Civil War, has always captivated even the most reluctant readers. Little girls, especially, love following the adventures of the four March sisters--Meg, Beth, Amy, and most of all, the tomboy Jo--as they experience the joys and disappointments, tragedies and triumphs, of growing up. This simpler version captures all the charm and warmth of the original.",
+    "editionCount": 1889,
+    "olRating": {
+      "average": 4.0555553,
+      "count": 126
+    },
+    "adaptedAs": [
+      "Little Women (2019)"
+    ]
+  },
+  "Scorched (Wajdi Mouawad)": {
+    "id": "b:OL24271516W",
+    "olWork": "OL24271516W",
+    "authors": [
+      {
+        "key": "OL1489375A",
+        "name": "Wajdi Mouawad"
+      }
+    ],
+    "firstPublished": 2009,
+    "pages": 176,
+    "subjects": [
+      "Theater",
+      "History"
+    ],
+    "coverId": 10765650,
+    "cover": "https://covers.openlibrary.org/b/id/10765650-M.jpg",
+    "description": "\"Incendies est le second volet d'une tétralogie amorcée avec l'écriture et la mise en scène de Littoral en 1997. Sans en être une suite narrative, Incendies reprend la réflexion autour de la question de l'origine.\"--P. 9.",
+    "editionCount": 3,
+    "olRating": {
+      "average": 5,
+      "count": 2
+    },
+    "adaptedAs": [
+      "Incendies (2010)"
+    ]
+  },
+  "A Clockwork Orange (Anthony Burgess)": {
+    "id": "b:OL261794W",
+    "olWork": "OL261794W",
+    "authors": [
+      {
+        "key": "OL142238A",
+        "name": "Anthony Burgess"
+      }
+    ],
+    "firstPublished": 1962,
+    "pages": 192,
+    "subjects": [
+      "bible",
+      "aversion therapy",
+      "unintended consequences",
+      "Beethoven's Fifth Symphony",
+      "gang rape",
+      "psychiatric hospitals",
+      "maturity",
+      "metanoia",
+      "assault",
+      "joyriding",
+      "rape",
+      "metafiction"
+    ],
+    "coverId": 14430663,
+    "cover": "https://covers.openlibrary.org/b/id/14430663-M.jpg",
+    "description": "A Clockwork Orange is a dystopian satirical black comedy novel by English writer Anthony Burgess, published in 1962. It is set in a near-future society that has a youth subculture of extreme violence. The teenage protagonist, Alex, narrates his violent exploits and his experiences with state authorities intent on reforming him. The book is partially written in a Russian-influenced argot called \"Nadsat\", which takes its name from the Russian suffix that is equivalent to '-teen' in English. According to Burgess, it was a jeu d'esprit written in just three weeks.\r\n\r\nIn 2005, A Clockwork Orange wa",
+    "editionCount": 145,
+    "olRating": {
+      "average": 4.014493,
+      "count": 69
+    },
+    "adaptedAs": [
+      "A Clockwork Orange (1971)"
+    ]
+  },
+  "Call Me By Your Name (André Aciman)": {
+    "id": "b:OL8034526W",
+    "olWork": "OL8034526W",
+    "authors": [
+      {
+        "key": "OL2674958A",
+        "name": "André Aciman"
+      }
+    ],
+    "firstPublished": 2007,
+    "pages": 256,
+    "subjects": [
+      "LGBT",
+      "Italy",
+      "Summer",
+      "Love",
+      "Romance",
+      "Teenage boys",
+      "Authors",
+      "Fiction",
+      "Gay teenagers",
+      "Boys and men",
+      "cmbyn",
+      "northern Italy"
+    ],
+    "coverId": 11123807,
+    "cover": "https://covers.openlibrary.org/b/id/11123807-M.jpg",
+    "description": "It's the summer of 1983, and precocious 17-year-old Elio Perlman is spending the days with his family at their 17th-century villa in Lombardy, Italy. He soon meets Oliver, a handsome doctoral student who's working as an intern for Elio's father. Amid the sun-drenched splendor of their surroundings, Elio and Oliver discover the heady beauty of awakening desire over the course of a summer that will alter their lives forever.",
+    "editionCount": 20,
+    "olRating": {
+      "average": 4.133333,
+      "count": 75
+    },
+    "adaptedAs": [
+      "Call Me by Your Name (2017)"
+    ]
+  },
+  "Silence (Shūsaku Endō)": {
+    "id": "b:OL15391655W",
+    "olWork": "OL15391655W",
+    "authors": [
+      {
+        "key": "OL4282449A",
+        "name": "Shūsaku Endō"
+      }
+    ],
+    "firstPublished": 1980,
+    "pages": 294,
+    "subjects": [
+      "Fiction",
+      "Christians",
+      "History",
+      "Missionaries in Fiction",
+      "Civilization",
+      "Missionaries",
+      "Japanese literature",
+      "Persecution",
+      "Missionaries, fiction",
+      "Japan, fiction",
+      "Fiction, historical, general",
+      "Fiction, christian, historical"
+    ],
+    "coverId": 6601656,
+    "cover": "https://covers.openlibrary.org/b/id/6601656-M.jpg",
+    "description": "An historical novel by Japanese writer Shusaku Endo telling the story of a young Portuguese missionary in 17th Century Japan. After being smuggled into the country a Jesuit missionary fresh from the seminary finds the Christian population have been forced underground by a government eager to stamp out foreign interference and values. Consequently he quickly finds himself a fugitive in a strange and frightening land and begins to doubt his mission due to the silence of his god.",
+    "editionCount": 1,
+    "olRating": {
+      "average": 4.142857,
+      "count": 7
+    },
+    "adaptedAs": [
+      "Silence (2016)"
+    ]
+  },
+  "The Fly (George Langelaan)": {
+    "id": "b:OL19750749W",
+    "olWork": "OL19750749W",
+    "authors": [
+      {
+        "key": "OL7539461A",
+        "name": "Bernard Glasser"
+      },
+      {
+        "key": "OL239254A",
+        "name": "Edward Bernds"
+      },
+      {
+        "key": "OL7539462A",
+        "name": "George Langelaan"
+      },
+      {
+        "key": "OL7539463A",
+        "name": "George Langelaan"
+      }
+    ],
+    "firstPublished": 2007,
+    "pages": 80,
+    "subjects": [
+      "DNA damage",
+      "Científicos",
+      "Mutagenesis",
+      "Science",
+      "Teleportation",
+      "Teatro",
+      "Drama",
+      "Experiments",
+      "Experimentos",
+      "Scientists",
+      "Housefly",
+      "Film adaptations"
+    ],
+    "coverId": null,
+    "cover": null,
+    "description": "Despite warnings from his uncle Francois, young scientist Philippe Delambre is determined to reattempt his late father's teleportation experiments with the help of his assisstant Ronald. But Ronald schemes against Philippe and turns him into the same horrifying man-fly creature that his father had become. Once again, it is up to Francois to try and make things right again. The second film in the Fly trilogy.\n\nAn eccentric scientist working on matter teleportation accidentally combines his DNA with a fly's when he tests his teleportation machine on himself.",
+    "editionCount": 1,
+    "olRating": {
+      "average": null,
+      "count": 0
+    },
+    "adaptedAs": [
+      "The Fly (1986)"
+    ]
+  },
+  "The Dead Zone (Stephen King)": {
+    "id": "b:OL81630W",
+    "olWork": "OL81630W",
+    "authors": [
+      {
+        "key": "OL19981A",
+        "name": "Stephen King"
+      }
+    ],
+    "firstPublished": 1979,
+    "pages": 426,
+    "subjects": [
+      "brain tumors",
+      "rifles",
+      "human shields",
+      "assassination",
+      "procrastination",
+      "murder",
+      "Federal Bureau of Investigation",
+      "car bombs",
+      "United States House of Representatives",
+      "mayors",
+      "wheel of fortune",
+      "comas"
+    ],
+    "coverId": 14653991,
+    "cover": "https://covers.openlibrary.org/b/id/14653991-M.jpg",
+    "description": "The Dead Zone is a science fiction thriller novel by Stephen King published in 1979. The story follows Johnny Smith, who awakens from a coma of nearly five years and, apparently as a result of brain damage, now experiences clairvoyant and precognitive visions triggered by touch. When some information is blocked from his perception, Johnny refers to that information as being trapped in the part of his brain that is permanently damaged, \"the dead zone.\" The novel also follows a serial killer in Castle Rock, and the life of rising politician Greg Stillson, both of whom are evils Johnny must event",
+    "editionCount": 90,
+    "olRating": {
+      "average": 4.1086955,
+      "count": 46
+    },
+    "adaptedAs": [
+      "The Dead Zone (1983)"
+    ]
+  },
+  "Do Androids Dream of Electric Sheep? (Philip K. Dick)": {
+    "id": "b:OL2172356W",
+    "olWork": "OL2172356W",
+    "authors": [
+      {
+        "key": "OL274606A",
+        "name": "Philip K. Dick"
+      }
+    ],
+    "firstPublished": 1968,
+    "pages": 224,
+    "subjects": [
+      "Androids",
+      "Fiction",
+      "Rick Deckard (Fictitious character)",
+      "Science Fiction",
+      "Twenty-first century",
+      "open_syllabus_project",
+      "Bounty hunters",
+      "Fiction, science fiction, general",
+      "Large type books",
+      "Movie-TV Tie-In",
+      "Movies",
+      "Motion Pictures"
+    ],
+    "coverId": 207515,
+    "cover": "https://covers.openlibrary.org/b/id/207515-M.jpg",
+    "description": "It was January 2021, and Rick Deckard had a license to kill.\r\nSomewhere among the hordes of humans out there, lurked several rogue androids. Deckard's assignment--find them and then...\"retire\" them. Trouble was, the androids all looked exactly like humans, and they didn't want to be found!",
+    "editionCount": 90,
+    "olRating": {
+      "average": 4.0434785,
+      "count": 161
+    },
+    "adaptedAs": [
+      "Blade Runner (1982)"
+    ]
+  },
+  "The Invisible Man (H. G. Wells)": {
+    "id": "b:OL52266W",
+    "olWork": "OL52266W",
+    "authors": [
+      {
+        "key": "OL13066A",
+        "name": "H. G. Wells"
+      }
+    ],
+    "firstPublished": 0,
+    "pages": 170,
+    "subjects": [
+      "Ciencia-ficción",
+      "Classic Literature",
+      "Fiction",
+      "Mentally ill",
+      "Science Fiction & Fantasy",
+      "Science fiction",
+      "Scientists",
+      "English Science fiction",
+      "Experiments",
+      "Adaptations",
+      "Time travel",
+      "British and irish fiction (fictional works by one author)"
+    ],
+    "coverId": 6419199,
+    "cover": "https://covers.openlibrary.org/b/id/6419199-M.jpg",
+    "description": "This book is the story of Griffin, a scientist who creates a serum to render himself invisible, and his descent into madness that follows.",
+    "editionCount": 563,
+    "olRating": {
+      "average": 3.7837837,
+      "count": 111
+    },
+    "adaptedAs": [
+      "The Invisible Man (2020)"
+    ]
+  },
+  "The Notebook (Nicholas Sparks)": {
+    "id": "b:OL54797W",
+    "olWork": "OL54797W",
+    "authors": [
+      {
+        "key": "OL19597A",
+        "name": "Nicholas Sparks"
+      }
+    ],
+    "firstPublished": 1996,
+    "pages": 244,
+    "subjects": [
+      "Man-woman relationships, fiction",
+      "Oral reading",
+      "Older people",
+      "Ancianos",
+      "Novela",
+      "Relaciones hombre-mujer",
+      "Open Library Staff Picks",
+      "American fiction",
+      "Aged",
+      "Love stories",
+      "Oral reading -- Fiction",
+      "Older people -- Fiction"
+    ],
+    "coverId": 7382153,
+    "cover": "https://covers.openlibrary.org/b/id/7382153-M.jpg",
+    "description": "A man with a faded, well-worn notebook open in his lap. A woman experiencing a morning ritual she doesn't understand. Until he begins to read to her. An achingly tender story about the enduring power of love.\r\n\r\nA man with a faded, well-worn notebook open in his lap. A woman experiencing a morning ritual she doesn't understand. Until he begins to read to her. The Notebook is an achingly tender story about the enduring power of love, a story of miracles that will stay with you forever. \r\n\r\nSet amid the austere beauty of coastal North Carolina in 1946, The Notebook begins with the story of Noah ",
+    "editionCount": 53,
+    "olRating": {
+      "average": 3.5769231,
+      "count": 26
+    },
+    "adaptedAs": [
+      "The Notebook (2004)"
+    ]
+  },
+  "The Godfather (Mario Puzo)": {
+    "id": "b:OL1673205W",
+    "olWork": "OL1673205W",
+    "authors": [
+      {
+        "key": "OL188486A",
+        "name": "Mario Puzo"
+      }
+    ],
+    "firstPublished": 1969,
+    "pages": 450,
+    "subjects": [
+      "Detective and mystery stories",
+      "Organized crime",
+      "Criminals",
+      "Italian Americans",
+      "Mafia",
+      "Fiction",
+      "Criminals in fiction",
+      "Drama",
+      "Italian Americans in fiction",
+      "Mafia in fiction",
+      "Organized crime in fiction",
+      "Romance"
+    ],
+    "coverId": 6507069,
+    "cover": "https://covers.openlibrary.org/b/id/6507069-M.jpg",
+    "description": "The Godfather is a crime novel by American author Mario Puzo. Originally published in 1969 by G. P. Putnam's Sons, the novel details the story of a fictional Mafia family in New York City (and Long Beach, New York), headed by Vito Corleone. Puzo's dedication for The Godfather is \"For Anthony Cleri\". The novel's epigraph is by the French author Honoré de Balzac: \"Behind every great fortune there is a crime.\" The novel covers the years 1945 to 1955 and includes the back story of Vito Corleone from early childhood to adulthood.\r\n\r\n\r\n----------\r\nAlso contained in:\r\n\r\n - [The Godfather / The Fortun",
+    "editionCount": 109,
+    "olRating": {
+      "average": 4.2916665,
+      "count": 48
+    },
+    "adaptedAs": [
+      "The Godfather (1972)"
+    ]
+  },
+  "Dune Messiah (Frank Herbert)": {
+    "id": "b:OL893461W",
+    "olWork": "OL893461W",
+    "authors": [
+      {
+        "key": "OL79034A",
+        "name": "Frank Herbert"
+      }
+    ],
+    "firstPublished": 1969,
+    "pages": 279,
+    "subjects": [
+      "American Science fiction",
+      "Dune (Imaginary place)",
+      "Fiction",
+      "Imaginary places",
+      "Science Fiction",
+      "Translations into Russian",
+      "Novela",
+      "Dune (Lugar imaginario)",
+      "Lectures et morceaux choisis",
+      "Anglais (langue)",
+      "Roman ame ricain",
+      "Science-fiction ame ricaine"
+    ],
+    "coverId": 980253,
+    "cover": "https://covers.openlibrary.org/b/id/980253-M.jpg",
+    "description": "**Book Two in the Magnificent Dune Chronicles—the Bestselling Science Fiction Adventure of All Time**\r\n\r\nDune Messiah continues the story of Paul Atreides, better known—and feared—as the man christened Muad’Dib. As Emperor of the known universe, he possesses more power than a single man was ever meant to wield. Worshipped as a religious icon by the fanatical Fremen, Paul faces the enmity of the political houses he displaced when he assumed the throne—and a conspiracy conducted within his own sphere of influence.\r\n\r\nAnd even as House Atreides begins to crumble around him from the machinations o",
+    "editionCount": 101,
+    "olRating": {
+      "average": 3.937063,
+      "count": 143
+    },
+    "adaptedAs": [
+      "Dune: Part Three (2026)"
+    ]
+  },
+  "The Talking Cure (Christopher Hampton)": {
+    "id": "b:OL2422362W",
+    "olWork": "OL2422362W",
+    "authors": [
+      {
+        "key": "OL333785A",
+        "name": "Christopher Hampton"
+      }
+    ],
+    "firstPublished": 2003,
+    "pages": 96,
+    "subjects": [
+      "Drama",
+      "Psychoanalysis"
+    ],
+    "coverId": 378533,
+    "cover": "https://covers.openlibrary.org/b/id/378533-M.jpg",
+    "description": "\"Christopher Hampton's new play The Talking Cure deals with the early years of C.G. Jung and his decision to experiment, using Freud's controversial new method of psychoanalysis, with a young Russian patient, Sabina Spielrein. The success of the experiment and the blossoming of his relationship with Sabina inauguarates, haunts and ultimately poisons Jung's friendship with Freud; and the ideas and conflicts which engulf the three of them embody, as Jung comes to realize, the destructive forces which are to overwhelm the disastrous century ahead\"--Jacket.",
+    "editionCount": 1,
+    "olRating": {
+      "average": 0,
+      "count": 0
+    },
+    "adaptedAs": [
+      "A Dangerous Method (2011)"
+    ]
+  },
+  "The Electric State (Simon Stålenhag)": {
+    "id": "b:OL19761147W",
+    "olWork": "OL19761147W",
+    "authors": [
+      {
+        "key": "OL7543508A",
+        "name": "Simon Stålenhag"
+      }
+    ],
+    "firstPublished": 2018,
+    "pages": 139,
+    "subjects": [
+      "Voyages and travels",
+      "Fiction",
+      "Robots",
+      "Teenage girls",
+      "West (u.s.), fiction",
+      "Fiction, science fiction, general",
+      "History"
+    ],
+    "coverId": 10511493,
+    "cover": "https://covers.openlibrary.org/b/id/10511493-M.jpg",
+    "description": "\"A teen girl and her robot embark on a cross-country mission in this illustrated science fiction story, perfect for fans of Ready Player One and Black Mirror. In late 1997, a runaway teenager and her small yellow toy robot travel west through a strange American landscape where the ruins of gigantic battle drones litter the countryside, along with the discarded trash of a high-tech consumerist society addicted to a virtual-reality system. As they approach the edge of the continent, the world outside the car window seems to unravel at an ever faster pace, as if somewhere beyond the horizon, the ",
+    "editionCount": 6,
+    "olRating": {
+      "average": 5,
+      "count": 3
+    },
+    "adaptedAs": [
+      "The Electric State (2025)"
+    ]
+  },
+  "The Stranger (Albert Camus)": {
+    "id": "b:OL1230613W",
+    "olWork": "OL1230613W",
+    "authors": [
+      {
+        "key": "OL124171A",
+        "name": "Albert Camus"
+      }
+    ],
+    "firstPublished": 1942,
+    "pages": 143,
+    "subjects": [
+      "Philosophical Novels",
+      "Murder",
+      "Fiction",
+      "Medicine in Literature",
+      "French",
+      "Novelas francesas",
+      "Asesinato",
+      "Ficción",
+      "Relatos de aventuras",
+      "Critique et interprétation",
+      "Social conditions",
+      "Camus, Albert, 1913-1960. L'étranger"
+    ],
+    "coverId": 13151269,
+    "cover": "https://covers.openlibrary.org/b/id/13151269-M.jpg",
+    "description": "*L'Étranger* est le premier roman publié d’Albert Camus, paru en 1942. Il prend place dans la tétralogie que Camus nommera « cycle de l’absurde » qui décrit les fondements de la philosophie camusienne : l’absurde. Le roman a été traduit en soixante-huit langues.",
+    "editionCount": 468,
+    "olRating": {
+      "average": 4.114865,
+      "count": 148
+    },
+    "adaptedAs": [
+      "The Stranger (2025)"
+    ]
+  },
+  "The Ax (Donald E. Westlake)": {
+    "id": "b:OL19144W",
+    "olWork": "OL19144W",
+    "authors": [
+      {
+        "key": "OL24365A",
+        "name": "Donald E. Westlake"
+      }
+    ],
+    "firstPublished": 1997,
+    "pages": 332,
+    "subjects": [
+      "Fiction",
+      "Downsizing of organizations",
+      "Middle-aged men",
+      "Serial murderers",
+      "Suspense",
+      "Unemployed",
+      "Murder",
+      "Large type books",
+      "Fiction, thrillers, suspense",
+      "Fiction, horror",
+      "Devore, burke (fictitious character), fiction",
+      "Serial murders, fiction"
+    ],
+    "coverId": 691839,
+    "cover": "https://covers.openlibrary.org/b/id/691839-M.jpg",
+    "description": "Burke Devore is a paper company manager, a man who can tell you everything you ever wanted to know about bleaching processes and the edible wood pulp they put in ice cream. For twenty-five years Burke has provided for his family and played by the rules. Until now. Now Devore is slipping away: from his wife, his family, and from all norms of civilized behavior. Burke Devore wants his life back. And he will do anything to get it. From his attempts to land a new job, to the growing rift between him and his loved ones, Devore knows that he is running out of time. Believing that there is just one w",
+    "editionCount": 17,
+    "olRating": {
+      "average": 4,
+      "count": 2
+    },
+    "adaptedAs": [
+      "No Other Choice (2025)"
+    ]
+  },
+  "Chainsaw Man (Tatsuki Fujimoto)": {
+    "id": "b:OL22142129W",
+    "olWork": "OL22142129W",
+    "authors": [
+      {
+        "key": "OL7532576A",
+        "name": "Tatsuki Fujimoto"
+      }
+    ],
+    "firstPublished": 2019,
+    "pages": 192,
+    "subjects": [
+      "Literature",
+      "nyt:graphic-books-and-manga=2021-04-11",
+      "New York Times bestseller"
+    ],
+    "coverId": 11432953,
+    "cover": "https://covers.openlibrary.org/b/id/11432953-M.jpg",
+    "description": "**Broke young man + chainsaw dog demon = Chainsaw Man!**\r\n\r\nDenji was a small-time devil hunter just trying to survive in a harsh world. After being killed on a job, he is revived by his pet devil Pochita and becomes something new and dangerous—Chainsaw Man!\r\n\r\nDenji’s a poor young man who’ll do anything for money, even hunting down devils with his pet devil-dog Pochita. He’s a simple man with simple dreams, drowning under a mountain of debt. But his sad life gets turned upside down one day when he’s betrayed by someone he trusts. Now with the power of a devil inside him, Denji’s become a whol",
+    "editionCount": 5,
+    "olRating": {
+      "average": 5,
+      "count": 8
+    },
+    "adaptedAs": [
+      "Chainsaw Man – The Movie: Reze Arc (2025)"
+    ]
+  },
+  "The Housemaid (Freida McFadden)": {
+    "id": "b:OL27729743W",
+    "olWork": "OL27729743W",
+    "authors": [
+      {
+        "key": "OL8384995A",
+        "name": "Freida McFadden"
+      }
+    ],
+    "firstPublished": 2022,
+    "pages": 336,
+    "subjects": [
+      "nyt:trade-fiction-paperback=2023-05-14",
+      "New York Times bestseller",
+      "Thriller",
+      "Mystery",
+      "Fiction",
+      "Mystery Thriller",
+      "Suspense",
+      "Crime",
+      "Psychological Thriller",
+      "Series:The-Housemaid",
+      "Contemporary",
+      "Romance"
+    ],
+    "coverId": 15105883,
+    "cover": "https://covers.openlibrary.org/b/id/15105883-M.jpg",
+    "description": "Every day I clean the Winchesters' beautiful house top to bottom. I collect their daughter from school. And I cook a delicious meal for the whole family before heading up to eat alone in my tiny room on the top floor.\r\n\r\nI try to ignore how Nina makes a mess just to watch me clean it up. How she tells strange lies about her own daughter. And how her husband Andrew seems more broken every day. But as I look into Andrew's handsome brown eyes, so full of pain, it's hard not to imagine what it would be like to live Nina's life. The walk-in closet, the fancy car, the perfect husband.\r\n\r\nI only try ",
+    "editionCount": 17,
+    "olRating": {
+      "average": 3.625,
+      "count": 24
+    },
+    "adaptedAs": [
+      "The Housemaid (2025)"
+    ]
   }
 }
