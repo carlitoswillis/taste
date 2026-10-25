@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T13:44:13.665Z",
+  "generated": "2026-10-25T22:36:03.127Z",
   "basedOn": 31,
   "head": 12,
   "items": [
@@ -82,7 +82,7 @@
       "year": 2010,
       "tmdbId": 44264,
       "tmdbRating": 7.303,
-      "votes": 5985,
+      "votes": 5986,
       "score": 14.4,
       "rank": 3,
       "director": [
@@ -125,8 +125,8 @@
       "title": "The Man Who Wasn't There",
       "year": 2001,
       "tmdbId": 10778,
-      "tmdbRating": 7.499,
-      "votes": 1843,
+      "tmdbRating": 7.498,
+      "votes": 1844,
       "score": 13.5,
       "rank": 4,
       "director": [
@@ -161,7 +161,7 @@
       "year": 1999,
       "tmdbId": 11660,
       "tmdbRating": 7.113,
-      "votes": 2013,
+      "votes": 2014,
       "score": 12.15,
       "themes": [
         "surveillance"
@@ -203,7 +203,7 @@
       "year": 2002,
       "tmdbId": 320,
       "tmdbRating": 6.957,
-      "votes": 5613,
+      "votes": 5614,
       "score": 12.15,
       "rank": 6,
       "director": [
@@ -304,8 +304,8 @@
       "title": "Drive-Away Dolls",
       "year": 2024,
       "tmdbId": 957304,
-      "tmdbRating": 5.478,
-      "votes": 635,
+      "tmdbRating": 5.477,
+      "votes": 636,
       "score": 6.75,
       "rank": 9,
       "director": [
@@ -379,8 +379,8 @@
       "title": "The Favourite",
       "year": 2018,
       "tmdbId": 375262,
-      "tmdbRating": 7.5,
-      "votes": 6105,
+      "tmdbRating": 7.476,
+      "votes": 6106,
       "score": 6.120000000000001,
       "rank": 11,
       "director": [
@@ -414,8 +414,8 @@
       "title": "Space Jam: A New Legacy",
       "year": 2021,
       "tmdbId": 379686,
-      "tmdbRating": 6.613,
-      "votes": 4319,
+      "tmdbRating": 6.612,
+      "votes": 4320,
       "score": 6.08,
       "rank": 12,
       "director": [
@@ -642,31 +642,31 @@
       "title": "Paris Je T'aime",
       "year": 2006,
       "tmdbId": 2266,
-      "tmdbRating": 6.8,
-      "votes": 874,
+      "tmdbRating": 6.771,
+      "votes": 875,
       "score": 13.5,
       "rank": 18,
       "director": [
-        "Isabel Coixet",
         "Sylvain Chomet",
-        "Vincenzo Natali",
-        "Wes Craven",
-        "Gus Van Sant",
-        "Nobuhiro Suwa",
-        "Daniela Thomas",
-        "Frédéric Auburtin",
+        "Tom Tykwer",
         "Gurinder Chadha",
+        "Richard LaGravenese",
+        "Isabel Coixet",
+        "Nobuhiro Suwa",
+        "Frédéric Auburtin",
         "Alfonso Cuarón",
         "Gérard Depardieu",
-        "Christopher Doyle",
-        "Alexander Payne",
-        "Tom Tykwer",
-        "Oliver Schmitz",
-        "Olivier Assayas",
-        "Richard LaGravenese",
         "Walter Salles",
-        "Ethan Coen",
+        "Christopher Doyle",
+        "Wes Craven",
+        "Daniela Thomas",
+        "Vincenzo Natali",
+        "Oliver Schmitz",
+        "Gus Van Sant",
+        "Olivier Assayas",
+        "Alexander Payne",
         "Joel Coen",
+        "Ethan Coen",
         "Bruno Podalydès"
       ],
       "runtime": 120,
@@ -768,8 +768,8 @@
       "title": "The Host",
       "year": 2006,
       "tmdbId": 1255,
-      "tmdbRating": 7,
-      "votes": 3284,
+      "tmdbRating": 6.985,
+      "votes": 3285,
       "score": 5.700000000000001,
       "rank": 21,
       "director": [
@@ -809,13 +809,47 @@
       "why": "Bong Joon Ho wrote and directed this — you rated Parasite 4.5★"
     },
     {
+      "title": "Tokyo!",
+      "year": 2008,
+      "tmdbId": 8938,
+      "tmdbRating": 6.9,
+      "votes": 276,
+      "score": 5.700000000000001,
+      "rank": 22,
+      "director": [
+        "Bong Joon Ho",
+        "Leos Carax",
+        "Michel Gondry"
+      ],
+      "runtime": 112,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Fantasy",
+        "Romance"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/6xbq2EBAOwy0V7bzd1um3sJX1jd.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video"
+        ]
+      },
+      "scores": {
+        "rt": 76,
+        "metacritic": 63,
+        "imdb": 7
+      },
+      "why": "Bong Joon Ho wrote and directed this — you rated Parasite 4.5★"
+    },
+    {
       "title": "Snowpiercer",
       "year": 2013,
       "tmdbId": 110415,
-      "tmdbRating": 6.909,
-      "votes": 10788,
+      "tmdbRating": 6.9,
+      "votes": 10789,
       "score": 5.700000000000001,
-      "rank": 22,
+      "rank": 23,
       "director": [
         "Bong Joon Ho"
       ],
@@ -842,40 +876,6 @@
         "rt": 94,
         "metacritic": 84,
         "imdb": 7.1
-      },
-      "why": "Bong Joon Ho wrote and directed this — you rated Parasite 4.5★"
-    },
-    {
-      "title": "Tokyo!",
-      "year": 2008,
-      "tmdbId": 8938,
-      "tmdbRating": 6.9,
-      "votes": 276,
-      "score": 5.700000000000001,
-      "rank": 23,
-      "director": [
-        "Bong Joon Ho",
-        "Leos Carax",
-        "Michel Gondry"
-      ],
-      "runtime": 112,
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Fantasy",
-        "Romance"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/6xbq2EBAOwy0V7bzd1um3sJX1jd.jpg",
-      "providers": {
-        "flatrate": [],
-        "rent": [
-          "Amazon Video"
-        ]
-      },
-      "scores": {
-        "rt": 76,
-        "metacritic": 63,
-        "imdb": 7
       },
       "why": "Bong Joon Ho wrote and directed this — you rated Parasite 4.5★"
     },
@@ -920,8 +920,8 @@
       "title": "The Florida Project",
       "year": 2017,
       "tmdbId": 394117,
-      "tmdbRating": 7.421,
-      "votes": 3222,
+      "tmdbRating": 7.419,
+      "votes": 3223,
       "score": 5.4,
       "rank": 25,
       "director": [
@@ -1065,7 +1065,7 @@
       "year": 2013,
       "tmdbId": 49521,
       "tmdbRating": 6.663,
-      "votes": 16748,
+      "votes": 16750,
       "score": 4.86,
       "rank": 29,
       "director": [
@@ -1166,8 +1166,8 @@
       "title": "Left-Handed Girl",
       "year": 2025,
       "tmdbId": 999075,
-      "tmdbRating": 7.249,
-      "votes": 205,
+      "tmdbRating": 7.257,
+      "votes": 206,
       "score": 4.32,
       "rank": 32,
       "director": [
@@ -1277,7 +1277,7 @@
       "year": 2011,
       "tmdbId": 414419,
       "tmdbRating": 8.1,
-      "votes": 1462,
+      "votes": 1463,
       "score": 3.8000000000000003,
       "rank": 35,
       "director": [
@@ -1346,7 +1346,7 @@
       "year": 2004,
       "tmdbId": 393,
       "tmdbRating": 7.874,
-      "votes": 15597,
+      "votes": 15598,
       "score": 3.8000000000000003,
       "rank": 37,
       "director": [
@@ -1384,7 +1384,7 @@
       "year": 2015,
       "tmdbId": 273248,
       "tmdbRating": 7.756,
-      "votes": 15747,
+      "votes": 15749,
       "score": 3.8000000000000003,
       "rank": 38,
       "director": [
@@ -1419,8 +1419,8 @@
       "title": "Jackie Brown",
       "year": 1997,
       "tmdbId": 184,
-      "tmdbRating": 7.4,
-      "votes": 7197,
+      "tmdbRating": 7.357,
+      "votes": 7198,
       "score": 3.8000000000000003,
       "rank": 39,
       "director": [
@@ -1500,12 +1500,12 @@
       "year": 2007,
       "tmdbId": 285923,
       "tmdbRating": 7.007,
-      "votes": 1970,
+      "votes": 1971,
       "score": 3.8000000000000003,
       "rank": 41,
       "director": [
-        "Robert Rodriguez",
-        "Quentin Tarantino"
+        "Quentin Tarantino",
+        "Robert Rodriguez"
       ],
       "runtime": 191,
       "genres": [
@@ -1531,8 +1531,8 @@
       "title": "Street Fighter",
       "year": 2026,
       "tmdbId": 1153576,
-      "tmdbRating": 6.363,
-      "votes": 172,
+      "tmdbRating": 6.374,
+      "votes": 174,
       "score": 3.8000000000000003,
       "rank": 42,
       "director": [
@@ -1554,8 +1554,8 @@
       "title": "Under the Silver Lake",
       "year": 2018,
       "tmdbId": 396461,
-      "tmdbRating": 6.325,
-      "votes": 1703,
+      "tmdbRating": 6.326,
+      "votes": 1704,
       "score": 2.7,
       "themes": [
         "cruel-comedy"
@@ -1626,12 +1626,12 @@
       "year": 2019,
       "tmdbId": 517116,
       "tmdbRating": 6.662,
-      "votes": 1443,
+      "votes": 1444,
       "score": 3.5200000000000005,
       "rank": 45,
       "director": [
-        "Scott Beck",
-        "Bryan Woods"
+        "Bryan Woods",
+        "Scott Beck"
       ],
       "runtime": 93,
       "genres": [
@@ -1661,8 +1661,8 @@
       "title": "The Last Duel",
       "year": 2021,
       "tmdbId": 617653,
-      "tmdbRating": 7.395,
-      "votes": 4063,
+      "tmdbRating": 7.394,
+      "votes": 4064,
       "score": 3.3000000000000003,
       "rank": 46,
       "director": [
@@ -1694,8 +1694,8 @@
       "title": "The Dog Stars",
       "year": 2026,
       "tmdbId": 1384216,
-      "tmdbRating": 6.6,
-      "votes": 311,
+      "tmdbRating": 6.596,
+      "votes": 314,
       "score": 2.4000000000000004,
       "themes": [
         "grief-horror"
@@ -1721,8 +1721,8 @@
       "title": "The Boogeyman",
       "year": 2023,
       "tmdbId": 532408,
-      "tmdbRating": 6.366,
-      "votes": 1208,
+      "tmdbRating": 6.365,
+      "votes": 1209,
       "score": 3.5200000000000005,
       "rank": 48,
       "director": [
@@ -1780,8 +1780,8 @@
       "title": "Love Lies Bleeding",
       "year": 2024,
       "tmdbId": 948549,
-      "tmdbRating": 6.58,
-      "votes": 1058,
+      "tmdbRating": 6.579,
+      "votes": 1060,
       "score": 2.7,
       "themes": [
         "body-horror"
@@ -1816,12 +1816,12 @@
       "year": 2023,
       "tmdbId": 700391,
       "tmdbRating": 5.949,
-      "votes": 3020,
+      "votes": 3021,
       "score": 3.5200000000000005,
       "rank": 51,
       "director": [
-        "Scott Beck",
-        "Bryan Woods"
+        "Bryan Woods",
+        "Scott Beck"
       ],
       "runtime": 92,
       "genres": [
@@ -1886,7 +1886,7 @@
       "year": 2007,
       "tmdbId": 4982,
       "tmdbRating": 7.597,
-      "votes": 6327,
+      "votes": 6328,
       "score": 2.4000000000000004,
       "themes": [
         "surveillance"
@@ -1927,7 +1927,7 @@
       "year": 1991,
       "tmdbId": 1541,
       "tmdbRating": 7.593,
-      "votes": 4057,
+      "votes": 4058,
       "score": 2.4000000000000004,
       "themes": [
         "surveillance"
@@ -2029,8 +2029,8 @@
       "title": "The Raid",
       "year": 2012,
       "tmdbId": 94329,
-      "tmdbRating": 7.412,
-      "votes": 4092,
+      "tmdbRating": 7.411,
+      "votes": 4095,
       "score": 2.7,
       "rank": 57,
       "director": [
@@ -2063,7 +2063,7 @@
       "year": 1981,
       "tmdbId": 8810,
       "tmdbRating": 7.395,
-      "votes": 4378,
+      "votes": 4380,
       "score": 2.7,
       "rank": 58,
       "director": [
@@ -2121,8 +2121,8 @@
       "title": "Three Thousand Years of Longing",
       "year": 2022,
       "tmdbId": 556694,
-      "tmdbRating": 6.9,
-      "votes": 1765,
+      "tmdbRating": 6.869,
+      "votes": 1766,
       "score": 2.7,
       "rank": 60,
       "director": [
@@ -2153,7 +2153,7 @@
       "year": 1982,
       "tmdbId": 78,
       "tmdbRating": 7.936,
-      "votes": 15557,
+      "votes": 15560,
       "score": 2.4000000000000004,
       "rank": 61,
       "director": [
@@ -2182,7 +2182,7 @@
       "year": 1979,
       "tmdbId": 9659,
       "tmdbRating": 6.683,
-      "votes": 5171,
+      "votes": 5172,
       "score": 2.7,
       "rank": 62,
       "director": [
@@ -2304,8 +2304,8 @@
       "title": "Tom Clancy's Jack Ryan: Ghost War",
       "year": 2026,
       "tmdbId": 1380291,
-      "tmdbRating": 6.916,
-      "votes": 826,
+      "tmdbRating": 6.915,
+      "votes": 827,
       "score": 2.5600000000000005,
       "rank": 66,
       "director": [
@@ -2336,17 +2336,17 @@
       "year": 2013,
       "tmdbId": 159117,
       "tmdbRating": 6.215,
-      "votes": 1251,
+      "votes": 1252,
       "score": 2.7,
       "rank": 67,
       "director": [
+        "Simon Barrett",
+        "Adam Wingard",
         "Eduardo Sánchez",
+        "Gregg Hale",
         "Timo Tjahjanto",
         "Gareth Evans",
-        "Gregg Hale",
-        "Simon Barrett",
-        "Jason Eisener",
-        "Adam Wingard"
+        "Jason Eisener"
       ],
       "runtime": 96,
       "genres": [
@@ -2373,7 +2373,7 @@
       "year": 2020,
       "tmdbId": 514847,
       "tmdbRating": 6.659,
-      "votes": 3872,
+      "votes": 3873,
       "score": 1.3200000000000003,
       "themes": [
         "cruel-comedy"
@@ -2403,8 +2403,8 @@
       "title": "The Roses",
       "year": 2025,
       "tmdbId": 1267905,
-      "tmdbRating": 6.64,
-      "votes": 801,
+      "tmdbRating": 6.639,
+      "votes": 802,
       "score": 1.3200000000000003,
       "themes": [
         "cruel-comedy"
@@ -2566,8 +2566,8 @@
       "title": "Born in China",
       "year": 2016,
       "tmdbId": 355277,
-      "tmdbRating": 7.342,
-      "votes": 177,
+      "tmdbRating": 7.34,
+      "votes": 178,
       "score": 1.92,
       "rank": 74,
       "director": [
@@ -2694,7 +2694,7 @@
       "year": 2008,
       "tmdbId": 8966,
       "tmdbRating": 6.273,
-      "votes": 14801,
+      "votes": 14803,
       "score": 1.2,
       "themes": [
         "metaphysical"
@@ -2769,7 +2769,7 @@
       "year": 2011,
       "tmdbId": 39538,
       "tmdbRating": 6.658,
-      "votes": 6785,
+      "votes": 6786,
       "score": 0.8999999999999999,
       "themes": [
         "body-horror"
@@ -2808,7 +2808,7 @@
       "year": 2013,
       "tmdbId": 54138,
       "tmdbRating": 7.322,
-      "votes": 9955,
+      "votes": 9958,
       "score": 1.3200000000000003,
       "rank": 81,
       "director": [
@@ -2845,7 +2845,7 @@
       "year": 2007,
       "tmdbId": 298,
       "tmdbRating": 6.733,
-      "votes": 7158,
+      "votes": 7160,
       "score": 0.8999999999999999,
       "themes": [
         "surveillance"
@@ -2956,7 +2956,7 @@
       "year": 1997,
       "tmdbId": 489,
       "tmdbRating": 8.167,
-      "votes": 14495,
+      "votes": 14498,
       "score": 0.8999999999999999,
       "rank": 85,
       "director": [
@@ -2994,7 +2994,7 @@
       "year": 2006,
       "tmdbId": 1422,
       "tmdbRating": 8.16,
-      "votes": 16835,
+      "votes": 16838,
       "score": 0.8999999999999999,
       "rank": 86,
       "director": [
@@ -3062,7 +3062,7 @@
       "year": 2015,
       "tmdbId": 158852,
       "tmdbRating": 6.313,
-      "votes": 7557,
+      "votes": 7559,
       "score": 1.3200000000000003,
       "rank": 88,
       "director": [
@@ -3210,7 +3210,7 @@
       "title": "Trolls Band Together",
       "year": 2023,
       "tmdbId": 901362,
-      "tmdbRating": 7.2,
+      "tmdbRating": 7.245,
       "votes": 1045,
       "score": 0.96,
       "rank": 93,
@@ -3374,7 +3374,7 @@
       "year": 1998,
       "tmdbId": 10494,
       "tmdbRating": 8.302,
-      "votes": 3415,
+      "votes": 3416,
       "theme": "unravelling",
       "why": "unravelling — the thread through 4 of your loved films",
       "director": [
@@ -3404,8 +3404,8 @@
       "title": "Modern Times",
       "year": 1936,
       "tmdbId": 3082,
-      "tmdbRating": 8.285,
-      "votes": 4242,
+      "tmdbRating": 8.3,
+      "votes": 4244,
       "theme": "unravelling",
       "why": "unravelling — the thread through 4 of your loved films",
       "director": [
@@ -3439,7 +3439,7 @@
       "year": 1950,
       "tmdbId": 599,
       "tmdbRating": 8.277,
-      "votes": 3077,
+      "votes": 3078,
       "theme": "unravelling",
       "why": "unravelling — the thread through 4 of your loved films",
       "director": [
@@ -3474,7 +3474,7 @@
       "year": 1997,
       "tmdbId": 637,
       "tmdbRating": 8.436,
-      "votes": 14352,
+      "votes": 14354,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 3 of your loved films",
       "director": [
@@ -3511,8 +3511,8 @@
       "title": "I Swear",
       "year": 2025,
       "tmdbId": 1317149,
-      "tmdbRating": 8.283,
-      "votes": 644,
+      "tmdbRating": 8.287,
+      "votes": 647,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 3 of your loved films",
       "director": [
@@ -3578,8 +3578,8 @@
       "title": "Lucy Shimmers and the Prince of Peace",
       "year": 2020,
       "tmdbId": 770156,
-      "tmdbRating": 8.412,
-      "votes": 382,
+      "tmdbRating": 8.411,
+      "votes": 383,
       "theme": "grief-horror",
       "why": "grief-horror — the thread through 4 of your loved films",
       "director": [
@@ -3702,8 +3702,8 @@
       "title": "Incendies",
       "year": 2010,
       "tmdbId": 46738,
-      "tmdbRating": 8.106,
-      "votes": 3533,
+      "tmdbRating": 8.1,
+      "votes": 3534,
       "theme": "doubling",
       "why": "doubling — the thread through 2 of your loved films",
       "director": [
@@ -3762,8 +3762,8 @@
       "title": "The Thing",
       "year": 1982,
       "tmdbId": 1091,
-      "tmdbRating": 8.074,
-      "votes": 8389,
+      "tmdbRating": 8.1,
+      "votes": 8392,
       "theme": "body-horror",
       "why": "body-horror — the thread through 2 of your loved films",
       "director": [
@@ -3800,7 +3800,7 @@
       "year": 2018,
       "tmdbId": 503314,
       "tmdbRating": 7.971,
-      "votes": 3296,
+      "votes": 3297,
       "theme": "body-horror",
       "why": "body-horror — the thread through 2 of your loved films",
       "director": [
