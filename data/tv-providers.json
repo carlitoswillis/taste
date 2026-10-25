@@ -1,0 +1,86 @@
+{
+  "v": 1,
+  "comment": "TMDB/JustWatch provider name -> Android package on the Fire TV. Matched case-insensitively on whole words from the start of the name ('Netflix Standard with Ads' is Netflix); names containing a 'skip' word never match. Order of 'rules' does not matter; the preference order of an item's apps follows the order TMDB lists its providers. 'label' is the app name the ambient screen shows. Used by scripts/build-tv-feed.mjs.",
+  "rules": [
+    {
+      "match": [
+        "Netflix"
+      ],
+      "pkg": "com.netflix.ninja",
+      "label": "Netflix"
+    },
+    {
+      "match": [
+        "Hulu"
+      ],
+      "pkg": "com.hulu.plus",
+      "label": "Hulu"
+    },
+    {
+      "match": [
+        "Disney Plus",
+        "Disney+"
+      ],
+      "pkg": "com.disney.disneyplus",
+      "label": "Disney+"
+    },
+    {
+      "match": [
+        "Amazon Prime Video"
+      ],
+      "pkg": "com.amazon.firebat",
+      "label": "Prime Video"
+    },
+    {
+      "match": [
+        "Apple TV",
+        "Apple TV Plus",
+        "Apple TV+"
+      ],
+      "pkg": "com.apple.atve.amazon.appletv",
+      "label": "Apple TV"
+    },
+    {
+      "match": [
+        "Peacock"
+      ],
+      "pkg": "com.peacock.peacockfiretv",
+      "label": "Peacock"
+    },
+    {
+      "match": [
+        "Paramount Plus",
+        "Paramount+"
+      ],
+      "pkg": "com.cbs.ott",
+      "label": "Paramount+"
+    },
+    {
+      "match": [
+        "Kanopy"
+      ],
+      "pkg": "com.kanopy.tvapp",
+      "label": "Kanopy"
+    },
+    {
+      "match": [
+        "Max",
+        "HBO Max"
+      ],
+      "pkg": "com.apple.airplay.amazon.airplay",
+      "label": "Max",
+      "note": "Max via AirPlay"
+    }
+  ],
+  "skip": [
+    "Roku",
+    "Apple TV Store",
+    "Amazon Video"
+  ],
+  "noApp": {
+    "Criterion Channel": "On Criterion Channel"
+  },
+  "ignore": [
+    "Spotify"
+  ]
+}

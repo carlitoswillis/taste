@@ -16,6 +16,7 @@ on:
       - "templates/**"
       - "config.json"
       - "scripts/build.mjs"
+      - "scripts/build-tv-feed.mjs"
 
 permissions:
   contents: read
@@ -39,6 +40,8 @@ jobs:
         with:
           node-version: 22
       - run: node scripts/build.mjs
+      # The Fire TV launcher's feed, served at an unguessable path under dist/tv/.
+      - run: node scripts/build-tv-feed.mjs
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
