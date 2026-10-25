@@ -61,7 +61,7 @@ function noteFor(p = {}, m) {
 
 const namesOf = (xs) => (Array.isArray(xs) ? xs.map((x) => (typeof x === "string" ? x : x?.name)).filter(Boolean) : []);
 const directorOf = (d) => (Array.isArray(d) ? namesOf(d).join(", ") : typeof d === "string" ? d : "") || undefined;
-const OVERVIEW_MAX = 600;
+const OVERVIEW_MAX = 2000; // the TV's full plot page shows it whole; views clip themselves (firetv-launcher YOURLIST.md)
 function details(e = {}) {
   const d = {};
   let overview = String(e.overview ?? "").split(/\s+/).join(" ").trim();
