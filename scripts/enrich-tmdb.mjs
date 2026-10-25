@@ -59,6 +59,12 @@ try {
   films.push(...lbWatchlist);
 } catch {}
 
+// The recommender's picks (data/suggestions.json, { items }) carry a tmdbId; the TV feed's "Picked for you"
+// group needs the same full enrichment as everything else.
+try {
+  films.push(...(JSON.parse(await readFile(path.join(root, "data/suggestions.json"), "utf8")).items ?? []));
+} catch {}
+
 const outPath = path.join(root, "data/enrichment.json");
 const existing = existsSync(outPath) ? JSON.parse(await readFile(outPath, "utf8")) : {};
 const out = { ...existing };

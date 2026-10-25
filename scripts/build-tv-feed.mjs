@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 // Builds the Fire TV launcher's feed into dist/tv/<config.tvFeedPath>/feed.json (GitHub Pages serves dist/).
 // Same document as the assistant's GET /tv/feed (v1): { v, generated, list:{items}, sent:[], ambient:{items} },
-// built from the taste watchlist queue then the Letterboxd watchlist (streamable-on-an-app first), joined to
-// data/enrichment.json. Differences: list items also carry raw `providers` (flatrate/free/rent/buy), plus
+// built daily (America/Los_Angeles seed, scripts/lib/daily-pick.mjs) from: the whole taste queue, a weighted sample of
+// 30 Letterboxd watchlist films, and 10 recommender picks (source "suggestion", with a `why`), joined to data/enrichment.json. Differences: list items also carry raw `providers` (flatrate/free/rent/buy), plus
 // `backdropUrl` (w780), `detailUrl` (w1280) and `portraitUrl` (w342); `sent` is always [] (no Send to TV queue here).
 // Publishes only watchlist-derived films. The path segment is the unguessable part: it lives in config.json
 // (tvFeedPath), is stripped from the published copy of config.json (build.mjs), and robots.txt disallows /tv/.
@@ -11,10 +11,14 @@
 import { readFileSync, mkdirSync, writeFileSync, existsSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { dateKey, weightedSample, dailySample } from "./lib/daily-pick.mjs";
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const dist = path.join(root, "dist");
-const MAX_LIST = Number(process.env.TV_FEED_MAX_LIST ?? 40);
+const MAX_LIST = Number(process.env.TV_FEED_MAX_LIST ?? 60);
+const LB_SAMPLE = Number(process.env.TV_FEED_LB_SAMPLE ?? 30);
+const SUGG_PICKS = Number(process.env.TV_FEED_SUGG_PICKS ?? 10);
+const MAX_AMBIENT_QUEUE = 40; // ambient keeps drawing from the original first-40 queue so it is unaffected by the daily mix
 const MAX_AMBIENT = Number(process.env.TV_FEED_MAX_AMBIENT ?? 25);
 const IMG = "https://image.tmdb.org/t/p";
 
@@ -114,10 +118,28 @@ for (const s of sugg?.items ?? []) {
   if (!s.tmdbId) continue;
   const e = { ...(enrich[`${s.title} (${s.year})`] ?? {}) };
   for (const [k, v] of Object.entries(s)) if (v) e[k] = v;
-  fromSugg.push({ title: s.title, year: s.year, tmdbId: s.tmdbId, e, why: s.why, director: directorOf(s.director ?? e.director), source: "taste" });
+  fromSugg.push({ title: s.title, year: s.year, tmdbId: s.tmdbId, e, why: s.why, score: s.score, director: directorOf(s.director ?? e.director), source: "taste" });
 }
 const primary = [...fromWatch, ...fromLb];
-const queue = (primary.length ? primary : fromSugg).slice(0, MAX_LIST);
+const ambientQueue = (primary.length ? primary : fromSugg).slice(0, MAX_AMBIENT_QUEUE);
+
+// Daily mix (deterministic per America/Los_Angeles calendar day): 1) the owner's whole queue, in rank order;
+// 2) a weighted sample of the Letterboxd watchlist; 3) a few of the recommender's picks.
+const today = process.env.TV_FEED_DATE || dateKey();
+const hasApp = (c) => mapItem(c.e.providers).apps.length > 0;
+const lbWeight = (c) => (hasApp(c) ? 3 : 1) * (c.position <= 20 ? 1.5 : 1);
+const lbPick = dailySample(fromLb, { weight: lbWeight, id: (c) => c.tmdbId, k: LB_SAMPLE, date: today, salt: "letterboxd" });
+const seenFilm = new Set();
+for (const f of [...readJson("data/watched.json", []), ...readJson("data/ratings.json", [])]) seenFilm.add(normTitle(f.title, f.year));
+const taken = new Set([...fromWatch, ...lbPick].map((c) => c.tmdbId));
+const suggPool = fromSugg.filter((c) => !taken.has(c.tmdbId) && !seenFilm.has(normTitle(c.title, c.year)) && !names.has(normTitle(c.title, c.year)));
+const suggPick = weightedSample(suggPool, (c) => Number(c.score) || 0, SUGG_PICKS, `suggestions|${today}`).map((c) => {
+  // suggestions.json `why` is " · "-joined reasons; keep the first one, which is real data from the file.
+  const why = String(c.why ?? "").split(" · ")[0].trim();
+  return { ...c, source: "suggestion", why: why.length > 140 ? why.slice(0, 139).replace(/\s+\S*$/, "") + "…" : why };
+});
+const queue = [...fromWatch, ...lbPick, ...suggPick].slice(0, MAX_LIST);
+globalThis.__groups = { watch: fromWatch.length, lb: lbPick.length, sugg: suggPick.length, date: today };
 
 const now = Date.now();
 const list = queue.map((c) => {
@@ -129,7 +151,7 @@ const list = queue.map((c) => {
   return {
     id: `${c.source}:${c.tmdbId}`, title: c.title, ...(c.year ? { year: c.year } : {}), source: c.source, apps: m.apps,
     providers: { flatrate: p.flatrate ?? [], free: p.free ?? [], rent: p.rent ?? [], buy: p.buy ?? [] },
-    ...(note ? { note } : {}), addedAt: now, ...details(c.e),
+    ...(note ? { note } : {}), ...(c.source === "suggestion" && c.why ? { why: c.why } : {}), addedAt: now, ...details(c.e),
     ...(b ? { posterUrl: `${IMG}/w780${b}`, backdropUrl: `${IMG}/w780${b}`, detailUrl: `${IMG}/w1280${b}` } : pp ? { posterUrl: `${IMG}/w342${pp}` } : {}),
     ...(pp ? { portraitUrl: `${IMG}/w342${pp}` } : {}),
   };
@@ -137,7 +159,7 @@ const list = queue.map((c) => {
 
 const seen = new Set();
 const ambient = [];
-for (const c of [...queue, ...fromWatch, ...fromLb, ...fromSugg]) {
+for (const c of [...ambientQueue, ...fromWatch, ...fromLb, ...fromSugg]) {
   if (seen.has(c.tmdbId)) continue;
   seen.add(c.tmdbId);
   const m = mapItem(c.e.providers);
@@ -165,4 +187,5 @@ let txt = existsSync(robots) ? readFileSync(robots, "utf8") : "User-agent: *\n";
 if (!/^Disallow:\s*\/tv\/\s*$/m.test(txt)) txt = txt.replace(/\s*$/, "\n") + "Disallow: /tv/\n";
 writeFileSync(robots, txt);
 
-console.log(`TV feed: ${list.length} list, ${ambient.length} ambient -> dist/tv/<tvFeedPath>/feed.json`);
+const g = globalThis.__groups;
+console.log(`TV feed ${g.date}: queue ${g.watch} + letterboxd ${g.lb} + suggestions ${g.sugg}; ${list.length} list, ${ambient.length} ambient -> dist/tv/<tvFeedPath>/feed.json`);
