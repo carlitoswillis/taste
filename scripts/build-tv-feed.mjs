@@ -5,7 +5,6 @@
 // 30 Letterboxd watchlist films, and 10 recommender picks (source "suggestion", with a `why`), joined to data/enrichment.json. Differences: list items also carry raw `providers` (flatrate/free/rent/buy), plus
 // `backdropUrl` (w780), `detailUrl` (w1280) and `portraitUrl` (w342) and `altBackdropUrls` (w780: the film's other backdrops,
 // least black first, from data/tv-backdrops.json; the primary is one that is not mostly black); `sent` is always [] (no Send to TV queue here).
-// Ambient items carry `backdropUrl` (w1280 still), `posterUrl` (w780 2:3 poster) and `tagline` (the film's own line, when it does not repeat the plot).
 // Rules (scripts/lib/tv-feed-rules.mjs): JustWatch and other non-stores are never a rent/buy venue; a tagline that only repeats
 // the plot is dropped; a `why` never ends on "The…".
 // Publishes only watchlist-derived films. The path segment is the unguessable part: it lives in config.json
@@ -16,14 +15,14 @@ import { readFileSync, mkdirSync, writeFileSync, existsSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { dateKey, weightedSample, dailySample } from "./lib/daily-pick.mjs";
+import { ambientDay } from "./lib/ambient-pick.mjs";
 import { stores, repeatsOverview, dropDangling, pickStills } from "./lib/tv-feed-rules.mjs";
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
-const dist = path.join(root, "dist");
+const dist = process.env.TV_FEED_DIST || path.join(root, "dist");
 const MAX_LIST = Number(process.env.TV_FEED_MAX_LIST ?? 60);
 const LB_SAMPLE = Number(process.env.TV_FEED_LB_SAMPLE ?? 30);
 const SUGG_PICKS = Number(process.env.TV_FEED_SUGG_PICKS ?? 10);
-const MAX_AMBIENT_QUEUE = 40; // ambient keeps drawing from the original first-40 queue so it is unaffected by the daily mix
 const MAX_AMBIENT = Number(process.env.TV_FEED_MAX_AMBIENT ?? 25);
 const IMG = "https://image.tmdb.org/t/p";
 
@@ -134,7 +133,6 @@ for (const s of sugg?.items ?? []) {
   fromSugg.push({ title: s.title, year: s.year, tmdbId: s.tmdbId, e, why: s.why, score: s.score, director: directorOf(s.director ?? e.director), source: "taste" });
 }
 const primary = [...fromWatch, ...fromLb];
-const ambientQueue = (primary.length ? primary : fromSugg).slice(0, MAX_AMBIENT_QUEUE);
 
 // Daily mix (deterministic per America/Los_Angeles calendar day): 1) the owner's whole queue, in rank order;
 // 2) a weighted sample of the Letterboxd watchlist; 3) a few of the recommender's picks.
@@ -183,29 +181,44 @@ const list = queue.map((c) => {
   };
 });
 
-const seen = new Set();
-const ambient = [];
-for (const c of [...ambientQueue, ...fromWatch, ...fromLb, ...fromSugg]) {
-  if (seen.has(c.tmdbId)) continue;
-  seen.add(c.tmdbId);
-  const m = mapItem(c.e.providers);
-  const b = stillsOf(c).primary;
-  if (!m.apps.length || !b) continue; // the ambient screen is a backdrop: no backdrop, no item
-  const pp = posterPath(c.e.poster);
-  // The film's own line for the ambient bill's quiet line when there is no taste note; details() already drops a
-  // tagline that only repeats the plot (tv-feed-rules repeatsOverview).
-  const tagline = details(c.e).tagline;
-  ambient.push({
-    id: String(c.tmdbId), title: c.title, ...(c.year ? { year: c.year } : {}),
-    ...(c.director ? { director: c.director } : {}),
-    app: m.apps[0], appLabel: m.rules[0].label ?? m.rules[0].match[0],
-    ...(c.why ? { note: String(c.why).slice(0, 280) } : {}),
-    backdropUrl: `${IMG}/w1280${b}`,
-    ...(pp ? { posterUrl: `${IMG}/w780${pp}` } : {}),
-    ...(tagline ? { tagline: tagline.slice(0, 200) } : {}),
-  });
-  if (ambient.length >= MAX_AMBIENT) break;
-}
+// Sleep screen (owner 2026-10-25: not the same films every day): a fresh 25 per day from queue + whole Letterboxd watchlist +
+// the TV-filtered suggestions, none repeating within the last 7 days (scripts/lib/ambient-pick.mjs). Needs an app route
+// (flatrate/free, else rent/buy on a mapped store) and a backdrop or poster.
+const routeOf = (c) => {
+  const p = c.e.providers ?? {};
+  const m = mapItem(p);
+  if (m.apps.length) return { apps: m.apps, rules: m.rules, streams: true };
+  const rules = [];
+  for (const name of [...stores(p.rent), ...stores(p.buy)]) { const r = mapProvider(name); if (r && !rules.includes(r)) rules.push(r); }
+  return rules.length ? { apps: rules.map((r) => r.pkg), rules, streams: false } : null;
+};
+const ambPool = [];
+const ambSeen = new Set();
+const addAmb = (c, bucket, weight) => {
+  if (ambSeen.has(c.tmdbId) || !c.director || !c.title || !c.year) return;
+  const r = routeOf(c), b = stillsOf(c).primary, pp = posterPath(c.e.poster);
+  if (!r || !(b || pp)) return;
+  ambSeen.add(c.tmdbId);
+  ambPool.push({ id: String(c.tmdbId), bucket, weight: weight * (r.streams ? 3 : 1), director: c.director, c, r, b, pp });
+};
+fromWatch.forEach((c) => addAmb(c, "queue", 1));
+fromLb.forEach((c) => addAmb(c, "lb", 1));
+const ambSuggs = fromSugg.filter((c) => !ids.has(c.tmdbId) && !seenFilm.has(normTitle(c.title, c.year)) && !names.has(normTitle(c.title, c.year))
+  && (Number(c.score) || 0) >= medianScore && wellRegarded(c));
+ambSuggs.forEach((c) => addAmb(c, "sugg", Math.pow(Number(c.score) || 0, 1.5)));
+const day = ambientDay(ambPool, today, { size: MAX_AMBIENT });
+if (day.relaxed) console.warn(`ambient: freshness relaxed to ${day.window} day(s) on ${today}; pool ${ambPool.length}`);
+const ambient = day.items.map(({ c, r, b, pp }) => ({
+  id: String(c.tmdbId), title: c.title, ...(c.year ? { year: c.year } : {}),
+  ...(c.director ? { director: c.director } : {}),
+  app: r.apps[0], appLabel: r.rules[0].label ?? r.rules[0].match[0],
+  ...(c.why ? { note: String(c.why).slice(0, 280) } : {}),
+  ...(b ? { backdropUrl: `${IMG}/w1280${b}` } : {}),
+  ...(pp ? { posterUrl: `${IMG}/w780${pp}` } : {}),
+  // The film's own line for the ambient bill's quiet line when there is no taste note (details() drops plot-repeating taglines).
+  ...(details(c.e).tagline ? { tagline: details(c.e).tagline.slice(0, 200) } : {}),
+}));
+globalThis.__ambientPool = ambPool.length;
 
 const out = path.join(dist, "tv", cfg.tvFeedPath);
 mkdirSync(out, { recursive: true });
@@ -218,4 +231,5 @@ if (!/^Disallow:\s*\/tv\/\s*$/m.test(txt)) txt = txt.replace(/\s*$/, "\n") + "Di
 writeFileSync(robots, txt);
 
 const g = globalThis.__groups;
-console.log(`TV feed ${g.date}: queue ${g.watch} + letterboxd ${g.lb} + suggestions ${g.sugg}; ${list.length} list, ${ambient.length} ambient -> dist/tv/<tvFeedPath>/feed.json`);
+console.log(`TV feed ${g.date}: queue ${g.watch} + letterboxd ${g.lb} + suggestions ${g.sugg}; ${list.length} list, ${ambient.length} ambient (pool ${globalThis.__ambientPool}, window ${day.window}d) -> dist/tv/<tvFeedPath>/feed.json`);
+if (process.env.TV_FEED_DEBUG) { const n = {}; for (const c of ambPool) n[c.bucket] = (n[c.bucket] ?? 0) + 1; console.log(n, "lb total", fromLb.length, "queue", fromWatch.length, "sugg", ambSuggs.length, "no-route lb", fromLb.filter(c=>!routeOf(c)).length, "no-dir", fromLb.filter(c=>!c.director).length); }
