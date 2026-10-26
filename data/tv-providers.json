@@ -1,6 +1,6 @@
 {
   "v": 1,
-  "comment": "TMDB/JustWatch provider name -> Android package on the Fire TV. Matched case-insensitively on whole words from the start of the name ('Netflix Standard with Ads' is Netflix); names containing a 'skip' word never match. Order of 'rules' does not matter; the preference order of an item's apps follows the order TMDB lists its providers. 'label' is the app name the ambient screen shows. Used by scripts/build-tv-feed.mjs.",
+  "comment": "TMDB/JustWatch provider name -> Android package on the Fire TV. Matched case-insensitively on whole words from the start of the name ('Netflix Standard with Ads' is Netflix); names containing a 'skip' word never match flatrate/free. 'rentVenues' are rent/buy-only routes (Amazon Video rents inside the Prime Video app); they never count as streaming. Order of 'rules' does not matter; the preference order of an item's apps follows the order TMDB lists its providers. 'label' is the app name the ambient screen shows. Used by scripts/build-tv-feed.mjs.",
   "rules": [
     {
       "match": [
@@ -76,6 +76,15 @@
     "Roku",
     "Apple TV Store",
     "Amazon Video"
+  ],
+  "rentVenues": [
+    {
+      "match": [
+        "Amazon Video"
+      ],
+      "pkg": "com.amazon.firebat",
+      "label": "Prime Video"
+    }
   ],
   "noApp": {
     "Criterion Channel": "On Criterion Channel"

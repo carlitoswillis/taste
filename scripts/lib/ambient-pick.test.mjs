@@ -6,7 +6,7 @@ import { tmpdir } from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { dateKey, shiftDateKey } from "./daily-pick.mjs";
-import { ambientDay, AMBIENT_TARGET } from "./ambient-pick.mjs";
+import { ambientDay, ambientSize, AMBIENT_TARGET } from "./ambient-pick.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 
@@ -46,6 +46,14 @@ test("synthetic: small pool relaxes the window and says so", () => {
   assert.ok(r.window < 7 && r.relaxed);
 });
 
+test("ambientSize: pool/8 capped at 25, floor 15", () => {
+  assert.equal(ambientSize(84), 15);
+  assert.equal(ambientSize(167), 20);
+  assert.equal(ambientSize(200), 25);
+  assert.equal(ambientSize(1000), 25);
+  assert.equal(ambientSize(10), 15);
+});
+
 // ---- the real feed: run the builder for 30 consecutive days from today
 test("real feed: 30 days from today", () => {
   const start = dateKey(), dist = mkdtempSync(path.join(tmpdir(), "ambient-"));
@@ -55,12 +63,13 @@ test("real feed: 30 days from today", () => {
     return JSON.parse(readFileSync(path.join(dir, "feed.json"), "utf8")).ambient.items;
   };
   const poolSize = Number(/pool (\d+)/.exec(execFileSync("node", ["scripts/build-tv-feed.mjs"], { cwd: root, env: { ...process.env, TV_FEED_DIST: dist }, encoding: "utf8" }))[1]);
+  const size = ambientSize(poolSize);
   const days = Array.from({ length: 30 }, (_, i) => shiftDateKey(start, i));
   const sets = days.map(feed);
   const last = {}; let minGap = Infinity; const shown = new Set(); const gaps = [];
   sets.forEach((items, i) => {
-    assert.equal(items.length, 25, days[i]);
-    assert.equal(new Set(items.map((x) => x.id)).size, 25);
+    assert.equal(items.length, size, days[i]);
+    assert.equal(new Set(items.map((x) => x.id)).size, size);
     for (const x of items) {
       assert.ok(x.posterUrl || x.backdropUrl, "needs a picture");
       shown.add(x.id);
@@ -69,10 +78,10 @@ test("real feed: 30 days from today", () => {
     }
     const dirs = items.map((x) => x.director);
     // directors repeat only when the pool cannot avoid it: with 25 films the pool has far more directors
-    assert.equal(new Set(dirs).size, 25, `duplicate director on ${days[i]}`);
+    assert.equal(new Set(dirs).size, size, `duplicate director on ${days[i]}`);
   });
   assert.deepEqual(feed(days[3]).map((x) => x.id), sets[3].map((x) => x.id), "determinism");
   console.log(`# pool ${poolSize}; distinct films over 30 days ${shown.size}; min gap ${minGap}; mean gap ${(gaps.reduce((a, b) => a + b, 0) / gaps.length).toFixed(1)}`);
   // The rule is a 7-day gap unless the pool is too small, in which case the builder logs the relaxed window.
-  if (poolSize >= 25 * 8) assert.ok(minGap >= 8 - 1);
+  assert.ok(minGap >= 8, `7-day gap kept: min gap ${minGap}`);
 });

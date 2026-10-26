@@ -57,3 +57,6 @@ export function ambientDay(cands, date, { size = 25, target = AMBIENT_TARGET, an
   for (let d = anchor, n = 0; d < date && n < 4000; d = shiftDateKey(d, 1), n++) day(d);
   return day(date);
 }
+
+/** Films per day a pool of [poolSize] can carry with the full 7-day gap (7 excluded days + today = 8 sets): floor(pool / 8), capped at [max], at least [min]. */
+export const ambientSize = (poolSize, max = 25, min = 15) => Math.max(min, Math.min(max, Math.floor(poolSize / 8)));

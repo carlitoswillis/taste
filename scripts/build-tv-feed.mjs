@@ -15,7 +15,7 @@ import { readFileSync, mkdirSync, writeFileSync, existsSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { dateKey, weightedSample, dailySample } from "./lib/daily-pick.mjs";
-import { ambientDay } from "./lib/ambient-pick.mjs";
+import { ambientDay, ambientSize } from "./lib/ambient-pick.mjs";
 import { stores, repeatsOverview, dropDangling, pickStills } from "./lib/tv-feed-rules.mjs";
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
@@ -46,6 +46,13 @@ function mapProvider(name) {
   for (const [m, r] of RULES) if (starts(w, m)) return r;
   return null;
 }
+const RENT_VENUES = (PROVIDERS.rentVenues ?? []).flatMap((r) => r.match.map((m) => [words(m), r]));
+// Rent/buy only: a store that is a route to an app although it is not a streaming provider (never used for flatrate/free).
+function rentVenue(name) {
+  const w = words(name);
+  for (const [m, r] of RENT_VENUES) if (starts(w, m)) return r;
+  return null;
+}
 function mapItem(p = {}) {
   const apps = [], rules = [], notes = [], other = [];
   for (const name of [...(p.flatrate ?? []), ...(p.free ?? [])]) {
@@ -64,6 +71,8 @@ function noteFor(p = {}, m) {
   if (m.apps.length) return m.notes[0];
   if (m.other.length) return m.other[0];
   const rb = stores([...(p.rent ?? []), ...(p.buy ?? [])]);
+  const rv = rb.map(rentVenue).find(Boolean);
+  if (rv) return `Rent on ${rv.label}`;
   return rb.length ? `Rent or buy: ${rb.slice(0, 2).join(", ")}` : `Not streaming in ${region}`;
 }
 
@@ -189,7 +198,7 @@ const routeOf = (c) => {
   const m = mapItem(p);
   if (m.apps.length) return { apps: m.apps, rules: m.rules, streams: true };
   const rules = [];
-  for (const name of [...stores(p.rent), ...stores(p.buy)]) { const r = mapProvider(name); if (r && !rules.includes(r)) rules.push(r); }
+  for (const name of [...stores(p.rent), ...stores(p.buy)]) { const r = mapProvider(name) ?? rentVenue(name); if (r && !rules.includes(r)) rules.push(r); }
   return rules.length ? { apps: rules.map((r) => r.pkg), rules, streams: false } : null;
 };
 const ambPool = [];
@@ -206,7 +215,11 @@ fromLb.forEach((c) => addAmb(c, "lb", 1));
 const ambSuggs = fromSugg.filter((c) => !ids.has(c.tmdbId) && !seenFilm.has(normTitle(c.title, c.year)) && !names.has(normTitle(c.title, c.year))
   && (Number(c.score) || 0) >= medianScore && wellRegarded(c));
 ambSuggs.forEach((c) => addAmb(c, "sugg", Math.pow(Number(c.score) || 0, 1.5)));
-const day = ambientDay(ambPool, today, { size: MAX_AMBIENT });
+// A 7-day gap excludes the 7 previous days, so a pool holds it only up to pool/8 films a day. Shrink the day (never below 15)
+// rather than relax the window: the TV cycles them every 20 s anyway.
+const ambSize = ambientSize(ambPool.length, MAX_AMBIENT);
+if (ambSize < MAX_AMBIENT) console.warn(`ambient: daily count lowered to ${ambSize} (pool ${ambPool.length}) to keep the 7-day gap`);
+const day = ambientDay(ambPool, today, { size: ambSize });
 if (day.relaxed) console.warn(`ambient: freshness relaxed to ${day.window} day(s) on ${today}; pool ${ambPool.length}`);
 const ambient = day.items.map(({ c, r, b, pp }) => ({
   id: String(c.tmdbId), title: c.title, ...(c.year ? { year: c.year } : {}),
