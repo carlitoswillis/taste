@@ -39,6 +39,11 @@ jobs:
         if: ${{ env.TMDB_API_KEY != '' }}
         run: node scripts/enrich-tmdb.mjs
 
+      # When each streaming provider first appeared for a film (data/tv-provider-seen.json), for the TV feed's
+      # "New on <app> this week". No network; first sight of a film is a baseline, only later arrivals are dated.
+      - name: Track provider arrivals
+        run: node scripts/track-providers.mjs
+
       - name: Enrich TV from TMDB
         if: ${{ env.TMDB_API_KEY != '' }}
         run: node scripts/enrich-tv.mjs
@@ -84,7 +89,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/letterboxd.json data/ratings.json data/watched.json data/enrichment.json data/suggestions.json data/stats.json data/themes.json \
             data/tv-enrichment.json data/tv-suggestions.json data/book-enrichment.json data/book-suggestions.json data/adaptations.json \
-            data/letterboxd-watchlist.json data/tv-backdrops.json
+            data/letterboxd-watchlist.json data/tv-backdrops.json data/tv-provider-seen.json
           if git diff --cached --quiet; then
             echo "No changes."
           else

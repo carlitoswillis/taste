@@ -19,6 +19,8 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { dateKey, weightedSample, dailySample } from "./lib/daily-pick.mjs";
 import { ambientDay, ambientSize } from "./lib/ambient-pick.mjs";
+import { baseScore, signals, whyLine, parseRuntime, personKey, daysBetween } from "./lib/tonight.mjs";
+import { streamingOf, newestSince } from "./lib/provider-seen.mjs";
 import { stores, repeatsOverview, pickStills, cutWords, ratingFree, ratingLeaks, ambientVerb, rentNote } from "./lib/tv-feed-rules.mjs";
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
@@ -120,7 +122,7 @@ const lb = readJson("data/letterboxd-watchlist.json", {});
 const fromWatch = [];
 for (const w of Array.isArray(watch) ? watch : []) {
   const e = enrich[`${w.title} (${w.year})`];
-  if (e?.tmdbId) fromWatch.push({ title: w.title, year: w.year, tmdbId: e.tmdbId, e, why: w.why, director: w.director ?? directorOf(e.director), source: "taste" });
+  if (e?.tmdbId) fromWatch.push({ title: w.title, year: w.year, tmdbId: e.tmdbId, e, listRank: w.rank, rt: parseRuntime(w.runtime), why: w.why, director: w.director ?? directorOf(e.director), source: "taste" });
 }
 const ids = new Set(fromWatch.map((c) => c.tmdbId));
 const names = new Set(fromWatch.map((c) => normTitle(c.title, c.year)));
@@ -174,6 +176,44 @@ const suggPick = dailySample(suggPool, { weight: (c) => Math.pow(Number(c.score)
 const queue = [...fromWatch, ...lbPick, ...suggPick].slice(0, MAX_LIST);
 globalThis.__groups = { watch: fromWatch.length, lb: lbPick.length, sugg: suggPick.length, date: today };
 
+// ---- Tonight (firetv spec §6, feed side): `tonight` on every non-suggestion item the owner has not already seen, plus `watched`.
+// Inputs (scores, diary dates, affinity) stay in this process; only base (0.05 steps), rank, a rating-free why and availableSince go out.
+const WATCHED_ROWS = readJson("data/watched.json", []);
+const RATED = readJson("data/ratings.json", []);
+const LB_DIARY = readJson("data/letterboxd.json", {}).entries ?? [];
+const SEEN_PROV = readJson("data/tv-provider-seen.json", { seen: {} }).seen ?? {};
+const scoreByFilm = new Map();
+for (const r of [...RATED, ...LB_DIARY]) if (typeof (r.score ?? r.rating) === "number") scoreByFilm.set(normTitle(r.title, r.year), r.score ?? r.rating);
+const enrichOf = (t, y) => enrich[`${t} (${y})`];
+const directorsOf = (e, fallback) => { const d = namesOf(e?.director); return d.length ? d : fallback ? [fallback] : []; };
+const affinityBy = new Map(); // director key -> scores the owner gave that director's films
+for (const [k, sc] of scoreByFilm) {
+  const f = [...RATED, ...LB_DIARY].find((r) => normTitle(r.title, r.year) === k);
+  for (const d of directorsOf(enrichOf(f.title, f.year), typeof f.director === "string" ? f.director : "")) {
+    const key = personKey(d); affinityBy.set(key, [...(affinityBy.get(key) ?? []), sc]);
+  }
+}
+const affinityMean = (dirs) => { const ms = dirs.map((d) => affinityBy.get(personKey(d))).filter(Boolean).map((xs) => xs.reduce((a, b) => a + b, 0) / xs.length); return ms.length ? Math.max(...ms) : undefined; };
+const diaryRecent = WATCHED_ROWS.filter((w) => w.watched && daysBetween(w.watched, today) >= 0 && daysBetween(w.watched, today) <= 90).map((w) => {
+  const e = enrichOf(w.title, w.year);
+  return { title: w.title, year: w.year, date: w.watched, score: scoreByFilm.get(normTitle(w.title, w.year)), directors: directorsOf(e), cast: namesOf(e?.cast), genres: e?.genres ?? [] };
+});
+const tonightFor = (c) => {
+  const p = c.e.providers ?? {};
+  const m = mapItem(p);
+  const mapped = streamingOf(p).filter((n) => mapProvider(n));
+  const since = newestSince(SEEN_PROV[c.tmdbId], mapped);
+  const isNew = !!since && daysBetween(since.date, today) >= 0 && daysBetween(since.date, today) <= 7;
+  const rule = isNew ? mapProvider(since.name) : null;
+  const dirs = directorsOf(c.e, c.director);
+  const sig = signals({ directors: dirs, cast: namesOf(c.e.cast), genres: c.e.genres }, diaryRecent, today);
+  const runtime = details(c.e).runtime ?? c.rt;
+  const rating = c.e.scores?.imdb || c.e.tmdbRating;
+  const base = baseScore({ rank: c.source === "taste" ? c.listRank : undefined, n: fromWatch.length, rating, affinityMean: affinityMean(dirs), thread: sig.thread, sameDirector14d: sig.sameDirector14d, moodHits: sig.moodHits, isNew });
+  const why = whyLine({ thread: sig.thread, newApp: rule ? (rule.label ?? rule.match[0]) : null, rank: c.listRank, source: c.source, runtime }) ?? "On your list";
+  return { base, ...(c.source === "taste" && c.listRank ? { rank: c.listRank } : {}), why, ...(since ? { availableSince: since.date } : {}), _runtime: runtime };
+};
+
 const now = Date.now();
 const list = queue.map((c) => {
   const p = c.e.providers ?? {};
@@ -181,10 +221,13 @@ const list = queue.map((c) => {
   const note = noteFor(p, m);
   const { primary: b, alts } = stillsOf(c);
   const pp = posterPath(c.e.poster);
+  const tn = c.source !== "suggestion" && !seenFilm.has(normTitle(c.title, c.year)) ? tonightFor(c) : null;
+  const rtFill = !details(c.e).runtime && (tn?._runtime ?? c.rt) ? { runtime: tn?._runtime ?? c.rt } : {};
+  if (tn) delete tn._runtime;
   return {
     id: `${c.source}:${c.tmdbId}`, title: c.title, ...(c.year ? { year: c.year } : {}), source: c.source, apps: m.apps,
     providers: { flatrate: p.flatrate ?? [], free: p.free ?? [], rent: stores(p.rent), buy: stores(p.buy) },
-    ...(note ? { note } : {}), ...(c.source === "suggestion" && c.why ? { why: c.why } : {}), addedAt: now, ...details(c.e),
+    ...(note ? { note } : {}), ...(c.source === "suggestion" && c.why ? { why: c.why } : {}), addedAt: now, ...details(c.e), ...rtFill, ...(tn ? { tonight: tn } : {}),
     ...(b ? { posterUrl: `${IMG}/w780${b}`, backdropUrl: `${IMG}/w780${b}`, detailUrl: `${IMG}/w1280${b}` } : pp ? { posterUrl: `${IMG}/w342${pp}` } : {}),
     ...(b && alts.length ? { altBackdropUrls: alts.map((a) => `${IMG}/w780${a}`) } : {}),
     ...(pp ? { portraitUrl: `${IMG}/w342${pp}` } : {}),
@@ -234,7 +277,24 @@ const ambient = day.items.map(({ c, r, b, pp }) => ({
 }));
 globalThis.__ambientPool = ambPool.length;
 
-const doc = { v: 1, generated: now, list: { items: list }, sent: [], ambient: { items: ambient } };
+// Watched ledger: newest first, at most 40, last 12 months only (this also leaves out the 2024-08 bulk import dates).
+const WATCHED_MAX = 40;
+const rewatched = new Set(LB_DIARY.filter((r) => r.rewatch).map((r) => normTitle(r.title, r.year)));
+const watched = WATCHED_ROWS.filter((w) => w.watched && daysBetween(w.watched, today) >= 0 && daysBetween(w.watched, today) <= 365)
+  .sort((a, b) => (a.watched < b.watched ? 1 : a.watched > b.watched ? -1 : 0)).slice(0, WATCHED_MAX).map((w) => {
+    const e = enrichOf(w.title, w.year) ?? {};
+    const p = e.providers ?? {};
+    const b = e.backdrop || null;
+    const director = directorOf(e.director);
+    return {
+      ...(e.tmdbId ? { tmdbId: e.tmdbId } : {}), title: w.title, ...(w.year ? { year: w.year } : {}), date: w.watched,
+      ...(director ? { director } : {}), ...(details(e).runtime ? { runtime: details(e).runtime } : {}),
+      apps: mapItem(p).apps, providers: { flatrate: p.flatrate ?? [], free: p.free ?? [], rent: stores(p.rent), buy: stores(p.buy) },
+      ...(b ? { backdropUrl: `${IMG}/w780${b}` } : {}), rewatch: rewatched.has(normTitle(w.title, w.year)),
+    };
+  });
+
+const doc = { v: 1, generated: now, list: { items: list }, watched, sent: [], ambient: { items: ambient } };
 const leaks = ratingLeaks(doc);
 if (leaks.length) { console.error(`TV feed would publish ratings history at ${leaks.slice(0, 5).map(([at]) => at).join(", ")}`); process.exit(1); }
 const out = path.join(dist, "tv", FEED_PATH);

@@ -18,6 +18,8 @@ on:
       - "scripts/build.mjs"
       - "scripts/build-tv-feed.mjs"
       - "scripts/lib/tv-feed-rules.mjs"
+      - "scripts/lib/tonight.mjs"
+      - "scripts/lib/provider-seen.mjs"
 
 permissions:
   contents: read

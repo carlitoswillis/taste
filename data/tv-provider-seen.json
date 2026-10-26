@@ -1,0 +1,2364 @@
+{
+ "v": 1,
+ "seen": {
+  "11": {
+   "Disney Plus": null,
+   "YouTube TV": null
+  },
+  "12": {
+   "Disney Plus": null,
+   "Hulu": null
+  },
+  "13": {
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Peacock Premium": null,
+   "Paramount+ Amazon Channel": null,
+   "Peacock Premium Plus": null,
+   "Wonder Project Amazon Channel": null
+  },
+  "24": {
+   "Philo": null,
+   "YouTube TV": null
+  },
+  "28": {
+   "Paramount+ Amazon Channel": null,
+   "Lionsgate+ Amazon Channel": null,
+   "Howdy Amazon Channel": null
+  },
+  "59": {
+   "HBO Max Amazon Channel": null,
+   "Cinemax Amazon Channel": null,
+   "HBO Max": null,
+   "Cinemax Apple TV channel": null
+  },
+  "62": {
+   "HBO Max Amazon Channel": null,
+   "HBO Max": null
+  },
+  "77": {
+   "Netflix": null,
+   "Amazon Prime Video": null,
+   "Hulu": null,
+   "Peacock Premium": null,
+   "Philo": null,
+   "AMC Plus Apple TV Channel ": null,
+   "AMC+ Amazon Channel": null,
+   "AMC+": null,
+   "Sundance Now": null,
+   "Netflix Standard with Ads": null,
+   "Amazon Prime Video with Ads": null,
+   "Peacock Premium Plus": null
+  },
+  "95": {
+   "YouTube TV": null
+  },
+  "98": {
+   "Netflix": null,
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Paramount+ Amazon Channel": null,
+   "Kanopy": null,
+   "YouTube TV": null,
+   "Netflix Standard with Ads": null
+  },
+  "103": {
+   "Sony Pictures Core Amazon Channel": null
+  },
+  "107": {
+   "Amazon Prime Video": null,
+   "Sundance Now": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "115": {
+   "Netflix": null
+  },
+  "120": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "HBO Max": null
+  },
+  "121": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "HBO Max": null
+  },
+  "122": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "HBO Max": null
+  },
+  "129": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "HBO Max": null
+  },
+  "134": {
+   "Criterion Channel": null
+  },
+  "141": {
+   "Amazon Prime Video": null,
+   "Hulu": null,
+   "fuboTV": null,
+   "Amazon Prime Video with Ads": null,
+   "Shout! Factory Amazon Channel": null
+  },
+  "142": {
+   "Hulu": null
+  },
+  "155": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "HBO Max": null
+  },
+  "184": {
+   "MovieSphere+ Amazon Channel": null,
+   "Howdy Amazon Channel": null
+  },
+  "185": {
+   "HBO Max Amazon Channel": null,
+   "Cinemax Amazon Channel": null,
+   "HBO Max": null,
+   "Cinemax Apple TV channel": null
+  },
+  "218": {
+   "HBO Max Amazon Channel": null,
+   "MGM+ Amazon Channel": null,
+   "YouTube TV": null,
+   "HBO Max": null
+  },
+  "238": {
+   "Amazon Prime Video": null,
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Paramount+ Amazon Channel": null,
+   "MGM Plus Roku Premium Channel": null,
+   "Paramount+ Roku Premium Channel": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "262": {
+   "Amazon Prime Video": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "272": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "HBO Max": null
+  },
+  "274": {
+   "fuboTV": null,
+   "MGM+ Amazon Channel": null,
+   "Philo": null,
+   "YouTube TV": null,
+   "Criterion Channel": null,
+   "MGM Plus": null
+  },
+  "275": {
+   "Netflix": null,
+   "YouTube TV": null,
+   "Netflix Standard with Ads": null
+  },
+  "280": {
+   "fuboTV": null,
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Philo": null,
+   "Paramount+ Amazon Channel": null,
+   "YouTube TV": null,
+   "Paramount+ Roku Premium Channel": null,
+   "Starz Amazon Channel": null
+  },
+  "298": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "Cinemax Amazon Channel": null,
+   "HBO Max": null,
+   "Cinemax Apple TV channel": null,
+   "Starz Apple TV channel": null
+  },
+  "319": {
+   "Netflix": null,
+   "Philo": null,
+   "AMC Plus Apple TV Channel ": null,
+   "AMC+ Amazon Channel": null,
+   "AMC+": null,
+   "Sundance Now": null,
+   "Netflix Standard with Ads": null
+  },
+  "320": {
+   "Apple TV": null,
+   "Apple TV Amazon Channel": null
+  },
+  "335": {
+   "MGM Plus": null
+  },
+  "350": {
+   "Disney Plus": null,
+   "Hulu": null,
+   "fuboTV": null,
+   "YouTube TV": null
+  },
+  "393": {
+   "YouTube TV": null,
+   "MovieSphere+ Amazon Channel": null
+  },
+  "406": {
+   "Criterion Channel": null
+  },
+  "426": {
+   "YouTube TV": null
+  },
+  "429": {
+   "fuboTV": null,
+   "MGM+ Amazon Channel": null,
+   "Philo": null,
+   "MGM Plus Roku Premium Channel": null,
+   "MGM Plus": null
+  },
+  "445": {
+   "Philo": null,
+   "Sundance Now": null,
+   "Fandor Amazon Channel": null
+  },
+  "489": {
+   "Apple TV": null,
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Paramount+ Amazon Channel": null,
+   "Paramount+ Roku Premium Channel": null,
+   "Apple TV Amazon Channel": null
+  },
+  "490": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "Criterion Channel": null,
+   "HBO Max": null
+  },
+  "500": {
+   "Amazon Prime Video": null,
+   "YouTube TV": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "557": {
+   "Netflix": null,
+   "Disney Plus": null,
+   "Hulu": null,
+   "fuboTV": null,
+   "YouTube TV": null,
+   "Netflix Standard with Ads": null
+  },
+  "558": {
+   "Netflix": null,
+   "Disney Plus": null,
+   "Hulu": null,
+   "fuboTV": null,
+   "YouTube TV": null,
+   "Netflix Standard with Ads": null
+  },
+  "561": {
+   "HBO Max Amazon Channel": null,
+   "HBO Max": null
+  },
+  "578": {
+   "Peacock Premium": null,
+   "YouTube TV": null,
+   "Peacock Premium Plus": null
+  },
+  "585": {
+   "Disney Plus": null
+  },
+  "592": {
+   "Lionsgate+ Amazon Channel": null,
+   "Howdy Amazon Channel": null
+  },
+  "597": {
+   "Hulu": null,
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Peacock Premium": null,
+   "Starz Apple TV Channel": null,
+   "Paramount+ Amazon Channel": null,
+   "YouTube TV": null,
+   "Paramount+ Roku Premium Channel": null,
+   "Peacock Premium Plus": null
+  },
+  "607": {
+   "Peacock Premium": null,
+   "YouTube TV": null,
+   "MGM Plus": null,
+   "Peacock Premium Plus": null
+  },
+  "614": {
+   "HBO Max Amazon Channel": null,
+   "Criterion Channel": null,
+   "HBO Max": null
+  },
+  "640": {
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Paramount+ Amazon Channel": null,
+   "Paramount+ Roku Premium Channel": null
+  },
+  "641": {
+   "Peacock Premium": null,
+   "Philo": null,
+   "YouTube TV": null,
+   "Sundance Now": null,
+   "Peacock Premium Plus": null
+  },
+  "644": {
+   "fuboTV": null,
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Peacock Premium": null,
+   "Paramount+ Amazon Channel": null,
+   "MGM Plus": null,
+   "Paramount+ Roku Premium Channel": null,
+   "Peacock Premium Plus": null
+  },
+  "652": {
+   "Philo": null,
+   "AMC+ Amazon Channel": null
+  },
+  "653": {
+   "Amazon Prime Video": null,
+   "Philo": null,
+   "AMC Plus Apple TV Channel ": null,
+   "AMC+ Amazon Channel": null,
+   "AMC+": null,
+   "YouTube TV": null,
+   "Shudder": null,
+   "Shudder Amazon Channel": null,
+   "Screambox Amazon Channel": null,
+   "FlixFling": null,
+   "Eternal Family": null,
+   "Shudder Apple TV Channel": null,
+   "Amazon Prime Video with Ads": null,
+   "Kino Film Collection": null,
+   "IndieFlix Shorts Amazon Channel": null,
+   "Bloodstream": null,
+   "Chilling": null,
+   "Cineverse Amazon Channel": null
+  },
+  "671": {
+   "HBO Max Amazon Channel": null,
+   "Peacock Premium": null,
+   "HBO Max": null,
+   "Peacock Premium Plus": null
+  },
+  "672": {
+   "HBO Max Amazon Channel": null,
+   "Peacock Premium": null,
+   "HBO Max": null,
+   "Peacock Premium Plus": null
+  },
+  "673": {
+   "HBO Max Amazon Channel": null,
+   "Peacock Premium": null,
+   "HBO Max": null,
+   "Peacock Premium Plus": null
+  },
+  "674": {
+   "HBO Max Amazon Channel": null,
+   "Peacock Premium": null,
+   "YouTube TV": null,
+   "HBO Max": null,
+   "Peacock Premium Plus": null
+  },
+  "680": {
+   "fuboTV": null,
+   "MGM+ Amazon Channel": null,
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Philo": null,
+   "Paramount+ Amazon Channel": null,
+   "YouTube TV": null,
+   "MGM Plus": null,
+   "Paramount+ Roku Premium Channel": null
+  },
+  "765": {
+   "HBO Max Amazon Channel": null,
+   "HBO Max": null,
+   "IndieFlix Shorts Amazon Channel": null
+  },
+  "766": {
+   "Amazon Prime Video": null,
+   "Philo": null,
+   "AMC Plus Apple TV channel": null,
+   "AMC+ Amazon Channel": null,
+   "AMC+": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "771": {
+   "Disney Plus": null
+  },
+  "797": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "Criterion Channel": null,
+   "Darkroom": null,
+   "HBO Max": null,
+   "Artiflix": null
+  },
+  "807": {
+   "fuboTV": null,
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null
+  },
+  "808": {
+   "Peacock Premium": null,
+   "Peacock Premium Plus": null
+  },
+  "837": {
+   "Amazon Prime Video": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "862": {
+   "Disney Plus": null,
+   "Hulu": null
+  },
+  "931": {
+   "fuboTV": null,
+   "MGM+ Amazon Channel": null,
+   "Philo": null,
+   "MGM Plus Roku Premium Channel": null,
+   "YouTube TV": null,
+   "MGM Plus": null
+  },
+  "947": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null,
+   "Sony Pictures Core Amazon Channel": null
+  },
+  "1124": {
+   "Hulu": null,
+   "Peacock Premium": null,
+   "Peacock Premium Plus": null
+  },
+  "1255": {
+   "Amazon Prime Video": null,
+   "Peacock Premium": null,
+   "Amazon Prime Video with Ads": null,
+   "Peacock Premium Plus": null,
+   "Magnolia Selects Amazon Channel": null,
+   "Monsters and Nightmares Amazon Channel": null,
+   "Warriors and Gangsters Amazon Channel": null
+  },
+  "1272": {
+   "Amazon Prime Video": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "1359": {
+   "Amazon Prime Video": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "1398": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "Criterion Channel": null,
+   "HBO Max": null
+  },
+  "1422": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "HBO Max": null
+  },
+  "1541": {
+   "Amazon Prime Video": null,
+   "Hulu": null,
+   "MGM Plus Roku Premium Channel": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "1579": {
+   "Amazon Prime Video": null,
+   "Hulu": null,
+   "Peacock Premium": null,
+   "VIX ": null,
+   "ViX Premium Amazon Channel": null,
+   "Amazon Prime Video with Ads": null,
+   "Peacock Premium Plus": null
+  },
+  "1632": {
+   "fuboTV": null,
+   "MGM+ Amazon Channel": null,
+   "Philo": null,
+   "MGM Plus Roku Premium Channel": null,
+   "MGM Plus": null
+  },
+  "1726": {
+   "Disney Plus": null,
+   "Hulu": null
+  },
+  "1832": {
+   "fuboTV": null,
+   "MovieSphere+ Amazon Channel": null
+  },
+  "1891": {
+   "Disney Plus": null,
+   "YouTube TV": null
+  },
+  "1895": {
+   "Disney Plus": null
+  },
+  "1946": {
+   "Howdy Amazon Channel": null
+  },
+  "1948": {
+   "MovieSphere+ Amazon Channel": null
+  },
+  "1949": {
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Paramount+ Amazon Channel": null,
+   "Paramount+ Roku Premium Channel": null
+  },
+  "1991": {
+   "MovieSphere+ Amazon Channel": null,
+   "Howdy Amazon Channel": null
+  },
+  "2062": {
+   "Disney Plus": null,
+   "Hulu": null
+  },
+  "2108": {
+   "Netflix": null,
+   "Philo": null,
+   "YouTube TV": null,
+   "Netflix Standard with Ads": null
+  },
+  "2266": {
+   "Amazon Prime Video": null,
+   "fuboTV": null,
+   "Amazon Prime Video with Ads": null,
+   "Howdy Amazon Channel": null
+  },
+  "2977": {
+   "Britbox Apple TV channel": null
+  },
+  "4011": {
+   "fuboTV": null,
+   "YouTube TV": null
+  },
+  "4232": {
+   "Hulu": null,
+   "fuboTV": null,
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Peacock Premium": null,
+   "Paramount+ Amazon Channel": null,
+   "Paramount+ Roku Premium Channel": null,
+   "Peacock Premium Plus": null
+  },
+  "4512": {
+   "Howdy Amazon Channel": null
+  },
+  "4912": {
+   "MGM Plus Roku Premium Channel": null
+  },
+  "4982": {
+   "Apple TV": null,
+   "fuboTV": null,
+   "MGM+ Amazon Channel": null,
+   "MGM Plus Roku Premium Channel": null,
+   "YouTube TV": null,
+   "MGM Plus": null,
+   "Starz Apple TV channel": null,
+   "Apple TV Amazon Channel": null
+  },
+  "5176": {
+   "Philo": null
+  },
+  "5961": {
+   "HBO Max Amazon Channel": null,
+   "HBO Max": null
+  },
+  "6977": {
+   "fuboTV": null,
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Paramount+ Amazon Channel": null,
+   "YouTube TV": null
+  },
+  "7299": {
+   "Paramount Plus Essential": null
+  },
+  "7345": {
+   "fuboTV": null,
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Paramount+ Amazon Channel": null,
+   "Kanopy": null,
+   "YouTube TV": null,
+   "Paramount+ Roku Premium Channel": null
+  },
+  "7972": {
+   "Amazon Prime Video": null,
+   "Hulu": null,
+   "fuboTV": null,
+   "Night Flight Plus": null,
+   "Amazon Prime Video with Ads": null,
+   "Shout! Factory Amazon Channel": null
+  },
+  "8363": {
+   "Philo": null,
+   "Starz Apple TV Channel": null,
+   "Starz Roku Premium Channel": null,
+   "Starz": null,
+   "Starz Amazon Channel": null
+  },
+  "8587": {
+   "Disney Plus": null
+  },
+  "8656": {
+   "Paramount+ Amazon Channel": null,
+   "Paramount+ Roku Premium Channel": null
+  },
+  "8740": {
+   "Criterion Channel": null
+  },
+  "8966": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "9081": {
+   "Amazon Prime Video": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "9426": {
+   "Hulu": null,
+   "Peacock Premium": null,
+   "Philo": null,
+   "AMC": null,
+   "Peacock Premium Plus": null
+  },
+  "9464": {
+   "Amazon Prime Video": null,
+   "Philo": null,
+   "YouTube TV": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "9538": {
+   "HBO Max": null
+  },
+  "9540": {
+   "Night Flight Plus": null,
+   "Shout! Factory Amazon Channel": null
+  },
+  "9806": {
+   "Disney Plus": null
+  },
+  "10238": {
+   "HBO Max Amazon Channel": null,
+   "Criterion Channel": null,
+   "HBO Max": null
+  },
+  "10625": {
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Paramount+ Amazon Channel": null,
+   "Paramount+ Roku Premium Channel": null
+  },
+  "10681": {
+   "Disney Plus": null
+  },
+  "10843": {
+   "Howdy Amazon Channel": null
+  },
+  "11297": {
+   "ARROW": null
+  },
+  "11324": {
+   "fuboTV": null,
+   "MGM+ Amazon Channel": null,
+   "Philo": null,
+   "YouTube TV": null,
+   "MGM Plus": null
+  },
+  "11336": {
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Philo": null,
+   "AMC Plus Apple TV channel": null,
+   "Paramount+ Amazon Channel": null,
+   "AMC+ Amazon Channel": null,
+   "AMC+": null,
+   "History Vault": null,
+   "Paramount+ Roku Premium Channel": null
+  },
+  "11368": {
+   "HBO Max Amazon Channel": null,
+   "Cinemax Amazon Channel": null,
+   "HBO Max": null,
+   "Cinemax Apple TV channel": null
+  },
+  "11481": {
+   "fuboTV": null,
+   "Brew": null,
+   "Midnight Pulp": null
+  },
+  "11631": {
+   "Hulu": null,
+   "Peacock Premium": null,
+   "Starz Apple TV Channel": null,
+   "Peacock Premium Plus": null
+  },
+  "11645": {
+   "BFI Player Amazon Channel": null
+  },
+  "11655": {
+   "HBO Max Amazon Channel": null,
+   "HBO Max": null
+  },
+  "11660": {
+   "Philo": null,
+   "AMC+ Amazon Channel": null,
+   "AMC+ Roku Premium Channel": null,
+   "Sundance Now": null
+  },
+  "12444": {
+   "HBO Max Amazon Channel": null,
+   "Peacock Premium": null,
+   "YouTube TV": null,
+   "HBO Max": null,
+   "Peacock Premium Plus": null
+  },
+  "12761": {
+   "HBO Max Amazon Channel": null,
+   "Criterion Channel": null,
+   "TCM": null,
+   "HBO Max": null
+  },
+  "13830": {
+   "Amazon Prime Video": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "14160": {
+   "Disney Plus": null
+  },
+  "14537": {
+   "Criterion Channel": null
+  },
+  "14784": {
+   "MUBI": null,
+   "MUBI Amazon Channel": null
+  },
+  "14976": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "15092": {
+   "Philo": null,
+   "YouTube TV": null,
+   "MovieSphere+ Amazon Channel": null
+  },
+  "16523": {
+   "fuboTV": null,
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Paramount+ Amazon Channel": null,
+   "Paramount+ Roku Premium Channel": null
+  },
+  "16869": {
+   "Philo": null
+  },
+  "16871": {
+   "Starz Apple TV Channel": null
+  },
+  "18333": {
+   "Criterion Channel": null
+  },
+  "19898": {
+   "Amazon Prime Video": null,
+   "YouTube TV": null,
+   "Amazon Prime Video with Ads": null,
+   "MovieSphere+ Amazon Channel": null
+  },
+  "19995": {
+   "Disney Plus": null,
+   "Hulu": null
+  },
+  "21484": {
+   "Philo": null,
+   "AMC Plus Apple TV Channel ": null,
+   "AMC+ Amazon Channel": null,
+   "YouTube TV": null,
+   "Criterion Channel": null,
+   "Shudder": null,
+   "Shudder Amazon Channel": null,
+   "Metrograph": null,
+   "Shudder Apple TV Channel": null,
+   "Kino Film Collection": null
+  },
+  "21531": {
+   "Magnolia Selects Amazon Channel": null,
+   "Monsters and Nightmares Amazon Channel": null
+  },
+  "22970": {
+   "fuboTV": null,
+   "Philo": null,
+   "AMC Plus Apple TV Channel ": null,
+   "AMC+ Amazon Channel": null,
+   "AMC+": null,
+   "YouTube TV": null,
+   "MovieSphere+ Amazon Channel": null
+  },
+  "23169": {
+   "Peacock Premium": null,
+   "Lionsgate+ Amazon Channel": null,
+   "Peacock Premium Plus": null
+  },
+  "24021": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "24428": {
+   "Disney Plus": null,
+   "Hulu": null
+  },
+  "27205": {
+   "MGM Plus": null
+  },
+  "27324": {
+   "AMC+ Amazon Channel": null,
+   "ARROW": null
+  },
+  "27371": {
+   "Criterion Channel": null
+  },
+  "28942": {
+   "HBO Max Amazon Channel": null,
+   "Brew": null,
+   "HBO Max": null
+  },
+  "29437": {
+   "Amazon Prime Video": null,
+   "Philo": null,
+   "AMC Plus Apple TV channel": null,
+   "AMC+ Amazon Channel": null,
+   "AMC+": null,
+   "Shudder": null,
+   "Night Flight Plus": null,
+   "Shudder Amazon Channel": null,
+   "Screambox Amazon Channel": null,
+   "Midnight Pulp": null,
+   "Shudder Apple TV channel": null,
+   "Amazon Prime Video with Ads": null,
+   "Midnight Pulp Amazon Channel": null,
+   "Shout! Factory Amazon Channel": null,
+   "Chilling": null
+  },
+  "29453": {
+   "Kanopy": null,
+   "Criterion Channel": null
+  },
+  "29455": {
+   "Criterion Channel": null
+  },
+  "30497": {
+   "Netflix": null,
+   "Amazon Prime Video": null,
+   "Peacock Premium": null,
+   "Philo": null,
+   "AMC+ Amazon Channel": null,
+   "Shudder Amazon Channel": null,
+   "Netflix Standard with Ads": null,
+   "Shudder Apple TV channel": null,
+   "Amazon Prime Video with Ads": null,
+   "Peacock Premium Plus": null
+  },
+  "34626": {
+   "Magnolia Selects Amazon Channel": null,
+   "Warriors and Gangsters Amazon Channel": null
+  },
+  "36685": {
+   "Broadway HD Amazon Channel": null
+  },
+  "37165": {
+   "fuboTV": null,
+   "Paramount Plus Premium": null,
+   "Paramount+ Amazon Channel": null,
+   "YouTube TV": null
+  },
+  "38757": {
+   "Disney Plus": null
+  },
+  "38810": {
+   "Kino Film Collection": null
+  },
+  "39538": {
+   "HBO Max Amazon Channel": null,
+   "Cinemax Amazon Channel": null,
+   "HBO Max": null,
+   "Cinemax Apple TV channel": null
+  },
+  "41050": {
+   "HBO Max Amazon Channel": null,
+   "AMC Plus Apple TV channel": null,
+   "AMC+": null,
+   "Criterion Channel": null,
+   "HBO Max": null
+  },
+  "42602": {
+   "Criterion Channel": null
+  },
+  "43629": {
+   "Criterion Channel": null
+  },
+  "44264": {
+   "fuboTV": null,
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Paramount+ Amazon Channel": null,
+   "Paramount+ Roku Premium Channel": null
+  },
+  "48231": {
+   "Howdy Amazon Channel": null
+  },
+  "49014": {
+   "Lionsgate+ Amazon Channel": null,
+   "Starz Apple TV channel": null
+  },
+  "49026": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "HBO Max": null
+  },
+  "49521": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "HBO Max": null
+  },
+  "54138": {
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Paramount+ Amazon Channel": null,
+   "Paramount+ Roku Premium Channel": null
+  },
+  "68718": {
+   "fuboTV": null,
+   "Paramount Plus Premium": null,
+   "Philo": null,
+   "Starz Apple TV Channel": null,
+   "Paramount+ Amazon Channel": null,
+   "YouTube TV": null,
+   "Starz": null,
+   "Starz Amazon Channel": null
+  },
+  "68730": {
+   "fuboTV": null,
+   "MGM+ Amazon Channel": null,
+   "Philo": null
+  },
+  "70160": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "70981": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "HBO Max": null
+  },
+  "71469": {
+   "Britbox Apple TV channel": null,
+   "BritBox": null,
+   "MovieSphere+ Amazon Channel": null,
+   "Howdy Amazon Channel": null
+  },
+  "72190": {
+   "Amazon Prime Video": null,
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Starz Apple TV Channel": null,
+   "Paramount+ Amazon Channel": null,
+   "Paramount+ Roku Premium Channel": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "81857": {
+   "Kino Film Collection": null
+  },
+  "86838": {
+   "fuboTV": null,
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Paramount+ Amazon Channel": null,
+   "YouTube TV": null,
+   "Paramount+ Roku Premium Channel": null
+  },
+  "91679": {
+   "Criterion Channel": null
+  },
+  "94329": {
+   "Sony Pictures Core Amazon Channel": null
+  },
+  "97370": {
+   "Netflix": null,
+   "Amazon Prime Video": null,
+   "Netflix Standard with Ads": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "97630": {
+   "Netflix": null,
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Paramount+ Amazon Channel": null,
+   "Netflix Standard with Ads": null,
+   "Sony Pictures Core Amazon Channel": null
+  },
+  "100402": {
+   "Disney Plus": null,
+   "Hulu": null,
+   "YouTube TV": null
+  },
+  "101299": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "106646": {
+   "Amazon Prime Video": null,
+   "Hulu": null,
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Starz Apple TV Channel": null,
+   "Paramount+ Amazon Channel": null,
+   "YouTube TV": null,
+   "Paramount+ Roku Premium Channel": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "109428": {
+   "Netflix": null,
+   "Amazon Prime Video": null,
+   "HBO Max Amazon Channel": null,
+   "Netflix Standard with Ads": null,
+   "HBO Max": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "110415": {
+   "Lionsgate+ Amazon Channel": null
+  },
+  "118340": {
+   "Disney Plus": null
+  },
+  "121606": {
+   "ARROW": null
+  },
+  "122081": {
+   "HBO Max Amazon Channel": null,
+   "Cinemax Amazon Channel": null,
+   "HBO Max": null,
+   "Cinemax Apple TV channel": null
+  },
+  "126889": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "HBO Max": null
+  },
+  "133919": {
+   "HBO Max Amazon Channel": null,
+   "Criterion Channel": null,
+   "HBO Max": null
+  },
+  "136400": {
+   "Netflix": null,
+   "fuboTV": null,
+   "Starz Apple TV Channel": null,
+   "YouTube TV": null,
+   "Netflix Standard with Ads": null
+  },
+  "140607": {
+   "Disney Plus": null,
+   "YouTube TV": null
+  },
+  "146015": {
+   "Netflix": null,
+   "YouTube TV": null,
+   "Netflix Standard with Ads": null,
+   "Magnolia Selects Amazon Channel": null
+  },
+  "150540": {
+   "Disney Plus": null
+  },
+  "157336": {
+   "Hulu": null,
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Paramount+ Amazon Channel": null,
+   "Paramount+ Roku Premium Channel": null
+  },
+  "158852": {
+   "Disney Plus": null
+  },
+  "159117": {
+   "fuboTV": null
+  },
+  "180299": {
+   "Sony Pictures Core Amazon Channel": null
+  },
+  "181886": {
+   "Amazon Prime Video": null,
+   "YouTube TV": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "206487": {
+   "Sony Pictures Core Amazon Channel": null
+  },
+  "210577": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "220289": {
+   "Amazon Prime Video": null,
+   "Peacock Premium": null,
+   "Philo": null,
+   "YouTube TV": null,
+   "Night Flight Plus": null,
+   "Fandor Amazon Channel": null,
+   "Screambox Amazon Channel": null,
+   "Cineverse": null,
+   "Amazon Prime Video with Ads": null,
+   "Peacock Premium Plus": null,
+   "Cineverse Amazon Channel": null
+  },
+  "228967": {
+   "Sony Pictures Core Amazon Channel": null
+  },
+  "241239": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "HBO Max": null
+  },
+  "242224": {
+   "Hulu": null,
+   "Philo": null,
+   "AMC Plus Apple TV Channel ": null,
+   "AMC+ Amazon Channel": null,
+   "AMC+": null,
+   "YouTube TV": null,
+   "Shudder": null,
+   "Sundance Now": null,
+   "MUBI": null,
+   "Shudder Amazon Channel": null,
+   "MUBI Amazon Channel": null,
+   "Shudder Apple TV Channel": null
+  },
+  "242582": {
+   "Netflix": null,
+   "Sundance Now": null,
+   "Netflix Standard with Ads": null,
+   "Shout! Factory Amazon Channel": null
+  },
+  "245891": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "HBO Max": null
+  },
+  "254320": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "Cinemax Amazon Channel": null,
+   "HBO Max": null,
+   "Cinemax Apple TV Channel": null
+  },
+  "261392": {
+   "Amazon Prime Video": null,
+   "YouTube TV": null,
+   "Amazon Prime Video with Ads": null,
+   "MovieSphere+ Amazon Channel": null
+  },
+  "264660": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "270303": {
+   "Philo": null,
+   "MovieSphere+ Amazon Channel": null
+  },
+  "271110": {
+   "Disney Plus": null,
+   "Hulu": null,
+   "fuboTV": null,
+   "YouTube TV": null
+  },
+  "273248": {
+   "MovieSphere+ Amazon Channel": null
+  },
+  "273481": {
+   "Hulu": null
+  },
+  "274870": {
+   "Netflix": null,
+   "Starz Apple TV Channel": null,
+   "Netflix Standard with Ads": null
+  },
+  "283995": {
+   "Disney Plus": null
+  },
+  "284052": {
+   "Disney Plus": null
+  },
+  "284053": {
+   "Disney Plus": null
+  },
+  "284054": {
+   "Disney Plus": null,
+   "Hulu": null
+  },
+  "285024": {
+   "BFI Player Amazon Channel": null
+  },
+  "285923": {
+   "Howdy Amazon Channel": null
+  },
+  "286217": {
+   "Amazon Prime Video": null,
+   "Philo": null,
+   "AMC Plus Apple TV Channel ": null,
+   "AMC+ Amazon Channel": null,
+   "AMC+ Roku Premium Channel": null,
+   "AMC+": null,
+   "YouTube TV": null,
+   "AMC": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "290098": {
+   "Amazon Prime Video": null
+  },
+  "293660": {
+   "Disney Plus": null
+  },
+  "293670": {
+   "fuboTV": null,
+   "Fandor Amazon Channel": null,
+   "Screambox Amazon Channel": null,
+   "Hi-YAH": null,
+   "Midnight Pulp Amazon Channel": null,
+   "Hi-YAH Amazon Channel": null
+  },
+  "299534": {
+   "Disney Plus": null,
+   "YouTube TV": null,
+   "TNT": null,
+   "TBS": null,
+   "tru TV": null
+  },
+  "299536": {
+   "Disney Plus": null
+  },
+  "300668": {
+   "fuboTV": null,
+   "MGM+ Amazon Channel": null,
+   "Philo": null,
+   "MGM Plus Roku Premium Channel": null,
+   "YouTube TV": null,
+   "MGM Plus": null
+  },
+  "302946": {
+   "YouTube TV": null
+  },
+  "306947": {
+   "Peacock Premium": null,
+   "Peacock Premium Plus": null,
+   "ARROW": null
+  },
+  "308084": {
+   "fuboTV": null,
+   "Magnolia Selects Amazon Channel": null
+  },
+  "310131": {
+   "Netflix": null,
+   "YouTube TV": null,
+   "Netflix Standard with Ads": null
+  },
+  "315635": {
+   "Netflix": null,
+   "Disney Plus": null,
+   "fuboTV": null,
+   "YouTube TV": null,
+   "Netflix Standard with Ads": null
+  },
+  "324857": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "325346": {
+   "Howdy Amazon Channel": null
+  },
+  "328425": {
+   "Amazon Prime Video": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "329865": {
+   "Paramount Plus Premium": null,
+   "Paramount+ Amazon Channel": null,
+   "Paramount+ Roku Premium Channel": null
+  },
+  "331482": {
+   "Hulu": null,
+   "YouTube TV": null
+  },
+  "334521": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "337404": {
+   "Disney Plus": null
+  },
+  "339403": {
+   "fuboTV": null,
+   "Paramount Plus Premium": null,
+   "Paramount+ Amazon Channel": null,
+   "YouTube TV": null,
+   "Paramount+ Roku Premium Channel": null
+  },
+  "339967": {
+   "fuboTV": null,
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Paramount+ Amazon Channel": null,
+   "Paramount+ Roku Premium Channel": null
+  },
+  "341013": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "Cinemax Amazon Channel": null,
+   "HBO Max": null,
+   "Cinemax Apple TV Channel": null
+  },
+  "346364": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "HBO Max": null
+  },
+  "346698": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "HBO Max": null
+  },
+  "354912": {
+   "Disney Plus": null
+  },
+  "355277": {
+   "Disney Plus": null
+  },
+  "376134": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "376867": {
+   "Hulu": null,
+   "YouTube TV": null
+  },
+  "379686": {
+   "HBO Max Amazon Channel": null,
+   "Cinemax Amazon Channel": null,
+   "HBO Max": null,
+   "Cinemax Apple TV channel": null
+  },
+  "381283": {
+   "fuboTV": null,
+   "MGM+ Amazon Channel": null,
+   "Philo": null,
+   "MGM Plus Roku Premium Channel": null,
+   "YouTube TV": null,
+   "MGM Plus": null
+  },
+  "383498": {
+   "Disney Plus": null,
+   "HBO Max Amazon Channel": null,
+   "HBO Max": null
+  },
+  "387426": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "395992": {
+   "Sony Pictures Core Amazon Channel": null
+  },
+  "396461": {
+   "JustWatch TV Plus": null
+  },
+  "396806": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "397243": {
+   "fuboTV": null,
+   "Paramount Plus Premium": null,
+   "Philo": null,
+   "AMC Plus Apple TV Channel ": null,
+   "Paramount+ Amazon Channel": null,
+   "AMC+ Amazon Channel": null,
+   "AMC+": null,
+   "YouTube TV": null,
+   "Shudder": null,
+   "Sundance Now": null
+  },
+  "398173": {
+   "Hulu": null,
+   "Philo": null,
+   "AMC Plus Apple TV Channel ": null,
+   "AMC+ Amazon Channel": null,
+   "AMC+": null,
+   "YouTube TV": null,
+   "Shudder": null,
+   "Sundance Now": null,
+   "Shudder Amazon Channel": null,
+   "Shudder Apple TV Channel": null
+  },
+  "398818": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "399057": {
+   "HBO Max Amazon Channel": null,
+   "Cinemax Amazon Channel": null,
+   "HBO Max": null,
+   "Cinemax Apple TV Channel": null
+  },
+  "401246": {
+   "Hulu": null,
+   "Magnolia Selects Amazon Channel": null
+  },
+  "414419": {
+   "Lionsgate+ Amazon Channel": null,
+   "MovieSphere+ Amazon Channel": null
+  },
+  "414906": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "tru TV": null,
+   "HBO Max": null
+  },
+  "419430": {
+   "YouTube TV": null
+  },
+  "420634": {
+   "Amazon Prime Video": null,
+   "fuboTV": null,
+   "Peacock Premium": null,
+   "Amazon Prime Video with Ads": null,
+   "Peacock Premium Plus": null
+  },
+  "424121": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "424781": {
+   "MovieSphere+ Amazon Channel": null
+  },
+  "426063": {
+   "Peacock Premium": null,
+   "Peacock Premium Plus": null
+  },
+  "428449": {
+   "Amazon Prime Video": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "429617": {
+   "Disney Plus": null,
+   "fuboTV": null,
+   "YouTube TV": null
+  },
+  "430231": {
+   "Amazon Prime Video": null,
+   "Peacock Premium": null,
+   "Philo": null,
+   "YouTube TV": null,
+   "Fandor Amazon Channel": null,
+   "Screambox Amazon Channel": null,
+   "Amazon Prime Video with Ads": null,
+   "Peacock Premium Plus": null,
+   "Midnight Pulp Amazon Channel": null,
+   "Bloodstream": null,
+   "Cineverse Amazon Channel": null
+  },
+  "437342": {
+   "Amazon Prime Video": null,
+   "fuboTV": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "438631": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "HBO Max": null
+  },
+  "447332": {
+   "fuboTV": null,
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Paramount+ Amazon Channel": null,
+   "YouTube TV": null,
+   "Paramount+ Roku Premium Channel": null
+  },
+  "447365": {
+   "Disney Plus": null
+  },
+  "449443": {
+   "Netflix": null,
+   "YouTube TV": null,
+   "Netflix Standard with Ads": null
+  },
+  "453395": {
+   "Disney Plus": null
+  },
+  "458723": {
+   "HBO Max Amazon Channel": null,
+   "HBO Max": null
+  },
+  "463684": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "466272": {
+   "fuboTV": null,
+   "YouTube TV": null
+  },
+  "467905": {
+   "HBO Max Amazon Channel": null,
+   "HBO Max": null
+  },
+  "475557": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "Cinemax Amazon Channel": null,
+   "HBO Max": null,
+   "Cinemax Apple TV Channel": null
+  },
+  "480530": {
+   "Amazon Prime Video": null,
+   "Hulu": null,
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Paramount+ Amazon Channel": null,
+   "Paramount+ Roku Premium Channel": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "493922": {
+   "HBO Max Amazon Channel": null,
+   "HBO Max": null
+  },
+  "497828": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "499932": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "500664": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "500840": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "501929": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "502356": {
+   "Peacock Premium": null,
+   "Peacock Premium Plus": null,
+   "Peacock Premium Plus Amazon Channel": null
+  },
+  "503736": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "503919": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "HBO Max": null
+  },
+  "517116": {
+   "Philo": null,
+   "AMC+ Amazon Channel": null,
+   "Shudder": null,
+   "Lionsgate+ Amazon Channel": null,
+   "Howdy Amazon Channel": null
+  },
+  "520023": {
+   "Hulu": null
+  },
+  "520763": {
+   "Netflix": null,
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Paramount+ Amazon Channel": null,
+   "Paramount+ Roku Premium Channel": null,
+   "Netflix Standard with Ads": null
+  },
+  "530385": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "HBO Max": null
+  },
+  "532408": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "533535": {
+   "Disney Plus": null
+  },
+  "537996": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "539565": {
+   "Netflix": null,
+   "Amazon Prime Video": null,
+   "YouTube TV": null,
+   "Netflix Standard with Ads": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "539681": {
+   "HBO Max Amazon Channel": null,
+   "HBO Max": null
+  },
+  "541671": {
+   "HBO Max Amazon Channel": null,
+   "HBO Max": null,
+   "Starz Apple TV channel": null
+  },
+  "545611": {
+   "Hulu": null,
+   "YouTube TV": null
+  },
+  "549294": {
+   "Amazon Prime Video": null,
+   "Peacock Premium": null,
+   "Amazon Prime Video with Ads": null,
+   "Peacock Premium Plus": null,
+   "Bloodstream": null
+  },
+  "558449": {
+   "Netflix": null,
+   "Amazon Prime Video": null,
+   "MGM+ Amazon Channel": null,
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Philo": null,
+   "Paramount+ Amazon Channel": null,
+   "MGM Plus": null,
+   "Paramount+ Roku Premium Channel": null,
+   "Netflix Standard with Ads": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "559907": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "569094": {
+   "Disney Plus": null,
+   "fuboTV": null,
+   "HBO Max Amazon Channel": null,
+   "HBO Max": null
+  },
+  "574475": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "HBO Max": null
+  },
+  "575264": {
+   "Netflix": null,
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Paramount+ Amazon Channel": null,
+   "Paramount+ Roku Premium Channel": null,
+   "Netflix Standard with Ads": null
+  },
+  "575265": {
+   "Amazon Prime Video": null,
+   "fuboTV": null,
+   "MGM+ Amazon Channel": null,
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Philo": null,
+   "Paramount+ Amazon Channel": null,
+   "YouTube TV": null,
+   "MGM Plus": null,
+   "Paramount+ Roku Premium Channel": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "575776": {
+   "Amazon Prime Video": null,
+   "fuboTV": null,
+   "MGM+ Amazon Channel": null,
+   "Philo": null,
+   "MGM Plus Roku Premium Channel": null,
+   "YouTube TV": null,
+   "MGM Plus": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "578908": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "593643": {
+   "fuboTV": null,
+   "YouTube TV": null
+  },
+  "600583": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "604685": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "615457": {
+   "Peacock Premium": null,
+   "YouTube TV": null,
+   "Peacock Premium Plus": null
+  },
+  "617126": {
+   "Disney Plus": null
+  },
+  "617653": {
+   "fuboTV": null,
+   "YouTube TV": null,
+   "FXNow": null
+  },
+  "624788": {
+   "Amazon Prime Video": null,
+   "Peacock Premium": null,
+   "Lionsgate+ Amazon Channel": null,
+   "Amazon Prime Video with Ads": null,
+   "Peacock Premium Plus": null
+  },
+  "631060": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "634649": {
+   "Disney Plus": null,
+   "fuboTV": null,
+   "Starz Apple TV Channel": null,
+   "YouTube TV": null
+  },
+  "636706": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "639720": {
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Paramount+ Amazon Channel": null,
+   "Paramount+ Roku Premium Channel": null
+  },
+  "639933": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "639988": {
+   "Hulu": null
+  },
+  "646380": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "648878": {
+   "HBO Max Amazon Channel": null,
+   "HBO Max": null
+  },
+  "656663": {
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Paramount+ Amazon Channel": null,
+   "Paramount+ Roku Premium Channel": null
+  },
+  "663712": {
+   "Amazon Prime Video": null,
+   "YouTube TV": null,
+   "Screambox Amazon Channel": null,
+   "Amazon Prime Video with Ads": null,
+   "Midnight Pulp Amazon Channel": null,
+   "Cineverse Amazon Channel": null
+  },
+  "664416": {
+   "Apple TV": null,
+   "Apple TV Amazon Channel": null
+  },
+  "668489": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "687163": {
+   "Amazon Prime Video": null,
+   "fuboTV": null,
+   "MGM+ Amazon Channel": null,
+   "Philo": null,
+   "MGM Plus Roku Premium Channel": null,
+   "MGM Plus": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "693134": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "HBO Max": null
+  },
+  "695721": {
+   "Netflix": null,
+   "Hulu": null,
+   "Netflix Standard with Ads": null
+  },
+  "696506": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "HBO Max": null
+  },
+  "700391": {
+   "Hulu": null
+  },
+  "701387": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "705996": {
+   "MUBI": null,
+   "MUBI Amazon Channel": null
+  },
+  "710295": {
+   "Peacock Premium": null,
+   "Peacock Premium Plus": null
+  },
+  "713704": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "HBO Max": null
+  },
+  "718930": {
+   "Hulu": null,
+   "fuboTV": null,
+   "YouTube TV": null
+  },
+  "725201": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "736769": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "744746": {
+   "Philo": null,
+   "AMC Plus Apple TV Channel ": null,
+   "AMC+ Amazon Channel": null,
+   "AMC+": null,
+   "YouTube TV": null,
+   "Shudder": null,
+   "Shudder Amazon Channel": null,
+   "Shudder Apple TV Channel": null
+  },
+  "748167": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "758679": {
+   "Hulu": null
+  },
+  "760329": {
+   "HBO Max Amazon Channel": null,
+   "HBO Max": null
+  },
+  "762441": {
+   "Amazon Prime Video": null,
+   "fuboTV": null,
+   "MGM+ Amazon Channel": null,
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Philo": null,
+   "Paramount+ Amazon Channel": null,
+   "YouTube TV": null,
+   "MGM Plus": null,
+   "Paramount+ Roku Premium Channel": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "762504": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "763329": {
+   "JustWatch TV Plus": null
+  },
+  "776797": {
+   "Philo": null,
+   "AMC Plus Apple TV channel": null,
+   "AMC+ Amazon Channel": null,
+   "AMC+ Roku Premium Channel": null,
+   "AMC+": null,
+   "Shudder": null,
+   "Shudder Amazon Channel": null,
+   "Shudder Apple TV channel": null
+  },
+  "777443": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "786892": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "Cinemax Amazon Channel": null,
+   "HBO Max": null,
+   "Cinemax Apple TV Channel": null
+  },
+  "788734": {
+   "MUBI": null,
+   "MUBI Amazon Channel": null
+  },
+  "792307": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "814776": {
+   "Amazon Prime Video": null
+  },
+  "828853": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "835113": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "840705": {
+   "Peacock Premium": null,
+   "Peacock Premium Plus": null
+  },
+  "848791": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "870028": {
+   "Amazon Prime Video": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "870518": {
+   "Hulu": null
+  },
+  "875828": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "877817": {
+   "Apple TV": null,
+   "Apple TV Amazon Channel": null
+  },
+  "889737": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "HBO Max": null
+  },
+  "901362": {
+   "Amazon Prime Video": null,
+   "Peacock Premium": null,
+   "Amazon Prime Video with Ads": null,
+   "Peacock Premium Plus": null
+  },
+  "911430": {
+   "Apple TV": null,
+   "Apple TV Amazon Channel": null
+  },
+  "912649": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "913290": {
+   "fuboTV": null
+  },
+  "917496": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "Cinemax Amazon Channel": null,
+   "TNT": null,
+   "TBS": null,
+   "tru TV": null,
+   "HBO Max": null,
+   "Cinemax Apple TV channel": null
+  },
+  "930564": {
+   "Amazon Prime Video": null,
+   "Hulu": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "931349": {
+   "Hulu": null,
+   "Philo": null,
+   "AMC Plus Apple TV channel": null,
+   "AMC+ Amazon Channel": null,
+   "AMC+ Roku Premium Channel": null,
+   "AMC+": null,
+   "Shudder": null,
+   "Shudder Amazon Channel": null,
+   "Shudder Apple TV channel": null
+  },
+  "933260": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "MUBI": null,
+   "MUBI Amazon Channel": null,
+   "HBO Max": null
+  },
+  "937287": {
+   "Peacock Premium": null,
+   "Peacock Premium Plus": null
+  },
+  "938614": {
+   "Hulu": null,
+   "Philo": null,
+   "AMC Plus Apple TV Channel ": null,
+   "AMC+ Amazon Channel": null,
+   "AMC+": null,
+   "YouTube TV": null,
+   "Shudder": null,
+   "Shudder Amazon Channel": null,
+   "Shudder Apple TV Channel": null
+  },
+  "945961": {
+   "Hulu": null,
+   "YouTube TV": null
+  },
+  "950387": {
+   "HBO Max Amazon Channel": null,
+   "HBO Max": null
+  },
+  "957304": {
+   "Peacock Premium": null,
+   "Peacock Premium Plus": null
+  },
+  "968051": {
+   "YouTube TV": null,
+   "Cinemax Amazon Channel": null,
+   "HBO Max": null,
+   "Cinemax Apple TV Channel": null
+  },
+  "970284": {
+   "Peacock Premium": null,
+   "Peacock Premium Plus": null
+  },
+  "974576": {
+   "Starz Amazon Channel": null,
+   "Starz Apple TV channel": null
+  },
+  "975511": {
+   "fuboTV": null,
+   "Paramount Plus Premium": null,
+   "Paramount+ Amazon Channel": null
+  },
+  "986056": {
+   "Disney Plus": null
+  },
+  "986097": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "994143": {
+   "Philo": null,
+   "AMC Plus Apple TV channel": null,
+   "AMC+ Amazon Channel": null,
+   "AMC+ Roku Premium Channel": null,
+   "AMC+": null,
+   "Shudder": null,
+   "Shudder Amazon Channel": null,
+   "Shudder Apple TV channel": null
+  },
+  "999075": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "1007734": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "1020006": {
+   "Amazon Prime Video": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "1022789": {
+   "Disney Plus": null
+  },
+  "1032823": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "HBO Max": null
+  },
+  "1033148": {
+   "MUBI": null,
+   "MUBI Amazon Channel": null
+  },
+  "1034541": {
+   "Amazon Prime Video": null,
+   "YouTube TV": null,
+   "Screambox Amazon Channel": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "1042834": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "1047020": {
+   "fuboTV": null,
+   "Paramount Plus Premium": null,
+   "Paramount+ Amazon Channel": null,
+   "Paramount+ Roku Premium Channel": null
+  },
+  "1052280": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "1061474": {
+   "Amazon Prime Video": null,
+   "HBO Max Amazon Channel": null,
+   "HBO Max": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "1062722": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "1063877": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "1064213": {
+   "Hulu": null
+  },
+  "1078605": {
+   "Amazon Prime Video": null,
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "HBO Max": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "1084199": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "Cinemax Amazon Channel": null,
+   "HBO Max": null,
+   "Cinemax Apple TV Channel": null
+  },
+  "1086497": {
+   "Netflix": null
+  },
+  "1087891": {
+   "Amazon Prime Video": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "1088166": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "1100782": {
+   "Amazon Prime Video": null,
+   "fuboTV": null,
+   "MGM+ Amazon Channel": null,
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Philo": null,
+   "Paramount+ Amazon Channel": null,
+   "YouTube TV": null,
+   "Paramount+ Roku Premium Channel": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "1100988": {
+   "Netflix": null
+  },
+  "1114513": {
+   "Philo": null,
+   "Starz Apple TV Channel": null,
+   "Starz Roku Premium Channel": null,
+   "YouTube TV": null,
+   "Starz": null,
+   "Starz Amazon Channel": null
+  },
+  "1119449": {
+   "Hulu": null
+  },
+  "1124620": {
+   "Hulu": null
+  },
+  "1130022": {
+   "Hulu": null
+  },
+  "1137350": {
+   "Amazon Prime Video": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "1138194": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "Cinemax Amazon Channel": null,
+   "HBO Max": null,
+   "Cinemax Apple TV Channel": null
+  },
+  "1139829": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "1140498": {
+   "Hulu": null
+  },
+  "1140535": {
+   "Hulu": null
+  },
+  "1149504": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "1151031": {
+   "HBO Max Amazon Channel": null,
+   "Cinemax Amazon Channel": null,
+   "HBO Max": null,
+   "Cinemax Apple TV channel": null
+  },
+  "1154538": {
+   "Hulu": null
+  },
+  "1159831": {
+   "Amazon Prime Video": null,
+   "HBO Max Amazon Channel": null,
+   "HBO Max": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "1182047": {
+   "Amazon Prime Video": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "1184918": {
+   "Peacock Premium": null,
+   "Peacock Premium Plus": null
+  },
+  "1195506": {
+   "Amazon Prime Video": null,
+   "fuboTV": null,
+   "MGM+ Amazon Channel": null,
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Philo": null,
+   "Paramount+ Amazon Channel": null,
+   "MGM Plus Roku Premium Channel": null,
+   "YouTube TV": null,
+   "MGM Plus": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "1212763": {
+   "HBO Max Amazon Channel": null,
+   "HBO Max": null
+  },
+  "1218925": {
+   "Crunchyroll": null,
+   "Crunchyroll Amazon Channel": null
+  },
+  "1226578": {
+   "Hulu": null
+  },
+  "1226863": {
+   "Peacock Premium": null,
+   "Peacock Premium Plus": null
+  },
+  "1233413": {
+   "Amazon Prime Video": null,
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "HBO Max": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "1233575": {
+   "Peacock Premium": null,
+   "Peacock Premium Plus": null
+  },
+  "1234821": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "1239655": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "Cinemax Amazon Channel": null,
+   "HBO Max": null,
+   "Cinemax Apple TV Channel": null
+  },
+  "1242011": {
+   "Hulu": null
+  },
+  "1245993": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "1260794": {
+   "Philo": null,
+   "Starz Amazon Channel": null,
+   "Starz": null,
+   "Starz Apple TV channel": null,
+   "Starz Roku Premium Channel": null
+  },
+  "1267905": {
+   "Hulu": null
+  },
+  "1272837": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "1275779": {
+   "Peacock Premium": null,
+   "Peacock Premium Plus": null
+  },
+  "1284120": {
+   "Hulu": null,
+   "Philo": null,
+   "AMC Plus Apple TV Channel ": null,
+   "AMC+ Amazon Channel": null,
+   "AMC+": null,
+   "YouTube TV": null,
+   "Shudder": null,
+   "Shudder Amazon Channel": null,
+   "Shudder Apple TV Channel": null
+  },
+  "1290159": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "1290792": {
+   "Hulu": null
+  },
+  "1304313": {
+   "HBO Max Amazon Channel": null,
+   "HBO Max": null
+  },
+  "1317288": {
+   "HBO Max Amazon Channel": null,
+   "YouTube TV": null,
+   "HBO Max": null
+  },
+  "1337592": {
+   "MUBI": null,
+   "MUBI Amazon Channel": null
+  },
+  "1339713": {
+   "Peacock Premium": null,
+   "Peacock Premium Plus": null
+  },
+  "1368166": {
+   "Starz Amazon Channel": null,
+   "HBO Max": null,
+   "Starz Apple TV channel": null,
+   "Starz Roku Premium Channel": null
+  },
+  "1380291": {
+   "Amazon Prime Video": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "1397385": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
+  "1429348": {
+   "Amazon Prime Video": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "1633264": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  }
+ }
+}
