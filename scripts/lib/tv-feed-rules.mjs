@@ -92,3 +92,54 @@ export function pickStills(primary, shares, max = 2) {
   rest.sort((a, b) => (shares[a] ?? 1) - (shares[b] ?? 1));
   return { primary: first, alts: rest.slice(0, max) };
 }
+
+// ---- one word cutter for every published string (the TV's TextCut is the Kotlin twin)
+/** [s] whitespace-collapsed; when longer than [max], cut at the last whole word, without trailing stopwords, plus "…". */
+export function cutWords(s, max) {
+  const t = String(s ?? "").split(/\s+/).join(" ").trim();
+  if (t.length <= max) return t;
+  const head = t.slice(0, max - 1);
+  const atWord = /\s/.test(t[max - 1]) ? head : head.replace(/\s+\S*$/, "");
+  const cut = dropDangling(atWord || head);
+  return (cut || head) + "…";
+}
+
+// ---- no ratings history in the published feed (review 2026-10-25 B7)
+// The feed carries reasons, never the owner's ratings: "X wrote and directed this — you rated A 5★, B 4½★" becomes
+// "X wrote and directed this, like A and B", and any other sentence that talks about ratings or stars is dropped.
+const RATED_CLAUSE = /^(.*?)\s*[—–-]+\s*you rated\s+(.+)$/i;
+const joinAnd = (xs) => (xs.length <= 1 ? xs.join("") : `${xs.slice(0, -1).join(", ")} and ${xs[xs.length - 1]}`);
+export const RATING_WORDS = /★|☆|½|\brat(?:e|es|ing|ings)\b|rated/i;
+function stripClause(part) {
+  const m = RATED_CLAUSE.exec(part);
+  if (!m) return part;
+  const titles = m[2].split(/★\s*,?\s*/)
+    .map((t) => t.replace(/\s*\d+(?:[.,]\d+)?\s*½?\s*$/, "").replace(/\s*½\s*$/, "").replace(/^[,\s]+|[,\s]+$/g, ""))
+    .filter(Boolean);
+  const lead = m[1].replace(/[\s,;:]+$/, "");
+  return titles.length ? `${lead}, like ${joinAnd(titles)}` : lead;
+}
+/** A `why` / note with every ratings-derived clause removed; parts stay " · "-joined; "" when nothing is left. */
+export function ratingFree(why) {
+  return String(why ?? "").split(" · ").map((part) => {
+    const s = stripClause(part.trim());
+    return s.split(/(?<=[.!?])\s+/).filter((x) => x && !RATING_WORDS.test(x)).join(" ").trim();
+  }).filter(Boolean).join(" · ");
+}
+/** Every string in a feed document (recursively), with its JSON path. */
+export function* feedStrings(v, at = "$") {
+  if (typeof v === "string") yield [at, v];
+  else if (Array.isArray(v)) for (let i = 0; i < v.length; i++) yield* feedStrings(v[i], `${at}[${i}]`);
+  else if (v && typeof v === "object") for (const [k, x] of Object.entries(v)) yield* feedStrings(x, `${at}.${k}`);
+}
+/**
+ * Published strings that read as ratings history: a star anywhere, or "rated" in a taste-written field (`why`, `note`).
+ * TMDB's own prose (overview, tagline) is not ratings history and legitimately holds words like "separated".
+ */
+export const ratingLeaks = (doc) => [...feedStrings(doc)].filter(([at, s]) => s.includes("★") || (/\.(why|note)$/.test(at) && /rated/i.test(s)));
+
+// ---- the ambient bill's verb (TV: AmbientItem.verb, "Available on X" vs "Rent on X")
+/** "Available" when the route streams (flatrate/free), "Rent" when it is rent/buy only. */
+export const ambientVerb = (streams) => (streams ? "Available" : "Rent");
+/** The list note for a rent-only film on a mapped store. The TV parses exactly this form (Providers.venuesOfNote). */
+export const rentNote = (label) => `Rent on ${label}`;

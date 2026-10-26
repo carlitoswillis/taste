@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { isStore, stores, repeatsOverview, dropDangling, darkRegion, pickStills, DARK_SHARE } from "./tv-feed-rules.mjs";
+import { isStore, stores, repeatsOverview, dropDangling, darkRegion, pickStills, DARK_SHARE, cutWords, ratingFree, ratingLeaks, ambientVerb, rentNote } from "./tv-feed-rules.mjs";
 
 test("JustWatch and Plex's channel are never a rent/buy venue", () => {
   assert.equal(isStore("JustWatch TV"), false);
@@ -29,6 +29,49 @@ test("a cut never ends on a dangling word", () => {
   assert.equal(dropDangling("Dune and the"), "Dune");
   assert.equal(dropDangling("The"), "The");
   assert.equal(dropDangling("Fine ending"), "Fine ending");
+});
+
+test("cutWords: one cutter, whole words, no dangling stopword, ellipsis only when cut", () => {
+  assert.equal(cutWords("  short   text ", 40), "short text");
+  assert.equal(cutWords("A man walks into the bar and orders", 22), "A man walks…"); // "into the" both dangle
+  assert.equal(cutWords("A man walks slowly toward the bar", 22), "A man walks slowly…");
+  assert.equal(cutWords("A man and the dog", 15), "A man…");
+  const long = "word ".repeat(600).trim();
+  const c = cutWords(long, 2000);
+  assert.ok(c.length <= 2000 && c.endsWith("word…"));
+  assert.equal(cutWords("Supercalifragilistic", 10), "Supercali…");
+});
+
+test("ratingFree keeps the link and drops the ratings (B7)", () => {
+  assert.equal(ratingFree("Ingmar Bergman wrote and directed this — you rated The Seventh Seal 5★, Persona 5★"),
+    "Ingmar Bergman wrote and directed this, like The Seventh Seal and Persona");
+  assert.equal(ratingFree("Christopher Nolan directed this — you rated Memento 4½★, The Prestige 5★, Inception 4★"),
+    "Christopher Nolan directed this, like Memento, The Prestige and Inception");
+  assert.equal(ratingFree("Ridley Scott directed this — you rated Prometheus 3.5★"), "Ridley Scott directed this, like Prometheus");
+  assert.equal(ratingFree("Joel Coen co-wrote this — you rated No Country for Old Men 5★ · themes: dread, chance"),
+    "Joel Coen co-wrote this, like No Country for Old Men · themes: dread, chance");
+  // Free-text queue reasons: a sentence about ratings goes, the rest stays.
+  assert.equal(ratingFree("Identical twins. The pattern that runs through everything you rate 4½ and up. It fills a gap."), "Identical twins. It fills a gap.");
+  assert.equal(ratingFree("The original that Bugonia remakes. You rated the remake 4½ sight-unseen on the source."), "The original that Bugonia remakes.");
+  assert.equal(ratingFree("You rated it 5★"), "");
+  assert.equal(ratingFree("Twist architecture in the Prestige tradition."), "Twist architecture in the Prestige tradition.");
+  assert.equal(ratingFree(undefined), "");
+});
+
+test("ratingLeaks finds a star anywhere and 'rated' in a taste-written field only", () => {
+  const doc = { list: { items: [{ why: "X directed this — you rated Y 5★", overview: "Two separated twins." }] }, ambient: { items: [{ note: "Underrated." }] } };
+  assert.deepEqual(ratingLeaks(doc).map(([at]) => at), ["$.list.items[0].why", "$.ambient.items[0].note"]);
+  assert.deepEqual(ratingLeaks({ list: { items: [{ tagline: "5★ cinema" }] } }).map(([at]) => at), ["$.list.items[0].tagline"]);
+});
+
+test("ambient verb: Available when it streams, Rent when rent/buy only (B2)", () => {
+  assert.equal(ambientVerb(true), "Available");
+  assert.equal(ambientVerb(false), "Rent");
+});
+
+test("a rent-only note is exactly 'Rent on <label>' (B8 twin of Providers.venuesOfNote on the TV)", () => {
+  assert.equal(rentNote("Prime Video"), "Rent on Prime Video");
+  assert.match(rentNote("Apple TV"), /^Rent on [^:]+$/);
 });
 
 const W = 100, H = 60;

@@ -6,8 +6,11 @@
 // `backdropUrl` (w780), `detailUrl` (w1280) and `portraitUrl` (w342) and `altBackdropUrls` (w780: the film's other backdrops,
 // least black first, from data/tv-backdrops.json; the primary is one that is not mostly black); `sent` is always [] (no Send to TV queue here).
 // Rules (scripts/lib/tv-feed-rules.mjs): JustWatch and other non-stores are never a rent/buy venue; a tagline that only repeats
-// the plot is dropped; a `why` never ends on "The…".
-// Publishes only watchlist-derived films. The path segment is the unguessable part: it lives in config.json
+// the plot is dropped; every cut (overview, why, note, tagline) is one cutter, cutWords, that never ends on "The…".
+// Publishes the owner's queue, a sample of the Letterboxd watchlist and a few recommender suggestions, with their reasons.
+// It never publishes ratings history: every `why` and ambient `note` goes through ratingFree ("X directed this, like A
+// and B", no stars, no "you rated"), and the build fails if any published string still holds "★" or "rated".
+// Ambient items carry `verb`: "Available" for a streaming route, "Rent" for a rent/buy-only one. The path segment is the unguessable part: it lives in config.json
 // (tvFeedPath), is stripped from the published copy of config.json (build.mjs), and robots.txt disallows /tv/.
 // Run after scripts/build.mjs: node scripts/build-tv-feed.mjs
 
@@ -16,7 +19,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { dateKey, weightedSample, dailySample } from "./lib/daily-pick.mjs";
 import { ambientDay, ambientSize } from "./lib/ambient-pick.mjs";
-import { stores, repeatsOverview, dropDangling, pickStills } from "./lib/tv-feed-rules.mjs";
+import { stores, repeatsOverview, pickStills, cutWords, ratingFree, ratingLeaks, ambientVerb, rentNote } from "./lib/tv-feed-rules.mjs";
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const dist = process.env.TV_FEED_DIST || path.join(root, "dist");
@@ -72,7 +75,7 @@ function noteFor(p = {}, m) {
   if (m.other.length) return m.other[0];
   const rb = stores([...(p.rent ?? []), ...(p.buy ?? [])]);
   const rv = rb.map(rentVenue).find(Boolean);
-  if (rv) return `Rent on ${rv.label}`;
+  if (rv) return rentNote(rv.label);
   return rb.length ? `Rent or buy: ${rb.slice(0, 2).join(", ")}` : `Not streaming in ${region}`;
 }
 
@@ -81,11 +84,7 @@ const directorOf = (d) => (Array.isArray(d) ? namesOf(d).join(", ") : typeof d =
 const OVERVIEW_MAX = 2000; // the TV's full plot page shows it whole; views clip themselves (firetv-launcher YOURLIST.md)
 function details(e = {}) {
   const d = {};
-  let overview = String(e.overview ?? "").split(/\s+/).join(" ").trim();
-  if (overview.length > OVERVIEW_MAX) {
-    const cut = overview.slice(0, OVERVIEW_MAX).replace(/\s+\S*$/, "").replace(/[\s,;:-]+$/, "");
-    overview = (cut || overview.slice(0, OVERVIEW_MAX)) + "…";
-  }
+  const overview = cutWords(e.overview, OVERVIEW_MAX);
   if (overview) d.overview = overview;
   const tagline = String(e.tagline ?? "").split(/\s+/).join(" ").trim();
   if (tagline && !repeatsOverview(tagline, overview)) d.tagline = tagline;
@@ -166,9 +165,9 @@ const wellRegarded = (c) => {
 const suggPool = fromSugg.filter((c) => !taken.has(c.tmdbId) && !seenFilm.has(normTitle(c.title, c.year)) && !names.has(normTitle(c.title, c.year))
   && (Number(c.score) || 0) >= medianScore && wellRegarded(c));
 const suggPick = dailySample(suggPool, { weight: (c) => Math.pow(Number(c.score) || 0, 1.5), id: (c) => c.tmdbId, k: SUGG_PICKS, date: today, salt: "suggestions" }).map((c) => {
-  // suggestions.json `why` is " · "-joined reasons; keep the first one, which is real data from the file.
-  const why = String(c.why ?? "").split(" · ")[0].trim();
-  return { ...c, source: "suggestion", why: why.length > 140 ? dropDangling(why.slice(0, 139).replace(/\s+\S*$/, "")) + "…" : why };
+  // suggestions.json `why` is " · "-joined reasons; keep the first one with its ratings clause removed.
+  const why = ratingFree(String(c.why ?? "").split(" · ")[0]);
+  return { ...c, source: "suggestion", why: cutWords(why, 140) };
 });
 const queue = [...fromWatch, ...lbPick, ...suggPick].slice(0, MAX_LIST);
 globalThis.__groups = { watch: fromWatch.length, lb: lbPick.length, sugg: suggPick.length, date: today };
@@ -224,18 +223,21 @@ if (day.relaxed) console.warn(`ambient: freshness relaxed to ${day.window} day(s
 const ambient = day.items.map(({ c, r, b, pp }) => ({
   id: String(c.tmdbId), title: c.title, ...(c.year ? { year: c.year } : {}),
   ...(c.director ? { director: c.director } : {}),
-  app: r.apps[0], appLabel: r.rules[0].label ?? r.rules[0].match[0],
-  ...(c.why ? { note: String(c.why).slice(0, 280) } : {}),
+  app: r.apps[0], appLabel: r.rules[0].label ?? r.rules[0].match[0], verb: ambientVerb(r.streams),
+  ...(ratingFree(c.why) ? { note: cutWords(ratingFree(c.why), 280) } : {}),
   ...(b ? { backdropUrl: `${IMG}/w1280${b}` } : {}),
   ...(pp ? { posterUrl: `${IMG}/w780${pp}` } : {}),
   // The film's own line for the ambient bill's quiet line when there is no taste note (details() drops plot-repeating taglines).
-  ...(details(c.e).tagline ? { tagline: details(c.e).tagline.slice(0, 200) } : {}),
+  ...(details(c.e).tagline ? { tagline: cutWords(details(c.e).tagline, 200) } : {}),
 }));
 globalThis.__ambientPool = ambPool.length;
 
+const doc = { v: 1, generated: now, list: { items: list }, sent: [], ambient: { items: ambient } };
+const leaks = ratingLeaks(doc);
+if (leaks.length) { console.error(`TV feed would publish ratings history at ${leaks.slice(0, 5).map(([at]) => at).join(", ")}`); process.exit(1); }
 const out = path.join(dist, "tv", cfg.tvFeedPath);
 mkdirSync(out, { recursive: true });
-writeFileSync(path.join(out, "feed.json"), JSON.stringify({ v: 1, generated: now, list: { items: list }, sent: [], ambient: { items: ambient } }));
+writeFileSync(path.join(out, "feed.json"), JSON.stringify(doc));
 
 // robots.txt: keep any existing rules, make sure /tv/ is disallowed.
 const robots = path.join(dist, "robots.txt");
