@@ -15,6 +15,7 @@ import os from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { parseCsv } from "./lib/csv.mjs";
+import { mergeExportWatched } from "./lib/letterboxd.mjs";
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const input = process.argv[2];
@@ -50,8 +51,12 @@ if (watchedCsv) {
   const watched = rows
     .filter((r) => r.Name && r.Year)
     .map((r) => ({ title: r.Name, year: Number(r.Year), watched: r.Date || null, uri: r["Letterboxd URI"] || null }));
-  await writeFile(path.join(root, "data/watched.json"), JSON.stringify(watched, null, 2) + "\n");
-  console.log(`${watched.length} films -> data/watched.json`);
+  // Export dates beat "first-seen" dates; first-seen films the export lacks are kept.
+  let current = [];
+  try { current = JSON.parse(await readFile(path.join(root, "data/watched.json"), "utf8")); } catch {}
+  const merged = mergeExportWatched(current, watched);
+  await writeFile(path.join(root, "data/watched.json"), JSON.stringify(merged, null, 2) + "\n");
+  console.log(`${merged.length} films -> data/watched.json`);
 }
 
 // --- ratings.csv -> merge new ones into data/ratings.json -------------------

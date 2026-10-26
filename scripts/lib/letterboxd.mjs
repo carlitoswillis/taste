@@ -95,3 +95,55 @@ export function mergeEntries(prev, next) {
   }
   return [...map.values()];
 }
+
+// ---- watched.json reconciliation (first-seen dating) ----------------------
+
+export const normTitle = (s) =>
+  String(s ?? "").toLowerCase().normalize("NFKD").replace(/[̀-ͯ]/g, "").replace(/&/g, "and").replace(/[^a-z0-9]+/g, " ").trim();
+const tyKey = (f) => `${normTitle(f.title)}|${f.year ?? ""}`;
+const slugOf = (link) => String(link ?? "").match(/\/film\/([^/]+)\/?/)?.[1] ?? null;
+
+// Today's date in America/Los_Angeles as YYYY-MM-DD.
+export function laDate(now = new Date()) {
+  return new Intl.DateTimeFormat("en-CA", { timeZone: "America/Los_Angeles", year: "numeric", month: "2-digit", day: "2-digit" }).format(now);
+}
+
+// Add films that appear in the fetched entries but not in watched.json.
+// Matching: Letterboxd URI/slug, else normalised title+year. A film that is
+// already present is never touched (its date is kept); films missing from the
+// fetch are never removed. Undated fetched entries are stamped with `today`
+// and dateSource "first-seen"; dated entries (RSS) keep their own date.
+// Returns { watched, added }.
+export function addFirstSeen(watched, entries, today) {
+  const out = [...watched];
+  const uris = new Set(), slugs = new Set(), keys = new Set();
+  for (const w of out) {
+    if (w.uri) uris.add(w.uri);
+    const s = slugOf(w.link ?? w.uri);
+    if (s) slugs.add(s);
+    keys.add(tyKey(w));
+  }
+  const added = [];
+  for (const e of entries) {
+    const s = slugOf(e.link);
+    if ((e.link && uris.has(e.link)) || (s && slugs.has(s)) || keys.has(tyKey(e))) continue;
+    const rec = e.watched
+      ? { title: e.title, year: e.year, watched: e.watched }
+      : { title: e.title, year: e.year, watched: today, dateSource: "first-seen" };
+    if (s) rec.link = e.link;
+    out.push(rec);
+    if (s) slugs.add(s);
+    keys.add(tyKey(e));
+    added.push(rec);
+  }
+  return { watched: out, added };
+}
+
+// Combine an export's watched rows (real dates) with the current watched.json:
+// export rows win; first-seen rows the export doesn't know yet are kept.
+export function mergeExportWatched(current, exported) {
+  const keys = new Set(exported.map(tyKey));
+  const uris = new Set(exported.map((w) => w.uri).filter(Boolean));
+  const keep = current.filter((w) => w.dateSource === "first-seen" && !keys.has(tyKey(w)) && !(w.uri && uris.has(w.uri)));
+  return [...exported, ...keep];
+}

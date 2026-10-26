@@ -3,11 +3,20 @@
 // Letterboxd has no open API, but every account exposes ~50 recent entries at
 // letterboxd.com/<user>/rss/ including star ratings and rewatch flags.
 // Run: node scripts/fetch-letterboxd.mjs
+//
+// Dating: the /films/ grid lists the newest marks first and carries no dates.
+// A film in the grid that is not yet in data/watched.json is recorded with
+// watched = the sync date (America/Los_Angeles) and dateSource "first-seen";
+// the daily sync sees a new mark within a day. Existing dates are never changed
+// and films that fall off page 1 are never removed. So dated history no longer
+// needs exports (an export via scripts/import-letterboxd.mjs still replaces
+// first-seen dates with real ones). Exact dates come from logging a film via
+// Letterboxd's "Log" (diary), not the eye icon.
 
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { parseRss, parseFilmsGrid, lastFilmsPage, isChallenge, chooseEntries, mergeEntries } from "./lib/letterboxd.mjs";
+import { parseRss, parseFilmsGrid, lastFilmsPage, isChallenge, chooseEntries, mergeEntries, addFirstSeen, laDate } from "./lib/letterboxd.mjs";
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const config = JSON.parse(await readFile(path.join(root, "config.json"), "utf8"));
@@ -128,16 +137,10 @@ if (ratingsChanged) {
 // from Letterboxd (importer CSV) just like the RSS, so the exact key is safe —
 // and it keeps remakes (two years, one title) distinct.
 const watched = JSON.parse(await readFile(path.join(root, "data/watched.json"), "utf8"));
-const seen = new Set(watched.map((w) => key(w)));
-let watchedAdded = 0;
-for (const e of entries) {
-  if (seen.has(key(e))) continue;
-  watched.push(e.watched ? { title: e.title, year: e.year, watched: e.watched } : { title: e.title, year: e.year, watched: null, undated: true });
-  seen.add(key(e));
-  watchedAdded++;
-  console.log(`  merged watch: ${e.title} (${e.year}) — ${e.watched}`);
-}
+const { watched: watchedNext, added } = addFirstSeen(watched, entries, laDate());
+const watchedAdded = added.length;
+for (const w of added) console.log(`  merged watch: ${w.title} (${w.year}) — ${w.watched}${w.dateSource ? " (first-seen)" : ""}`);
 if (watchedAdded) {
-  await writeFile(path.join(root, "data/watched.json"), JSON.stringify(watched, null, 2) + "\n");
+  await writeFile(path.join(root, "data/watched.json"), JSON.stringify(watchedNext, null, 2) + "\n");
   console.log(`Merged ${watchedAdded} new watches -> data/watched.json`);
 }
