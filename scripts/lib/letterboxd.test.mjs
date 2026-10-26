@@ -61,21 +61,21 @@ test("mergeEntries dedupes, upgrades undated to dated, keeps likes", () => {
   assert.equal(mergeEntries(m, next).length, 2); // idempotent
 });
 
-const grid = (t, y, slug) => ({ title: t, year: y, rating: null, watched: null, undated: true, link: `https://letterboxd.com/film/${slug}/` });
+const gridFilm = (t, y, slug) => ({ title: t, year: y, rating: null, watched: null, undated: true, link: `https://letterboxd.com/film/${slug}/` });
 
 test("addFirstSeen: new film gets sync date + dateSource; existing dated film untouched; none removed", () => {
   const cur = [{ title: "Heat", year: 1995, watched: "2024-01-02", uri: "https://boxd.it/abc" }, { title: "Old", year: 1990, watched: "2020-01-01" }];
-  const { watched, added } = addFirstSeen(cur, [grid("Heat", 1995, "heat"), grid("Ran", 1985, "ran")], "2026-10-25");
+  const { watched, added } = addFirstSeen(cur, [gridFilm("Heat", 1995, "heat"), gridFilm("Ran", 1985, "ran")], "2026-10-25");
   assert.equal(added.length, 1);
   assert.deepEqual(watched.find((w) => w.title === "Ran"), { title: "Ran", year: 1985, watched: "2026-10-25", dateSource: "first-seen", link: "https://letterboxd.com/film/ran/" });
   assert.equal(watched.find((w) => w.title === "Heat").watched, "2024-01-02");
   assert.ok(watched.some((w) => w.title === "Old")); // fell off page 1, kept
-  assert.equal(addFirstSeen(watched, [grid("Ran", 1985, "ran")], "2026-10-26").added.length, 0);
+  assert.equal(addFirstSeen(watched, [gridFilm("Ran", 1985, "ran")], "2026-10-26").added.length, 0);
 });
 
 test("addFirstSeen: matches by normalised title+year", () => {
   const cur = [{ title: "Amélie", year: 2001, watched: "2022-02-02" }];
-  assert.equal(addFirstSeen(cur, [grid("Amelie", 2001, "amelie")], "2026-10-25").added.length, 0);
+  assert.equal(addFirstSeen(cur, [gridFilm("Amelie", 2001, "amelie")], "2026-10-25").added.length, 0);
 });
 
 test("mergeExportWatched: export date beats first-seen; unknown first-seen kept", () => {
