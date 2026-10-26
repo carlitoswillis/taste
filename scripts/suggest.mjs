@@ -14,6 +14,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { STORY_JOBS, WRITER_JOBS, scoreFilm, describeCredit } from "./lib/film-score.mjs";
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 
@@ -144,31 +145,33 @@ for (const [, p] of topPeople.slice(0, 10)) {
 
 // --- candidate films from those people's filmographies ----------------------
 // A person's pull toward a candidate depends on what they actually did ON that
-// film. A story credit is not directing — before this factor existed, Man of
-// Steel arrived carrying Christopher Nolan's full director-affinity weight on
-// the strength of a story credit, and the card claimed he "directed" it.
-const CREDIT_FACTOR = { director: 1, writer: 0.8, story: 0.4, actor: 0.6 };
-const candidates = new Map(); // tmdbId -> {film, score, contributors:[]}
+// film, and how prominent that was — see scripts/lib/film-score.mjs for the
+// rules (role, billing order, anthology crowding, corroboration, quality prior).
+// Here we only collect the raw credits; scoring happens once we know the film's
+// full credit counts.
+const candidates = new Map(); // tmdbId -> {film, contributors:[{id, name, weight, credits, via, favourite}]}
 
 for (const [id, p] of topPeople) {
   const credits = await tmdb(`/person/${id}/movie_credits`);
   await pause();
   const works = [];
   if (p.roles.has("director")) {
-    for (const c of (credits.crew ?? []).filter((c) => c.job === "Director")) works.push({ ...c, credit: "director" });
+    for (const c of (credits.crew ?? []).filter((c) => c.job === "Director")) works.push({ ...c, credit: { kind: "director" } });
   }
   if (p.roles.has("writer")) {
-    for (const c of (credits.crew ?? []).filter((c) => ["Writer", "Screenplay", "Story"].includes(c.job)))
-      works.push({ ...c, credit: c.job === "Story" ? "story" : "writer" });
+    // Screenplay/Writer are authorship; Story/Novel/Characters are idea credits.
+    for (const c of (credits.crew ?? []).filter((c) => [...WRITER_JOBS, ...STORY_JOBS].includes(c.job)))
+      works.push({ ...c, credit: { kind: WRITER_JOBS.includes(c.job) ? "writer" : "story" } });
   }
   if (p.roles.has("actor")) {
-    for (const c of (credits.cast ?? []).filter((c) => (c.order ?? 99) <= 4)) works.push({ ...c, credit: "actor" });
+    // keep billing order: a lead is not a bit part
+    for (const c of (credits.cast ?? []).filter((c) => (c.order ?? 99) <= 4)) works.push({ ...c, credit: { kind: "actor", order: c.order ?? 99 } });
   }
   // one person can hold several jobs on one film — collect them before scoring
   const byFilm = new Map();
   for (const w of works) {
-    const cur = byFilm.get(w.id) ?? { info: w, credits: new Set() };
-    cur.credits.add(w.credit);
+    const cur = byFilm.get(w.id) ?? { info: w, credits: [] };
+    cur.credits.push(w.credit);
     byFilm.set(w.id, cur);
   }
   for (const { info: w, credits: filmCredits } of byFilm.values()) {
@@ -182,17 +185,26 @@ for (const [id, p] of topPeople) {
       tmdbId: w.id,
       tmdbRating: w.vote_average ?? 0,
       votes: w.vote_count ?? 0,
-      score: 0,
       contributors: [],
     };
     if (!c.contributors.some((x) => x.id === id)) {
-      const factor = Math.max(...[...filmCredits].map((r) => CREDIT_FACTOR[r]));
-      c.score += p.weight * factor;
-      c.contributors.push({ id, name: p.name, credits: [...filmCredits], weight: p.weight * factor, via: p.via });
+      // a story credit only counts for more when the source is a 5-star film of yours
+      const favourite = p.via.some((v) => v.score >= 5);
+      c.contributors.push({ id, name: p.name, weight: p.weight, credits: filmCredits, via: p.via, favourite });
     }
     candidates.set(w.id, c);
   }
 }
+
+// Provisional pass (no crowding info yet, theme benefit of the doubt) just to
+// pick whom to look at closely. Then ONE detail call per shortlisted film gives
+// the full credit counts (anthology crowding) and the keywords (themes).
+const SHORTLIST = POOL * 3;
+const shortlist = [...candidates.values()]
+  .map((c) => ({ c, s: scoreFilm(c.contributors, { tmdbRating: c.tmdbRating, votes: c.votes, counts: {}, themeScore: 1 }).score }))
+  .sort((a, b) => b.s - a.s)
+  .slice(0, SHORTLIST)
+  .map((x) => x.c);
 
 // --- theme scoring: candidate keywords vs the curated theme vocabulary ------
 // Weighted by your own theme affinities (0..1 each, sum capped at 2). With
@@ -212,26 +224,30 @@ const themeScoreOf = (keywords) => {
   return { score: Math.min([...hit].reduce((s, t) => s + (themeWeight.get(t) ?? 0), 0), 2), themes: [...hit] };
 };
 
-if (useThemes) {
-  // score deep enough that the tail of the pool is themed too, not just the head
-  const shortlist = [...candidates.values()]
-    .sort((a, b) => b.score * 2 + b.tmdbRating / 2 - (a.score * 2 + a.tmdbRating / 2))
-    .slice(0, POOL * 2);
-  for (const c of shortlist) {
-    const kw = await tmdb(`/movie/${c.tmdbId}/keywords`);
-    await pause();
-    const { score, themes } = themeScoreOf(kw.keywords ?? []);
+for (const c of shortlist) {
+  const d = await tmdb(`/movie/${c.tmdbId}`, { append_to_response: "credits,keywords" });
+  await pause();
+  const crew = d.credits?.crew ?? [];
+  const uniq = (jobs) => new Set(crew.filter((x) => jobs.includes(x.job)).map((x) => x.id)).size;
+  c.counts = { director: uniq(["Director"]), writer: uniq(WRITER_JOBS) || uniq(STORY_JOBS), cast: d.credits?.cast?.length ?? 0 };
+  if (useThemes) {
+    const { score, themes } = themeScoreOf(d.keywords?.keywords ?? []);
     c.themeScore = score;
     c.themes = themes;
   }
+  const r = scoreFilm(c.contributors, c);
+  c.score = Math.round(r.score * 100) / 100;
+  c.links = r.links; // strongest first, indexes into contributors
+  c.corroborated = r.corroborated;
 }
 
 // Rank, but cap how many slots any one person can take — otherwise a single
 // beloved director with a deep filmography floods the whole list. Two passes:
 // the headline gets the tight cap, then the pool refills with a looser one, so
 // depth costs variety only after the top of the list is settled.
-const sorted = [...candidates.values()]
-  .map((c) => ({ ...c, rankScore: c.score * 2 + (c.themeScore ?? 0) * THEME_BLEND + c.tmdbRating / 2 }))
+// (the quality prior is already inside c.score, so no separate rating term)
+const sorted = shortlist
+  .map((c) => ({ ...c, rankScore: c.score * 2 + (c.themeScore ?? 0) * THEME_BLEND }))
   .sort((a, b) => b.rankScore - a.rankScore);
 const taken = new Map(); // person id -> count
 const chosen = new Set(); // tmdb ids already placed
@@ -329,15 +345,14 @@ for (const c of toEnrich) {
   // describes the person's credit on THIS film — never their role elsewhere.
   // (theme wildcards carry no contributors — their why is set already)
   if (c.contributors) {
-    c.why = c.contributors
-      .sort((a, b) => b.weight - a.weight)
+    // strongest REAL links only: drop ones far weaker than the lead link
+    const top = c.links[0]?.weight ?? 0;
+    c.why = c.links
+      .filter((l, i) => i === 0 || l.weight >= top * 0.25)
       .slice(0, 2)
-      .map((p) => {
-        const did = p.credits.includes("director")
-          ? p.credits.includes("writer") ? "wrote and directed this" : "directed this"
-          : p.credits.includes("writer") ? "wrote this"
-          : p.credits.includes("story") ? "has a story credit here"
-          : "stars in this";
+      .map((l) => {
+        const p = c.contributors[l.index];
+        const did = describeCredit(l.kind, p.credits, c.counts);
         const via = p.via.slice(0, 3).map((v) => `${v.title} ${v.score}★`).join(", ");
         return `${p.name} ${did} — you rated ${via}`;
       })
@@ -346,6 +361,9 @@ for (const c of toEnrich) {
   if (c.themes?.length) c.why += ` · themes: ${c.themes.map((t) => (themeName.get(t) ?? t).toLowerCase()).join(", ")}`;
   else delete c.themes;
   delete c.contributors;
+  delete c.links;
+  delete c.counts;
+  delete c.corroborated;
   delete c.rankScore;
   delete c.themeScore;
   // votes survives: the UI's "deep cuts" lens is a vote-count filter
