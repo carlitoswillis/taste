@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Builds the Fire TV launcher's feed into dist/tv/<config.tvFeedPath>/feed.json (GitHub Pages serves dist/).
+// Builds the Fire TV launcher's feed into dist/tv/<TV_FEED_PATH>/feed.json (GitHub Pages serves dist/).
 // Same document as the assistant's GET /tv/feed (v1): { v, generated, list:{items}, sent:[], ambient:{items} },
 // built daily (America/Los_Angeles seed, scripts/lib/daily-pick.mjs) from: the whole taste queue, a weighted sample of
 // 30 Letterboxd watchlist films, and 10 recommender picks (source "suggestion", with a `why`), joined to data/enrichment.json. Differences: list items also carry raw `providers` (flatrate/free/rent/buy), plus
@@ -10,8 +10,8 @@
 // Publishes the owner's queue, a sample of the Letterboxd watchlist and a few recommender suggestions, with their reasons.
 // It never publishes ratings history: every `why` and ambient `note` goes through ratingFree ("X directed this, like A
 // and B", no stars, no "you rated"), and the build fails if any published string still holds "★" or "rated".
-// Ambient items carry `verb`: "Available" for a streaming route, "Rent" for a rent/buy-only one. The path segment is the unguessable part: it lives in config.json
-// (tvFeedPath), is stripped from the published copy of config.json (build.mjs), and robots.txt disallows /tv/.
+// Ambient items carry `verb`: "Available" for a streaming route, "Rent" for a rent/buy-only one. The path segment is the unguessable part: it is the TV_FEED_PATH
+// repo secret (this repo is public; never committed), and robots.txt disallows /tv/.
 // Run after scripts/build.mjs: node scripts/build-tv-feed.mjs
 
 import { readFileSync, mkdirSync, writeFileSync, existsSync } from "node:fs";
@@ -31,7 +31,9 @@ const IMG = "https://image.tmdb.org/t/p";
 
 const readJson = (f, fb) => { try { return JSON.parse(readFileSync(path.join(root, f), "utf8")); } catch { return fb; } };
 const cfg = readJson("config.json", {});
-if (!/^[0-9a-f]{32}$/.test(cfg.tvFeedPath ?? "")) { console.error("config.json tvFeedPath missing or not 32 hex chars"); process.exit(1); }
+const FEED_PATH = process.env.TV_FEED_PATH ?? "";
+// The repo is PUBLIC: the path comes only from the TV_FEED_PATH secret (CI) or env (local), never from a committed file.
+if (!/^[0-9a-f]{32}$/.test(FEED_PATH)) { console.error("TV_FEED_PATH env (32 hex chars) is required"); process.exit(1); }
 const region = cfg.region ?? "US";
 const PROVIDERS = readJson("data/tv-providers.json", null);
 if (!PROVIDERS) { console.error("data/tv-providers.json missing"); process.exit(1); }
@@ -235,7 +237,7 @@ globalThis.__ambientPool = ambPool.length;
 const doc = { v: 1, generated: now, list: { items: list }, sent: [], ambient: { items: ambient } };
 const leaks = ratingLeaks(doc);
 if (leaks.length) { console.error(`TV feed would publish ratings history at ${leaks.slice(0, 5).map(([at]) => at).join(", ")}`); process.exit(1); }
-const out = path.join(dist, "tv", cfg.tvFeedPath);
+const out = path.join(dist, "tv", FEED_PATH);
 mkdirSync(out, { recursive: true });
 writeFileSync(path.join(out, "feed.json"), JSON.stringify(doc));
 
@@ -246,5 +248,5 @@ if (!/^Disallow:\s*\/tv\/\s*$/m.test(txt)) txt = txt.replace(/\s*$/, "\n") + "Di
 writeFileSync(robots, txt);
 
 const g = globalThis.__groups;
-console.log(`TV feed ${g.date}: queue ${g.watch} + letterboxd ${g.lb} + suggestions ${g.sugg}; ${list.length} list, ${ambient.length} ambient (pool ${globalThis.__ambientPool}, window ${day.window}d) -> dist/tv/<tvFeedPath>/feed.json`);
+console.log(`TV feed ${g.date}: queue ${g.watch} + letterboxd ${g.lb} + suggestions ${g.sugg}; ${list.length} list, ${ambient.length} ambient (pool ${globalThis.__ambientPool}, window ${day.window}d) -> dist/tv/<TV_FEED_PATH>/feed.json`);
 if (process.env.TV_FEED_DEBUG) { const n = {}; for (const c of ambPool) n[c.bucket] = (n[c.bucket] ?? 0) + 1; console.log(n, "lb total", fromLb.length, "queue", fromWatch.length, "sugg", ambSuggs.length, "no-route lb", fromLb.filter(c=>!routeOf(c)).length, "no-dir", fromLb.filter(c=>!c.director).length); }

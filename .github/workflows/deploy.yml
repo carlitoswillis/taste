@@ -41,8 +41,11 @@ jobs:
         with:
           node-version: 22
       - run: node scripts/build.mjs
-      # The Fire TV launcher's feed, served at an unguessable path under dist/tv/.
+      # The Fire TV launcher's feed, served at an unguessable path under dist/tv/. The path is the
+      # TV_FEED_PATH repo secret (this repo is public, so it must never be committed).
       - run: node scripts/build-tv-feed.mjs
+        env:
+          TV_FEED_PATH: ${{ secrets.TV_FEED_PATH }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
