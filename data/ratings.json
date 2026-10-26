@@ -306,5 +306,29 @@
     "director": null,
     "score": 5,
     "liked": true
+  },
+  {
+    "title": "Time Trap",
+    "year": 2017,
+    "director": null,
+    "score": 3.5
+  },
+  {
+    "title": "Hour of the Wolf",
+    "year": 1968,
+    "director": null,
+    "score": 5
+  },
+  {
+    "title": "Dead Ringers",
+    "year": 1988,
+    "director": null,
+    "score": 3.5
+  },
+  {
+    "title": "Chronicle",
+    "year": 2012,
+    "director": null,
+    "score": 4
   }
 ]

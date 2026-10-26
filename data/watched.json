@@ -2126,7 +2126,13 @@
   {
     "title": "You Can See Everything",
     "year": 2026,
-    "watched": null,
-    "undated": true
+    "watched": "2026-10-17",
+    "uri": "https://boxd.it/16mVo"
+  },
+  {
+    "title": "Chronicle",
+    "year": 2012,
+    "watched": "2026-10-26",
+    "uri": "https://boxd.it/2Emk"
   }
 ]
