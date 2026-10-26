@@ -5,6 +5,7 @@
 // 30 Letterboxd watchlist films, and 10 recommender picks (source "suggestion", with a `why`), joined to data/enrichment.json. Differences: list items also carry raw `providers` (flatrate/free/rent/buy), plus
 // `backdropUrl` (w780), `detailUrl` (w1280) and `portraitUrl` (w342) and `altBackdropUrls` (w780: the film's other backdrops,
 // least black first, from data/tv-backdrops.json; the primary is one that is not mostly black); `sent` is always [] (no Send to TV queue here).
+// Ambient items carry `backdropUrl` (w1280 still), `posterUrl` (w780 2:3 poster) and `tagline` (the film's own line, when it does not repeat the plot).
 // Rules (scripts/lib/tv-feed-rules.mjs): JustWatch and other non-stores are never a rent/buy venue; a tagline that only repeats
 // the plot is dropped; a `why` never ends on "The…".
 // Publishes only watchlist-derived films. The path segment is the unguessable part: it lives in config.json
@@ -191,6 +192,9 @@ for (const c of [...ambientQueue, ...fromWatch, ...fromLb, ...fromSugg]) {
   const b = stillsOf(c).primary;
   if (!m.apps.length || !b) continue; // the ambient screen is a backdrop: no backdrop, no item
   const pp = posterPath(c.e.poster);
+  // The film's own line for the ambient bill's quiet line when there is no taste note; details() already drops a
+  // tagline that only repeats the plot (tv-feed-rules repeatsOverview).
+  const tagline = details(c.e).tagline;
   ambient.push({
     id: String(c.tmdbId), title: c.title, ...(c.year ? { year: c.year } : {}),
     ...(c.director ? { director: c.director } : {}),
@@ -198,6 +202,7 @@ for (const c of [...ambientQueue, ...fromWatch, ...fromLb, ...fromSugg]) {
     ...(c.why ? { note: String(c.why).slice(0, 280) } : {}),
     backdropUrl: `${IMG}/w1280${b}`,
     ...(pp ? { posterUrl: `${IMG}/w780${pp}` } : {}),
+    ...(tagline ? { tagline: tagline.slice(0, 200) } : {}),
   });
   if (ambient.length >= MAX_AMBIENT) break;
 }
