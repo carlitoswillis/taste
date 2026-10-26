@@ -7,66 +7,71 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { parseRss, parseFilmsGrid, lastFilmsPage, isChallenge, chooseEntries, mergeEntries } from "./lib/letterboxd.mjs";
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const config = JSON.parse(await readFile(path.join(root, "config.json"), "utf8"));
 
 const url = `https://letterboxd.com/${config.letterboxd}/rss/`;
-const res = await fetch(url, { headers: { "user-agent": "taste-profile-site (github.com)" } });
-if (!res.ok) {
-  console.error(`Letterboxd RSS fetch failed: ${res.status} ${res.statusText}`);
-  process.exit(1);
-}
-const xml = await res.text();
+const outPath = path.join(root, "data/letterboxd.json");
+// Same honest, identifying agent the watchlist fetch uses. If Cloudflare
+// answers a challenge we report it and stop; we do not try to get around it.
+const UA =
+  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36 taste-profile-site";
+const get = (u, accept) => fetch(u, { headers: { "user-agent": UA, accept } });
 
-const tag = (block, name) => {
-  const m = block.match(new RegExp(`<${name}>(?:<!\\[CDATA\\[)?([\\s\\S]*?)(?:\\]\\]>)?</${name}>`));
-  return m ? m[1].trim() : null;
-};
+let prev = { entries: [] };
+try { prev = JSON.parse(await readFile(outPath, "utf8")); } catch {}
+prev.entries ??= [];
 
-const entries = [];
-for (const [, item] of xml.matchAll(/<item>([\s\S]*?)<\/item>/g)) {
-  const title = tag(item, "letterboxd:filmTitle");
-  if (!title) continue; // skip list items etc.
-  const rating = tag(item, "letterboxd:memberRating");
-  entries.push({
-    title,
-    year: Number(tag(item, "letterboxd:filmYear")) || null,
-    rating: rating != null ? Number(rating) : null,
-    rewatch: tag(item, "letterboxd:rewatch") === "Yes",
-    watched: tag(item, "letterboxd:watchedDate"),
-    link: tag(item, "link"),
-  });
+let entries = [];
+let source = "rss";
+const res = await get(url, "application/rss+xml,application/xml,text/xml");
+const xml = res.ok ? await res.text() : "";
+if (!res.ok) console.error(`Letterboxd RSS fetch failed: ${res.status} ${res.statusText}`);
+else entries = parseRss(xml);
+
+if (res.ok && !entries.length) {
+  // The 2026-07 failure: a valid feed with zero items (status 200, ~500 bytes).
+  console.error(`\nRSS ${url} parsed 0 film entries (${xml.length} bytes, <item> blocks: ${[...xml.matchAll(/<item>/g)].length}).`);
+  console.error(`  starts: ${xml.slice(0, 200).replace(/\s+/g, " ")}`);
+  console.error("  -> valid feed with no items: the diary is not being exposed over RSS. Falling back to the public /films/ pages.");
 }
 
-// A 200 that yields no films is not success. Letterboxd can answer with a bot
-// interstitial (HTML, status 200), and a renamed or private account can answer
-// with a valid but empty feed. Writing `entries: []` and printing a cheerful
-// count made the daily sync look green while doing nothing at all — it did
-// exactly that for four days before anyone noticed a missing film. Say what
-// actually came back, and exit non-zero so the step goes red.
 if (!entries.length) {
-  const looksLikeFeed = /<rss[\s>]|<feed[\s>]/i.test(xml);
-  const itemBlocks = [...xml.matchAll(/<item>/g)].length;
-  console.error(`\nNo film entries parsed from ${url}`);
-  console.error(`  status ${res.status} · content-type: ${res.headers.get("content-type") ?? "?"}`);
-  console.error(`  ${xml.length} bytes · looks like a feed: ${looksLikeFeed} · <item> blocks: ${itemBlocks}`);
-  console.error(`  starts: ${xml.slice(0, 300).replace(/\s+/g, " ")}`);
-  if (!looksLikeFeed) {
-    console.error("  -> not an RSS document. Bot challenge or error page — the feed is being blocked.");
-  } else if (!itemBlocks) {
-    console.error(`  -> valid feed, zero items. Check that "${config.letterboxd}" is the right username and the profile is public.`);
-  } else {
-    console.error("  -> items present but no <letterboxd:filmTitle>. The feed format changed; the parser needs updating.");
+  source = "films-pages";
+  const base = `https://letterboxd.com/${config.letterboxd}/films/`;
+  let last = 1;
+  for (let n = 1; n <= Math.min(last, 60); n++) {
+    if (n > 1) await new Promise((r) => setTimeout(r, 800));
+    const r = await get(n === 1 ? base : `${base}page/${n}/`, "text/html");
+    const html = await r.text();
+    if (!r.ok || isChallenge(r.status, html)) {
+      console.error(`  /films/ page ${n}: ${r.status} ${isChallenge(r.status, html) ? "(Cloudflare challenge — stopping; not bypassing)" : ""}`);
+      break;
+    }
+    if (n === 1) last = lastFilmsPage(html);
+    const page = parseFilmsGrid(html);
+    if (!page.length) { console.error(`  /films/ page ${n}: no films parsed (markup change?)`); break; }
+    entries.push(...page);
   }
-  // leave data/letterboxd.json untouched: an empty overwrite would destroy the
-  // last good fetch and make the failure even harder to spot
-  process.exit(1);
+  console.log(`Fallback read ${entries.length} undated watched marks from /films/ (of ${last} page(s))`);
 }
 
-const out = { user: config.letterboxd, fetched: new Date().toISOString(), entries };
-await writeFile(path.join(root, "data/letterboxd.json"), JSON.stringify(out, null, 2) + "\n");
-console.log(`Fetched ${entries.length} entries for ${config.letterboxd} -> data/letterboxd.json`);
+const { entries: chosen, kept } = chooseEntries(prev.entries, entries);
+if (kept) {
+  console.error(`\nFETCH RETURNED 0 ENTRIES — keeping the ${prev.entries.length} entries already in data/letterboxd.json untouched.`);
+  process.exit(1);
+}
+if (!chosen.length) {
+  console.error("\nNo Letterboxd entries from RSS or /films/ pages, and no previous data.");
+  process.exit(1);
+}
+const stored = mergeEntries(prev.entries, entries);
+
+const out = { user: config.letterboxd, fetched: new Date().toISOString(), source, entries: stored };
+await writeFile(outPath, JSON.stringify(out, null, 2) + "\n");
+console.log(`Fetched ${entries.length} entries (${source}), ${stored.length} stored -> data/letterboxd.json`);
 
 // Flag rated entries that aren't in data/ratings.json yet, so the profile can be updated.
 const ratings = JSON.parse(await readFile(path.join(root, "data/ratings.json"), "utf8"));
@@ -96,12 +101,18 @@ for (const e of entries) {
   const near = byTitle.get(titleKey(e));
   const existing = byKey.get(key(e)) ?? (near && Math.abs(near.year - e.year) <= 1 ? near : null);
   if (!existing) {
-    const added = { title: e.title, year: e.year, director: null, score: e.rating };
+    const added = { title: e.title, year: e.year, director: null, score: e.rating, ...(e.liked ? { liked: true } : {}) };
     ratings.push(added);
     byKey.set(key(e), added);
     byTitle.set(titleKey(e), added);
     ratingsChanged = true;
     console.log(`  merged rating: ${e.title} (${e.year}) — ${e.rating}`);
+  } else if (e.liked && !existing.liked) {
+    existing.liked = true;
+    ratingsChanged = true;
+    if (existing.score === e.rating) continue;
+    console.log(`  updated score: ${e.title} (${e.year}) — ${existing.score} -> ${e.rating}`);
+    existing.score = e.rating;
   } else if (existing.score !== e.rating) {
     console.log(`  updated score: ${e.title} (${e.year}) — ${existing.score} -> ${e.rating}`);
     existing.score = e.rating;
@@ -121,7 +132,7 @@ const seen = new Set(watched.map((w) => key(w)));
 let watchedAdded = 0;
 for (const e of entries) {
   if (seen.has(key(e))) continue;
-  watched.push({ title: e.title, year: e.year, watched: e.watched });
+  watched.push(e.watched ? { title: e.title, year: e.year, watched: e.watched } : { title: e.title, year: e.year, watched: null, undated: true });
   seen.add(key(e));
   watchedAdded++;
   console.log(`  merged watch: ${e.title} (${e.year}) — ${e.watched}`);

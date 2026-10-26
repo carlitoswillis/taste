@@ -18,7 +18,8 @@
     "year": 2026,
     "director": "Christopher Nolan",
     "score": 5,
-    "note": "Multiple theatre viewings in one week."
+    "note": "Multiple theatre viewings in one week.",
+    "liked": true
   },
   {
     "title": "Anora",
@@ -79,13 +80,15 @@
     "year": 2025,
     "director": "Yorgos Lanthimos",
     "score": 4.5,
-    "note": "Lanthimos in comic mode."
+    "note": "Lanthimos in comic mode.",
+    "liked": true
   },
   {
     "title": "Obsession",
     "year": 2026,
     "director": null,
-    "score": 4.5
+    "score": 4.5,
+    "liked": true
   },
   {
     "title": "Adaptation.",
@@ -159,19 +162,22 @@
     "title": "Together",
     "year": 2025,
     "director": "Michael Shanks",
-    "score": 4
+    "score": 4,
+    "liked": true
   },
   {
     "title": "Companion",
     "year": 2025,
     "director": "Drew Hancock",
-    "score": 4
+    "score": 4,
+    "liked": true
   },
   {
     "title": "The Drama",
     "year": 2025,
     "director": "Kristoffer Borgli",
-    "score": 4
+    "score": 4,
+    "liked": true
   },
   {
     "title": "Everything Everywhere All at Once",
@@ -237,19 +243,22 @@
     "title": "The Invite",
     "year": 2026,
     "director": null,
-    "score": 3.5
+    "score": 3.5,
+    "liked": true
   },
   {
     "title": "Spider-Man: Brand New Day",
     "year": 2026,
     "director": null,
-    "score": 3.5
+    "score": 3.5,
+    "liked": true
   },
   {
     "title": "Bring Her Back",
     "year": 2025,
     "director": null,
-    "score": 3.5
+    "score": 3.5,
+    "liked": true
   },
   {
     "title": "The First Omen",
@@ -267,24 +276,35 @@
     "title": "Resident Evil",
     "year": 2026,
     "director": null,
-    "score": 3.5
+    "score": 3.5,
+    "liked": true
   },
   {
     "title": "The End of Oak Street",
     "year": 2026,
     "director": null,
-    "score": 4
+    "score": 4,
+    "liked": true
   },
   {
     "title": "Primetime",
     "year": 2026,
     "director": null,
-    "score": 4
+    "score": 4,
+    "liked": true
   },
   {
     "title": "Coyote vs. Acme",
     "year": 2026,
     "director": null,
-    "score": 3.5
+    "score": 3.5,
+    "liked": true
+  },
+  {
+    "title": "You Can See Everything",
+    "year": 2026,
+    "director": null,
+    "score": 5,
+    "liked": true
   }
 ]

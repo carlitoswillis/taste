@@ -1,5 +1,727 @@
 {
   "user": "carlitxs",
-  "fetched": "2026-07-26T10:52:32.093Z",
-  "entries": []
+  "fetched": "2026-10-26T02:58:31.804Z",
+  "source": "films-pages",
+  "entries": [
+    {
+      "title": "Resident Evil",
+      "year": 2026,
+      "rating": 3.5,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/resident-evil-2026/"
+    },
+    {
+      "title": "You Can See Everything",
+      "year": 2026,
+      "rating": 5,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/you-can-see-everything/"
+    },
+    {
+      "title": "Primetime",
+      "year": 2026,
+      "rating": 4,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/primetime-2026/"
+    },
+    {
+      "title": "The End of Oak Street",
+      "year": 2026,
+      "rating": 4,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/the-end-of-oak-street/"
+    },
+    {
+      "title": "Spider-Man: Brand New Day",
+      "year": 2026,
+      "rating": 3.5,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/spider-man-brand-new-day/"
+    },
+    {
+      "title": "Coyote vs. Acme",
+      "year": 2026,
+      "rating": 3.5,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/coyote-vs-acme/"
+    },
+    {
+      "title": "The Odyssey",
+      "year": 2026,
+      "rating": 5,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/the-odyssey-2026/"
+    },
+    {
+      "title": "Backrooms",
+      "year": 2026,
+      "rating": null,
+      "liked": false,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/backrooms-2026/"
+    },
+    {
+      "title": "Michael",
+      "year": 2026,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/michael-2026/"
+    },
+    {
+      "title": "Lee Cronin's The Mummy",
+      "year": 2026,
+      "rating": null,
+      "liked": false,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/lee-cronins-the-mummy/"
+    },
+    {
+      "title": "The Drama",
+      "year": 2026,
+      "rating": 4,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/the-drama/"
+    },
+    {
+      "title": "Hokum",
+      "year": 2026,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/hokum/"
+    },
+    {
+      "title": "I Love Boosters",
+      "year": 2026,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/i-love-boosters/"
+    },
+    {
+      "title": "Louis Theroux: Inside the Manosphere",
+      "year": 2026,
+      "rating": null,
+      "liked": false,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/louis-theroux-inside-the-manosphere/"
+    },
+    {
+      "title": "Project Hail Mary",
+      "year": 2026,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/project-hail-mary/"
+    },
+    {
+      "title": "How to Make a Killing",
+      "year": 2026,
+      "rating": null,
+      "liked": false,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/how-to-make-a-killing-2026/"
+    },
+    {
+      "title": "The Invite",
+      "year": 2026,
+      "rating": 3.5,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/the-invite-2026/"
+    },
+    {
+      "title": "28 Years Later: The Bone Temple",
+      "year": 2026,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/28-years-later-the-bone-temple/"
+    },
+    {
+      "title": "Is This Thing On?",
+      "year": 2025,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/is-this-thing-on-2025/"
+    },
+    {
+      "title": "Marty Supreme",
+      "year": 2025,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/marty-supreme/"
+    },
+    {
+      "title": "Good Luck, Have Fun, Don't Die",
+      "year": 2025,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/good-luck-have-fun-dont-die/"
+    },
+    {
+      "title": "HIM",
+      "year": 2025,
+      "rating": null,
+      "liked": false,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/him-2025/"
+    },
+    {
+      "title": "Obsession",
+      "year": 2025,
+      "rating": 4.5,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/obsession-2025/"
+    },
+    {
+      "title": "Frankenstein",
+      "year": 2025,
+      "rating": null,
+      "liked": false,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/frankenstein-2025/"
+    },
+    {
+      "title": "Bugonia",
+      "year": 2025,
+      "rating": 4.5,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/bugonia/"
+    },
+    {
+      "title": "Nobody 2",
+      "year": 2025,
+      "rating": null,
+      "liked": false,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/nobody-2/"
+    },
+    {
+      "title": "Caught Stealing",
+      "year": 2025,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/caught-stealing/"
+    },
+    {
+      "title": "Weapons",
+      "year": 2025,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/weapons-2025/"
+    },
+    {
+      "title": "The Fantastic 4: First Steps",
+      "year": 2025,
+      "rating": null,
+      "liked": false,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/the-fantastic-4-first-steps/"
+    },
+    {
+      "title": "Superman",
+      "year": 2025,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/superman-2025/"
+    },
+    {
+      "title": "28 Years Later",
+      "year": 2025,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/28-years-later/"
+    },
+    {
+      "title": "Jurassic World Rebirth",
+      "year": 2025,
+      "rating": null,
+      "liked": false,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/jurassic-world-rebirth/"
+    },
+    {
+      "title": "F1",
+      "year": 2025,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/f1/"
+    },
+    {
+      "title": "Honey Don't!",
+      "year": 2025,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/honey-dont/"
+    },
+    {
+      "title": "The Phoenician Scheme",
+      "year": 2025,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/the-phoenician-scheme/"
+    },
+    {
+      "title": "Bring Her Back",
+      "year": 2025,
+      "rating": 3.5,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/bring-her-back/"
+    },
+    {
+      "title": "Final Destination Bloodlines",
+      "year": 2025,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/final-destination-bloodlines/"
+    },
+    {
+      "title": "Mission: Impossible – The Final Reckoning",
+      "year": 2025,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/mission-impossible-the-final-reckoning/"
+    },
+    {
+      "title": "Thunderbolts*",
+      "year": 2025,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/thunderbolts/"
+    },
+    {
+      "title": "Black Mirror: USS Callister – Into Infinity",
+      "year": 2025,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/black-mirror-uss-callister-into-infinity/"
+    },
+    {
+      "title": "Sinners",
+      "year": 2025,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/sinners-2025/"
+    },
+    {
+      "title": "The Amateur",
+      "year": 2025,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/the-amateur-2025/"
+    },
+    {
+      "title": "A Minecraft Movie",
+      "year": 2025,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/a-minecraft-movie/"
+    },
+    {
+      "title": "Black Bag",
+      "year": 2025,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/black-bag-2025/"
+    },
+    {
+      "title": "The Accountant²",
+      "year": 2025,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/the-accountant-2025/"
+    },
+    {
+      "title": "Novocaine",
+      "year": 2025,
+      "rating": null,
+      "liked": false,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/novocaine-2025/"
+    },
+    {
+      "title": "Mickey 17",
+      "year": 2025,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/mickey-17/"
+    },
+    {
+      "title": "The Monkey",
+      "year": 2025,
+      "rating": null,
+      "liked": false,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/the-monkey-2025/"
+    },
+    {
+      "title": "Lurker",
+      "year": 2025,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/lurker-2025/"
+    },
+    {
+      "title": "Together",
+      "year": 2025,
+      "rating": 4,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/together-2025/"
+    },
+    {
+      "title": "The Ugly Stepsister",
+      "year": 2025,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/the-ugly-stepsister/"
+    },
+    {
+      "title": "Companion",
+      "year": 2025,
+      "rating": 4,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/companion-2025/"
+    },
+    {
+      "title": "Wolf Man",
+      "year": 2025,
+      "rating": null,
+      "liked": false,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/wolf-man-2025/"
+    },
+    {
+      "title": "Nosferatu",
+      "year": 2024,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/nosferatu-2024/"
+    },
+    {
+      "title": "Don't Move",
+      "year": 2024,
+      "rating": null,
+      "liked": false,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/dont-move-2024/"
+    },
+    {
+      "title": "Venom: The Last Dance",
+      "year": 2024,
+      "rating": null,
+      "liked": false,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/venom-the-last-dance/"
+    },
+    {
+      "title": "Smile 2",
+      "year": 2024,
+      "rating": null,
+      "liked": false,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/smile-2-2024/"
+    },
+    {
+      "title": "The Penguin",
+      "year": 2024,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/the-penguin-2024/"
+    },
+    {
+      "title": "Terrifier 3",
+      "year": 2024,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/terrifier-3/"
+    },
+    {
+      "title": "Uglies",
+      "year": 2024,
+      "rating": null,
+      "liked": false,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/uglies/"
+    },
+    {
+      "title": "Friendship",
+      "year": 2024,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/friendship-2024/"
+    },
+    {
+      "title": "Heretic",
+      "year": 2024,
+      "rating": null,
+      "liked": false,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/heretic-2024/"
+    },
+    {
+      "title": "The Wild Robot",
+      "year": 2024,
+      "rating": null,
+      "liked": false,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/the-wild-robot/"
+    },
+    {
+      "title": "Joker: Folie à Deux",
+      "year": 2024,
+      "rating": null,
+      "liked": false,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/joker-folie-a-deux/"
+    },
+    {
+      "title": "Speak No Evil",
+      "year": 2024,
+      "rating": null,
+      "liked": false,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/speak-no-evil-2024/"
+    },
+    {
+      "title": "Wolfs",
+      "year": 2024,
+      "rating": null,
+      "liked": false,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/wolfs/"
+    },
+    {
+      "title": "Conclave",
+      "year": 2024,
+      "rating": null,
+      "liked": false,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/conclave/"
+    },
+    {
+      "title": "The Crow",
+      "year": 2024,
+      "rating": null,
+      "liked": false,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/the-crow-2024/"
+    },
+    {
+      "title": "Alien: Romulus",
+      "year": 2024,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/alien-romulus/"
+    },
+    {
+      "title": "Blink Twice",
+      "year": 2024,
+      "rating": null,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/blink-twice/"
+    },
+    {
+      "title": "Deadpool & Wolverine",
+      "year": 2024,
+      "rating": null,
+      "liked": false,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/deadpool-wolverine/"
+    },
+    {
+      "title": "Trap",
+      "year": 2024,
+      "rating": null,
+      "liked": false,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/trap-2024/"
+    }
+  ]
 }
