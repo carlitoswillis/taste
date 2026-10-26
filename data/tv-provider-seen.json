@@ -111,6 +111,15 @@
    "YouTube TV": null,
    "HBO Max": null
   },
+  "180": {
+   "Amazon Prime Video": null,
+   "fuboTV": null,
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Paramount+ Amazon Channel": null,
+   "Paramount+ Roku Premium Channel": null,
+   "Amazon Prime Video with Ads": null
+  },
   "184": {
    "MovieSphere+ Amazon Channel": null,
    "Howdy Amazon Channel": null
@@ -413,6 +422,11 @@
    "Amazon Prime Video": null,
    "Amazon Prime Video with Ads": null
   },
+  "855": {
+   "Apple TV": null,
+   "MGM Plus Roku Premium Channel": null,
+   "Apple TV Amazon Channel": null
+  },
   "862": {
    "Disney Plus": null,
    "Hulu": null
@@ -664,6 +678,9 @@
   "10843": {
    "Howdy Amazon Channel": null
   },
+  "11174": {
+   "Viaplay Amazon Channel": null
+  },
   "11297": {
    "ARROW": null
   },
@@ -696,6 +713,11 @@
    "Brew": null,
    "Midnight Pulp": null
   },
+  "11602": {
+   "HBO Max Amazon Channel": null,
+   "Criterion Channel": null,
+   "HBO Max": null
+  },
   "11631": {
    "Hulu": null,
    "Peacock Premium": null,
@@ -709,6 +731,9 @@
    "HBO Max Amazon Channel": null,
    "HBO Max": null
   },
+  "11656": {
+   "Criterion Channel": null
+  },
   "11660": {
    "Philo": null,
    "AMC+ Amazon Channel": null,
@@ -721,6 +746,10 @@
    "YouTube TV": null,
    "HBO Max": null,
    "Peacock Premium Plus": null
+  },
+  "12554": {
+   "HBO Max Amazon Channel": null,
+   "HBO Max": null
   },
   "12761": {
    "HBO Max Amazon Channel": null,
@@ -1090,6 +1119,9 @@
   "159117": {
    "fuboTV": null
   },
+  "166424": {
+   "Disney Plus": null
+  },
   "180299": {
    "Sony Pictures Core Amazon Channel": null
   },
@@ -1117,6 +1149,10 @@
    "Amazon Prime Video with Ads": null,
    "Peacock Premium Plus": null,
    "Cineverse Amazon Channel": null
+  },
+  "228066": {
+   "Amazon Prime Video": null,
+   "Amazon Prime Video with Ads": null
   },
   "228967": {
    "Sony Pictures Core Amazon Channel": null
@@ -1414,9 +1450,23 @@
    "HBO Max": null,
    "Cinemax Apple TV Channel": null
   },
+  "400106": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
+  },
   "401246": {
    "Hulu": null,
    "Magnolia Selects Amazon Channel": null
+  },
+  "413992": {
+   "fuboTV": null,
+   "Paramount Plus Premium": null,
+   "AMC Plus Apple TV channel": null,
+   "Paramount+ Amazon Channel": null,
+   "AMC+ Amazon Channel": null,
+   "AMC+": null,
+   "Sundance Now": null,
+   "IFC Films Unlimited Apple TV channel": null
   },
   "414419": {
    "Lionsgate+ Amazon Channel": null,
@@ -1426,6 +1476,10 @@
    "HBO Max Amazon Channel": null,
    "YouTube TV": null,
    "tru TV": null,
+   "HBO Max": null
+  },
+  "418078": {
+   "HBO Max Amazon Channel": null,
    "HBO Max": null
   },
   "419430": {
@@ -1450,6 +1504,10 @@
    "Peacock Premium Plus": null
   },
   "428449": {
+   "Amazon Prime Video": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "429422": {
    "Amazon Prime Video": null,
    "Amazon Prime Video with Ads": null
   },
@@ -1586,6 +1644,10 @@
    "Paramount Plus Essential": null,
    "Paramount+ Amazon Channel": null,
    "Paramount+ Roku Premium Channel": null,
+   "Netflix Standard with Ads": null
+  },
+  "523777": {
+   "Netflix": null,
    "Netflix Standard with Ads": null
   },
   "530385": {

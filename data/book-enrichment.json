@@ -37,8 +37,8 @@
     },
     "adaptedAs": [
       "The Odyssey (2026)",
-      "The Return (2024)",
-      "O Brother, Where Art Thou? (2000)"
+      "O Brother, Where Art Thou? (2000)",
+      "The Return (2024)"
     ]
   },
   "No Country for Old Men (Cormac McCarthy)": {
@@ -420,7 +420,8 @@
       "count": 220
     },
     "adaptedAs": [
-      "Frankenstein (2025)"
+      "Frankenstein (2025)",
+      "Victor Frankenstein (2015)"
     ]
   },
   "King Lear (William Shakespeare)": {
@@ -3479,8 +3480,8 @@
     "description": "The Godfather is a crime novel by American author Mario Puzo. Originally published in 1969 by G. P. Putnam's Sons, the novel details the story of a fictional Mafia family in New York City (and Long Beach, New York), headed by Vito Corleone. Puzo's dedication for The Godfather is \"For Anthony Cleri\". The novel's epigraph is by the French author Honoré de Balzac: \"Behind every great fortune there is a crime.\" The novel covers the years 1945 to 1955 and includes the back story of Vito Corleone from early childhood to adulthood.\r\n\r\n\r\n----------\r\nAlso contained in:\r\n\r\n - [The Godfather / The Fortun",
     "editionCount": 109,
     "olRating": {
-      "average": 4.2916665,
-      "count": 48
+      "average": 4.285714,
+      "count": 49
     },
     "adaptedAs": [
       "The Godfather (1972)"
@@ -4331,5 +4332,45 @@
     "adaptedAs": [
       "I'm Here (2010)"
     ]
+  },
+  "Black Hawk Down (Mark Bowden)": {
+    "id": "b:OL491846W",
+    "olWork": "OL491846W",
+    "authors": [
+      {
+        "key": "OL30717A",
+        "name": "Mark Bowden"
+      }
+    ],
+    "firstPublished": 1999,
+    "pages": 416,
+    "subjects": [
+      "United states, army",
+      "Operation restore hope, 1992-1993",
+      "Mogadiscio (Somalia)",
+      "United States. Army. Task Force Ranger",
+      "Misiones militares",
+      "Military missions",
+      "United States",
+      "History",
+      "Reading Level-Grade 11",
+      "Reading Level-Grade 12",
+      "Somalia, history, 1991-",
+      "United states, army, special forces"
+    ],
+    "coverId": 292896,
+    "cover": "https://covers.openlibrary.org/b/id/292896-M.jpg",
+    "description": "Late in the afternoon of Sunday, 3 October 1993, 140 elite US soldiers abseiled from helicopters into a teeming market neighbourhood in the heart of the city of Mogadishu, Somalia. Their mission was to abduct two top lieutenants of a Somali warlord and return to base. It was supposed to take them about an hour.\r\n\r\nInstead, they were pinned down through a long and terrible night in a hostile city, fighting for their lives against thousands of heavily armed Somalis. When the unit was rescued the following morning, eighteen American soldiers were dead and more than seventy badly injured. The Soma",
+    "editionCount": 37,
+    "olRating": {
+      "average": 3.764706,
+      "count": 17
+    },
+    "adaptedAs": [
+      "Black Hawk Down (2001)"
+    ]
+  },
+  "Piercing (Ryū Murakami)": {
+    "unmatched": true
   }
 }
