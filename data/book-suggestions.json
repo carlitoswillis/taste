@@ -1,9 +1,9 @@
 {
-  "generated": "2026-10-26T03:02:27.244Z",
+  "generated": "2026-10-26T03:15:47.036Z",
   "basedOn": {
-    "lovedFilms": 32,
+    "lovedFilms": 34,
     "ratedBooks": 0,
-    "confirmedAdaptations": 139
+    "confirmedAdaptations": 141
   },
   "head": 12,
   "items": [
@@ -127,6 +127,23 @@
       "rank": 7
     },
     {
+      "title": "Four Screenplays of Ingmar Bergman",
+      "author": "Ingmar Bergman",
+      "olWork": "OL2810823W",
+      "year": 1960,
+      "pages": 382,
+      "cover": "https://covers.openlibrary.org/b/id/4067382-M.jpg",
+      "editionCount": 19,
+      "olRating": {
+        "average": 5,
+        "count": 1
+      },
+      "weight": 3.84,
+      "rankScore": 12.68,
+      "why": "Ingmar Bergman adapted him (The Seventh Seal)",
+      "rank": 8
+    },
+    {
       "title": "The Affirmation",
       "author": "Christopher Priest",
       "olWork": "OL166482W",
@@ -141,7 +158,24 @@
       "weight": 4.08,
       "rankScore": 12.16,
       "why": "Christopher Priest — wrote the book behind The Prestige (2006) 4.5★",
-      "rank": 8
+      "rank": 9
+    },
+    {
+      "title": "Scener ur ett äktenskap",
+      "author": "Ingmar Bergman",
+      "olWork": "OL2810868W",
+      "year": 1973,
+      "pages": 206,
+      "cover": "https://covers.openlibrary.org/b/id/4466832-M.jpg",
+      "editionCount": 10,
+      "olRating": {
+        "average": 4,
+        "count": 1
+      },
+      "weight": 3.84,
+      "rankScore": 11.68,
+      "why": "Ingmar Bergman adapted him (The Seventh Seal)",
+      "rank": 10
     },
     {
       "title": "Lanark",
@@ -158,7 +192,7 @@
       "weight": 3.12,
       "rankScore": 11.24,
       "why": "Alasdair Gray — wrote the book behind Poor Things (2023) 4.5★",
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "The Orchid Thief",
@@ -175,40 +209,6 @@
       "weight": 3.8,
       "rankScore": 11.03,
       "why": "the book behind Adaptation. (2002) 4★",
-      "rank": 10
-    },
-    {
-      "title": "The Dog of the South",
-      "author": "Charles Portis",
-      "olWork": "OL104533W",
-      "year": 1979,
-      "pages": 256,
-      "cover": "https://covers.openlibrary.org/b/id/4440820-M.jpg",
-      "editionCount": 11,
-      "olRating": {
-        "average": 4.5,
-        "count": 4
-      },
-      "weight": 3.2,
-      "rankScore": 10.9,
-      "why": "Charles Portis — Joel Coen adapted him (True Grit)",
-      "rank": 11
-    },
-    {
-      "title": "True Grit",
-      "author": "Charles Portis",
-      "olWork": "OL104535W",
-      "year": 1968,
-      "pages": 215,
-      "cover": "https://covers.openlibrary.org/b/id/488237-M.jpg",
-      "editionCount": 26,
-      "olRating": {
-        "average": 4.071429,
-        "count": 14
-      },
-      "weight": 3.2,
-      "rankScore": 10.47,
-      "why": "Charles Portis — Joel Coen adapted him (True Grit)",
       "rank": 12
     },
     {
@@ -297,6 +297,40 @@
       "rank": 17
     },
     {
+      "title": "The Dog of the South",
+      "author": "Charles Portis",
+      "olWork": "OL104533W",
+      "year": 1979,
+      "pages": 256,
+      "cover": "https://covers.openlibrary.org/b/id/4440820-M.jpg",
+      "editionCount": 11,
+      "olRating": {
+        "average": 4.5,
+        "count": 4
+      },
+      "weight": 3.2,
+      "rankScore": 10.9,
+      "why": "Charles Portis — Joel Coen adapted him (True Grit)",
+      "rank": 18
+    },
+    {
+      "title": "True Grit",
+      "author": "Charles Portis",
+      "olWork": "OL104535W",
+      "year": 1968,
+      "pages": 215,
+      "cover": "https://covers.openlibrary.org/b/id/488237-M.jpg",
+      "editionCount": 26,
+      "olRating": {
+        "average": 4.071429,
+        "count": 14
+      },
+      "weight": 3.2,
+      "rankScore": 10.47,
+      "why": "Charles Portis — Joel Coen adapted him (True Grit)",
+      "rank": 19
+    },
+    {
       "title": "Norwood",
       "author": "Charles Portis",
       "olWork": "OL104534W",
@@ -311,7 +345,7 @@
       "weight": 3.2,
       "rankScore": 10.4,
       "why": "Charles Portis — Joel Coen adapted him (True Grit)",
-      "rank": 18
+      "rank": 20
     },
     {
       "title": "1982 Janine",
@@ -328,7 +362,7 @@
       "weight": 3.12,
       "rankScore": 10.24,
       "why": "Alasdair Gray — wrote the book behind Poor Things (2023) 4.5★",
-      "rank": 19
+      "rank": 21
     },
     {
       "title": "The fall of Kelvin Walker",
@@ -345,40 +379,6 @@
       "weight": 3.12,
       "rankScore": 10.24,
       "why": "Alasdair Gray — wrote the book behind Poor Things (2023) 4.5★",
-      "rank": 20
-    },
-    {
-      "title": "Four Screenplays of Ingmar Bergman",
-      "author": "Ingmar Bergman",
-      "olWork": "OL2810823W",
-      "year": 1960,
-      "pages": 382,
-      "cover": "https://covers.openlibrary.org/b/id/4067382-M.jpg",
-      "editionCount": 19,
-      "olRating": {
-        "average": 5,
-        "count": 1
-      },
-      "weight": 2.56,
-      "rankScore": 10.12,
-      "why": "Ingmar Bergman adapted him (The Seventh Seal)",
-      "rank": 21
-    },
-    {
-      "title": "Scener ur ett äktenskap",
-      "author": "Ingmar Bergman",
-      "olWork": "OL2810868W",
-      "year": 1973,
-      "pages": 206,
-      "cover": "https://covers.openlibrary.org/b/id/4466832-M.jpg",
-      "editionCount": 10,
-      "olRating": {
-        "average": 4,
-        "count": 1
-      },
-      "weight": 2.56,
-      "rankScore": 9.12,
-      "why": "Ingmar Bergman adapted him (The Seventh Seal)",
       "rank": 22
     },
     {
@@ -410,9 +410,9 @@
         "average": 4.818182,
         "count": 22
       },
-      "weight": 1.24,
-      "rankScore": 7.3,
-      "why": "thriller on the page — you over-index on it in film · mystery on the page — you over-index on it in film",
+      "weight": 1.17,
+      "rankScore": 7.16,
+      "why": "thriller on the page — you over-index on it in film · horror on the page — you over-index on it in film",
       "rank": 24
     },
     {
@@ -444,27 +444,10 @@
         "average": 4.531579,
         "count": 190
       },
-      "weight": 0.91,
-      "rankScore": 6.35,
+      "weight": 0.85,
+      "rankScore": 6.23,
       "why": "thriller on the page — you over-index on it in film · science fiction on the page — you over-index on it in film",
       "rank": 26
-    },
-    {
-      "title": "The Complete Sherlock Holmes [4 novels, 56 stories]",
-      "author": "Arthur Conan Doyle",
-      "olWork": "OL262554W",
-      "year": 1900,
-      "pages": 1122,
-      "cover": "https://covers.openlibrary.org/b/id/12501284-M.jpg",
-      "editionCount": 118,
-      "olRating": {
-        "average": 4.5306125,
-        "count": 49
-      },
-      "weight": 0.86,
-      "rankScore": 6.25,
-      "why": "thriller on the page — you over-index on it in film · mystery on the page — you over-index on it in film",
-      "rank": 27
     },
     {
       "title": "The Martian",
@@ -478,9 +461,26 @@
         "average": 4.397626,
         "count": 337
       },
-      "weight": 0.91,
-      "rankScore": 6.22,
+      "weight": 0.85,
+      "rankScore": 6.1,
       "why": "thriller on the page — you over-index on it in film · science fiction on the page — you over-index on it in film",
+      "rank": 27
+    },
+    {
+      "title": "The Complete Sherlock Holmes [4 novels, 56 stories]",
+      "author": "Arthur Conan Doyle",
+      "olWork": "OL262554W",
+      "year": 1900,
+      "pages": 1122,
+      "cover": "https://covers.openlibrary.org/b/id/12501284-M.jpg",
+      "editionCount": 118,
+      "olRating": {
+        "average": 4.5306125,
+        "count": 49
+      },
+      "weight": 0.78,
+      "rankScore": 6.09,
+      "why": "thriller on the page — you over-index on it in film · mystery on the page — you over-index on it in film",
       "rank": 28
     },
     {
@@ -495,27 +495,10 @@
         "average": 4.5444446,
         "count": 90
       },
-      "weight": 0.81,
-      "rankScore": 6.16,
+      "weight": 0.73,
+      "rankScore": 6,
       "why": "science fiction on the page — you over-index on it in film · mystery on the page — you over-index on it in film",
       "rank": 29
-    },
-    {
-      "title": "Watchmen",
-      "author": "Alan Moore",
-      "olWork": "OL2897798W",
-      "year": 1986,
-      "pages": 421,
-      "cover": "https://covers.openlibrary.org/b/id/7774899-M.jpg",
-      "editionCount": 43,
-      "olRating": {
-        "average": 4.4708333,
-        "count": 240
-      },
-      "weight": 0.81,
-      "rankScore": 6.09,
-      "why": "science fiction on the page — you over-index on it in film · mystery on the page — you over-index on it in film",
-      "rank": 30
     },
     {
       "title": "The Green Mile",
@@ -529,9 +512,26 @@
         "average": 4.3097343,
         "count": 113
       },
-      "weight": 0.86,
-      "rankScore": 6.03,
+      "weight": 0.84,
+      "rankScore": 5.99,
       "why": "thriller on the page — you over-index on it in film · horror on the page — you over-index on it in film",
+      "rank": 30
+    },
+    {
+      "title": "Watchmen",
+      "author": "Alan Moore",
+      "olWork": "OL2897798W",
+      "year": 1986,
+      "pages": 421,
+      "cover": "https://covers.openlibrary.org/b/id/7774899-M.jpg",
+      "editionCount": 43,
+      "olRating": {
+        "average": 4.4708333,
+        "count": 240
+      },
+      "weight": 0.73,
+      "rankScore": 5.93,
+      "why": "science fiction on the page — you over-index on it in film · mystery on the page — you over-index on it in film",
       "rank": 31
     },
     {
@@ -546,8 +546,8 @@
         "average": 4.1793103,
         "count": 290
       },
-      "weight": 0.86,
-      "rankScore": 5.9,
+      "weight": 0.84,
+      "rankScore": 5.86,
       "why": "thriller on the page — you over-index on it in film · horror on the page — you over-index on it in film",
       "rank": 32
     },
@@ -563,44 +563,10 @@
         "average": 4.591837,
         "count": 49
       },
-      "weight": 0.43,
-      "rankScore": 5.45,
+      "weight": 0.4,
+      "rankScore": 5.39,
       "why": "science fiction on the page — you over-index on it in film",
       "rank": 33
-    },
-    {
-      "title": "The Sea of Monsters",
-      "author": "Rick Riordan",
-      "olWork": "OL492646W",
-      "year": 2005,
-      "pages": 282,
-      "cover": "https://covers.openlibrary.org/b/id/108909-M.jpg",
-      "editionCount": 84,
-      "olRating": {
-        "average": 4.4564104,
-        "count": 195
-      },
-      "weight": 0.48,
-      "rankScore": 5.42,
-      "why": "thriller on the page — you over-index on it in film",
-      "rank": 34
-    },
-    {
-      "title": "The Hitchhiker's Guide to the Galaxy",
-      "author": "Douglas Adams",
-      "olWork": "OL2163649W",
-      "year": 1979,
-      "pages": 216,
-      "cover": "https://covers.openlibrary.org/b/id/12986869-M.jpg",
-      "editionCount": 130,
-      "olRating": {
-        "average": 4.511236,
-        "count": 178
-      },
-      "weight": 0.43,
-      "rankScore": 5.37,
-      "why": "science fiction on the page — you over-index on it in film",
-      "rank": 35
     },
     {
       "title": "The Silver Eyes (Five Nights At Freddy's #1)",
@@ -614,27 +580,27 @@
         "average": 4.5866666,
         "count": 75
       },
-      "weight": 0.38,
-      "rankScore": 5.35,
+      "weight": 0.39,
+      "rankScore": 5.37,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 36
+      "rank": 34
     },
     {
-      "title": "Amulet",
-      "author": "Kazu Kibuishi",
-      "olWork": "OL8842598W",
-      "year": 2008,
-      "pages": 192,
-      "cover": "https://covers.openlibrary.org/b/id/2420582-M.jpg",
-      "editionCount": 17,
+      "title": "The Sea of Monsters",
+      "author": "Rick Riordan",
+      "olWork": "OL492646W",
+      "year": 2005,
+      "pages": 282,
+      "cover": "https://covers.openlibrary.org/b/id/108909-M.jpg",
+      "editionCount": 84,
       "olRating": {
-        "average": 4.574468,
-        "count": 47
+        "average": 4.4564104,
+        "count": 195
       },
-      "weight": 0.38,
-      "rankScore": 5.33,
-      "why": "mystery on the page — you over-index on it in film",
-      "rank": 37
+      "weight": 0.45,
+      "rankScore": 5.36,
+      "why": "thriller on the page — you over-index on it in film",
+      "rank": 35
     },
     {
       "title": "Season of Mists",
@@ -648,43 +614,77 @@
         "average": 4.5434785,
         "count": 46
       },
-      "weight": 0.38,
-      "rankScore": 5.3,
+      "weight": 0.39,
+      "rankScore": 5.32,
+      "why": "horror on the page — you over-index on it in film",
+      "rank": 36
+    },
+    {
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "author": "Douglas Adams",
+      "olWork": "OL2163649W",
+      "year": 1979,
+      "pages": 216,
+      "cover": "https://covers.openlibrary.org/b/id/12986869-M.jpg",
+      "editionCount": 130,
+      "olRating": {
+        "average": 4.511236,
+        "count": 178
+      },
+      "weight": 0.4,
+      "rankScore": 5.31,
+      "why": "science fiction on the page — you over-index on it in film",
+      "rank": 37
+    },
+    {
+      "title": "Maus I",
+      "author": "Art Spiegelman",
+      "olWork": "OL2056818W",
+      "year": 1986,
+      "pages": 295,
+      "cover": "https://covers.openlibrary.org/b/id/10210168-M.jpg",
+      "editionCount": 66,
+      "olRating": {
+        "average": 4.487805,
+        "count": 164
+      },
+      "weight": 0.39,
+      "rankScore": 5.27,
       "why": "horror on the page — you over-index on it in film",
       "rank": 38
     },
     {
-      "title": "Stories of Your Life and Others",
-      "author": "Ted Chiang",
-      "olWork": "OL6216050W",
-      "year": 2002,
-      "pages": 317,
-      "cover": "https://covers.openlibrary.org/b/id/524046-M.jpg",
-      "editionCount": 34,
+      "title": "Feet of Clay",
+      "author": "Terry Pratchett",
+      "olWork": "OL453743W",
+      "year": 1996,
+      "pages": 379,
+      "cover": "https://covers.openlibrary.org/b/id/14648799-M.jpg",
+      "editionCount": 42,
       "olRating": {
-        "average": 4.43617,
-        "count": 94
+        "average": 4.4736843,
+        "count": 38
       },
-      "weight": 0.43,
-      "rankScore": 5.3,
-      "why": "science fiction on the page — you over-index on it in film",
+      "weight": 0.39,
+      "rankScore": 5.25,
+      "why": "horror on the page — you over-index on it in film",
       "rank": 39
     },
     {
-      "title": "The Stand",
-      "author": "Stephen King",
-      "olWork": "OL81618W",
-      "year": 1978,
-      "pages": 1153,
-      "cover": "https://covers.openlibrary.org/b/id/9255992-M.jpg",
-      "editionCount": 87,
+      "title": "The Raven",
+      "author": "Edgar Allan Poe",
+      "olWork": "OL41081W",
+      "year": 1845,
+      "pages": 42,
+      "cover": "https://covers.openlibrary.org/b/id/8246077-M.jpg",
+      "editionCount": 287,
       "olRating": {
-        "average": 4.2967033,
-        "count": 91
+        "average": 4.4590163,
+        "count": 61
       },
-      "weight": 0.48,
-      "rankScore": 5.26,
-      "why": "thriller on the page — you over-index on it in film",
+      "weight": 0.39,
+      "rankScore": 5.24,
+      "why": "horror on the page — you over-index on it in film",
       "rank": 40
     }
   ]

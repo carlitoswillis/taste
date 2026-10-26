@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-26T03:01:52.606Z",
-  "basedOn": 32,
+  "generated": "2026-10-26T03:15:15.267Z",
+  "basedOn": 34,
   "head": 12,
   "items": [
     {
@@ -9,7 +9,7 @@
       "tmdbId": 614,
       "tmdbRating": 8.074,
       "votes": 1877,
-      "score": 17.16,
+      "score": 23.64,
       "rank": 1,
       "director": [
         "Ingmar Bergman"
@@ -36,7 +36,7 @@
         "metacritic": 88,
         "imdb": 8.1
       },
-      "why": "Ingmar Bergman wrote and directed this — you rated The Seventh Seal 5★, Persona 5★"
+      "why": "Ingmar Bergman wrote and directed this — you rated The Seventh Seal 5★, Persona 5★, Hour of the Wolf 5★"
     },
     {
       "title": "Scenes from a Marriage",
@@ -47,7 +47,7 @@
       "themes": [
         "cruel-comedy"
       ],
-      "score": 14.52,
+      "score": 21.16,
       "rank": 2,
       "director": [
         "Ingmar Bergman"
@@ -76,7 +76,7 @@
         "metacritic": null,
         "imdb": 8.3
       },
-      "why": "Ingmar Bergman wrote and directed this — you rated The Seventh Seal 5★, Persona 5★ · themes: comedy that's actually cruel"
+      "why": "Ingmar Bergman wrote and directed this — you rated The Seventh Seal 5★, Persona 5★, Hour of the Wolf 5★ · themes: comedy that's actually cruel"
     },
     {
       "title": "Following",
@@ -274,13 +274,47 @@
       "why": "Bong Joon Ho wrote and directed this — you rated Parasite 4.5★ · themes: doubling & doppelgangers"
     },
     {
+      "title": "The Florida Project",
+      "year": 2017,
+      "tmdbId": 394117,
+      "tmdbRating": 7.4,
+      "votes": 3223,
+      "score": 6.29,
+      "rank": 8,
+      "director": [
+        "Sean Baker"
+      ],
+      "runtime": 112,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/5QnDxdJg1fi6uMSkSi4x8tHsltm.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Spectrum On Demand"
+        ]
+      },
+      "scores": {
+        "rt": 96,
+        "metacritic": 92,
+        "imdb": 7.6
+      },
+      "why": "Sean Baker wrote and directed this — you rated Anora 5★"
+    },
+    {
       "title": "The Favourite",
       "year": 2018,
       "tmdbId": 375262,
       "tmdbRating": 7.476,
       "votes": 6107,
-      "score": 6.39,
-      "rank": 8,
+      "score": 5.76,
+      "rank": 9,
       "director": [
         "Yorgos Lanthimos"
       ],
@@ -307,40 +341,6 @@
         "imdb": 7.5
       },
       "why": "Yorgos Lanthimos directed this — you rated Poor Things 4.5★, Bugonia 4.5★"
-    },
-    {
-      "title": "The Florida Project",
-      "year": 2017,
-      "tmdbId": 394117,
-      "tmdbRating": 7.4,
-      "votes": 3223,
-      "score": 6.29,
-      "rank": 9,
-      "director": [
-        "Sean Baker"
-      ],
-      "runtime": 112,
-      "genres": [
-        "Drama"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/5QnDxdJg1fi6uMSkSi4x8tHsltm.jpg",
-      "providers": {
-        "flatrate": [],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
-          "Fandango At Home",
-          "Spectrum On Demand"
-        ]
-      },
-      "scores": {
-        "rt": 96,
-        "metacritic": 92,
-        "imdb": 7.6
-      },
-      "why": "Sean Baker wrote and directed this — you rated Anora 5★"
     },
     {
       "title": "Snowpiercer",
@@ -451,7 +451,7 @@
       "tmdbId": 12761,
       "tmdbRating": 7.976,
       "votes": 741,
-      "score": 14.84,
+      "score": 22.15,
       "rank": 13,
       "director": [
         "Ingmar Bergman"
@@ -480,63 +480,62 @@
         "metacritic": null,
         "imdb": 8.1
       },
-      "why": "Ingmar Bergman wrote and directed this — you rated The Seventh Seal 5★, Persona 5★"
+      "why": "Ingmar Bergman wrote and directed this — you rated The Seventh Seal 5★, Persona 5★, Hour of the Wolf 5★"
     },
     {
-      "title": "Winter Light",
-      "year": 1963,
-      "tmdbId": 29455,
-      "tmdbRating": 7.874,
-      "votes": 530,
-      "score": 14.67,
+      "title": "The Virgin Spring",
+      "year": 1960,
+      "tmdbId": 11656,
+      "tmdbRating": 7.842,
+      "votes": 696,
+      "score": 21.22,
       "rank": 14,
       "director": [
         "Ingmar Bergman"
       ],
-      "runtime": 80,
+      "runtime": 90,
       "genres": [
-        "Drama"
+        "Drama",
+        "History"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/wDxrEssdjFWYwIZLbr06RQNcg1q.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/z70YM3Y4pNYZATMhFMKonngaeMC.jpg",
       "providers": {
         "flatrate": [
           "Criterion Channel"
         ],
         "rent": [
+          "Amazon Video",
           "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
           "Fandango At Home"
         ]
       },
       "scores": {
-        "rt": 77,
+        "rt": 88,
         "metacritic": null,
         "imdb": 8
       },
-      "why": "Ingmar Bergman wrote and directed this — you rated The Seventh Seal 5★, Persona 5★"
+      "why": "Ingmar Bergman directed this — you rated The Seventh Seal 5★, Persona 5★, Hour of the Wolf 5★"
     },
     {
-      "title": "Fanny and Alexander",
-      "year": 1982,
-      "tmdbId": 5961,
-      "tmdbRating": 7.756,
-      "votes": 927,
-      "score": 14.63,
+      "title": "Through a Glass Darkly",
+      "year": 1961,
+      "tmdbId": 11602,
+      "tmdbRating": 7.779,
+      "votes": 558,
+      "score": 21.15,
       "rank": 15,
       "director": [
         "Ingmar Bergman"
       ],
-      "runtime": 188,
+      "runtime": 91,
       "genres": [
-        "Fantasy",
-        "Drama",
-        "Mystery"
+        "Drama"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/q8jlA3Wc1Z987hNKRFA44g5OugC.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/rYD30Fm4vAcBqk1kTsxHw1s8P29.jpg",
       "providers": {
         "flatrate": [
           "HBO Max Amazon Channel",
+          "Criterion Channel",
           "HBO Max"
         ],
         "rent": [
@@ -547,10 +546,10 @@
       },
       "scores": {
         "rt": 100,
-        "metacritic": 100,
-        "imdb": 8.1
+        "metacritic": 84,
+        "imdb": 7.9
       },
-      "why": "Ingmar Bergman wrote and directed this — you rated The Seventh Seal 5★, Persona 5★"
+      "why": "Ingmar Bergman wrote and directed this — you rated The Seventh Seal 5★, Persona 5★, Hour of the Wolf 5★"
     },
     {
       "title": "Barton Fink",
@@ -1003,40 +1002,6 @@
       "why": "Sean Baker wrote and directed this — you rated Anora 5★"
     },
     {
-      "title": "Starlet",
-      "year": 2012,
-      "tmdbId": 91679,
-      "tmdbRating": 6.808,
-      "votes": 211,
-      "score": 4.17,
-      "rank": 28,
-      "director": [
-        "Sean Baker"
-      ],
-      "runtime": 103,
-      "genres": [
-        "Drama"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/8mVU5KjD5b4Df3CRTnJqKFSwg5y.jpg",
-      "providers": {
-        "flatrate": [
-          "Criterion Channel"
-        ],
-        "rent": [
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
-          "Fandango At Home"
-        ]
-      },
-      "scores": {
-        "rt": 87,
-        "metacritic": 74,
-        "imdb": 7
-      },
-      "why": "Sean Baker wrote and directed this — you rated Anora 5★"
-    },
-    {
       "title": "Thelma & Louise",
       "year": 1991,
       "tmdbId": 1541,
@@ -1046,7 +1011,7 @@
         "surveillance"
       ],
       "score": 2.88,
-      "rank": 29,
+      "rank": 28,
       "director": [
         "Ridley Scott"
       ],
@@ -1089,7 +1054,7 @@
         "surveillance"
       ],
       "score": 2.88,
-      "rank": 30,
+      "rank": 29,
       "director": [
         "Ridley Scott"
       ],
@@ -1124,6 +1089,40 @@
         "imdb": 7.8
       },
       "why": "Ridley Scott directed this — you rated Prometheus 4.5★ · themes: watched & watching"
+    },
+    {
+      "title": "Starlet",
+      "year": 2012,
+      "tmdbId": 91679,
+      "tmdbRating": 6.808,
+      "votes": 211,
+      "score": 4.17,
+      "rank": 30,
+      "director": [
+        "Sean Baker"
+      ],
+      "runtime": 103,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/8mVU5KjD5b4Df3CRTnJqKFSwg5y.jpg",
+      "providers": {
+        "flatrate": [
+          "Criterion Channel"
+        ],
+        "rent": [
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "scores": {
+        "rt": 87,
+        "metacritic": 74,
+        "imdb": 7
+      },
+      "why": "Sean Baker wrote and directed this — you rated Anora 5★"
     },
     {
       "title": "Nimic",
@@ -1483,47 +1482,13 @@
       "why": "Spike Jonze directed this — you rated Being John Malkovich 4.5★, Adaptation. 4★"
     },
     {
-      "title": "Under the Silver Lake",
-      "year": 2018,
-      "tmdbId": 396461,
-      "tmdbRating": 6.326,
-      "votes": 1704,
-      "themes": [
-        "cruel-comedy"
-      ],
-      "score": 1.88,
-      "rank": 41,
-      "director": [
-        "David Robert Mitchell"
-      ],
-      "runtime": 139,
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/cJ9aKlEgTLYtpYjNqin06YqJRUl.jpg",
-      "providers": {
-        "flatrate": [
-          "JustWatch TV Plus"
-        ],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube"
-        ]
-      },
-      "why": "David Robert Mitchell wrote and directed this — you rated The End of Oak Street 4★ · themes: comedy that's actually cruel"
-    },
-    {
       "title": "IF",
       "year": 2024,
       "tmdbId": 639720,
       "tmdbRating": 6.931,
       "votes": 1718,
       "score": 2.96,
-      "rank": 42,
+      "rank": 41,
       "director": [
         "John Krasinski"
       ],
@@ -1553,31 +1518,38 @@
       "why": "John Krasinski wrote and directed this — you rated A Quiet Place 4★"
     },
     {
-      "title": "The Dog Stars",
-      "year": 2026,
-      "tmdbId": 1384216,
-      "tmdbRating": 6.596,
-      "votes": 314,
+      "title": "Under the Silver Lake",
+      "year": 2018,
+      "tmdbId": 396461,
+      "tmdbRating": 6.326,
+      "votes": 1704,
       "themes": [
-        "grief-horror"
+        "cruel-comedy"
       ],
-      "score": 1.81,
-      "rank": 43,
+      "score": 1.88,
+      "rank": 42,
       "director": [
-        "Ridley Scott"
+        "David Robert Mitchell"
       ],
-      "runtime": 119,
+      "runtime": 139,
       "genres": [
+        "Crime",
         "Drama",
-        "Thriller",
-        "Adventure"
+        "Mystery"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/5O616X9vmRzQdB68PHzBewPittd.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/cJ9aKlEgTLYtpYjNqin06YqJRUl.jpg",
       "providers": {
-        "flatrate": [],
-        "rent": []
+        "flatrate": [
+          "JustWatch TV Plus"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube"
+        ]
       },
-      "why": "Ridley Scott directed this — you rated Prometheus 4.5★ · themes: grief wearing a mask"
+      "why": "David Robert Mitchell wrote and directed this — you rated The End of Oak Street 4★ · themes: comedy that's actually cruel"
     },
     {
       "title": "Blade Runner",
@@ -1586,7 +1558,7 @@
       "tmdbRating": 7.936,
       "votes": 15560,
       "score": 2.88,
-      "rank": 44,
+      "rank": 43,
       "director": [
         "Ridley Scott"
       ],
@@ -1615,7 +1587,7 @@
       "tmdbRating": 7.406,
       "votes": 6682,
       "score": 2.88,
-      "rank": 45,
+      "rank": 44,
       "director": [
         "Ridley Scott"
       ],
@@ -1645,6 +1617,62 @@
       "why": "Ridley Scott directed this — you rated Prometheus 4.5★"
     },
     {
+      "title": "The Last Duel",
+      "year": 2021,
+      "tmdbId": 617653,
+      "tmdbRating": 7.394,
+      "votes": 4064,
+      "score": 2.84,
+      "rank": 45,
+      "director": [
+        "Ridley Scott"
+      ],
+      "runtime": 153,
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/zjrJE0fpzPvX8saJXj8VNfcjBoU.jpg",
+      "providers": {
+        "flatrate": [
+          "fuboTV",
+          "YouTube TV",
+          "FXNow"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Ridley Scott directed this — you rated Prometheus 4.5★"
+    },
+    {
+      "title": "Street Fighter",
+      "year": 2026,
+      "tmdbId": 1153576,
+      "tmdbRating": 6.374,
+      "votes": 174,
+      "score": 2.75,
+      "rank": 46,
+      "director": [
+        "Kitao Sakurai"
+      ],
+      "runtime": 120,
+      "genres": [
+        "Action",
+        "Fantasy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/ccxdepKqORLwccbzvO4eAGkN0IC.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": []
+      },
+      "why": "Kitao Sakurai wrote and directed this — you rated Bad Trip 4★"
+    },
+    {
       "title": "Love Lies Bleeding",
       "year": 2024,
       "tmdbId": 948549,
@@ -1654,7 +1682,7 @@
         "body-horror"
       ],
       "score": 2.11,
-      "rank": 46,
+      "rank": 47,
       "director": [
         "Rose Glass"
       ],
@@ -1678,29 +1706,6 @@
         ]
       },
       "why": "Rose Glass wrote and directed this — you rated Saint Maud 4★ · themes: the body betrays"
-    },
-    {
-      "title": "Street Fighter",
-      "year": 2026,
-      "tmdbId": 1153576,
-      "tmdbRating": 6.374,
-      "votes": 174,
-      "score": 2.75,
-      "rank": 47,
-      "director": [
-        "Kitao Sakurai"
-      ],
-      "runtime": 120,
-      "genres": [
-        "Action",
-        "Fantasy"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/ccxdepKqORLwccbzvO4eAGkN0IC.jpg",
-      "providers": {
-        "flatrate": [],
-        "rent": []
-      },
-      "why": "Kitao Sakurai wrote and directed this — you rated Bad Trip 4★"
     },
     {
       "title": "Tokyo!",
@@ -1791,13 +1796,49 @@
       "why": "George Miller wrote and directed this — you rated Mad Max: Fury Road 4★"
     },
     {
+      "title": "Citizen X",
+      "year": 1995,
+      "tmdbId": 12554,
+      "tmdbRating": 7.196,
+      "votes": 406,
+      "themes": [
+        "surveillance"
+      ],
+      "score": 0.87,
+      "rank": 51,
+      "director": [
+        "Chris Gerolmo"
+      ],
+      "runtime": 105,
+      "genres": [
+        "Crime",
+        "Drama",
+        "TV Movie"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/mr3lIjSRhXGVP2o9HY3P9PX2KsH.jpg",
+      "providers": {
+        "flatrate": [
+          "HBO Max Amazon Channel",
+          "HBO Max"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Max von Sydow stars in this — you rated The Seventh Seal 5★, Hour of the Wolf 5★ · themes: watched & watching"
+    },
+    {
       "title": "Mad Max",
       "year": 1979,
       "tmdbId": 9659,
-      "tmdbRating": 6.683,
-      "votes": 5172,
+      "tmdbRating": 6.684,
+      "votes": 5173,
       "score": 2.32,
-      "rank": 51,
+      "rank": 52,
       "director": [
         "George Miller"
       ],
@@ -1828,7 +1869,7 @@
       "tmdbRating": 6.304,
       "votes": 342,
       "score": 2.27,
-      "rank": 52,
+      "rank": 53,
       "director": [
         "John Krasinski"
       ],
@@ -1860,7 +1901,7 @@
       "tmdbRating": 6.5,
       "votes": 1645,
       "score": 2.06,
-      "rank": 53,
+      "rank": 54,
       "director": [
         "George Miller"
       ],
@@ -1890,7 +1931,7 @@
       "tmdbRating": 6.49,
       "votes": 254,
       "score": 1.99,
-      "rank": 54,
+      "rank": 55,
       "director": [
         "Gareth Evans"
       ],
@@ -1924,7 +1965,7 @@
       "tmdbRating": 6.39,
       "votes": 1378,
       "score": 1.95,
-      "rank": 55,
+      "rank": 56,
       "director": [
         "Gareth Evans"
       ],
@@ -1955,7 +1996,7 @@
         "unravelling"
       ],
       "score": 0.45,
-      "rank": 56,
+      "rank": 57,
       "director": [
         "Trey Edward Shults"
       ],
@@ -1982,6 +2023,41 @@
       "why": "Christopher Abbott stars in this — you rated Poor Things 4.5★, You Can See Everything 5★ · themes: coming apart (with a landing)"
     },
     {
+      "title": "Fantastic Four",
+      "year": 2015,
+      "tmdbId": 166424,
+      "tmdbRating": 4.433,
+      "votes": 6601,
+      "themes": [
+        "body-horror"
+      ],
+      "score": 1.08,
+      "rank": 58,
+      "director": [
+        "Josh Trank"
+      ],
+      "runtime": 100,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/cDroz5qSlP8xZ6tOpeYoPkBvKyL.jpg",
+      "providers": {
+        "flatrate": [
+          "Disney Plus"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Josh Trank wrote and directed this — you rated Chronicle 4★ · themes: the body betrays"
+    },
+    {
       "title": "Maps to the Stars",
       "year": 2014,
       "tmdbId": 157851,
@@ -1991,7 +2067,7 @@
         "cruel-comedy"
       ],
       "score": 0.65,
-      "rank": 57,
+      "rank": 59,
       "director": [
         "David Cronenberg"
       ],
@@ -2022,7 +2098,7 @@
         "cruel-comedy"
       ],
       "score": 0.64,
-      "rank": 58,
+      "rank": 60,
       "director": [
         "Lynne Ramsay"
       ],
@@ -2054,7 +2130,7 @@
         "cruel-comedy"
       ],
       "score": 0.63,
-      "rank": 59,
+      "rank": 61,
       "director": [
         "Lawrence Michael Levine"
       ],
@@ -2081,72 +2157,6 @@
         ]
       },
       "why": "Christopher Abbott stars in this — you rated Poor Things 4.5★, You Can See Everything 5★ · themes: comedy that's actually cruel"
-    },
-    {
-      "title": "The Roses",
-      "year": 2025,
-      "tmdbId": 1267905,
-      "tmdbRating": 6.639,
-      "votes": 802,
-      "themes": [
-        "cruel-comedy"
-      ],
-      "score": 0.59,
-      "rank": 60,
-      "director": [
-        "Jay Roach"
-      ],
-      "runtime": 105,
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Romance"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/99O8HLHklXGzvF2TqiRqr7WddzT.jpg",
-      "providers": {
-        "flatrate": [
-          "Hulu"
-        ],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
-          "Fandango At Home"
-        ]
-      },
-      "why": "Tony McNamara wrote this — you rated Poor Things 4.5★ · themes: comedy that's actually cruel"
-    },
-    {
-      "title": "The Hunt",
-      "year": 2020,
-      "tmdbId": 514847,
-      "tmdbRating": 6.659,
-      "votes": 3873,
-      "themes": [
-        "cruel-comedy"
-      ],
-      "score": 0.44,
-      "rank": 61,
-      "director": [
-        "Craig Zobel"
-      ],
-      "runtime": 90,
-      "genres": [
-        "Action",
-        "Thriller",
-        "Horror"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/wxPhn4ef1EAo5njxwBkAEVrlJJG.jpg",
-      "providers": {
-        "flatrate": [],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Fandango At Home"
-        ]
-      },
-      "why": "Damon Lindelof co-wrote this — you rated Prometheus 4.5★ · themes: comedy that's actually cruel"
     },
     {
       "title": "Inception: The Cobol Job",
@@ -2209,6 +2219,145 @@
       "why": "Christopher Nolan has a story credit here — you rated The Odyssey 5★, The Prestige 4.5★, Oppenheimer 4★"
     },
     {
+      "title": "The Hunt",
+      "year": 2020,
+      "tmdbId": 514847,
+      "tmdbRating": 6.659,
+      "votes": 3873,
+      "themes": [
+        "cruel-comedy"
+      ],
+      "score": 0.44,
+      "rank": 64,
+      "director": [
+        "Craig Zobel"
+      ],
+      "runtime": 90,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Horror"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/wxPhn4ef1EAo5njxwBkAEVrlJJG.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Damon Lindelof co-wrote this — you rated Prometheus 4.5★ · themes: comedy that's actually cruel"
+    },
+    {
+      "title": "Minority Report",
+      "year": 2002,
+      "tmdbId": 180,
+      "tmdbRating": 7.355,
+      "votes": 10059,
+      "themes": [
+        "grief-horror"
+      ],
+      "score": 0.36,
+      "rank": 65,
+      "director": [
+        "Steven Spielberg"
+      ],
+      "runtime": 145,
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/qtgFcnwh9dAFLocsDk2ySDVS8UF.jpg",
+      "providers": {
+        "flatrate": [
+          "Amazon Prime Video",
+          "Paramount Plus Premium",
+          "Paramount Plus Essential",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel",
+          "Amazon Prime Video with Ads"
+        ],
+        "rent": [
+          "JustWatch TV Store",
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube"
+        ]
+      },
+      "why": "Max von Sydow appears in this — you rated The Seventh Seal 5★, Hour of the Wolf 5★ · themes: grief wearing a mask"
+    },
+    {
+      "title": "Capone",
+      "year": 2020,
+      "tmdbId": 429422,
+      "tmdbRating": 5.058,
+      "votes": 471,
+      "score": 1.22,
+      "rank": 66,
+      "director": [
+        "Josh Trank"
+      ],
+      "runtime": 103,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/4dIo9k7aoJDi6OHK62YBAH3skOZ.jpg",
+      "providers": {
+        "flatrate": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Josh Trank wrote and directed this — you rated Chronicle 4★"
+    },
+    {
+      "title": "Victor Frankenstein",
+      "year": 2015,
+      "tmdbId": 228066,
+      "tmdbRating": 5.957,
+      "votes": 2345,
+      "themes": [
+        "body-horror"
+      ],
+      "score": 0.54,
+      "rank": 67,
+      "director": [
+        "Paul McGuigan"
+      ],
+      "runtime": 110,
+      "genres": [
+        "Drama",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/bYUmSLPtWylFKbEBHOXT1kt9l5b.jpg",
+      "providers": {
+        "flatrate": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Max Landis wrote this — you rated Chronicle 4★ · themes: the body betrays"
+    },
+    {
       "title": "Twilight",
       "year": 2008,
       "tmdbId": 8966,
@@ -2218,7 +2367,7 @@
         "metaphysical"
       ],
       "score": 0.66,
-      "rank": 64,
+      "rank": 68,
       "director": [
         "Catherine Hardwicke"
       ],
@@ -2246,51 +2395,13 @@
       "why": "Robert Pattinson stars in this — you rated The Odyssey 5★, The Lighthouse 4★, Primetime 4★ · themes: big metaphysical swings"
     },
     {
-      "title": "The Twilight Saga: Eclipse",
-      "year": 2010,
-      "tmdbId": 24021,
-      "tmdbRating": 6.184,
-      "votes": 9456,
-      "themes": [
-        "metaphysical"
-      ],
-      "score": 0.62,
-      "rank": 65,
-      "director": [
-        "David Slade"
-      ],
-      "runtime": 124,
-      "genres": [
-        "Adventure",
-        "Fantasy",
-        "Drama",
-        "Romance"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/dK4Gi1UdMiHzHc7r7CZQG4IQ9Sr.jpg",
-      "providers": {
-        "flatrate": [
-          "Netflix",
-          "Netflix Standard with Ads"
-        ],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
-          "Fandango At Home",
-          "Plex"
-        ]
-      },
-      "why": "Robert Pattinson stars in this — you rated The Odyssey 5★, The Lighthouse 4★, Primetime 4★ · themes: big metaphysical swings"
-    },
-    {
       "title": "Haunt",
       "year": 2019,
       "tmdbId": 517116,
       "tmdbRating": 6.658,
       "votes": 1445,
       "score": 1.14,
-      "rank": 66,
+      "rank": 69,
       "director": [
         "Bryan Woods",
         "Scott Beck"
@@ -2320,13 +2431,84 @@
       "why": "Bryan Woods co-wrote this — you rated A Quiet Place 4★ · Scott Beck co-wrote this — you rated A Quiet Place 4★"
     },
     {
+      "title": "The Twilight Saga: Eclipse",
+      "year": 2010,
+      "tmdbId": 24021,
+      "tmdbRating": 6.184,
+      "votes": 9456,
+      "themes": [
+        "metaphysical"
+      ],
+      "score": 0.62,
+      "rank": 70,
+      "director": [
+        "David Slade"
+      ],
+      "runtime": 124,
+      "genres": [
+        "Adventure",
+        "Fantasy",
+        "Drama",
+        "Romance"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/dK4Gi1UdMiHzHc7r7CZQG4IQ9Sr.jpg",
+      "providers": {
+        "flatrate": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Plex"
+        ]
+      },
+      "why": "Robert Pattinson stars in this — you rated The Odyssey 5★, The Lighthouse 4★, Primetime 4★ · themes: big metaphysical swings"
+    },
+    {
+      "title": "What Dreams May Come",
+      "year": 1998,
+      "tmdbId": 12159,
+      "tmdbRating": 7.258,
+      "votes": 2643,
+      "themes": [
+        "metaphysical"
+      ],
+      "score": 0.33,
+      "rank": 71,
+      "director": [
+        "Vincent Ward"
+      ],
+      "runtime": 113,
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Romance"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/78wCdphUzeb528wLZw2W0fn7yGB.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Max von Sydow appears in this — you rated The Seventh Seal 5★, Hour of the Wolf 5★ · themes: big metaphysical swings"
+    },
+    {
       "title": "65",
       "year": 2023,
       "tmdbId": 700391,
       "tmdbRating": 5.949,
       "votes": 3021,
       "score": 0.74,
-      "rank": 67,
+      "rank": 72,
       "director": [
         "Scott Beck",
         "Bryan Woods"
@@ -2360,7 +2542,7 @@
       "tmdbRating": 7.282,
       "votes": 4112,
       "score": 0.72,
-      "rank": 68,
+      "rank": 73,
       "director": [
         "Michael Bay"
       ],
@@ -2391,7 +2573,7 @@
       "tmdbRating": 7.033,
       "votes": 5973,
       "score": 0.71,
-      "rank": 69,
+      "rank": 74,
       "director": [
         "Steven Caple Jr."
       ],
@@ -2429,7 +2611,7 @@
       "tmdbRating": 7.8,
       "votes": 174,
       "score": 0.68,
-      "rank": 70,
+      "rank": 75,
       "director": [
         "Chris Robinson"
       ],
@@ -2461,7 +2643,7 @@
       "tmdbRating": 7.136,
       "votes": 1792,
       "score": 0.64,
-      "rank": 71,
+      "rank": 76,
       "director": [
         "Jared Stern"
       ],
@@ -2499,7 +2681,7 @@
       "tmdbRating": 6.989,
       "votes": 882,
       "score": 0.57,
-      "rank": 72,
+      "rank": 77,
       "director": [
         "Kevin R. Adams",
         "Joe Ksander"
@@ -2530,7 +2712,7 @@
       "tmdbRating": 7.257,
       "votes": 206,
       "score": 0.56,
-      "rank": 73,
+      "rank": 78,
       "director": [
         "Tsou Shih-ching"
       ],
@@ -2555,7 +2737,7 @@
       "tmdbRating": 6.612,
       "votes": 4320,
       "score": 0.46,
-      "rank": 74,
+      "rank": 79,
       "director": [
         "Malcolm D. Lee"
       ],
@@ -2594,7 +2776,7 @@
       "tmdbRating": 7.097,
       "votes": 3828,
       "score": 0.42,
-      "rank": 75,
+      "rank": 80,
       "director": [
         "Allen Coulter"
       ],
@@ -2627,7 +2809,7 @@
       "tmdbRating": 6.668,
       "votes": 1323,
       "score": 0.4,
-      "rank": 76,
+      "rank": 81,
       "director": [
         "George Clooney"
       ],
@@ -2663,7 +2845,7 @@
       "tmdbRating": 6.486,
       "votes": 700,
       "score": 0.37,
-      "rank": 77,
+      "rank": 82,
       "director": [
         "Sean Charmatz"
       ],
@@ -2686,13 +2868,42 @@
       "why": "Charlie Kaufman wrote this — you rated Being John Malkovich 4.5★, Adaptation. 4★"
     },
     {
+      "title": "Escape to Victory",
+      "year": 1981,
+      "tmdbId": 17360,
+      "tmdbRating": 6.882,
+      "votes": 1051,
+      "score": 0.35,
+      "rank": 83,
+      "director": [
+        "John Huston"
+      ],
+      "runtime": 116,
+      "genres": [
+        "Drama",
+        "War"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/3j6H0dnbvjNXLK1l9nKguXw5vvO.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Max von Sydow stars in this — you rated The Seventh Seal 5★, Hour of the Wolf 5★"
+    },
+    {
       "title": "The Boogeyman",
       "year": 2023,
       "tmdbId": 532408,
       "tmdbRating": 6.365,
       "votes": 1209,
       "score": 0.33,
-      "rank": 78,
+      "rank": 84,
       "director": [
         "Rob Savage"
       ],
@@ -2723,7 +2934,7 @@
       "tmdbRating": 5.976,
       "votes": 308,
       "score": 0.33,
-      "rank": 79,
+      "rank": 85,
       "director": [
         "Michel Gondry"
       ],
@@ -2746,13 +2957,70 @@
       "why": "Charlie Kaufman wrote this — you rated Being John Malkovich 4.5★, Adaptation. 4★"
     },
     {
+      "title": "Pelle the Conqueror",
+      "year": 1987,
+      "tmdbId": 11174,
+      "tmdbRating": 7.3,
+      "votes": 171,
+      "score": 0.32,
+      "rank": 86,
+      "director": [
+        "Bille August"
+      ],
+      "runtime": 157,
+      "genres": [
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/oSsu4khg459yTR1sw4qjEC4LO5J.jpg",
+      "providers": {
+        "flatrate": [
+          "Viaplay Amazon Channel"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store"
+        ]
+      },
+      "why": "Max von Sydow stars in this — you rated The Seventh Seal 5★, Hour of the Wolf 5★"
+    },
+    {
+      "title": "Mr. Right",
+      "year": 2016,
+      "tmdbId": 333385,
+      "tmdbRating": 6.442,
+      "votes": 1511,
+      "score": 0.29,
+      "rank": 87,
+      "director": [
+        "Paco Cabezas"
+      ],
+      "runtime": 95,
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Crime"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/aSx5YUCLcSUAR4nt93aeIpZYHF6.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Max Landis wrote this — you rated Chronicle 4★"
+    },
+    {
       "title": "V/H/S/2",
       "year": 2013,
       "tmdbId": 159117,
       "tmdbRating": 6.215,
       "votes": 1252,
       "score": 0.27,
-      "rank": 80,
+      "rank": 88,
       "director": [
         "Adam Wingard",
         "Gregg Hale",
@@ -2783,69 +3051,13 @@
       "why": "Gareth Evans directed a segment of this — you rated Apostle 4★"
     },
     {
-      "title": "Cruella",
-      "year": 2021,
-      "tmdbId": 337404,
-      "tmdbRating": 7.96,
-      "votes": 10406,
-      "score": 0.25,
-      "rank": 81,
-      "director": [
-        "Craig Gillespie"
-      ],
-      "runtime": 134,
-      "genres": [
-        "Comedy",
-        "Crime"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/hjS9mH8KvRiGHgjk6VUZH7OT0Ng.jpg",
-      "providers": {
-        "flatrate": [
-          "Disney Plus"
-        ],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
-          "Fandango At Home"
-        ]
-      },
-      "why": "Tony McNamara co-wrote this — you rated Poor Things 4.5★"
-    },
-    {
-      "title": "Little Brother",
-      "year": 2026,
-      "tmdbId": 1397385,
-      "tmdbRating": 6.391,
-      "votes": 387,
-      "score": 0.23,
-      "rank": 82,
-      "director": [
-        "Matt Spicer"
-      ],
-      "runtime": 102,
-      "genres": [
-        "Comedy"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/hIJpXb7Xaje2mebN9ylsS7blQzP.jpg",
-      "providers": {
-        "flatrate": [
-          "Netflix",
-          "Netflix Standard with Ads"
-        ],
-        "rent": []
-      },
-      "why": "Eric André stars in this — you rated Bad Trip 4★"
-    },
-    {
       "title": "Sweet Virginia",
       "year": 2017,
       "tmdbId": 413992,
       "tmdbRating": 5.9,
       "votes": 348,
       "score": 0.22,
-      "rank": 83,
+      "rank": 89,
       "director": [
         "Jamie M. Dagg"
       ],
@@ -2880,7 +3092,7 @@
       "tmdbRating": 5.675,
       "votes": 265,
       "score": 0.22,
-      "rank": 84,
+      "rank": 90,
       "director": [
         "Nicolas Pesce"
       ],
@@ -2909,7 +3121,7 @@
       "tmdbRating": 7.322,
       "votes": 9958,
       "score": 0.2,
-      "rank": 85,
+      "rank": 91,
       "director": [
         "J.J. Abrams"
       ],
@@ -2940,23 +3152,50 @@
       "why": "Damon Lindelof co-wrote this — you rated Prometheus 4.5★"
     },
     {
-      "title": "Ashby",
-      "year": 2015,
-      "tmdbId": 330112,
-      "tmdbRating": 6.204,
-      "votes": 477,
-      "score": 0.2,
-      "rank": 86,
+      "title": "Bright",
+      "year": 2017,
+      "tmdbId": 400106,
+      "tmdbRating": 6.2,
+      "votes": 6133,
+      "score": 0.18,
+      "rank": 92,
       "director": [
-        "Tony McNamara"
+        "David Ayer"
       ],
-      "runtime": 102,
+      "runtime": 117,
       "genres": [
-        "Drama",
-        "Romance",
-        "Comedy"
+        "Fantasy",
+        "Action",
+        "Thriller"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/hQDEvfqoYD33JnMWKccVDeWOkVG.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/whkT53Sv2vKAUiknQ13pqcWaPXB.jpg",
+      "providers": {
+        "flatrate": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ],
+        "rent": []
+      },
+      "why": "Max Landis co-wrote this — you rated Chronicle 4★"
+    },
+    {
+      "title": "Shadow in the Cloud",
+      "year": 2021,
+      "tmdbId": 675327,
+      "tmdbRating": 5.817,
+      "votes": 1115,
+      "score": 0.15,
+      "rank": 93,
+      "director": [
+        "Roseanne Liang"
+      ],
+      "runtime": 83,
+      "genres": [
+        "Horror",
+        "Action",
+        "War"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/t7EUMSlfUN3jUSZUJOLURAzJzZs.jpg",
       "providers": {
         "flatrate": [],
         "rent": [
@@ -2967,7 +3206,7 @@
           "Fandango At Home"
         ]
       },
-      "why": "Tony McNamara wrote this — you rated Poor Things 4.5★"
+      "why": "Max Landis co-wrote this — you rated Chronicle 4★"
     },
     {
       "title": "Tomorrowland",
@@ -2976,7 +3215,7 @@
       "tmdbRating": 6.313,
       "votes": 7559,
       "score": 0.14,
-      "rank": 87,
+      "rank": 94,
       "director": [
         "Brad Bird"
       ],
@@ -3009,7 +3248,7 @@
       "tmdbRating": 5.301,
       "votes": 1642,
       "score": 0.12,
-      "rank": 88,
+      "rank": 95,
       "director": [
         "Chris Gorak"
       ],
@@ -3039,85 +3278,13 @@
       "why": "Jon Spaihts wrote this — you rated Prometheus 4.5★"
     },
     {
-      "title": "The Mitchells vs. the Machines",
-      "year": 2021,
-      "tmdbId": 501929,
-      "tmdbRating": 7.822,
-      "votes": 3556,
-      "score": 0.12,
-      "rank": 89,
-      "director": [
-        "Mike Rianda"
-      ],
-      "runtime": 110,
-      "genres": [
-        "Animation",
-        "Adventure",
-        "Comedy"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/mI2Di7HmskQQ34kz0iau6J1vr70.jpg",
-      "providers": {
-        "flatrate": [
-          "Netflix",
-          "Netflix Standard with Ads"
-        ],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
-          "Fandango At Home"
-        ]
-      },
-      "why": "Eric André appears in this — you rated Bad Trip 4★"
-    },
-    {
-      "title": "Trolls Band Together",
-      "year": 2023,
-      "tmdbId": 901362,
-      "tmdbRating": 7.245,
-      "votes": 1045,
-      "score": 0.09,
-      "rank": 90,
-      "director": [
-        "Walt Dohrn"
-      ],
-      "runtime": 91,
-      "genres": [
-        "Animation",
-        "Family",
-        "Music",
-        "Fantasy",
-        "Comedy",
-        "Adventure"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/3ySgD2xwasTHOK6R9bNZiEwKgYo.jpg",
-      "providers": {
-        "flatrate": [
-          "Amazon Prime Video",
-          "Peacock Premium",
-          "Amazon Prime Video with Ads",
-          "Peacock Premium Plus"
-        ],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
-          "Fandango At Home",
-          "Spectrum On Demand"
-        ]
-      },
-      "why": "Eric André appears in this — you rated Bad Trip 4★"
-    },
-    {
       "title": "The World to Come",
       "year": 2021,
       "tmdbId": 506281,
       "tmdbRating": 6.982,
       "votes": 426,
       "score": 0.09,
-      "rank": 91,
+      "rank": 96,
       "director": [
         "Mona Fastvold"
       ],
@@ -3139,81 +3306,91 @@
         ]
       },
       "why": "Christopher Abbott appears in this — you rated Poor Things 4.5★, You Can See Everything 5★"
-    },
-    {
-      "title": "Jackass Forever",
-      "year": 2022,
-      "tmdbId": 656663,
-      "tmdbRating": 6.8,
-      "votes": 1000,
-      "score": 0.06,
-      "rank": 92,
-      "director": [
-        "Jeff Tremaine"
-      ],
-      "runtime": 96,
-      "genres": [
-        "Action",
-        "Comedy",
-        "Documentary"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/ruHDFumJfW7F2vEqTZEQQ9xT7CA.jpg",
-      "providers": {
-        "flatrate": [
-          "Paramount Plus Premium",
-          "Paramount Plus Essential",
-          "Paramount+ Amazon Channel",
-          "Paramount+ Roku Premium Channel"
-        ],
-        "rent": [
-          "JustWatch TV Store",
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
-          "Fandango At Home",
-          "Spectrum On Demand",
-          "Plex"
-        ]
-      },
-      "why": "Eric André co-wrote this — you rated Bad Trip 4★"
-    },
-    {
-      "title": "Jackass 4.5",
-      "year": 2022,
-      "tmdbId": 828853,
-      "tmdbRating": 6.436,
-      "votes": 430,
-      "score": 0.05,
-      "rank": 93,
-      "director": [
-        "Jeff Tremaine"
-      ],
-      "runtime": 90,
-      "genres": [
-        "Comedy",
-        "Action",
-        "Documentary"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/bl686OSeMQOvs90IQAgt8QipCsB.jpg",
-      "providers": {
-        "flatrate": [
-          "Netflix",
-          "Netflix Standard with Ads"
-        ],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
-          "Fandango At Home",
-          "Spectrum On Demand"
-        ]
-      },
-      "why": "Eric André co-wrote this — you rated Bad Trip 4★"
     }
   ],
   "themePicks": [
+    {
+      "title": "Rear Window",
+      "year": 1954,
+      "tmdbId": 567,
+      "tmdbRating": 8.334,
+      "votes": 7450,
+      "theme": "surveillance",
+      "why": "surveillance — the thread through 4 of your loved films",
+      "director": [
+        "Alfred Hitchcock"
+      ],
+      "runtime": 113,
+      "genres": [
+        "Thriller",
+        "Mystery",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/ILVF0eJxHMddjxeQhswFtpMtqx.jpg",
+      "providers": {
+        "flatrate": [
+          "YouTube TV",
+          "TCM"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      }
+    },
+    {
+      "title": "Earthlings",
+      "year": 2005,
+      "tmdbId": 30238,
+      "tmdbRating": 8.105,
+      "votes": 348,
+      "theme": "surveillance",
+      "why": "surveillance — the thread through 4 of your loved films",
+      "director": [
+        "Shaun Monson"
+      ],
+      "runtime": 95,
+      "genres": [
+        "Documentary"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/fcRUYYyDWLJPlX7D6RPtQwdU7G2.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": []
+      }
+    },
+    {
+      "title": "The Lives of Others",
+      "year": 2006,
+      "tmdbId": 582,
+      "tmdbRating": 8.039,
+      "votes": 4328,
+      "theme": "surveillance",
+      "why": "surveillance — the thread through 4 of your loved films",
+      "director": [
+        "Florian Henckel von Donnersmarck"
+      ],
+      "runtime": 137,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/cVUDMnskSc01rdbyH0tLATTJUdP.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "FlixFling"
+        ]
+      }
+    },
     {
       "title": "Perfect Blue",
       "year": 1998,
@@ -3416,88 +3593,6 @@
           "Amazon Video",
           "Apple TV Store",
           "Fandango At Home"
-        ]
-      }
-    },
-    {
-      "title": "Rear Window",
-      "year": 1954,
-      "tmdbId": 567,
-      "tmdbRating": 8.334,
-      "votes": 7450,
-      "theme": "surveillance",
-      "why": "surveillance — the thread through 3 of your loved films",
-      "director": [
-        "Alfred Hitchcock"
-      ],
-      "runtime": 113,
-      "genres": [
-        "Thriller",
-        "Mystery",
-        "Drama"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/ILVF0eJxHMddjxeQhswFtpMtqx.jpg",
-      "providers": {
-        "flatrate": [
-          "YouTube TV",
-          "TCM"
-        ],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
-          "Fandango At Home"
-        ]
-      }
-    },
-    {
-      "title": "Earthlings",
-      "year": 2005,
-      "tmdbId": 30238,
-      "tmdbRating": 8.105,
-      "votes": 348,
-      "theme": "surveillance",
-      "why": "surveillance — the thread through 3 of your loved films",
-      "director": [
-        "Shaun Monson"
-      ],
-      "runtime": 95,
-      "genres": [
-        "Documentary"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/fcRUYYyDWLJPlX7D6RPtQwdU7G2.jpg",
-      "providers": {
-        "flatrate": [],
-        "rent": []
-      }
-    },
-    {
-      "title": "The Lives of Others",
-      "year": 2006,
-      "tmdbId": 582,
-      "tmdbRating": 8.039,
-      "votes": 4328,
-      "theme": "surveillance",
-      "why": "surveillance — the thread through 3 of your loved films",
-      "director": [
-        "Florian Henckel von Donnersmarck"
-      ],
-      "runtime": 137,
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/cVUDMnskSc01rdbyH0tLATTJUdP.jpg",
-      "providers": {
-        "flatrate": [],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
-          "Fandango At Home",
-          "FlixFling"
         ]
       }
     },

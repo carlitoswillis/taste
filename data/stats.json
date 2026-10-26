@@ -1,16 +1,16 @@
 {
   "generated": "2026-10-26",
   "counts": {
-    "seen": 362,
-    "rated": 46,
-    "scored": 41,
-    "perfect": 6
+    "seen": 363,
+    "rated": 50,
+    "scored": 45,
+    "perfect": 7
   },
   "tiers": {
-    "4": 17,
-    "5": 6,
+    "4": 18,
+    "5": 7,
     "4.5": 9,
-    "3.5": 8,
+    "3.5": 10,
     "2.5": 1
   },
   "decades": {
@@ -21,50 +21,50 @@
     "1980": 11,
     "1990": 21,
     "2000": 62,
-    "2010": 113,
+    "2010": 114,
     "2020": 142
   },
   "genreTilt": [
     {
       "genre": "Drama",
-      "lovedShare": 0.46875,
-      "seenShare": 0.34349030470914127,
-      "tilt": 0.12525969529085873
+      "lovedShare": 0.5,
+      "seenShare": 0.3453038674033149,
+      "tilt": 0.15469613259668508
     },
     {
       "genre": "Mystery",
-      "lovedShare": 0.25,
-      "seenShare": 0.14958448753462603,
-      "tilt": 0.10041551246537397
+      "lovedShare": 0.23529411764705882,
+      "seenShare": 0.14917127071823205,
+      "tilt": 0.08612284692882677
     },
     {
       "genre": "Comedy",
-      "lovedShare": 0.3125,
-      "seenShare": 0.24376731301939059,
-      "tilt": 0.06873268698060941
+      "lovedShare": 0.29411764705882354,
+      "seenShare": 0.2430939226519337,
+      "tilt": 0.05102372440688985
     },
     {
       "genre": "Documentary",
-      "lovedShare": 0.0625,
-      "seenShare": 0.008310249307479225,
-      "tilt": 0.05418975069252077
+      "lovedShare": 0.058823529411764705,
+      "seenShare": 0.008287292817679558,
+      "tilt": 0.05053623659408515
     },
     {
       "genre": "Fantasy",
-      "lovedShare": 0.15625,
-      "seenShare": 0.10249307479224377,
-      "tilt": 0.053756925207756226
+      "lovedShare": 0.14705882352941177,
+      "seenShare": 0.10220994475138122,
+      "tilt": 0.04484887877803055
     },
     {
-      "genre": "Romance",
-      "lovedShare": 0.09375,
-      "seenShare": 0.0664819944598338,
-      "tilt": 0.0272680055401662
+      "genre": "Horror",
+      "lovedShare": 0.29411764705882354,
+      "seenShare": 0.2569060773480663,
+      "tilt": 0.03721156971075723
     }
   ],
   "genreCoverage": {
-    "loved": 32,
-    "seen": 361
+    "loved": 34,
+    "seen": 362
   },
   "lovedAgainstCritics": [
     {
@@ -82,11 +82,11 @@
       "gap": 2.5999999999999996
     },
     {
-      "title": "You Can See Everything",
-      "year": 2026,
+      "title": "Hour of the Wolf",
+      "year": 1968,
       "mine": 5,
-      "imdb": 7.9,
-      "gap": 2.0999999999999996
+      "imdb": 7.5,
+      "gap": 2.5
     }
   ],
   "coldAgainstCritics": [
@@ -113,5 +113,5 @@
     }
   ],
   "profileUpdated": "2026-07-22",
-  "newSinceProfile": 24
+  "newSinceProfile": 26
 }

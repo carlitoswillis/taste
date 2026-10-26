@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T03:00:37.454Z",
+  "generated": "2026-10-26T03:14:14.004Z",
   "edges": [
     {
       "book": {
@@ -1004,6 +1004,19 @@
     },
     {
       "book": {
+        "title": "Black Hawk Down",
+        "author": "Mark Bowden",
+        "olWork": "OL491869W",
+        "wikidata": "Q1036769"
+      },
+      "screen": "Black Hawk Down (2001)",
+      "screenId": "m:855",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
         "title": "Scott Pilgrim",
         "author": "Bryan Lee O'Malley",
         "olWork": "OL17481869W",
@@ -1115,6 +1128,19 @@
       },
       "screen": "Gone Girl (2014)",
       "screenId": "m:210577",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Piercing",
+        "author": "Ryū Murakami",
+        "olWork": null,
+        "wikidata": "Q7191860"
+      },
+      "screen": "Piercing (2019)",
+      "screenId": "m:440444",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -1258,19 +1284,6 @@
       },
       "screen": "Apocalypse Now (1979)",
       "screenId": "m:28",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "The Fellowship of the Ring",
-        "author": "J. R. R. Tolkien",
-        "olWork": "OL14933414W",
-        "wikidata": "Q208002"
-      },
-      "screen": "The Lord of the Rings: The Fellowship of the Ring (2001)",
-      "screenId": "m:120",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -1531,6 +1544,19 @@
       },
       "screen": "Harry Potter and the Prisoner of Azkaban (2004)",
       "screenId": "m:673",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Fellowship of the Ring",
+        "author": "J. R. R. Tolkien",
+        "olWork": "OL14933414W",
+        "wikidata": "Q208002"
+      },
+      "screen": "The Lord of the Rings: The Fellowship of the Ring (2001)",
+      "screenId": "m:120",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -1872,6 +1898,62 @@
       "weight": 6.08
     },
     {
+      "name": "Ingmar Bergman",
+      "wikidata": "Q7546",
+      "olKey": "OL417775A",
+      "adaptedBy": [
+        {
+          "director": "Ingmar Bergman",
+          "films": [
+            "The Seventh Seal"
+          ]
+        }
+      ],
+      "weight": 3.84
+    },
+    {
+      "name": "Per Olov Enquist",
+      "wikidata": "Q311476",
+      "olKey": "OL274130A",
+      "adaptedBy": [
+        {
+          "director": "Ingmar Bergman",
+          "films": [
+            "The Image Makers"
+          ]
+        }
+      ],
+      "weight": 3.84
+    },
+    {
+      "name": "Per Anders Fogelström",
+      "wikidata": "Q705753",
+      "olKey": "OL128703A",
+      "adaptedBy": [
+        {
+          "director": "Ingmar Bergman",
+          "films": [
+            "Summer with Monika"
+          ]
+        }
+      ],
+      "weight": 3.84
+    },
+    {
+      "name": "Oskar Braaten",
+      "wikidata": "Q947303",
+      "olKey": "OL1721338A",
+      "adaptedBy": [
+        {
+          "director": "Ingmar Bergman",
+          "films": [
+            "It Rains on Our Love"
+          ]
+        }
+      ],
+      "weight": 3.84
+    },
+    {
       "name": "Cormac McCarthy",
       "wikidata": "Q272610",
       "olKey": "OL28104A",
@@ -1966,62 +2048,6 @@
         }
       ],
       "weight": 2.88
-    },
-    {
-      "name": "Ingmar Bergman",
-      "wikidata": "Q7546",
-      "olKey": "OL417775A",
-      "adaptedBy": [
-        {
-          "director": "Ingmar Bergman",
-          "films": [
-            "The Seventh Seal"
-          ]
-        }
-      ],
-      "weight": 2.56
-    },
-    {
-      "name": "Per Olov Enquist",
-      "wikidata": "Q311476",
-      "olKey": "OL274130A",
-      "adaptedBy": [
-        {
-          "director": "Ingmar Bergman",
-          "films": [
-            "The Image Makers"
-          ]
-        }
-      ],
-      "weight": 2.56
-    },
-    {
-      "name": "Per Anders Fogelström",
-      "wikidata": "Q705753",
-      "olKey": "OL128703A",
-      "adaptedBy": [
-        {
-          "director": "Ingmar Bergman",
-          "films": [
-            "Summer with Monika"
-          ]
-        }
-      ],
-      "weight": 2.56
-    },
-    {
-      "name": "Oskar Braaten",
-      "wikidata": "Q947303",
-      "olKey": "OL1721338A",
-      "adaptedBy": [
-        {
-          "director": "Ingmar Bergman",
-          "films": [
-            "It Rains on Our Love"
-          ]
-        }
-      ],
-      "weight": 2.56
     },
     {
       "name": "Alasdair Gray",

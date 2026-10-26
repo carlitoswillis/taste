@@ -1,9 +1,9 @@
 {
-  "generated": "2026-10-26T03:00:30.694Z",
+  "generated": "2026-10-26T03:14:07.975Z",
   "basedOn": {
-    "loved": 32,
-    "seenWithKeywords": 366,
-    "filmsEnriched": 598
+    "loved": 34,
+    "seenWithKeywords": 367,
+    "filmsEnriched": 605
   },
   "themes": [
     {
@@ -11,12 +11,12 @@
       "name": "Doubling & doppelgangers",
       "core": true,
       "affinity": 2.5,
-      "affinityNorm": 0.45,
+      "affinityNorm": 0.42,
       "lovedCount": 2,
       "lovedShare": 0.06,
       "seenCount": 13,
       "seenShare": 0.04,
-      "tilt": 0.03,
+      "tilt": 0.02,
       "lovedFilms": [
         {
           "title": "The Prestige",
@@ -55,12 +55,12 @@
       "name": "Coming apart (with a landing)",
       "core": true,
       "affinity": 5.5,
-      "affinityNorm": 1,
+      "affinityNorm": 0.92,
       "lovedCount": 4,
-      "lovedShare": 0.13,
+      "lovedShare": 0.12,
       "seenCount": 20,
       "seenShare": 0.05,
-      "tilt": 0.07,
+      "tilt": 0.06,
       "lovedFilms": [
         {
           "title": "Persona",
@@ -135,12 +135,12 @@
       "name": "Comedy that's actually cruel",
       "core": false,
       "affinity": 4,
-      "affinityNorm": 0.73,
+      "affinityNorm": 0.67,
       "lovedCount": 3,
       "lovedShare": 0.09,
       "seenCount": 43,
       "seenShare": 0.12,
-      "tilt": -0.02,
+      "tilt": -0.03,
       "lovedFilms": [
         {
           "title": "Parasite",
@@ -186,7 +186,7 @@
       "name": "Big metaphysical swings",
       "core": false,
       "affinity": 2,
-      "affinityNorm": 0.36,
+      "affinityNorm": 0.33,
       "lovedCount": 1,
       "lovedShare": 0.03,
       "seenCount": 15,
@@ -222,7 +222,7 @@
       "name": "The body betrays",
       "core": false,
       "affinity": 2.5,
-      "affinityNorm": 0.45,
+      "affinityNorm": 0.42,
       "lovedCount": 2,
       "lovedShare": 0.06,
       "seenCount": 23,
@@ -263,17 +263,25 @@
       "id": "surveillance",
       "name": "Watched & watching",
       "core": false,
-      "affinity": 4,
-      "affinityNorm": 0.73,
-      "lovedCount": 3,
-      "lovedShare": 0.09,
+      "affinity": 6,
+      "affinityNorm": 1,
+      "lovedCount": 4,
+      "lovedShare": 0.12,
       "seenCount": 11,
       "seenShare": 0.03,
-      "tilt": 0.06,
+      "tilt": 0.09,
       "lovedFilms": [
         {
           "title": "You Can See Everything",
           "year": 2026,
+          "score": 5,
+          "matched": [
+            "voyeurism"
+          ]
+        },
+        {
+          "title": "Hour of the Wolf",
+          "year": 1968,
           "score": 5,
           "matched": [
             "voyeurism"
@@ -312,9 +320,9 @@
       "name": "Grief wearing a mask",
       "core": false,
       "affinity": 4,
-      "affinityNorm": 0.73,
+      "affinityNorm": 0.67,
       "lovedCount": 4,
-      "lovedShare": 0.13,
+      "lovedShare": 0.12,
       "seenCount": 15,
       "seenShare": 0.04,
       "tilt": 0.08,
@@ -366,11 +374,23 @@
   ],
   "emergent": [
     {
+      "keyword": "black and white",
+      "id": 12999,
+      "lovedCount": 4,
+      "seenCount": 7,
+      "tilt": 0.1,
+      "films": [
+        "The Seventh Seal (1957)",
+        "Persona (1966)",
+        "The Lighthouse (2019)"
+      ]
+    },
+    {
       "keyword": "obsession",
       "id": 1523,
       "lovedCount": 4,
       "seenCount": 17,
-      "tilt": 0.08,
+      "tilt": 0.07,
       "films": [
         "The Prestige (2006)",
         "Poor Things (2023)",
@@ -394,7 +414,7 @@
       "id": 214655,
       "lovedCount": 3,
       "seenCount": 6,
-      "tilt": 0.08,
+      "tilt": 0.07,
       "films": [
         "Poor Things (2023)",
         "Bugonia (2025)",
@@ -418,23 +438,11 @@
       "id": 323910,
       "lovedCount": 3,
       "seenCount": 9,
-      "tilt": 0.07,
+      "tilt": 0.06,
       "films": [
         "Prometheus (2012)",
         "A Quiet Place (2018)",
         "Companion (2025)"
-      ]
-    },
-    {
-      "keyword": "black and white",
-      "id": 12999,
-      "lovedCount": 3,
-      "seenCount": 7,
-      "tilt": 0.07,
-      "films": [
-        "The Seventh Seal (1957)",
-        "Persona (1966)",
-        "The Lighthouse (2019)"
       ]
     },
     {
@@ -450,28 +458,6 @@
       ]
     },
     {
-      "keyword": "isolated island",
-      "id": 226406,
-      "lovedCount": 2,
-      "seenCount": 2,
-      "tilt": 0.06,
-      "films": [
-        "The Lighthouse (2019)",
-        "Apostle (2018)"
-      ]
-    },
-    {
-      "keyword": "drunk",
-      "id": 40879,
-      "lovedCount": 2,
-      "seenCount": 2,
-      "tilt": 0.06,
-      "films": [
-        "Anora (2024)",
-        "Bad Trip (2021)"
-      ]
-    },
-    {
       "keyword": "class differences",
       "id": 14514,
       "lovedCount": 2,
@@ -480,17 +466,6 @@
       "films": [
         "Anora (2024)",
         "Parasite (2019)"
-      ]
-    },
-    {
-      "keyword": "introspective",
-      "id": 269808,
-      "lovedCount": 2,
-      "seenCount": 6,
-      "tilt": 0.05,
-      "films": [
-        "Parasite (2019)",
-        "Adaptation. (2002)"
       ]
     },
     {
@@ -516,17 +491,6 @@
       ]
     },
     {
-      "keyword": "ritual",
-      "id": 4720,
-      "lovedCount": 2,
-      "seenCount": 6,
-      "tilt": 0.05,
-      "films": [
-        "Hereditary (2018)",
-        "Midsommar (2019)"
-      ]
-    },
-    {
       "keyword": "boyfriend girlfriend relationship",
       "id": 164698,
       "lovedCount": 2,
@@ -546,17 +510,6 @@
       "films": [
         "Hereditary (2018)",
         "Midsommar (2019)"
-      ]
-    },
-    {
-      "keyword": "folk horror",
-      "id": 209568,
-      "lovedCount": 2,
-      "seenCount": 6,
-      "tilt": 0.05,
-      "films": [
-        "Midsommar (2019)",
-        "Apostle (2018)"
       ]
     },
     {
@@ -604,17 +557,6 @@
       ]
     },
     {
-      "keyword": "london, england",
-      "id": 212,
-      "lovedCount": 2,
-      "seenCount": 6,
-      "tilt": 0.05,
-      "films": [
-        "The Prestige (2006)",
-        "Poor Things (2023)"
-      ]
-    },
-    {
       "keyword": "cruelty",
       "id": 14624,
       "lovedCount": 2,
@@ -646,13 +588,79 @@
         "Adaptation. (2002)",
         "They Cloned Tyrone (2023)"
       ]
+    },
+    {
+      "keyword": "commanding",
+      "id": 325785,
+      "lovedCount": 2,
+      "seenCount": 3,
+      "tilt": 0.05,
+      "films": [
+        "Hereditary (2018)",
+        "The Northman (2022)"
+      ]
+    },
+    {
+      "keyword": "fate",
+      "id": 10855,
+      "lovedCount": 2,
+      "seenCount": 4,
+      "tilt": 0.05,
+      "films": [
+        "No Country for Old Men (2007)",
+        "The Northman (2022)"
+      ]
+    },
+    {
+      "keyword": "post-apocalyptic future",
+      "id": 4458,
+      "lovedCount": 2,
+      "seenCount": 5,
+      "tilt": 0.05,
+      "films": [
+        "Mad Max: Fury Road (2015)",
+        "A Quiet Place (2018)"
+      ]
+    },
+    {
+      "keyword": "isolated island",
+      "id": 226406,
+      "lovedCount": 2,
+      "seenCount": 2,
+      "tilt": 0.05,
+      "films": [
+        "The Lighthouse (2019)",
+        "Apostle (2018)"
+      ]
+    },
+    {
+      "keyword": "doubtful",
+      "id": 325802,
+      "lovedCount": 2,
+      "seenCount": 3,
+      "tilt": 0.05,
+      "films": [
+        "No Country for Old Men (2007)",
+        "Together (2025)"
+      ]
+    },
+    {
+      "keyword": "diary",
+      "id": 2913,
+      "lovedCount": 2,
+      "seenCount": 3,
+      "tilt": 0.05,
+      "films": [
+        "The Prestige (2006)",
+        "Hour of the Wolf (1968)"
+      ]
     }
   ],
   "coverage": {
-    "filmsWithKeywords": 366,
+    "filmsWithKeywords": 367,
     "filmsWithoutKeywords": 1,
-    "distinctKeywords": 3248,
+    "distinctKeywords": 3253,
     "mappedKeywords": 31,
-    "unmappedSeenTwicePlus": 1084
+    "unmappedSeenTwicePlus": 1086
   }
 }

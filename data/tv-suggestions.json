@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-26T03:02:12.033Z",
-  "basedOn": 32,
+  "generated": "2026-10-26T03:15:31.566Z",
+  "basedOn": 34,
   "head": 10,
   "items": [
     {
@@ -9,7 +9,7 @@
       "tmdbId": 33153,
       "tmdbRating": 8.3,
       "votes": 152,
-      "score": 13,
+      "score": 18.4,
       "rank": 1,
       "creators": [
         "Ingmar Bergman"
@@ -33,7 +33,7 @@
         "metacritic": null,
         "imdb": 9
       },
-      "why": "Ingmar Bergman created this (directed The Seventh Seal 5★, directed Persona 5★)"
+      "why": "Ingmar Bergman created this (directed The Seventh Seal 5★, directed Persona 5★, directed Hour of the Wolf 5★)"
     },
     {
       "title": "Scenes from a Marriage",
@@ -41,7 +41,7 @@
       "tmdbId": 65170,
       "tmdbRating": 8.1,
       "votes": 150,
-      "score": 13,
+      "score": 18.4,
       "rank": 2,
       "creators": [
         "Ingmar Bergman"
@@ -65,7 +65,7 @@
         "metacritic": null,
         "imdb": 8.5
       },
-      "why": "Ingmar Bergman created this (directed The Seventh Seal 5★, directed Persona 5★)"
+      "why": "Ingmar Bergman created this (directed The Seventh Seal 5★, directed Persona 5★, directed Hour of the Wolf 5★)"
     },
     {
       "title": "The Curse",
@@ -110,13 +110,50 @@
       "why": "Nathan Fielder created this (directed You Can See Everything 5★) · themes: comedy that's actually cruel"
     },
     {
+      "title": "The Eric Andre Show",
+      "year": 2012,
+      "tmdbId": 56590,
+      "tmdbRating": 7.865,
+      "votes": 178,
+      "score": 3.0400000000000005,
+      "themes": [
+        "surveillance"
+      ],
+      "rank": 4,
+      "creators": [
+        "Eric André"
+      ],
+      "seasons": 6,
+      "episodes": 60,
+      "episodeRuntime": 11,
+      "showStatus": "Canceled",
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/mXmZJy8AtOF5s5SMW3WfAVxYG7V.jpg",
+      "providers": {
+        "flatrate": [
+          "Hulu",
+          "YouTube TV",
+          "Adult Swim"
+        ],
+        "rent": []
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 8.5
+      },
+      "why": "Kitao Sakurai wrote for this (directed Bad Trip 4★) · themes: watched & watching"
+    },
+    {
       "title": "Nathan for You",
       "year": 2013,
       "tmdbId": 58957,
       "tmdbRating": 8.245,
       "votes": 339,
       "score": 4.2,
-      "rank": 4,
+      "rank": 5,
       "creators": [
         "Nathan Fielder",
         "Michael Koman"
@@ -148,43 +185,6 @@
         "imdb": 8.9
       },
       "why": "Nathan Fielder created this (directed You Can See Everything 5★)"
-    },
-    {
-      "title": "The Eric Andre Show",
-      "year": 2012,
-      "tmdbId": 56590,
-      "tmdbRating": 7.865,
-      "votes": 178,
-      "score": 3.0400000000000005,
-      "themes": [
-        "surveillance"
-      ],
-      "rank": 5,
-      "creators": [
-        "Eric André"
-      ],
-      "seasons": 6,
-      "episodes": 60,
-      "episodeRuntime": 11,
-      "showStatus": "Canceled",
-      "genres": [
-        "Comedy"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/mXmZJy8AtOF5s5SMW3WfAVxYG7V.jpg",
-      "providers": {
-        "flatrate": [
-          "Hulu",
-          "YouTube TV",
-          "Adult Swim"
-        ],
-        "rent": []
-      },
-      "scores": {
-        "rt": null,
-        "metacritic": null,
-        "imdb": 8.5
-      },
-      "why": "Kitao Sakurai wrote for this (directed Bad Trip 4★) · themes: watched & watching"
     },
     {
       "title": "BEEF",
@@ -446,8 +446,8 @@
       "title": "Twisted Metal",
       "year": 2023,
       "tmdbId": 133748,
-      "tmdbRating": 7.675,
-      "votes": 573,
+      "tmdbRating": 7.666,
+      "votes": 574,
       "score": 3.0400000000000005,
       "themes": [
         "identity"
@@ -863,44 +863,13 @@
       "why": "Ridley Scott directed episodes (directed Prometheus 4.5★)"
     },
     {
-      "title": "50 States of Fright",
-      "year": 2020,
-      "tmdbId": 94251,
-      "tmdbRating": 7.2,
-      "votes": 106,
-      "score": 1.7600000000000002,
-      "rank": 25,
-      "creators": [
-        "Sam Raimi"
-      ],
-      "seasons": 2,
-      "episodes": 24,
-      "episodeRuntime": 6,
-      "showStatus": "Canceled",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/bfX15CYiGgBfasc8lVJ7mmxhrMz.jpg",
-      "providers": {
-        "flatrate": [],
-        "rent": []
-      },
-      "scores": {
-        "rt": null,
-        "metacritic": null,
-        "imdb": 6.5
-      },
-      "why": "Bryan Woods wrote for this (wrote A Quiet Place 4★)"
-    },
-    {
       "title": "Dope Thief",
       "year": 2025,
       "tmdbId": 209876,
       "tmdbRating": 6.554,
       "votes": 140,
       "score": 1.9200000000000004,
-      "rank": 26,
+      "rank": 25,
       "creators": [
         "Peter Craig"
       ],
