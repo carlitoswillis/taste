@@ -1,9 +1,9 @@
 {
-  "generated": "2026-10-25T22:34:37.567Z",
+  "generated": "2026-10-26T03:00:30.694Z",
   "basedOn": {
-    "loved": 31,
-    "seenWithKeywords": 365,
-    "filmsEnriched": 488
+    "loved": 32,
+    "seenWithKeywords": 366,
+    "filmsEnriched": 598
   },
   "themes": [
     {
@@ -137,7 +137,7 @@
       "affinity": 4,
       "affinityNorm": 0.73,
       "lovedCount": 3,
-      "lovedShare": 0.1,
+      "lovedShare": 0.09,
       "seenCount": 43,
       "seenShare": 0.12,
       "tilt": -0.02,
@@ -263,14 +263,22 @@
       "id": "surveillance",
       "name": "Watched & watching",
       "core": false,
-      "affinity": 2,
-      "affinityNorm": 0.36,
-      "lovedCount": 2,
-      "lovedShare": 0.06,
-      "seenCount": 10,
+      "affinity": 4,
+      "affinityNorm": 0.73,
+      "lovedCount": 3,
+      "lovedShare": 0.09,
+      "seenCount": 11,
       "seenShare": 0.03,
-      "tilt": 0.04,
+      "tilt": 0.06,
       "lovedFilms": [
+        {
+          "title": "You Can See Everything",
+          "year": 2026,
+          "score": 5,
+          "matched": [
+            "voyeurism"
+          ]
+        },
         {
           "title": "Bad Trip",
           "year": 2021,
@@ -295,7 +303,7 @@
       ],
       "keywordHits": {
         "hidden camera": 3,
-        "voyeurism": 5,
+        "voyeurism": 6,
         "surveillance": 2
       }
     },
@@ -309,7 +317,7 @@
       "lovedShare": 0.13,
       "seenCount": 15,
       "seenShare": 0.04,
-      "tilt": 0.09,
+      "tilt": 0.08,
       "lovedFilms": [
         {
           "title": "Midsommar",
@@ -374,7 +382,7 @@
       "id": 295907,
       "lovedCount": 4,
       "seenCount": 19,
-      "tilt": 0.08,
+      "tilt": 0.07,
       "films": [
         "Obsession (2026)",
         "The Lighthouse (2019)",
@@ -394,15 +402,15 @@
       ]
     },
     {
-      "keyword": "black and white",
-      "id": 12999,
+      "keyword": "texas",
+      "id": 1556,
       "lovedCount": 3,
       "seenCount": 7,
-      "tilt": 0.08,
+      "tilt": 0.07,
       "films": [
-        "The Seventh Seal (1957)",
-        "Persona (1966)",
-        "The Lighthouse (2019)"
+        "No Country for Old Men (2007)",
+        "Primetime (2026)",
+        "You Can See Everything (2026)"
       ]
     },
     {
@@ -418,80 +426,27 @@
       ]
     },
     {
-      "keyword": "boyfriend girlfriend relationship",
-      "id": 164698,
-      "lovedCount": 2,
-      "seenCount": 3,
-      "tilt": 0.06,
+      "keyword": "black and white",
+      "id": 12999,
+      "lovedCount": 3,
+      "seenCount": 7,
+      "tilt": 0.07,
       "films": [
-        "Midsommar (2019)",
-        "Companion (2025)"
+        "The Seventh Seal (1957)",
+        "Persona (1966)",
+        "The Lighthouse (2019)"
       ]
     },
     {
-      "keyword": "psychological disorders",
-      "id": 224845,
-      "lovedCount": 2,
-      "seenCount": 3,
-      "tilt": 0.06,
+      "keyword": "husband wife relationship",
+      "id": 1157,
+      "lovedCount": 3,
+      "seenCount": 15,
+      "tilt": 0.05,
       "films": [
-        "Hereditary (2018)",
-        "Midsommar (2019)"
-      ]
-    },
-    {
-      "keyword": "toxic relationship",
-      "id": 241804,
-      "lovedCount": 2,
-      "seenCount": 3,
-      "tilt": 0.06,
-      "films": [
-        "Midsommar (2019)",
-        "Companion (2025)"
-      ]
-    },
-    {
-      "keyword": "traumatized woman",
-      "id": 253807,
-      "lovedCount": 2,
-      "seenCount": 3,
-      "tilt": 0.06,
-      "films": [
-        "Hereditary (2018)",
-        "Midsommar (2019)"
-      ]
-    },
-    {
-      "keyword": "ship",
-      "id": 3799,
-      "lovedCount": 2,
-      "seenCount": 3,
-      "tilt": 0.06,
-      "films": [
-        "The Odyssey (2026)",
-        "Poor Things (2023)"
-      ]
-    },
-    {
-      "keyword": "sex worker",
-      "id": 190178,
-      "lovedCount": 2,
-      "seenCount": 3,
-      "tilt": 0.06,
-      "films": [
-        "Anora (2024)",
-        "Poor Things (2023)"
-      ]
-    },
-    {
-      "keyword": "commanding",
-      "id": 325785,
-      "lovedCount": 2,
-      "seenCount": 3,
-      "tilt": 0.06,
-      "films": [
-        "Hereditary (2018)",
-        "The Northman (2022)"
+        "Oppenheimer (2023)",
+        "Primetime (2026)",
+        "You Can See Everything (2026)"
       ]
     },
     {
@@ -506,50 +461,6 @@
       ]
     },
     {
-      "keyword": "doubtful",
-      "id": 325802,
-      "lovedCount": 2,
-      "seenCount": 3,
-      "tilt": 0.06,
-      "films": [
-        "No Country for Old Men (2007)",
-        "Together (2025)"
-      ]
-    },
-    {
-      "keyword": "countryside",
-      "id": 548,
-      "lovedCount": 2,
-      "seenCount": 3,
-      "tilt": 0.06,
-      "films": [
-        "The Seventh Seal (1957)",
-        "Together (2025)"
-      ]
-    },
-    {
-      "keyword": "nurse",
-      "id": 428,
-      "lovedCount": 2,
-      "seenCount": 3,
-      "tilt": 0.06,
-      "films": [
-        "Persona (1966)",
-        "Saint Maud (2019)"
-      ]
-    },
-    {
-      "keyword": "symbolism",
-      "id": 1715,
-      "lovedCount": 2,
-      "seenCount": 3,
-      "tilt": 0.06,
-      "films": [
-        "The Seventh Seal (1957)",
-        "Bugonia (2025)"
-      ]
-    },
-    {
       "keyword": "drunk",
       "id": 40879,
       "lovedCount": 2,
@@ -558,17 +469,6 @@
       "films": [
         "Anora (2024)",
         "Bad Trip (2021)"
-      ]
-    },
-    {
-      "keyword": "hostile",
-      "id": 201864,
-      "lovedCount": 2,
-      "seenCount": 3,
-      "tilt": 0.06,
-      "films": [
-        "A Quiet Place (2018)",
-        "They Cloned Tyrone (2023)"
       ]
     },
     {
@@ -627,6 +527,17 @@
       ]
     },
     {
+      "keyword": "boyfriend girlfriend relationship",
+      "id": 164698,
+      "lovedCount": 2,
+      "seenCount": 3,
+      "tilt": 0.05,
+      "films": [
+        "Midsommar (2019)",
+        "Companion (2025)"
+      ]
+    },
+    {
       "keyword": "grieving",
       "id": 172291,
       "lovedCount": 2,
@@ -636,13 +547,112 @@
         "Hereditary (2018)",
         "Midsommar (2019)"
       ]
+    },
+    {
+      "keyword": "folk horror",
+      "id": 209568,
+      "lovedCount": 2,
+      "seenCount": 6,
+      "tilt": 0.05,
+      "films": [
+        "Midsommar (2019)",
+        "Apostle (2018)"
+      ]
+    },
+    {
+      "keyword": "psychological disorders",
+      "id": 224845,
+      "lovedCount": 2,
+      "seenCount": 3,
+      "tilt": 0.05,
+      "films": [
+        "Hereditary (2018)",
+        "Midsommar (2019)"
+      ]
+    },
+    {
+      "keyword": "toxic relationship",
+      "id": 241804,
+      "lovedCount": 2,
+      "seenCount": 3,
+      "tilt": 0.05,
+      "films": [
+        "Midsommar (2019)",
+        "Companion (2025)"
+      ]
+    },
+    {
+      "keyword": "traumatized woman",
+      "id": 253807,
+      "lovedCount": 2,
+      "seenCount": 3,
+      "tilt": 0.05,
+      "films": [
+        "Hereditary (2018)",
+        "Midsommar (2019)"
+      ]
+    },
+    {
+      "keyword": "ship",
+      "id": 3799,
+      "lovedCount": 2,
+      "seenCount": 3,
+      "tilt": 0.05,
+      "films": [
+        "The Odyssey (2026)",
+        "Poor Things (2023)"
+      ]
+    },
+    {
+      "keyword": "london, england",
+      "id": 212,
+      "lovedCount": 2,
+      "seenCount": 6,
+      "tilt": 0.05,
+      "films": [
+        "The Prestige (2006)",
+        "Poor Things (2023)"
+      ]
+    },
+    {
+      "keyword": "cruelty",
+      "id": 14624,
+      "lovedCount": 2,
+      "seenCount": 5,
+      "tilt": 0.05,
+      "films": [
+        "The Prestige (2006)",
+        "Poor Things (2023)"
+      ]
+    },
+    {
+      "keyword": "sex worker",
+      "id": 190178,
+      "lovedCount": 2,
+      "seenCount": 3,
+      "tilt": 0.05,
+      "films": [
+        "Anora (2024)",
+        "Poor Things (2023)"
+      ]
+    },
+    {
+      "keyword": "cynical",
+      "id": 33424,
+      "lovedCount": 2,
+      "seenCount": 5,
+      "tilt": 0.05,
+      "films": [
+        "Adaptation. (2002)",
+        "They Cloned Tyrone (2023)"
+      ]
     }
   ],
   "coverage": {
-    "filmsWithKeywords": 365,
+    "filmsWithKeywords": 366,
     "filmsWithoutKeywords": 1,
-    "distinctKeywords": 3240,
+    "distinctKeywords": 3248,
     "mappedKeywords": 31,
-    "unmappedSeenTwicePlus": 1083
+    "unmappedSeenTwicePlus": 1084
   }
 }

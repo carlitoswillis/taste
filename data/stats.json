@@ -1,14 +1,14 @@
 {
-  "generated": "2026-10-25",
+  "generated": "2026-10-26",
   "counts": {
-    "seen": 361,
-    "rated": 45,
-    "scored": 40,
-    "perfect": 5
+    "seen": 362,
+    "rated": 46,
+    "scored": 41,
+    "perfect": 6
   },
   "tiers": {
     "4": 17,
-    "5": 5,
+    "5": 6,
     "4.5": 9,
     "3.5": 8,
     "2.5": 1
@@ -22,49 +22,49 @@
     "1990": 21,
     "2000": 62,
     "2010": 113,
-    "2020": 141
+    "2020": 142
   },
   "genreTilt": [
     {
       "genre": "Drama",
-      "lovedShare": 0.4838709677419355,
-      "seenShare": 0.34444444444444444,
-      "tilt": 0.13942652329749106
+      "lovedShare": 0.46875,
+      "seenShare": 0.34349030470914127,
+      "tilt": 0.12525969529085873
     },
     {
       "genre": "Mystery",
-      "lovedShare": 0.25806451612903225,
-      "seenShare": 0.15,
-      "tilt": 0.10806451612903226
+      "lovedShare": 0.25,
+      "seenShare": 0.14958448753462603,
+      "tilt": 0.10041551246537397
     },
     {
       "genre": "Comedy",
-      "lovedShare": 0.3225806451612903,
-      "seenShare": 0.24444444444444444,
-      "tilt": 0.07813620071684588
+      "lovedShare": 0.3125,
+      "seenShare": 0.24376731301939059,
+      "tilt": 0.06873268698060941
+    },
+    {
+      "genre": "Documentary",
+      "lovedShare": 0.0625,
+      "seenShare": 0.008310249307479225,
+      "tilt": 0.05418975069252077
     },
     {
       "genre": "Fantasy",
-      "lovedShare": 0.16129032258064516,
-      "seenShare": 0.10277777777777777,
-      "tilt": 0.05851254480286738
-    },
-    {
-      "genre": "Horror",
-      "lovedShare": 0.2903225806451613,
-      "seenShare": 0.25833333333333336,
-      "tilt": 0.03198924731182795
+      "lovedShare": 0.15625,
+      "seenShare": 0.10249307479224377,
+      "tilt": 0.053756925207756226
     },
     {
       "genre": "Romance",
-      "lovedShare": 0.0967741935483871,
-      "seenShare": 0.06666666666666667,
-      "tilt": 0.03010752688172043
+      "lovedShare": 0.09375,
+      "seenShare": 0.0664819944598338,
+      "tilt": 0.0272680055401662
     }
   ],
   "genreCoverage": {
-    "loved": 31,
-    "seen": 360
+    "loved": 32,
+    "seen": 361
   },
   "lovedAgainstCritics": [
     {
@@ -82,11 +82,11 @@
       "gap": 2.5999999999999996
     },
     {
-      "title": "Persona",
-      "year": 1966,
+      "title": "You Can See Everything",
+      "year": 2026,
       "mine": 5,
-      "imdb": 8,
-      "gap": 2
+      "imdb": 7.9,
+      "gap": 2.0999999999999996
     }
   ],
   "coldAgainstCritics": [

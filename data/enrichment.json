@@ -96152,5 +96152,2406 @@
       "metacritic": 52,
       "imdb": 5.5
     }
+  },
+  "You Can See Everything (2026)": {
+    "id": "m:1765072",
+    "tmdbId": 1765072,
+    "imdbId": "tt45368240",
+    "director": [
+      {
+        "id": 1212667,
+        "name": "Nathan Fielder"
+      },
+      {
+        "id": 1405665,
+        "name": "Lance Oppenheim"
+      }
+    ],
+    "writers": [],
+    "cast": [
+      {
+        "id": 2269143,
+        "name": "Elizabeth Holmes"
+      },
+      {
+        "id": 1212667,
+        "name": "Nathan Fielder"
+      },
+      {
+        "id": 6462200,
+        "name": "Billy Evans"
+      },
+      {
+        "id": 71070,
+        "name": "Amanda Seyfried"
+      },
+      {
+        "id": 984629,
+        "name": "Christopher Abbott"
+      },
+      {
+        "id": 1405665,
+        "name": "Lance Oppenheim"
+      },
+      {
+        "id": 6552342,
+        "name": "Christian Rasmus Holmes IV"
+      },
+      {
+        "id": 6552346,
+        "name": "Noel Anne"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 242,
+        "name": "new york city"
+      },
+      {
+        "id": 1157,
+        "name": "husband wife relationship"
+      },
+      {
+        "id": 1556,
+        "name": "texas"
+      },
+      {
+        "id": 1768,
+        "name": "san diego, california"
+      },
+      {
+        "id": 3519,
+        "name": "silicon valley"
+      },
+      {
+        "id": 4021,
+        "name": "business woman"
+      },
+      {
+        "id": 5565,
+        "name": "biography"
+      },
+      {
+        "id": 12670,
+        "name": "los angeles, california"
+      },
+      {
+        "id": 155876,
+        "name": "reenactment"
+      },
+      {
+        "id": 178649,
+        "name": "voyeurism"
+      },
+      {
+        "id": 210051,
+        "name": "disgraced"
+      },
+      {
+        "id": 270346,
+        "name": "meta"
+      },
+      {
+        "id": 281237,
+        "name": "independent film"
+      },
+      {
+        "id": 307587,
+        "name": "crime documentary"
+      },
+      {
+        "id": 316076,
+        "name": "fraudster"
+      },
+      {
+        "id": 325763,
+        "name": "ambiguous"
+      },
+      {
+        "id": 345747,
+        "name": "biographical documentary"
+      }
+    ],
+    "runtime": 174,
+    "genres": [
+      "Documentary"
+    ],
+    "tmdbRating": 9.023,
+    "overview": "Thirty-four days before she's sent to prison, notorious Silicon Valley founder Elizabeth Holmes invites a skeptical film crew to document her every move. What begins as an intimate portrait of an enigmatic felon becomes a mind-bending three-year journey into the abyss.",
+    "tagline": "",
+    "poster": "https://image.tmdb.org/t/p/w342/Ap8QwmKfSjYbWC4XIP8w9pdn72O.jpg",
+    "backdrop": "/nhIL3O4W9h5V5JbNQm7yjoDk3So.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [],
+      "buy": []
+    },
+    "providersLink": null,
+    "providersAt": 1792983541567,
+    "region": "US",
+    "scores": {
+      "rt": 100,
+      "metacritic": 98,
+      "imdb": 7.9
+    }
+  },
+  "Autumn Sonata (1978)": {
+    "id": "m:12761",
+    "tmdbId": 12761,
+    "imdbId": "tt0077711",
+    "director": [
+      {
+        "id": 6648,
+        "name": "Ingmar Bergman"
+      }
+    ],
+    "writers": [
+      {
+        "id": 6648,
+        "name": "Ingmar Bergman"
+      }
+    ],
+    "cast": [
+      {
+        "id": 4111,
+        "name": "Ingrid Bergman"
+      },
+      {
+        "id": 11916,
+        "name": "Liv Ullmann"
+      },
+      {
+        "id": 3854,
+        "name": "Lena Nyman"
+      },
+      {
+        "id": 73595,
+        "name": "Halvar Björk"
+      },
+      {
+        "id": 73596,
+        "name": "Marianne Aminoff"
+      },
+      {
+        "id": 13511,
+        "name": "Arne Bang-Hansen"
+      },
+      {
+        "id": 6649,
+        "name": "Gunnar Björnstrand"
+      },
+      {
+        "id": 38127,
+        "name": "Erland Josephson"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 697,
+        "name": "loss of loved one"
+      },
+      {
+        "id": 6038,
+        "name": "marriage"
+      },
+      {
+        "id": 14743,
+        "name": "pianist"
+      },
+      {
+        "id": 41402,
+        "name": "invalid"
+      },
+      {
+        "id": 208556,
+        "name": "mother daughter reunion"
+      },
+      {
+        "id": 240315,
+        "name": "mother daughter relationship"
+      },
+      {
+        "id": 269808,
+        "name": "introspective"
+      },
+      {
+        "id": 292593,
+        "name": "intimate"
+      },
+      {
+        "id": 311315,
+        "name": "dramatic"
+      },
+      {
+        "id": 321464,
+        "name": "intense"
+      },
+      {
+        "id": 323809,
+        "name": "depressing"
+      }
+    ],
+    "runtime": 93,
+    "genres": [
+      "Drama"
+    ],
+    "tmdbRating": 7.976,
+    "overview": "After a seven-year absence, Charlotte Andergast travels to Sweden to reunite with her daughter Eva. The pair have a troubled relationship: Charlotte sacrificed the responsibilities of motherhood for a career as a classical pianist. Over an emotional night, the pair reopen the wounds of the past. Charlotte gets another shock when she finds out that her mentally impaired daughter, Helena, is out of the asylum and living with Eva.",
+    "tagline": "",
+    "poster": "https://image.tmdb.org/t/p/w342/6beNbtCXv3GkzHkxkGYf38ib7v8.jpg",
+    "backdrop": "/ozNapY9iczRr6FYKRbLLM00szCW.jpg",
+    "providers": {
+      "flatrate": [
+        "HBO Max Amazon Channel",
+        "Criterion Channel",
+        "TCM",
+        "HBO Max"
+      ],
+      "rent": [
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/12761-hostsonaten/watch?locale=US",
+    "providersAt": 1792983542346,
+    "region": "US",
+    "scores": {
+      "rt": 85,
+      "metacritic": null,
+      "imdb": 8.1
+    }
+  },
+  "Fanny and Alexander (1982)": {
+    "id": "m:5961",
+    "tmdbId": 5961,
+    "imdbId": "tt0083922",
+    "director": [
+      {
+        "id": 6648,
+        "name": "Ingmar Bergman"
+      }
+    ],
+    "writers": [
+      {
+        "id": 6648,
+        "name": "Ingmar Bergman"
+      }
+    ],
+    "cast": [
+      {
+        "id": 46865,
+        "name": "Pernilla Allwin"
+      },
+      {
+        "id": 46864,
+        "name": "Bertil Guve"
+      },
+      {
+        "id": 46867,
+        "name": "Jan Malmsjö"
+      },
+      {
+        "id": 46866,
+        "name": "Ewa Fröling"
+      },
+      {
+        "id": 46868,
+        "name": "Gunn Wållgren"
+      },
+      {
+        "id": 3853,
+        "name": "Börje Ahlstedt"
+      },
+      {
+        "id": 201337,
+        "name": "Anna Bergman"
+      },
+      {
+        "id": 231927,
+        "name": "Kristina Adolphson"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 3737,
+        "name": "dying and death"
+      },
+      {
+        "id": 516,
+        "name": "child abuse"
+      },
+      {
+        "id": 380,
+        "name": "sibling relationship"
+      },
+      {
+        "id": 3739,
+        "name": "funeral"
+      },
+      {
+        "id": 697,
+        "name": "loss of loved one"
+      },
+      {
+        "id": 1192,
+        "name": "sweden"
+      },
+      {
+        "id": 2637,
+        "name": "bishop"
+      },
+      {
+        "id": 4333,
+        "name": "theatre group"
+      },
+      {
+        "id": 5561,
+        "name": "child prodigy"
+      },
+      {
+        "id": 10041,
+        "name": "dysfunctional family"
+      },
+      {
+        "id": 162846,
+        "name": "ghost"
+      },
+      {
+        "id": 185011,
+        "name": "hamlet"
+      },
+      {
+        "id": 200234,
+        "name": "shocking"
+      },
+      {
+        "id": 205850,
+        "name": "turn of the century"
+      },
+      {
+        "id": 207317,
+        "name": "christmas"
+      },
+      {
+        "id": 236170,
+        "name": "1900s"
+      },
+      {
+        "id": 285398,
+        "name": "20th century"
+      },
+      {
+        "id": 311315,
+        "name": "dramatic"
+      },
+      {
+        "id": 314730,
+        "name": "suspenseful"
+      },
+      {
+        "id": 325823,
+        "name": "harsh"
+      },
+      {
+        "id": 325824,
+        "name": "hopeful"
+      }
+    ],
+    "runtime": 188,
+    "genres": [
+      "Fantasy",
+      "Drama",
+      "Mystery"
+    ],
+    "tmdbRating": 7.756,
+    "overview": "As children in the loving Ekdahl family, Fanny and Alexander enjoy a happy life with their parents, who run a theater company. After their father dies unexpectedly, however, the siblings end up in a joyless home when their mother, Emilie, marries a stern bishop. The bleak situation gradually grows worse as the bishop becomes more controlling, but dedicated relatives make a valiant attempt to aid Emilie, Fanny and Alexander.",
+    "tagline": "",
+    "poster": "https://image.tmdb.org/t/p/w342/q8jlA3Wc1Z987hNKRFA44g5OugC.jpg",
+    "backdrop": "/8reX3CMog1QHqGoym2Esvuk5MnK.jpg",
+    "providers": {
+      "flatrate": [
+        "HBO Max Amazon Channel",
+        "HBO Max"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/5961-fanny-och-alexander/watch?locale=US",
+    "providersAt": 1792983542542,
+    "region": "US",
+    "scores": {
+      "rt": 100,
+      "metacritic": 100,
+      "imdb": 8.1
+    }
+  },
+  "Miller's Crossing (1990)": {
+    "id": "m:379",
+    "tmdbId": 379,
+    "imdbId": "tt0100150",
+    "director": [
+      {
+        "id": 1223,
+        "name": "Joel Coen"
+      }
+    ],
+    "writers": [
+      {
+        "id": 1224,
+        "name": "Ethan Coen"
+      },
+      {
+        "id": 1223,
+        "name": "Joel Coen"
+      }
+    ],
+    "cast": [
+      {
+        "id": 5168,
+        "name": "Gabriel Byrne"
+      },
+      {
+        "id": 4726,
+        "name": "Marcia Gay Harden"
+      },
+      {
+        "id": 1241,
+        "name": "John Turturro"
+      },
+      {
+        "id": 4253,
+        "name": "Jon Polito"
+      },
+      {
+        "id": 5169,
+        "name": "J.E. Freeman"
+      },
+      {
+        "id": 3926,
+        "name": "Albert Finney"
+      },
+      {
+        "id": 5170,
+        "name": "Mike Starr"
+      },
+      {
+        "id": 5171,
+        "name": "Al Mancini"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 542,
+        "name": "street gang"
+      },
+      {
+        "id": 417,
+        "name": "corruption"
+      },
+      {
+        "id": 947,
+        "name": "prohibition era"
+      },
+      {
+        "id": 1419,
+        "name": "gun"
+      },
+      {
+        "id": 5305,
+        "name": "gambling debt"
+      },
+      {
+        "id": 3149,
+        "name": "gangster"
+      },
+      {
+        "id": 1797,
+        "name": "loyalty"
+      },
+      {
+        "id": 1857,
+        "name": "irish-american"
+      },
+      {
+        "id": 8442,
+        "name": "irish mob"
+      },
+      {
+        "id": 10085,
+        "name": "betrayal"
+      },
+      {
+        "id": 10291,
+        "name": "organized crime"
+      },
+      {
+        "id": 10950,
+        "name": "shootout"
+      },
+      {
+        "id": 188991,
+        "name": "drunkenness"
+      },
+      {
+        "id": 207268,
+        "name": "neo-noir"
+      },
+      {
+        "id": 207876,
+        "name": "1920s"
+      },
+      {
+        "id": 208156,
+        "name": "frantic"
+      },
+      {
+        "id": 312898,
+        "name": "violence"
+      }
+    ],
+    "runtime": 115,
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Crime"
+    ],
+    "tmdbRating": 7.443,
+    "overview": "Set in 1929, a political boss and his advisor have a parting of the ways when they both fall for the same woman.",
+    "tagline": "",
+    "poster": "https://image.tmdb.org/t/p/w342/mbFUr8hTOzrBCgAekAVRiXYgj2H.jpg",
+    "backdrop": "/1Ww44JvMIPgBg2tysPO9hcuU7vN.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/379-miller-s-crossing/watch?locale=US",
+    "providersAt": 1792983542738,
+    "region": "US",
+    "scores": {
+      "rt": 93,
+      "metacritic": 66,
+      "imdb": 7.7
+    }
+  },
+  "Blood Simple (1985)": {
+    "id": "m:11368",
+    "tmdbId": 11368,
+    "imdbId": "tt0086979",
+    "director": [
+      {
+        "id": 1223,
+        "name": "Joel Coen"
+      }
+    ],
+    "writers": [
+      {
+        "id": 1223,
+        "name": "Joel Coen"
+      },
+      {
+        "id": 1224,
+        "name": "Ethan Coen"
+      }
+    ],
+    "cast": [
+      {
+        "id": 20211,
+        "name": "John Getz"
+      },
+      {
+        "id": 3910,
+        "name": "Frances McDormand"
+      },
+      {
+        "id": 6486,
+        "name": "Dan Hedaya"
+      },
+      {
+        "id": 3017,
+        "name": "Samm-Art Williams"
+      },
+      {
+        "id": 588,
+        "name": "M. Emmet Walsh"
+      },
+      {
+        "id": 565188,
+        "name": "Deborah Neumann"
+      },
+      {
+        "id": 54764,
+        "name": "Raquel Gavia"
+      },
+      {
+        "id": 565189,
+        "name": "Van Brooks"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 1157,
+        "name": "husband wife relationship"
+      },
+      {
+        "id": 5306,
+        "name": "boss"
+      },
+      {
+        "id": 1556,
+        "name": "texas"
+      },
+      {
+        "id": 4320,
+        "name": "lover"
+      },
+      {
+        "id": 6021,
+        "name": "employee"
+      },
+      {
+        "id": 10594,
+        "name": "money"
+      },
+      {
+        "id": 15127,
+        "name": "killer"
+      },
+      {
+        "id": 33456,
+        "name": "double cross"
+      },
+      {
+        "id": 34094,
+        "name": "extramarital affair"
+      },
+      {
+        "id": 155704,
+        "name": "shallow grave"
+      },
+      {
+        "id": 155790,
+        "name": "private detective"
+      },
+      {
+        "id": 166571,
+        "name": "hired killer"
+      },
+      {
+        "id": 207268,
+        "name": "neo-noir"
+      }
+    ],
+    "runtime": 97,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "tmdbRating": 7.248,
+    "overview": "The owner of a seedy small-town Texas bar discovers that one of his employees is having an affair with his wife. A chaotic chain of misunderstandings, lies and mischief ensues after he devises a plot to have them murdered.",
+    "tagline": "Passion led to Adultery. Adultery led to Murder. It all seemed so simple...",
+    "poster": "https://image.tmdb.org/t/p/w342/n8D1gVXUgmW4kkDzUzzoezAmUUa.jpg",
+    "backdrop": "/rGPoNNk4fvgG2mvkNAxJJPlszOu.jpg",
+    "providers": {
+      "flatrate": [
+        "HBO Max Amazon Channel",
+        "Cinemax Amazon Channel",
+        "HBO Max",
+        "Cinemax Apple TV channel"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/11368-blood-simple/watch?locale=US",
+    "providersAt": 1792983542933,
+    "region": "US",
+    "scores": {
+      "rt": 94,
+      "metacritic": 84,
+      "imdb": 7.5
+    }
+  },
+  "Death Proof (2007)": {
+    "id": "m:1991",
+    "tmdbId": 1991,
+    "imdbId": "tt1028528",
+    "director": [
+      {
+        "id": 138,
+        "name": "Quentin Tarantino"
+      }
+    ],
+    "writers": [
+      {
+        "id": 138,
+        "name": "Quentin Tarantino"
+      }
+    ],
+    "cast": [
+      {
+        "id": 6856,
+        "name": "Kurt Russell"
+      },
+      {
+        "id": 20494,
+        "name": "Zoë Bell"
+      },
+      {
+        "id": 5916,
+        "name": "Rosario Dawson"
+      },
+      {
+        "id": 20491,
+        "name": "Vanessa Ferlito"
+      },
+      {
+        "id": 20493,
+        "name": "Sydney Tamiia Poitier"
+      },
+      {
+        "id": 10580,
+        "name": "Tracie Thoms"
+      },
+      {
+        "id": 16850,
+        "name": "Rose McGowan"
+      },
+      {
+        "id": 20492,
+        "name": "Jordan Ladd"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 999,
+        "name": "sports car"
+      },
+      {
+        "id": 4426,
+        "name": "sadism"
+      },
+      {
+        "id": 6259,
+        "name": "psychopath"
+      },
+      {
+        "id": 635,
+        "name": "disc jockey"
+      },
+      {
+        "id": 2336,
+        "name": "ladykiller"
+      },
+      {
+        "id": 2804,
+        "name": "exploitation"
+      },
+      {
+        "id": 10292,
+        "name": "gore"
+      },
+      {
+        "id": 5452,
+        "name": "stunt"
+      },
+      {
+        "id": 5248,
+        "name": "female friendship"
+      },
+      {
+        "id": 5424,
+        "name": "women's prison"
+      },
+      {
+        "id": 6844,
+        "name": "stalker"
+      },
+      {
+        "id": 5956,
+        "name": "stuntman"
+      },
+      {
+        "id": 11532,
+        "name": "grindhouse"
+      },
+      {
+        "id": 11762,
+        "name": "beaten to death"
+      },
+      {
+        "id": 12339,
+        "name": "slasher"
+      },
+      {
+        "id": 13125,
+        "name": "sadist"
+      },
+      {
+        "id": 33424,
+        "name": "cynical"
+      },
+      {
+        "id": 33984,
+        "name": "killer car"
+      },
+      {
+        "id": 162810,
+        "name": "macabre"
+      },
+      {
+        "id": 179431,
+        "name": "duringcreditsstinger"
+      },
+      {
+        "id": 200918,
+        "name": "angry"
+      },
+      {
+        "id": 202371,
+        "name": "aggressive"
+      },
+      {
+        "id": 203493,
+        "name": "domineering"
+      },
+      {
+        "id": 208156,
+        "name": "frantic"
+      },
+      {
+        "id": 244530,
+        "name": "malicious"
+      },
+      {
+        "id": 256330,
+        "name": "mischievous"
+      },
+      {
+        "id": 280075,
+        "name": "bloody"
+      },
+      {
+        "id": 300992,
+        "name": "april march"
+      },
+      {
+        "id": 320420,
+        "name": "hilarious"
+      },
+      {
+        "id": 321464,
+        "name": "intense"
+      },
+      {
+        "id": 322255,
+        "name": "sinister"
+      },
+      {
+        "id": 325767,
+        "name": "apathetic"
+      },
+      {
+        "id": 325773,
+        "name": "audacious"
+      },
+      {
+        "id": 325790,
+        "name": "cruel"
+      },
+      {
+        "id": 325808,
+        "name": "enraged"
+      },
+      {
+        "id": 325823,
+        "name": "harsh"
+      },
+      {
+        "id": 325834,
+        "name": "mean spirited"
+      },
+      {
+        "id": 325842,
+        "name": "powerful"
+      }
+    ],
+    "runtime": 113,
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "tmdbRating": 6.84,
+    "overview": "Austin's hottest DJ, Jungle Julia, sets out into the night to unwind with her two friends Shanna and Arlene. Covertly tracking their moves is Stuntman Mike, a scarred rebel leering from behind the wheel of his muscle car, revving just feet away.",
+    "tagline": "A crash course in revenge.",
+    "poster": "https://image.tmdb.org/t/p/w342/vtu6H4NWnQVqEp3aanUq3hNeeot.jpg",
+    "backdrop": "/qbVCChwbGWDAgsCXKZxyjBrRiWx.jpg",
+    "providers": {
+      "flatrate": [
+        "MovieSphere+ Amazon Channel",
+        "Howdy Amazon Channel"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/1991-death-proof/watch?locale=US",
+    "providersAt": 1792983543131,
+    "region": "US",
+    "scores": {
+      "rt": 66,
+      "metacritic": null,
+      "imdb": 7
+    }
+  },
+  "Colossal (2017)": {
+    "id": "m:339967",
+    "tmdbId": 339967,
+    "imdbId": "tt4680182",
+    "director": [
+      {
+        "id": 118303,
+        "name": "Nacho Vigalondo"
+      }
+    ],
+    "writers": [
+      {
+        "id": 118303,
+        "name": "Nacho Vigalondo"
+      }
+    ],
+    "cast": [
+      {
+        "id": 1813,
+        "name": "Anne Hathaway"
+      },
+      {
+        "id": 58224,
+        "name": "Jason Sudeikis"
+      },
+      {
+        "id": 970216,
+        "name": "Austin Stowell"
+      },
+      {
+        "id": 1462,
+        "name": "Tim Blake Nelson"
+      },
+      {
+        "id": 221018,
+        "name": "Dan Stevens"
+      },
+      {
+        "id": 1562430,
+        "name": "Hannah Cheramy"
+      },
+      {
+        "id": 1807685,
+        "name": "Nathan Ellison"
+      },
+      {
+        "id": 1778590,
+        "name": "Sarah Surh"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 242,
+        "name": "new york city"
+      },
+      {
+        "id": 1415,
+        "name": "small town"
+      },
+      {
+        "id": 1299,
+        "name": "monster"
+      },
+      {
+        "id": 4280,
+        "name": "mental breakdown"
+      },
+      {
+        "id": 13031,
+        "name": "creature"
+      },
+      {
+        "id": 14549,
+        "name": "loss of job"
+      },
+      {
+        "id": 33457,
+        "name": "alcoholic"
+      },
+      {
+        "id": 160246,
+        "name": "childhood friends"
+      },
+      {
+        "id": 161791,
+        "name": "kaiju"
+      },
+      {
+        "id": 188351,
+        "name": "catastrophe"
+      },
+      {
+        "id": 290327,
+        "name": "seoul, south korea"
+      }
+    ],
+    "runtime": 109,
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Science Fiction"
+    ],
+    "tmdbRating": 6.264,
+    "overview": "A woman discovers that severe catastrophic events are somehow connected to the mental breakdown from which she's suffering.",
+    "tagline": "There's a monster in all of us",
+    "poster": "https://image.tmdb.org/t/p/w342/4VOyofBd1pexblxtDZYtYIk7NI4.jpg",
+    "backdrop": "/1ddf2Kq1hC7SgV02E3pyLAC26lq.jpg",
+    "providers": {
+      "flatrate": [
+        "fuboTV",
+        "Paramount Plus Premium",
+        "Paramount Plus Essential",
+        "Paramount+ Amazon Channel",
+        "Paramount+ Roku Premium Channel"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/339967-colossal/watch?locale=US",
+    "providersAt": 1792983543326,
+    "region": "US",
+    "scores": {
+      "rt": 82,
+      "metacritic": 70,
+      "imdb": 6.2
+    }
+  },
+  "Rachel Getting Married (2008)": {
+    "id": "m:14976",
+    "tmdbId": 14976,
+    "imdbId": "tt1084950",
+    "director": [
+      {
+        "id": 16294,
+        "name": "Jonathan Demme"
+      }
+    ],
+    "writers": [
+      {
+        "id": 938831,
+        "name": "Jenny Lumet"
+      }
+    ],
+    "cast": [
+      {
+        "id": 1813,
+        "name": "Anne Hathaway"
+      },
+      {
+        "id": 14892,
+        "name": "Rosemarie DeWitt"
+      },
+      {
+        "id": 58549,
+        "name": "Bill Irwin"
+      },
+      {
+        "id": 26513,
+        "name": "Debra Winger"
+      },
+      {
+        "id": 94476,
+        "name": "Tunde Adebimpe"
+      },
+      {
+        "id": 282835,
+        "name": "Mather Zickel"
+      },
+      {
+        "id": 63279,
+        "name": "Anna Deavere Smith"
+      },
+      {
+        "id": 1768631,
+        "name": "Anisa George"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 380,
+        "name": "sibling relationship"
+      },
+      {
+        "id": 1803,
+        "name": "drug addiction"
+      },
+      {
+        "id": 9844,
+        "name": "car crash"
+      },
+      {
+        "id": 5923,
+        "name": "sister"
+      },
+      {
+        "id": 10041,
+        "name": "dysfunctional family"
+      },
+      {
+        "id": 6981,
+        "name": "connecticut"
+      },
+      {
+        "id": 9872,
+        "name": "grief"
+      },
+      {
+        "id": 10188,
+        "name": "interracial marriage"
+      },
+      {
+        "id": 10649,
+        "name": "drug rehabilitation"
+      },
+      {
+        "id": 11322,
+        "name": "female protagonist"
+      },
+      {
+        "id": 13027,
+        "name": "wedding"
+      },
+      {
+        "id": 33720,
+        "name": "guilt"
+      },
+      {
+        "id": 39833,
+        "name": "maid of honor"
+      },
+      {
+        "id": 162224,
+        "name": "passive aggression"
+      },
+      {
+        "id": 163764,
+        "name": "death of brother"
+      },
+      {
+        "id": 240303,
+        "name": "father daughter relationship"
+      },
+      {
+        "id": 240315,
+        "name": "mother daughter relationship"
+      },
+      {
+        "id": 241738,
+        "name": "sister sister relationship"
+      },
+      {
+        "id": 244910,
+        "name": "rehearsal dinner"
+      },
+      {
+        "id": 247548,
+        "name": "self hatred"
+      }
+    ],
+    "runtime": 113,
+    "genres": [
+      "Drama"
+    ],
+    "tmdbRating": 6.297,
+    "overview": "A young woman who has been in and out from rehab for the past 10 years returns home for the weekend for her sister's wedding.",
+    "tagline": "The perfect weekend for a wedding… but the storm is coming.",
+    "poster": "https://image.tmdb.org/t/p/w342/bumaq3lqe4YSsq6LlYoge7e9ABk.jpg",
+    "backdrop": "/a7lZSjySyf2OLMj5VLkYTDS0kbr.jpg",
+    "providers": {
+      "flatrate": [
+        "Netflix",
+        "Netflix Standard with Ads"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/14976-rachel-getting-married/watch?locale=US",
+    "providersAt": 1792983543523,
+    "region": "US",
+    "scores": {
+      "rt": 85,
+      "metacritic": 85,
+      "imdb": 6.6
+    }
+  },
+  "Inception: The Cobol Job (2010)": {
+    "id": "m:64956",
+    "tmdbId": 64956,
+    "imdbId": "tt1790736",
+    "director": [
+      {
+        "id": 1168899,
+        "name": "Ian Kirby"
+      }
+    ],
+    "writers": [
+      {
+        "id": 113913,
+        "name": "Jordan Goldberg"
+      }
+    ],
+    "cast": [],
+    "keywords": [
+      {
+        "id": 195444,
+        "name": "motion comic"
+      }
+    ],
+    "runtime": 15,
+    "genres": [
+      "Animation",
+      "Action",
+      "Thriller",
+      "Science Fiction"
+    ],
+    "tmdbRating": 7.3,
+    "overview": "Cobb, Arthur and Nash are enlisted by Cobol Engineering.",
+    "tagline": "",
+    "poster": "https://image.tmdb.org/t/p/w342/sNxqwtyHMNQwKWoFYDqcYTui5Ok.jpg",
+    "backdrop": "/p8K8Z4yjaslJx5mTsIC5L6LJxQB.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [],
+      "buy": []
+    },
+    "providersLink": null,
+    "providersAt": 1792983543719,
+    "region": "US",
+    "scores": {
+      "rt": null,
+      "metacritic": null,
+      "imdb": 7.5
+    }
+  },
+  "Roald Dahl's The Witches (2020)": {
+    "id": "m:531219",
+    "tmdbId": 531219,
+    "imdbId": "tt0805647",
+    "director": [
+      {
+        "id": 24,
+        "name": "Robert Zemeckis"
+      }
+    ],
+    "writers": [
+      {
+        "id": 24,
+        "name": "Robert Zemeckis"
+      },
+      {
+        "id": 1407486,
+        "name": "Kenya Barris"
+      },
+      {
+        "id": 10828,
+        "name": "Guillermo del Toro"
+      }
+    ],
+    "cast": [
+      {
+        "id": 1813,
+        "name": "Anne Hathaway"
+      },
+      {
+        "id": 6944,
+        "name": "Octavia Spencer"
+      },
+      {
+        "id": 2283,
+        "name": "Stanley Tucci"
+      },
+      {
+        "id": 2241218,
+        "name": "Jahzir Bruno"
+      },
+      {
+        "id": 2632,
+        "name": "Chris Rock"
+      },
+      {
+        "id": 2153678,
+        "name": "Codie-Lei Eastick"
+      },
+      {
+        "id": 52775,
+        "name": "Kristin Chenoweth"
+      },
+      {
+        "id": 281527,
+        "name": "Charles Edwards"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 612,
+        "name": "hotel"
+      },
+      {
+        "id": 616,
+        "name": "witch"
+      },
+      {
+        "id": 818,
+        "name": "based on novel or book"
+      },
+      {
+        "id": 2075,
+        "name": "alabama"
+      },
+      {
+        "id": 2161,
+        "name": "mouse"
+      },
+      {
+        "id": 4375,
+        "name": "transformation"
+      },
+      {
+        "id": 3335,
+        "name": "halloween"
+      },
+      {
+        "id": 9844,
+        "name": "car crash"
+      },
+      {
+        "id": 13014,
+        "name": "orphan"
+      },
+      {
+        "id": 15101,
+        "name": "based on children's book"
+      },
+      {
+        "id": 208992,
+        "name": "1960s"
+      },
+      {
+        "id": 211768,
+        "name": "convention"
+      },
+      {
+        "id": 267848,
+        "name": "talking animal"
+      },
+      {
+        "id": 275266,
+        "name": "cgi-live action hybrid"
+      }
+    ],
+    "runtime": 104,
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Family"
+    ],
+    "tmdbRating": 6.337,
+    "overview": "In late 1967, a young orphaned boy goes to live with his loving grandma in the rural Alabama town of Demopolis. As the boy and his grandmother encounter some deceptively glamorous but thoroughly diabolical witches, she wisely whisks him away to a seaside resort. Regrettably, they arrive at precisely the same time that the world's Grand High Witch has gathered.",
+    "tagline": "Witches are real!",
+    "poster": "https://image.tmdb.org/t/p/w342/betExZlgK0l7CZ9CsCBVcwO1OjL.jpg",
+    "backdrop": "/4lWr2j3ZSEe8qlt3W3ma8TiiMQB.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "Plex"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/531219-roald-dahl-s-the-witches/watch?locale=US",
+    "providersAt": 1792983543915,
+    "region": "US",
+    "scores": {
+      "rt": null,
+      "metacritic": 47,
+      "imdb": 5.4
+    }
+  },
+  "The Informant! (2009)": {
+    "id": "m:11323",
+    "tmdbId": 11323,
+    "imdbId": "tt1130080",
+    "director": [
+      {
+        "id": 1884,
+        "name": "Steven Soderbergh"
+      }
+    ],
+    "writers": [
+      {
+        "id": 19014,
+        "name": "Scott Z. Burns"
+      }
+    ],
+    "cast": [
+      {
+        "id": 1892,
+        "name": "Matt Damon"
+      },
+      {
+        "id": 2154,
+        "name": "Scott Bakula"
+      },
+      {
+        "id": 74949,
+        "name": "Joel McHale"
+      },
+      {
+        "id": 15091,
+        "name": "Melanie Lynskey"
+      },
+      {
+        "id": 170364,
+        "name": "Tom Papa"
+      },
+      {
+        "id": 1539,
+        "name": "Rick Overton"
+      },
+      {
+        "id": 1065,
+        "name": "Thomas F. Wilson"
+      },
+      {
+        "id": 6574,
+        "name": "Clancy Brown"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 1812,
+        "name": "fbi"
+      },
+      {
+        "id": 2251,
+        "name": "lie"
+      },
+      {
+        "id": 5888,
+        "name": "agriculture"
+      },
+      {
+        "id": 9672,
+        "name": "based on true story"
+      },
+      {
+        "id": 14856,
+        "name": "informant"
+      },
+      {
+        "id": 15155,
+        "name": "witness to murder"
+      },
+      {
+        "id": 18420,
+        "name": "surveillance"
+      },
+      {
+        "id": 41002,
+        "name": "corn"
+      },
+      {
+        "id": 192917,
+        "name": "price-fixing"
+      }
+    ],
+    "runtime": 108,
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Crime"
+    ],
+    "tmdbRating": 6.164,
+    "overview": "A rising star at agri-industry giant Archer Daniels Midland (ADM), Mark Whitacre suddenly turns whistleblower. Even as he exposes his company’s multi-national price-fixing conspiracy to the FBI, Whitacre envisions himself being hailed as a hero of the common man and handed a promotion.",
+    "tagline": "Based on a tattle-tale",
+    "poster": "https://image.tmdb.org/t/p/w342/eV8u5crNe4QYWcu0zjKxFVq2Qem.jpg",
+    "backdrop": "/gDgSTQfkDG4y3SyGE2XVRBX80gy.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/11323-the-informant/watch?locale=US",
+    "providersAt": 1792983544112,
+    "region": "US",
+    "scores": {
+      "rt": 79,
+      "metacritic": 66,
+      "imdb": 6.5
+    }
+  },
+  "Stuck on You (2003)": {
+    "id": "m:1792",
+    "tmdbId": 1792,
+    "imdbId": "tt0338466",
+    "director": [
+      {
+        "id": 7395,
+        "name": "Bobby Farrelly"
+      },
+      {
+        "id": 7396,
+        "name": "Peter Farrelly"
+      }
+    ],
+    "writers": [
+      {
+        "id": 7395,
+        "name": "Bobby Farrelly"
+      },
+      {
+        "id": 7396,
+        "name": "Peter Farrelly"
+      },
+      {
+        "id": 7408,
+        "name": "Charles B. Wessler"
+      },
+      {
+        "id": 55162,
+        "name": "Bennett Yellin"
+      },
+      {
+        "id": 7395,
+        "name": "Bobby Farrelly"
+      },
+      {
+        "id": 7396,
+        "name": "Peter Farrelly"
+      }
+    ],
+    "cast": [
+      {
+        "id": 1892,
+        "name": "Matt Damon"
+      },
+      {
+        "id": 17141,
+        "name": "Greg Kinnear"
+      },
+      {
+        "id": 8170,
+        "name": "Eva Mendes"
+      },
+      {
+        "id": 19127,
+        "name": "Wen Yann Shih"
+      },
+      {
+        "id": 58928,
+        "name": "Pat Crawford Brown"
+      },
+      {
+        "id": 2479042,
+        "name": "Ray 'Rocket' Valliere"
+      },
+      {
+        "id": 2938161,
+        "name": "Tommy Songin"
+      },
+      {
+        "id": 28419,
+        "name": "Terence Bernie Hines"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 779,
+        "name": "martial arts"
+      },
+      {
+        "id": 733,
+        "name": "dancer"
+      },
+      {
+        "id": 6593,
+        "name": "stripper"
+      },
+      {
+        "id": 6562,
+        "name": "celebrity"
+      },
+      {
+        "id": 9856,
+        "name": "flashback"
+      },
+      {
+        "id": 10624,
+        "name": "bully"
+      },
+      {
+        "id": 9964,
+        "name": "crude humor"
+      },
+      {
+        "id": 12396,
+        "name": "hollywood"
+      },
+      {
+        "id": 12670,
+        "name": "los angeles, california"
+      },
+      {
+        "id": 15016,
+        "name": "twins"
+      },
+      {
+        "id": 15188,
+        "name": "martha's vineyard"
+      },
+      {
+        "id": 162262,
+        "name": "movie star"
+      },
+      {
+        "id": 162735,
+        "name": "disability"
+      },
+      {
+        "id": 163047,
+        "name": "beverly hills"
+      },
+      {
+        "id": 192153,
+        "name": "conjoined twins"
+      }
+    ],
+    "runtime": 119,
+    "genres": [
+      "Comedy"
+    ],
+    "tmdbRating": 5.362,
+    "overview": "In Martha's Vineyard, Mass., conjoined twins Walt and Bob Tenor make the best of their handicap by being the fastest grill cooks in town. While outgoing Walt hopes to one day become a famous actor, shy Bob prefers to stay out of the spotlight. When a fading Hollywood actress, Cher, decides to get her show \"Honey and the Beaze\" cancelled, she hires Walt -- and his brotherly appendage -- as her costars. But their addition surprisingly achieves the opposite.",
+    "tagline": "Brothers that are stuck together...stick together.",
+    "poster": "https://image.tmdb.org/t/p/w342/5TmPGPsOP4EgMo8X14pyywxB1j2.jpg",
+    "backdrop": "/bj4VHJFQOWXKgnvFrlHoBeOLU3M.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/1792-stuck-on-you/watch?locale=US",
+    "providersAt": 1792983544305,
+    "region": "US",
+    "scores": {
+      "rt": null,
+      "metacritic": 62,
+      "imdb": 5.8
+    }
+  },
+  "Hereafter (2010)": {
+    "id": "m:44603",
+    "tmdbId": 44603,
+    "imdbId": "tt1212419",
+    "director": [
+      {
+        "id": 190,
+        "name": "Clint Eastwood"
+      }
+    ],
+    "writers": [
+      {
+        "id": 15730,
+        "name": "Peter Morgan"
+      }
+    ],
+    "cast": [
+      {
+        "id": 1892,
+        "name": "Matt Damon"
+      },
+      {
+        "id": 17522,
+        "name": "Cécile de France"
+      },
+      {
+        "id": 18997,
+        "name": "Bryce Dallas Howard"
+      },
+      {
+        "id": 83813,
+        "name": "Thierry Neuvic"
+      },
+      {
+        "id": 142359,
+        "name": "Cyndi Mayo-Akeo"
+      },
+      {
+        "id": 142360,
+        "name": "Lisa Griffiths"
+      },
+      {
+        "id": 142361,
+        "name": "Jessica Griffiths"
+      },
+      {
+        "id": 142362,
+        "name": "Ferguson Reid"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 736,
+        "name": "journalist"
+      },
+      {
+        "id": 6155,
+        "name": "afterlife"
+      },
+      {
+        "id": 6941,
+        "name": "tsunami"
+      }
+    ],
+    "runtime": 129,
+    "genres": [
+      "Drama",
+      "Fantasy"
+    ],
+    "tmdbRating": 6.15,
+    "overview": "Three people — a blue-collar American, a French journalist and a London school boy — are touched by death in different ways.",
+    "tagline": "Touched by death. Changed by life.",
+    "poster": "https://image.tmdb.org/t/p/w342/nOy0X8XSmSDOuwV8pqT70WoWHwT.jpg",
+    "backdrop": "/f2z00VIPyrrfFabw0RnoY5M8uYt.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/44603-hereafter/watch?locale=US",
+    "providersAt": 1792983544503,
+    "region": "US",
+    "scores": {
+      "rt": 48,
+      "metacritic": 56,
+      "imdb": 6.5
+    }
+  },
+  "Havoc (2005)": {
+    "id": "m:14695",
+    "tmdbId": 14695,
+    "imdbId": "tt0285175",
+    "director": [
+      {
+        "id": 22020,
+        "name": "Barbara Kopple"
+      }
+    ],
+    "writers": [
+      {
+        "id": 2945,
+        "name": "Stephen Gaghan"
+      },
+      {
+        "id": 145565,
+        "name": "Jessica Kaplan"
+      },
+      {
+        "id": 2945,
+        "name": "Stephen Gaghan"
+      }
+    ],
+    "cast": [
+      {
+        "id": 1813,
+        "name": "Anne Hathaway"
+      },
+      {
+        "id": 11671,
+        "name": "Bijou Phillips"
+      },
+      {
+        "id": 50346,
+        "name": "Shiri Appleby"
+      },
+      {
+        "id": 2712,
+        "name": "Michael Biehn"
+      },
+      {
+        "id": 24045,
+        "name": "Joseph Gordon-Levitt"
+      },
+      {
+        "id": 71467,
+        "name": "Matt O'Leary"
+      },
+      {
+        "id": 6862,
+        "name": "Freddy Rodríguez"
+      },
+      {
+        "id": 1212,
+        "name": "Laura San Giacomo"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 6270,
+        "name": "high school"
+      },
+      {
+        "id": 898,
+        "name": "hip-hop"
+      },
+      {
+        "id": 542,
+        "name": "street gang"
+      },
+      {
+        "id": 213,
+        "name": "upper class"
+      },
+      {
+        "id": 1721,
+        "name": "fight"
+      },
+      {
+        "id": 1419,
+        "name": "gun"
+      },
+      {
+        "id": 3149,
+        "name": "gangster"
+      },
+      {
+        "id": 11696,
+        "name": "underage drinking"
+      },
+      {
+        "id": 10776,
+        "name": "marijuana"
+      },
+      {
+        "id": 10211,
+        "name": "east los angeles"
+      },
+      {
+        "id": 10968,
+        "name": "lingerie"
+      },
+      {
+        "id": 12365,
+        "name": "gang rape"
+      },
+      {
+        "id": 14632,
+        "name": "suburb"
+      },
+      {
+        "id": 14964,
+        "name": "drugs"
+      },
+      {
+        "id": 15158,
+        "name": "rebellious youth"
+      },
+      {
+        "id": 33905,
+        "name": "inner city"
+      },
+      {
+        "id": 41334,
+        "name": "hispanic"
+      },
+      {
+        "id": 157775,
+        "name": "bonfire"
+      },
+      {
+        "id": 178649,
+        "name": "voyeurism"
+      },
+      {
+        "id": 180764,
+        "name": "wild party"
+      },
+      {
+        "id": 181858,
+        "name": "gang violence"
+      },
+      {
+        "id": 184950,
+        "name": "privileged life"
+      },
+      {
+        "id": 187056,
+        "name": "woman director"
+      },
+      {
+        "id": 201968,
+        "name": "pacific palisades"
+      },
+      {
+        "id": 208960,
+        "name": "sex game"
+      },
+      {
+        "id": 287303,
+        "name": "video camera"
+      },
+      {
+        "id": 296608,
+        "name": "teenager"
+      },
+      {
+        "id": 312898,
+        "name": "violence"
+      }
+    ],
+    "runtime": 86,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "tmdbRating": 5.283,
+    "overview": "A wealthy Los Angeles teen and her superficial friends want to break out of suburbia and experience Southern California's \"gangsta\" lifestyle, but problems arise when they provoke the wrath of a violent Latino gang.",
+    "tagline": "Too much is never enough.",
+    "poster": "https://image.tmdb.org/t/p/w342/xY4c4bHPCRrwIvkxJ6qRLoyxQVo.jpg",
+    "backdrop": "/dYsVuPUWCfj9CYxSsoe3Yci3r3A.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/14695-havoc/watch?locale=US",
+    "providersAt": 1792983544701,
+    "region": "US",
+    "scores": {
+      "rt": 45,
+      "metacritic": null,
+      "imdb": 5.4
+    }
+  },
+  "13 Hours: The Secret Soldiers of Benghazi (2016)": {
+    "id": "m:300671",
+    "tmdbId": 300671,
+    "imdbId": "tt4172430",
+    "director": [
+      {
+        "id": 865,
+        "name": "Michael Bay"
+      }
+    ],
+    "writers": [
+      {
+        "id": 1465193,
+        "name": "Chuck Hogan"
+      }
+    ],
+    "cast": [
+      {
+        "id": 17697,
+        "name": "John Krasinski"
+      },
+      {
+        "id": 18473,
+        "name": "James Badge Dale"
+      },
+      {
+        "id": 154784,
+        "name": "Dominic Fumusa"
+      },
+      {
+        "id": 94864,
+        "name": "Max Martini"
+      },
+      {
+        "id": 59254,
+        "name": "Pablo Schreiber"
+      },
+      {
+        "id": 28414,
+        "name": "Matt Letscher"
+      },
+      {
+        "id": 37645,
+        "name": "Alexia Barlier"
+      },
+      {
+        "id": 82167,
+        "name": "David Costabile"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 591,
+        "name": "central intelligence agency (cia)"
+      },
+      {
+        "id": 818,
+        "name": "based on novel or book"
+      },
+      {
+        "id": 5272,
+        "name": "libya"
+      },
+      {
+        "id": 1376,
+        "name": "assault rifle"
+      },
+      {
+        "id": 3070,
+        "name": "mercenary"
+      },
+      {
+        "id": 11115,
+        "name": "heroism"
+      },
+      {
+        "id": 5565,
+        "name": "biography"
+      },
+      {
+        "id": 9672,
+        "name": "based on true story"
+      },
+      {
+        "id": 14601,
+        "name": "explosion"
+      },
+      {
+        "id": 34061,
+        "name": "american abroad"
+      },
+      {
+        "id": 34079,
+        "name": "death"
+      },
+      {
+        "id": 235476,
+        "name": "u.s. ambassador"
+      }
+    ],
+    "runtime": 144,
+    "genres": [
+      "Action",
+      "War",
+      "Thriller"
+    ],
+    "tmdbRating": 7.282,
+    "overview": "An American Ambassador is killed during an attack at a U.S. compound in Libya as a security team struggles to make sense out of the chaos.",
+    "tagline": "When everything went wrong, six men had the courage to do what was right.",
+    "poster": "https://image.tmdb.org/t/p/w342/fZlAxZMo6BId1SiqyjLmkd7oUB7.jpg",
+    "backdrop": "/ayDMYGUNVvXS76wQgFwTiUIDNb5.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "Plex"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/300671-13-hours-the-secret-soldiers-of-benghazi/watch?locale=US",
+    "providersAt": 1792983544900,
+    "region": "US",
+    "scores": {
+      "rt": 51,
+      "metacritic": 48,
+      "imdb": 7.3
+    }
+  },
+  "DC League of Super-Pets (2022)": {
+    "id": "m:539681",
+    "tmdbId": 539681,
+    "imdbId": "tt8912936",
+    "director": [
+      {
+        "id": 89027,
+        "name": "Jared Stern"
+      }
+    ],
+    "writers": [
+      {
+        "id": 1492059,
+        "name": "John Whittington"
+      },
+      {
+        "id": 89027,
+        "name": "Jared Stern"
+      }
+    ],
+    "cast": [
+      {
+        "id": 18918,
+        "name": "Dwayne Johnson"
+      },
+      {
+        "id": 55638,
+        "name": "Kevin Hart"
+      },
+      {
+        "id": 17697,
+        "name": "John Krasinski"
+      },
+      {
+        "id": 6384,
+        "name": "Keanu Reeves"
+      },
+      {
+        "id": 1240487,
+        "name": "Kate McKinnon"
+      },
+      {
+        "id": 503103,
+        "name": "Vanessa Bayer"
+      },
+      {
+        "id": 10871,
+        "name": "Natasha Lyonne"
+      },
+      {
+        "id": 8688,
+        "name": "Diego Luna"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 9715,
+        "name": "superhero"
+      },
+      {
+        "id": 3289,
+        "name": "villain"
+      },
+      {
+        "id": 9717,
+        "name": "based on comic"
+      },
+      {
+        "id": 15162,
+        "name": "dog"
+      },
+      {
+        "id": 33637,
+        "name": "super power"
+      },
+      {
+        "id": 179430,
+        "name": "aftercreditsstinger"
+      },
+      {
+        "id": 179431,
+        "name": "duringcreditsstinger"
+      },
+      {
+        "id": 189481,
+        "name": "evil mastermind"
+      },
+      {
+        "id": 194404,
+        "name": "supervillain"
+      },
+      {
+        "id": 267848,
+        "name": "talking animal"
+      },
+      {
+        "id": 278823,
+        "name": "3d animation"
+      }
+    ],
+    "runtime": 105,
+    "genres": [
+      "Family",
+      "Comedy",
+      "Adventure",
+      "Animation",
+      "Science Fiction",
+      "Action"
+    ],
+    "tmdbRating": 7.136,
+    "overview": "When Superman and the rest of the Justice League are kidnapped, Krypto the Super-Dog must convince a rag-tag shelter pack - Ace the hound, PB the potbellied pig, Merton the turtle and Chip the squirrel - to master their own newfound powers and help him rescue the superheroes.",
+    "tagline": "Sit, stay, save the world.",
+    "poster": "https://image.tmdb.org/t/p/w342/qpPMewlugFaejXjz4YNDnpTniFX.jpg",
+    "backdrop": "/xfNHRI2f5kHGvogxLd0C5sB90L7.jpg",
+    "providers": {
+      "flatrate": [
+        "HBO Max Amazon Channel",
+        "HBO Max"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "Spectrum On Demand",
+        "Plex"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/539681-dc-league-of-super-pets/watch?locale=US",
+    "providersAt": 1792983545095,
+    "region": "US",
+    "scores": {
+      "rt": 72,
+      "metacritic": 56,
+      "imdb": 6.8
+    }
   }
 }

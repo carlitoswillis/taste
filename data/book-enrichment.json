@@ -37,8 +37,8 @@
     },
     "adaptedAs": [
       "The Odyssey (2026)",
-      "O Brother, Where Art Thou? (2000)",
-      "The Return (2024)"
+      "The Return (2024)",
+      "O Brother, Where Art Thou? (2000)"
     ]
   },
   "No Country for Old Men (Cormac McCarthy)": {
@@ -3719,6 +3719,37 @@
     },
     "adaptedAs": [
       "The Housemaid (2025)"
+    ]
+  },
+  "Spider (Patrick McGrath)": {
+    "id": "b:OL3148546W",
+    "olWork": "OL3148546W",
+    "authors": [
+      {
+        "key": "OL500549A",
+        "name": "Patrick McGrath"
+      },
+      {
+        "key": "OL385692A",
+        "name": "McGrath, Patrick"
+      }
+    ],
+    "firstPublished": 1990,
+    "pages": 224,
+    "subjects": [
+      "Schizophrenics",
+      "Fiction"
+    ],
+    "coverId": 5277818,
+    "cover": "https://covers.openlibrary.org/b/id/5277818-M.jpg",
+    "description": null,
+    "editionCount": 6,
+    "olRating": {
+      "average": 3,
+      "count": 1
+    },
+    "adaptedAs": [
+      "Spider (2002)"
     ]
   }
 }
