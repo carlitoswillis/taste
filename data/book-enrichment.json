@@ -4372,5 +4372,135 @@
   },
   "Piercing (Ryū Murakami)": {
     "unmatched": true
+  },
+  "Pelle the Conqueror (Martin Andersen Nexø)": {
+    "id": "b:OL44509965W",
+    "olWork": "OL44509965W",
+    "authors": [
+      {
+        "key": "OL137086A",
+        "name": "Martin Andersen Nexø"
+      }
+    ],
+    "firstPublished": 1915,
+    "pages": 352,
+    "subjects": [],
+    "coverId": null,
+    "cover": null,
+    "description": null,
+    "editionCount": 2,
+    "olRating": {
+      "average": null,
+      "count": 0
+    },
+    "adaptedAs": [
+      "Pelle the Conqueror (1987)"
+    ]
+  },
+  "What Dreams May Come (Richard Matheson)": {
+    "id": "b:OL64221W",
+    "olWork": "OL64221W",
+    "authors": [
+      {
+        "key": "OL19731A",
+        "name": "Richard Matheson"
+      }
+    ],
+    "firstPublished": 1978,
+    "pages": 288,
+    "subjects": [
+      "Fiction",
+      "Death",
+      "Guardian angels in fiction",
+      "Loss (Psychology)",
+      "Accident victims in fiction",
+      "Suicide victims in fiction",
+      "Guardian angels",
+      "Widows in fiction",
+      "Future life in fiction",
+      "Suicide victims",
+      "Children in fiction",
+      "Future life"
+    ],
+    "coverId": 524352,
+    "cover": "https://covers.openlibrary.org/b/id/524352-M.jpg",
+    "description": null,
+    "editionCount": 17,
+    "olRating": {
+      "average": 4.4,
+      "count": 5
+    },
+    "adaptedAs": [
+      "What Dreams May Come (1998)"
+    ]
+  },
+  "The Killer Department (Robert Cullen)": {
+    "id": "b:OL82132W",
+    "olWork": "OL82132W",
+    "authors": [
+      {
+        "key": "OL388147A",
+        "name": "Robert Cullen"
+      }
+    ],
+    "firstPublished": 1993,
+    "pages": 258,
+    "subjects": [
+      "Murder",
+      "serIal murder",
+      "Russia",
+      "Citizen X",
+      "Biography",
+      "Case studies",
+      "Criminal and dangerous Insane",
+      "Insane, Criminal and dangerous",
+      "Mentally ill offenders",
+      "Murderers",
+      "Serial murderers",
+      "Serial murders"
+    ],
+    "coverId": 9334994,
+    "cover": "https://covers.openlibrary.org/b/id/9334994-M.jpg",
+    "description": "The spellbinding true tale of the discovery, chase, capture, and execution of Andrei Chikatilo, a serial killing madman who sexually assaulted, mutilated, and killed at least 53 women and children near Rostov-on-Don, Russia, between 1978 and 1986. The story is told by Colonel Vicktor Burakov, Soviet Militia, a brilliant, tenacious investigator who would be the very last man I'd want pursuing me for a crime I committed. This story, by Robert Cullen, was made into the HBO movie *Citizen X*.",
+    "editionCount": 6,
+    "olRating": {
+      "average": 4,
+      "count": 1
+    },
+    "adaptedAs": [
+      "Citizen X (1995)"
+    ]
+  },
+  "The Minority Report (Philip K. Dick)": {
+    "id": "b:OL2172413W",
+    "olWork": "OL2172413W",
+    "authors": [
+      {
+        "key": "OL274606A",
+        "name": "Philip K. Dick"
+      }
+    ],
+    "firstPublished": 2000,
+    "pages": 394,
+    "subjects": [
+      "Short stories",
+      "Crime prevention",
+      "Fiction",
+      "Fiction, science fiction, general",
+      "Fiction, media tie-in",
+      "Fiction, legal",
+      "Fiction, science fiction, collections & anthologies"
+    ],
+    "coverId": 585616,
+    "cover": "https://covers.openlibrary.org/b/id/585616-M.jpg",
+    "description": null,
+    "editionCount": 3,
+    "olRating": {
+      "average": 0,
+      "count": 0
+    },
+    "adaptedAs": [
+      "Minority Report (2002)"
+    ]
   }
 }
