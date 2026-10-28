@@ -1,6 +1,6 @@
 {
   "user": "carlitxs",
-  "fetched": "2026-10-27T15:19:03.321Z",
+  "fetched": "2026-10-28T15:58:26.838Z",
   "source": "films-pages",
   "entries": [
     {
@@ -722,6 +722,16 @@
       "watched": null,
       "undated": true,
       "link": "https://letterboxd.com/film/trap-2024/"
+    },
+    {
+      "title": "La Bola Negra",
+      "year": 2026,
+      "rating": 4,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/la-bola-negra/"
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
-  "generated": "2026-10-27T15:20:54.565Z",
+  "generated": "2026-10-28T15:59:59.757Z",
   "basedOn": {
-    "loved": 34,
-    "seenWithKeywords": 367,
-    "filmsEnriched": 618
+    "loved": 35,
+    "seenWithKeywords": 368,
+    "filmsEnriched": 619
   },
   "themes": [
     {
@@ -57,7 +57,7 @@
       "affinity": 5.5,
       "affinityNorm": 0.92,
       "lovedCount": 4,
-      "lovedShare": 0.12,
+      "lovedShare": 0.11,
       "seenCount": 20,
       "seenShare": 0.05,
       "tilt": 0.06,
@@ -227,7 +227,7 @@
       "lovedShare": 0.06,
       "seenCount": 23,
       "seenShare": 0.06,
-      "tilt": 0,
+      "tilt": -0.01,
       "lovedFilms": [
         {
           "title": "Poor Things",
@@ -266,10 +266,10 @@
       "affinity": 6,
       "affinityNorm": 1,
       "lovedCount": 4,
-      "lovedShare": 0.12,
+      "lovedShare": 0.11,
       "seenCount": 11,
       "seenShare": 0.03,
-      "tilt": 0.09,
+      "tilt": 0.08,
       "lovedFilms": [
         {
           "title": "You Can See Everything",
@@ -322,10 +322,10 @@
       "affinity": 4,
       "affinityNorm": 0.67,
       "lovedCount": 4,
-      "lovedShare": 0.12,
+      "lovedShare": 0.11,
       "seenCount": 15,
       "seenShare": 0.04,
-      "tilt": 0.08,
+      "tilt": 0.07,
       "lovedFilms": [
         {
           "title": "Midsommar",
@@ -402,7 +402,7 @@
       "id": 295907,
       "lovedCount": 4,
       "seenCount": 19,
-      "tilt": 0.07,
+      "tilt": 0.06,
       "films": [
         "Obsession (2026)",
         "The Lighthouse (2019)",
@@ -450,7 +450,7 @@
       "id": 1157,
       "lovedCount": 3,
       "seenCount": 15,
-      "tilt": 0.05,
+      "tilt": 0.04,
       "films": [
         "Oppenheimer (2023)",
         "Primetime (2026)",
@@ -462,17 +462,6 @@
       "id": 14514,
       "lovedCount": 2,
       "seenCount": 4,
-      "tilt": 0.05,
-      "films": [
-        "Anora (2024)",
-        "Parasite (2019)"
-      ]
-    },
-    {
-      "keyword": "oscar winner",
-      "id": 370793,
-      "lovedCount": 2,
-      "seenCount": 5,
       "tilt": 0.05,
       "films": [
         "Anora (2024)",
@@ -557,17 +546,6 @@
       ]
     },
     {
-      "keyword": "cruelty",
-      "id": 14624,
-      "lovedCount": 2,
-      "seenCount": 5,
-      "tilt": 0.05,
-      "films": [
-        "The Prestige (2006)",
-        "Poor Things (2023)"
-      ]
-    },
-    {
       "keyword": "sex worker",
       "id": 190178,
       "lovedCount": 2,
@@ -576,17 +554,6 @@
       "films": [
         "Anora (2024)",
         "Poor Things (2023)"
-      ]
-    },
-    {
-      "keyword": "cynical",
-      "id": 33424,
-      "lovedCount": 2,
-      "seenCount": 5,
-      "tilt": 0.05,
-      "films": [
-        "Adaptation. (2002)",
-        "They Cloned Tyrone (2023)"
       ]
     },
     {
@@ -609,17 +576,6 @@
       "films": [
         "No Country for Old Men (2007)",
         "The Northman (2022)"
-      ]
-    },
-    {
-      "keyword": "post-apocalyptic future",
-      "id": 4458,
-      "lovedCount": 2,
-      "seenCount": 5,
-      "tilt": 0.05,
-      "films": [
-        "Mad Max: Fury Road (2015)",
-        "A Quiet Place (2018)"
       ]
     },
     {
@@ -654,13 +610,57 @@
         "The Prestige (2006)",
         "Hour of the Wolf (1968)"
       ]
+    },
+    {
+      "keyword": "countryside",
+      "id": 548,
+      "lovedCount": 2,
+      "seenCount": 3,
+      "tilt": 0.05,
+      "films": [
+        "The Seventh Seal (1957)",
+        "Together (2025)"
+      ]
+    },
+    {
+      "keyword": "nurse",
+      "id": 428,
+      "lovedCount": 2,
+      "seenCount": 3,
+      "tilt": 0.05,
+      "films": [
+        "Persona (1966)",
+        "Saint Maud (2019)"
+      ]
+    },
+    {
+      "keyword": "artist",
+      "id": 2679,
+      "lovedCount": 2,
+      "seenCount": 4,
+      "tilt": 0.05,
+      "films": [
+        "The Seventh Seal (1957)",
+        "Hour of the Wolf (1968)"
+      ]
+    },
+    {
+      "keyword": "symbolism",
+      "id": 1715,
+      "lovedCount": 2,
+      "seenCount": 3,
+      "tilt": 0.05,
+      "films": [
+        "The Seventh Seal (1957)",
+        "Bugonia (2025)"
+      ]
     }
   ],
   "coverage": {
-    "filmsWithKeywords": 367,
+    "filmsWithKeywords": 368,
     "filmsWithoutKeywords": 1,
-    "distinctKeywords": 3253,
+    "distinctKeywords": 3256,
     "mappedKeywords": 31,
-    "unmappedSeenTwicePlus": 1086
+    "unmappedSeenTwicePlus": 1087
   }
 }

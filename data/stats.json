@@ -1,13 +1,13 @@
 {
-  "generated": "2026-10-27",
+  "generated": "2026-10-28",
   "counts": {
-    "seen": 363,
-    "rated": 50,
-    "scored": 45,
+    "seen": 364,
+    "rated": 51,
+    "scored": 46,
     "perfect": 7
   },
   "tiers": {
-    "4": 18,
+    "4": 19,
     "5": 7,
     "4.5": 9,
     "3.5": 10,
@@ -22,49 +22,49 @@
     "1990": 21,
     "2000": 62,
     "2010": 114,
-    "2020": 142
+    "2020": 143
   },
   "genreTilt": [
     {
       "genre": "Drama",
-      "lovedShare": 0.5,
-      "seenShare": 0.3453038674033149,
-      "tilt": 0.15469613259668508
+      "lovedShare": 0.5142857142857142,
+      "seenShare": 0.34710743801652894,
+      "tilt": 0.1671782762691853
     },
     {
       "genre": "Mystery",
-      "lovedShare": 0.23529411764705882,
-      "seenShare": 0.14917127071823205,
-      "tilt": 0.08612284692882677
-    },
-    {
-      "genre": "Comedy",
-      "lovedShare": 0.29411764705882354,
-      "seenShare": 0.2430939226519337,
-      "tilt": 0.05102372440688985
+      "lovedShare": 0.22857142857142856,
+      "seenShare": 0.1487603305785124,
+      "tilt": 0.07981109799291616
     },
     {
       "genre": "Documentary",
-      "lovedShare": 0.058823529411764705,
-      "seenShare": 0.008287292817679558,
-      "tilt": 0.05053623659408515
+      "lovedShare": 0.05714285714285714,
+      "seenShare": 0.008264462809917356,
+      "tilt": 0.048878394332939785
+    },
+    {
+      "genre": "Comedy",
+      "lovedShare": 0.2857142857142857,
+      "seenShare": 0.24242424242424243,
+      "tilt": 0.04329004329004327
     },
     {
       "genre": "Fantasy",
-      "lovedShare": 0.14705882352941177,
-      "seenShare": 0.10220994475138122,
-      "tilt": 0.04484887877803055
+      "lovedShare": 0.14285714285714285,
+      "seenShare": 0.10192837465564739,
+      "tilt": 0.04092876820149546
     },
     {
       "genre": "Horror",
-      "lovedShare": 0.29411764705882354,
-      "seenShare": 0.2569060773480663,
-      "tilt": 0.03721156971075723
+      "lovedShare": 0.2857142857142857,
+      "seenShare": 0.256198347107438,
+      "tilt": 0.029515938606847703
     }
   ],
   "genreCoverage": {
-    "loved": 34,
-    "seen": 362
+    "loved": 35,
+    "seen": 363
   },
   "lovedAgainstCritics": [
     {
@@ -113,5 +113,5 @@
     }
   ],
   "profileUpdated": "2026-07-22",
-  "newSinceProfile": 26
+  "newSinceProfile": 27
 }

@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-27T15:22:39.104Z",
-  "basedOn": 34,
+  "generated": "2026-10-28T16:01:17.081Z",
+  "basedOn": 35,
   "head": 10,
   "items": [
     {
@@ -166,7 +166,7 @@
         "Comedy",
         "Documentary"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/6tGXlz61c44onUg6EdRkbhjcaPA.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/nuyeyn2ZY5UOvklQinHsQnhs1QN.jpg",
       "providers": {
         "flatrate": [
           "HBO Max Amazon Channel",
@@ -190,8 +190,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.8,
-      "votes": 1061,
+      "tmdbRating": 7.757,
+      "votes": 1063,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -299,8 +299,8 @@
       "title": "CSI: Crime Scene Investigation",
       "year": 2000,
       "tmdbId": 1431,
-      "tmdbRating": 7.6,
-      "votes": 1441,
+      "tmdbRating": 7.605,
+      "votes": 1442,
       "score": 3.0400000000000005,
       "rank": 9,
       "creators": [
@@ -336,45 +336,43 @@
       "why": "Quentin Tarantino directed episodes (directed Once Upon a Time... in Hollywood 4★)"
     },
     {
-      "title": "The Office",
-      "year": 2005,
-      "tmdbId": 2316,
-      "tmdbRating": 8.6,
-      "votes": 5642,
-      "score": 2.5600000000000005,
+      "title": "Veneno",
+      "year": 2020,
+      "tmdbId": 100834,
+      "tmdbRating": 8.4,
+      "votes": 1432,
+      "score": 2.7,
       "rank": 10,
       "creators": [
-        "Greg Daniels"
+        "Javier Ambrossi",
+        "Javier Calvo"
       ],
-      "seasons": 9,
-      "episodes": 186,
-      "episodeRuntime": 45,
+      "seasons": 1,
+      "episodes": 8,
+      "episodeRuntime": 60,
       "showStatus": "Ended",
       "genres": [
-        "Comedy"
+        "Drama"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/rSMgruoizGda8Rqe9DsgD2Ln8Uq.jpg",
       "providers": {
         "flatrate": [
-          "Peacock Premium",
-          "YouTube TV",
-          "TBS",
-          "Peacock Premium Plus"
+          "HBO Max"
         ],
         "rent": []
       },
       "scores": {
         "rt": null,
         "metacritic": null,
-        "imdb": 9
+        "imdb": 8.6
       },
-      "why": "John Krasinski directed episodes (directed A Quiet Place 4★)"
+      "why": "Javier Ambrossi created this (directed La Bola Negra 4★)"
     },
     {
       "title": "The Rehearsal",
       "year": 2022,
       "tmdbId": 204284,
-      "tmdbRating": 7.988,
+      "tmdbRating": 8,
       "votes": 290,
       "score": 4.2,
       "rank": 11,
@@ -485,8 +483,8 @@
       "title": "DAVE",
       "year": 2020,
       "tmdbId": 97084,
-      "tmdbRating": 7.3,
-      "votes": 197,
+      "tmdbRating": 7.313,
+      "votes": 198,
       "score": 3.0400000000000005,
       "rank": 14,
       "creators": [
@@ -551,13 +549,48 @@
       "why": "Kitao Sakurai directed episodes (directed Bad Trip 4★)"
     },
     {
+      "title": "The Office",
+      "year": 2005,
+      "tmdbId": 2316,
+      "tmdbRating": 8.6,
+      "votes": 5642,
+      "score": 2.5600000000000005,
+      "rank": 16,
+      "creators": [
+        "Greg Daniels"
+      ],
+      "seasons": 9,
+      "episodes": 186,
+      "episodeRuntime": 45,
+      "showStatus": "Ended",
+      "genres": [
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg",
+      "providers": {
+        "flatrate": [
+          "Peacock Premium",
+          "YouTube TV",
+          "TBS",
+          "Peacock Premium Plus"
+        ],
+        "rent": []
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 9
+      },
+      "why": "John Krasinski directed episodes (directed A Quiet Place 4★)"
+    },
+    {
       "title": "Gangs of London",
       "year": 2020,
       "tmdbId": 85021,
       "tmdbRating": 7.8,
       "votes": 727,
       "score": 2.7,
-      "rank": 16,
+      "rank": 17,
       "creators": [
         "Gareth Evans",
         "Matt Flannery"
@@ -597,7 +630,7 @@
       "tmdbRating": 8.1,
       "votes": 876,
       "score": 2.16,
-      "rank": 17,
+      "rank": 18,
       "creators": [
         "Will Carsola",
         "Dave Stewart"
@@ -634,7 +667,7 @@
       "themes": [
         "cruel-comedy"
       ],
-      "rank": 18,
+      "rank": 19,
       "creators": [
         "Dino Stamatopoulos"
       ],
@@ -671,7 +704,7 @@
       "tmdbRating": 7.6,
       "votes": 481,
       "score": 2.16,
-      "rank": 19,
+      "rank": 20,
       "creators": [
         "Chris Romano",
         "Eric Falconer"
@@ -706,7 +739,7 @@
       "tmdbRating": 7,
       "votes": 102,
       "score": 2.2800000000000002,
-      "rank": 20,
+      "rank": 21,
       "creators": [
         "Brian Koppelman",
         "David Levien"
@@ -737,7 +770,7 @@
       "tmdbRating": 7.7,
       "votes": 1922,
       "score": 1.92,
-      "rank": 21,
+      "rank": 22,
       "creators": [
         "Graham Roland",
         "Carlton Cuse"
@@ -772,7 +805,7 @@
       "tmdbRating": 6.7,
       "votes": 237,
       "score": 2.16,
-      "rank": 22,
+      "rank": 23,
       "creators": [
         "Emily Kapnek"
       ],
@@ -806,7 +839,7 @@
       "tmdbRating": 6.7,
       "votes": 174,
       "score": 2.16,
-      "rank": 23,
+      "rank": 24,
       "creators": [
         "Dana Goodman",
         "Julia Lea Wolov"
@@ -830,71 +863,6 @@
         "imdb": 7.3
       },
       "why": "Drew Hancock wrote for this (directed Companion 4★)"
-    },
-    {
-      "title": "Raised by Wolves",
-      "year": 2020,
-      "tmdbId": 85723,
-      "tmdbRating": 7.5,
-      "votes": 1869,
-      "score": 1.9200000000000004,
-      "rank": 24,
-      "creators": [
-        "Aaron Guzikowski"
-      ],
-      "seasons": 2,
-      "episodes": 18,
-      "episodeRuntime": 46,
-      "showStatus": "Canceled",
-      "genres": [
-        "Sci-Fi & Fantasy",
-        "Drama"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/mTvSVKMn2Npf6zvYNbGMJnYLtvp.jpg",
-      "providers": {
-        "flatrate": [],
-        "rent": []
-      },
-      "scores": {
-        "rt": null,
-        "metacritic": null,
-        "imdb": 7.4
-      },
-      "why": "Ridley Scott directed episodes (directed Prometheus 4.5★)"
-    },
-    {
-      "title": "Dope Thief",
-      "year": 2025,
-      "tmdbId": 209876,
-      "tmdbRating": 6.6,
-      "votes": 140,
-      "score": 1.9200000000000004,
-      "rank": 25,
-      "creators": [
-        "Peter Craig"
-      ],
-      "seasons": 1,
-      "episodes": 8,
-      "episodeRuntime": 50,
-      "showStatus": "Ended",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/sIed5PCiMNHd7G55DR9ObSRV9v2.jpg",
-      "providers": {
-        "flatrate": [
-          "Apple TV",
-          "Apple TV Amazon Channel"
-        ],
-        "rent": []
-      },
-      "scores": {
-        "rt": null,
-        "metacritic": null,
-        "imdb": 7
-      },
-      "why": "Ridley Scott directed episodes (directed Prometheus 4.5★)"
     }
   ]
 }

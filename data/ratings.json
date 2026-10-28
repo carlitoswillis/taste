@@ -330,5 +330,12 @@
     "year": 2012,
     "director": null,
     "score": 4
+  },
+  {
+    "title": "La Bola Negra",
+    "year": 2026,
+    "director": null,
+    "score": 4,
+    "liked": true
   }
 ]

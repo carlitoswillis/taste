@@ -101345,5 +101345,149 @@
       "metacritic": 66,
       "imdb": 5
     }
+  },
+  "La Bola Negra (2026)": {
+    "id": "m:1422041",
+    "tmdbId": 1422041,
+    "imdbId": "tt35511966",
+    "director": [
+      {
+        "id": 95606,
+        "name": "Javier Ambrossi"
+      },
+      {
+        "id": 1443615,
+        "name": "Javier Calvo"
+      }
+    ],
+    "writers": [
+      {
+        "id": 95606,
+        "name": "Javier Ambrossi"
+      },
+      {
+        "id": 1443615,
+        "name": "Javier Calvo"
+      },
+      {
+        "id": 3337887,
+        "name": "Alberto Conejero"
+      }
+    ],
+    "cast": [
+      {
+        "id": 3153596,
+        "name": "Guitarricadelafuente"
+      },
+      {
+        "id": 1846370,
+        "name": "Miguel Bernardeau"
+      },
+      {
+        "id": 3070857,
+        "name": "Carlos González"
+      },
+      {
+        "id": 5883927,
+        "name": "Milo Quifes"
+      },
+      {
+        "id": 2759,
+        "name": "Lola Dueñas"
+      },
+      {
+        "id": 955,
+        "name": "Penélope Cruz"
+      },
+      {
+        "id": 515,
+        "name": "Glenn Close"
+      },
+      {
+        "id": 3483,
+        "name": "Antonio de la Torre"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 514,
+        "name": "spain"
+      },
+      {
+        "id": 818,
+        "name": "based on novel or book"
+      },
+      {
+        "id": 5509,
+        "name": "spanish civil war (1936-39)"
+      },
+      {
+        "id": 10181,
+        "name": "based on play or musical"
+      },
+      {
+        "id": 158718,
+        "name": "lgbt"
+      },
+      {
+        "id": 208250,
+        "name": "spanish second republic (1931-39)"
+      },
+      {
+        "id": 212737,
+        "name": "philosophical"
+      },
+      {
+        "id": 214548,
+        "name": "1930s"
+      },
+      {
+        "id": 239187,
+        "name": "lyrical"
+      },
+      {
+        "id": 257783,
+        "name": "2010s"
+      },
+      {
+        "id": 258533,
+        "name": "gay theme"
+      },
+      {
+        "id": 281585,
+        "name": "inspirational"
+      },
+      {
+        "id": 324429,
+        "name": "romantic"
+      },
+      {
+        "id": 325791,
+        "name": "defiant"
+      }
+    ],
+    "runtime": 159,
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "tmdbRating": 8.1,
+    "overview": "The intertwined lives of three men in three different eras, three lives intimately linked by sexuality and desire, pain, and legacy.",
+    "tagline": "Love leaves a legacy.",
+    "poster": "https://image.tmdb.org/t/p/w342/jT5SR5qc9KvVg7HUEmjMWEUYMce.jpg",
+    "backdrop": "/bDsmYvrzto7xrEwqDpLC3SPhn9A.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [],
+      "buy": []
+    },
+    "providersLink": null,
+    "providersAt": 1793203113338,
+    "region": "US",
+    "scores": {
+      "rt": 92,
+      "metacritic": 86,
+      "imdb": 7
+    }
   }
 }
