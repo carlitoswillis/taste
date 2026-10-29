@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T16:01:17.081Z",
+  "generated": "2026-10-29T16:08:46.604Z",
   "basedOn": 35,
   "head": 10,
   "items": [
@@ -266,7 +266,7 @@
       "year": 1994,
       "tmdbId": 4588,
       "tmdbRating": 7.8,
-      "votes": 974,
+      "votes": 975,
       "score": 3.0400000000000005,
       "rank": 8,
       "creators": [
@@ -299,8 +299,8 @@
       "title": "CSI: Crime Scene Investigation",
       "year": 2000,
       "tmdbId": 1431,
-      "tmdbRating": 7.605,
-      "votes": 1442,
+      "tmdbRating": 7.6,
+      "votes": 1443,
       "score": 3.0400000000000005,
       "rank": 9,
       "creators": [
@@ -552,8 +552,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.6,
-      "votes": 5642,
+      "tmdbRating": 8.584,
+      "votes": 5644,
       "score": 2.5600000000000005,
       "rank": 16,
       "creators": [
@@ -767,8 +767,8 @@
       "title": "Tom Clancy's Jack Ryan",
       "year": 2018,
       "tmdbId": 73375,
-      "tmdbRating": 7.7,
-      "votes": 1922,
+      "tmdbRating": 7.671,
+      "votes": 1923,
       "score": 1.92,
       "rank": 22,
       "creators": [

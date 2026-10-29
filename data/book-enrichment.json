@@ -4502,5 +4502,32 @@
     "adaptedAs": [
       "Minority Report (2002)"
     ]
+  },
+  "La piedra oscura (Alberto Conejero)": {
+    "id": "b:OL17104566W",
+    "olWork": "OL17104566W",
+    "authors": [
+      {
+        "key": "OL4234739A",
+        "name": "Alberto Conejero Lopez"
+      }
+    ],
+    "firstPublished": 2015,
+    "pages": 108,
+    "subjects": [],
+    "coverId": 7346329,
+    "cover": "https://covers.openlibrary.org/b/id/7346329-M.jpg",
+    "description": null,
+    "editionCount": 1,
+    "olRating": {
+      "average": null,
+      "count": 0
+    },
+    "adaptedAs": [
+      "La Bola Negra (2026)"
+    ]
+  },
+  "La bola negra (play) (Federico García Lorca)": {
+    "unmatched": true
   }
 }
