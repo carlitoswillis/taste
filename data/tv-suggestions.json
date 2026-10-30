@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T16:08:46.604Z",
+  "generated": "2026-10-30T15:56:15.960Z",
   "basedOn": 35,
   "head": 10,
   "items": [
@@ -191,7 +191,7 @@
       "year": 2023,
       "tmdbId": 154385,
       "tmdbRating": 7.757,
-      "votes": 1063,
+      "votes": 1067,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -444,8 +444,8 @@
       "title": "Twisted Metal",
       "year": 2023,
       "tmdbId": 133748,
-      "tmdbRating": 7.67,
-      "votes": 575,
+      "tmdbRating": 7.667,
+      "votes": 576,
       "score": 3.0400000000000005,
       "themes": [
         "identity"
@@ -552,8 +552,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.584,
-      "votes": 5644,
+      "tmdbRating": 8.6,
+      "votes": 5645,
       "score": 2.5600000000000005,
       "rank": 16,
       "creators": [
@@ -701,8 +701,8 @@
       "title": "Blue Mountain State",
       "year": 2010,
       "tmdbId": 31941,
-      "tmdbRating": 7.6,
-      "votes": 481,
+      "tmdbRating": 7.581,
+      "votes": 482,
       "score": 2.16,
       "rank": 20,
       "creators": [
@@ -767,8 +767,8 @@
       "title": "Tom Clancy's Jack Ryan",
       "year": 2018,
       "tmdbId": 73375,
-      "tmdbRating": 7.671,
-      "votes": 1923,
+      "tmdbRating": 7.67,
+      "votes": 1924,
       "score": 1.92,
       "rank": 22,
       "creators": [
