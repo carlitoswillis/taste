@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T15:56:15.960Z",
+  "generated": "2026-10-31T15:20:15.526Z",
   "basedOn": 35,
   "head": 10,
   "items": [
@@ -7,8 +7,8 @@
       "title": "Fanny and Alexander",
       "year": 1984,
       "tmdbId": 33153,
-      "tmdbRating": 8.3,
-      "votes": 152,
+      "tmdbRating": 8.275,
+      "votes": 153,
       "score": 18.4,
       "rank": 1,
       "creators": [
@@ -39,8 +39,8 @@
       "title": "Scenes from a Marriage",
       "year": 1973,
       "tmdbId": 65170,
-      "tmdbRating": 8.1,
-      "votes": 150,
+      "tmdbRating": 8.089,
+      "votes": 151,
       "score": 18.4,
       "rank": 2,
       "creators": [
@@ -190,8 +190,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.757,
-      "votes": 1067,
+      "tmdbRating": 7.758,
+      "votes": 1069,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -265,8 +265,8 @@
       "title": "ER",
       "year": 1994,
       "tmdbId": 4588,
-      "tmdbRating": 7.8,
-      "votes": 975,
+      "tmdbRating": 7.819,
+      "votes": 977,
       "score": 3.0400000000000005,
       "rank": 8,
       "creators": [
@@ -299,8 +299,8 @@
       "title": "CSI: Crime Scene Investigation",
       "year": 2000,
       "tmdbId": 1431,
-      "tmdbRating": 7.6,
-      "votes": 1443,
+      "tmdbRating": 7.605,
+      "votes": 1444,
       "score": 3.0400000000000005,
       "rank": 9,
       "creators": [
@@ -339,8 +339,8 @@
       "title": "Veneno",
       "year": 2020,
       "tmdbId": 100834,
-      "tmdbRating": 8.4,
-      "votes": 1432,
+      "tmdbRating": 8.413,
+      "votes": 1433,
       "score": 2.7,
       "rank": 10,
       "creators": [
@@ -372,8 +372,8 @@
       "title": "The Rehearsal",
       "year": 2022,
       "tmdbId": 204284,
-      "tmdbRating": 8,
-      "votes": 290,
+      "tmdbRating": 7.995,
+      "votes": 291,
       "score": 4.2,
       "rank": 11,
       "creators": [
@@ -552,8 +552,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.6,
-      "votes": 5645,
+      "tmdbRating": 8.584,
+      "votes": 5649,
       "score": 2.5600000000000005,
       "rank": 16,
       "creators": [
@@ -587,8 +587,8 @@
       "title": "Gangs of London",
       "year": 2020,
       "tmdbId": 85021,
-      "tmdbRating": 7.8,
-      "votes": 727,
+      "tmdbRating": 7.796,
+      "votes": 728,
       "score": 2.7,
       "rank": 17,
       "creators": [
@@ -701,8 +701,8 @@
       "title": "Blue Mountain State",
       "year": 2010,
       "tmdbId": 31941,
-      "tmdbRating": 7.581,
-      "votes": 482,
+      "tmdbRating": 7.58,
+      "votes": 483,
       "score": 2.16,
       "rank": 20,
       "creators": [
@@ -768,7 +768,7 @@
       "year": 2018,
       "tmdbId": 73375,
       "tmdbRating": 7.67,
-      "votes": 1924,
+      "votes": 1927,
       "score": 1.92,
       "rank": 22,
       "creators": [
