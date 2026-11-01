@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T15:20:33.547Z",
+  "generated": "2026-11-01T16:02:46.241Z",
   "basedOn": {
     "lovedFilms": 35,
     "ratedBooks": 0,
@@ -507,7 +507,7 @@
       "year": 1996,
       "pages": 465,
       "cover": "https://covers.openlibrary.org/b/id/9334567-M.jpg",
-      "editionCount": 93,
+      "editionCount": 94,
       "olRating": {
         "average": 4.3097343,
         "count": 113
@@ -535,23 +535,6 @@
       "rank": 31
     },
     {
-      "title": "The Shining",
-      "author": "Stephen King",
-      "olWork": "OL81633W",
-      "year": 1977,
-      "pages": 506,
-      "cover": "https://covers.openlibrary.org/b/id/12376585-M.jpg",
-      "editionCount": 98,
-      "olRating": {
-        "average": 4.1793103,
-        "count": 290
-      },
-      "weight": 0.8,
-      "rankScore": 5.78,
-      "why": "thriller on the page — you over-index on it in film · horror on the page — you over-index on it in film",
-      "rank": 32
-    },
-    {
       "title": "The Throne of Fire",
       "author": "Rick Riordan",
       "olWork": "OL15946464W",
@@ -566,7 +549,7 @@
       "weight": 0.39,
       "rankScore": 5.37,
       "why": "science fiction on the page — you over-index on it in film",
-      "rank": 33
+      "rank": 32
     },
     {
       "title": "The Silver Eyes (Five Nights At Freddy's #1)",
@@ -583,7 +566,7 @@
       "weight": 0.37,
       "rankScore": 5.33,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 34
+      "rank": 33
     },
     {
       "title": "The Sea of Monsters",
@@ -600,7 +583,7 @@
       "weight": 0.43,
       "rankScore": 5.32,
       "why": "thriller on the page — you over-index on it in film",
-      "rank": 35
+      "rank": 34
     },
     {
       "title": "The Hitchhiker's Guide to the Galaxy",
@@ -617,7 +600,7 @@
       "weight": 0.39,
       "rankScore": 5.29,
       "why": "science fiction on the page — you over-index on it in film",
-      "rank": 36
+      "rank": 35
     },
     {
       "title": "Season of Mists",
@@ -634,7 +617,7 @@
       "weight": 0.37,
       "rankScore": 5.28,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 37
+      "rank": 36
     },
     {
       "title": "Maus I",
@@ -645,13 +628,13 @@
       "cover": "https://covers.openlibrary.org/b/id/10210168-M.jpg",
       "editionCount": 66,
       "olRating": {
-        "average": 4.487805,
-        "count": 164
+        "average": 4.497041,
+        "count": 169
       },
       "weight": 0.37,
-      "rankScore": 5.23,
+      "rankScore": 5.24,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 38
+      "rank": 37
     },
     {
       "title": "Stories of Your Life and Others",
@@ -668,7 +651,7 @@
       "weight": 0.39,
       "rankScore": 5.22,
       "why": "science fiction on the page — you over-index on it in film",
-      "rank": 39
+      "rank": 38
     },
     {
       "title": "Feet of Clay",
@@ -684,6 +667,23 @@
       },
       "weight": 0.37,
       "rankScore": 5.21,
+      "why": "horror on the page — you over-index on it in film",
+      "rank": 39
+    },
+    {
+      "title": "The Raven",
+      "author": "Edgar Allan Poe",
+      "olWork": "OL41081W",
+      "year": 1845,
+      "pages": 42,
+      "cover": "https://covers.openlibrary.org/b/id/8246077-M.jpg",
+      "editionCount": 287,
+      "olRating": {
+        "average": 4.4590163,
+        "count": 61
+      },
+      "weight": 0.37,
+      "rankScore": 5.2,
       "why": "horror on the page — you over-index on it in film",
       "rank": 40
     }

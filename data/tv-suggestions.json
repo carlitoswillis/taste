@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T15:20:15.526Z",
+  "generated": "2026-11-01T16:02:30.658Z",
   "basedOn": 35,
   "head": 10,
   "items": [
@@ -71,7 +71,7 @@
       "title": "The Curse",
       "year": 2023,
       "tmdbId": 114655,
-      "tmdbRating": 6.408,
+      "tmdbRating": 6.4,
       "votes": 184,
       "score": 4.2,
       "themes": [
@@ -552,8 +552,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.584,
-      "votes": 5649,
+      "tmdbRating": 8.585,
+      "votes": 5655,
       "score": 2.5600000000000005,
       "rank": 16,
       "creators": [
@@ -768,7 +768,7 @@
       "year": 2018,
       "tmdbId": 73375,
       "tmdbRating": 7.67,
-      "votes": 1927,
+      "votes": 1928,
       "score": 1.92,
       "rank": 22,
       "creators": [

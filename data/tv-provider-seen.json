@@ -266,6 +266,9 @@
   },
   "561": {
    "HBO Max Amazon Channel": null,
+   "Philo": "2026-11-01",
+   "AMC+ Amazon Channel": "2026-11-01",
+   "AMC": "2026-11-01",
    "HBO Max": null
   },
   "578": {
@@ -391,12 +394,11 @@
    "IndieFlix Shorts Amazon Channel": null
   },
   "766": {
-   "Amazon Prime Video": null,
    "Philo": null,
    "AMC Plus Apple TV channel": null,
    "AMC+ Amazon Channel": null,
-   "AMC+": null,
-   "Amazon Prime Video with Ads": null
+   "AMC+ Roku Premium Channel": "2026-11-01",
+   "AMC+": null
   },
   "771": {
    "Disney Plus": null
@@ -559,6 +561,7 @@
    "Paramount Plus Premium": null,
    "Paramount Plus Essential": null,
    "Peacock Premium": null,
+   "Philo": "2026-11-01",
    "Paramount+ Amazon Channel": null,
    "Paramount+ Roku Premium Channel": null,
    "Peacock Premium Plus": null
@@ -857,6 +860,7 @@
   "28942": {
    "HBO Max Amazon Channel": null,
    "Brew": null,
+   "Darkroom": "2026-11-01",
    "HBO Max": null
   },
   "29437": {
@@ -907,6 +911,10 @@
    "Paramount Plus Premium": null,
    "Paramount+ Amazon Channel": null,
    "YouTube TV": null
+  },
+  "37958": {
+   "Amazon Prime Video": null,
+   "Amazon Prime Video with Ads": null
   },
   "38757": {
    "Disney Plus": null
@@ -974,7 +982,6 @@
    "Starz Amazon Channel": null
   },
   "68730": {
-   "fuboTV": null,
    "MGM+ Amazon Channel": null,
    "Philo": null
   },
@@ -1177,9 +1184,7 @@
    "Shudder Apple TV Channel": null
   },
   "242582": {
-   "Netflix": null,
    "Sundance Now": null,
-   "Netflix Standard with Ads": null,
    "Shout! Factory Amazon Channel": null
   },
   "245891": {
@@ -1695,16 +1700,12 @@
   },
   "558449": {
    "Netflix": null,
-   "Amazon Prime Video": null,
    "MGM+ Amazon Channel": null,
    "Paramount Plus Premium": null,
    "Paramount Plus Essential": null,
-   "Philo": null,
    "Paramount+ Amazon Channel": null,
-   "MGM Plus": null,
    "Paramount+ Roku Premium Channel": null,
-   "Netflix Standard with Ads": null,
-   "Amazon Prime Video with Ads": null
+   "Netflix Standard with Ads": null
   },
   "559907": {
    "Netflix": null,
@@ -2099,12 +2100,10 @@
    "Peacock Premium Plus": null
   },
   "974576": {
-   "Starz Amazon Channel": null,
-   "Starz Apple TV channel": null
+   "Starz Amazon Channel": null
   },
   "975511": {
    "fuboTV": null,
-   "Paramount Plus Premium": null,
    "Paramount+ Amazon Channel": null
   },
   "986056": {
@@ -2115,7 +2114,6 @@
    "Netflix Standard with Ads": null
   },
   "994143": {
-   "Philo": null,
    "AMC Plus Apple TV channel": null,
    "AMC+ Amazon Channel": null,
    "AMC+ Roku Premium Channel": null,
@@ -2346,6 +2344,10 @@
   "1245993": {
    "Netflix": null,
    "Netflix Standard with Ads": null
+  },
+  "1257868": {
+   "Amazon Prime Video": null,
+   "Amazon Prime Video with Ads": null
   },
   "1260794": {
    "Philo": null,
