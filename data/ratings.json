@@ -337,5 +337,18 @@
     "director": null,
     "score": 4,
     "liked": true
+  },
+  {
+    "title": "Clayface",
+    "year": 2026,
+    "director": null,
+    "score": 3
+  },
+  {
+    "title": "Wildwood",
+    "year": 2026,
+    "director": null,
+    "score": 5,
+    "liked": true
   }
 ]

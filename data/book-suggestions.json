@@ -1,9 +1,9 @@
 {
-  "generated": "2026-11-01T16:02:46.241Z",
+  "generated": "2026-11-02T19:30:30.713Z",
   "basedOn": {
-    "lovedFilms": 35,
+    "lovedFilms": 36,
     "ratedBooks": 0,
-    "confirmedAdaptations": 148
+    "confirmedAdaptations": 149
   },
   "head": 12,
   "items": [
@@ -433,6 +433,23 @@
       "rank": 25
     },
     {
+      "title": "Wildwood: The Wildwood Chronicles",
+      "author": "Colin Meloy",
+      "olWork": "OL15941425W",
+      "year": null,
+      "pages": null,
+      "cover": null,
+      "editionCount": 0,
+      "olRating": {
+        "average": null,
+        "count": 0
+      },
+      "weight": 2.8,
+      "rankScore": 6.6,
+      "why": "the book behind Wildwood (2026) 5★",
+      "rank": 26
+    },
+    {
       "title": "Project Hail Mary",
       "author": "Andy Weir",
       "olWork": "OL21745884W",
@@ -447,7 +464,7 @@
       "weight": 0.82,
       "rankScore": 6.17,
       "why": "thriller on the page — you over-index on it in film · science fiction on the page — you over-index on it in film",
-      "rank": 26
+      "rank": 27
     },
     {
       "title": "The Martian",
@@ -464,7 +481,7 @@
       "weight": 0.82,
       "rankScore": 6.04,
       "why": "thriller on the page — you over-index on it in film · science fiction on the page — you over-index on it in film",
-      "rank": 27
+      "rank": 28
     },
     {
       "title": "The Complete Sherlock Holmes [4 novels, 56 stories]",
@@ -481,7 +498,7 @@
       "weight": 0.74,
       "rankScore": 6.01,
       "why": "thriller on the page — you over-index on it in film · mystery on the page — you over-index on it in film",
-      "rank": 28
+      "rank": 29
     },
     {
       "title": "Six of Crows",
@@ -498,7 +515,7 @@
       "weight": 0.7,
       "rankScore": 5.94,
       "why": "science fiction on the page — you over-index on it in film · mystery on the page — you over-index on it in film",
-      "rank": 29
+      "rank": 30
     },
     {
       "title": "The Green Mile",
@@ -515,7 +532,7 @@
       "weight": 0.8,
       "rankScore": 5.91,
       "why": "thriller on the page — you over-index on it in film · horror on the page — you over-index on it in film",
-      "rank": 30
+      "rank": 31
     },
     {
       "title": "Watchmen",
@@ -532,7 +549,24 @@
       "weight": 0.7,
       "rankScore": 5.87,
       "why": "science fiction on the page — you over-index on it in film · mystery on the page — you over-index on it in film",
-      "rank": 31
+      "rank": 32
+    },
+    {
+      "title": "The Shining",
+      "author": "Stephen King",
+      "olWork": "OL81633W",
+      "year": 1977,
+      "pages": 506,
+      "cover": "https://covers.openlibrary.org/b/id/12376585-M.jpg",
+      "editionCount": 98,
+      "olRating": {
+        "average": 4.1870747,
+        "count": 294
+      },
+      "weight": 0.8,
+      "rankScore": 5.79,
+      "why": "thriller on the page — you over-index on it in film · horror on the page — you over-index on it in film",
+      "rank": 33
     },
     {
       "title": "The Throne of Fire",
@@ -549,7 +583,7 @@
       "weight": 0.39,
       "rankScore": 5.37,
       "why": "science fiction on the page — you over-index on it in film",
-      "rank": 32
+      "rank": 34
     },
     {
       "title": "The Silver Eyes (Five Nights At Freddy's #1)",
@@ -566,7 +600,7 @@
       "weight": 0.37,
       "rankScore": 5.33,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 33
+      "rank": 35
     },
     {
       "title": "The Sea of Monsters",
@@ -583,7 +617,7 @@
       "weight": 0.43,
       "rankScore": 5.32,
       "why": "thriller on the page — you over-index on it in film",
-      "rank": 34
+      "rank": 36
     },
     {
       "title": "The Hitchhiker's Guide to the Galaxy",
@@ -600,7 +634,7 @@
       "weight": 0.39,
       "rankScore": 5.29,
       "why": "science fiction on the page — you over-index on it in film",
-      "rank": 35
+      "rank": 37
     },
     {
       "title": "Season of Mists",
@@ -617,7 +651,7 @@
       "weight": 0.37,
       "rankScore": 5.28,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 36
+      "rank": 38
     },
     {
       "title": "Maus I",
@@ -634,7 +668,7 @@
       "weight": 0.37,
       "rankScore": 5.24,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 37
+      "rank": 39
     },
     {
       "title": "Stories of Your Life and Others",
@@ -651,40 +685,6 @@
       "weight": 0.39,
       "rankScore": 5.22,
       "why": "science fiction on the page — you over-index on it in film",
-      "rank": 38
-    },
-    {
-      "title": "Feet of Clay",
-      "author": "Terry Pratchett",
-      "olWork": "OL453743W",
-      "year": 1996,
-      "pages": 379,
-      "cover": "https://covers.openlibrary.org/b/id/14648799-M.jpg",
-      "editionCount": 42,
-      "olRating": {
-        "average": 4.4736843,
-        "count": 38
-      },
-      "weight": 0.37,
-      "rankScore": 5.21,
-      "why": "horror on the page — you over-index on it in film",
-      "rank": 39
-    },
-    {
-      "title": "The Raven",
-      "author": "Edgar Allan Poe",
-      "olWork": "OL41081W",
-      "year": 1845,
-      "pages": 42,
-      "cover": "https://covers.openlibrary.org/b/id/8246077-M.jpg",
-      "editionCount": 287,
-      "olRating": {
-        "average": 4.4590163,
-        "count": 61
-      },
-      "weight": 0.37,
-      "rankScore": 5.2,
-      "why": "horror on the page — you over-index on it in film",
       "rank": 40
     }
   ]

@@ -2141,5 +2141,19 @@
     "watched": "2026-10-28",
     "dateSource": "first-seen",
     "link": "https://letterboxd.com/film/la-bola-negra/"
+  },
+  {
+    "title": "Clayface",
+    "year": 2026,
+    "watched": "2026-11-02",
+    "dateSource": "first-seen",
+    "link": "https://letterboxd.com/film/clayface/"
+  },
+  {
+    "title": "Wildwood",
+    "year": 2026,
+    "watched": "2026-11-02",
+    "dateSource": "first-seen",
+    "link": "https://letterboxd.com/film/wildwood-2026/"
   }
 ]

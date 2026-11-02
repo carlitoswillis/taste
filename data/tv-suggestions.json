@@ -1,13 +1,13 @@
 {
-  "generated": "2026-11-01T16:02:30.658Z",
-  "basedOn": 35,
+  "generated": "2026-11-02T19:30:11.341Z",
+  "basedOn": 36,
   "head": 10,
   "items": [
     {
       "title": "Fanny and Alexander",
       "year": 1984,
       "tmdbId": 33153,
-      "tmdbRating": 8.275,
+      "tmdbRating": 8.3,
       "votes": 153,
       "score": 18.4,
       "rank": 1,
@@ -113,8 +113,8 @@
       "title": "The Eric Andre Show",
       "year": 2012,
       "tmdbId": 56590,
-      "tmdbRating": 7.9,
-      "votes": 178,
+      "tmdbRating": 7.855,
+      "votes": 179,
       "score": 3.0400000000000005,
       "themes": [
         "surveillance"
@@ -150,8 +150,8 @@
       "title": "Nathan for You",
       "year": 2013,
       "tmdbId": 58957,
-      "tmdbRating": 8.2,
-      "votes": 339,
+      "tmdbRating": 8.24,
+      "votes": 341,
       "score": 4.2,
       "rank": 5,
       "creators": [
@@ -266,7 +266,7 @@
       "year": 1994,
       "tmdbId": 4588,
       "tmdbRating": 7.819,
-      "votes": 977,
+      "votes": 978,
       "score": 3.0400000000000005,
       "rank": 8,
       "creators": [
@@ -299,8 +299,8 @@
       "title": "CSI: Crime Scene Investigation",
       "year": 2000,
       "tmdbId": 1431,
-      "tmdbRating": 7.605,
-      "votes": 1444,
+      "tmdbRating": 7.601,
+      "votes": 1445,
       "score": 3.0400000000000005,
       "rank": 9,
       "creators": [
@@ -336,37 +336,39 @@
       "why": "Quentin Tarantino directed episodes (directed Once Upon a Time... in Hollywood 4★)"
     },
     {
-      "title": "Veneno",
-      "year": 2020,
-      "tmdbId": 100834,
-      "tmdbRating": 8.413,
-      "votes": 1433,
-      "score": 2.7,
+      "title": "The Office",
+      "year": 2005,
+      "tmdbId": 2316,
+      "tmdbRating": 8.584,
+      "votes": 5660,
+      "score": 2.5600000000000005,
       "rank": 10,
       "creators": [
-        "Javier Ambrossi",
-        "Javier Calvo"
+        "Greg Daniels"
       ],
-      "seasons": 1,
-      "episodes": 8,
-      "episodeRuntime": 60,
+      "seasons": 9,
+      "episodes": 186,
+      "episodeRuntime": 45,
       "showStatus": "Ended",
       "genres": [
-        "Drama"
+        "Comedy"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/rSMgruoizGda8Rqe9DsgD2Ln8Uq.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg",
       "providers": {
         "flatrate": [
-          "HBO Max"
+          "Peacock Premium",
+          "YouTube TV",
+          "TBS",
+          "Peacock Premium Plus"
         ],
         "rent": []
       },
       "scores": {
         "rt": null,
         "metacritic": null,
-        "imdb": 8.6
+        "imdb": 9
       },
-      "why": "Javier Ambrossi created this (directed La Bola Negra 4★)"
+      "why": "John Krasinski directed episodes (directed A Quiet Place 4★)"
     },
     {
       "title": "The Rehearsal",
@@ -444,7 +446,7 @@
       "title": "Twisted Metal",
       "year": 2023,
       "tmdbId": 133748,
-      "tmdbRating": 7.667,
+      "tmdbRating": 7.666,
       "votes": 576,
       "score": 3.0400000000000005,
       "themes": [
@@ -549,48 +551,13 @@
       "why": "Kitao Sakurai directed episodes (directed Bad Trip 4★)"
     },
     {
-      "title": "The Office",
-      "year": 2005,
-      "tmdbId": 2316,
-      "tmdbRating": 8.585,
-      "votes": 5655,
-      "score": 2.5600000000000005,
-      "rank": 16,
-      "creators": [
-        "Greg Daniels"
-      ],
-      "seasons": 9,
-      "episodes": 186,
-      "episodeRuntime": 45,
-      "showStatus": "Ended",
-      "genres": [
-        "Comedy"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg",
-      "providers": {
-        "flatrate": [
-          "Peacock Premium",
-          "YouTube TV",
-          "TBS",
-          "Peacock Premium Plus"
-        ],
-        "rent": []
-      },
-      "scores": {
-        "rt": null,
-        "metacritic": null,
-        "imdb": 9
-      },
-      "why": "John Krasinski directed episodes (directed A Quiet Place 4★)"
-    },
-    {
       "title": "Gangs of London",
       "year": 2020,
       "tmdbId": 85021,
       "tmdbRating": 7.796,
       "votes": 728,
       "score": 2.7,
-      "rank": 17,
+      "rank": 16,
       "creators": [
         "Gareth Evans",
         "Matt Flannery"
@@ -630,7 +597,7 @@
       "tmdbRating": 8.1,
       "votes": 876,
       "score": 2.16,
-      "rank": 18,
+      "rank": 17,
       "creators": [
         "Will Carsola",
         "Dave Stewart"
@@ -667,7 +634,7 @@
       "themes": [
         "cruel-comedy"
       ],
-      "rank": 19,
+      "rank": 18,
       "creators": [
         "Dino Stamatopoulos"
       ],
@@ -701,10 +668,10 @@
       "title": "Blue Mountain State",
       "year": 2010,
       "tmdbId": 31941,
-      "tmdbRating": 7.58,
+      "tmdbRating": 7.578,
       "votes": 483,
       "score": 2.16,
-      "rank": 20,
+      "rank": 19,
       "creators": [
         "Chris Romano",
         "Eric Falconer"
@@ -739,7 +706,7 @@
       "tmdbRating": 7,
       "votes": 102,
       "score": 2.2800000000000002,
-      "rank": 21,
+      "rank": 20,
       "creators": [
         "Brian Koppelman",
         "David Levien"
@@ -770,7 +737,7 @@
       "tmdbRating": 7.67,
       "votes": 1928,
       "score": 1.92,
-      "rank": 22,
+      "rank": 21,
       "creators": [
         "Graham Roland",
         "Carlton Cuse"
@@ -805,7 +772,7 @@
       "tmdbRating": 6.7,
       "votes": 237,
       "score": 2.16,
-      "rank": 23,
+      "rank": 22,
       "creators": [
         "Emily Kapnek"
       ],
@@ -839,7 +806,7 @@
       "tmdbRating": 6.7,
       "votes": 174,
       "score": 2.16,
-      "rank": 24,
+      "rank": 23,
       "creators": [
         "Dana Goodman",
         "Julia Lea Wolov"

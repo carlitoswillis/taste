@@ -1,9 +1,9 @@
 {
-  "generated": "2026-11-01T16:00:55.809Z",
+  "generated": "2026-11-02T19:28:38.946Z",
   "basedOn": {
-    "loved": 35,
-    "seenWithKeywords": 368,
-    "filmsEnriched": 620
+    "loved": 36,
+    "seenWithKeywords": 370,
+    "filmsEnriched": 622
   },
   "themes": [
     {
@@ -137,7 +137,7 @@
       "affinity": 4,
       "affinityNorm": 0.67,
       "lovedCount": 3,
-      "lovedShare": 0.09,
+      "lovedShare": 0.08,
       "seenCount": 43,
       "seenShare": 0.12,
       "tilt": -0.03,
@@ -225,7 +225,7 @@
       "affinityNorm": 0.42,
       "lovedCount": 2,
       "lovedShare": 0.06,
-      "seenCount": 23,
+      "seenCount": 24,
       "seenShare": 0.06,
       "tilt": -0.01,
       "lovedFilms": [
@@ -253,7 +253,7 @@
         2766
       ],
       "keywordHits": {
-        "body horror": 19,
+        "body horror": 20,
         "parasite": 1,
         "transformation": 3,
         "mutation": 3
@@ -378,7 +378,7 @@
       "id": 12999,
       "lovedCount": 4,
       "seenCount": 7,
-      "tilt": 0.1,
+      "tilt": 0.09,
       "films": [
         "The Seventh Seal (1957)",
         "Persona (1966)",
@@ -426,7 +426,7 @@
       "id": 1556,
       "lovedCount": 3,
       "seenCount": 7,
-      "tilt": 0.07,
+      "tilt": 0.06,
       "films": [
         "No Country for Old Men (2007)",
         "Primetime (2026)",
@@ -458,28 +458,6 @@
       ]
     },
     {
-      "keyword": "class differences",
-      "id": 14514,
-      "lovedCount": 2,
-      "seenCount": 4,
-      "tilt": 0.05,
-      "films": [
-        "Anora (2024)",
-        "Parasite (2019)"
-      ]
-    },
-    {
-      "keyword": "couple",
-      "id": 33494,
-      "lovedCount": 2,
-      "seenCount": 4,
-      "tilt": 0.05,
-      "films": [
-        "Obsession (2026)",
-        "Together (2025)"
-      ]
-    },
-    {
       "keyword": "boyfriend girlfriend relationship",
       "id": 164698,
       "lovedCount": 2,
@@ -488,17 +466,6 @@
       "films": [
         "Midsommar (2019)",
         "Companion (2025)"
-      ]
-    },
-    {
-      "keyword": "grieving",
-      "id": 172291,
-      "lovedCount": 2,
-      "seenCount": 4,
-      "tilt": 0.05,
-      "films": [
-        "Hereditary (2018)",
-        "Midsommar (2019)"
       ]
     },
     {
@@ -568,17 +535,6 @@
       ]
     },
     {
-      "keyword": "fate",
-      "id": 10855,
-      "lovedCount": 2,
-      "seenCount": 4,
-      "tilt": 0.05,
-      "films": [
-        "No Country for Old Men (2007)",
-        "The Northman (2022)"
-      ]
-    },
-    {
       "keyword": "isolated island",
       "id": 226406,
       "lovedCount": 2,
@@ -634,17 +590,6 @@
       ]
     },
     {
-      "keyword": "artist",
-      "id": 2679,
-      "lovedCount": 2,
-      "seenCount": 4,
-      "tilt": 0.05,
-      "films": [
-        "The Seventh Seal (1957)",
-        "Hour of the Wolf (1968)"
-      ]
-    },
-    {
       "keyword": "symbolism",
       "id": 1715,
       "lovedCount": 2,
@@ -654,13 +599,68 @@
         "The Seventh Seal (1957)",
         "Bugonia (2025)"
       ]
+    },
+    {
+      "keyword": "drunk",
+      "id": 40879,
+      "lovedCount": 2,
+      "seenCount": 2,
+      "tilt": 0.05,
+      "films": [
+        "Anora (2024)",
+        "Bad Trip (2021)"
+      ]
+    },
+    {
+      "keyword": "hostile",
+      "id": 201864,
+      "lovedCount": 2,
+      "seenCount": 3,
+      "tilt": 0.05,
+      "films": [
+        "A Quiet Place (2018)",
+        "They Cloned Tyrone (2023)"
+      ]
+    },
+    {
+      "keyword": "class differences",
+      "id": 14514,
+      "lovedCount": 2,
+      "seenCount": 4,
+      "tilt": 0.04,
+      "films": [
+        "Anora (2024)",
+        "Parasite (2019)"
+      ]
+    },
+    {
+      "keyword": "introspective",
+      "id": 269808,
+      "lovedCount": 2,
+      "seenCount": 6,
+      "tilt": 0.04,
+      "films": [
+        "Parasite (2019)",
+        "Adaptation. (2002)"
+      ]
+    },
+    {
+      "keyword": "oscar winner",
+      "id": 370793,
+      "lovedCount": 2,
+      "seenCount": 5,
+      "tilt": 0.04,
+      "films": [
+        "Anora (2024)",
+        "Parasite (2019)"
+      ]
     }
   ],
   "coverage": {
-    "filmsWithKeywords": 368,
+    "filmsWithKeywords": 370,
     "filmsWithoutKeywords": 1,
-    "distinctKeywords": 3256,
+    "distinctKeywords": 3265,
     "mappedKeywords": 31,
-    "unmappedSeenTwicePlus": 1087
+    "unmappedSeenTwicePlus": 1094
   }
 }

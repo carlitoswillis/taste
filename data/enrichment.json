@@ -81521,7 +81521,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/9613-spider/watch?locale=US",
-    "providersAt": 1792954111945,
+    "providersAt": 1793647618023,
     "region": "US",
     "scores": {
       "rt": 84,
@@ -81679,7 +81679,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/931349-ash/watch?locale=US",
-    "providersAt": 1792954112415,
+    "providersAt": 1793647618182,
     "region": "US",
     "scores": {
       "rt": 71,
@@ -101617,6 +101617,276 @@
       "rt": null,
       "metacritic": null,
       "imdb": 6.2
+    }
+  },
+  "Clayface (2026)": {
+    "id": "m:1400940",
+    "tmdbId": 1400940,
+    "imdbId": "tt34890576",
+    "director": [
+      {
+        "id": 63306,
+        "name": "James Watkins"
+      }
+    ],
+    "writers": [
+      {
+        "id": 551463,
+        "name": "Mike Flanagan"
+      },
+      {
+        "id": 551463,
+        "name": "Mike Flanagan"
+      },
+      {
+        "id": 56960,
+        "name": "Hossein Amini"
+      }
+    ],
+    "cast": [
+      {
+        "id": 1327945,
+        "name": "Tom Rhys Harries"
+      },
+      {
+        "id": 1537686,
+        "name": "Naomi Ackie"
+      },
+      {
+        "id": 1665,
+        "name": "Eddie Marsan"
+      },
+      {
+        "id": 2978,
+        "name": "Max Minghella"
+      },
+      {
+        "id": 93236,
+        "name": "David Dencik"
+      },
+      {
+        "id": 3286781,
+        "name": "Francesca Corney"
+      },
+      {
+        "id": 4577931,
+        "name": "Ruby Sear"
+      },
+      {
+        "id": 1815694,
+        "name": "Wil Coban"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 1299,
+        "name": "monster"
+      },
+      {
+        "id": 1370,
+        "name": "shapeshifting"
+      },
+      {
+        "id": 9717,
+        "name": "based on comic"
+      },
+      {
+        "id": 9748,
+        "name": "revenge"
+      },
+      {
+        "id": 10614,
+        "name": "tragedy"
+      },
+      {
+        "id": 183133,
+        "name": "aspiring actor"
+      },
+      {
+        "id": 228384,
+        "name": "female scientist"
+      },
+      {
+        "id": 240435,
+        "name": "scientific experiment"
+      },
+      {
+        "id": 283085,
+        "name": "body horror"
+      },
+      {
+        "id": 312528,
+        "name": "dc universe (dcu)"
+      },
+      {
+        "id": 367031,
+        "name": "hollywood actor"
+      },
+      {
+        "id": 386908,
+        "name": "comic monster"
+      }
+    ],
+    "runtime": 109,
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Science Fiction"
+    ],
+    "tmdbRating": 7.45,
+    "overview": "Matt Hagen's meteoric rise from Gotham street kid to Hollywood leading man is tragically cut short when a local crime boss's actions leave him horribly disfigured. Abandoned by his team and with nothing left, Matt seeks out a cutting edge treatment that miraculously returns him to his former self… but also unexpectedly affects his grip on reality, spiraling him down a destructive path of all-consuming revenge.",
+    "tagline": "Look fear in the face.",
+    "poster": "https://image.tmdb.org/t/p/w342/9l1NuFjel2j89hiuiJbsxfblqjy.jpg",
+    "backdrop": "/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [],
+      "buy": [
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/1400940-clayface/watch?locale=US",
+    "providersAt": 1793647617268,
+    "region": "US",
+    "scores": {
+      "rt": null,
+      "metacritic": 59,
+      "imdb": 7.5
+    }
+  },
+  "Wildwood (2026)": {
+    "id": "m:791523",
+    "tmdbId": 791523,
+    "imdbId": "tt2056785",
+    "director": [
+      {
+        "id": 1033661,
+        "name": "Travis Knight"
+      }
+    ],
+    "writers": [
+      {
+        "id": 154705,
+        "name": "Chris Butler"
+      }
+    ],
+    "cast": [
+      {
+        "id": 1768964,
+        "name": "Peyton Elizabeth Lee"
+      },
+      {
+        "id": 1277188,
+        "name": "Jacob Tremblay"
+      },
+      {
+        "id": 36662,
+        "name": "Carey Mulligan"
+      },
+      {
+        "id": 932967,
+        "name": "Mahershala Ali"
+      },
+      {
+        "id": 20766,
+        "name": "Richard E. Grant"
+      },
+      {
+        "id": 9780,
+        "name": "Angela Bassett"
+      },
+      {
+        "id": 1625558,
+        "name": "Awkwafina"
+      },
+      {
+        "id": 561869,
+        "name": "Amandla Stenberg"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 818,
+        "name": "based on novel or book"
+      },
+      {
+        "id": 1896,
+        "name": "portland, oregon"
+      },
+      {
+        "id": 2673,
+        "name": "horse"
+      },
+      {
+        "id": 11107,
+        "name": "rescue mission"
+      },
+      {
+        "id": 5774,
+        "name": "forest"
+      },
+      {
+        "id": 1897,
+        "name": "oregon, usa"
+      },
+      {
+        "id": 10121,
+        "name": "stop motion"
+      },
+      {
+        "id": 193517,
+        "name": "coyote"
+      },
+      {
+        "id": 272301,
+        "name": "owl"
+      },
+      {
+        "id": 278823,
+        "name": "3d animation"
+      },
+      {
+        "id": 294629,
+        "name": "enchanted forest"
+      },
+      {
+        "id": 329731,
+        "name": "fairytale"
+      },
+      {
+        "id": 353910,
+        "name": "kidnapped baby"
+      },
+      {
+        "id": 372264,
+        "name": "epic adventure"
+      }
+    ],
+    "runtime": 132,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Fantasy"
+    ],
+    "tmdbRating": 8.642,
+    "overview": "After her baby brother is abducted by a murder of crows, headstrong teenager Prue McKeel launches a desperate rescue mission into the Impassable Wilderness, an enchanted forest hidden just beyond Portland, Oregon. Joined by her hapless but loyal classmate Curtis Mehlberg, Prue navigates a world of talking animals, bandits, and powerful figures driven by grief and ambition. As the pair is drawn into a conflict threatening the balance of the forest itself, Prue must discover the strength and belief she never knew she possessed.",
+    "tagline": "How far would you go for those you love?",
+    "poster": "https://image.tmdb.org/t/p/w342/8g7q6o54WfKWRmUQ0Ye8OskevUY.jpg",
+    "backdrop": "/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [],
+      "buy": [
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/791523-wildwood/watch?locale=US",
+    "providersAt": 1793647617517,
+    "region": "US",
+    "scores": {
+      "rt": null,
+      "metacritic": 88,
+      "imdb": 8.7
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "user": "carlitxs",
-  "fetched": "2026-11-01T15:58:51.885Z",
+  "fetched": "2026-11-02T19:26:50.732Z",
   "source": "films-pages",
   "entries": [
     {
@@ -732,6 +732,26 @@
       "watched": null,
       "undated": true,
       "link": "https://letterboxd.com/film/la-bola-negra/"
+    },
+    {
+      "title": "Clayface",
+      "year": 2026,
+      "rating": 3,
+      "liked": false,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/clayface/"
+    },
+    {
+      "title": "Wildwood",
+      "year": 2026,
+      "rating": 5,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/wildwood-2026/"
     }
   ]
 }
