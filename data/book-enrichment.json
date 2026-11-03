@@ -1455,8 +1455,8 @@
       "count": 238
     },
     "adaptedAs": [
-      "Nosferatu (2024)",
-      "Nosferatu (1922)"
+      "Nosferatu (1922)",
+      "Nosferatu (2024)"
     ]
   },
   "Barbie (Ruth Handler)": {
@@ -1585,8 +1585,8 @@
       "count": 229
     },
     "adaptedAs": [
-      "The Lord of the Rings: The Return of the King (2003)",
-      "The Lord of the Rings: The Two Towers (2002)"
+      "The Lord of the Rings: The Two Towers (2002)",
+      "The Lord of the Rings: The Return of the King (2003)"
     ]
   },
   "The Crow (James O'Barr)": {
@@ -2529,8 +2529,8 @@
       "count": 229
     },
     "adaptedAs": [
-      "The Lord of the Rings: The Return of the King (2003)",
-      "The Lord of the Rings: The Two Towers (2002)"
+      "The Lord of the Rings: The Two Towers (2002)",
+      "The Lord of the Rings: The Return of the King (2003)"
     ]
   },
   "American Psycho (Bret Easton Ellis)": {
@@ -4529,5 +4529,42 @@
   },
   "La bola negra (play) (Federico García Lorca)": {
     "unmatched": true
+  },
+  "Wildwood: The Wildwood Chronicles (Colin Meloy)": {
+    "id": "b:OL15941425W",
+    "olWork": "OL15941425W",
+    "authors": [
+      {
+        "key": "OL2882551A",
+        "name": "Colin Meloy"
+      }
+    ],
+    "firstPublished": 2011,
+    "pages": 542,
+    "subjects": [
+      "Fantasy",
+      "Fiction",
+      "Animals",
+      "Brothers and sisters",
+      "Missing children",
+      "New York Times bestseller",
+      "nyt:chapter_books=2011-08-27",
+      "Children's fiction",
+      "Fantasy fiction",
+      "Missing persons, fiction",
+      "Brothers and sisters, fiction",
+      "Animals, fiction"
+    ],
+    "coverId": 6906214,
+    "cover": "https://covers.openlibrary.org/b/id/6906214-M.jpg",
+    "description": "Prue McKeel's life is ordinary. At least until her baby brother is abducted by a murder of crows and taken to the Impassable Wilderness, a dense, tangled forest on the edge of Portland. No one's ever gone in, or at least returned to tell of it. So begins an adventure that will take Prue and her friend, Curtis, deep into the Impassable Wilderness. There they uncover a secret world in the midst of violent upheaval, a world full of warring creatures, peaceable mystics, and powerful figures with the darkest intentions. And what begins as a rescue mission becomes something much greater, as the two ",
+    "editionCount": 14,
+    "olRating": {
+      "average": 3.8333333,
+      "count": 6
+    },
+    "adaptedAs": [
+      "Wildwood (2026)"
+    ]
   }
 }

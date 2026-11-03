@@ -101888,5 +101888,737 @@
       "metacritic": 88,
       "imdb": 8.7
     }
+  },
+  "Kubo and the Two Strings (2016)": {
+    "id": "m:313297",
+    "tmdbId": 313297,
+    "imdbId": "tt4302938",
+    "director": [
+      {
+        "id": 1033661,
+        "name": "Travis Knight"
+      }
+    ],
+    "writers": [
+      {
+        "id": 1402866,
+        "name": "Marc Haimes"
+      },
+      {
+        "id": 1453540,
+        "name": "Shannon Tindle"
+      },
+      {
+        "id": 1402866,
+        "name": "Marc Haimes"
+      },
+      {
+        "id": 154705,
+        "name": "Chris Butler"
+      }
+    ],
+    "cast": [
+      {
+        "id": 1050248,
+        "name": "Art Parkinson"
+      },
+      {
+        "id": 6885,
+        "name": "Charlize Theron"
+      },
+      {
+        "id": 10297,
+        "name": "Matthew McConaughey"
+      },
+      {
+        "id": 30585,
+        "name": "Brenda Vaccaro"
+      },
+      {
+        "id": 5469,
+        "name": "Ralph Fiennes"
+      },
+      {
+        "id": 108916,
+        "name": "Rooney Mara"
+      },
+      {
+        "id": 1752,
+        "name": "George Takei"
+      },
+      {
+        "id": 11398,
+        "name": "Cary-Hiroyuki Tagawa"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 233,
+        "name": "japan"
+      },
+      {
+        "id": 1462,
+        "name": "samurai"
+      },
+      {
+        "id": 2343,
+        "name": "magic"
+      },
+      {
+        "id": 3446,
+        "name": "forgiveness"
+      },
+      {
+        "id": 10121,
+        "name": "stop motion"
+      },
+      {
+        "id": 47020,
+        "name": "storytelling"
+      },
+      {
+        "id": 156189,
+        "name": "origami"
+      },
+      {
+        "id": 198754,
+        "name": "feudal japan"
+      },
+      {
+        "id": 240237,
+        "name": "mother son relationship"
+      },
+      {
+        "id": 278823,
+        "name": "3d animation"
+      }
+    ],
+    "runtime": 102,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Family"
+    ],
+    "tmdbRating": 7.655,
+    "overview": "Kubo mesmerizes the people in his village with his magical gift for spinning wild tales with origami. When he accidentally summons an evil spirit seeking vengeance, Kubo is forced to go on a quest to solve the mystery of his fallen samurai father and his mystical weaponry, as well as discover his own magical powers.",
+    "tagline": "If you must blink, do it now!",
+    "poster": "https://image.tmdb.org/t/p/w342/la6QA9tk4Foq8OBH2Dyh5dTcw6H.jpg",
+    "backdrop": "/bhspYsRMHgMqzUlxiVpIY8OrqMt.jpg",
+    "providers": {
+      "flatrate": [
+        "Hulu",
+        "HBO Max Amazon Channel",
+        "HBO Max"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "Spectrum On Demand"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/313297-kubo-and-the-two-strings/watch?locale=US",
+    "providersAt": 1793725185692,
+    "region": "US",
+    "scores": {
+      "rt": 97,
+      "metacritic": 84,
+      "imdb": 7.7
+    }
+  },
+  "Masters of the Universe (2026)": {
+    "id": "m:454639",
+    "tmdbId": 454639,
+    "imdbId": "tt0427340",
+    "director": [
+      {
+        "id": 1033661,
+        "name": "Travis Knight"
+      }
+    ],
+    "writers": [
+      {
+        "id": 154705,
+        "name": "Chris Butler"
+      },
+      {
+        "id": 931525,
+        "name": "Aaron Nee"
+      },
+      {
+        "id": 174313,
+        "name": "Adam Nee"
+      },
+      {
+        "id": 57264,
+        "name": "David Callaham"
+      },
+      {
+        "id": 931525,
+        "name": "Aaron Nee"
+      },
+      {
+        "id": 174313,
+        "name": "Adam Nee"
+      },
+      {
+        "id": 113306,
+        "name": "Alex Litvak"
+      },
+      {
+        "id": 113307,
+        "name": "Michael Finch"
+      }
+    ],
+    "cast": [
+      {
+        "id": 1425934,
+        "name": "Nicholas Galitzine"
+      },
+      {
+        "id": 1721740,
+        "name": "Camila Mendes"
+      },
+      {
+        "id": 17605,
+        "name": "Idris Elba"
+      },
+      {
+        "id": 7499,
+        "name": "Jared Leto"
+      },
+      {
+        "id": 88029,
+        "name": "Alison Brie"
+      },
+      {
+        "id": 238164,
+        "name": "Jóhannes Haukur Jóhannesson"
+      },
+      {
+        "id": 2483272,
+        "name": "Jon Xue Zhang"
+      },
+      {
+        "id": 2418119,
+        "name": "Sam C. Wilson"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 4062,
+        "name": "skeleton"
+      },
+      {
+        "id": 9715,
+        "name": "superhero"
+      },
+      {
+        "id": 5609,
+        "name": "nostalgia"
+      },
+      {
+        "id": 10158,
+        "name": "alien planet"
+      },
+      {
+        "id": 10542,
+        "name": "based on toy"
+      },
+      {
+        "id": 33637,
+        "name": "super power"
+      },
+      {
+        "id": 161184,
+        "name": "reboot"
+      },
+      {
+        "id": 179430,
+        "name": "aftercreditsstinger"
+      },
+      {
+        "id": 179431,
+        "name": "duringcreditsstinger"
+      },
+      {
+        "id": 192913,
+        "name": "warrior"
+      },
+      {
+        "id": 195446,
+        "name": "sword and planet"
+      },
+      {
+        "id": 226774,
+        "name": "father son conflict"
+      },
+      {
+        "id": 234213,
+        "name": "sword and sorcery"
+      },
+      {
+        "id": 240303,
+        "name": "father daughter relationship"
+      },
+      {
+        "id": 269769,
+        "name": "based on tv series"
+      }
+    ],
+    "runtime": 141,
+    "genres": [
+      "Action",
+      "Fantasy",
+      "Science Fiction"
+    ],
+    "tmdbRating": 7.077,
+    "overview": "After being separated for 15 years, the Sword of Power leads Prince Adam back to Eternia, where he discovers his home shattered under the fiendish rule of Skeletor. To save his family and his world, Adam must join forces with his closest allies, Teela and Duncan/Man-At-Arms, and embrace his true destiny as He-Man — the most powerful man in the universe.",
+    "tagline": "Legends aren't born, they're forged.",
+    "poster": "https://image.tmdb.org/t/p/w342/oRuyGUHdoaQxWP3SDfafGkStxTC.jpg",
+    "backdrop": "/5MUMB3aPEPEQPCIAaygXFUTWE9Y.jpg",
+    "providers": {
+      "flatrate": [
+        "Amazon Prime Video",
+        "Amazon Prime Video with Ads"
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "providersLink": "https://www.themoviedb.org/movie/454639-masters-of-the-universe/watch?locale=US",
+    "providersAt": 1793725185881,
+    "region": "US",
+    "scores": {
+      "rt": null,
+      "metacritic": 52,
+      "imdb": 6.4
+    }
+  },
+  "Bumblebee (2018)": {
+    "id": "m:424783",
+    "tmdbId": 424783,
+    "imdbId": "tt4701182",
+    "director": [
+      {
+        "id": 1033661,
+        "name": "Travis Knight"
+      }
+    ],
+    "writers": [
+      {
+        "id": 1448221,
+        "name": "Christina Hodson"
+      }
+    ],
+    "cast": [
+      {
+        "id": 527393,
+        "name": "Dylan O'Brien"
+      },
+      {
+        "id": 130640,
+        "name": "Hailee Steinfeld"
+      },
+      {
+        "id": 56446,
+        "name": "John Cena"
+      },
+      {
+        "id": 1563266,
+        "name": "Jorge Lendeborg Jr."
+      },
+      {
+        "id": 40543,
+        "name": "John Ortiz"
+      },
+      {
+        "id": 1184280,
+        "name": "Stephen Schneider"
+      },
+      {
+        "id": 1517834,
+        "name": "Jason Ian Drucker"
+      },
+      {
+        "id": 21063,
+        "name": "Pamela Adlon"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 1576,
+        "name": "technology"
+      },
+      {
+        "id": 10542,
+        "name": "based on toy"
+      },
+      {
+        "id": 10891,
+        "name": "giant robot"
+      },
+      {
+        "id": 14544,
+        "name": "robot"
+      },
+      {
+        "id": 15285,
+        "name": "spin off"
+      },
+      {
+        "id": 179431,
+        "name": "duringcreditsstinger"
+      },
+      {
+        "id": 208289,
+        "name": "1980s"
+      },
+      {
+        "id": 325762,
+        "name": "adoring"
+      }
+    ],
+    "runtime": 114,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "tmdbRating": 6.731,
+    "overview": "On the run in the year 1987, Bumblebee finds refuge in a junkyard in a small Californian beach town. Charlie, on the cusp of turning 18 and trying to find her place in the world, discovers Bumblebee, battle-scarred and broken.  When Charlie revives him, she quickly learns this is no ordinary yellow VW bug.",
+    "tagline": "Every hero has a beginning.",
+    "poster": "https://image.tmdb.org/t/p/w342/fw02ONlDhrYjTSZV8XO6hhU3ds3.jpg",
+    "backdrop": "/hMANgfPHR1tRObNp2oPiOi9mMlz.jpg",
+    "providers": {
+      "flatrate": [
+        "Paramount Plus Premium",
+        "Paramount Plus Essential",
+        "Paramount+ Amazon Channel",
+        "Paramount+ Roku Premium Channel"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "JustWatch TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "Plex"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/424783-bumblebee/watch?locale=US",
+    "providersAt": 1793725186082,
+    "region": "US",
+    "scores": {
+      "rt": 91,
+      "metacritic": 66,
+      "imdb": 6.7
+    }
+  },
+  "ParaNorman (2012)": {
+    "id": "m:77174",
+    "tmdbId": 77174,
+    "imdbId": "tt1623288",
+    "director": [
+      {
+        "id": 58897,
+        "name": "Sam Fell"
+      },
+      {
+        "id": 154705,
+        "name": "Chris Butler"
+      }
+    ],
+    "writers": [
+      {
+        "id": 154705,
+        "name": "Chris Butler"
+      }
+    ],
+    "cast": [
+      {
+        "id": 113505,
+        "name": "Kodi Smit-McPhee"
+      },
+      {
+        "id": 558925,
+        "name": "Tucker Albrizzi"
+      },
+      {
+        "id": 84223,
+        "name": "Anna Kendrick"
+      },
+      {
+        "id": 1893,
+        "name": "Casey Affleck"
+      },
+      {
+        "id": 54691,
+        "name": "Christopher Mintz-Plasse"
+      },
+      {
+        "id": 41087,
+        "name": "Leslie Mann"
+      },
+      {
+        "id": 60074,
+        "name": "Jeff Garlin"
+      },
+      {
+        "id": 36802,
+        "name": "Elaine Stritch"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 2723,
+        "name": "medium"
+      },
+      {
+        "id": 3335,
+        "name": "halloween"
+      },
+      {
+        "id": 10623,
+        "name": "jock"
+      },
+      {
+        "id": 10121,
+        "name": "stop motion"
+      },
+      {
+        "id": 10541,
+        "name": "curse"
+      },
+      {
+        "id": 12377,
+        "name": "zombie"
+      },
+      {
+        "id": 162846,
+        "name": "ghost"
+      },
+      {
+        "id": 175387,
+        "name": "communicating with the dead"
+      },
+      {
+        "id": 179430,
+        "name": "aftercreditsstinger"
+      },
+      {
+        "id": 181820,
+        "name": "witch trial"
+      },
+      {
+        "id": 181822,
+        "name": "child witch"
+      },
+      {
+        "id": 181834,
+        "name": "empathy"
+      },
+      {
+        "id": 215191,
+        "name": "strange"
+      },
+      {
+        "id": 278823,
+        "name": "3d animation"
+      },
+      {
+        "id": 300952,
+        "name": "giac quan"
+      }
+    ],
+    "runtime": 93,
+    "genres": [
+      "Family",
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "tmdbRating": 7.063,
+    "overview": "In the town of Blithe Hollow, Norman Babcock can speak to the dead, but no one other than his eccentric new friend believes his ability is real. One day, Norman's eccentric uncle tells him of a ritual he must perform to protect the town from a curse cast by a witch centuries ago.",
+    "tagline": "It's all fun and games until someone raises the dead.",
+    "poster": "https://image.tmdb.org/t/p/w342/9DZPtuYTKYxt6vzHvZ5FLThG4fl.jpg",
+    "backdrop": "/fRhpdmaA1wTAboeiKW2ZHvDezIm.jpg",
+    "providers": {
+      "flatrate": [
+        "Hulu",
+        "HBO Max Amazon Channel",
+        "HBO Max"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/77174-paranorman/watch?locale=US",
+    "providersAt": 1793725186267,
+    "region": "US",
+    "scores": {
+      "rt": 89,
+      "metacritic": 72,
+      "imdb": 7
+    }
+  },
+  "Missing Link (2019)": {
+    "id": "m:458253",
+    "tmdbId": 458253,
+    "imdbId": "tt6348138",
+    "director": [
+      {
+        "id": 154705,
+        "name": "Chris Butler"
+      }
+    ],
+    "writers": [
+      {
+        "id": 154705,
+        "name": "Chris Butler"
+      }
+    ],
+    "cast": [
+      {
+        "id": 6968,
+        "name": "Hugh Jackman"
+      },
+      {
+        "id": 8691,
+        "name": "Zoe Saldaña"
+      },
+      {
+        "id": 58225,
+        "name": "Zach Galifianakis"
+      },
+      {
+        "id": 11275,
+        "name": "Stephen Fry"
+      },
+      {
+        "id": 18082,
+        "name": "Timothy Olyphant"
+      },
+      {
+        "id": 7056,
+        "name": "Emma Thompson"
+      },
+      {
+        "id": 1048692,
+        "name": "Amrita Acharia"
+      },
+      {
+        "id": 26209,
+        "name": "Matt Lucas"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 486,
+        "name": "himalaya mountain range"
+      },
+      {
+        "id": 2597,
+        "name": "bigfoot"
+      },
+      {
+        "id": 8873,
+        "name": "yeti"
+      },
+      {
+        "id": 10121,
+        "name": "stop motion"
+      },
+      {
+        "id": 11220,
+        "name": "cryptozoology"
+      },
+      {
+        "id": 191143,
+        "name": "loch ness monster"
+      },
+      {
+        "id": 194281,
+        "name": "shangri la"
+      },
+      {
+        "id": 207928,
+        "name": "19th century"
+      },
+      {
+        "id": 210214,
+        "name": "sasquatch"
+      },
+      {
+        "id": 278823,
+        "name": "3d animation"
+      },
+      {
+        "id": 325765,
+        "name": "amused"
+      },
+      {
+        "id": 325772,
+        "name": "assertive"
+      }
+    ],
+    "runtime": 94,
+    "genres": [
+      "Family",
+      "Animation",
+      "Comedy",
+      "Adventure",
+      "Action"
+    ],
+    "tmdbRating": 6.894,
+    "overview": "The charismatic Sir Lionel Frost considers himself to be the world's foremost investigator of myths and monsters. Trouble is, none of his small-minded, high-society peers seems to recognize this. Hoping to finally gain acceptance from these fellow adventurers, Sir Lionel travels to the Pacific Northwest to prove the existence of a legendary creature known as the missing link.",
+    "tagline": "Discover a comedy of epic proportions.",
+    "poster": "https://image.tmdb.org/t/p/w342/bqQ38oKuROlAgyZcRII9tqtoPNi.jpg",
+    "backdrop": "/l36ekUEEDLMAuL0YAU2Qxfq1i6X.jpg",
+    "providers": {
+      "flatrate": [
+        "Lionsgate+ Amazon Channel"
+      ],
+      "rent": [
+        "Google Play Movies",
+        "YouTube"
+      ],
+      "buy": [
+        "Apple TV Store"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/458253-missing-link/watch?locale=US",
+    "providersAt": 1793725186455,
+    "region": "US",
+    "scores": {
+      "rt": 88,
+      "metacritic": 68,
+      "imdb": 6.7
+    }
   }
 }

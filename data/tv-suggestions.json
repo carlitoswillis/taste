@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02T19:30:11.341Z",
+  "generated": "2026-11-03T17:03:16.591Z",
   "basedOn": 36,
   "head": 10,
   "items": [
@@ -190,8 +190,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.758,
-      "votes": 1069,
+      "tmdbRating": 7.756,
+      "votes": 1070,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -265,7 +265,7 @@
       "title": "ER",
       "year": 1994,
       "tmdbId": 4588,
-      "tmdbRating": 7.819,
+      "tmdbRating": 7.813,
       "votes": 978,
       "score": 3.0400000000000005,
       "rank": 8,
@@ -339,8 +339,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.584,
-      "votes": 5660,
+      "tmdbRating": 8.6,
+      "votes": 5664,
       "score": 2.5600000000000005,
       "rank": 10,
       "creators": [
@@ -446,8 +446,8 @@
       "title": "Twisted Metal",
       "year": 2023,
       "tmdbId": 133748,
-      "tmdbRating": 7.666,
-      "votes": 576,
+      "tmdbRating": 7.7,
+      "votes": 578,
       "score": 3.0400000000000005,
       "themes": [
         "identity"
@@ -594,8 +594,8 @@
       "title": "Mr. Pickles",
       "year": 2014,
       "tmdbId": 61593,
-      "tmdbRating": 8.1,
-      "votes": 876,
+      "tmdbRating": 8.137,
+      "votes": 877,
       "score": 2.16,
       "rank": 17,
       "creators": [
@@ -668,8 +668,8 @@
       "title": "Blue Mountain State",
       "year": 2010,
       "tmdbId": 31941,
-      "tmdbRating": 7.578,
-      "votes": 483,
+      "tmdbRating": 7.574,
+      "votes": 484,
       "score": 2.16,
       "rank": 19,
       "creators": [

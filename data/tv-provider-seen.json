@@ -1009,6 +1009,11 @@
    "Paramount+ Roku Premium Channel": null,
    "Amazon Prime Video with Ads": null
   },
+  "77174": {
+   "Hulu": null,
+   "HBO Max Amazon Channel": null,
+   "HBO Max": null
+  },
   "81857": {
    "Kino Film Collection": null
   },
@@ -1309,6 +1314,11 @@
    "YouTube TV": null,
    "Netflix Standard with Ads": null
   },
+  "313297": {
+   "Hulu": null,
+   "HBO Max Amazon Channel": null,
+   "HBO Max": null
+  },
   "315635": {
    "Netflix": null,
    "Disney Plus": null,
@@ -1504,6 +1514,12 @@
   "424781": {
    "MovieSphere+ Amazon Channel": null
   },
+  "424783": {
+   "Paramount Plus Premium": null,
+   "Paramount Plus Essential": null,
+   "Paramount+ Amazon Channel": null,
+   "Paramount+ Roku Premium Channel": null
+  },
   "426063": {
    "Peacock Premium": null,
    "Peacock Premium Plus": null
@@ -1562,6 +1578,13 @@
   },
   "453395": {
    "Disney Plus": null
+  },
+  "454639": {
+   "Amazon Prime Video": null,
+   "Amazon Prime Video with Ads": null
+  },
+  "458253": {
+   "Lionsgate+ Amazon Channel": null
   },
   "458723": {
    "HBO Max Amazon Channel": null,
