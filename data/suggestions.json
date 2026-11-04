@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-03T17:02:58.729Z",
+  "generated": "2026-11-04T17:13:46.608Z",
   "basedOn": 36,
   "head": 12,
   "items": [
@@ -7,8 +7,8 @@
       "title": "Wild Strawberries",
       "year": 1957,
       "tmdbId": 614,
-      "tmdbRating": 8.074,
-      "votes": 1881,
+      "tmdbRating": 8.1,
+      "votes": 1882,
       "score": 23.64,
       "rank": 1,
       "director": [
@@ -82,12 +82,12 @@
       "title": "Following",
       "year": 1999,
       "tmdbId": 11660,
-      "tmdbRating": 7.113,
+      "tmdbRating": 7.1,
       "votes": 2018,
       "themes": [
         "surveillance"
       ],
-      "score": 12.22,
+      "score": 12.16,
       "rank": 3,
       "director": [
         "Christopher Nolan"
@@ -125,7 +125,7 @@
       "year": 2002,
       "tmdbId": 320,
       "tmdbRating": 6.958,
-      "votes": 5626,
+      "votes": 5630,
       "score": 12.07,
       "rank": 4,
       "director": [
@@ -163,7 +163,7 @@
       "year": 2010,
       "tmdbId": 44264,
       "tmdbRating": 7.304,
-      "votes": 5996,
+      "votes": 6000,
       "score": 11.11,
       "rank": 5,
       "director": [
@@ -207,7 +207,7 @@
       "year": 2001,
       "tmdbId": 10778,
       "tmdbRating": 7.5,
-      "votes": 1847,
+      "votes": 1849,
       "score": 10.95,
       "rank": 6,
       "director": [
@@ -241,12 +241,12 @@
       "title": "Okja",
       "year": 2017,
       "tmdbId": 387426,
-      "tmdbRating": 7.316,
-      "votes": 4687,
+      "tmdbRating": 7.315,
+      "votes": 4690,
       "themes": [
         "doubling"
       ],
-      "score": 6.59,
+      "score": 6.58,
       "rank": 7,
       "director": [
         "Bong Joon Ho"
@@ -277,7 +277,7 @@
       "year": 2018,
       "tmdbId": 375262,
       "tmdbRating": 7.477,
-      "votes": 6111,
+      "votes": 6113,
       "themes": [
         "cruel-comedy"
       ],
@@ -315,7 +315,7 @@
       "year": 2017,
       "tmdbId": 394117,
       "tmdbRating": 7.42,
-      "votes": 3226,
+      "votes": 3228,
       "score": 6.34,
       "rank": 9,
       "director": [
@@ -345,39 +345,45 @@
       "why": "Sean Baker wrote and directed this — you rated Anora 5★"
     },
     {
-      "title": "Snowpiercer",
-      "year": 2013,
-      "tmdbId": 110415,
-      "tmdbRating": 6.91,
-      "votes": 10805,
-      "score": 5.62,
+      "title": "The Host",
+      "year": 2006,
+      "tmdbId": 1255,
+      "tmdbRating": 6.985,
+      "votes": 3292,
+      "score": 5.61,
       "rank": 10,
       "director": [
         "Bong Joon Ho"
       ],
-      "runtime": 127,
+      "runtime": 120,
       "genres": [
-        "Action",
-        "Science Fiction",
-        "Drama"
+        "Horror",
+        "Drama",
+        "Science Fiction"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/kw6YQudA0TMcNmGUGy5XIw7zbnV.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/dEDLY3KeghKFzks5nTDWdigVikr.jpg",
       "providers": {
         "flatrate": [
-          "Lionsgate+ Amazon Channel",
-          "Howdy Amazon Channel"
+          "Amazon Prime Video",
+          "Peacock Premium",
+          "Amazon Prime Video with Ads",
+          "Peacock Premium Plus",
+          "Magnolia Selects Amazon Channel",
+          "Monsters and Nightmares Amazon Channel",
+          "Warriors and Gangsters Amazon Channel"
         ],
         "rent": [
           "Amazon Video",
           "Apple TV Store",
           "Google Play Movies",
           "YouTube",
-          "Fandango At Home"
+          "Fandango At Home",
+          "FlixFling"
         ]
       },
       "scores": {
-        "rt": 94,
-        "metacritic": 84,
+        "rt": 93,
+        "metacritic": 85,
         "imdb": 7.1
       },
       "why": "Bong Joon Ho wrote and directed this — you rated Parasite 4.5★"
@@ -414,8 +420,8 @@
       "title": "Kubo and the Two Strings",
       "year": 2016,
       "tmdbId": 313297,
-      "tmdbRating": 7.655,
-      "votes": 3986,
+      "tmdbRating": 7.654,
+      "votes": 3987,
       "score": 4.68,
       "rank": 12,
       "director": [
@@ -560,7 +566,7 @@
       "year": 1991,
       "tmdbId": 290,
       "tmdbRating": 7.455,
-      "votes": 1983,
+      "votes": 1984,
       "score": 10.87,
       "rank": 16,
       "director": [
@@ -596,7 +602,7 @@
       "year": 1990,
       "tmdbId": 379,
       "tmdbRating": 7.445,
-      "votes": 1943,
+      "votes": 1944,
       "score": 10.81,
       "rank": 17,
       "director": [
@@ -631,9 +637,9 @@
       "title": "Blood Simple",
       "year": 1985,
       "tmdbId": 11368,
-      "tmdbRating": 7.25,
-      "votes": 1711,
-      "score": 9.29,
+      "tmdbRating": 7.249,
+      "votes": 1712,
+      "score": 9.28,
       "rank": 18,
       "director": [
         "Joel Coen"
@@ -698,57 +704,89 @@
       "why": "Christopher Nolan wrote and directed this — you rated The Odyssey 5★, The Prestige 4.5★, Oppenheimer 4★"
     },
     {
-      "title": "The Host",
-      "year": 2006,
-      "tmdbId": 1255,
-      "tmdbRating": 6.985,
-      "votes": 3292,
-      "score": 5.61,
+      "title": "Snowpiercer",
+      "year": 2013,
+      "tmdbId": 110415,
+      "tmdbRating": 6.9,
+      "votes": 10807,
+      "score": 5.59,
       "rank": 20,
       "director": [
         "Bong Joon Ho"
       ],
-      "runtime": 120,
+      "runtime": 127,
       "genres": [
-        "Horror",
-        "Drama",
-        "Science Fiction"
+        "Action",
+        "Science Fiction",
+        "Drama"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/dEDLY3KeghKFzks5nTDWdigVikr.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/kw6YQudA0TMcNmGUGy5XIw7zbnV.jpg",
       "providers": {
         "flatrate": [
-          "Amazon Prime Video",
-          "Peacock Premium",
-          "Amazon Prime Video with Ads",
-          "Peacock Premium Plus",
-          "Magnolia Selects Amazon Channel",
-          "Monsters and Nightmares Amazon Channel",
-          "Warriors and Gangsters Amazon Channel"
+          "Lionsgate+ Amazon Channel",
+          "Howdy Amazon Channel"
         ],
         "rent": [
           "Amazon Video",
           "Apple TV Store",
           "Google Play Movies",
           "YouTube",
-          "Fandango At Home",
-          "FlixFling"
+          "Fandango At Home"
         ]
       },
       "scores": {
-        "rt": 93,
-        "metacritic": 85,
+        "rt": 94,
+        "metacritic": 84,
         "imdb": 7.1
       },
       "why": "Bong Joon Ho wrote and directed this — you rated Parasite 4.5★"
     },
     {
+      "title": "Kinds of Kindness",
+      "year": 2024,
+      "tmdbId": 1029955,
+      "tmdbRating": 6.48,
+      "votes": 1395,
+      "themes": [
+        "cruel-comedy"
+      ],
+      "score": 3.61,
+      "rank": 21,
+      "director": [
+        "Yorgos Lanthimos"
+      ],
+      "runtime": 164,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/50lPmjIpDs8gKfgK7fPIeKzpllh.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Spectrum On Demand"
+        ]
+      },
+      "scores": {
+        "rt": 71,
+        "metacritic": 64,
+        "imdb": 6.4
+      },
+      "why": "Yorgos Lanthimos directed this — you rated Poor Things 4.5★, Bugonia 4.5★ · themes: comedy that's actually cruel"
+    },
+    {
       "title": "Tangerine",
       "year": 2015,
       "tmdbId": 308084,
-      "tmdbRating": 6.9,
-      "votes": 842,
-      "score": 4.68,
-      "rank": 21,
+      "tmdbRating": 6.85,
+      "votes": 843,
+      "score": 4.6,
+      "rank": 22,
       "director": [
         "Sean Baker"
       ],
@@ -781,51 +819,49 @@
       "why": "Sean Baker wrote and directed this — you rated Anora 5★"
     },
     {
-      "title": "Kinds of Kindness",
-      "year": 2024,
-      "tmdbId": 1029955,
-      "tmdbRating": 6.481,
-      "votes": 1394,
-      "themes": [
-        "cruel-comedy"
-      ],
-      "score": 3.62,
-      "rank": 22,
+      "title": "The Hateful Eight",
+      "year": 2015,
+      "tmdbId": 273248,
+      "tmdbRating": 7.756,
+      "votes": 15780,
+      "score": 4.56,
+      "rank": 23,
       "director": [
-        "Yorgos Lanthimos"
+        "Quentin Tarantino"
       ],
-      "runtime": 164,
+      "runtime": 188,
       "genres": [
-        "Comedy",
-        "Drama"
+        "Drama",
+        "Mystery",
+        "Western"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/50lPmjIpDs8gKfgK7fPIeKzpllh.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/jIywvdPjia2t3eKYbjVTcwBQlG8.jpg",
       "providers": {
-        "flatrate": [],
+        "flatrate": [
+          "MovieSphere+ Amazon Channel"
+        ],
         "rent": [
           "Amazon Video",
           "Apple TV Store",
           "Google Play Movies",
-          "YouTube",
-          "Fandango At Home",
-          "Spectrum On Demand"
+          "YouTube"
         ]
       },
       "scores": {
-        "rt": 71,
-        "metacritic": 64,
-        "imdb": 6.4
+        "rt": 74,
+        "metacritic": 68,
+        "imdb": 7.8
       },
-      "why": "Yorgos Lanthimos directed this — you rated Poor Things 4.5★, Bugonia 4.5★ · themes: comedy that's actually cruel"
+      "why": "Quentin Tarantino wrote and directed this — you rated Once Upon a Time... in Hollywood 4★"
     },
     {
       "title": "Kill Bill: Vol. 2",
       "year": 2004,
       "tmdbId": 393,
       "tmdbRating": 7.873,
-      "votes": 15628,
+      "votes": 15630,
       "score": 4.56,
-      "rank": 23,
+      "rank": 24,
       "director": [
         "Quentin Tarantino"
       ],
@@ -858,47 +894,10 @@
       "why": "Quentin Tarantino wrote and directed this — you rated Once Upon a Time... in Hollywood 4★"
     },
     {
-      "title": "The Hateful Eight",
-      "year": 2015,
-      "tmdbId": 273248,
-      "tmdbRating": 7.756,
-      "votes": 15774,
-      "score": 4.56,
-      "rank": 24,
-      "director": [
-        "Quentin Tarantino"
-      ],
-      "runtime": 188,
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Western"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/jIywvdPjia2t3eKYbjVTcwBQlG8.jpg",
-      "providers": {
-        "flatrate": [
-          "fuboTV",
-          "MovieSphere+ Amazon Channel"
-        ],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube"
-        ]
-      },
-      "scores": {
-        "rt": 74,
-        "metacritic": 68,
-        "imdb": 7.8
-      },
-      "why": "Quentin Tarantino wrote and directed this — you rated Once Upon a Time... in Hollywood 4★"
-    },
-    {
       "title": "Kill Bill: The Whole Bloody Affair",
       "year": 2011,
       "tmdbId": 414419,
-      "tmdbRating": 8.107,
+      "tmdbRating": 8.1,
       "votes": 1468,
       "score": 4.56,
       "rank": 25,
@@ -908,9 +907,7 @@
       "runtime": 254,
       "genres": [
         "Action",
-        "Crime",
-        "Drama",
-        "Thriller"
+        "Crime"
       ],
       "poster": "https://image.tmdb.org/t/p/w342/nSOJfWJCdVFZQwXQA7RXn7FIIiY.jpg",
       "providers": {
@@ -939,7 +936,7 @@
       "year": 1997,
       "tmdbId": 184,
       "tmdbRating": 7.357,
-      "votes": 7207,
+      "votes": 7209,
       "score": 4.56,
       "rank": 26,
       "director": [
@@ -954,7 +951,6 @@
       "poster": "https://image.tmdb.org/t/p/w342/rOUx7qg4KmEh1juEDwqzbDSL1Nr.jpg",
       "providers": {
         "flatrate": [
-          "fuboTV",
           "MovieSphere+ Amazon Channel"
         ],
         "rent": [
@@ -1013,8 +1009,8 @@
       "title": "Red Rocket",
       "year": 2021,
       "tmdbId": 763329,
-      "tmdbRating": 6.8,
-      "votes": 676,
+      "tmdbRating": 6.799,
+      "votes": 677,
       "score": 4.46,
       "rank": 28,
       "director": [
@@ -1050,8 +1046,8 @@
       "title": "Thelma & Louise",
       "year": 1991,
       "tmdbId": 1541,
-      "tmdbRating": 7.592,
-      "votes": 4060,
+      "tmdbRating": 7.593,
+      "votes": 4061,
       "themes": [
         "surveillance"
       ],
@@ -1071,6 +1067,7 @@
           "Amazon Prime Video",
           "Hulu",
           "MGM Plus Roku Premium Channel",
+          "MGM Plus",
           "Amazon Prime Video with Ads"
         ],
         "rent": [
@@ -1094,7 +1091,7 @@
       "year": 2007,
       "tmdbId": 4982,
       "tmdbRating": 7.599,
-      "votes": 6349,
+      "votes": 6350,
       "themes": [
         "surveillance"
       ],
@@ -1174,7 +1171,7 @@
       "year": 2026,
       "tmdbId": 454639,
       "tmdbRating": 7.077,
-      "votes": 2311,
+      "votes": 2314,
       "score": 3.7,
       "rank": 32,
       "director": [
@@ -1205,8 +1202,8 @@
       "title": "Nimic",
       "year": 2020,
       "tmdbId": 621749,
-      "tmdbRating": 6.6,
-      "votes": 326,
+      "tmdbRating": 6.593,
+      "votes": 327,
       "score": 3.63,
       "rank": 33,
       "director": [
@@ -1232,9 +1229,9 @@
       "title": "Death Proof",
       "year": 2007,
       "tmdbId": 1991,
-      "tmdbRating": 6.841,
-      "votes": 5878,
-      "score": 3.57,
+      "tmdbRating": 6.84,
+      "votes": 5880,
+      "score": 3.56,
       "rank": 34,
       "director": [
         "Quentin Tarantino"
@@ -1345,8 +1342,8 @@
       "title": "Alps",
       "year": 2011,
       "tmdbId": 81857,
-      "tmdbRating": 6.21,
-      "votes": 367,
+      "tmdbRating": 6.212,
+      "votes": 368,
       "score": 3.32,
       "rank": 37,
       "director": [
@@ -1380,12 +1377,12 @@
       "title": "The Dog Stars",
       "year": 2026,
       "tmdbId": 1384216,
-      "tmdbRating": 7.225,
-      "votes": 857,
+      "tmdbRating": 7.232,
+      "votes": 878,
       "themes": [
         "grief-horror"
       ],
-      "score": 2.3,
+      "score": 2.31,
       "rank": 38,
       "director": [
         "Ridley Scott"
@@ -1484,7 +1481,7 @@
       "year": 2012,
       "tmdbId": 94329,
       "tmdbRating": 7.412,
-      "votes": 4106,
+      "votes": 4108,
       "score": 3.22,
       "rank": 41,
       "director": [
@@ -1547,9 +1544,9 @@
       "title": "Where the Wild Things Are",
       "year": 2009,
       "tmdbId": 16523,
-      "tmdbRating": 6.502,
-      "votes": 2095,
-      "score": 3.06,
+      "tmdbRating": 6.504,
+      "votes": 2097,
+      "score": 3.07,
       "rank": 43,
       "director": [
         "Spike Jonze"
@@ -1644,13 +1641,47 @@
       "why": "John Krasinski wrote and directed this — you rated A Quiet Place 4★"
     },
     {
+      "title": "Under the Silver Lake",
+      "year": 2018,
+      "tmdbId": 396461,
+      "tmdbRating": 6.323,
+      "votes": 1707,
+      "themes": [
+        "cruel-comedy"
+      ],
+      "score": 1.88,
+      "rank": 46,
+      "director": [
+        "David Robert Mitchell"
+      ],
+      "runtime": 139,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/cJ9aKlEgTLYtpYjNqin06YqJRUl.jpg",
+      "providers": {
+        "flatrate": [
+          "JustWatch TV Plus"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube"
+        ]
+      },
+      "why": "David Robert Mitchell wrote and directed this — you rated The End of Oak Street 4★ · themes: comedy that's actually cruel"
+    },
+    {
       "title": "Blade Runner",
       "year": 1982,
       "tmdbId": 78,
-      "tmdbRating": 7.935,
-      "votes": 15588,
+      "tmdbRating": 7.936,
+      "votes": 15591,
       "score": 2.88,
-      "rank": 46,
+      "rank": 47,
       "director": [
         "Ridley Scott"
       ],
@@ -1677,9 +1708,9 @@
       "year": 2001,
       "tmdbId": 855,
       "tmdbRating": 7.407,
-      "votes": 6699,
+      "votes": 6701,
       "score": 2.88,
-      "rank": 47,
+      "rank": 48,
       "director": [
         "Ridley Scott"
       ],
@@ -1710,45 +1741,11 @@
       "why": "Ridley Scott directed this — you rated Prometheus 4.5★"
     },
     {
-      "title": "Under the Silver Lake",
-      "year": 2018,
-      "tmdbId": 396461,
-      "tmdbRating": 6.3,
-      "votes": 1705,
-      "themes": [
-        "cruel-comedy"
-      ],
-      "score": 1.86,
-      "rank": 48,
-      "director": [
-        "David Robert Mitchell"
-      ],
-      "runtime": 139,
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/cJ9aKlEgTLYtpYjNqin06YqJRUl.jpg",
-      "providers": {
-        "flatrate": [
-          "JustWatch TV Plus"
-        ],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube"
-        ]
-      },
-      "why": "David Robert Mitchell wrote and directed this — you rated The End of Oak Street 4★ · themes: comedy that's actually cruel"
-    },
-    {
       "title": "Bumblebee",
       "year": 2018,
       "tmdbId": 424783,
       "tmdbRating": 6.731,
-      "votes": 6929,
+      "votes": 6932,
       "score": 2.84,
       "rank": 49,
       "director": [
@@ -1819,8 +1816,8 @@
       "title": "Street Fighter",
       "year": 2026,
       "tmdbId": 1153576,
-      "tmdbRating": 6.342,
-      "votes": 212,
+      "tmdbRating": 6.339,
+      "votes": 214,
       "score": 2.73,
       "rank": 51,
       "director": [
@@ -2059,9 +2056,9 @@
       "title": "Merantau",
       "year": 2009,
       "tmdbId": 34626,
-      "tmdbRating": 6.504,
-      "votes": 257,
-      "score": 2,
+      "tmdbRating": 6.483,
+      "votes": 258,
+      "score": 1.99,
       "rank": 59,
       "director": [
         "Gareth Evans"
@@ -2157,8 +2154,8 @@
       "title": "Fantastic Four",
       "year": 2015,
       "tmdbId": 166424,
-      "tmdbRating": 4.433,
-      "votes": 6607,
+      "tmdbRating": 4.434,
+      "votes": 6608,
       "themes": [
         "body-horror"
       ],
@@ -2224,7 +2221,7 @@
       "year": 2025,
       "tmdbId": 1033148,
       "tmdbRating": 6.1,
-      "votes": 681,
+      "votes": 683,
       "themes": [
         "cruel-comedy"
       ],
@@ -2255,12 +2252,12 @@
       "title": "Black Bear",
       "year": 2020,
       "tmdbId": 624788,
-      "tmdbRating": 6.3,
-      "votes": 314,
+      "tmdbRating": 6.337,
+      "votes": 315,
       "themes": [
         "cruel-comedy"
       ],
-      "score": 0.62,
+      "score": 0.63,
       "rank": 65,
       "director": [
         "Lawrence Michael Levine"
@@ -2290,38 +2287,13 @@
       "why": "Christopher Abbott stars in this — you rated Poor Things 4.5★, You Can See Everything 5★ · themes: comedy that's actually cruel"
     },
     {
-      "title": "Inception: The Cobol Job",
-      "year": 2010,
-      "tmdbId": 64956,
-      "tmdbRating": 7.3,
-      "votes": 321,
-      "score": 1.47,
-      "rank": 66,
-      "director": [
-        "Ian Kirby"
-      ],
-      "runtime": 15,
-      "genres": [
-        "Animation",
-        "Action",
-        "Thriller",
-        "Science Fiction"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/sNxqwtyHMNQwKWoFYDqcYTui5Ok.jpg",
-      "providers": {
-        "flatrate": [],
-        "rent": []
-      },
-      "why": "Christopher Nolan has a story credit here — you rated The Odyssey 5★, The Prestige 4.5★, Oppenheimer 4★"
-    },
-    {
       "title": "Man of Steel",
       "year": 2013,
       "tmdbId": 49521,
       "tmdbRating": 6.663,
-      "votes": 16774,
+      "votes": 16781,
       "score": 1.47,
-      "rank": 67,
+      "rank": 66,
       "director": [
         "Zack Snyder"
       ],
@@ -2350,11 +2322,36 @@
       "why": "Christopher Nolan has a story credit here — you rated The Odyssey 5★, The Prestige 4.5★, Oppenheimer 4★"
     },
     {
+      "title": "Inception: The Cobol Job",
+      "year": 2010,
+      "tmdbId": 64956,
+      "tmdbRating": 7.247,
+      "votes": 322,
+      "score": 1.46,
+      "rank": 67,
+      "director": [
+        "Ian Kirby"
+      ],
+      "runtime": 15,
+      "genres": [
+        "Animation",
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/sNxqwtyHMNQwKWoFYDqcYTui5Ok.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": []
+      },
+      "why": "Christopher Nolan has a story credit here — you rated The Odyssey 5★, The Prestige 4.5★, Oppenheimer 4★"
+    },
+    {
       "title": "Minority Report",
       "year": 2002,
       "tmdbId": 180,
-      "tmdbRating": 7.355,
-      "votes": 10081,
+      "tmdbRating": 7.356,
+      "votes": 10086,
       "themes": [
         "grief-horror"
       ],
@@ -2428,7 +2425,7 @@
       "year": 2015,
       "tmdbId": 228066,
       "tmdbRating": 5.957,
-      "votes": 2348,
+      "votes": 2349,
       "themes": [
         "body-horror"
       ],
@@ -2468,8 +2465,8 @@
       "score": 1.16,
       "rank": 71,
       "director": [
-        "Bryan Woods",
-        "Scott Beck"
+        "Scott Beck",
+        "Bryan Woods"
       ],
       "runtime": 93,
       "genres": [
@@ -2497,7 +2494,7 @@
       "year": 2008,
       "tmdbId": 8966,
       "tmdbRating": 6.273,
-      "votes": 14829,
+      "votes": 14834,
       "themes": [
         "metaphysical"
       ],
@@ -2533,8 +2530,8 @@
       "title": "The Twilight Saga: Eclipse",
       "year": 2010,
       "tmdbId": 24021,
-      "tmdbRating": 6.2,
-      "votes": 9469,
+      "tmdbRating": 6.185,
+      "votes": 9472,
       "themes": [
         "metaphysical"
       ],
@@ -2609,8 +2606,8 @@
       "score": 0.74,
       "rank": 75,
       "director": [
-        "Scott Beck",
-        "Bryan Woods"
+        "Bryan Woods",
+        "Scott Beck"
       ],
       "runtime": 92,
       "genres": [
@@ -2638,9 +2635,9 @@
       "title": "13 Hours: The Secret Soldiers of Benghazi",
       "year": 2016,
       "tmdbId": 300671,
-      "tmdbRating": 7.284,
-      "votes": 4127,
-      "score": 0.72,
+      "tmdbRating": 7.3,
+      "votes": 4129,
+      "score": 0.73,
       "rank": 76,
       "director": [
         "Michael Bay"
@@ -2745,9 +2742,9 @@
       "title": "DC League of Super-Pets",
       "year": 2022,
       "tmdbId": 539681,
-      "tmdbRating": 7.136,
-      "votes": 1797,
-      "score": 0.64,
+      "tmdbRating": 7.1,
+      "votes": 1798,
+      "score": 0.63,
       "rank": 79,
       "director": [
         "Jared Stern"
@@ -2808,8 +2805,8 @@
       "title": "Next Gen",
       "year": 2018,
       "tmdbId": 523777,
-      "tmdbRating": 6.995,
-      "votes": 887,
+      "tmdbRating": 6.998,
+      "votes": 888,
       "score": 0.57,
       "rank": 81,
       "director": [
@@ -2879,7 +2876,7 @@
       "year": 2010,
       "tmdbId": 23169,
       "tmdbRating": 7.098,
-      "votes": 3835,
+      "votes": 3836,
       "score": 0.42,
       "rank": 83,
       "director": [
@@ -2947,8 +2944,8 @@
       "title": "ParaNorman",
       "year": 2012,
       "tmdbId": 77174,
-      "tmdbRating": 7.063,
-      "votes": 2912,
+      "tmdbRating": 7.064,
+      "votes": 2915,
       "score": 0.4,
       "rank": 85,
       "director": [
@@ -3011,7 +3008,7 @@
       "year": 1981,
       "tmdbId": 17360,
       "tmdbRating": 6.882,
-      "votes": 1053,
+      "votes": 1054,
       "score": 0.35,
       "rank": 87,
       "director": [
@@ -3042,8 +3039,8 @@
       "title": "Missing Link",
       "year": 2019,
       "tmdbId": 458253,
-      "tmdbRating": 6.895,
-      "votes": 976,
+      "tmdbRating": 6.888,
+      "votes": 978,
       "score": 0.35,
       "rank": 88,
       "director": [
@@ -3161,7 +3158,7 @@
       "year": 2016,
       "tmdbId": 333385,
       "tmdbRating": 6.442,
-      "votes": 1513,
+      "votes": 1514,
       "score": 0.29,
       "rank": 92,
       "director": [
@@ -3195,13 +3192,13 @@
       "score": 0.27,
       "rank": 93,
       "director": [
+        "Simon Barrett",
+        "Adam Wingard",
         "Eduardo Sánchez",
+        "Gregg Hale",
         "Timo Tjahjanto",
         "Gareth Evans",
-        "Gregg Hale",
-        "Simon Barrett",
-        "Jason Eisener",
-        "Adam Wingard"
+        "Jason Eisener"
       ],
       "runtime": 96,
       "genres": [
@@ -3224,13 +3221,47 @@
       "why": "Gareth Evans directed a segment of this — you rated Apostle 4★"
     },
     {
+      "title": "Hello I Must Be Going",
+      "year": 2012,
+      "tmdbId": 84281,
+      "tmdbRating": 5.9,
+      "votes": 152,
+      "score": 0.24,
+      "rank": 94,
+      "director": [
+        "Todd Louiso"
+      ],
+      "runtime": 95,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Romance"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/p1LzTkVUB9nMPumPan2WchqtKKE.jpg",
+      "providers": {
+        "flatrate": [
+          "Amazon Prime Video",
+          "OVID",
+          "Amazon Prime Video with Ads"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Christopher Abbott stars in this — you rated Poor Things 4.5★, You Can See Everything 5★"
+    },
+    {
       "title": "Sweet Virginia",
       "year": 2017,
       "tmdbId": 413992,
       "tmdbRating": 5.9,
       "votes": 348,
       "score": 0.22,
-      "rank": 94,
+      "rank": 95,
       "director": [
         "Jamie M. Dagg"
       ],
@@ -3265,7 +3296,7 @@
       "tmdbRating": 5.68,
       "votes": 266,
       "score": 0.22,
-      "rank": 95,
+      "rank": 96,
       "director": [
         "Nicolas Pesce"
       ],
@@ -3291,10 +3322,10 @@
       "title": "Bright",
       "year": 2017,
       "tmdbId": 400106,
-      "tmdbRating": 6.164,
-      "votes": 6145,
+      "tmdbRating": 6.163,
+      "votes": 6146,
       "score": 0.17,
-      "rank": 96,
+      "rank": 97,
       "director": [
         "David Ayer"
       ],
@@ -3318,10 +3349,10 @@
       "title": "Shadow in the Cloud",
       "year": 2021,
       "tmdbId": 675327,
-      "tmdbRating": 5.818,
-      "votes": 1116,
+      "tmdbRating": 5.82,
+      "votes": 1117,
       "score": 0.15,
-      "rank": 97,
+      "rank": 98,
       "director": [
         "Roseanne Liang"
       ],
@@ -3346,36 +3377,6 @@
         ]
       },
       "why": "Max Landis co-wrote this — you rated Chronicle 4★"
-    },
-    {
-      "title": "The World to Come",
-      "year": 2021,
-      "tmdbId": 506281,
-      "tmdbRating": 6.975,
-      "votes": 427,
-      "score": 0.09,
-      "rank": 98,
-      "director": [
-        "Mona Fastvold"
-      ],
-      "runtime": 105,
-      "genres": [
-        "Romance",
-        "Drama",
-        "Western"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/6GJQXJ96FUbXtB01VXAdp854qOt.jpg",
-      "providers": {
-        "flatrate": [],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
-          "Fandango At Home"
-        ]
-      },
-      "why": "Christopher Abbott appears in this — you rated Poor Things 4.5★, You Can See Everything 5★"
     }
   ],
   "themePicks": [
@@ -3383,8 +3384,8 @@
       "title": "Rear Window",
       "year": 1954,
       "tmdbId": 567,
-      "tmdbRating": 8.332,
-      "votes": 7468,
+      "tmdbRating": 8.333,
+      "votes": 7470,
       "theme": "surveillance",
       "why": "surveillance — the thread through 4 of your loved films",
       "director": [
@@ -3435,8 +3436,8 @@
       "title": "The Lives of Others",
       "year": 2006,
       "tmdbId": 582,
-      "tmdbRating": 8.041,
-      "votes": 4340,
+      "tmdbRating": 8.04,
+      "votes": 4344,
       "theme": "surveillance",
       "why": "surveillance — the thread through 4 of your loved films",
       "director": [
@@ -3464,8 +3465,8 @@
       "title": "Perfect Blue",
       "year": 1998,
       "tmdbId": 10494,
-      "tmdbRating": 8.297,
-      "votes": 3429,
+      "tmdbRating": 8.298,
+      "votes": 3430,
       "theme": "unravelling",
       "why": "unravelling — the thread through 4 of your loved films",
       "director": [
@@ -3495,8 +3496,8 @@
       "title": "Modern Times",
       "year": 1936,
       "tmdbId": 3082,
-      "tmdbRating": 8.285,
-      "votes": 4249,
+      "tmdbRating": 8.3,
+      "votes": 4251,
       "theme": "unravelling",
       "why": "unravelling — the thread through 4 of your loved films",
       "director": [
@@ -3565,8 +3566,8 @@
       "title": "Life Is Beautiful",
       "year": 1997,
       "tmdbId": 637,
-      "tmdbRating": 8.436,
-      "votes": 14370,
+      "tmdbRating": 8.4,
+      "votes": 14373,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 3 of your loved films",
       "director": [
@@ -3600,8 +3601,8 @@
       "title": "I Swear",
       "year": 2025,
       "tmdbId": 1317149,
-      "tmdbRating": 8.29,
-      "votes": 656,
+      "tmdbRating": 8.3,
+      "votes": 661,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 3 of your loved films",
       "director": [
@@ -3632,8 +3633,8 @@
       "title": "The Great Dictator",
       "year": 1940,
       "tmdbId": 914,
-      "tmdbRating": 8.3,
-      "votes": 3860,
+      "tmdbRating": 8.282,
+      "votes": 3862,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 3 of your loved films",
       "director": [
@@ -3790,8 +3791,8 @@
       "title": "Incendies",
       "year": 2010,
       "tmdbId": 46738,
-      "tmdbRating": 8.104,
-      "votes": 3549,
+      "tmdbRating": 8.1,
+      "votes": 3551,
       "theme": "doubling",
       "why": "doubling — the thread through 2 of your loved films",
       "director": [

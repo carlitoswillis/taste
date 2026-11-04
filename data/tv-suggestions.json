@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-03T17:03:16.591Z",
+  "generated": "2026-11-04T17:14:07.200Z",
   "basedOn": 36,
   "head": 10,
   "items": [
@@ -71,8 +71,8 @@
       "title": "The Curse",
       "year": 2023,
       "tmdbId": 114655,
-      "tmdbRating": 6.4,
-      "votes": 184,
+      "tmdbRating": 6.411,
+      "votes": 185,
       "score": 4.2,
       "themes": [
         "cruel-comedy"
@@ -150,7 +150,7 @@
       "title": "Nathan for You",
       "year": 2013,
       "tmdbId": 58957,
-      "tmdbRating": 8.24,
+      "tmdbRating": 8.2,
       "votes": 341,
       "score": 4.2,
       "rank": 5,
@@ -190,8 +190,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.756,
-      "votes": 1070,
+      "tmdbRating": 7.755,
+      "votes": 1071,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -227,8 +227,8 @@
       "title": "Jackass",
       "year": 2000,
       "tmdbId": 1795,
-      "tmdbRating": 6.7,
-      "votes": 318,
+      "tmdbRating": 6.741,
+      "votes": 319,
       "score": 4,
       "rank": 7,
       "creators": [
@@ -339,8 +339,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.6,
-      "votes": 5664,
+      "tmdbRating": 8.583,
+      "votes": 5669,
       "score": 2.5600000000000005,
       "rank": 10,
       "creators": [
@@ -485,8 +485,8 @@
       "title": "DAVE",
       "year": 2020,
       "tmdbId": 97084,
-      "tmdbRating": 7.313,
-      "votes": 198,
+      "tmdbRating": 7.317,
+      "votes": 199,
       "score": 3.0400000000000005,
       "rank": 14,
       "creators": [
@@ -519,8 +519,8 @@
       "title": "Butterfly",
       "year": 2025,
       "tmdbId": 227114,
-      "tmdbRating": 7.2,
-      "votes": 150,
+      "tmdbRating": 7.195,
+      "votes": 151,
       "score": 3.0400000000000005,
       "rank": 15,
       "creators": [
@@ -555,7 +555,7 @@
       "year": 2020,
       "tmdbId": 85021,
       "tmdbRating": 7.796,
-      "votes": 728,
+      "votes": 729,
       "score": 2.7,
       "rank": 16,
       "creators": [
