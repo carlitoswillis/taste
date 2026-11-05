@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-04T17:14:07.200Z",
+  "generated": "2026-11-05T17:24:10.906Z",
   "basedOn": 36,
   "head": 10,
   "items": [
@@ -7,8 +7,8 @@
       "title": "Fanny and Alexander",
       "year": 1984,
       "tmdbId": 33153,
-      "tmdbRating": 8.3,
-      "votes": 153,
+      "tmdbRating": 8.279,
+      "votes": 154,
       "score": 18.4,
       "rank": 1,
       "creators": [
@@ -265,8 +265,8 @@
       "title": "ER",
       "year": 1994,
       "tmdbId": 4588,
-      "tmdbRating": 7.813,
-      "votes": 978,
+      "tmdbRating": 7.811,
+      "votes": 980,
       "score": 3.0400000000000005,
       "rank": 8,
       "creators": [
@@ -299,8 +299,8 @@
       "title": "CSI: Crime Scene Investigation",
       "year": 2000,
       "tmdbId": 1431,
-      "tmdbRating": 7.601,
-      "votes": 1445,
+      "tmdbRating": 7.6,
+      "votes": 1446,
       "score": 3.0400000000000005,
       "rank": 9,
       "creators": [
@@ -339,8 +339,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.583,
-      "votes": 5669,
+      "tmdbRating": 8.584,
+      "votes": 5674,
       "score": 2.5600000000000005,
       "rank": 10,
       "creators": [
@@ -734,8 +734,8 @@
       "title": "Tom Clancy's Jack Ryan",
       "year": 2018,
       "tmdbId": 73375,
-      "tmdbRating": 7.67,
-      "votes": 1928,
+      "tmdbRating": 7.669,
+      "votes": 1931,
       "score": 1.92,
       "rank": 21,
       "creators": [
