@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-05T17:24:26.239Z",
+  "generated": "2026-11-06T16:46:54.661Z",
   "basedOn": {
     "lovedFilms": 36,
     "ratedBooks": 0,
@@ -560,8 +560,8 @@
       "cover": "https://covers.openlibrary.org/b/id/12376585-M.jpg",
       "editionCount": 98,
       "olRating": {
-        "average": 4.1870747,
-        "count": 294
+        "average": 4.1898303,
+        "count": 295
       },
       "weight": 0.8,
       "rankScore": 5.79,
@@ -590,15 +590,15 @@
       "author": "Scott Cawthon",
       "olWork": "OL17793648W",
       "year": 2001,
-      "pages": 396,
+      "pages": 400,
       "cover": "https://covers.openlibrary.org/b/id/8075533-M.jpg",
       "editionCount": 22,
       "olRating": {
-        "average": 4.5866666,
-        "count": 75
+        "average": 4.5822783,
+        "count": 79
       },
       "weight": 0.37,
-      "rankScore": 5.33,
+      "rankScore": 5.32,
       "why": "horror on the page — you over-index on it in film",
       "rank": 35
     },
