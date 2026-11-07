@@ -35,7 +35,7 @@ const enrichment = await read("enrichment", {});
 const books = await read("books", []);
 const existing = await read("adaptations", { edges: [], rejected: [], flaggedOnly: [], adjacentAuthors: [] });
 
-const USER_AGENT = "taste/0.1 (adamnodded@gmail.com)";
+const USER_AGENT = "taste/0.1 (https://github.com/carlitoswillis/taste)";
 const qid = (uri) => uri?.split("/").pop() ?? null;
 const round = (n) => Math.round(n * 100) / 100;
 

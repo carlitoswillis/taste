@@ -50,7 +50,7 @@ const enrichment = await read("enrichment", {});
 const themesData = await read("themes", null);
 const themeMap = await read("theme-map", null);
 
-const USER_AGENT = "taste/0.1 (adamnodded@gmail.com)";
+const USER_AGENT = "taste/0.1 (https://github.com/carlitoswillis/taste)";
 const pause = () => new Promise((r) => setTimeout(r, 500 + Math.random() * 600));
 const FIELDS = "key,title,author_key,author_name,first_publish_year,cover_i,edition_count,number_of_pages_median,subject,ratings_average,ratings_count";
 
