@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-06T16:46:23.446Z",
+  "generated": "2026-11-07T15:41:01.216Z",
   "basedOn": 36,
   "head": 12,
   "items": [
@@ -125,7 +125,7 @@
       "year": 2002,
       "tmdbId": 320,
       "tmdbRating": 6.958,
-      "votes": 5635,
+      "votes": 5637,
       "score": 12.07,
       "rank": 4,
       "director": [
@@ -163,7 +163,7 @@
       "year": 2010,
       "tmdbId": 44264,
       "tmdbRating": 7.304,
-      "votes": 6006,
+      "votes": 6007,
       "score": 11.11,
       "rank": 5,
       "director": [
@@ -314,9 +314,9 @@
       "title": "The Florida Project",
       "year": 2017,
       "tmdbId": 394117,
-      "tmdbRating": 7.42,
+      "tmdbRating": 7.4,
       "votes": 3229,
-      "score": 6.34,
+      "score": 6.3,
       "rank": 9,
       "director": [
         "Sean Baker"
@@ -414,8 +414,8 @@
       "title": "Kubo and the Two Strings",
       "year": 2016,
       "tmdbId": 313297,
-      "tmdbRating": 7.655,
-      "votes": 3991,
+      "tmdbRating": 7.656,
+      "votes": 3992,
       "score": 4.68,
       "rank": 12,
       "director": [
@@ -595,8 +595,8 @@
       "title": "Miller's Crossing",
       "year": 1990,
       "tmdbId": 379,
-      "tmdbRating": 7.446,
-      "votes": 1946,
+      "tmdbRating": 7.445,
+      "votes": 1947,
       "score": 10.81,
       "rank": 17,
       "director": [
@@ -819,49 +819,13 @@
       "why": "Sean Baker wrote and directed this — you rated Anora 5★"
     },
     {
-      "title": "The Hateful Eight",
-      "year": 2015,
-      "tmdbId": 273248,
-      "tmdbRating": 7.756,
-      "votes": 15790,
-      "score": 4.56,
-      "rank": 23,
-      "director": [
-        "Quentin Tarantino"
-      ],
-      "runtime": 188,
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Western"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/jIywvdPjia2t3eKYbjVTcwBQlG8.jpg",
-      "providers": {
-        "flatrate": [
-          "MovieSphere+ Amazon Channel"
-        ],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube"
-        ]
-      },
-      "scores": {
-        "rt": 74,
-        "metacritic": 68,
-        "imdb": 7.8
-      },
-      "why": "Quentin Tarantino wrote and directed this — you rated Once Upon a Time... in Hollywood 4★"
-    },
-    {
       "title": "Kill Bill: Vol. 2",
       "year": 2004,
       "tmdbId": 393,
       "tmdbRating": 7.873,
-      "votes": 15638,
+      "votes": 15640,
       "score": 4.56,
-      "rank": 24,
+      "rank": 23,
       "director": [
         "Quentin Tarantino"
       ],
@@ -893,11 +857,47 @@
       "why": "Quentin Tarantino wrote and directed this — you rated Once Upon a Time... in Hollywood 4★"
     },
     {
+      "title": "The Hateful Eight",
+      "year": 2015,
+      "tmdbId": 273248,
+      "tmdbRating": 7.756,
+      "votes": 15792,
+      "score": 4.56,
+      "rank": 24,
+      "director": [
+        "Quentin Tarantino"
+      ],
+      "runtime": 188,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Western"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/jIywvdPjia2t3eKYbjVTcwBQlG8.jpg",
+      "providers": {
+        "flatrate": [
+          "MovieSphere+ Amazon Channel"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube"
+        ]
+      },
+      "scores": {
+        "rt": 74,
+        "metacritic": 68,
+        "imdb": 7.8
+      },
+      "why": "Quentin Tarantino wrote and directed this — you rated Once Upon a Time... in Hollywood 4★"
+    },
+    {
       "title": "Kill Bill: The Whole Bloody Affair",
       "year": 2011,
       "tmdbId": 414419,
-      "tmdbRating": 8.109,
-      "votes": 1471,
+      "tmdbRating": 8.111,
+      "votes": 1472,
       "score": 4.56,
       "rank": 25,
       "director": [
@@ -1090,7 +1090,7 @@
       "year": 2007,
       "tmdbId": 4982,
       "tmdbRating": 7.599,
-      "votes": 6358,
+      "votes": 6359,
       "themes": [
         "surveillance"
       ],
@@ -1169,8 +1169,8 @@
       "title": "Masters of the Universe",
       "year": 2026,
       "tmdbId": 454639,
-      "tmdbRating": 7.076,
-      "votes": 2318,
+      "tmdbRating": 7.077,
+      "votes": 2323,
       "score": 3.7,
       "rank": 32,
       "director": [
@@ -1337,13 +1337,49 @@
       "why": "Ethan Coen wrote and directed this — you rated No Country for Old Men 4.5★, Burn After Reading 4★"
     },
     {
+      "title": "The Dog Stars",
+      "year": 2026,
+      "tmdbId": 1384216,
+      "tmdbRating": 7.217,
+      "votes": 904,
+      "themes": [
+        "grief-horror"
+      ],
+      "score": 2.31,
+      "rank": 37,
+      "director": [
+        "Ridley Scott"
+      ],
+      "runtime": 119,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/5O616X9vmRzQdB68PHzBewPittd.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Fandango At Home"
+        ]
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": 49,
+        "imdb": 6.5
+      },
+      "why": "Ridley Scott directed this — you rated Prometheus 4.5★ · themes: grief wearing a mask"
+    },
+    {
       "title": "Alps",
       "year": 2011,
       "tmdbId": 81857,
-      "tmdbRating": 6.212,
+      "tmdbRating": 6.2,
       "votes": 368,
-      "score": 3.32,
-      "rank": 37,
+      "score": 3.31,
+      "rank": 38,
       "director": [
         "Yorgos Lanthimos"
       ],
@@ -1370,42 +1406,6 @@
         "imdb": 6.3
       },
       "why": "Yorgos Lanthimos directed this — you rated Poor Things 4.5★, Bugonia 4.5★"
-    },
-    {
-      "title": "The Dog Stars",
-      "year": 2026,
-      "tmdbId": 1384216,
-      "tmdbRating": 7.221,
-      "votes": 893,
-      "themes": [
-        "grief-horror"
-      ],
-      "score": 2.31,
-      "rank": 38,
-      "director": [
-        "Ridley Scott"
-      ],
-      "runtime": 119,
-      "genres": [
-        "Action",
-        "Thriller",
-        "Science Fiction"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/5O616X9vmRzQdB68PHzBewPittd.jpg",
-      "providers": {
-        "flatrate": [],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Fandango At Home"
-        ]
-      },
-      "scores": {
-        "rt": 41,
-        "metacritic": 49,
-        "imdb": 6.5
-      },
-      "why": "Ridley Scott directed this — you rated Prometheus 4.5★ · themes: grief wearing a mask"
     },
     {
       "title": "I'm Here",
@@ -1512,7 +1512,7 @@
       "year": 1981,
       "tmdbId": 8810,
       "tmdbRating": 7.396,
-      "votes": 4394,
+      "votes": 4395,
       "score": 3.21,
       "rank": 42,
       "director": [
@@ -1606,9 +1606,9 @@
       "title": "IF",
       "year": 2024,
       "tmdbId": 639720,
-      "tmdbRating": 6.927,
+      "tmdbRating": 6.9,
       "votes": 1727,
-      "score": 2.95,
+      "score": 2.92,
       "rank": 45,
       "director": [
         "John Krasinski"
@@ -1677,7 +1677,7 @@
       "year": 1982,
       "tmdbId": 78,
       "tmdbRating": 7.936,
-      "votes": 15599,
+      "votes": 15602,
       "score": 2.88,
       "rank": 47,
       "director": [
@@ -1814,9 +1814,9 @@
       "title": "Street Fighter",
       "year": 2026,
       "tmdbId": 1153576,
-      "tmdbRating": 6.326,
-      "votes": 219,
-      "score": 2.72,
+      "tmdbRating": 6.3,
+      "votes": 220,
+      "score": 2.71,
       "rank": 51,
       "director": [
         "Kitao Sakurai"
@@ -1962,7 +1962,7 @@
       "year": 1979,
       "tmdbId": 9659,
       "tmdbRating": 6.685,
-      "votes": 5187,
+      "votes": 5188,
       "score": 2.32,
       "rank": 56,
       "director": [
@@ -2088,8 +2088,8 @@
       "title": "Havoc",
       "year": 2025,
       "tmdbId": 668489,
-      "tmdbRating": 6.39,
-      "votes": 1387,
+      "tmdbRating": 6.389,
+      "votes": 1388,
       "score": 1.95,
       "rank": 60,
       "director": [
@@ -2218,12 +2218,12 @@
       "title": "Die My Love",
       "year": 2025,
       "tmdbId": 1033148,
-      "tmdbRating": 6.1,
+      "tmdbRating": 6.058,
       "votes": 685,
       "themes": [
         "cruel-comedy"
       ],
-      "score": 0.65,
+      "score": 0.64,
       "rank": 64,
       "director": [
         "Lynne Ramsay"
@@ -2289,7 +2289,7 @@
       "year": 2013,
       "tmdbId": 49521,
       "tmdbRating": 6.663,
-      "votes": 16787,
+      "votes": 16788,
       "score": 1.47,
       "rank": 66,
       "director": [
@@ -2349,7 +2349,7 @@
       "year": 2002,
       "tmdbId": 180,
       "tmdbRating": 7.356,
-      "votes": 10094,
+      "votes": 10095,
       "themes": [
         "grief-horror"
       ],
@@ -2459,7 +2459,7 @@
       "year": 2008,
       "tmdbId": 8966,
       "tmdbRating": 6.272,
-      "votes": 14838,
+      "votes": 14839,
       "themes": [
         "metaphysical"
       ],
@@ -2496,12 +2496,12 @@
       "year": 2019,
       "tmdbId": 517116,
       "tmdbRating": 6.66,
-      "votes": 1452,
+      "votes": 1454,
       "score": 1.14,
       "rank": 72,
       "director": [
-        "Scott Beck",
-        "Bryan Woods"
+        "Bryan Woods",
+        "Scott Beck"
       ],
       "runtime": 93,
       "genres": [
@@ -2633,9 +2633,9 @@
       "title": "13 Hours: The Secret Soldiers of Benghazi",
       "year": 2016,
       "tmdbId": 300671,
-      "tmdbRating": 7.3,
+      "tmdbRating": 7.283,
       "votes": 4129,
-      "score": 0.73,
+      "score": 0.72,
       "rank": 76,
       "director": [
         "Michael Bay"
@@ -2740,9 +2740,9 @@
       "title": "DC League of Super-Pets",
       "year": 2022,
       "tmdbId": 539681,
-      "tmdbRating": 7.133,
+      "tmdbRating": 7.1,
       "votes": 1800,
-      "score": 0.64,
+      "score": 0.63,
       "rank": 79,
       "director": [
         "Jared Stern"
@@ -2835,7 +2835,7 @@
       "year": 2021,
       "tmdbId": 379686,
       "tmdbRating": 6.611,
-      "votes": 4324,
+      "votes": 4325,
       "score": 0.46,
       "rank": 82,
       "director": [
@@ -2976,8 +2976,8 @@
       "title": "Orion and the Dark",
       "year": 2024,
       "tmdbId": 1139829,
-      "tmdbRating": 6.486,
-      "votes": 700,
+      "tmdbRating": 6.485,
+      "votes": 701,
       "score": 0.37,
       "rank": 86,
       "director": [
@@ -3190,13 +3190,13 @@
       "score": 0.27,
       "rank": 93,
       "director": [
-        "Adam Wingard",
-        "Gregg Hale",
         "Eduardo Sánchez",
-        "Simon Barrett",
         "Timo Tjahjanto",
+        "Gareth Evans",
+        "Gregg Hale",
+        "Simon Barrett",
         "Jason Eisener",
-        "Gareth Evans"
+        "Adam Wingard"
       ],
       "runtime": 96,
       "genres": [
@@ -3321,7 +3321,7 @@
       "year": 2017,
       "tmdbId": 400106,
       "tmdbRating": 6.163,
-      "votes": 6148,
+      "votes": 6149,
       "score": 0.17,
       "rank": 97,
       "director": [
@@ -3383,7 +3383,7 @@
       "year": 1954,
       "tmdbId": 567,
       "tmdbRating": 8.333,
-      "votes": 7476,
+      "votes": 7480,
       "theme": "surveillance",
       "why": "surveillance — the thread through 4 of your loved films",
       "director": [
@@ -3413,8 +3413,8 @@
       "title": "Earthlings",
       "year": 2005,
       "tmdbId": 30238,
-      "tmdbRating": 8.116,
-      "votes": 350,
+      "tmdbRating": 8.121,
+      "votes": 351,
       "theme": "surveillance",
       "why": "surveillance — the thread through 4 of your loved films",
       "director": [
@@ -3463,8 +3463,8 @@
       "title": "Perfect Blue",
       "year": 1998,
       "tmdbId": 10494,
-      "tmdbRating": 8.297,
-      "votes": 3431,
+      "tmdbRating": 8.3,
+      "votes": 3433,
       "theme": "unravelling",
       "why": "unravelling — the thread through 4 of your loved films",
       "director": [
@@ -3528,8 +3528,8 @@
       "title": "Sunset Boulevard",
       "year": 1950,
       "tmdbId": 599,
-      "tmdbRating": 8.3,
-      "votes": 3087,
+      "tmdbRating": 8.274,
+      "votes": 3088,
       "theme": "unravelling",
       "why": "unravelling — the thread through 4 of your loved films",
       "director": [
@@ -3565,7 +3565,7 @@
       "year": 1997,
       "tmdbId": 637,
       "tmdbRating": 8.436,
-      "votes": 14380,
+      "votes": 14381,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 3 of your loved films",
       "director": [
@@ -3600,7 +3600,7 @@
       "year": 2025,
       "tmdbId": 1317149,
       "tmdbRating": 8.3,
-      "votes": 664,
+      "votes": 665,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 3 of your loved films",
       "director": [
@@ -3632,7 +3632,7 @@
       "year": 1940,
       "tmdbId": 914,
       "tmdbRating": 8.283,
-      "votes": 3866,
+      "votes": 3867,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 3 of your loved films",
       "director": [
@@ -3729,8 +3729,8 @@
       "title": "Dear Zachary: A Letter to a Son About His Father",
       "year": 2008,
       "tmdbId": 15584,
-      "tmdbRating": 8.1,
-      "votes": 617,
+      "tmdbRating": 8.071,
+      "votes": 618,
       "theme": "grief-horror",
       "why": "grief-horror — the thread through 4 of your loved films",
       "director": [
@@ -3761,8 +3761,8 @@
       "title": "The Quintessential Quintuplets Movie",
       "year": 2022,
       "tmdbId": 820067,
-      "tmdbRating": 8.285,
-      "votes": 462,
+      "tmdbRating": 8.28,
+      "votes": 463,
       "theme": "doubling",
       "why": "doubling — the thread through 2 of your loved films",
       "director": [
@@ -3789,8 +3789,8 @@
       "title": "Incendies",
       "year": 2010,
       "tmdbId": 46738,
-      "tmdbRating": 8.1,
-      "votes": 3553,
+      "tmdbRating": 8.108,
+      "votes": 3559,
       "theme": "doubling",
       "why": "doubling — the thread through 2 of your loved films",
       "director": [
