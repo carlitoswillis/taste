@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-07T15:41:18.148Z",
+  "generated": "2026-11-08T15:59:34.883Z",
   "basedOn": 36,
   "head": 10,
   "items": [
@@ -150,7 +150,7 @@
       "title": "Nathan for You",
       "year": 2013,
       "tmdbId": 58957,
-      "tmdbRating": 8.241,
+      "tmdbRating": 8.2,
       "votes": 342,
       "score": 4.2,
       "rank": 5,
@@ -339,8 +339,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.6,
-      "votes": 5680,
+      "tmdbRating": 8.584,
+      "votes": 5681,
       "score": 2.5600000000000005,
       "rank": 10,
       "creators": [
