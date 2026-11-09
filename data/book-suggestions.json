@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-08T15:59:51.292Z",
+  "generated": "2026-11-09T19:48:52.147Z",
   "basedOn": {
     "lovedFilms": 36,
     "ratedBooks": 0,
@@ -662,8 +662,8 @@
       "cover": "https://covers.openlibrary.org/b/id/10210168-M.jpg",
       "editionCount": 66,
       "olRating": {
-        "average": 4.497041,
-        "count": 169
+        "average": 4.502924,
+        "count": 171
       },
       "weight": 0.37,
       "rankScore": 5.24,

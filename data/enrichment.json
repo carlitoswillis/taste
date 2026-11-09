@@ -169,7 +169,7 @@
         "name": "dramatic"
       }
     ],
-    "providersAt": 1793548745397,
+    "providersAt": 1794253522145,
     "overview": "A sadistic serial rapist and murderer of young women terrorizes a small province in 1980s South Korea. To prevent further crimes, three increasingly desperate detectives with conflicting methods race against time to unravel the violent mind of the killer in a futile effort to solve the case.",
     "tagline": "The worst of them will stay with you... forever.",
     "backdrop": "/6Kn6qW3an3DkPl3MahWemTzrjCt.jpg"
@@ -524,7 +524,7 @@
         "name": "melodramatic"
       }
     ],
-    "providersAt": 1793548744827,
+    "providersAt": 1794253521675,
     "overview": "1930s Korea, in the period of Japanese occupation, a new girl, Sook-hee, is hired as a handmaiden to a Japanese heiress, Hideko, who lives a secluded life on a large countryside estate with her domineering Uncle Kouzuki. But the maid has a secret. She is a pickpocket recruited by a swindler posing as a Japanese Count to help him seduce the Lady to steal her fortune.",
     "tagline": "You're the one being tricked.",
     "backdrop": "/2b3RNXF7ca9bgX8FrjRBYfLnNQC.jpg"
@@ -694,7 +694,7 @@
         "name": "matter of fact"
       }
     ],
-    "providersAt": 1793548740176,
+    "providersAt": 1794253517176,
     "overview": "Based on the true story of would-be Brooklyn bank robbers John Wojtowicz and Salvatore Naturile. Sonny and Sal attempt a bank heist which quickly turns sour and escalates into a hostage situation and stand-off with the police. As Sonny's motives for the robbery are slowly revealed and things become more complicated, the heist turns into a media circus.",
     "tagline": "Anything can happen during the dog days of summer. On August 22nd, 1972, everything did.",
     "backdrop": "/ahqTRP5mPOm3fMO8WjXbHlaF4Mo.jpg"
@@ -1019,7 +1019,7 @@
         "name": "seven: los siete pecados capitales"
       }
     ],
-    "providersAt": 1793548761053,
+    "providersAt": 1794253536507,
     "overview": "Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the \"seven deadly sins\" in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Somerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.",
     "tagline": "Gluttony. Greed. Sloth. Envy. Wrath. Pride. Lust.",
     "backdrop": "/i5H7zusQGsysGQ8i6P361Vnr0n2.jpg"
@@ -2214,7 +2214,7 @@
         "name": "ambiguous"
       }
     ],
-    "providersAt": 1793548745225,
+    "providersAt": 1794253521989,
     "overview": "A stranger arrives in a little village and soon after a mysterious sickness starts spreading. A policeman is drawn into the incident and is forced to solve the mystery in order to save his daughter.",
     "tagline": "Never be tempted.",
     "backdrop": "/9qxBNfI1QFbiZS62fsgaUd563t2.jpg"
@@ -9050,7 +9050,7 @@
         "name": "odyssey"
       }
     ],
-    "providersAt": 1793548739660,
+    "providersAt": 1794253516699,
     "overview": "Following the sudden death of his mother, a mild-mannered but anxiety-ridden man confronts his darkest fears as he embarks on an epic odyssey back home.",
     "tagline": "From his darkest fears comes the greatest adventure.",
     "backdrop": "/atvEgnjjXN5QvFDThXVz4nyU9yi.jpg"
@@ -9206,7 +9206,7 @@
         "name": "gloomy"
       }
     ],
-    "providersAt": 1793548756509,
+    "providersAt": 1794253532239,
     "overview": "In May of 2020, a standoff between a small-town sheriff and mayor sparks a powder keg as neighbor is pitted against neighbor in Eddington, New Mexico.",
     "tagline": "Hindsight is 2020.",
     "backdrop": "/znr3SYHph3FtTLpcFTeuMAAJ5mP.jpg"
@@ -9284,7 +9284,8 @@
         "Google Play Movies",
         "YouTube",
         "Fandango At Home",
-        "FlixFling"
+        "FlixFling",
+        "Plex"
       ],
       "buy": [
         "Amazon Video",
@@ -9372,7 +9373,7 @@
         "name": "provocative"
       }
     ],
-    "providersAt": 1793548745913,
+    "providersAt": 1794253522611,
     "overview": "During World War I, English officer Thomas Edward 'T.E.' Lawrence sets out to unite and lead the diverse, often warring, Arab tribes to fight the Turks.",
     "tagline": "Nothing is written.",
     "backdrop": "/eULrEMwgXnWmzdowUfegaw2YYgD.jpg"
@@ -9436,6 +9437,8 @@
     "poster": "https://image.tmdb.org/t/p/w342/eamOBurHBu0MIxohTIVcfxmZ6Z7.jpg",
     "providers": {
       "flatrate": [
+        "Amazon Prime Video",
+        "Amazon Prime Video with Ads",
         "Howdy Amazon Channel"
       ],
       "rent": [
@@ -9559,7 +9562,7 @@
         "name": "trying to get home"
       }
     ],
-    "providersAt": 1793548745000,
+    "providersAt": 1794253521831,
     "overview": "Desperate to escape his mind-numbing routine, uptown Manhattan office worker Paul Hackett ventures downtown for a hookup with a mystery woman.",
     "tagline": "When it's after midnight in New York City, you don't have to look for love, laughter and trouble. They'll all find you!",
     "backdrop": "/tV2KZZR5JaqTSXiNKowGqQMQtex.jpg"
@@ -9991,7 +9994,7 @@
         "name": "distressing"
       }
     ],
-    "providersAt": 1793548745744,
+    "providersAt": 1794253522457,
     "overview": "At the height of the Vietnam war, Captain Benjamin Willard is sent on a dangerous mission that, officially, \"does not exist, nor will it ever exist.\" His goal is to locate - and eliminate - a mysterious Green Beret Colonel named Walter Kurtz, who has been leading his personal army on illegal guerrilla missions into enemy territory.",
     "tagline": "This is the end...",
     "backdrop": "/49fzLedFVKgGgFChLMuulDJBY1c.jpg"
@@ -17990,7 +17993,6 @@
     "providers": {
       "flatrate": [
         "Amazon Prime Video",
-        "Hulu",
         "fuboTV",
         "Amazon Prime Video with Ads",
         "Shout! Factory Amazon Channel"
@@ -18108,7 +18110,7 @@
         "name": "parallel universe"
       }
     ],
-    "providersAt": 1793548743626,
+    "providersAt": 1794253520574,
     "overview": "After narrowly escaping a bizarre accident, a troubled teenager is plagued by visions of a large bunny rabbit that manipulates him to commit a series of crimes.",
     "tagline": "28 days, 6 hours, 42 minutes, 12 seconds... that is when the world will end.",
     "backdrop": "/msCHK5Kh1YbdZ0zPJ2nzPUhhSN9.jpg"
@@ -19639,7 +19641,9 @@
     "providers": {
       "flatrate": [
         "HBO Max Amazon Channel",
-        "HBO Max"
+        "Cinemax Amazon Channel",
+        "HBO Max",
+        "Cinemax Apple TV channel"
       ],
       "rent": [
         "Amazon Video",
@@ -19726,7 +19730,7 @@
         "name": "distressing"
       }
     ],
-    "providersAt": 1793548749686,
+    "providersAt": 1794253526092,
     "overview": "Husband and wife Gabe and Adelaide Wilson take their kids to their beach house expecting to unplug and unwind with friends. But as night descends, their serenity turns to tension and chaos when some shocking visitors arrive uninvited.",
     "tagline": "Watch yourself.",
     "backdrop": "/sC0b8iPUHfZdD8kseLiHw3N8gkp.jpg"
@@ -22431,7 +22435,7 @@
         "name": "metrocolor"
       }
     ],
-    "providersAt": 1793548743968,
+    "providersAt": 1794253520893,
     "overview": "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world's most advanced super computer.",
     "tagline": "An epic drama of adventure and exploration.",
     "backdrop": "/w5IDXtifKntw0ajv2co7jFlTQDM.jpg"
@@ -24018,15 +24022,15 @@
     "poster": "https://image.tmdb.org/t/p/w342/lr9ZIrmuwVmZhpZuTCW8D9g0ZJe.jpg",
     "providers": {
       "flatrate": [
-        "Hulu",
         "fuboTV",
+        "HBO Max Amazon Channel",
         "Paramount Plus Premium",
         "Paramount Plus Essential",
-        "Peacock Premium",
-        "Philo",
         "Paramount+ Amazon Channel",
         "Paramount+ Roku Premium Channel",
-        "Peacock Premium Plus"
+        "Cinemax Amazon Channel",
+        "HBO Max",
+        "Cinemax Apple TV channel"
       ],
       "rent": [
         "Amazon Video",
@@ -24035,6 +24039,7 @@
         "Google Play Movies",
         "YouTube",
         "Fandango At Home",
+        "FlixFling",
         "Spectrum On Demand",
         "Plex"
       ],
@@ -24136,7 +24141,7 @@
         "name": "teenager"
       }
     ],
-    "providersAt": 1793548762090,
+    "providersAt": 1794253537455,
     "overview": "A year after the murder of her mother, a teenage girl is terrorized by a masked killer who targets her and her friends by using scary movies as part of a deadly game.",
     "tagline": "Someone has taken their love of scary movies one step too far. Solving this mystery is going to be murder.",
     "backdrop": "/4w6nQYAY0eb7B0VVRDXilXcgAUV.jpg"
@@ -24672,7 +24677,9 @@
     "poster": "https://image.tmdb.org/t/p/w342/j9HrX8f7GbZQm1BrBiR40uFQZSb.jpg",
     "providers": {
       "flatrate": [
+        "Peacock Premium",
         "Sundance Now",
+        "Peacock Premium Plus",
         "Shout! Factory Amazon Channel"
       ],
       "rent": [
@@ -24783,7 +24790,7 @@
         "name": "news business"
       }
     ],
-    "providersAt": 1793548761912,
+    "providersAt": 1794253537294,
     "overview": "When Lou Bloom, desperate for work, muscles into the world of L.A. crime journalism, he blurs the line between observer and participant to become the star of his own story. Aiding him in his effort is Nina, a TV-news veteran.",
     "tagline": "The city shines brightest at night.",
     "backdrop": "/bdI6U1mT0kCdTJ6TWtiFxQ42GSn.jpg"
@@ -38493,6 +38500,7 @@
         "Google Play Movies",
         "YouTube",
         "Fandango At Home",
+        "FlixFling",
         "Spectrum On Demand"
       ],
       "buy": [
@@ -38545,7 +38553,7 @@
         "name": "based on tv series"
       }
     ],
-    "providersAt": 1793548743106,
+    "providersAt": 1794253520083,
     "overview": "Fresh off an almost career-ending accident, stuntman Colt Seavers has to track down a missing movie star, solve a conspiracy and try to win back the love of his life while still doing his day job.",
     "tagline": "Fall hard.",
     "backdrop": "/2rjI2uXmjitMAaXVO21r9ao7v2j.jpg"
@@ -39659,7 +39667,7 @@
         "name": "revisionist western"
       }
     ],
-    "providersAt": 1793548746430,
+    "providersAt": 1794253523082,
     "overview": "Outlaw Jesse James is rumored to be the 'fastest gun in the West'. An eager recruit into James' notorious gang, Robert Ford eventually grows jealous of the famed outlaw and, when Robert and his brother sense an opportunity to kill James, their murderous action elevates their target to near mythical status.",
     "tagline": "Beyond the myth lies America's greatest betrayal",
     "backdrop": "/3HvQ5PaxwQJEiRSZD5AyVuqEiNn.jpg"
@@ -46703,7 +46711,7 @@
         "name": "conceited"
       }
     ],
-    "providersAt": 1793548759620,
+    "providersAt": 1794253535254,
     "overview": "In the poverty-stricken favelas of Rio de Janeiro in the 1970s, two young men choose different paths. Rocket is a budding photographer who documents the increasing drug-related violence of his neighborhood, while José “Zé” Pequeno is an ambitious drug dealer diving into a dangerous life of crime.",
     "tagline": "If you run, the beast catches you; if you stay, the beast eats you.",
     "backdrop": "/uvitbjFU4JqvMwIkMWHp69bmUzG.jpg"
@@ -46828,7 +46836,7 @@
         "name": "jamaican posse"
       }
     ],
-    "providersAt": 1793548759447,
+    "providersAt": 1794253535096,
     "overview": "A raw urban drama about two friends raised on the dangerous streets of Kingston, Jamaica. Biggs and Wayne take on the \"Shotta\" way of life to survive. As young boys, they begin a life of crime, eventually moving to the US where they begin a ruthless climb from the bottom. They remain bound to each other by their shottas loyalty as they aggressively take control of the Jamaican underworld.",
     "tagline": "Friendship, loyalty & greed.",
     "backdrop": "/yYSaRwOQsX033pxCCjgw04FP1YY.jpg"
@@ -48215,7 +48223,7 @@
         "name": "gladiador"
       }
     ],
-    "providersAt": 1793548746605,
+    "providersAt": 1794253523242,
     "overview": "After the death of Emperor Marcus Aurelius, his devious son takes power and demotes Maximus, one of Rome's most capable generals who Marcus preferred. Eventually, Maximus is forced to become a gladiator and battle to the death against other men for the amusement of paying audiences.",
     "tagline": "What we do in life echoes in eternity.",
     "backdrop": "/Ar7QuJ7sJEiC0oP3I8fKBKIQD9u.jpg"
@@ -55095,7 +55103,7 @@
         "name": "world‑saving mission"
       }
     ],
-    "providersAt": 1793548748661,
+    "providersAt": 1794253525147,
     "overview": "Superman, a journalist in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent.",
     "tagline": "Look up.",
     "backdrop": "/yRBc6WY3r1Fz5Cjd6DhSvzqunED.jpg"
@@ -60598,7 +60606,7 @@
         "name": "harsh"
       }
     ],
-    "providersAt": 1793548748147,
+    "providersAt": 1794253524673,
     "overview": "A reunion between two estranged sisters gets cut short by the rise of flesh-possessing demons, thrusting them into a primal battle for survival as they face the most nightmarish version of family imaginable.",
     "tagline": "Mommy loves you to death.",
     "backdrop": "/7bWxAsNPv9CXHOhZbJVlj2KxgfP.jpg"
@@ -60665,11 +60673,8 @@
     "providers": {
       "flatrate": [
         "Netflix",
-        "Amazon Prime Video",
-        "HBO Max Amazon Channel",
         "Netflix Standard with Ads",
-        "HBO Max",
-        "Amazon Prime Video with Ads"
+        "Sony Pictures Core Amazon Channel"
       ],
       "rent": [
         "Amazon Video",
@@ -60677,6 +60682,7 @@
         "Google Play Movies",
         "YouTube",
         "Fandango At Home",
+        "FlixFling",
         "Spectrum On Demand",
         "Plex"
       ],
@@ -60742,7 +60748,7 @@
         "name": "whimsical"
       }
     ],
-    "providersAt": 1793548748317,
+    "providersAt": 1794253524830,
     "overview": "Mia, a drug addict, is determined to kick the habit. To that end, she asks her brother, David, his girlfriend, Natalie and their friends Olivia and Eric to accompany her to their family's remote forest cabin to help her through withdrawal. Eric finds a mysterious Book of the Dead at the cabin and reads aloud from it, awakening an ancient demon. All hell breaks loose when the malevolent entity possesses Mia.",
     "tagline": "The most terrifying film you will ever experience.",
     "backdrop": "/6RDgtEBzjuF7W25DVziXRABchpX.jpg"
@@ -61123,7 +61129,8 @@
         "Apple TV Store",
         "Google Play Movies",
         "YouTube",
-        "Fandango At Home"
+        "Fandango At Home",
+        "FlixFling"
       ],
       "buy": [
         "Amazon Video",
@@ -61207,7 +61214,7 @@
         "name": "comforting"
       }
     ],
-    "providersAt": 1793548750036,
+    "providersAt": 1794253526406,
     "overview": "After the unexpected death of the Pope, Cardinal Lawrence is tasked with managing the covert and ancient ritual of electing a new one. Sequestered in the Vatican with the Catholic Church’s most powerful leaders until the process is complete, Lawrence finds himself at the center of a conspiracy that could lead to its downfall.",
     "tagline": "What happens behind these walls will change everything.",
     "backdrop": "/eZzNdjNDvaSoyywy9ICg2UmFwul.jpg"
@@ -63850,7 +63857,7 @@
       "metacritic": 46,
       "imdb": 6
     },
-    "providersAt": 1793548744313,
+    "providersAt": 1794253521206,
     "overview": "Theseus is a mortal man chosen by Zeus to lead the fight against the ruthless King Hyperion, who is on a rampage across Greece to obtain a weapon that can destroy humanity.",
     "tagline": "The Gods need a hero.",
     "backdrop": "/vbcUqIQZl7q7O2op2NT0ZqTLXxH.jpg"
@@ -64185,10 +64192,9 @@
     "providers": {
       "flatrate": [
         "HBO Max Amazon Channel",
-        "Philo",
-        "AMC+ Amazon Channel",
         "AMC",
-        "HBO Max"
+        "HBO Max",
+        "ViX Premium Amazon Channel"
       ],
       "rent": [
         "Amazon Video",
@@ -64213,7 +64219,7 @@
       "metacritic": 50,
       "imdb": 7
     },
-    "providersAt": 1793548743800,
+    "providersAt": 1794253520734,
     "overview": "John Constantine has literally been to Hell and back. When he teams up with a policewoman to solve the mysterious suicide of her twin sister, their investigation takes them through the world of demons and angels that exists beneath the landscape of contemporary Los Angeles.",
     "tagline": "Hell wants him. Heaven won't take him. Earth needs him.",
     "backdrop": "/x3YFn10ehQKMRIJwIfiDAX8S9Xt.jpg"
@@ -64324,8 +64330,7 @@
     "poster": "https://image.tmdb.org/t/p/w342/hHPovtU4b96LHcoeEwRkGHI5btw.jpg",
     "providers": {
       "flatrate": [
-        "Peacock Premium",
-        "Peacock Premium Plus"
+        "Hulu"
       ],
       "rent": [
         "Amazon Video",
@@ -64350,7 +64355,7 @@
       "metacritic": 85,
       "imdb": 6.7
     },
-    "providersAt": 1793548743453,
+    "providersAt": 1794253520417,
     "overview": "When intelligence agent Kathryn Woodhouse is suspected of betraying the nation, her husband – also a legendary agent – faces the ultimate test of whether to be loyal to his marriage, or his country.",
     "tagline": "It takes a spy to hunt a spy.",
     "backdrop": "/gxO51FVgADhYGGnnRPIlutVqb30.jpg"
@@ -64638,7 +64643,7 @@
       "metacritic": 49,
       "imdb": 6.5
     },
-    "providersAt": 1793548743283,
+    "providersAt": 1794253520243,
     "overview": "When a shadowy CIA agent uncovers damning agency secrets, he's hunted across the globe by a sociopathic rogue operative who's put a bounty on his head.",
     "tagline": "",
     "backdrop": "/2u1YBNBlSwvBReyvI7i5z5ykQXP.jpg"
@@ -64753,7 +64758,7 @@
       "metacritic": null,
       "imdb": 7.9
     },
-    "providersAt": 1793548742589,
+    "providersAt": 1794253519587,
     "overview": "As Agnes slowly dies of cancer, her sisters are so immersed in their own psychic pains that they are unable to offer her the support she needs.",
     "tagline": "Four women dressed in white in a mansion painted red... haunted by whispers and cries.",
     "backdrop": "/xmLgdb0yDBXa7Dlo3aCzjhjCkuE.jpg"
@@ -64876,7 +64881,7 @@
       "metacritic": 68,
       "imdb": 6.5
     },
-    "providersAt": 1793548742416,
+    "providersAt": 1794253519422,
     "overview": "A young couple is pushed to the limits of sanity as they attempt to be reunited amid the chaos of a pandemic outbreak. The streets erupt into violence and depravity, as those infected are driven to enact the most cruel and ghastly things imaginable.",
     "tagline": "It feels...wonderful...",
     "backdrop": "/1McO40rFBnUSz0EB2EwYQlUv9LV.jpg"
@@ -65238,7 +65243,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/10681-wall-e/watch?locale=US",
-    "providersAt": 1793548738923,
+    "providersAt": 1794253516071,
     "region": "US",
     "scores": {
       "rt": 95,
@@ -65362,7 +65367,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/11655-cronos/watch?locale=US",
-    "providersAt": 1793548739098,
+    "providersAt": 1794253516224,
     "region": "US",
     "scores": {
       "rt": 88,
@@ -65535,7 +65540,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/406-la-haine/watch?locale=US",
-    "providersAt": 1793548739269,
+    "providersAt": 1794253516384,
     "region": "US",
     "scores": {
       "rt": 96,
@@ -65684,7 +65689,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/660120-verdens-verste-menneske/watch?locale=US",
-    "providersAt": 1793548739441,
+    "providersAt": 1794253516540,
     "region": "US",
     "scores": {
       "rt": 96,
@@ -65805,7 +65810,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1429348-l-etranger/watch?locale=US",
-    "providersAt": 1793548739832,
+    "providersAt": 1794253516861,
     "region": "US",
     "scores": {
       "rt": 91,
@@ -65955,7 +65960,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/11368-blood-simple/watch?locale=US",
-    "providersAt": 1793548740002,
+    "providersAt": 1794253517018,
     "region": "US",
     "scores": {
       "rt": 94,
@@ -66048,7 +66053,7 @@
       "buy": []
     },
     "providersLink": "https://www.themoviedb.org/movie/27371-crimes-of-the-future/watch?locale=US",
-    "providersAt": 1793548740351,
+    "providersAt": 1794253517331,
     "region": "US",
     "scores": {
       "rt": 60,
@@ -66203,7 +66208,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/29437-rabid/watch?locale=US",
-    "providersAt": 1793548740522,
+    "providersAt": 1794253517649,
     "region": "US",
     "scores": {
       "rt": 78,
@@ -66317,9 +66322,7 @@
     "tmdbRating": 6.35,
     "poster": "https://image.tmdb.org/t/p/w342/7TPYtzq9ABkfED1JB0tRASamL4z.jpg",
     "providers": {
-      "flatrate": [
-        "Howdy Amazon Channel"
-      ],
+      "flatrate": [],
       "rent": [
         "Amazon Video",
         "Apple TV Store",
@@ -66336,7 +66339,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/48231-a-dangerous-method/watch?locale=US",
-    "providersAt": 1793548740694,
+    "providersAt": 1794253517845,
     "region": "US",
     "scores": {
       "rt": 78,
@@ -66463,8 +66466,12 @@
     "poster": "https://image.tmdb.org/t/p/w342/kXoaAmh0kkcAqW0ikafWEvqVezJ.jpg",
     "providers": {
       "flatrate": [
+        "Philo",
+        "Starz Amazon Channel",
         "Lionsgate+ Amazon Channel",
-        "Starz Apple TV channel"
+        "Starz",
+        "Starz Apple TV channel",
+        "Starz Roku Premium Channel"
       ],
       "rent": [
         "Amazon Video",
@@ -66476,7 +66483,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/49014-cosmopolis/watch?locale=US",
-    "providersAt": 1793548740863,
+    "providersAt": 1794253518005,
     "region": "US",
     "scores": {
       "rt": 67,
@@ -66605,15 +66612,8 @@
     "poster": "https://image.tmdb.org/t/p/w342/9yTVaeS8eIkOpbwIycVFm7EQrgF.jpg",
     "providers": {
       "flatrate": [
-        "Paramount Plus Premium",
         "Paramount Plus Essential",
-        "Philo",
-        "AMC Plus Apple TV channel",
-        "Paramount+ Amazon Channel",
-        "AMC+ Amazon Channel",
-        "AMC+",
-        "History Vault",
-        "Paramount+ Roku Premium Channel"
+        "History Vault"
       ],
       "rent": [
         "Amazon Video",
@@ -66631,7 +66631,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/11336-the-dead-zone/watch?locale=US",
-    "providersAt": 1793548741036,
+    "providersAt": 1794253518164,
     "region": "US",
     "scores": {
       "rt": 89,
@@ -66752,7 +66752,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/28942-the-brood/watch?locale=US",
-    "providersAt": 1793548741209,
+    "providersAt": 1794253518320,
     "region": "US",
     "scores": {
       "rt": 84,
@@ -66871,7 +66871,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1946-existenz/watch?locale=US",
-    "providersAt": 1793548741381,
+    "providersAt": 1794253518476,
     "region": "US",
     "scores": {
       "rt": 77,
@@ -66999,7 +66999,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/9538-scanners/watch?locale=US",
-    "providersAt": 1793548741552,
+    "providersAt": 1794253518635,
     "region": "US",
     "scores": {
       "rt": 69,
@@ -67178,7 +67178,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/59-a-history-of-violence/watch?locale=US",
-    "providersAt": 1793548741725,
+    "providersAt": 1794253518792,
     "region": "US",
     "scores": {
       "rt": 88,
@@ -67346,10 +67346,7 @@
     "tmdbRating": 7.248,
     "poster": "https://image.tmdb.org/t/p/w342/qqqkiZSU9EBGZ1KiDmfn07S7qvv.jpg",
     "providers": {
-      "flatrate": [
-        "Amazon Prime Video",
-        "Amazon Prime Video with Ads"
-      ],
+      "flatrate": [],
       "rent": [
         "Amazon Video",
         "Apple TV Store",
@@ -67366,7 +67363,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/837-videodrome/watch?locale=US",
-    "providersAt": 1793548741899,
+    "providersAt": 1794253518952,
     "region": "US",
     "scores": {
       "rt": 83,
@@ -67538,11 +67535,7 @@
     "poster": "https://image.tmdb.org/t/p/w342/8gZWMhJHRvaXdXsNhERtqNHYpH3.jpg",
     "providers": {
       "flatrate": [
-        "Hulu",
-        "Peacock Premium",
-        "Philo",
-        "AMC",
-        "Peacock Premium Plus"
+        "AMC"
       ],
       "rent": [
         "Amazon Video",
@@ -67560,7 +67553,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/9426-the-fly/watch?locale=US",
-    "providersAt": 1793548742072,
+    "providersAt": 1794253519113,
     "region": "US",
     "scores": {
       "rt": 82,
@@ -67649,7 +67642,7 @@
       "buy": []
     },
     "providersLink": null,
-    "providersAt": 1793548742244,
+    "providersAt": 1794253519267,
     "region": "US",
     "scores": {
       "rt": 93,
@@ -67781,7 +67774,8 @@
         "Apple TV Store",
         "Google Play Movies",
         "YouTube",
-        "Fandango At Home"
+        "Fandango At Home",
+        "FlixFling"
       ],
       "buy": [
         "Amazon Video",
@@ -67792,7 +67786,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1275779-disclosure-day/watch?locale=US",
-    "providersAt": 1793548742761,
+    "providersAt": 1794253519745,
     "region": "US",
     "scores": {
       "rt": 79,
@@ -67945,7 +67939,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/11036-the-notebook/watch?locale=US",
-    "providersAt": 1793548742932,
+    "providersAt": 1794253519923,
     "region": "US",
     "scores": {
       "rt": 55,
@@ -68101,7 +68095,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1291595-insidious-out-of-the-further/watch?locale=US",
-    "providersAt": 1793548744141,
+    "providersAt": 1794253521051,
     "region": "US",
     "scores": {
       "rt": 57,
@@ -68270,7 +68264,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1469342-her-private-hell/watch?locale=US",
-    "providersAt": 1793548744483,
+    "providersAt": 1794253521361,
     "region": "US",
     "scores": {
       "rt": 40,
@@ -68396,7 +68390,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1226699-the-wrong-girls/watch?locale=US",
-    "providersAt": 1793548744656,
+    "providersAt": 1794253521519,
     "region": "US",
     "scores": {
       "rt": 62,
@@ -68577,7 +68571,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/36095/watch?locale=US",
-    "providersAt": 1793548745570,
+    "providersAt": 1794253522299,
     "region": "US",
     "scores": {
       "rt": 94,
@@ -68738,7 +68732,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/46738-incendies/watch?locale=US",
-    "providersAt": 1793548746086,
+    "providersAt": 1794253522769,
     "region": "US",
     "scores": {
       "rt": 91,
@@ -68910,7 +68904,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/14784-the-fall/watch?locale=US",
-    "providersAt": 1793548746259,
+    "providersAt": 1794253522928,
     "region": "US",
     "scores": {
       "rt": 64,
@@ -69026,7 +69020,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/975511-the-return/watch?locale=US",
-    "providersAt": 1793548746776,
+    "providersAt": 1794253523416,
     "region": "US",
     "scores": {
       "rt": 78,
@@ -69170,7 +69164,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1337592-erupcja/watch?locale=US",
-    "providersAt": 1793548746946,
+    "providersAt": 1794253523571,
     "region": "US",
     "scores": {
       "rt": 82,
@@ -69309,7 +69303,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/994143-skinamarink/watch?locale=US",
-    "providersAt": 1793548747117,
+    "providersAt": 1794253523726,
     "region": "US",
     "scores": {
       "rt": 72,
@@ -69500,7 +69494,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/426-vertigo/watch?locale=US",
-    "providersAt": 1793548747289,
+    "providersAt": 1794253523881,
     "region": "US",
     "scores": {
       "rt": 94,
@@ -69657,7 +69651,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1047020-the-last-stop-in-yuma-county/watch?locale=US",
-    "providersAt": 1793548747460,
+    "providersAt": 1794253524038,
     "region": "US",
     "scores": {
       "rt": 97,
@@ -69773,7 +69767,7 @@
       "buy": []
     },
     "providersLink": null,
-    "providersAt": 1793548747629,
+    "providersAt": 1794253524194,
     "region": "US",
     "scores": {
       "rt": null,
@@ -69998,11 +69992,7 @@
     "poster": "https://image.tmdb.org/t/p/w342/xsgTuAtR2zSH8Umg3jWZcZjlDpe.jpg",
     "providers": {
       "flatrate": [
-        "Philo",
-        "AMC Plus Apple TV channel",
-        "AMC+ Amazon Channel",
-        "AMC+ Roku Premium Channel",
-        "AMC+"
+        "AMC+ Roku Premium Channel"
       ],
       "rent": [
         "Amazon Video",
@@ -70020,7 +70010,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/766-army-of-darkness/watch?locale=US",
-    "providersAt": 1793548747803,
+    "providersAt": 1794253524357,
     "region": "US",
     "scores": {
       "rt": 68,
@@ -70205,7 +70195,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/765-evil-dead-ii/watch?locale=US",
-    "providersAt": 1793548747975,
+    "providersAt": 1794253524513,
     "region": "US",
     "scores": {
       "rt": 89,
@@ -70372,7 +70362,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/764-the-evil-dead/watch?locale=US",
-    "providersAt": 1793548748489,
+    "providersAt": 1794253524989,
     "region": "US",
     "scores": {
       "rt": 85,
@@ -70499,7 +70489,9 @@
     "tmdbRating": 7.811,
     "poster": "https://image.tmdb.org/t/p/w342/zp5NrmYp80axIGiEiYPmm1CW6uH.jpg",
     "providers": {
-      "flatrate": [],
+      "flatrate": [
+        "aha"
+      ],
       "rent": [
         "Google Play Movies"
       ],
@@ -70508,7 +70500,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/49797/watch?locale=US",
-    "providersAt": 1793548748833,
+    "providersAt": 1794253525306,
     "region": "US",
     "scores": {
       "rt": 83,
@@ -70672,7 +70664,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/592-the-conversation/watch?locale=US",
-    "providersAt": 1793548749002,
+    "providersAt": 1794253525463,
     "region": "US",
     "scores": {
       "rt": 94,
@@ -70846,7 +70838,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/37707-splice/watch?locale=US",
-    "providersAt": 1793548749174,
+    "providersAt": 1794253525618,
     "region": "US",
     "scores": {
       "rt": 75,
@@ -71041,7 +71033,7 @@
       "buy": []
     },
     "providersLink": null,
-    "providersAt": 1793548749343,
+    "providersAt": 1794253525777,
     "region": "US",
     "scores": {
       "rt": null,
@@ -71177,9 +71169,7 @@
     "tmdbRating": 7.059,
     "poster": "https://image.tmdb.org/t/p/w342/yQuovle5Ov6q69XSdTNdH52eANc.jpg",
     "providers": {
-      "flatrate": [
-        "Paramount Plus Essential"
-      ],
+      "flatrate": [],
       "rent": [
         "Amazon Video",
         "Apple TV Store",
@@ -71196,7 +71186,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/7299-equilibrium/watch?locale=US",
-    "providersAt": 1793548749514,
+    "providersAt": 1794253525937,
     "region": "US",
     "scores": {
       "rt": 40,
@@ -71416,7 +71406,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1154538-nirvanna-the-band-the-show-the-movie/watch?locale=US",
-    "providersAt": 1793548749857,
+    "providersAt": 1794253526249,
     "region": "US",
     "scores": {
       "rt": 95,
@@ -71614,7 +71604,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/30497-the-texas-chain-saw-massacre/watch?locale=US",
-    "providersAt": 1793548750209,
+    "providersAt": 1794253526562,
     "region": "US",
     "scores": {
       "rt": 85,
@@ -71780,6 +71770,7 @@
     "providers": {
       "flatrate": [
         "AMC+ Amazon Channel",
+        "Criterion Channel",
         "ARROW"
       ],
       "rent": [
@@ -71792,7 +71783,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/27324/watch?locale=US",
-    "providersAt": 1793548750385,
+    "providersAt": 1794253526717,
     "region": "US",
     "scores": {
       "rt": 76,
@@ -71967,7 +71958,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1212763-evil-dead-burn/watch?locale=US",
-    "providersAt": 1793548750558,
+    "providersAt": 1794253526875,
     "region": "US",
     "scores": {
       "rt": 70,
@@ -72128,7 +72119,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1579-apocalypto/watch?locale=US",
-    "providersAt": 1793548750736,
+    "providersAt": 1794253527028,
     "region": "US",
     "scores": {
       "rt": 65,
@@ -72307,7 +72298,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/122081-spring-breakers/watch?locale=US",
-    "providersAt": 1793548750908,
+    "providersAt": 1794253527184,
     "region": "US",
     "scores": {
       "rt": 67,
@@ -72466,7 +72457,8 @@
         "Apple TV Store",
         "Google Play Movies",
         "YouTube",
-        "Fandango At Home"
+        "Fandango At Home",
+        "FlixFling"
       ],
       "buy": [
         "Amazon Video",
@@ -72477,7 +72469,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1226863-the-super-mario-galaxy-movie/watch?locale=US",
-    "providersAt": 1793548751080,
+    "providersAt": 1794253527341,
     "region": "US",
     "scores": {
       "rt": 42,
@@ -72636,7 +72628,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/228967-the-interview/watch?locale=US",
-    "providersAt": 1793548751251,
+    "providersAt": 1794253527497,
     "region": "US",
     "scores": {
       "rt": 51,
@@ -72753,7 +72745,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/6396-slc-punk/watch?locale=US",
-    "providersAt": 1793548751421,
+    "providersAt": 1794253527654,
     "region": "US",
     "scores": {
       "rt": 65,
@@ -72908,7 +72900,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/9470/watch?locale=US",
-    "providersAt": 1793548751597,
+    "providersAt": 1794253527814,
     "region": "US",
     "scores": {
       "rt": 90,
@@ -73072,7 +73064,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/100-lock-stock-and-two-smoking-barrels/watch?locale=US",
-    "providersAt": 1793548751768,
+    "providersAt": 1794253527972,
     "region": "US",
     "scores": {
       "rt": 75,
@@ -73236,9 +73228,7 @@
     "poster": "https://image.tmdb.org/t/p/w342/kIBMvdZ3qLUycHLbT6IFs7UtaCq.jpg",
     "providers": {
       "flatrate": [
-        "Amazon Prime Video",
-        "Sundance Now",
-        "Amazon Prime Video with Ads"
+        "Sundance Now"
       ],
       "rent": [
         "Amazon Video",
@@ -73246,6 +73236,7 @@
         "Google Play Movies",
         "YouTube",
         "Fandango At Home",
+        "FlixFling",
         "Plex"
       ],
       "buy": [
@@ -73257,7 +73248,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/107-snatch/watch?locale=US",
-    "providersAt": 1793548751941,
+    "providersAt": 1794253528129,
     "region": "US",
     "scores": {
       "rt": 74,
@@ -73308,7 +73299,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/462390-procesul/watch?locale=US",
-    "providersAt": 1793548752159,
+    "providersAt": 1794253528291,
     "region": "US",
     "overview": "Mihai Moldoveanu, a former Romanian army officer, was sentenced to 25 years behind bars for a crime he claims he did not commit. Following a long series of attempts to prove his innocence, the European Court of Human Rights ruled in Moldoveanu's favor in June 2012. The documentary follows him after his provisional release and focuses on the referral of the case and the consequences of the new sentence, giving the viewer the role of a juror in a complicated and controversial lawsuit.",
     "tagline": "",
@@ -73436,7 +73427,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/290-barton-fink/watch?locale=US",
-    "providersAt": 1793548752329,
+    "providersAt": 1794253528450,
     "region": "US",
     "scores": {
       "rt": 90,
@@ -73596,7 +73587,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/270487-hail-caesar/watch?locale=US",
-    "providersAt": 1793548752498,
+    "providersAt": 1794253528604,
     "region": "US",
     "scores": {
       "rt": 86,
@@ -73717,7 +73708,7 @@
       "buy": []
     },
     "providersLink": null,
-    "providersAt": 1793548752671,
+    "providersAt": 1794253528760,
     "region": "US",
     "scores": {
       "rt": null,
@@ -73879,7 +73870,7 @@
       "buy": []
     },
     "providersLink": null,
-    "providersAt": 1793548752843,
+    "providersAt": 1794253528919,
     "region": "US",
     "scores": {
       "rt": null,
@@ -73999,7 +73990,7 @@
       "buy": []
     },
     "providersLink": null,
-    "providersAt": 1793548753014,
+    "providersAt": 1794253529073,
     "region": "US",
     "scores": {
       "rt": null,
@@ -74095,7 +74086,7 @@
       "buy": []
     },
     "providersLink": null,
-    "providersAt": 1793548753190,
+    "providersAt": 1794253529230,
     "region": "US",
     "scores": {
       "rt": null,
@@ -74295,7 +74286,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/68-brazil/watch?locale=US",
-    "providersAt": 1793548753362,
+    "providersAt": 1794253529386,
     "region": "US",
     "scores": {
       "rt": 98,
@@ -74486,7 +74477,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/78-blade-runner/watch?locale=US",
-    "providersAt": 1793548753534,
+    "providersAt": 1794253529545,
     "region": "US",
     "scores": {
       "rt": 89,
@@ -74648,7 +74639,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/570670-the-invisible-man/watch?locale=US",
-    "providersAt": 1793548753706,
+    "providersAt": 1794253529698,
     "region": "US",
     "scores": {
       "rt": null,
@@ -74782,7 +74773,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/41050-la-notte/watch?locale=US",
-    "providersAt": 1793548753875,
+    "providersAt": 1794253529858,
     "region": "US",
     "scores": {
       "rt": 84,
@@ -74997,7 +74988,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/95-armageddon/watch?locale=US",
-    "providersAt": 1793548754052,
+    "providersAt": 1794253530013,
     "region": "US",
     "scores": {
       "rt": 42,
@@ -75141,10 +75132,7 @@
     "tmdbRating": 6.263,
     "poster": "https://image.tmdb.org/t/p/w342/a3vQS7JKqlOb3MdVJHuTCP9s7Mg.jpg",
     "providers": {
-      "flatrate": [
-        "Paramount+ Amazon Channel",
-        "Paramount+ Roku Premium Channel"
-      ],
+      "flatrate": [],
       "rent": [
         "Amazon Video",
         "Apple TV Store",
@@ -75163,7 +75151,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/8656-deep-impact/watch?locale=US",
-    "providersAt": 1793548754225,
+    "providersAt": 1794253530174,
     "region": "US",
     "scores": {
       "rt": 45,
@@ -75337,13 +75325,10 @@
     "providers": {
       "flatrate": [
         "fuboTV",
-        "Paramount Plus Premium",
+        "MGM+ Amazon Channel",
         "Paramount Plus Essential",
-        "Peacock Premium",
-        "Paramount+ Amazon Channel",
-        "MGM Plus",
-        "Paramount+ Roku Premium Channel",
-        "Peacock Premium Plus"
+        "Philo",
+        "MGM Plus"
       ],
       "rent": [
         "Amazon Video",
@@ -75362,7 +75347,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/644-a-i-artificial-intelligence/watch?locale=US",
-    "providersAt": 1793548754397,
+    "providersAt": 1794253530333,
     "region": "US",
     "scores": {
       "rt": 76,
@@ -75536,7 +75521,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1272-sunshine/watch?locale=US",
-    "providersAt": 1793548754618,
+    "providersAt": 1794253530489,
     "region": "US",
     "scores": {
       "rt": 77,
@@ -75684,6 +75669,7 @@
     "poster": "https://image.tmdb.org/t/p/w342/cWsBscZzwu5brg9YjNkGewRUvJX.jpg",
     "providers": {
       "flatrate": [
+        "HBO Max Amazon Channel",
         "Starz Amazon Channel",
         "HBO Max",
         "Starz Apple TV channel",
@@ -75707,7 +75693,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1368166-the-housemaid/watch?locale=US",
-    "providersAt": 1793548754789,
+    "providersAt": 1794253530644,
     "region": "US",
     "scores": {
       "rt": 74,
@@ -75875,7 +75861,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/639988/watch?locale=US",
-    "providersAt": 1793548754961,
+    "providersAt": 1794253530802,
     "region": "US",
     "scores": {
       "rt": 97,
@@ -75985,7 +75971,7 @@
       "buy": []
     },
     "providersLink": "https://www.themoviedb.org/movie/1290159-a-house-of-dynamite/watch?locale=US",
-    "providersAt": 1793548755132,
+    "providersAt": 1794253530964,
     "region": "US",
     "scores": {
       "rt": 75,
@@ -76155,7 +76141,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1218925/watch?locale=US",
-    "providersAt": 1793548755304,
+    "providersAt": 1794253531119,
     "region": "US",
     "scores": {
       "rt": 96,
@@ -76306,7 +76292,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1042834-eden/watch?locale=US",
-    "providersAt": 1793548755475,
+    "providersAt": 1794253531277,
     "region": "US",
     "scores": {
       "rt": null,
@@ -76478,7 +76464,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1088166-relay/watch?locale=US",
-    "providersAt": 1793548755647,
+    "providersAt": 1794253531434,
     "region": "US",
     "scores": {
       "rt": 82,
@@ -76633,10 +76619,7 @@
     "tmdbRating": 7.121,
     "poster": "https://image.tmdb.org/t/p/w342/x5T0cQDYws0xRBVG4Q3wpcrcmax.jpg",
     "providers": {
-      "flatrate": [
-        "MGM+ Amazon Channel",
-        "Philo"
-      ],
+      "flatrate": [],
       "rent": [
         "Amazon Video",
         "Apple TV Store",
@@ -76654,7 +76637,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/68730-silence/watch?locale=US",
-    "providersAt": 1793548755819,
+    "providersAt": 1794253531592,
     "region": "US",
     "scores": {
       "rt": 83,
@@ -76795,7 +76778,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/760329-the-smashing-machine/watch?locale=US",
-    "providersAt": 1793548755988,
+    "providersAt": 1794253531751,
     "region": "US",
     "scores": {
       "rt": 71,
@@ -76964,7 +76947,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1381-the-fountain/watch?locale=US",
-    "providersAt": 1793548756160,
+    "providersAt": 1794253531910,
     "region": "US",
     "scores": {
       "rt": 52,
@@ -77055,7 +77038,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1435103-blood-in-them-hills/watch?locale=US",
-    "providersAt": 1793548756336,
+    "providersAt": 1794253532064,
     "region": "US",
     "scores": {
       "rt": null,
@@ -77176,7 +77159,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1246215-re-creation/watch?locale=US",
-    "providersAt": 1793548756687,
+    "providersAt": 1794253532420,
     "region": "US",
     "scores": {
       "rt": 72,
@@ -77271,7 +77254,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1257868-couples-weekend/watch?locale=US",
-    "providersAt": 1793548756860,
+    "providersAt": 1794253532576,
     "region": "US",
     "scores": {
       "rt": 50,
@@ -77359,7 +77342,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1290792-one-spoon-of-chocolate/watch?locale=US",
-    "providersAt": 1793548757032,
+    "providersAt": 1794253532736,
     "region": "US",
     "scores": {
       "rt": null,
@@ -77518,7 +77501,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1130022-sovereign/watch?locale=US",
-    "providersAt": 1793548757201,
+    "providersAt": 1794253532894,
     "region": "US",
     "scores": {
       "rt": 95,
@@ -77627,7 +77610,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1260794-resurrection-road/watch?locale=US",
-    "providersAt": 1793548757377,
+    "providersAt": 1794253533050,
     "region": "US",
     "scores": {
       "rt": null,
@@ -77772,7 +77755,7 @@
       "buy": []
     },
     "providersLink": "https://www.themoviedb.org/movie/668489-havoc/watch?locale=US",
-    "providersAt": 1793548757547,
+    "providersAt": 1794253533207,
     "region": "US",
     "scores": {
       "rt": 64,
@@ -77888,7 +77871,7 @@
       "buy": []
     },
     "providersLink": null,
-    "providersAt": 1793548757719,
+    "providersAt": 1794253533520,
     "region": "US",
     "scores": {
       "rt": null,
@@ -78040,7 +78023,7 @@
       "buy": []
     },
     "providersLink": "https://www.themoviedb.org/movie/777443-the-electric-state/watch?locale=US",
-    "providersAt": 1793548757889,
+    "providersAt": 1794253533679,
     "region": "US",
     "scores": {
       "rt": 14,
@@ -78267,7 +78250,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1159831-the-bride/watch?locale=US",
-    "providersAt": 1793548758062,
+    "providersAt": 1794253533838,
     "region": "US",
     "scores": {
       "rt": 57,
@@ -78422,6 +78405,7 @@
         "Google Play Movies",
         "YouTube",
         "Fandango At Home",
+        "FlixFling",
         "Plex"
       ],
       "buy": [
@@ -78433,7 +78417,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/541671-ballerina/watch?locale=US",
-    "providersAt": 1793548758237,
+    "providersAt": 1794253533995,
     "region": "US",
     "scores": {
       "rt": null,
@@ -78551,7 +78535,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/604685-den-of-thieves-2-pantera/watch?locale=US",
-    "providersAt": 1793548758411,
+    "providersAt": 1794253534149,
     "region": "US",
     "scores": {
       "rt": 63,
@@ -78749,7 +78733,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1140535-presence/watch?locale=US",
-    "providersAt": 1793548758580,
+    "providersAt": 1794253534302,
     "region": "US",
     "scores": {
       "rt": 87,
@@ -78879,7 +78863,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/624788-black-bear/watch?locale=US",
-    "providersAt": 1793548758753,
+    "providersAt": 1794253534462,
     "region": "US",
     "scores": {
       "rt": 89,
@@ -79067,7 +79051,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/558449-gladiator-ii/watch?locale=US",
-    "providersAt": 1793548758935,
+    "providersAt": 1794253534620,
     "region": "US",
     "scores": {
       "rt": 70,
@@ -79195,7 +79179,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/44629-animal-kingdom/watch?locale=US",
-    "providersAt": 1793548759106,
+    "providersAt": 1794253534778,
     "region": "US",
     "scores": {
       "rt": 94,
@@ -79440,7 +79424,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/97630-zero-dark-thirty/watch?locale=US",
-    "providersAt": 1793548759277,
+    "providersAt": 1794253534935,
     "region": "US",
     "scores": {
       "rt": 91,
@@ -79646,7 +79630,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/1182047-the-apprentice/watch?locale=US",
-    "providersAt": 1793548759846,
+    "providersAt": 1794253535412,
     "region": "US",
     "scores": {
       "rt": 83,
@@ -79798,6 +79782,9 @@
     "poster": "https://image.tmdb.org/t/p/w342/qbYgqOczabWNn2XKwgMtVrntD6P.jpg",
     "providers": {
       "flatrate": [
+        "fuboTV",
+        "MGM+ Amazon Channel",
+        "Philo",
         "MGM Plus"
       ],
       "rent": [
@@ -79817,7 +79804,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/335-c-era-una-volta-il-west/watch?locale=US",
-    "providersAt": 1793548760018,
+    "providersAt": 1794253535572,
     "region": "US",
     "scores": {
       "rt": 96,
@@ -80024,7 +80011,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/429-il-buono-il-brutto-il-cattivo/watch?locale=US",
-    "providersAt": 1793548760195,
+    "providersAt": 1794253535728,
     "region": "US",
     "scores": {
       "rt": 97,
@@ -80167,7 +80154,7 @@
       "buy": []
     },
     "providersLink": "https://www.themoviedb.org/movie/875828-peaky-blinders-the-immortal-man/watch?locale=US",
-    "providersAt": 1793548760367,
+    "providersAt": 1794253535884,
     "region": "US",
     "scores": {
       "rt": 90,
@@ -80336,7 +80323,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/14537/watch?locale=US",
-    "providersAt": 1793548760537,
+    "providersAt": 1794253536037,
     "region": "US",
     "scores": {
       "rt": 100,
@@ -80489,7 +80476,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/398818-call-me-by-your-name/watch?locale=US",
-    "providersAt": 1793548760707,
+    "providersAt": 1794253536191,
     "region": "US",
     "scores": {
       "rt": 95,
@@ -80649,13 +80636,12 @@
     "poster": "https://image.tmdb.org/t/p/w342/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
     "providers": {
       "flatrate": [
-        "Amazon Prime Video",
+        "fuboTV",
         "Paramount Plus Premium",
         "Paramount Plus Essential",
         "Paramount+ Amazon Channel",
         "MGM Plus Roku Premium Channel",
-        "Paramount+ Roku Premium Channel",
-        "Amazon Prime Video with Ads"
+        "Paramount+ Roku Premium Channel"
       ],
       "rent": [
         "Amazon Video",
@@ -80676,7 +80662,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/238-the-godfather/watch?locale=US",
-    "providersAt": 1793548760883,
+    "providersAt": 1794253536350,
     "region": "US",
     "scores": {
       "rt": 97,
@@ -80854,7 +80840,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/917496-beetlejuice-beetlejuice/watch?locale=US",
-    "providersAt": 1793548761224,
+    "providersAt": 1794253536663,
     "region": "US",
     "scores": {
       "rt": 76,
@@ -81008,7 +80994,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/331482-little-women/watch?locale=US",
-    "providersAt": 1793548761399,
+    "providersAt": 1794253536820,
     "region": "US",
     "scores": {
       "rt": 95,
@@ -81196,7 +81182,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/194-le-fabuleux-destin-d-amelie-poulain/watch?locale=US",
-    "providersAt": 1793548761571,
+    "providersAt": 1794253536978,
     "region": "US",
     "scores": {
       "rt": 90,
@@ -81394,7 +81380,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/185-a-clockwork-orange/watch?locale=US",
-    "providersAt": 1793548761742,
+    "providersAt": 1794253537136,
     "region": "US",
     "scores": {
       "rt": 83,
@@ -81521,7 +81507,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/9613-spider/watch?locale=US",
-    "providersAt": 1793647618023,
+    "providersAt": 1794253517491,
     "region": "US",
     "scores": {
       "rt": 84,
@@ -81679,7 +81665,7 @@
       ]
     },
     "providersLink": "https://www.themoviedb.org/movie/931349-ash/watch?locale=US",
-    "providersAt": 1793647618182,
+    "providersAt": 1794253533365,
     "region": "US",
     "scores": {
       "rt": 71,

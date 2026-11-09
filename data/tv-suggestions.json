@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-08T15:59:34.883Z",
+  "generated": "2026-11-09T19:48:35.355Z",
   "basedOn": 36,
   "head": 10,
   "items": [
@@ -71,8 +71,8 @@
       "title": "The Curse",
       "year": 2023,
       "tmdbId": 114655,
-      "tmdbRating": 6.411,
-      "votes": 185,
+      "tmdbRating": 6.414,
+      "votes": 186,
       "score": 4.2,
       "themes": [
         "cruel-comedy"
@@ -190,8 +190,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.755,
-      "votes": 1071,
+      "tmdbRating": 7.8,
+      "votes": 1074,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -265,8 +265,8 @@
       "title": "ER",
       "year": 1994,
       "tmdbId": 4588,
-      "tmdbRating": 7.812,
-      "votes": 981,
+      "tmdbRating": 7.8,
+      "votes": 982,
       "score": 3.0400000000000005,
       "rank": 8,
       "creators": [
@@ -299,8 +299,8 @@
       "title": "CSI: Crime Scene Investigation",
       "year": 2000,
       "tmdbId": 1431,
-      "tmdbRating": 7.6,
-      "votes": 1446,
+      "tmdbRating": 7.597,
+      "votes": 1448,
       "score": 3.0400000000000005,
       "rank": 9,
       "creators": [
@@ -339,8 +339,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.584,
-      "votes": 5681,
+      "tmdbRating": 8.6,
+      "votes": 5683,
       "score": 2.5600000000000005,
       "rank": 10,
       "creators": [
@@ -375,7 +375,7 @@
       "year": 2022,
       "tmdbId": 204284,
       "tmdbRating": 7.995,
-      "votes": 291,
+      "votes": 292,
       "score": 4.2,
       "rank": 11,
       "creators": [
@@ -519,8 +519,8 @@
       "title": "Butterfly",
       "year": 2025,
       "tmdbId": 227114,
-      "tmdbRating": 7.195,
-      "votes": 151,
+      "tmdbRating": 7.198,
+      "votes": 154,
       "score": 3.0400000000000005,
       "rank": 15,
       "creators": [
@@ -554,8 +554,8 @@
       "title": "Gangs of London",
       "year": 2020,
       "tmdbId": 85021,
-      "tmdbRating": 7.796,
-      "votes": 729,
+      "tmdbRating": 7.799,
+      "votes": 730,
       "score": 2.7,
       "rank": 16,
       "creators": [
@@ -731,13 +731,45 @@
       "why": "Quentin Tarantino stars in this (directed Once Upon a Time... in Hollywood 4★)"
     },
     {
+      "title": "Faking It",
+      "year": 2014,
+      "tmdbId": 60705,
+      "tmdbRating": 6.743,
+      "votes": 175,
+      "score": 2.16,
+      "rank": 21,
+      "creators": [
+        "Dana Goodman",
+        "Julia Lea Wolov"
+      ],
+      "seasons": 3,
+      "episodes": 38,
+      "episodeRuntime": 22,
+      "showStatus": "Canceled",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/vb9J7q977HB3AmvLETpmWIyIyTP.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": []
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": null,
+        "imdb": 7.3
+      },
+      "why": "Drew Hancock wrote for this (directed Companion 4★)"
+    },
+    {
       "title": "Tom Clancy's Jack Ryan",
       "year": 2018,
       "tmdbId": 73375,
-      "tmdbRating": 7.669,
-      "votes": 1931,
+      "tmdbRating": 7.67,
+      "votes": 1932,
       "score": 1.92,
-      "rank": 21,
+      "rank": 22,
       "creators": [
         "Graham Roland",
         "Carlton Cuse"
@@ -772,7 +804,7 @@
       "tmdbRating": 6.7,
       "votes": 237,
       "score": 2.16,
-      "rank": 22,
+      "rank": 23,
       "creators": [
         "Emily Kapnek"
       ],
@@ -796,38 +828,6 @@
         "rt": null,
         "metacritic": null,
         "imdb": 7.2
-      },
-      "why": "Drew Hancock wrote for this (directed Companion 4★)"
-    },
-    {
-      "title": "Faking It",
-      "year": 2014,
-      "tmdbId": 60705,
-      "tmdbRating": 6.7,
-      "votes": 174,
-      "score": 2.16,
-      "rank": 23,
-      "creators": [
-        "Dana Goodman",
-        "Julia Lea Wolov"
-      ],
-      "seasons": 3,
-      "episodes": 38,
-      "episodeRuntime": 22,
-      "showStatus": "Canceled",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/vb9J7q977HB3AmvLETpmWIyIyTP.jpg",
-      "providers": {
-        "flatrate": [],
-        "rent": []
-      },
-      "scores": {
-        "rt": null,
-        "metacritic": null,
-        "imdb": 7.3
       },
       "why": "Drew Hancock wrote for this (directed Companion 4★)"
     }
