@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-10T17:01:20.983Z",
+  "generated": "2026-11-11T17:05:50.311Z",
   "basedOn": {
-    "loved": 36,
-    "seenWithKeywords": 370,
+    "loved": 37,
+    "seenWithKeywords": 371,
     "filmsEnriched": 628
   },
   "themes": [
@@ -13,7 +13,7 @@
       "affinity": 2.5,
       "affinityNorm": 0.42,
       "lovedCount": 2,
-      "lovedShare": 0.06,
+      "lovedShare": 0.05,
       "seenCount": 13,
       "seenShare": 0.04,
       "tilt": 0.02,
@@ -60,7 +60,7 @@
       "lovedShare": 0.11,
       "seenCount": 20,
       "seenShare": 0.05,
-      "tilt": 0.06,
+      "tilt": 0.05,
       "lovedFilms": [
         {
           "title": "Persona",
@@ -224,7 +224,7 @@
       "affinity": 2.5,
       "affinityNorm": 0.42,
       "lovedCount": 2,
-      "lovedShare": 0.06,
+      "lovedShare": 0.05,
       "seenCount": 24,
       "seenShare": 0.06,
       "tilt": -0.01,
@@ -390,7 +390,7 @@
       "id": 1523,
       "lovedCount": 4,
       "seenCount": 17,
-      "tilt": 0.07,
+      "tilt": 0.06,
       "films": [
         "The Prestige (2006)",
         "Poor Things (2023)",
@@ -414,7 +414,7 @@
       "id": 214655,
       "lovedCount": 3,
       "seenCount": 6,
-      "tilt": 0.07,
+      "tilt": 0.06,
       "films": [
         "Poor Things (2023)",
         "Bugonia (2025)",
@@ -657,9 +657,9 @@
     }
   ],
   "coverage": {
-    "filmsWithKeywords": 370,
+    "filmsWithKeywords": 371,
     "filmsWithoutKeywords": 1,
-    "distinctKeywords": 3265,
+    "distinctKeywords": 3266,
     "mappedKeywords": 31,
     "unmappedSeenTwicePlus": 1094
   }

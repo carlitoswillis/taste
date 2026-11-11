@@ -1,15 +1,15 @@
 {
-  "generated": "2026-11-10",
+  "generated": "2026-11-11",
   "counts": {
-    "seen": 366,
-    "rated": 53,
-    "scored": 48,
-    "perfect": 8
+    "seen": 367,
+    "rated": 54,
+    "scored": 49,
+    "perfect": 9
   },
   "tiers": {
     "3": 1,
     "4": 19,
-    "5": 8,
+    "5": 9,
     "4.5": 9,
     "3.5": 10,
     "2.5": 1
@@ -23,49 +23,49 @@
     "1990": 21,
     "2000": 62,
     "2010": 114,
-    "2020": 145
+    "2020": 146
   },
   "genreTilt": [
     {
       "genre": "Drama",
-      "lovedShare": 0.5,
-      "seenShare": 0.3452054794520548,
-      "tilt": 0.15479452054794518
+      "lovedShare": 0.4864864864864865,
+      "seenShare": 0.3442622950819672,
+      "tilt": 0.1422241914045193
     },
     {
       "genre": "Mystery",
-      "lovedShare": 0.2222222222222222,
-      "seenShare": 0.14794520547945206,
-      "tilt": 0.07427701674277015
+      "lovedShare": 0.21621621621621623,
+      "seenShare": 0.14754098360655737,
+      "tilt": 0.06867523260965885
     },
     {
       "genre": "Fantasy",
-      "lovedShare": 0.16666666666666666,
-      "seenShare": 0.10410958904109589,
-      "tilt": 0.06255707762557076
-    },
-    {
-      "genre": "Documentary",
-      "lovedShare": 0.05555555555555555,
-      "seenShare": 0.00821917808219178,
-      "tilt": 0.04733637747336377
+      "lovedShare": 0.16216216216216217,
+      "seenShare": 0.10382513661202186,
+      "tilt": 0.05833702555014031
     },
     {
       "genre": "Comedy",
-      "lovedShare": 0.2777777777777778,
-      "seenShare": 0.2410958904109589,
-      "tilt": 0.03668188736681888
+      "lovedShare": 0.2972972972972973,
+      "seenShare": 0.24316939890710382,
+      "tilt": 0.054127898390193496
     },
     {
-      "genre": "Horror",
-      "lovedShare": 0.2777777777777778,
-      "seenShare": 0.25753424657534246,
-      "tilt": 0.020243531202435328
+      "genre": "Documentary",
+      "lovedShare": 0.05405405405405406,
+      "seenShare": 0.00819672131147541,
+      "tilt": 0.045857332742578645
+    },
+    {
+      "genre": "History",
+      "lovedShare": 0.02702702702702703,
+      "seenShare": 0.00819672131147541,
+      "tilt": 0.018830305715551617
     }
   ],
   "genreCoverage": {
-    "loved": 36,
-    "seen": 365
+    "loved": 37,
+    "seen": 366
   },
   "lovedAgainstCritics": [
     {
@@ -114,5 +114,5 @@
     }
   ],
   "profileUpdated": "2026-07-22",
-  "newSinceProfile": 29
+  "newSinceProfile": 30
 }

@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-10T17:02:59.476Z",
+  "generated": "2026-11-11T17:07:44.344Z",
   "basedOn": {
-    "lovedFilms": 36,
+    "lovedFilms": 37,
     "ratedBooks": 0,
     "confirmedAdaptations": 149
   },
@@ -427,8 +427,8 @@
         "average": 4.818182,
         "count": 22
       },
-      "weight": 1.11,
-      "rankScore": 7.04,
+      "weight": 1.17,
+      "rankScore": 7.16,
       "why": "thriller on the page — you over-index on it in film · horror on the page — you over-index on it in film",
       "rank": 25
     },
@@ -461,8 +461,8 @@
         "average": 4.531579,
         "count": 190
       },
-      "weight": 0.82,
-      "rankScore": 6.17,
+      "weight": 0.88,
+      "rankScore": 6.29,
       "why": "thriller on the page — you over-index on it in film · science fiction on the page — you over-index on it in film",
       "rank": 27
     },
@@ -475,11 +475,11 @@
       "cover": "https://covers.openlibrary.org/b/id/11447888-M.jpg",
       "editionCount": 74,
       "olRating": {
-        "average": 4.397626,
-        "count": 337
+        "average": 4.4,
+        "count": 345
       },
-      "weight": 0.82,
-      "rankScore": 6.04,
+      "weight": 0.88,
+      "rankScore": 6.16,
       "why": "thriller on the page — you over-index on it in film · science fiction on the page — you over-index on it in film",
       "rank": 28
     },
@@ -495,10 +495,27 @@
         "average": 4.5306125,
         "count": 49
       },
-      "weight": 0.74,
-      "rankScore": 6.01,
+      "weight": 0.8,
+      "rankScore": 6.13,
       "why": "thriller on the page — you over-index on it in film · mystery on the page — you over-index on it in film",
       "rank": 29
+    },
+    {
+      "title": "The Green Mile",
+      "author": "Stephen King",
+      "olWork": "OL81629W",
+      "year": 1996,
+      "pages": 465,
+      "cover": "https://covers.openlibrary.org/b/id/9334567-M.jpg",
+      "editionCount": 94,
+      "olRating": {
+        "average": 4.3097343,
+        "count": 113
+      },
+      "weight": 0.86,
+      "rankScore": 6.03,
+      "why": "thriller on the page — you over-index on it in film · horror on the page — you over-index on it in film",
+      "rank": 30
     },
     {
       "title": "Six of Crows",
@@ -515,24 +532,24 @@
       "weight": 0.7,
       "rankScore": 5.94,
       "why": "science fiction on the page — you over-index on it in film · mystery on the page — you over-index on it in film",
-      "rank": 30
+      "rank": 31
     },
     {
-      "title": "The Green Mile",
+      "title": "The Shining",
       "author": "Stephen King",
-      "olWork": "OL81629W",
-      "year": 1996,
-      "pages": 465,
-      "cover": "https://covers.openlibrary.org/b/id/9334567-M.jpg",
-      "editionCount": 94,
+      "olWork": "OL81633W",
+      "year": 1977,
+      "pages": 506,
+      "cover": "https://covers.openlibrary.org/b/id/12376585-M.jpg",
+      "editionCount": 98,
       "olRating": {
-        "average": 4.3097343,
-        "count": 113
+        "average": 4.1898303,
+        "count": 295
       },
-      "weight": 0.8,
+      "weight": 0.86,
       "rankScore": 5.91,
       "why": "thriller on the page — you over-index on it in film · horror on the page — you over-index on it in film",
-      "rank": 31
+      "rank": 32
     },
     {
       "title": "Watchmen",
@@ -549,24 +566,24 @@
       "weight": 0.7,
       "rankScore": 5.87,
       "why": "science fiction on the page — you over-index on it in film · mystery on the page — you over-index on it in film",
-      "rank": 32
+      "rank": 33
     },
     {
-      "title": "The Shining",
-      "author": "Stephen King",
-      "olWork": "OL81633W",
-      "year": 1977,
-      "pages": 506,
-      "cover": "https://covers.openlibrary.org/b/id/12376585-M.jpg",
-      "editionCount": 98,
+      "title": "The Sea of Monsters",
+      "author": "Rick Riordan",
+      "olWork": "OL492646W",
+      "year": 2005,
+      "pages": 282,
+      "cover": "https://covers.openlibrary.org/b/id/108909-M.jpg",
+      "editionCount": 84,
       "olRating": {
-        "average": 4.1898303,
-        "count": 295
+        "average": 4.4564104,
+        "count": 195
       },
-      "weight": 0.8,
-      "rankScore": 5.79,
-      "why": "thriller on the page — you over-index on it in film · horror on the page — you over-index on it in film",
-      "rank": 33
+      "weight": 0.49,
+      "rankScore": 5.44,
+      "why": "thriller on the page — you over-index on it in film",
+      "rank": 34
     },
     {
       "title": "The Throne of Fire",
@@ -583,7 +600,7 @@
       "weight": 0.39,
       "rankScore": 5.37,
       "why": "science fiction on the page — you over-index on it in film",
-      "rank": 34
+      "rank": 35
     },
     {
       "title": "The Silver Eyes (Five Nights At Freddy's #1)",
@@ -600,23 +617,6 @@
       "weight": 0.37,
       "rankScore": 5.32,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 35
-    },
-    {
-      "title": "The Sea of Monsters",
-      "author": "Rick Riordan",
-      "olWork": "OL492646W",
-      "year": 2005,
-      "pages": 282,
-      "cover": "https://covers.openlibrary.org/b/id/108909-M.jpg",
-      "editionCount": 84,
-      "olRating": {
-        "average": 4.4564104,
-        "count": 195
-      },
-      "weight": 0.43,
-      "rankScore": 5.32,
-      "why": "thriller on the page — you over-index on it in film",
       "rank": 36
     },
     {
@@ -637,6 +637,23 @@
       "rank": 37
     },
     {
+      "title": "The Stand",
+      "author": "Stephen King",
+      "olWork": "OL81618W",
+      "year": 1978,
+      "pages": 1153,
+      "cover": "https://covers.openlibrary.org/b/id/9255992-M.jpg",
+      "editionCount": 87,
+      "olRating": {
+        "average": 4.308511,
+        "count": 94
+      },
+      "weight": 0.49,
+      "rankScore": 5.29,
+      "why": "thriller on the page — you over-index on it in film",
+      "rank": 38
+    },
+    {
       "title": "Season of Mists",
       "author": "Neil Gaiman",
       "olWork": "OL14975242W",
@@ -651,40 +668,23 @@
       "weight": 0.37,
       "rankScore": 5.28,
       "why": "horror on the page — you over-index on it in film",
-      "rank": 38
-    },
-    {
-      "title": "Maus I",
-      "author": "Art Spiegelman",
-      "olWork": "OL2056818W",
-      "year": 1986,
-      "pages": 295,
-      "cover": "https://covers.openlibrary.org/b/id/10210168-M.jpg",
-      "editionCount": 66,
-      "olRating": {
-        "average": 4.502924,
-        "count": 171
-      },
-      "weight": 0.37,
-      "rankScore": 5.24,
-      "why": "horror on the page — you over-index on it in film",
       "rank": 39
     },
     {
-      "title": "Stories of Your Life and Others",
-      "author": "Ted Chiang",
-      "olWork": "OL6216050W",
-      "year": 2002,
-      "pages": 317,
-      "cover": "https://covers.openlibrary.org/b/id/524046-M.jpg",
-      "editionCount": 34,
+      "title": "Le Comte de Monte-Cristo",
+      "author": "Alexandre Dumas",
+      "olWork": "OL36287W",
+      "year": 1830,
+      "pages": 599,
+      "cover": "https://covers.openlibrary.org/b/id/14566393-M.jpg",
+      "editionCount": 737,
       "olRating": {
-        "average": 4.43617,
-        "count": 94
+        "average": 4.268293,
+        "count": 205
       },
-      "weight": 0.39,
-      "rankScore": 5.22,
-      "why": "science fiction on the page — you over-index on it in film",
+      "weight": 0.49,
+      "rankScore": 5.25,
+      "why": "thriller on the page — you over-index on it in film",
       "rank": 40
     }
   ]

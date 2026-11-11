@@ -1,6 +1,6 @@
 {
   "user": "carlitxs",
-  "fetched": "2026-11-10T16:59:42.920Z",
+  "fetched": "2026-11-11T17:04:10.497Z",
   "source": "films-pages",
   "entries": [
     {
@@ -752,6 +752,16 @@
       "watched": null,
       "undated": true,
       "link": "https://letterboxd.com/film/wildwood-2026/"
+    },
+    {
+      "title": "Wild Horse Nine",
+      "year": 2026,
+      "rating": 5,
+      "liked": true,
+      "rewatch": false,
+      "watched": null,
+      "undated": true,
+      "link": "https://letterboxd.com/film/wild-horse-nine/"
     }
   ]
 }
