@@ -9,9 +9,11 @@
 // directors adapted in films you haven't logged. Writes data/adaptations.json.
 // Needs enrichment (run enrich-tmdb.mjs first). Run: npm run bridge
 
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { EMPTY, edgeKey, writeMachineResult } from "./lib/adaptation-review.mjs";
+import { readJsonStrict, writeJsonAtomic } from "./lib/atomic-json.mjs";
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 
@@ -33,7 +35,11 @@ const read = async (name, fallback) => {
 const ratings = await read("ratings", []);
 const enrichment = await read("enrichment", {});
 const books = await read("books", []);
-const existing = await read("adaptations", { edges: [], rejected: [], flaggedOnly: [], adjacentAuthors: [] });
+// Start-of-run snapshot, used only to skip work for rejected keys. The file is re-read and merged at write time
+// (lib/adaptation-review.mjs), so reviews made in the app during the network passes are never lost. A corrupt
+// file throws here instead of being treated as empty.
+const adaptationsFile = path.join(root, "data/adaptations.json");
+const existing = readJsonStrict(adaptationsFile, EMPTY());
 
 const USER_AGENT = "taste/0.1 (https://github.com/carlitoswillis/taste)";
 const qid = (uri) => uri?.split("/").pop() ?? null;
@@ -60,7 +66,6 @@ for (const [k, e] of Object.entries(enrichment)) if (e.imdbId) byImdb.set(e.imdb
 const scoreOf = new Map(ratings.filter((r) => r.score != null).map((r) => [`${r.title} (${r.year})`, r.score]));
 const readSet = new Set(books.filter((b) => b.status === "read").map((b) => `${b.title.toLowerCase()}|${b.author.toLowerCase()}`));
 const rejectedKeys = new Set((existing.rejected ?? []).map((e) => `${e.screen}::${e.book?.wikidata ?? e.book?.title}`));
-const edgeKey = (e) => `${e.screen}::${e.book.wikidata ?? e.book.title}`;
 
 // --- pass 1: bulk Wikidata — imdbId -> P144 work -> P50 author --------------
 const values = [...byImdb.keys()].map((id) => `"${id}"`).join(" ");
@@ -135,15 +140,6 @@ if (omdbKey) {
   console.log("(no OMDB_API_KEY — skipping the Writer-parse pass)");
 }
 
-// carry over hand-confirmed and reviewed edges the passes didn't rediscover
-for (const e of existing.edges ?? []) {
-  const key = edgeKey(e);
-  if (rejectedKeys.has(key)) continue;
-  const found = edges.find((x) => edgeKey(x) === key);
-  if (!found && (e.source === "manual" || e.status === "confirmed")) edges.push(e);
-  else if (found && found.status === "candidate" && e.status === "confirmed") found.status = "confirmed";
-}
-
 // --- pass 3: TMDB keyword 818 present but nothing resolved -> flaggedOnly ---
 const flaggedOnly = [];
 for (const [k, e] of Object.entries(enrichment)) {
@@ -201,32 +197,29 @@ SELECT ?tmdb ?filmLabel ?author ?authorLabel ?authorOL WHERE {
 }
 console.log(`${adjacentAuthors.length} adjacent authors via ${topDirectors.length} top directors`);
 
-// --- recompute read flags, write --------------------------------------------
-for (const e of edges) {
-  e.read = readSet.has(`${e.book.title.toLowerCase()}|${(e.book.author ?? "").toLowerCase()}`);
-}
-
-const out = {
-  generated: new Date().toISOString(),
-  edges: edges.sort((a, b) => (scoreOf.get(b.screen) ?? 0) - (scoreOf.get(a.screen) ?? 0)),
-  rejected: existing.rejected ?? [],
-  flaggedOnly,
-  adjacentAuthors,
-};
-await writeFile(path.join(root, "data/adaptations.json"), JSON.stringify(out, null, 2) + "\n");
+// --- merge into the file as it is NOW, write atomically ----------------------
+// Reviews (confirmed / rejected) in the current file always beat this run's machine output.
+const merged = writeMachineResult(
+  adaptationsFile,
+  { edges, flaggedOnly, adjacentAuthors },
+  (list) => {
+    for (const e of list) e.read = readSet.has(`${e.book.title.toLowerCase()}|${(e.book.author ?? "").toLowerCase()}`);
+    return list.sort((a, b) => (scoreOf.get(b.screen) ?? 0) - (scoreOf.get(a.screen) ?? 0));
+  },
+);
 
 // back-fill adaptedAs on already-enriched books (tolerate the file not existing)
 const bookEnrichment = await read("book-enrichment", null);
 if (bookEnrichment) {
   for (const [k, entry] of Object.entries(bookEnrichment)) {
     if (entry.unmatched) continue;
-    entry.adaptedAs = edges
+    entry.adaptedAs = merged.edges
       .filter((e) => e.status === "confirmed" && (e.book.olWork === entry.olWork || `${e.book.title} (${e.book.author})` === k))
       .map((e) => e.screen);
   }
-  await writeFile(path.join(root, "data/book-enrichment.json"), JSON.stringify(bookEnrichment, null, 2) + "\n");
+  writeJsonAtomic(path.join(root, "data/book-enrichment.json"), bookEnrichment);
 }
 
-const nConfirmed = edges.filter((e) => e.status === "confirmed").length;
-const nCandidate = edges.filter((e) => e.status === "candidate").length;
+const nConfirmed = merged.edges.filter((e) => e.status === "confirmed").length;
+const nCandidate = merged.edges.filter((e) => e.status === "candidate").length;
 console.log(`\n${nConfirmed} confirmed, ${nCandidate} candidate, ${flaggedOnly.length} flagged-only -> data/adaptations.json`);

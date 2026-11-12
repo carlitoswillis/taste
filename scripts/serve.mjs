@@ -4,9 +4,13 @@
 // zero dependencies. Run: npm start  (or node scripts/serve.mjs)
 
 import { createServer } from "node:http";
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { EMPTY, edgeKey, reviewFile } from "./lib/adaptation-review.mjs";
+import { readJsonStrict, writeJsonAtomic, makeSerial } from "./lib/atomic-json.mjs";
+import { upsertLogEntry } from "./lib/log-entry.mjs";
+import { sameFilm, renumber, clearRatedFromQueue } from "./lib/queue.mjs";
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const PORT = Number(process.env.PORT) || 4747;
@@ -21,11 +25,12 @@ const TYPES = {
 
 const dataPath = (name) => path.join(root, "data", `${name}.json`);
 const readData = async (name) => JSON.parse(await readFile(dataPath(name), "utf8"));
-const writeData = (name, value) =>
-  writeFile(dataPath(name), JSON.stringify(value, null, 2) + "\n");
+// temp file + rename: the page polls data/ live and sync scripts read these files, so a reader never sees a
+// truncated file. A read error (missing or bad JSON) throws and the handler answers 400 without writing.
+const writeData = async (name, value) => writeJsonAtomic(dataPath(name), value);
+// handlers run one at a time so two requests never interleave their read-modify-write
+const serial = makeSerial();
 
-const sameFilm = (a, b) =>
-  a.title.toLowerCase() === String(b.title).toLowerCase() && (!a.year || !b.year || a.year === Number(b.year));
 
 async function readBody(req) {
   let raw = "";
@@ -53,21 +58,16 @@ const api = {
     const score = body.score == null ? null : Number(body.score);
     if (score != null && !VALID_SCORES.has(score)) throw new Error("score must be 0.5–5 in half steps");
 
-    const entry = { title, year, director: body.director || null, score };
+    const entry = { title, year, score };
+    if (body.director) entry.director = String(body.director);
     if (body.note) entry.note = String(body.note);
 
     const ratings = await readData("ratings");
-    const i = ratings.findIndex((r) => sameFilm(r, entry));
-    i >= 0 ? (ratings[i] = { ...ratings[i], ...entry }) : ratings.push(entry);
+    const updated = upsertLogEntry(ratings, entry, { director: null });
     await writeData("ratings", ratings);
 
-    const watchlist = await readData("watchlist");
-    const rest = watchlist.filter((w) => !sameFilm(w, entry));
-    if (rest.length !== watchlist.length) {
-      rest.sort((a, b) => a.rank - b.rank).forEach((w, idx) => (w.rank = idx + 1));
-      await writeData("watchlist", rest);
-    }
-    return { ok: true, updated: i >= 0 };
+    clearRatedFromQueue(path.join(root, "data"), { queue: "watchlist", log: "ratings" });
+    return { ok: true, updated };
   },
 
   "api/watchlist": async (body) => {
@@ -92,7 +92,7 @@ const api = {
     const watchlist = await readData("watchlist");
     const rest = watchlist.filter((w) => !sameFilm(w, body));
     if (rest.length === watchlist.length) throw new Error("not in the queue");
-    rest.sort((a, b) => a.rank - b.rank).forEach((w, idx) => (w.rank = idx + 1));
+    renumber(rest);
     await writeData("watchlist", rest);
     return { ok: true };
   },
@@ -107,22 +107,17 @@ const api = {
     const status = String(body.status ?? "");
     if (!TV_STATUS.has(status)) throw new Error("status must be watching, finished, or abandoned");
 
-    const entry = { title, year, creator: body.creator || null, score, status };
+    const entry = { title, year, score, status };
+    if (body.creator) entry.creator = String(body.creator);
     if (body.seasonsWatched != null) entry.seasonsWatched = Number(body.seasonsWatched);
     if (body.note) entry.note = String(body.note);
 
     const ratings = await readData("tv-ratings");
-    const i = ratings.findIndex((r) => sameFilm(r, entry));
-    i >= 0 ? (ratings[i] = { ...ratings[i], ...entry }) : ratings.push(entry);
+    const updated = upsertLogEntry(ratings, entry, { creator: null });
     await writeData("tv-ratings", ratings);
 
-    const watchlist = await readData("tv-watchlist");
-    const rest = watchlist.filter((w) => !sameFilm(w, entry));
-    if (rest.length !== watchlist.length) {
-      rest.sort((a, b) => a.rank - b.rank).forEach((w, idx) => (w.rank = idx + 1));
-      await writeData("tv-watchlist", rest);
-    }
-    return { ok: true, updated: i >= 0 };
+    clearRatedFromQueue(path.join(root, "data"), { queue: "tv-watchlist", log: "tv-ratings" });
+    return { ok: true, updated };
   },
 
   "api/tv-watchlist": async (body) => {
@@ -147,7 +142,7 @@ const api = {
     const watchlist = await readData("tv-watchlist");
     const rest = watchlist.filter((w) => !sameFilm(w, body));
     if (rest.length === watchlist.length) throw new Error("not in the queue");
-    rest.sort((a, b) => a.rank - b.rank).forEach((w, idx) => (w.rank = idx + 1));
+    renumber(rest);
     await writeData("tv-watchlist", rest);
     return { ok: true };
   },
@@ -195,22 +190,18 @@ const api = {
   "api/adaptations": async (body) => {
     const action = String(body.action ?? "");
     if (action !== "confirm" && action !== "reject") throw new Error("action must be confirm or reject");
-    const data = await readData("adaptations");
-    const edges = data.edges ?? [];
-    const keyOf = (e) => `${e.screen}::${e.book?.wikidata ?? e.book?.title}`;
-    const i = body.index != null
-      ? Number(body.index)
-      : edges.findIndex((e) => keyOf(e) === String(body.key));
-    if (!Number.isInteger(i) || i < 0 || i >= edges.length) throw new Error("no such edge");
-    const edge = edges[i];
-    if (action === "confirm") {
-      edge.status = "confirmed";
-    } else {
-      edges.splice(i, 1);
-      (data.rejected ??= []).push(edge);
+    // The review state machine lives in lib/adaptation-review.mjs; read -> decide -> atomic write is synchronous,
+    // so the bridge script (which merges through the same module) and this handler cannot interleave.
+    const file = dataPath("adaptations");
+    let key = body.key != null ? String(body.key) : null;
+    if (body.index != null) {
+      const edges = readJsonStrict(file, EMPTY()).edges ?? [];
+      const e = edges[Number(body.index)];
+      if (!e) throw new Error("no such edge");
+      key = edgeKey(e);
     }
-    await writeData("adaptations", data);
-    return { ok: true, edge: keyOf(edge), status: action === "confirm" ? "confirmed" : "rejected" };
+    const { status } = reviewFile(file, key, action);
+    return { ok: true, edge: key, status };
   },
 
   "api/oldfilms/verdict": async (body) => {
@@ -237,7 +228,7 @@ const server = createServer(async (req, res) => {
       const handler = api[route];
       if (!handler) return send(404, `{"error":"no such endpoint"}`);
       try {
-        return send(200, JSON.stringify(await handler(await readBody(req))));
+        return send(200, JSON.stringify(await serial(async () => handler(await readBody(req)))));
       } catch (err) {
         return send(400, JSON.stringify({ error: err.message }));
       }

@@ -58,11 +58,11 @@ test("ambientSize: pool/8 capped at 25, floor 15", () => {
 test("real feed: 30 days from today", () => {
   const start = dateKey(), dist = mkdtempSync(path.join(tmpdir(), "ambient-"));
   const feed = (d) => {
-    execFileSync("node", ["scripts/build-tv-feed.mjs"], { cwd: root, env: { ...process.env, TV_FEED_DATE: d, TV_FEED_DIST: dist }, stdio: ["ignore", "pipe", "pipe"] });
+    execFileSync("node", ["scripts/build-tv-feed.mjs"], { cwd: root, env: { TV_FEED_PATH: "0".repeat(32), ...process.env, TV_FEED_DATE: d, TV_FEED_DIST: dist }, stdio: ["ignore", "pipe", "pipe"] });
     const dir = path.join(dist, "tv", readdirSync(path.join(dist, "tv"))[0]);
     return JSON.parse(readFileSync(path.join(dir, "feed.json"), "utf8")).ambient.items;
   };
-  const poolSize = Number(/pool (\d+)/.exec(execFileSync("node", ["scripts/build-tv-feed.mjs"], { cwd: root, env: { ...process.env, TV_FEED_DIST: dist }, encoding: "utf8" }))[1]);
+  const poolSize = Number(/pool (\d+)/.exec(execFileSync("node", ["scripts/build-tv-feed.mjs"], { cwd: root, env: { TV_FEED_PATH: "0".repeat(32), ...process.env, TV_FEED_DIST: dist }, encoding: "utf8" }))[1]);
   const size = ambientSize(poolSize);
   const days = Array.from({ length: 30 }, (_, i) => shiftDateKey(start, i));
   const sets = days.map(feed);

@@ -13,9 +13,11 @@
 // first-seen dates with real ones). Exact dates come from logging a film via
 // Letterboxd's "Log" (diary), not the eye icon.
 
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { clearRatedFromQueue } from "./lib/queue.mjs";
+import { writeJsonAtomic } from "./lib/atomic-json.mjs";
 import { parseRss, parseFilmsGrid, lastFilmsPage, isChallenge, chooseEntries, mergeEntries, addFirstSeen, laDate } from "./lib/letterboxd.mjs";
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
@@ -79,7 +81,7 @@ if (!chosen.length) {
 const stored = mergeEntries(prev.entries, entries);
 
 const out = { user: config.letterboxd, fetched: new Date().toISOString(), source, entries: stored };
-await writeFile(outPath, JSON.stringify(out, null, 2) + "\n");
+writeJsonAtomic(outPath, out);
 console.log(`Fetched ${entries.length} entries (${source}), ${stored.length} stored -> data/letterboxd.json`);
 
 // Flag rated entries that aren't in data/ratings.json yet, so the profile can be updated.
@@ -129,9 +131,11 @@ for (const e of entries) {
   }
 }
 if (ratingsChanged) {
-  await writeFile(path.join(root, "data/ratings.json"), JSON.stringify(ratings, null, 2) + "\n");
+  writeJsonAtomic(path.join(root, "data/ratings.json"), ratings);
   console.log("Merged new ratings -> data/ratings.json");
 }
+// Rating a title removes it from the watch queue (idempotent; also heals rows rated earlier).
+for (const w of clearRatedFromQueue(path.join(root, "data"))) console.log(`  left the queue (rated): ${w.title} (${w.year})`);
 
 // Watched: append unseen films so the seen-set stays complete. Years here come
 // from Letterboxd (importer CSV) just like the RSS, so the exact key is safe —
@@ -141,6 +145,6 @@ const { watched: watchedNext, added } = addFirstSeen(watched, entries, laDate())
 const watchedAdded = added.length;
 for (const w of added) console.log(`  merged watch: ${w.title} (${w.year}) — ${w.watched}${w.dateSource ? " (first-seen)" : ""}`);
 if (watchedAdded) {
-  await writeFile(path.join(root, "data/watched.json"), JSON.stringify(watchedNext, null, 2) + "\n");
+  writeJsonAtomic(path.join(root, "data/watched.json"), watchedNext);
   console.log(`Merged ${watchedAdded} new watches -> data/watched.json`);
 }
