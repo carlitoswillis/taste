@@ -8,7 +8,7 @@
 // - ratings.csv  -> merged into data/ratings.json for films not already there
 //   (your hand-written entries and notes are never touched)
 
-import { readFile, writeFile, mkdtemp, readdir } from "node:fs/promises";
+import { readFile, mkdtemp, readdir } from "node:fs/promises";
 import { existsSync, statSync } from "node:fs";
 import { execFileSync } from "node:child_process";
 import os from "node:os";
@@ -17,6 +17,7 @@ import { fileURLToPath } from "node:url";
 import { parseCsv } from "./lib/csv.mjs";
 import { mergeExportWatched } from "./lib/letterboxd.mjs";
 import { clearRatedFromQueue } from "./lib/queue.mjs";
+import { writeJsonAtomic } from "./lib/atomic-json.mjs";
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const input = process.argv[2];
@@ -56,7 +57,7 @@ if (watchedCsv) {
   let current = [];
   try { current = JSON.parse(await readFile(path.join(root, "data/watched.json"), "utf8")); } catch {}
   const merged = mergeExportWatched(current, watched);
-  await writeFile(path.join(root, "data/watched.json"), JSON.stringify(merged, null, 2) + "\n");
+  writeJsonAtomic(path.join(root, "data/watched.json"), merged);
   console.log(`${merged.length} films -> data/watched.json`);
 }
 
@@ -73,7 +74,7 @@ if (ratingsCsv) {
     added++;
     console.log(`  new rating: ${r.Name} (${r.Year}) — ${r.Rating}`);
   }
-  if (added) await writeFile(path.join(root, "data/ratings.json"), JSON.stringify(ratings, null, 2) + "\n");
+  if (added) writeJsonAtomic(path.join(root, "data/ratings.json"), ratings);
   console.log(`${added} new ratings merged (existing entries untouched)`);
   for (const w of clearRatedFromQueue(path.join(root, "data"))) console.log(`  left the queue (rated): ${w.title} (${w.year})`);
 }

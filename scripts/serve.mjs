@@ -4,11 +4,12 @@
 // zero dependencies. Run: npm start  (or node scripts/serve.mjs)
 
 import { createServer } from "node:http";
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { EMPTY, edgeKey, reviewFile } from "./lib/adaptation-review.mjs";
-import { readJsonStrict } from "./lib/atomic-json.mjs";
+import { readJsonStrict, writeJsonAtomic, makeSerial } from "./lib/atomic-json.mjs";
+import { upsertLogEntry } from "./lib/log-entry.mjs";
 import { sameFilm, renumber, clearRatedFromQueue } from "./lib/queue.mjs";
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
@@ -24,8 +25,11 @@ const TYPES = {
 
 const dataPath = (name) => path.join(root, "data", `${name}.json`);
 const readData = async (name) => JSON.parse(await readFile(dataPath(name), "utf8"));
-const writeData = (name, value) =>
-  writeFile(dataPath(name), JSON.stringify(value, null, 2) + "\n");
+// temp file + rename: the page polls data/ live and sync scripts read these files, so a reader never sees a
+// truncated file. A read error (missing or bad JSON) throws and the handler answers 400 without writing.
+const writeData = async (name, value) => writeJsonAtomic(dataPath(name), value);
+// handlers run one at a time so two requests never interleave their read-modify-write
+const serial = makeSerial();
 
 
 async function readBody(req) {
@@ -54,16 +58,16 @@ const api = {
     const score = body.score == null ? null : Number(body.score);
     if (score != null && !VALID_SCORES.has(score)) throw new Error("score must be 0.5–5 in half steps");
 
-    const entry = { title, year, director: body.director || null, score };
+    const entry = { title, year, score };
+    if (body.director) entry.director = String(body.director);
     if (body.note) entry.note = String(body.note);
 
     const ratings = await readData("ratings");
-    const i = ratings.findIndex((r) => sameFilm(r, entry));
-    i >= 0 ? (ratings[i] = { ...ratings[i], ...entry }) : ratings.push(entry);
+    const updated = upsertLogEntry(ratings, entry, { director: null });
     await writeData("ratings", ratings);
 
     clearRatedFromQueue(path.join(root, "data"), { queue: "watchlist", log: "ratings" });
-    return { ok: true, updated: i >= 0 };
+    return { ok: true, updated };
   },
 
   "api/watchlist": async (body) => {
@@ -103,17 +107,17 @@ const api = {
     const status = String(body.status ?? "");
     if (!TV_STATUS.has(status)) throw new Error("status must be watching, finished, or abandoned");
 
-    const entry = { title, year, creator: body.creator || null, score, status };
+    const entry = { title, year, score, status };
+    if (body.creator) entry.creator = String(body.creator);
     if (body.seasonsWatched != null) entry.seasonsWatched = Number(body.seasonsWatched);
     if (body.note) entry.note = String(body.note);
 
     const ratings = await readData("tv-ratings");
-    const i = ratings.findIndex((r) => sameFilm(r, entry));
-    i >= 0 ? (ratings[i] = { ...ratings[i], ...entry }) : ratings.push(entry);
+    const updated = upsertLogEntry(ratings, entry, { creator: null });
     await writeData("tv-ratings", ratings);
 
     clearRatedFromQueue(path.join(root, "data"), { queue: "tv-watchlist", log: "tv-ratings" });
-    return { ok: true, updated: i >= 0 };
+    return { ok: true, updated };
   },
 
   "api/tv-watchlist": async (body) => {
@@ -224,7 +228,7 @@ const server = createServer(async (req, res) => {
       const handler = api[route];
       if (!handler) return send(404, `{"error":"no such endpoint"}`);
       try {
-        return send(200, JSON.stringify(await handler(await readBody(req))));
+        return send(200, JSON.stringify(await serial(async () => handler(await readBody(req)))));
       } catch (err) {
         return send(400, JSON.stringify({ error: err.message }));
       }
