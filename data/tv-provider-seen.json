@@ -621,6 +621,11 @@
    "Amazon Prime Video": null,
    "Amazon Prime Video with Ads": null
   },
+  "9386": {
+   "Philo": null,
+   "YouTube TV": null,
+   "Sony Pictures Core Amazon Channel": null
+  },
   "9426": {
    "AMC": null
   },
@@ -731,6 +736,14 @@
    "TCM": null,
    "HBO Max": null
   },
+  "13363": {
+   "Amazon Prime Video": null,
+   "Philo": null,
+   "Fandor": null,
+   "Fandor Amazon Channel": null,
+   "Amazon Prime Video with Ads": null,
+   "Midnight Pulp Amazon Channel": null
+  },
   "13830": {
    "Amazon Prime Video": null,
    "Amazon Prime Video with Ads": null
@@ -817,6 +830,9 @@
   "24428": {
    "Disney Plus": null,
    "Hulu": null
+  },
+  "25126": {
+   "ShortsTV Amazon Channel": null
   },
   "27205": {
    "MGM Plus": null
@@ -1366,6 +1382,12 @@
   "355277": {
    "Disney Plus": null
   },
+  "359940": {
+   "HBO Max Amazon Channel": null,
+   "Cinemax Amazon Channel": null,
+   "HBO Max": null,
+   "Cinemax Apple TV channel": null
+  },
   "376134": {
    "Netflix": null,
    "Netflix Standard with Ads": null
@@ -1847,6 +1869,12 @@
    "Netflix": null,
    "Netflix Standard with Ads": null
   },
+  "674324": {
+   "Hulu": null,
+   "fuboTV": null,
+   "YouTube TV": null,
+   "FXNow": null
+  },
   "687163": {
    "Amazon Prime Video": null,
    "fuboTV": null,
@@ -2302,6 +2330,12 @@
    "MGM Plus": null,
    "Amazon Prime Video with Ads": null
   },
+  "1202479": {
+   "HBO Max Amazon Channel": null,
+   "Cinemax Amazon Channel": null,
+   "HBO Max": null,
+   "Cinemax Apple TV channel": null
+  },
   "1212763": {
    "HBO Max Amazon Channel": null,
    "HBO Max": null
@@ -2377,6 +2411,10 @@
    "Shudder": null,
    "Shudder Amazon Channel": null,
    "Shudder Apple TV Channel": null
+  },
+  "1284186": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
   },
   "1290159": {
    "Netflix": null,

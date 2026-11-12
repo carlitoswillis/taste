@@ -102713,5 +102713,1515 @@
       "metacritic": 62,
       "imdb": 6.2
     }
+  },
+  "The Man from Earth (2007)": {
+    "id": "m:13363",
+    "tmdbId": 13363,
+    "imdbId": "tt0756683",
+    "director": [
+      {
+        "id": 76462,
+        "name": "Richard Schenkman"
+      }
+    ],
+    "writers": [
+      {
+        "id": 15951,
+        "name": "Jerome Bixby"
+      }
+    ],
+    "cast": [
+      {
+        "id": 56112,
+        "name": "David Lee Smith"
+      },
+      {
+        "id": 19384,
+        "name": "Tony Todd"
+      },
+      {
+        "id": 21722,
+        "name": "John Billingsley"
+      },
+      {
+        "id": 76463,
+        "name": "Ellen Crawford"
+      },
+      {
+        "id": 76464,
+        "name": "Annika Peterson"
+      },
+      {
+        "id": 41504,
+        "name": "Alexis Thorpe"
+      },
+      {
+        "id": 45415,
+        "name": "William Katt"
+      },
+      {
+        "id": 18262,
+        "name": "Richard Riehle"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 4978,
+        "name": "immortality"
+      },
+      {
+        "id": 1421,
+        "name": "birthday"
+      },
+      {
+        "id": 3754,
+        "name": "legend"
+      },
+      {
+        "id": 490,
+        "name": "philosophy"
+      },
+      {
+        "id": 1992,
+        "name": "professor"
+      },
+      {
+        "id": 2800,
+        "name": "psychology"
+      },
+      {
+        "id": 3036,
+        "name": "bible"
+      },
+      {
+        "id": 3667,
+        "name": "time"
+      },
+      {
+        "id": 10349,
+        "name": "survival"
+      },
+      {
+        "id": 10983,
+        "name": "anthropology"
+      },
+      {
+        "id": 10506,
+        "name": "prehistory"
+      },
+      {
+        "id": 11001,
+        "name": "religion"
+      },
+      {
+        "id": 10937,
+        "name": "memory"
+      },
+      {
+        "id": 14765,
+        "name": "church"
+      },
+      {
+        "id": 159955,
+        "name": "cavemen"
+      },
+      {
+        "id": 325772,
+        "name": "assertive"
+      },
+      {
+        "id": 325795,
+        "name": "dignified"
+      },
+      {
+        "id": 325807,
+        "name": "enchant"
+      }
+    ],
+    "runtime": 87,
+    "genres": [
+      "Science Fiction",
+      "Drama"
+    ],
+    "tmdbRating": 7.619,
+    "overview": "A departing professor gathers his closest colleagues for an intimate farewell, but the night takes an unexpected turn when he shares a stunning secret about his past. As the conversation unfolds, skepticism and curiosity collide, challenging everything they thought they knew about history, science, and belief.",
+    "tagline": "From one of the acclaimed writers of Star Trek and The Twilight Zone comes a story that transcends both time and space...",
+    "poster": "https://image.tmdb.org/t/p/w342/V086R82gNgWrotaXZFO4JhdgB1.jpg",
+    "backdrop": "/gt4EnUGbbGbNOX0q47YII3WxB48.jpg",
+    "providers": {
+      "flatrate": [
+        "Amazon Prime Video",
+        "Philo",
+        "Fandor",
+        "Fandor Amazon Channel",
+        "Amazon Prime Video with Ads",
+        "Midnight Pulp Amazon Channel"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/13363-the-man-from-earth/watch?locale=US",
+    "providersAt": 1794504762345,
+    "region": "US",
+    "scores": {
+      "rt": 100,
+      "metacritic": null,
+      "imdb": 7.8
+    }
+  },
+  "In Bruges (2008)": {
+    "id": "m:8321",
+    "tmdbId": 8321,
+    "imdbId": "tt0780536",
+    "director": [
+      {
+        "id": 54472,
+        "name": "Martin McDonagh"
+      }
+    ],
+    "writers": [
+      {
+        "id": 54472,
+        "name": "Martin McDonagh"
+      }
+    ],
+    "cast": [
+      {
+        "id": 72466,
+        "name": "Colin Farrell"
+      },
+      {
+        "id": 2039,
+        "name": "Brendan Gleeson"
+      },
+      {
+        "id": 5469,
+        "name": "Ralph Fiennes"
+      },
+      {
+        "id": 11291,
+        "name": "Clémence Poésy"
+      },
+      {
+        "id": 45749,
+        "name": "Thekla Reuten"
+      },
+      {
+        "id": 54476,
+        "name": "Jordan Prentice"
+      },
+      {
+        "id": 42998,
+        "name": "Elizabeth Berrington"
+      },
+      {
+        "id": 51325,
+        "name": "Jérémie Renier"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 2231,
+        "name": "drug dealer"
+      },
+      {
+        "id": 2708,
+        "name": "hitman"
+      },
+      {
+        "id": 5159,
+        "name": "tourist"
+      },
+      {
+        "id": 10123,
+        "name": "dark comedy"
+      },
+      {
+        "id": 6546,
+        "name": "bruges, belgium"
+      },
+      {
+        "id": 14765,
+        "name": "church"
+      },
+      {
+        "id": 33720,
+        "name": "guilt"
+      },
+      {
+        "id": 34079,
+        "name": "death"
+      },
+      {
+        "id": 167227,
+        "name": "town square"
+      },
+      {
+        "id": 167234,
+        "name": "vietnamese"
+      },
+      {
+        "id": 167235,
+        "name": "canadian stereotype"
+      },
+      {
+        "id": 207268,
+        "name": "neo-noir"
+      },
+      {
+        "id": 299594,
+        "name": "irish"
+      },
+      {
+        "id": 325763,
+        "name": "ambiguous"
+      },
+      {
+        "id": 325764,
+        "name": "ambivalent"
+      },
+      {
+        "id": 325782,
+        "name": "cheerful"
+      },
+      {
+        "id": 325811,
+        "name": "excited"
+      }
+    ],
+    "runtime": 108,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Crime"
+    ],
+    "tmdbRating": 7.502,
+    "overview": "Ray and Ken, two hit men, are in Bruges, Belgium, waiting for their next mission. While they are there they have time to think and discuss their previous assignment. When the mission is revealed to Ken, it is not what he expected.",
+    "tagline": "Shoot first. Sightsee later.",
+    "poster": "https://image.tmdb.org/t/p/w342/vz3Vd6nfq9YZrVvyYx5RHFaYKV3.jpg",
+    "backdrop": "/dtGxDOcFssdUUTYBr6M6INXTI1e.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "FlixFling"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/8321-in-bruges/watch?locale=US",
+    "providersAt": 1794504762796,
+    "region": "US",
+    "scores": {
+      "rt": 84,
+      "metacritic": 67,
+      "imdb": 7.9
+    }
+  },
+  "The Banshees of Inisherin (2022)": {
+    "id": "m:674324",
+    "tmdbId": 674324,
+    "imdbId": "tt11813216",
+    "director": [
+      {
+        "id": 54472,
+        "name": "Martin McDonagh"
+      }
+    ],
+    "writers": [
+      {
+        "id": 54472,
+        "name": "Martin McDonagh"
+      }
+    ],
+    "cast": [
+      {
+        "id": 72466,
+        "name": "Colin Farrell"
+      },
+      {
+        "id": 2039,
+        "name": "Brendan Gleeson"
+      },
+      {
+        "id": 62105,
+        "name": "Kerry Condon"
+      },
+      {
+        "id": 1290466,
+        "name": "Barry Keoghan"
+      },
+      {
+        "id": 93209,
+        "name": "Gary Lydon"
+      },
+      {
+        "id": 83278,
+        "name": "Pat Shortt"
+      },
+      {
+        "id": 1597386,
+        "name": "Sheila Flitton"
+      },
+      {
+        "id": 1907071,
+        "name": "Bríd Ní Neachtain"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 6054,
+        "name": "friendship"
+      },
+      {
+        "id": 2041,
+        "name": "island"
+      },
+      {
+        "id": 4144,
+        "name": "donkey"
+      },
+      {
+        "id": 10123,
+        "name": "dark comedy"
+      },
+      {
+        "id": 4730,
+        "name": "irish civil war (1922-23)"
+      },
+      {
+        "id": 14765,
+        "name": "church"
+      },
+      {
+        "id": 14985,
+        "name": "ireland"
+      },
+      {
+        "id": 15111,
+        "name": "drinking"
+      },
+      {
+        "id": 41368,
+        "name": "former best friend"
+      },
+      {
+        "id": 157791,
+        "name": "self mutilation"
+      },
+      {
+        "id": 165518,
+        "name": "fiddle"
+      },
+      {
+        "id": 197582,
+        "name": "mysterious"
+      },
+      {
+        "id": 207876,
+        "name": "1920s"
+      },
+      {
+        "id": 240485,
+        "name": "brother sister relationship"
+      },
+      {
+        "id": 285576,
+        "name": "pub"
+      },
+      {
+        "id": 293649,
+        "name": "provocative"
+      }
+    ],
+    "runtime": 114,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "tmdbRating": 7.463,
+    "overview": "Two lifelong friends find themselves at an impasse when one abruptly ends their relationship, with alarming consequences for both of them.",
+    "tagline": "Everything was fine yesterday.",
+    "poster": "https://image.tmdb.org/t/p/w342/4yFG6cSPaCaPhyJ1vtGOtMD1lgh.jpg",
+    "backdrop": "/1vXD5HXqkhvsXFHE7KmCPZGPR1e.jpg",
+    "providers": {
+      "flatrate": [
+        "Hulu",
+        "fuboTV",
+        "YouTube TV",
+        "FXNow"
+      ],
+      "rent": [
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/674324-the-banshees-of-inisherin/watch?locale=US",
+    "providersAt": 1794504762963,
+    "region": "US",
+    "scores": {
+      "rt": 96,
+      "metacritic": 87,
+      "imdb": 7.6
+    }
+  },
+  "Six Shooter (2004)": {
+    "id": "m:25126",
+    "tmdbId": 25126,
+    "imdbId": "tt0425458",
+    "director": [
+      {
+        "id": 54472,
+        "name": "Martin McDonagh"
+      }
+    ],
+    "writers": [
+      {
+        "id": 54472,
+        "name": "Martin McDonagh"
+      }
+    ],
+    "cast": [
+      {
+        "id": 2039,
+        "name": "Brendan Gleeson"
+      },
+      {
+        "id": 65733,
+        "name": "Rúaidhrí Conroy"
+      },
+      {
+        "id": 73287,
+        "name": "David Wilmot"
+      },
+      {
+        "id": 42607,
+        "name": "Aisling O'Sullivan"
+      },
+      {
+        "id": 93209,
+        "name": "Gary Lydon"
+      },
+      {
+        "id": 93210,
+        "name": "Domhnall Gleeson"
+      },
+      {
+        "id": 93211,
+        "name": "David Murray"
+      },
+      {
+        "id": 5868244,
+        "name": "Tadgh Conroy"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 1419,
+        "name": "gun"
+      },
+      {
+        "id": 1757,
+        "name": "passenger"
+      },
+      {
+        "id": 10123,
+        "name": "dark comedy"
+      },
+      {
+        "id": 9872,
+        "name": "grief"
+      },
+      {
+        "id": 13008,
+        "name": "train"
+      },
+      {
+        "id": 13094,
+        "name": "photograph"
+      },
+      {
+        "id": 14985,
+        "name": "ireland"
+      },
+      {
+        "id": 15090,
+        "name": "police officer"
+      },
+      {
+        "id": 263548,
+        "name": "short film"
+      }
+    ],
+    "runtime": 27,
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Crime"
+    ],
+    "tmdbRating": 7.146,
+    "overview": "Overwhelmed by grief following the death of his wife, Donnelly shares a train carriage home with a troubled young man identified only as the 'Kid'. As the Kid becomes more agitated and foul-mouthed, the journey takes on a violent and dangerous hue – for the bereaved Donnelly and for other hapless passengers on the train. Academy Award Winner: Best Live Action Short Film – 2005",
+    "tagline": "A black and bloody Irish comedy.",
+    "poster": "https://image.tmdb.org/t/p/w342/hBJTJi0SH4avrBr7OQqBZuYPvmA.jpg",
+    "backdrop": "/bTYoUROtBXXDivjpHV6S0zqZYwv.jpg",
+    "providers": {
+      "flatrate": [
+        "ShortsTV Amazon Channel"
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "providersLink": "https://www.themoviedb.org/movie/25126-six-shooter/watch?locale=US",
+    "providersAt": 1794504763131,
+    "region": "US",
+    "scores": {
+      "rt": null,
+      "metacritic": null,
+      "imdb": 7.4
+    }
+  },
+  "Three Billboards Outside Ebbing, Missouri (2017)": {
+    "id": "m:359940",
+    "tmdbId": 359940,
+    "imdbId": "tt5027774",
+    "director": [
+      {
+        "id": 54472,
+        "name": "Martin McDonagh"
+      }
+    ],
+    "writers": [
+      {
+        "id": 54472,
+        "name": "Martin McDonagh"
+      }
+    ],
+    "cast": [
+      {
+        "id": 3910,
+        "name": "Frances McDormand"
+      },
+      {
+        "id": 57755,
+        "name": "Woody Harrelson"
+      },
+      {
+        "id": 6807,
+        "name": "Sam Rockwell"
+      },
+      {
+        "id": 37260,
+        "name": "Abbie Cornish"
+      },
+      {
+        "id": 1105079,
+        "name": "Lucas Hedges"
+      },
+      {
+        "id": 6752,
+        "name": "Željko Ivanek"
+      },
+      {
+        "id": 572541,
+        "name": "Caleb Landry Jones"
+      },
+      {
+        "id": 61011,
+        "name": "Clarke Peters"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 1415,
+        "name": "small town"
+      },
+      {
+        "id": 796,
+        "name": "police brutality"
+      },
+      {
+        "id": 5900,
+        "name": "missouri"
+      },
+      {
+        "id": 7464,
+        "name": "alcoholism"
+      },
+      {
+        "id": 9826,
+        "name": "murder"
+      },
+      {
+        "id": 10163,
+        "name": "cancer"
+      },
+      {
+        "id": 10809,
+        "name": "teenage girl"
+      },
+      {
+        "id": 11734,
+        "name": "police corruption"
+      },
+      {
+        "id": 12425,
+        "name": "racism"
+      },
+      {
+        "id": 15208,
+        "name": "biting"
+      },
+      {
+        "id": 189931,
+        "name": "guilty conscience"
+      },
+      {
+        "id": 200918,
+        "name": "angry"
+      },
+      {
+        "id": 276605,
+        "name": "serious"
+      },
+      {
+        "id": 305726,
+        "name": "grieving mother"
+      }
+    ],
+    "runtime": 115,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "tmdbRating": 8.049,
+    "overview": "After seven months have passed without a culprit in her daughter's murder case, Mildred Hayes makes a bold move, painting three signs leading into her town with a controversial message directed at Bill Willoughby, the town's revered chief of police. When his second-in-command Officer Jason Dixon, an immature mother's boy with a penchant for violence, gets involved, the battle between Mildred and Ebbing's law enforcement is only exacerbated.",
+    "tagline": "A mother personally challenges the local authorities to solve her daughter's murder when they fail to catch the culprit.",
+    "poster": "https://image.tmdb.org/t/p/w342/bRYLt8fV82tdVoDppSFTZIcJiLN.jpg",
+    "backdrop": "/oQHF0Y4gCw6VdPmapjsbZoxY2ht.jpg",
+    "providers": {
+      "flatrate": [
+        "HBO Max Amazon Channel",
+        "Cinemax Amazon Channel",
+        "HBO Max",
+        "Cinemax Apple TV channel"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "Spectrum On Demand"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/359940-three-billboards-outside-ebbing-missouri/watch?locale=US",
+    "providersAt": 1794504763304,
+    "region": "US",
+    "scores": {
+      "rt": 90,
+      "metacritic": 88,
+      "imdb": 8.1
+    }
+  },
+  "In the Line of Fire (1993)": {
+    "id": "m:9386",
+    "tmdbId": 9386,
+    "imdbId": "tt0107206",
+    "director": [
+      {
+        "id": 5231,
+        "name": "Wolfgang Petersen"
+      }
+    ],
+    "writers": [
+      {
+        "id": 57546,
+        "name": "Jeff Maguire"
+      }
+    ],
+    "cast": [
+      {
+        "id": 190,
+        "name": "Clint Eastwood"
+      },
+      {
+        "id": 6949,
+        "name": "John Malkovich"
+      },
+      {
+        "id": 14343,
+        "name": "Rene Russo"
+      },
+      {
+        "id": 32597,
+        "name": "Dylan McDermott"
+      },
+      {
+        "id": 21163,
+        "name": "Gary Cole"
+      },
+      {
+        "id": 17874,
+        "name": "Fred Thompson"
+      },
+      {
+        "id": 4251,
+        "name": "John Mahoney"
+      },
+      {
+        "id": 37937,
+        "name": "Gregory Alan Williams"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 782,
+        "name": "assassin"
+      },
+      {
+        "id": 591,
+        "name": "central intelligence agency (cia)"
+      },
+      {
+        "id": 840,
+        "name": "usa president"
+      },
+      {
+        "id": 833,
+        "name": "the white house"
+      },
+      {
+        "id": 3088,
+        "name": "bodyguard"
+      },
+      {
+        "id": 10333,
+        "name": "stalking"
+      },
+      {
+        "id": 15134,
+        "name": "election"
+      },
+      {
+        "id": 41249,
+        "name": "secret service"
+      },
+      {
+        "id": 197582,
+        "name": "mysterious"
+      },
+      {
+        "id": 202371,
+        "name": "aggressive"
+      },
+      {
+        "id": 208633,
+        "name": "u.s. secret service agent"
+      },
+      {
+        "id": 314730,
+        "name": "suspenseful"
+      },
+      {
+        "id": 321464,
+        "name": "intense"
+      },
+      {
+        "id": 325766,
+        "name": "antagonistic"
+      },
+      {
+        "id": 325777,
+        "name": "bewildered"
+      }
+    ],
+    "runtime": 128,
+    "genres": [
+      "Action",
+      "Thriller",
+      "Crime"
+    ],
+    "tmdbRating": 6.979,
+    "overview": "Veteran Secret Service agent Frank Horrigan is a man haunted by his failure to save President Kennedy while serving protection detail in Dallas. Thirty years later, a man calling himself \"Booth\" threatens the life of the current President, forcing Horrigan to come back to protection detail to confront the ghosts from his past.",
+    "tagline": "An assassin on the loose. A president in danger. Only one man stands between them…",
+    "poster": "https://image.tmdb.org/t/p/w342/3NvOFpmyECI3DNExYMtFIRcGMsu.jpg",
+    "backdrop": "/zYM9IbF08gB1Ip3Qee19HPvNY8T.jpg",
+    "providers": {
+      "flatrate": [
+        "Philo",
+        "YouTube TV",
+        "Sony Pictures Core Amazon Channel"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "Spectrum On Demand"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/9386-in-the-line-of-fire/watch?locale=US",
+    "providersAt": 1794504763470,
+    "region": "US",
+    "scores": {
+      "rt": 96,
+      "metacritic": 74,
+      "imdb": 7.2
+    }
+  },
+  "Sacrifice (2026)": {
+    "id": "m:1284186",
+    "tmdbId": 1284186,
+    "imdbId": "tt32268992",
+    "director": [
+      {
+        "id": 78207,
+        "name": "Romain Gavras"
+      }
+    ],
+    "writers": [
+      {
+        "id": 78207,
+        "name": "Romain Gavras"
+      },
+      {
+        "id": 2716440,
+        "name": "Will Arbery"
+      }
+    ],
+    "cast": [
+      {
+        "id": 16828,
+        "name": "Chris Evans"
+      },
+      {
+        "id": 1397778,
+        "name": "Anya Taylor-Joy"
+      },
+      {
+        "id": 1925,
+        "name": "Vincent Cassel"
+      },
+      {
+        "id": 3136,
+        "name": "Salma Hayek Pinault"
+      },
+      {
+        "id": 6949,
+        "name": "John Malkovich"
+      },
+      {
+        "id": 1529997,
+        "name": "Charli xcx"
+      },
+      {
+        "id": 1429453,
+        "name": "Sam Richardson"
+      },
+      {
+        "id": 2500622,
+        "name": "Zarene Dallas"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 476,
+        "name": "self-fulfilling prophecy"
+      },
+      {
+        "id": 3347,
+        "name": "volcano"
+      },
+      {
+        "id": 6158,
+        "name": "cult"
+      },
+      {
+        "id": 8201,
+        "name": "satire"
+      },
+      {
+        "id": 10150,
+        "name": "end of the world"
+      },
+      {
+        "id": 18233,
+        "name": "hostage situation"
+      },
+      {
+        "id": 33643,
+        "name": "radical"
+      },
+      {
+        "id": 162262,
+        "name": "movie star"
+      },
+      {
+        "id": 163163,
+        "name": "disciples"
+      },
+      {
+        "id": 196682,
+        "name": "rich man"
+      },
+      {
+        "id": 205607,
+        "name": "unlucky"
+      },
+      {
+        "id": 309533,
+        "name": "charity benefit"
+      },
+      {
+        "id": 312677,
+        "name": "existential crisis"
+      },
+      {
+        "id": 332431,
+        "name": "gala"
+      }
+    ],
+    "runtime": 100,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Action"
+    ],
+    "tmdbRating": 5.5,
+    "overview": "At a glitzy Greek island charity gala, a down-on-his-luck movie star lands the heroic role of a lifetime when a volcanic doomsday cult takes him hostage.",
+    "tagline": "You have been chosen.",
+    "poster": "https://image.tmdb.org/t/p/w342/aq09lGYP1rK0tzse4dJRvYK87od.jpg",
+    "backdrop": "/uBRVzvMlNlKsegUCDXIwP7W6Ygb.jpg",
+    "providers": {
+      "flatrate": [
+        "Netflix",
+        "Netflix Standard with Ads"
+      ],
+      "rent": [],
+      "buy": []
+    },
+    "providersLink": "https://www.themoviedb.org/movie/1284186-sacrifice/watch?locale=US",
+    "providersAt": 1794504763641,
+    "region": "US",
+    "scores": {
+      "rt": 35,
+      "metacritic": 48,
+      "imdb": 5.7
+    }
+  },
+  "Opus (2025)": {
+    "id": "m:1202479",
+    "tmdbId": 1202479,
+    "imdbId": "tt29929565",
+    "director": [
+      {
+        "id": 2488639,
+        "name": "Mark Anthony Green"
+      }
+    ],
+    "writers": [
+      {
+        "id": 2488639,
+        "name": "Mark Anthony Green"
+      }
+    ],
+    "cast": [
+      {
+        "id": 2195140,
+        "name": "Ayo Edebiri"
+      },
+      {
+        "id": 6949,
+        "name": "John Malkovich"
+      },
+      {
+        "id": 3196,
+        "name": "Juliette Lewis"
+      },
+      {
+        "id": 152416,
+        "name": "Murray Bartlett"
+      },
+      {
+        "id": 1928381,
+        "name": "Melissa Chambers"
+      },
+      {
+        "id": 25147,
+        "name": "Tony Hale"
+      },
+      {
+        "id": 3096097,
+        "name": "Stephanie Suganami"
+      },
+      {
+        "id": 156605,
+        "name": "Mark Sivertsen"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 3490,
+        "name": "pop star"
+      },
+      {
+        "id": 6158,
+        "name": "cult"
+      },
+      {
+        "id": 12565,
+        "name": "psychological thriller"
+      },
+      {
+        "id": 199783,
+        "name": "cult of celebrity"
+      },
+      {
+        "id": 281776,
+        "name": "mysterious disappearance"
+      },
+      {
+        "id": 323809,
+        "name": "depressing"
+      },
+      {
+        "id": 325783,
+        "name": "cliché"
+      }
+    ],
+    "runtime": 104,
+    "genres": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ],
+    "tmdbRating": 5.6,
+    "overview": "A young writer is invited to the remote compound of a legendary pop star who mysteriously disappeared thirty years ago. Surrounded by the star's cult of sycophants and intoxicated journalists, she finds herself in the middle of his twisted plan.",
+    "tagline": "A once-in-a-lifetime experience.",
+    "poster": "https://image.tmdb.org/t/p/w342/m0du9dsiOVeb0SgfqR8ZAEPRxww.jpg",
+    "backdrop": "/3kzw6Rw7TBujqtchJS2TSP3O2US.jpg",
+    "providers": {
+      "flatrate": [
+        "HBO Max Amazon Channel",
+        "Cinemax Amazon Channel",
+        "HBO Max",
+        "Cinemax Apple TV channel"
+      ],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/1202479-opus/watch?locale=US",
+    "providersAt": 1794504763806,
+    "region": "US",
+    "scores": {
+      "rt": 39,
+      "metacritic": 42,
+      "imdb": 5.7
+    }
+  },
+  "The Man in the Iron Mask (1998)": {
+    "id": "m:9313",
+    "tmdbId": 9313,
+    "imdbId": "tt0120744",
+    "director": [
+      {
+        "id": 2460,
+        "name": "Randall Wallace"
+      }
+    ],
+    "writers": [
+      {
+        "id": 2460,
+        "name": "Randall Wallace"
+      }
+    ],
+    "cast": [
+      {
+        "id": 6193,
+        "name": "Leonardo DiCaprio"
+      },
+      {
+        "id": 5168,
+        "name": "Gabriel Byrne"
+      },
+      {
+        "id": 16940,
+        "name": "Jeremy Irons"
+      },
+      {
+        "id": 6949,
+        "name": "John Malkovich"
+      },
+      {
+        "id": 16927,
+        "name": "Gérard Depardieu"
+      },
+      {
+        "id": 57298,
+        "name": "Anne Parillaud"
+      },
+      {
+        "id": 73937,
+        "name": "Judith Godrèche"
+      },
+      {
+        "id": 38331,
+        "name": "Edward Atterton"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 2546,
+        "name": "mask"
+      },
+      {
+        "id": 254,
+        "name": "france"
+      },
+      {
+        "id": 1400,
+        "name": "swordplay"
+      },
+      {
+        "id": 1797,
+        "name": "loyalty"
+      },
+      {
+        "id": 3998,
+        "name": "palace"
+      },
+      {
+        "id": 7972,
+        "name": "bastille"
+      },
+      {
+        "id": 9725,
+        "name": "sword fight"
+      },
+      {
+        "id": 9714,
+        "name": "remake"
+      },
+      {
+        "id": 9920,
+        "name": "royalty"
+      },
+      {
+        "id": 11004,
+        "name": "rural area"
+      },
+      {
+        "id": 10410,
+        "name": "conspiracy"
+      },
+      {
+        "id": 14577,
+        "name": "musketeer"
+      },
+      {
+        "id": 15016,
+        "name": "twins"
+      },
+      {
+        "id": 15060,
+        "name": "period drama"
+      },
+      {
+        "id": 157186,
+        "name": "swashbuckler"
+      },
+      {
+        "id": 168297,
+        "name": "tyrant"
+      },
+      {
+        "id": 191599,
+        "name": "palace intrigue"
+      },
+      {
+        "id": 191718,
+        "name": "baroque"
+      },
+      {
+        "id": 207941,
+        "name": "17th century"
+      },
+      {
+        "id": 250053,
+        "name": "louis xiv"
+      }
+    ],
+    "runtime": 132,
+    "genres": [
+      "Adventure",
+      "Action",
+      "Drama"
+    ],
+    "tmdbRating": 6.651,
+    "overview": "Years have passed since the Three Musketeers, Aramis, Athos and Porthos, have fought together with their friend, D'Artagnan. But with the tyrannical King Louis using his power to wreak havoc in the kingdom while his twin brother, Philippe, remains imprisoned, the Musketeers reunite to abduct Louis and replace him with Philippe.",
+    "tagline": "For the honor of a king. And the destiny of a country. All for one.",
+    "poster": "https://image.tmdb.org/t/p/w342/zHE9yRURvA7DyhYtQxkGTfE1Ywi.jpg",
+    "backdrop": "/uhhtglfXNaTavkKtjer38qHLfVi.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home",
+        "Spectrum On Demand",
+        "Plex"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/9313-the-man-in-the-iron-mask/watch?locale=US",
+    "providersAt": 1794504763985,
+    "region": "US",
+    "scores": {
+      "rt": 32,
+      "metacritic": 49,
+      "imdb": 6.5
+    }
+  },
+  "Changeling (2008)": {
+    "id": "m:3580",
+    "tmdbId": 3580,
+    "imdbId": "tt0824747",
+    "director": [
+      {
+        "id": 190,
+        "name": "Clint Eastwood"
+      }
+    ],
+    "writers": [
+      {
+        "id": 33045,
+        "name": "J. Michael Straczynski"
+      }
+    ],
+    "cast": [
+      {
+        "id": 11701,
+        "name": "Angelina Jolie"
+      },
+      {
+        "id": 6949,
+        "name": "John Malkovich"
+      },
+      {
+        "id": 52886,
+        "name": "Jeffrey Donovan"
+      },
+      {
+        "id": 50217,
+        "name": "Michael Kelly"
+      },
+      {
+        "id": 10132,
+        "name": "Colm Feore"
+      },
+      {
+        "id": 142294,
+        "name": "Jason Butler Harner"
+      },
+      {
+        "id": 39388,
+        "name": "Amy Ryan"
+      },
+      {
+        "id": 25879,
+        "name": "Geoff Pierson"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 5565,
+        "name": "biography"
+      },
+      {
+        "id": 9672,
+        "name": "based on true story"
+      },
+      {
+        "id": 6159,
+        "name": "clergyman"
+      },
+      {
+        "id": 10656,
+        "name": "child in peril"
+      },
+      {
+        "id": 11734,
+        "name": "police corruption"
+      },
+      {
+        "id": 12670,
+        "name": "los angeles, california"
+      },
+      {
+        "id": 14768,
+        "name": "single mother"
+      },
+      {
+        "id": 14870,
+        "name": "street urchin"
+      },
+      {
+        "id": 156948,
+        "name": "missing child"
+      },
+      {
+        "id": 160174,
+        "name": "mental asylum"
+      },
+      {
+        "id": 190007,
+        "name": "mental hospital"
+      },
+      {
+        "id": 190939,
+        "name": "shock treatment"
+      },
+      {
+        "id": 207876,
+        "name": "1920s"
+      },
+      {
+        "id": 213295,
+        "name": "missing son"
+      },
+      {
+        "id": 240237,
+        "name": "mother son relationship"
+      },
+      {
+        "id": 252830,
+        "name": "desperate woman"
+      },
+      {
+        "id": 262473,
+        "name": "disbelieving cop"
+      },
+      {
+        "id": 265839,
+        "name": "child abduction"
+      },
+      {
+        "id": 267448,
+        "name": "telephone switchboard operator"
+      },
+      {
+        "id": 307258,
+        "name": "female hysteria"
+      },
+      {
+        "id": 307260,
+        "name": "police coverup"
+      },
+      {
+        "id": 325767,
+        "name": "apathetic"
+      }
+    ],
+    "runtime": 142,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "tmdbRating": 7.566,
+    "overview": "Los Angeles, 1928. When single mother Christine Collins leaves for work, her son vanishes without a trace. Five months later, the police reunite mother and son. But when Christine suspects that the boy returned to her isn't her child, her quest for truth exposes a world of corruption.",
+    "tagline": "To find her son, she did what no one else dared.",
+    "poster": "https://image.tmdb.org/t/p/w342/y9Qi39dL3PceGCH8afyC7QrhbhI.jpg",
+    "backdrop": "/yWs9QUP2kamsnfdV4cloxLM5RUw.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ],
+      "buy": [
+        "Amazon Video",
+        "Apple TV Store",
+        "Google Play Movies",
+        "YouTube",
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/3580-changeling/watch?locale=US",
+    "providersAt": 1794504764153,
+    "region": "US",
+    "scores": {
+      "rt": 61,
+      "metacritic": 63,
+      "imdb": 7.7
+    }
   }
 }
