@@ -9,6 +9,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { EMPTY, edgeKey, reviewFile } from "./lib/adaptation-review.mjs";
 import { readJsonStrict } from "./lib/atomic-json.mjs";
+import { sameFilm, renumber, clearRatedFromQueue } from "./lib/queue.mjs";
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const PORT = Number(process.env.PORT) || 4747;
@@ -26,8 +27,6 @@ const readData = async (name) => JSON.parse(await readFile(dataPath(name), "utf8
 const writeData = (name, value) =>
   writeFile(dataPath(name), JSON.stringify(value, null, 2) + "\n");
 
-const sameFilm = (a, b) =>
-  a.title.toLowerCase() === String(b.title).toLowerCase() && (!a.year || !b.year || a.year === Number(b.year));
 
 async function readBody(req) {
   let raw = "";
@@ -63,12 +62,7 @@ const api = {
     i >= 0 ? (ratings[i] = { ...ratings[i], ...entry }) : ratings.push(entry);
     await writeData("ratings", ratings);
 
-    const watchlist = await readData("watchlist");
-    const rest = watchlist.filter((w) => !sameFilm(w, entry));
-    if (rest.length !== watchlist.length) {
-      rest.sort((a, b) => a.rank - b.rank).forEach((w, idx) => (w.rank = idx + 1));
-      await writeData("watchlist", rest);
-    }
+    clearRatedFromQueue(path.join(root, "data"), { queue: "watchlist", log: "ratings" });
     return { ok: true, updated: i >= 0 };
   },
 
@@ -94,7 +88,7 @@ const api = {
     const watchlist = await readData("watchlist");
     const rest = watchlist.filter((w) => !sameFilm(w, body));
     if (rest.length === watchlist.length) throw new Error("not in the queue");
-    rest.sort((a, b) => a.rank - b.rank).forEach((w, idx) => (w.rank = idx + 1));
+    renumber(rest);
     await writeData("watchlist", rest);
     return { ok: true };
   },
@@ -118,12 +112,7 @@ const api = {
     i >= 0 ? (ratings[i] = { ...ratings[i], ...entry }) : ratings.push(entry);
     await writeData("tv-ratings", ratings);
 
-    const watchlist = await readData("tv-watchlist");
-    const rest = watchlist.filter((w) => !sameFilm(w, entry));
-    if (rest.length !== watchlist.length) {
-      rest.sort((a, b) => a.rank - b.rank).forEach((w, idx) => (w.rank = idx + 1));
-      await writeData("tv-watchlist", rest);
-    }
+    clearRatedFromQueue(path.join(root, "data"), { queue: "tv-watchlist", log: "tv-ratings" });
     return { ok: true, updated: i >= 0 };
   },
 
@@ -149,7 +138,7 @@ const api = {
     const watchlist = await readData("tv-watchlist");
     const rest = watchlist.filter((w) => !sameFilm(w, body));
     if (rest.length === watchlist.length) throw new Error("not in the queue");
-    rest.sort((a, b) => a.rank - b.rank).forEach((w, idx) => (w.rank = idx + 1));
+    renumber(rest);
     await writeData("tv-watchlist", rest);
     return { ok: true };
   },

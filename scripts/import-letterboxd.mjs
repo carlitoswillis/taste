@@ -16,6 +16,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { parseCsv } from "./lib/csv.mjs";
 import { mergeExportWatched } from "./lib/letterboxd.mjs";
+import { clearRatedFromQueue } from "./lib/queue.mjs";
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const input = process.argv[2];
@@ -74,6 +75,7 @@ if (ratingsCsv) {
   }
   if (added) await writeFile(path.join(root, "data/ratings.json"), JSON.stringify(ratings, null, 2) + "\n");
   console.log(`${added} new ratings merged (existing entries untouched)`);
+  for (const w of clearRatedFromQueue(path.join(root, "data"))) console.log(`  left the queue (rated): ${w.title} (${w.year})`);
 }
 
 console.log("\nNext: npm run enrich   (metadata for the new films)");

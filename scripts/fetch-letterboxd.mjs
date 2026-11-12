@@ -16,6 +16,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { clearRatedFromQueue } from "./lib/queue.mjs";
 import { parseRss, parseFilmsGrid, lastFilmsPage, isChallenge, chooseEntries, mergeEntries, addFirstSeen, laDate } from "./lib/letterboxd.mjs";
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
@@ -132,6 +133,8 @@ if (ratingsChanged) {
   await writeFile(path.join(root, "data/ratings.json"), JSON.stringify(ratings, null, 2) + "\n");
   console.log("Merged new ratings -> data/ratings.json");
 }
+// Rating a title removes it from the watch queue (idempotent; also heals rows rated earlier).
+for (const w of clearRatedFromQueue(path.join(root, "data"))) console.log(`  left the queue (rated): ${w.title} (${w.year})`);
 
 // Watched: append unseen films so the seen-set stays complete. Years here come
 // from Letterboxd (importer CSV) just like the RSS, so the exact key is safe —
