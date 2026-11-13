@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12T17:35:55.989Z",
+  "generated": "2026-11-13T17:13:05.744Z",
   "basedOn": 37,
   "head": 10,
   "items": [
@@ -7,7 +7,7 @@
       "title": "Fanny and Alexander",
       "year": 1984,
       "tmdbId": 33153,
-      "tmdbRating": 8.279,
+      "tmdbRating": 8.3,
       "votes": 154,
       "score": 18.4,
       "rank": 1,
@@ -39,8 +39,8 @@
       "title": "Scenes from a Marriage",
       "year": 1973,
       "tmdbId": 65170,
-      "tmdbRating": 8.056,
-      "votes": 152,
+      "tmdbRating": 8.049,
+      "votes": 153,
       "score": 18.4,
       "rank": 2,
       "creators": [
@@ -71,7 +71,7 @@
       "title": "The Curse",
       "year": 2023,
       "tmdbId": 114655,
-      "tmdbRating": 6.412,
+      "tmdbRating": 6.4,
       "votes": 187,
       "score": 4.2,
       "themes": [
@@ -190,7 +190,7 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.748,
+      "tmdbRating": 7.7,
       "votes": 1079,
       "score": 3.0400000000000005,
       "themes": [
@@ -340,7 +340,7 @@
       "year": 2005,
       "tmdbId": 2316,
       "tmdbRating": 8.584,
-      "votes": 5698,
+      "votes": 5701,
       "score": 2.5600000000000005,
       "rank": 10,
       "creators": [
@@ -374,7 +374,7 @@
       "title": "The Rehearsal",
       "year": 2022,
       "tmdbId": 204284,
-      "tmdbRating": 7.981,
+      "tmdbRating": 8,
       "votes": 294,
       "score": 4.2,
       "rank": 11,

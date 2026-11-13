@@ -420,8 +420,8 @@
       "count": 220
     },
     "adaptedAs": [
-      "Frankenstein (2025)",
-      "Victor Frankenstein (2015)"
+      "Victor Frankenstein (2015)",
+      "Frankenstein (2025)"
     ]
   },
   "King Lear (William Shakespeare)": {
@@ -1455,8 +1455,8 @@
       "count": 238
     },
     "adaptedAs": [
-      "Nosferatu (1922)",
-      "Nosferatu (2024)"
+      "Nosferatu (2024)",
+      "Nosferatu (1922)"
     ]
   },
   "Barbie (Ruth Handler)": {
@@ -1585,8 +1585,8 @@
       "count": 229
     },
     "adaptedAs": [
-      "The Lord of the Rings: The Two Towers (2002)",
-      "The Lord of the Rings: The Return of the King (2003)"
+      "The Lord of the Rings: The Return of the King (2003)",
+      "The Lord of the Rings: The Two Towers (2002)"
     ]
   },
   "The Crow (James O'Barr)": {
@@ -2529,8 +2529,8 @@
       "count": 229
     },
     "adaptedAs": [
-      "The Lord of the Rings: The Two Towers (2002)",
-      "The Lord of the Rings: The Return of the King (2003)"
+      "The Lord of the Rings: The Return of the King (2003)",
+      "The Lord of the Rings: The Two Towers (2002)"
     ]
   },
   "American Psycho (Bret Easton Ellis)": {
@@ -3369,8 +3369,8 @@
     "description": "It was January 2021, and Rick Deckard had a license to kill.\r\nSomewhere among the hordes of humans out there, lurked several rogue androids. Deckard's assignment--find them and then...\"retire\" them. Trouble was, the androids all looked exactly like humans, and they didn't want to be found!",
     "editionCount": 90,
     "olRating": {
-      "average": 4.042945,
-      "count": 163
+      "average": 4.042683,
+      "count": 164
     },
     "adaptedAs": [
       "Blade Runner (1982)"
@@ -4565,6 +4565,30 @@
     },
     "adaptedAs": [
       "Wildwood (2026)"
+    ]
+  },
+  "The Vicomte of Bragelonne: Ten Years Later (Alexandre Dumas)": {
+    "id": "b:OL37521810W",
+    "olWork": "OL37521810W",
+    "authors": [
+      {
+        "key": "OL18236A",
+        "name": "Alexandre Dumas"
+      }
+    ],
+    "firstPublished": 2017,
+    "pages": 610,
+    "subjects": [],
+    "coverId": 12038120,
+    "cover": "https://covers.openlibrary.org/b/id/12038120-M.jpg",
+    "description": null,
+    "editionCount": 2,
+    "olRating": {
+      "average": null,
+      "count": 0
+    },
+    "adaptedAs": [
+      "The Man in the Iron Mask (1998)"
     ]
   }
 }
