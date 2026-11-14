@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-13T17:13:23.964Z",
+  "generated": "2026-11-14T15:50:12.540Z",
   "basedOn": {
     "lovedFilms": 37,
     "ratedBooks": 0,
@@ -509,11 +509,11 @@
       "cover": "https://covers.openlibrary.org/b/id/9334567-M.jpg",
       "editionCount": 94,
       "olRating": {
-        "average": 4.3097343,
-        "count": 113
+        "average": 4.3157897,
+        "count": 114
       },
       "weight": 0.86,
-      "rankScore": 6.03,
+      "rankScore": 6.04,
       "why": "thriller on the page — you over-index on it in film · horror on the page — you over-index on it in film",
       "rank": 30
     },
