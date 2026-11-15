@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-14T15:49:56.184Z",
+  "generated": "2026-11-15T16:21:08.667Z",
   "basedOn": 37,
   "head": 10,
   "items": [
@@ -190,8 +190,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.7,
-      "votes": 1079,
+      "tmdbRating": 7.749,
+      "votes": 1080,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -265,8 +265,8 @@
       "title": "ER",
       "year": 1994,
       "tmdbId": 4588,
-      "tmdbRating": 7.801,
-      "votes": 987,
+      "tmdbRating": 7.802,
+      "votes": 988,
       "score": 3.0400000000000005,
       "rank": 8,
       "creators": [
@@ -299,8 +299,8 @@
       "title": "CSI: Crime Scene Investigation",
       "year": 2000,
       "tmdbId": 1431,
-      "tmdbRating": 7.595,
-      "votes": 1451,
+      "tmdbRating": 7.596,
+      "votes": 1452,
       "score": 3.0400000000000005,
       "rank": 9,
       "creators": [
@@ -339,8 +339,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.585,
-      "votes": 5706,
+      "tmdbRating": 8.6,
+      "votes": 5717,
       "score": 2.5600000000000005,
       "rank": 10,
       "creators": [
@@ -554,8 +554,8 @@
       "title": "Gangs of London",
       "year": 2020,
       "tmdbId": 85021,
-      "tmdbRating": 7.807,
-      "votes": 734,
+      "tmdbRating": 7.81,
+      "votes": 735,
       "score": 2.7,
       "rank": 16,
       "creators": [
@@ -668,7 +668,7 @@
       "title": "Blue Mountain State",
       "year": 2010,
       "tmdbId": 31941,
-      "tmdbRating": 7.567,
+      "tmdbRating": 7.569,
       "votes": 487,
       "score": 2.16,
       "rank": 19,
@@ -766,8 +766,8 @@
       "title": "Tom Clancy's Jack Ryan",
       "year": 2018,
       "tmdbId": 73375,
-      "tmdbRating": 7.665,
-      "votes": 1938,
+      "tmdbRating": 7.667,
+      "votes": 1941,
       "score": 1.92,
       "rank": 22,
       "creators": [
