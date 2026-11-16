@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-15T16:21:25.520Z",
+  "generated": "2026-11-16T19:35:44.082Z",
   "basedOn": {
     "lovedFilms": 37,
     "ratedBooks": 0,
@@ -458,8 +458,8 @@
       "cover": "https://covers.openlibrary.org/b/id/11200092-M.jpg",
       "editionCount": 32,
       "olRating": {
-        "average": 4.535,
-        "count": 200
+        "average": 4.5373135,
+        "count": 201
       },
       "weight": 0.88,
       "rankScore": 6.3,
@@ -475,8 +475,8 @@
       "cover": "https://covers.openlibrary.org/b/id/11447888-M.jpg",
       "editionCount": 74,
       "olRating": {
-        "average": 4.4,
-        "count": 345
+        "average": 4.3994255,
+        "count": 348
       },
       "weight": 0.88,
       "rankScore": 6.16,
@@ -526,8 +526,8 @@
       "cover": "https://covers.openlibrary.org/b/id/12667417-M.jpg",
       "editionCount": 37,
       "olRating": {
-        "average": 4.5444446,
-        "count": 90
+        "average": 4.536842,
+        "count": 95
       },
       "weight": 0.7,
       "rankScore": 5.94,
@@ -543,8 +543,8 @@
       "cover": "https://covers.openlibrary.org/b/id/12376585-M.jpg",
       "editionCount": 98,
       "olRating": {
-        "average": 4.1925673,
-        "count": 296
+        "average": 4.194631,
+        "count": 298
       },
       "weight": 0.86,
       "rankScore": 5.91,
@@ -577,11 +577,11 @@
       "cover": "https://covers.openlibrary.org/b/id/108909-M.jpg",
       "editionCount": 84,
       "olRating": {
-        "average": 4.4564104,
-        "count": 195
+        "average": 4.4489794,
+        "count": 196
       },
       "weight": 0.49,
-      "rankScore": 5.44,
+      "rankScore": 5.43,
       "why": "thriller on the page — you over-index on it in film",
       "rank": 34
     },
