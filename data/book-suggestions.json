@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16T19:35:44.082Z",
+  "generated": "2026-11-17T18:34:37.943Z",
   "basedOn": {
     "lovedFilms": 37,
     "ratedBooks": 0,
@@ -543,8 +543,8 @@
       "cover": "https://covers.openlibrary.org/b/id/12376585-M.jpg",
       "editionCount": 98,
       "olRating": {
-        "average": 4.194631,
-        "count": 298
+        "average": 4.1939797,
+        "count": 299
       },
       "weight": 0.86,
       "rankScore": 5.91,
@@ -594,8 +594,8 @@
       "cover": "https://covers.openlibrary.org/b/id/6934834-M.jpg",
       "editionCount": 42,
       "olRating": {
-        "average": 4.591837,
-        "count": 49
+        "average": 4.5882354,
+        "count": 51
       },
       "weight": 0.39,
       "rankScore": 5.37,

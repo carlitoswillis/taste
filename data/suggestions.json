@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16T19:35:10.825Z",
+  "generated": "2026-11-17T18:34:07.274Z",
   "basedOn": 37,
   "head": 12,
   "items": [
@@ -78,8 +78,8 @@
       "title": "Following",
       "year": 1999,
       "tmdbId": 11660,
-      "tmdbRating": 7.109,
-      "votes": 2025,
+      "tmdbRating": 7.107,
+      "votes": 2026,
       "themes": [
         "surveillance"
       ],
@@ -121,7 +121,7 @@
       "year": 2002,
       "tmdbId": 320,
       "tmdbRating": 6.959,
-      "votes": 5655,
+      "votes": 5656,
       "score": 12.08,
       "rank": 4,
       "director": [
@@ -157,7 +157,7 @@
       "year": 2010,
       "tmdbId": 44264,
       "tmdbRating": 7.305,
-      "votes": 6028,
+      "votes": 6030,
       "score": 11.12,
       "rank": 5,
       "director": [
@@ -236,7 +236,7 @@
       "title": "In Bruges",
       "year": 2008,
       "tmdbId": 8321,
-      "tmdbRating": 7.502,
+      "tmdbRating": 7.5,
       "votes": 6101,
       "themes": [
         "cruel-comedy"
@@ -275,8 +275,8 @@
       "title": "The Banshees of Inisherin",
       "year": 2022,
       "tmdbId": 674324,
-      "tmdbRating": 7.463,
-      "votes": 3666,
+      "tmdbRating": 7.5,
+      "votes": 3668,
       "themes": [
         "cruel-comedy"
       ],
@@ -351,8 +351,8 @@
       "title": "The Favourite",
       "year": 2018,
       "tmdbId": 375262,
-      "tmdbRating": 7.477,
-      "votes": 6125,
+      "tmdbRating": 7.476,
+      "votes": 6126,
       "themes": [
         "cruel-comedy"
       ],
@@ -423,8 +423,8 @@
       "title": "Snowpiercer",
       "year": 2013,
       "tmdbId": 110415,
-      "tmdbRating": 6.909,
-      "votes": 10844,
+      "tmdbRating": 6.91,
+      "votes": 10847,
       "score": 5.62,
       "rank": 12,
       "director": [
@@ -461,12 +461,12 @@
       "title": "Scenes from a Marriage",
       "year": 1974,
       "tmdbId": 133919,
-      "tmdbRating": 8.037,
+      "tmdbRating": 8,
       "votes": 420,
       "themes": [
         "cruel-comedy"
       ],
-      "score": 21.11,
+      "score": 20.97,
       "rank": 13,
       "director": [
         "Ingmar Bergman"
@@ -501,9 +501,9 @@
       "title": "Through a Glass Darkly",
       "year": 1961,
       "tmdbId": 11602,
-      "tmdbRating": 7.779,
+      "tmdbRating": 7.8,
       "votes": 559,
-      "score": 21.15,
+      "score": 21.25,
       "rank": 14,
       "director": [
         "Ingmar Bergman"
@@ -747,7 +747,7 @@
       "year": 2017,
       "tmdbId": 359940,
       "tmdbRating": 8.049,
-      "votes": 11345,
+      "votes": 11346,
       "score": 6.48,
       "rank": 21,
       "director": [
@@ -787,7 +787,7 @@
       "year": 2006,
       "tmdbId": 1255,
       "tmdbRating": 6.981,
-      "votes": 3307,
+      "votes": 3308,
       "score": 5.6,
       "rank": 22,
       "director": [
@@ -830,9 +830,9 @@
       "title": "The Strange Thing About the Johnsons",
       "year": 2011,
       "tmdbId": 164052,
-      "tmdbRating": 6.811,
-      "votes": 408,
-      "score": 5.41,
+      "tmdbRating": 6.8,
+      "votes": 409,
+      "score": 5.4,
       "rank": 23,
       "director": [
         "Ari Aster"
@@ -898,8 +898,8 @@
       "title": "Kinds of Kindness",
       "year": 2024,
       "tmdbId": 1029955,
-      "tmdbRating": 6.474,
-      "votes": 1402,
+      "tmdbRating": 6.473,
+      "votes": 1403,
       "themes": [
         "cruel-comedy"
       ],
@@ -936,8 +936,8 @@
       "title": "Tangerine",
       "year": 2015,
       "tmdbId": 308084,
-      "tmdbRating": 6.843,
-      "votes": 844,
+      "tmdbRating": 6.844,
+      "votes": 845,
       "score": 4.59,
       "rank": 26,
       "director": [
@@ -976,7 +976,7 @@
       "year": 2004,
       "tmdbId": 393,
       "tmdbRating": 7.872,
-      "votes": 15684,
+      "votes": 15686,
       "score": 4.56,
       "rank": 27,
       "director": [
@@ -1015,7 +1015,7 @@
       "year": 2015,
       "tmdbId": 273248,
       "tmdbRating": 7.757,
-      "votes": 15836,
+      "votes": 15838,
       "score": 4.56,
       "rank": 28,
       "director": [
@@ -1089,7 +1089,7 @@
       "year": 1997,
       "tmdbId": 184,
       "tmdbRating": 7.355,
-      "votes": 7241,
+      "votes": 7243,
       "score": 4.55,
       "rank": 30,
       "director": [
@@ -1243,7 +1243,7 @@
       "year": 2007,
       "tmdbId": 4982,
       "tmdbRating": 7.599,
-      "votes": 6385,
+      "votes": 6384,
       "themes": [
         "surveillance"
       ],
@@ -1320,8 +1320,8 @@
       "title": "Masters of the Universe",
       "year": 2026,
       "tmdbId": 454639,
-      "tmdbRating": 7.068,
-      "votes": 2357,
+      "tmdbRating": 7.069,
+      "votes": 2360,
       "score": 3.69,
       "rank": 36,
       "director": [
@@ -1453,9 +1453,9 @@
       "title": "Drive-Away Dolls",
       "year": 2024,
       "tmdbId": 957304,
-      "tmdbRating": 5.484,
+      "tmdbRating": 5.47,
       "votes": 640,
-      "score": 3.38,
+      "score": 3.36,
       "rank": 40,
       "director": [
         "Ethan Coen"
@@ -1489,44 +1489,13 @@
       "why": "Ethan Coen wrote and directed this — you rated No Country for Old Men 4.5★, Burn After Reading 4★"
     },
     {
-      "title": "The Dog Stars",
-      "year": 2026,
-      "tmdbId": 1384216,
-      "tmdbRating": 7.168,
-      "votes": 1008,
-      "themes": [
-        "grief-horror"
-      ],
-      "score": 2.31,
-      "rank": 41,
-      "director": [
-        "Ridley Scott"
-      ],
-      "runtime": 119,
-      "genres": [
-        "Action",
-        "Thriller",
-        "Science Fiction"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/5O616X9vmRzQdB68PHzBewPittd.jpg",
-      "providers": {
-        "flatrate": [],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Fandango At Home"
-        ]
-      },
-      "why": "Ridley Scott directed this — you rated Prometheus 4.5★ · themes: grief wearing a mask"
-    },
-    {
       "title": "Alps",
       "year": 2011,
       "tmdbId": 81857,
-      "tmdbRating": 6.2,
+      "tmdbRating": 6.212,
       "votes": 368,
-      "score": 3.31,
-      "rank": 42,
+      "score": 3.32,
+      "rank": 41,
       "director": [
         "Yorgos Lanthimos"
       ],
@@ -1548,6 +1517,37 @@
         ]
       },
       "why": "Yorgos Lanthimos directed this — you rated Poor Things 4.5★, Bugonia 4.5★"
+    },
+    {
+      "title": "The Dog Stars",
+      "year": 2026,
+      "tmdbId": 1384216,
+      "tmdbRating": 7.16,
+      "votes": 1013,
+      "themes": [
+        "grief-horror"
+      ],
+      "score": 2.3,
+      "rank": 42,
+      "director": [
+        "Ridley Scott"
+      ],
+      "runtime": 119,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/5O616X9vmRzQdB68PHzBewPittd.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Ridley Scott directed this — you rated Prometheus 4.5★ · themes: grief wearing a mask"
     },
     {
       "title": "I'm Here",
@@ -1578,7 +1578,7 @@
       "year": 2014,
       "tmdbId": 180299,
       "tmdbRating": 7.612,
-      "votes": 2746,
+      "votes": 2745,
       "score": 3.24,
       "rank": 44,
       "director": [
@@ -1610,8 +1610,8 @@
       "title": "The Raid",
       "year": 2012,
       "tmdbId": 94329,
-      "tmdbRating": 7.414,
-      "votes": 4128,
+      "tmdbRating": 7.413,
+      "votes": 4127,
       "score": 3.22,
       "rank": 45,
       "director": [
@@ -1643,8 +1643,8 @@
       "title": "Mad Max 2",
       "year": 1981,
       "tmdbId": 8810,
-      "tmdbRating": 7.395,
-      "votes": 4412,
+      "tmdbRating": 7.394,
+      "votes": 4411,
       "score": 3.21,
       "rank": 46,
       "director": [
@@ -1808,7 +1808,7 @@
       "year": 1982,
       "tmdbId": 78,
       "tmdbRating": 7.937,
-      "votes": 15646,
+      "votes": 15647,
       "score": 2.88,
       "rank": 51,
       "director": [
@@ -1874,7 +1874,7 @@
       "year": 2018,
       "tmdbId": 424783,
       "tmdbRating": 6.7,
-      "votes": 6948,
+      "votes": 6950,
       "score": 2.79,
       "rank": 53,
       "director": [
@@ -1945,9 +1945,9 @@
       "title": "Street Fighter",
       "year": 2026,
       "tmdbId": 1153576,
-      "tmdbRating": 6.264,
-      "votes": 244,
-      "score": 2.69,
+      "tmdbRating": 6.3,
+      "votes": 246,
+      "score": 2.71,
       "rank": 55,
       "director": [
         "Kitao Sakurai"
@@ -1955,7 +1955,6 @@
       "runtime": 120,
       "genres": [
         "Action",
-        "Comedy",
         "Fantasy"
       ],
       "poster": "https://image.tmdb.org/t/p/w342/8nP4lF51Ea861YfHEEqhZBLYv3e.jpg",
@@ -1998,12 +1997,12 @@
       "title": "In the Line of Fire",
       "year": 1993,
       "tmdbId": 9386,
-      "tmdbRating": 7,
-      "votes": 1921,
+      "tmdbRating": 6.978,
+      "votes": 1922,
       "themes": [
         "surveillance"
       ],
-      "score": 1.08,
+      "score": 1.07,
       "rank": 57,
       "director": [
         "Wolfgang Petersen"
@@ -2194,13 +2193,13 @@
       "title": "Sacrifice",
       "year": 2026,
       "tmdbId": 1284186,
-      "tmdbRating": 5.4,
-      "votes": 161,
+      "tmdbRating": 5.457,
+      "votes": 162,
       "themes": [
         "grief-horror",
         "cruel-comedy"
       ],
-      "score": 0.21,
+      "score": 0.22,
       "rank": 63,
       "director": [
         "Romain Gavras"
@@ -2289,8 +2288,8 @@
       "title": "Havoc",
       "year": 2025,
       "tmdbId": 668489,
-      "tmdbRating": 6.385,
-      "votes": 1395,
+      "tmdbRating": 6.386,
+      "votes": 1396,
       "score": 1.94,
       "rank": 66,
       "director": [
@@ -2317,7 +2316,7 @@
       "title": "Fantastic Four",
       "year": 2015,
       "tmdbId": 166424,
-      "tmdbRating": 4.431,
+      "tmdbRating": 4.4,
       "votes": 6627,
       "themes": [
         "body-horror"
@@ -2450,8 +2449,8 @@
       "title": "Minority Report",
       "year": 2002,
       "tmdbId": 180,
-      "tmdbRating": 7.358,
-      "votes": 10134,
+      "tmdbRating": 7.359,
+      "votes": 10139,
       "themes": [
         "grief-horror"
       ],
@@ -2524,12 +2523,12 @@
       "title": "Victor Frankenstein",
       "year": 2015,
       "tmdbId": 228066,
-      "tmdbRating": 5.957,
+      "tmdbRating": 6,
       "votes": 2353,
       "themes": [
         "body-horror"
       ],
-      "score": 0.54,
+      "score": 0.56,
       "rank": 73,
       "director": [
         "Paul McGuigan"
@@ -2565,8 +2564,8 @@
       "score": 1.14,
       "rank": 74,
       "director": [
-        "Scott Beck",
-        "Bryan Woods"
+        "Bryan Woods",
+        "Scott Beck"
       ],
       "runtime": 93,
       "genres": [
@@ -2627,8 +2626,8 @@
       "title": "What Dreams May Come",
       "year": 1998,
       "tmdbId": 12159,
-      "tmdbRating": 7.253,
-      "votes": 2653,
+      "tmdbRating": 7.254,
+      "votes": 2655,
       "themes": [
         "metaphysical"
       ],
@@ -2665,8 +2664,8 @@
       "score": 0.74,
       "rank": 77,
       "director": [
-        "Bryan Woods",
-        "Scott Beck"
+        "Scott Beck",
+        "Bryan Woods"
       ],
       "runtime": 92,
       "genres": [
@@ -2694,8 +2693,8 @@
       "title": "13 Hours: The Secret Soldiers of Benghazi",
       "year": 2016,
       "tmdbId": 300671,
-      "tmdbRating": 7.285,
-      "votes": 4141,
+      "tmdbRating": 7.3,
+      "votes": 4142,
       "score": 0.73,
       "rank": 78,
       "director": [
@@ -2896,8 +2895,8 @@
       "title": "Changeling",
       "year": 2008,
       "tmdbId": 3580,
-      "tmdbRating": 7.566,
-      "votes": 4669,
+      "tmdbRating": 7.567,
+      "votes": 4671,
       "score": 0.54,
       "rank": 84,
       "director": [
@@ -2927,7 +2926,7 @@
       "year": 2021,
       "tmdbId": 379686,
       "tmdbRating": 6.608,
-      "votes": 4336,
+      "votes": 4337,
       "score": 0.46,
       "rank": 85,
       "director": [
@@ -2966,7 +2965,7 @@
       "year": 2012,
       "tmdbId": 77174,
       "tmdbRating": 7.1,
-      "votes": 2924,
+      "votes": 2927,
       "score": 0.41,
       "rank": 86,
       "director": [
@@ -3000,7 +2999,7 @@
       "year": 2002,
       "tmdbId": 4912,
       "tmdbRating": 6.67,
-      "votes": 1332,
+      "votes": 1333,
       "score": 0.4,
       "rank": 87,
       "director": [
@@ -3096,9 +3095,9 @@
       "title": "Missing Link",
       "year": 2019,
       "tmdbId": 458253,
-      "tmdbRating": 6.878,
+      "tmdbRating": 6.9,
       "votes": 982,
-      "score": 0.34,
+      "score": 0.35,
       "rank": 90,
       "director": [
         "Chris Butler"
@@ -3127,8 +3126,8 @@
       "title": "The Boogeyman",
       "year": 2023,
       "tmdbId": 532408,
-      "tmdbRating": 6.4,
-      "votes": 1220,
+      "tmdbRating": 6.371,
+      "votes": 1222,
       "score": 0.33,
       "rank": 91,
       "director": [
@@ -3214,8 +3213,8 @@
       "title": "Mr. Right",
       "year": 2016,
       "tmdbId": 333385,
-      "tmdbRating": 6.44,
-      "votes": 1520,
+      "tmdbRating": 6.439,
+      "votes": 1522,
       "score": 0.29,
       "rank": 94,
       "director": [
@@ -3249,13 +3248,13 @@
       "score": 0.27,
       "rank": 95,
       "director": [
+        "Simon Barrett",
+        "Adam Wingard",
         "Eduardo Sánchez",
+        "Gregg Hale",
         "Timo Tjahjanto",
         "Gareth Evans",
-        "Gregg Hale",
-        "Simon Barrett",
-        "Jason Eisener",
-        "Adam Wingard"
+        "Jason Eisener"
       ],
       "runtime": 96,
       "genres": [
@@ -3282,7 +3281,7 @@
       "year": 2017,
       "tmdbId": 400106,
       "tmdbRating": 6.162,
-      "votes": 6160,
+      "votes": 6162,
       "score": 0.17,
       "rank": 96,
       "director": [
@@ -3343,8 +3342,8 @@
       "title": "Rear Window",
       "year": 1954,
       "tmdbId": 567,
-      "tmdbRating": 8.3,
-      "votes": 7501,
+      "tmdbRating": 8.331,
+      "votes": 7502,
       "theme": "surveillance",
       "why": "surveillance — the thread through 4 of your loved films",
       "director": [
@@ -3526,7 +3525,7 @@
       "year": 1997,
       "tmdbId": 637,
       "tmdbRating": 8.435,
-      "votes": 14408,
+      "votes": 14410,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 3 of your loved films",
       "director": [
@@ -3559,8 +3558,8 @@
       "title": "I Swear",
       "year": 2025,
       "tmdbId": 1317149,
-      "tmdbRating": 8.286,
-      "votes": 682,
+      "tmdbRating": 8.287,
+      "votes": 683,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 3 of your loved films",
       "director": [

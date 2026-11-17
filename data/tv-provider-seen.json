@@ -664,6 +664,9 @@
    "Amazon Prime Video with Ads": "2026-11-09",
    "Howdy Amazon Channel": null
   },
+  "11036": {
+   "fuboTV": null
+  },
   "11174": {
    "Viaplay Amazon Channel": null
   },
@@ -2266,9 +2269,6 @@
   "1124620": {
    "Hulu": null
   },
-  "1130022": {
-   "Hulu": null
-  },
   "1137350": {
    "Amazon Prime Video": null,
    "Amazon Prime Video with Ads": null
@@ -2444,8 +2444,7 @@
    "HBO Max Amazon Channel": "2026-11-09",
    "Starz Amazon Channel": null,
    "HBO Max": null,
-   "Starz Apple TV channel": null,
-   "Starz Roku Premium Channel": null
+   "Starz Apple TV channel": null
   },
   "1380291": {
    "Amazon Prime Video": null,
