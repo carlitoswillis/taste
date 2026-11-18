@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-17T18:34:23.491Z",
+  "generated": "2026-11-18T18:03:12.394Z",
   "basedOn": 37,
   "head": 10,
   "items": [
@@ -71,8 +71,8 @@
       "title": "The Curse",
       "year": 2023,
       "tmdbId": 114655,
-      "tmdbRating": 6.4,
-      "votes": 187,
+      "tmdbRating": 6.41,
+      "votes": 188,
       "score": 4.2,
       "themes": [
         "cruel-comedy"
@@ -113,8 +113,8 @@
       "title": "The Eric Andre Show",
       "year": 2012,
       "tmdbId": 56590,
-      "tmdbRating": 7.855,
-      "votes": 179,
+      "tmdbRating": 7.839,
+      "votes": 180,
       "score": 3.0400000000000005,
       "themes": [
         "surveillance"
@@ -150,8 +150,8 @@
       "title": "Nathan for You",
       "year": 2013,
       "tmdbId": 58957,
-      "tmdbRating": 8.2,
-      "votes": 343,
+      "tmdbRating": 8.225,
+      "votes": 344,
       "score": 4.2,
       "rank": 5,
       "creators": [
@@ -190,8 +190,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.749,
-      "votes": 1081,
+      "tmdbRating": 7.751,
+      "votes": 1082,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -227,8 +227,8 @@
       "title": "Jackass",
       "year": 2000,
       "tmdbId": 1795,
-      "tmdbRating": 6.741,
-      "votes": 319,
+      "tmdbRating": 6.739,
+      "votes": 320,
       "score": 4,
       "rank": 7,
       "creators": [
@@ -265,8 +265,8 @@
       "title": "ER",
       "year": 1994,
       "tmdbId": 4588,
-      "tmdbRating": 7.806,
-      "votes": 991,
+      "tmdbRating": 7.8,
+      "votes": 993,
       "score": 3.0400000000000005,
       "rank": 8,
       "creators": [
@@ -299,8 +299,8 @@
       "title": "CSI: Crime Scene Investigation",
       "year": 2000,
       "tmdbId": 1431,
-      "tmdbRating": 7.596,
-      "votes": 1452,
+      "tmdbRating": 7.593,
+      "votes": 1454,
       "score": 3.0400000000000005,
       "rank": 9,
       "creators": [
@@ -339,8 +339,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.6,
-      "votes": 5725,
+      "tmdbRating": 8.582,
+      "votes": 5732,
       "score": 2.5600000000000005,
       "rank": 10,
       "creators": [
@@ -375,7 +375,7 @@
       "year": 2022,
       "tmdbId": 204284,
       "tmdbRating": 7.941,
-      "votes": 297,
+      "votes": 298,
       "score": 4.2,
       "rank": 11,
       "creators": [
@@ -408,8 +408,8 @@
       "title": "Who Is America?",
       "year": 2018,
       "tmdbId": 80730,
-      "tmdbRating": 7.378,
-      "votes": 200,
+      "tmdbRating": 7.381,
+      "votes": 201,
       "score": 3.3600000000000003,
       "rank": 12,
       "creators": [
@@ -594,8 +594,8 @@
       "title": "Mr. Pickles",
       "year": 2014,
       "tmdbId": 61593,
-      "tmdbRating": 8.136,
-      "votes": 878,
+      "tmdbRating": 8.13,
+      "votes": 879,
       "score": 2.16,
       "rank": 17,
       "creators": [
@@ -669,7 +669,7 @@
       "year": 2010,
       "tmdbId": 31941,
       "tmdbRating": 7.569,
-      "votes": 487,
+      "votes": 489,
       "score": 2.16,
       "rank": 19,
       "creators": [
@@ -734,8 +734,8 @@
       "title": "Faking It",
       "year": 2014,
       "tmdbId": 60705,
-      "tmdbRating": 6.744,
-      "votes": 176,
+      "tmdbRating": 6.763,
+      "votes": 177,
       "score": 2.16,
       "rank": 21,
       "creators": [
@@ -766,8 +766,8 @@
       "title": "Tom Clancy's Jack Ryan",
       "year": 2018,
       "tmdbId": 73375,
-      "tmdbRating": 7.669,
-      "votes": 1943,
+      "tmdbRating": 7.67,
+      "votes": 1945,
       "score": 1.92,
       "rank": 22,
       "creators": [
@@ -801,8 +801,8 @@
       "title": "Suburgatory",
       "year": 2011,
       "tmdbId": 39357,
-      "tmdbRating": 6.69,
-      "votes": 240,
+      "tmdbRating": 6.687,
+      "votes": 241,
       "score": 2.16,
       "rank": 23,
       "creators": [
