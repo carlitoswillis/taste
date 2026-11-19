@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-18T18:02:53.464Z",
+  "generated": "2026-11-19T18:16:28.096Z",
   "basedOn": 37,
   "head": 12,
   "items": [
@@ -42,9 +42,9 @@
       "title": "Autumn Sonata",
       "year": 1978,
       "tmdbId": 12761,
-      "tmdbRating": 7.97,
-      "votes": 748,
-      "score": 22.16,
+      "tmdbRating": 7.974,
+      "votes": 750,
+      "score": 22.19,
       "rank": 2,
       "director": [
         "Ingmar Bergman"
@@ -79,7 +79,7 @@
       "year": 1999,
       "tmdbId": 11660,
       "tmdbRating": 7.107,
-      "votes": 2026,
+      "votes": 2027,
       "themes": [
         "surveillance"
       ],
@@ -122,7 +122,7 @@
       "year": 2002,
       "tmdbId": 320,
       "tmdbRating": 6.959,
-      "votes": 5659,
+      "votes": 5661,
       "score": 12.08,
       "rank": 4,
       "director": [
@@ -162,8 +162,8 @@
       "score": 11.12,
       "rank": 5,
       "director": [
-        "Joel Coen",
-        "Ethan Coen"
+        "Ethan Coen",
+        "Joel Coen"
       ],
       "runtime": 110,
       "genres": [
@@ -275,7 +275,7 @@
       "title": "The Banshees of Inisherin",
       "year": 2022,
       "tmdbId": 674324,
-      "tmdbRating": 7.5,
+      "tmdbRating": 7.464,
       "votes": 3669,
       "themes": [
         "cruel-comedy"
@@ -352,7 +352,7 @@
       "year": 2018,
       "tmdbId": 375262,
       "tmdbRating": 7.477,
-      "votes": 6128,
+      "votes": 6129,
       "themes": [
         "cruel-comedy"
       ],
@@ -424,7 +424,7 @@
       "year": 2013,
       "tmdbId": 110415,
       "tmdbRating": 6.91,
-      "votes": 10849,
+      "votes": 10851,
       "score": 5.62,
       "rank": 12,
       "director": [
@@ -683,8 +683,8 @@
       "title": "Doodlebug",
       "year": 1997,
       "tmdbId": 43629,
-      "tmdbRating": 6.493,
-      "votes": 515,
+      "tmdbRating": 6.492,
+      "votes": 516,
       "score": 9.05,
       "rank": 19,
       "director": [
@@ -748,7 +748,7 @@
       "title": "Three Billboards Outside Ebbing, Missouri",
       "year": 2017,
       "tmdbId": 359940,
-      "tmdbRating": 8.049,
+      "tmdbRating": 8,
       "votes": 11351,
       "score": 6.48,
       "rank": 21,
@@ -861,7 +861,7 @@
       "year": 2016,
       "tmdbId": 313297,
       "tmdbRating": 7.656,
-      "votes": 4003,
+      "votes": 4004,
       "score": 4.68,
       "rank": 24,
       "director": [
@@ -938,8 +938,8 @@
       "title": "Tangerine",
       "year": 2015,
       "tmdbId": 308084,
-      "tmdbRating": 6.841,
-      "votes": 846,
+      "tmdbRating": 6.839,
+      "votes": 847,
       "score": 4.59,
       "rank": 26,
       "director": [
@@ -977,8 +977,8 @@
       "title": "Kill Bill: Vol. 2",
       "year": 2004,
       "tmdbId": 393,
-      "tmdbRating": 7.872,
-      "votes": 15692,
+      "tmdbRating": 7.871,
+      "votes": 15696,
       "score": 4.56,
       "rank": 27,
       "director": [
@@ -1017,7 +1017,7 @@
       "year": 2015,
       "tmdbId": 273248,
       "tmdbRating": 7.757,
-      "votes": 15850,
+      "votes": 15854,
       "score": 4.56,
       "rank": 28,
       "director": [
@@ -1052,8 +1052,8 @@
       "title": "Kill Bill: The Whole Bloody Affair",
       "year": 2011,
       "tmdbId": 414419,
-      "tmdbRating": 8.117,
-      "votes": 1487,
+      "tmdbRating": 8.118,
+      "votes": 1488,
       "score": 4.56,
       "rank": 29,
       "director": [
@@ -1091,7 +1091,7 @@
       "year": 1997,
       "tmdbId": 184,
       "tmdbRating": 7.355,
-      "votes": 7246,
+      "votes": 7247,
       "score": 4.55,
       "rank": 30,
       "director": [
@@ -1202,7 +1202,7 @@
       "year": 1991,
       "tmdbId": 1541,
       "tmdbRating": 7.597,
-      "votes": 4082,
+      "votes": 4083,
       "themes": [
         "surveillance"
       ],
@@ -1245,7 +1245,7 @@
       "year": 2007,
       "tmdbId": 4982,
       "tmdbRating": 7.598,
-      "votes": 6392,
+      "votes": 6393,
       "themes": [
         "surveillance"
       ],
@@ -1322,9 +1322,9 @@
       "title": "Masters of the Universe",
       "year": 2026,
       "tmdbId": 454639,
-      "tmdbRating": 7.1,
-      "votes": 2365,
-      "score": 3.74,
+      "tmdbRating": 7.07,
+      "votes": 2368,
+      "score": 3.7,
       "rank": 36,
       "director": [
         "Travis Knight"
@@ -1523,12 +1523,12 @@
       "title": "The Dog Stars",
       "year": 2026,
       "tmdbId": 1384216,
-      "tmdbRating": 7.161,
-      "votes": 1016,
+      "tmdbRating": 7.166,
+      "votes": 1028,
       "themes": [
         "grief-horror"
       ],
-      "score": 2.3,
+      "score": 2.31,
       "rank": 42,
       "director": [
         "Ridley Scott"
@@ -1579,7 +1579,7 @@
       "year": 2014,
       "tmdbId": 180299,
       "tmdbRating": 7.612,
-      "votes": 2746,
+      "votes": 2747,
       "score": 3.24,
       "rank": 44,
       "director": [
@@ -1611,8 +1611,8 @@
       "title": "The Raid",
       "year": 2012,
       "tmdbId": 94329,
-      "tmdbRating": 7.414,
-      "votes": 4128,
+      "tmdbRating": 7.413,
+      "votes": 4129,
       "score": 3.22,
       "rank": 45,
       "director": [
@@ -1771,47 +1771,13 @@
       "why": "John Krasinski wrote and directed this — you rated A Quiet Place 4★"
     },
     {
-      "title": "Under the Silver Lake",
-      "year": 2018,
-      "tmdbId": 396461,
-      "tmdbRating": 6.326,
-      "votes": 1716,
-      "themes": [
-        "cruel-comedy"
-      ],
-      "score": 1.88,
-      "rank": 50,
-      "director": [
-        "David Robert Mitchell"
-      ],
-      "runtime": 139,
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/cJ9aKlEgTLYtpYjNqin06YqJRUl.jpg",
-      "providers": {
-        "flatrate": [
-          "JustWatch TV Plus"
-        ],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube"
-        ]
-      },
-      "why": "David Robert Mitchell wrote and directed this — you rated The End of Oak Street 4★ · themes: comedy that's actually cruel"
-    },
-    {
       "title": "Blade Runner",
       "year": 1982,
       "tmdbId": 78,
       "tmdbRating": 7.937,
-      "votes": 15651,
+      "votes": 15658,
       "score": 2.88,
-      "rank": 51,
+      "rank": 50,
       "director": [
         "Ridley Scott"
       ],
@@ -1838,9 +1804,9 @@
       "year": 2001,
       "tmdbId": 855,
       "tmdbRating": 7.408,
-      "votes": 6728,
+      "votes": 6732,
       "score": 2.88,
-      "rank": 52,
+      "rank": 51,
       "director": [
         "Ridley Scott"
       ],
@@ -1871,11 +1837,45 @@
       "why": "Ridley Scott directed this — you rated Prometheus 4.5★"
     },
     {
+      "title": "Under the Silver Lake",
+      "year": 2018,
+      "tmdbId": 396461,
+      "tmdbRating": 6.3,
+      "votes": 1716,
+      "themes": [
+        "cruel-comedy"
+      ],
+      "score": 1.86,
+      "rank": 52,
+      "director": [
+        "David Robert Mitchell"
+      ],
+      "runtime": 139,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/cJ9aKlEgTLYtpYjNqin06YqJRUl.jpg",
+      "providers": {
+        "flatrate": [
+          "JustWatch TV Plus"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube"
+        ]
+      },
+      "why": "David Robert Mitchell wrote and directed this — you rated The End of Oak Street 4★ · themes: comedy that's actually cruel"
+    },
+    {
       "title": "Bumblebee",
       "year": 2018,
       "tmdbId": 424783,
       "tmdbRating": 6.729,
-      "votes": 6952,
+      "votes": 6953,
       "score": 2.84,
       "rank": 53,
       "director": [
@@ -1946,9 +1946,9 @@
       "title": "Street Fighter",
       "year": 2026,
       "tmdbId": 1153576,
-      "tmdbRating": 6.3,
-      "votes": 247,
-      "score": 2.71,
+      "tmdbRating": 6.234,
+      "votes": 252,
+      "score": 2.67,
       "rank": 55,
       "director": [
         "Kitao Sakurai"
@@ -2036,8 +2036,8 @@
       "title": "Three Thousand Years of Longing",
       "year": 2022,
       "tmdbId": 556694,
-      "tmdbRating": 6.869,
-      "votes": 1780,
+      "tmdbRating": 6.87,
+      "votes": 1781,
       "score": 2.44,
       "rank": 58,
       "director": [
@@ -2194,8 +2194,8 @@
       "title": "Sacrifice",
       "year": 2026,
       "tmdbId": 1284186,
-      "tmdbRating": 5.5,
-      "votes": 164,
+      "tmdbRating": 5.488,
+      "votes": 166,
       "themes": [
         "grief-horror",
         "cruel-comedy"
@@ -2225,9 +2225,9 @@
       "title": "The Witches of Eastwick",
       "year": 1987,
       "tmdbId": 6069,
-      "tmdbRating": 6.54,
+      "tmdbRating": 6.5,
       "votes": 1663,
-      "score": 2.1,
+      "score": 2.06,
       "rank": 64,
       "director": [
         "George Miller"
@@ -2290,7 +2290,7 @@
       "year": 2025,
       "tmdbId": 668489,
       "tmdbRating": 6.386,
-      "votes": 1398,
+      "votes": 1399,
       "score": 1.94,
       "rank": 66,
       "director": [
@@ -2317,8 +2317,8 @@
       "title": "Fantastic Four",
       "year": 2015,
       "tmdbId": 166424,
-      "tmdbRating": 4.431,
-      "votes": 6627,
+      "tmdbRating": 4.432,
+      "votes": 6629,
       "themes": [
         "body-horror"
       ],
@@ -2390,9 +2390,9 @@
       "title": "Man of Steel",
       "year": 2013,
       "tmdbId": 49521,
-      "tmdbRating": 6.663,
-      "votes": 16827,
-      "score": 1.47,
+      "tmdbRating": 6.7,
+      "votes": 16829,
+      "score": 1.5,
       "rank": 69,
       "director": [
         "Zack Snyder"
@@ -2451,7 +2451,7 @@
       "year": 2002,
       "tmdbId": 180,
       "tmdbRating": 7.358,
-      "votes": 10144,
+      "votes": 10145,
       "themes": [
         "grief-horror"
       ],
@@ -2493,7 +2493,7 @@
       "year": 2020,
       "tmdbId": 429422,
       "tmdbRating": 5.052,
-      "votes": 474,
+      "votes": 475,
       "score": 1.21,
       "rank": 72,
       "director": [
@@ -2524,12 +2524,12 @@
       "title": "Victor Frankenstein",
       "year": 2015,
       "tmdbId": 228066,
-      "tmdbRating": 6,
-      "votes": 2353,
+      "tmdbRating": 5.957,
+      "votes": 2354,
       "themes": [
         "body-horror"
       ],
-      "score": 0.56,
+      "score": 0.54,
       "rank": 73,
       "director": [
         "Paul McGuigan"
@@ -2661,12 +2661,12 @@
       "year": 2023,
       "tmdbId": 700391,
       "tmdbRating": 5.941,
-      "votes": 3045,
+      "votes": 3046,
       "score": 0.74,
       "rank": 77,
       "director": [
-        "Scott Beck",
-        "Bryan Woods"
+        "Bryan Woods",
+        "Scott Beck"
       ],
       "runtime": 92,
       "genres": [
@@ -2695,7 +2695,7 @@
       "year": 2016,
       "tmdbId": 300671,
       "tmdbRating": 7.285,
-      "votes": 4144,
+      "votes": 4145,
       "score": 0.73,
       "rank": 78,
       "director": [
@@ -2732,7 +2732,7 @@
       "year": 2018,
       "tmdbId": 480530,
       "tmdbRating": 7.034,
-      "votes": 5993,
+      "votes": 5994,
       "score": 0.71,
       "rank": 79,
       "director": [
@@ -2800,9 +2800,9 @@
       "title": "DC League of Super-Pets",
       "year": 2022,
       "tmdbId": 539681,
-      "tmdbRating": 7.124,
+      "tmdbRating": 7.1,
       "votes": 1811,
-      "score": 0.64,
+      "score": 0.63,
       "rank": 81,
       "director": [
         "Jared Stern"
@@ -2840,8 +2840,8 @@
       "title": "Next Gen",
       "year": 2018,
       "tmdbId": 523777,
-      "tmdbRating": 6.999,
-      "votes": 891,
+      "tmdbRating": 7,
+      "votes": 892,
       "score": 0.58,
       "rank": 82,
       "director": [
@@ -2871,8 +2871,8 @@
       "title": "Left-Handed Girl",
       "year": 2025,
       "tmdbId": 999075,
-      "tmdbRating": 7.229,
-      "votes": 212,
+      "tmdbRating": 7.228,
+      "votes": 213,
       "score": 0.56,
       "rank": 83,
       "director": [
@@ -2927,7 +2927,7 @@
       "year": 2021,
       "tmdbId": 379686,
       "tmdbRating": 6.608,
-      "votes": 4337,
+      "votes": 4338,
       "score": 0.46,
       "rank": 85,
       "director": [
@@ -3001,8 +3001,8 @@
       "title": "ParaNorman",
       "year": 2012,
       "tmdbId": 77174,
-      "tmdbRating": 7.062,
-      "votes": 2928,
+      "tmdbRating": 7.063,
+      "votes": 2929,
       "score": 0.4,
       "rank": 87,
       "director": [
@@ -3214,7 +3214,7 @@
       "title": "Mr. Right",
       "year": 2016,
       "tmdbId": 333385,
-      "tmdbRating": 6.438,
+      "tmdbRating": 6.444,
       "votes": 1523,
       "score": 0.29,
       "rank": 94,
@@ -3282,7 +3282,7 @@
       "year": 2017,
       "tmdbId": 400106,
       "tmdbRating": 6.162,
-      "votes": 6163,
+      "votes": 6165,
       "score": 0.17,
       "rank": 96,
       "director": [
@@ -3308,8 +3308,8 @@
       "title": "Shadow in the Cloud",
       "year": 2021,
       "tmdbId": 675327,
-      "tmdbRating": 5.816,
-      "votes": 1119,
+      "tmdbRating": 5.815,
+      "votes": 1120,
       "score": 0.15,
       "rank": 97,
       "director": [
@@ -3344,7 +3344,7 @@
       "year": 1954,
       "tmdbId": 567,
       "tmdbRating": 8.332,
-      "votes": 7506,
+      "votes": 7508,
       "theme": "surveillance",
       "why": "surveillance — the thread through 4 of your loved films",
       "director": [
@@ -3396,7 +3396,7 @@
       "year": 2006,
       "tmdbId": 582,
       "tmdbRating": 8.039,
-      "votes": 4364,
+      "votes": 4365,
       "theme": "surveillance",
       "why": "surveillance — the thread through 4 of your loved films",
       "director": [
@@ -3424,8 +3424,8 @@
       "title": "Perfect Blue",
       "year": 1998,
       "tmdbId": 10494,
-      "tmdbRating": 8.297,
-      "votes": 3446,
+      "tmdbRating": 8.295,
+      "votes": 3450,
       "theme": "unravelling",
       "why": "unravelling — the thread through 4 of your loved films",
       "director": [
@@ -3455,8 +3455,8 @@
       "title": "Modern Times",
       "year": 1936,
       "tmdbId": 3082,
-      "tmdbRating": 8.287,
-      "votes": 4270,
+      "tmdbRating": 8.285,
+      "votes": 4273,
       "theme": "unravelling",
       "why": "unravelling — the thread through 4 of your loved films",
       "director": [
@@ -3489,8 +3489,8 @@
       "title": "Sunset Boulevard",
       "year": 1950,
       "tmdbId": 599,
-      "tmdbRating": 8.3,
-      "votes": 3099,
+      "tmdbRating": 8.274,
+      "votes": 3101,
       "theme": "unravelling",
       "why": "unravelling — the thread through 4 of your loved films",
       "director": [
@@ -3525,8 +3525,8 @@
       "title": "Life Is Beautiful",
       "year": 1997,
       "tmdbId": 637,
-      "tmdbRating": 8.435,
-      "votes": 14412,
+      "tmdbRating": 8.434,
+      "votes": 14416,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 3 of your loved films",
       "director": [
@@ -3559,8 +3559,8 @@
       "title": "I Swear",
       "year": 2025,
       "tmdbId": 1317149,
-      "tmdbRating": 8.289,
-      "votes": 685,
+      "tmdbRating": 8.294,
+      "votes": 687,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 3 of your loved films",
       "director": [
@@ -3591,8 +3591,8 @@
       "title": "The Great Dictator",
       "year": 1940,
       "tmdbId": 914,
-      "tmdbRating": 8.284,
-      "votes": 3886,
+      "tmdbRating": 8.282,
+      "votes": 3888,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 3 of your loved films",
       "director": [
@@ -3660,8 +3660,8 @@
       "title": "20 Days in Mariupol",
       "year": 2023,
       "tmdbId": 1058616,
-      "tmdbRating": 8.1,
-      "votes": 330,
+      "tmdbRating": 8.091,
+      "votes": 331,
       "theme": "grief-horror",
       "why": "grief-horror — the thread through 4 of your loved films",
       "director": [
@@ -3721,8 +3721,8 @@
       "title": "The Quintessential Quintuplets Movie",
       "year": 2022,
       "tmdbId": 820067,
-      "tmdbRating": 8.277,
-      "votes": 464,
+      "tmdbRating": 8.261,
+      "votes": 465,
       "theme": "doubling",
       "why": "doubling — the thread through 2 of your loved films",
       "director": [
@@ -3750,7 +3750,7 @@
       "year": 2010,
       "tmdbId": 46738,
       "tmdbRating": 8.104,
-      "votes": 3579,
+      "votes": 3582,
       "theme": "doubling",
       "why": "doubling — the thread through 2 of your loved films",
       "director": [
@@ -3778,7 +3778,7 @@
       "title": "The Young Girls of Rochefort",
       "year": 1967,
       "tmdbId": 2433,
-      "tmdbRating": 7.662,
+      "tmdbRating": 7.7,
       "votes": 686,
       "theme": "doubling",
       "why": "doubling — the thread through 2 of your loved films",

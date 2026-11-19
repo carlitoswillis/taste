@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-18T18:01:26.816Z",
+  "generated": "2026-11-19T18:15:29.227Z",
   "edges": [
     {
       "book": {
@@ -1693,6 +1693,58 @@
     },
     {
       "book": {
+        "title": "The Last Duel",
+        "author": "Eric Jager",
+        "olWork": "OL15827118W",
+        "wikidata": "Q7745728"
+      },
+      "screen": "The Last Duel (2021)",
+      "screenId": "m:617653",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Bullet Train",
+        "author": "Kōtarō Isaka",
+        "olWork": "OL24375262W",
+        "wikidata": "Q11340979"
+      },
+      "screen": "Bullet Train (2022)",
+      "screenId": "m:718930",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Djinn in the Nightingale's Eye",
+        "author": "A. S. Byatt",
+        "olWork": "OL115631W",
+        "wikidata": "Q21584316"
+      },
+      "screen": "Three Thousand Years of Longing (2022)",
+      "screenId": "m:556694",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Ballad of Songbirds and Snakes",
+        "author": "Suzanne Collins",
+        "olWork": "OL28122267M",
+        "wikidata": "Q81925268"
+      },
+      "screen": "The Hunger Games: The Ballad of Songbirds & Snakes (2023)",
+      "screenId": "m:695721",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
         "title": "Odyssey",
         "author": "Homer",
         "olWork": "OL61982W",
@@ -1898,58 +1950,6 @@
       "status": "confirmed",
       "source": "wikidata",
       "read": false
-    },
-    {
-      "book": {
-        "title": "The Last Duel",
-        "author": "Eric Jager",
-        "olWork": "OL15827118W",
-        "wikidata": "Q7745728"
-      },
-      "screen": "The Last Duel (2021)",
-      "screenId": "m:617653",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Bullet Train",
-        "author": "Kōtarō Isaka",
-        "olWork": "OL24375262W",
-        "wikidata": "Q11340979"
-      },
-      "screen": "Bullet Train (2022)",
-      "screenId": "m:718930",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "The Djinn in the Nightingale's Eye",
-        "author": "A. S. Byatt",
-        "olWork": "OL115631W",
-        "wikidata": "Q21584316"
-      },
-      "screen": "Three Thousand Years of Longing (2022)",
-      "screenId": "m:556694",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "The Ballad of Songbirds and Snakes",
-        "author": "Suzanne Collins",
-        "olWork": "OL28122267M",
-        "wikidata": "Q81925268"
-      },
-      "screen": "The Hunger Games: The Ballad of Songbirds & Snakes (2023)",
-      "screenId": "m:695721",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
     }
   ],
   "rejected": [],
@@ -1994,6 +1994,12 @@
       "olKey": "OL18404A",
       "adaptedBy": [
         {
+          "director": "Christopher Nolan",
+          "films": [
+            "The Odyssey"
+          ]
+        },
+        {
           "director": "Joel Coen",
           "films": [
             "O Brother, Where Art Thou?"
@@ -2003,12 +2009,6 @@
           "director": "Ethan Coen",
           "films": [
             "O Brother, Where Art Thou?"
-          ]
-        },
-        {
-          "director": "Christopher Nolan",
-          "films": [
-            "The Odyssey"
           ]
         }
       ],
@@ -2181,20 +2181,6 @@
       "weight": 1.92
     },
     {
-      "name": "William Shakespeare",
-      "wikidata": "Q692",
-      "olKey": "OL9388A",
-      "adaptedBy": [
-        {
-          "director": "Joel Coen",
-          "films": [
-            "The Tragedy of Macbeth"
-          ]
-        }
-      ],
-      "weight": 1.6
-    },
-    {
       "name": "Susan Orlean",
       "wikidata": "Q273168",
       "olKey": "OL20986A",
@@ -2231,6 +2217,20 @@
           "director": "Spike Jonze",
           "films": [
             "I'm Here"
+          ]
+        }
+      ],
+      "weight": 1.6
+    },
+    {
+      "name": "William Shakespeare",
+      "wikidata": "Q692",
+      "olKey": "OL9388A",
+      "adaptedBy": [
+        {
+          "director": "Joel Coen",
+          "films": [
+            "The Tragedy of Macbeth"
           ]
         }
       ],

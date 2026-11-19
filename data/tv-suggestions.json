@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-18T18:03:12.394Z",
+  "generated": "2026-11-19T18:16:42.668Z",
   "basedOn": 37,
   "head": 10,
   "items": [
@@ -190,8 +190,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.751,
-      "votes": 1082,
+      "tmdbRating": 7.752,
+      "votes": 1083,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -227,8 +227,8 @@
       "title": "Jackass",
       "year": 2000,
       "tmdbId": 1795,
-      "tmdbRating": 6.739,
-      "votes": 320,
+      "tmdbRating": 6.746,
+      "votes": 321,
       "score": 4,
       "rank": 7,
       "creators": [
@@ -300,7 +300,7 @@
       "year": 2000,
       "tmdbId": 1431,
       "tmdbRating": 7.593,
-      "votes": 1454,
+      "votes": 1455,
       "score": 3.0400000000000005,
       "rank": 9,
       "creators": [
@@ -339,8 +339,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.582,
-      "votes": 5732,
+      "tmdbRating": 8.6,
+      "votes": 5733,
       "score": 2.5600000000000005,
       "rank": 10,
       "creators": [
@@ -446,8 +446,8 @@
       "title": "Twisted Metal",
       "year": 2023,
       "tmdbId": 133748,
-      "tmdbRating": 7.668,
-      "votes": 578,
+      "tmdbRating": 7.667,
+      "votes": 579,
       "score": 3.0400000000000005,
       "themes": [
         "identity"
@@ -766,8 +766,8 @@
       "title": "Tom Clancy's Jack Ryan",
       "year": 2018,
       "tmdbId": 73375,
-      "tmdbRating": 7.67,
-      "votes": 1945,
+      "tmdbRating": 7.671,
+      "votes": 1946,
       "score": 1.92,
       "rank": 22,
       "creators": [
