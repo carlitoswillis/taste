@@ -104221,5 +104221,128 @@
       "metacritic": 63,
       "imdb": 7.7
     }
+  },
+  "The Hunger Games: Sunrise on the Reaping (2026)": {
+    "id": "m:1300968",
+    "tmdbId": 1300968,
+    "imdbId": "tt32558705",
+    "director": [
+      {
+        "id": 10943,
+        "name": "Francis Lawrence"
+      }
+    ],
+    "writers": [
+      {
+        "id": 21807,
+        "name": "Billy Ray"
+      },
+      {
+        "id": 1273117,
+        "name": "Michael Lesslie"
+      }
+    ],
+    "cast": [
+      {
+        "id": 4744857,
+        "name": "Joseph Zada"
+      },
+      {
+        "id": 88124,
+        "name": "Jesse Plemons"
+      },
+      {
+        "id": 5469,
+        "name": "Ralph Fiennes"
+      },
+      {
+        "id": 515,
+        "name": "Glenn Close"
+      },
+      {
+        "id": 1172108,
+        "name": "Mckenna Grace"
+      },
+      {
+        "id": 1842860,
+        "name": "Whitney Peak"
+      },
+      {
+        "id": 18050,
+        "name": "Elle Fanning"
+      },
+      {
+        "id": 18793,
+        "name": "Kieran Culkin"
+      }
+    ],
+    "keywords": [
+      {
+        "id": 818,
+        "name": "based on novel or book"
+      },
+      {
+        "id": 4565,
+        "name": "dystopia"
+      },
+      {
+        "id": 4458,
+        "name": "post-apocalyptic future"
+      },
+      {
+        "id": 3104,
+        "name": "killing fields"
+      },
+      {
+        "id": 9663,
+        "name": "sequel"
+      },
+      {
+        "id": 9675,
+        "name": "prequel"
+      },
+      {
+        "id": 246466,
+        "name": "based on young adult novel"
+      },
+      {
+        "id": 286995,
+        "name": "fiction"
+      },
+      {
+        "id": 293198,
+        "name": "fantasy"
+      },
+      {
+        "id": 372064,
+        "name": "violent revenge"
+      }
+    ],
+    "runtime": 158,
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ],
+    "tmdbRating": 7.616,
+    "overview": "Return to the world of Panem 24 years before Katniss Everdeen volunteers in her sister's place, commencing on the morning of the reaping of the 50th Hunger Games, also known as the Second Quarter Quell.",
+    "tagline": "Welcome to the Second Quarter Quell.",
+    "poster": "https://image.tmdb.org/t/p/w342/jNcZH8yplxttRlf0wwqfGGMKHxX.jpg",
+    "backdrop": "/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg",
+    "providers": {
+      "flatrate": [],
+      "rent": [],
+      "buy": [
+        "Fandango At Home"
+      ]
+    },
+    "providersLink": "https://www.themoviedb.org/movie/1300968-the-hunger-games-sunrise-on-the-reaping/watch?locale=US",
+    "providersAt": 1795279477060,
+    "region": "US",
+    "scores": {
+      "rt": null,
+      "metacritic": null,
+      "imdb": null
+    }
   }
 }

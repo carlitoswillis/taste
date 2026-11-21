@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-20T17:46:38.278Z",
+  "generated": "2026-11-21T16:46:30.118Z",
   "edges": [
     {
       "book": {
@@ -127,6 +127,19 @@
       },
       "screen": "La Bola Negra (2026)",
       "screenId": "m:1422041",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Sunrise on the Reaping",
+        "author": "Suzanne Collins",
+        "olWork": "OL42360848W",
+        "wikidata": "Q126390804"
+      },
+      "screen": "The Hunger Games: Sunrise on the Reaping (2026)",
+      "screenId": "m:1300968",
       "status": "confirmed",
       "source": "wikidata",
       "read": false

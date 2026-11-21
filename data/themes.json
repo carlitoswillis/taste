@@ -1,9 +1,9 @@
 {
-  "generated": "2026-11-20T17:46:30.897Z",
+  "generated": "2026-11-21T16:46:22.273Z",
   "basedOn": {
-    "loved": 37,
-    "seenWithKeywords": 371,
-    "filmsEnriched": 638
+    "loved": 38,
+    "seenWithKeywords": 372,
+    "filmsEnriched": 639
   },
   "themes": [
     {
@@ -15,7 +15,7 @@
       "lovedCount": 2,
       "lovedShare": 0.05,
       "seenCount": 13,
-      "seenShare": 0.04,
+      "seenShare": 0.03,
       "tilt": 0.02,
       "lovedFilms": [
         {
@@ -140,7 +140,7 @@
       "lovedShare": 0.08,
       "seenCount": 43,
       "seenShare": 0.12,
-      "tilt": -0.03,
+      "tilt": -0.04,
       "lovedFilms": [
         {
           "title": "Parasite",
@@ -325,7 +325,7 @@
       "lovedShare": 0.11,
       "seenCount": 15,
       "seenShare": 0.04,
-      "tilt": 0.07,
+      "tilt": 0.06,
       "lovedFilms": [
         {
           "title": "Midsommar",
@@ -402,7 +402,7 @@
       "id": 295907,
       "lovedCount": 4,
       "seenCount": 19,
-      "tilt": 0.06,
+      "tilt": 0.05,
       "films": [
         "Obsession (2026)",
         "The Lighthouse (2019)",
@@ -434,11 +434,23 @@
       ]
     },
     {
+      "keyword": "post-apocalyptic future",
+      "id": 4458,
+      "lovedCount": 3,
+      "seenCount": 6,
+      "tilt": 0.06,
+      "films": [
+        "Mad Max: Fury Road (2015)",
+        "A Quiet Place (2018)",
+        "The Hunger Games: Sunrise on the Reaping (2026)"
+      ]
+    },
+    {
       "keyword": "sci-fi horror",
       "id": 323910,
       "lovedCount": 3,
       "seenCount": 9,
-      "tilt": 0.06,
+      "tilt": 0.05,
       "films": [
         "Prometheus (2012)",
         "A Quiet Place (2018)",
@@ -458,83 +470,6 @@
       ]
     },
     {
-      "keyword": "boyfriend girlfriend relationship",
-      "id": 164698,
-      "lovedCount": 2,
-      "seenCount": 3,
-      "tilt": 0.05,
-      "films": [
-        "Midsommar (2019)",
-        "Companion (2025)"
-      ]
-    },
-    {
-      "keyword": "psychological disorders",
-      "id": 224845,
-      "lovedCount": 2,
-      "seenCount": 3,
-      "tilt": 0.05,
-      "films": [
-        "Hereditary (2018)",
-        "Midsommar (2019)"
-      ]
-    },
-    {
-      "keyword": "toxic relationship",
-      "id": 241804,
-      "lovedCount": 2,
-      "seenCount": 3,
-      "tilt": 0.05,
-      "films": [
-        "Midsommar (2019)",
-        "Companion (2025)"
-      ]
-    },
-    {
-      "keyword": "traumatized woman",
-      "id": 253807,
-      "lovedCount": 2,
-      "seenCount": 3,
-      "tilt": 0.05,
-      "films": [
-        "Hereditary (2018)",
-        "Midsommar (2019)"
-      ]
-    },
-    {
-      "keyword": "ship",
-      "id": 3799,
-      "lovedCount": 2,
-      "seenCount": 3,
-      "tilt": 0.05,
-      "films": [
-        "The Odyssey (2026)",
-        "Poor Things (2023)"
-      ]
-    },
-    {
-      "keyword": "sex worker",
-      "id": 190178,
-      "lovedCount": 2,
-      "seenCount": 3,
-      "tilt": 0.05,
-      "films": [
-        "Anora (2024)",
-        "Poor Things (2023)"
-      ]
-    },
-    {
-      "keyword": "commanding",
-      "id": 325785,
-      "lovedCount": 2,
-      "seenCount": 3,
-      "tilt": 0.05,
-      "films": [
-        "Hereditary (2018)",
-        "The Northman (2022)"
-      ]
-    },
-    {
       "keyword": "isolated island",
       "id": 226406,
       "lovedCount": 2,
@@ -546,61 +481,6 @@
       ]
     },
     {
-      "keyword": "doubtful",
-      "id": 325802,
-      "lovedCount": 2,
-      "seenCount": 3,
-      "tilt": 0.05,
-      "films": [
-        "No Country for Old Men (2007)",
-        "Together (2025)"
-      ]
-    },
-    {
-      "keyword": "diary",
-      "id": 2913,
-      "lovedCount": 2,
-      "seenCount": 3,
-      "tilt": 0.05,
-      "films": [
-        "The Prestige (2006)",
-        "Hour of the Wolf (1968)"
-      ]
-    },
-    {
-      "keyword": "countryside",
-      "id": 548,
-      "lovedCount": 2,
-      "seenCount": 3,
-      "tilt": 0.05,
-      "films": [
-        "The Seventh Seal (1957)",
-        "Together (2025)"
-      ]
-    },
-    {
-      "keyword": "nurse",
-      "id": 428,
-      "lovedCount": 2,
-      "seenCount": 3,
-      "tilt": 0.05,
-      "films": [
-        "Persona (1966)",
-        "Saint Maud (2019)"
-      ]
-    },
-    {
-      "keyword": "symbolism",
-      "id": 1715,
-      "lovedCount": 2,
-      "seenCount": 3,
-      "tilt": 0.05,
-      "films": [
-        "The Seventh Seal (1957)",
-        "Bugonia (2025)"
-      ]
-    },
-    {
       "keyword": "drunk",
       "id": 40879,
       "lovedCount": 2,
@@ -609,17 +489,6 @@
       "films": [
         "Anora (2024)",
         "Bad Trip (2021)"
-      ]
-    },
-    {
-      "keyword": "hostile",
-      "id": 201864,
-      "lovedCount": 2,
-      "seenCount": 3,
-      "tilt": 0.05,
-      "films": [
-        "A Quiet Place (2018)",
-        "They Cloned Tyrone (2023)"
       ]
     },
     {
@@ -654,12 +523,144 @@
         "Anora (2024)",
         "Parasite (2019)"
       ]
+    },
+    {
+      "keyword": "couple",
+      "id": 33494,
+      "lovedCount": 2,
+      "seenCount": 4,
+      "tilt": 0.04,
+      "films": [
+        "Obsession (2026)",
+        "Together (2025)"
+      ]
+    },
+    {
+      "keyword": "ritual",
+      "id": 4720,
+      "lovedCount": 2,
+      "seenCount": 6,
+      "tilt": 0.04,
+      "films": [
+        "Hereditary (2018)",
+        "Midsommar (2019)"
+      ]
+    },
+    {
+      "keyword": "boyfriend girlfriend relationship",
+      "id": 164698,
+      "lovedCount": 2,
+      "seenCount": 3,
+      "tilt": 0.04,
+      "films": [
+        "Midsommar (2019)",
+        "Companion (2025)"
+      ]
+    },
+    {
+      "keyword": "grieving",
+      "id": 172291,
+      "lovedCount": 2,
+      "seenCount": 4,
+      "tilt": 0.04,
+      "films": [
+        "Hereditary (2018)",
+        "Midsommar (2019)"
+      ]
+    },
+    {
+      "keyword": "folk horror",
+      "id": 209568,
+      "lovedCount": 2,
+      "seenCount": 6,
+      "tilt": 0.04,
+      "films": [
+        "Midsommar (2019)",
+        "Apostle (2018)"
+      ]
+    },
+    {
+      "keyword": "psychological disorders",
+      "id": 224845,
+      "lovedCount": 2,
+      "seenCount": 3,
+      "tilt": 0.04,
+      "films": [
+        "Hereditary (2018)",
+        "Midsommar (2019)"
+      ]
+    },
+    {
+      "keyword": "toxic relationship",
+      "id": 241804,
+      "lovedCount": 2,
+      "seenCount": 3,
+      "tilt": 0.04,
+      "films": [
+        "Midsommar (2019)",
+        "Companion (2025)"
+      ]
+    },
+    {
+      "keyword": "traumatized woman",
+      "id": 253807,
+      "lovedCount": 2,
+      "seenCount": 3,
+      "tilt": 0.04,
+      "films": [
+        "Hereditary (2018)",
+        "Midsommar (2019)"
+      ]
+    },
+    {
+      "keyword": "ship",
+      "id": 3799,
+      "lovedCount": 2,
+      "seenCount": 3,
+      "tilt": 0.04,
+      "films": [
+        "The Odyssey (2026)",
+        "Poor Things (2023)"
+      ]
+    },
+    {
+      "keyword": "london, england",
+      "id": 212,
+      "lovedCount": 2,
+      "seenCount": 6,
+      "tilt": 0.04,
+      "films": [
+        "The Prestige (2006)",
+        "Poor Things (2023)"
+      ]
+    },
+    {
+      "keyword": "cruelty",
+      "id": 14624,
+      "lovedCount": 2,
+      "seenCount": 5,
+      "tilt": 0.04,
+      "films": [
+        "The Prestige (2006)",
+        "Poor Things (2023)"
+      ]
+    },
+    {
+      "keyword": "sex worker",
+      "id": 190178,
+      "lovedCount": 2,
+      "seenCount": 3,
+      "tilt": 0.04,
+      "films": [
+        "Anora (2024)",
+        "Poor Things (2023)"
+      ]
     }
   ],
   "coverage": {
-    "filmsWithKeywords": 371,
+    "filmsWithKeywords": 372,
     "filmsWithoutKeywords": 1,
-    "distinctKeywords": 3266,
+    "distinctKeywords": 3269,
     "mappedKeywords": 31,
     "unmappedSeenTwicePlus": 1094
   }

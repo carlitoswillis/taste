@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-20T17:48:07.164Z",
-  "basedOn": 37,
+  "generated": "2026-11-21T16:47:44.927Z",
+  "basedOn": 38,
   "head": 10,
   "items": [
     {
@@ -150,7 +150,7 @@
       "title": "Nathan for You",
       "year": 2013,
       "tmdbId": 58957,
-      "tmdbRating": 8.225,
+      "tmdbRating": 8.2,
       "votes": 344,
       "score": 4.2,
       "rank": 5,
@@ -191,7 +191,7 @@
       "year": 2023,
       "tmdbId": 154385,
       "tmdbRating": 7.8,
-      "votes": 1084,
+      "votes": 1086,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -339,8 +339,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.583,
-      "votes": 5738,
+      "tmdbRating": 8.582,
+      "votes": 5742,
       "score": 2.5600000000000005,
       "rank": 10,
       "creators": [
@@ -374,7 +374,7 @@
       "title": "The Rehearsal",
       "year": 2022,
       "tmdbId": 204284,
-      "tmdbRating": 7.941,
+      "tmdbRating": 7.9,
       "votes": 298,
       "score": 4.2,
       "rank": 11,
@@ -408,8 +408,8 @@
       "title": "Who Is America?",
       "year": 2018,
       "tmdbId": 80730,
-      "tmdbRating": 7.379,
-      "votes": 202,
+      "tmdbRating": 7.377,
+      "votes": 203,
       "score": 3.3600000000000003,
       "rank": 12,
       "creators": [
@@ -446,8 +446,8 @@
       "title": "Twisted Metal",
       "year": 2023,
       "tmdbId": 133748,
-      "tmdbRating": 7.655,
-      "votes": 580,
+      "tmdbRating": 7.654,
+      "votes": 581,
       "score": 3.0400000000000005,
       "themes": [
         "identity"
@@ -669,7 +669,7 @@
       "year": 2010,
       "tmdbId": 31941,
       "tmdbRating": 7.569,
-      "votes": 489,
+      "votes": 490,
       "score": 2.16,
       "rank": 19,
       "creators": [
@@ -734,8 +734,8 @@
       "title": "Faking It",
       "year": 2014,
       "tmdbId": 60705,
-      "tmdbRating": 6.763,
-      "votes": 177,
+      "tmdbRating": 6.77,
+      "votes": 178,
       "score": 2.16,
       "rank": 21,
       "creators": [
@@ -767,7 +767,7 @@
       "year": 2018,
       "tmdbId": 73375,
       "tmdbRating": 7.668,
-      "votes": 1948,
+      "votes": 1949,
       "score": 1.92,
       "rank": 22,
       "creators": [

@@ -1,7 +1,7 @@
 {
   "user": "carlitxs",
-  "fetched": "2026-11-20T17:44:53.152Z",
-  "source": "films-pages",
+  "fetched": "2026-11-21T16:44:30.474Z",
+  "source": "rss",
   "entries": [
     {
       "title": "Resident Evil",
@@ -762,6 +762,14 @@
       "watched": null,
       "undated": true,
       "link": "https://letterboxd.com/film/wild-horse-nine/"
+    },
+    {
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "year": 2026,
+      "rating": 4,
+      "rewatch": false,
+      "watched": "2026-11-20",
+      "link": "https://letterboxd.com/carlitxs/film/the-hunger-games-sunrise-on-the-reaping/"
     }
   ]
 }
