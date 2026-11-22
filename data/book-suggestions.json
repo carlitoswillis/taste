@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-21T16:48:03.908Z",
+  "generated": "2026-11-22T17:10:03.437Z",
   "basedOn": {
     "lovedFilms": 38,
     "ratedBooks": 0,
@@ -127,6 +127,23 @@
       "rank": 7
     },
     {
+      "title": "Le bourgeois gentilhomme",
+      "author": "Molière",
+      "olWork": "OL83253W",
+      "year": 1674,
+      "pages": 152,
+      "cover": "https://covers.openlibrary.org/b/id/7200190-M.jpg",
+      "editionCount": 63,
+      "olRating": {
+        "average": 5,
+        "count": 1
+      },
+      "weight": 3.84,
+      "rankScore": 12.68,
+      "why": "Molière — Ingmar Bergman adapted him (Misantropen)",
+      "rank": 8
+    },
+    {
       "title": "Four Screenplays of Ingmar Bergman",
       "author": "Ingmar Bergman",
       "olWork": "OL2810823W",
@@ -141,7 +158,7 @@
       "weight": 3.84,
       "rankScore": 12.68,
       "why": "Ingmar Bergman adapted him (The Seventh Seal)",
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "The Affirmation",
@@ -158,7 +175,24 @@
       "weight": 4.08,
       "rankScore": 12.16,
       "why": "Christopher Priest — wrote the book behind The Prestige (2006) 4.5★",
-      "rank": 9
+      "rank": 10
+    },
+    {
+      "title": "L' avare",
+      "author": "Molière",
+      "olWork": "OL15724689W",
+      "year": 1674,
+      "pages": 142,
+      "cover": "https://covers.openlibrary.org/b/id/7199852-M.jpg",
+      "editionCount": 64,
+      "olRating": {
+        "average": 4.3333335,
+        "count": 3
+      },
+      "weight": 3.84,
+      "rankScore": 12.01,
+      "why": "Molière — Ingmar Bergman adapted him (Misantropen)",
+      "rank": 11
     },
     {
       "title": "Scener ur ett äktenskap",
@@ -175,40 +209,6 @@
       "weight": 3.84,
       "rankScore": 11.68,
       "why": "Ingmar Bergman adapted him (The Seventh Seal)",
-      "rank": 10
-    },
-    {
-      "title": "Lanark",
-      "author": "Alasdair Gray",
-      "olWork": "OL2466637W",
-      "year": 1981,
-      "pages": 560,
-      "cover": "https://covers.openlibrary.org/b/id/8281998-M.jpg",
-      "editionCount": 35,
-      "olRating": {
-        "average": 5,
-        "count": 3
-      },
-      "weight": 3.12,
-      "rankScore": 11.24,
-      "why": "Alasdair Gray — wrote the book behind Poor Things (2023) 4.5★",
-      "rank": 11
-    },
-    {
-      "title": "The Orchid Thief",
-      "author": "Susan Orlean",
-      "olWork": "OL14860220W",
-      "year": 1998,
-      "pages": 300,
-      "cover": "https://covers.openlibrary.org/b/id/418682-M.jpg",
-      "editionCount": 11,
-      "olRating": {
-        "average": 3.4285715,
-        "count": 7
-      },
-      "weight": 3.8,
-      "rankScore": 11.03,
-      "why": "the book behind Adaptation. (2002) 4★",
       "rank": 12
     },
     {
@@ -297,6 +297,57 @@
       "rank": 17
     },
     {
+      "title": "Les Precieuses Ridicules",
+      "author": "Molière",
+      "olWork": "OL6714276W",
+      "year": 1923,
+      "pages": 127,
+      "cover": "https://covers.openlibrary.org/b/id/965334-M.jpg",
+      "editionCount": 10,
+      "olRating": {
+        "average": 4,
+        "count": 3
+      },
+      "weight": 3.84,
+      "rankScore": 11.68,
+      "why": "Molière — Ingmar Bergman adapted him (Misantropen)",
+      "rank": 18
+    },
+    {
+      "title": "L'Ecole Des Femmes",
+      "author": "Molière",
+      "olWork": "OL6714318W",
+      "year": 1950,
+      "pages": 192,
+      "cover": "https://covers.openlibrary.org/b/id/3082936-M.jpg",
+      "editionCount": 23,
+      "olRating": {
+        "average": 4,
+        "count": 2
+      },
+      "weight": 3.84,
+      "rankScore": 11.68,
+      "why": "Molière — Ingmar Bergman adapted him (Misantropen)",
+      "rank": 19
+    },
+    {
+      "title": "Lanark",
+      "author": "Alasdair Gray",
+      "olWork": "OL2466637W",
+      "year": 1981,
+      "pages": 560,
+      "cover": "https://covers.openlibrary.org/b/id/8281998-M.jpg",
+      "editionCount": 35,
+      "olRating": {
+        "average": 5,
+        "count": 3
+      },
+      "weight": 3.12,
+      "rankScore": 11.24,
+      "why": "Alasdair Gray — wrote the book behind Poor Things (2023) 4.5★",
+      "rank": 20
+    },
+    {
       "title": "The Dog of the South",
       "author": "Charles Portis",
       "olWork": "OL104533W",
@@ -311,7 +362,7 @@
       "weight": 3.2,
       "rankScore": 10.9,
       "why": "Charles Portis — Joel Coen adapted him (True Grit)",
-      "rank": 18
+      "rank": 21
     },
     {
       "title": "True Grit",
@@ -328,7 +379,7 @@
       "weight": 3.2,
       "rankScore": 10.47,
       "why": "Charles Portis — Joel Coen adapted him (True Grit)",
-      "rank": 19
+      "rank": 22
     },
     {
       "title": "Norwood",
@@ -345,7 +396,7 @@
       "weight": 3.2,
       "rankScore": 10.4,
       "why": "Charles Portis — Joel Coen adapted him (True Grit)",
-      "rank": 20
+      "rank": 23
     },
     {
       "title": "1982 Janine",
@@ -362,7 +413,7 @@
       "weight": 3.12,
       "rankScore": 10.24,
       "why": "Alasdair Gray — wrote the book behind Poor Things (2023) 4.5★",
-      "rank": 21
+      "rank": 24
     },
     {
       "title": "The fall of Kelvin Walker",
@@ -379,7 +430,7 @@
       "weight": 3.12,
       "rankScore": 10.24,
       "why": "Alasdair Gray — wrote the book behind Poor Things (2023) 4.5★",
-      "rank": 22
+      "rank": 25
     },
     {
       "title": "Wildwood: The Wildwood Chronicles",
@@ -396,24 +447,24 @@
       "weight": 2.8,
       "rankScore": 9.43,
       "why": "the book behind Wildwood (2026) 5★",
-      "rank": 23
+      "rank": 26
     },
     {
-      "title": "The Library Book",
-      "author": "Susan Orlean",
-      "olWork": "OL17930369W",
-      "year": 2018,
-      "pages": 336,
-      "cover": "https://covers.openlibrary.org/b/id/8260536-M.jpg",
-      "editionCount": 11,
+      "title": "Sunrise on the Reaping",
+      "author": "Suzanne Collins",
+      "olWork": "OL43426400W",
+      "year": 2025,
+      "pages": 400,
+      "cover": "https://covers.openlibrary.org/b/id/14847912-M.jpg",
+      "editionCount": 12,
       "olRating": {
-        "average": 4.1666665,
-        "count": 12
+        "average": 4.571429,
+        "count": 35
       },
-      "weight": 2.4,
-      "rankScore": 8.97,
-      "why": "Susan Orlean — wrote the book behind Adaptation. (2002) 4★",
-      "rank": 24
+      "weight": 1.4,
+      "rankScore": 7.37,
+      "why": "the book behind The Hunger Games: Sunrise on the Reaping (2026) 4★",
+      "rank": 27
     },
     {
       "title": "Works (Carrie / Night Shift / 'Salem's Lot / Shining)",
@@ -430,7 +481,7 @@
       "weight": 1.17,
       "rankScore": 7.16,
       "why": "thriller on the page — you over-index on it in film · horror on the page — you over-index on it in film",
-      "rank": 25
+      "rank": 28
     },
     {
       "title": "Wood painting",
@@ -447,7 +498,7 @@
       "weight": 2.8,
       "rankScore": 6.6,
       "why": "the book behind The Seventh Seal (1957) 5★",
-      "rank": 26
+      "rank": 29
     },
     {
       "title": "Project Hail Mary",
@@ -464,7 +515,24 @@
       "weight": 0.91,
       "rankScore": 6.36,
       "why": "thriller on the page — you over-index on it in film · science fiction on the page — you over-index on it in film",
-      "rank": 27
+      "rank": 30
+    },
+    {
+      "title": "The Orchid Thief",
+      "author": "Susan Orlean",
+      "olWork": "OL14860220W",
+      "year": 1998,
+      "pages": 300,
+      "cover": "https://covers.openlibrary.org/b/id/418682-M.jpg",
+      "editionCount": 11,
+      "olRating": {
+        "average": 3.4285715,
+        "count": 7
+      },
+      "weight": 1.4,
+      "rankScore": 6.23,
+      "why": "the book behind Adaptation. (2002) 4★",
+      "rank": 31
     },
     {
       "title": "The Martian",
@@ -481,7 +549,7 @@
       "weight": 0.91,
       "rankScore": 6.22,
       "why": "thriller on the page — you over-index on it in film · science fiction on the page — you over-index on it in film",
-      "rank": 28
+      "rank": 32
     },
     {
       "title": "The Complete Sherlock Holmes [4 novels, 56 stories]",
@@ -498,7 +566,7 @@
       "weight": 0.8,
       "rankScore": 6.13,
       "why": "thriller on the page — you over-index on it in film · mystery on the page — you over-index on it in film",
-      "rank": 29
+      "rank": 33
     },
     {
       "title": "The Green Mile",
@@ -515,7 +583,7 @@
       "weight": 0.86,
       "rankScore": 6.04,
       "why": "thriller on the page — you over-index on it in film · horror on the page — you over-index on it in film",
-      "rank": 30
+      "rank": 34
     },
     {
       "title": "Six of Crows",
@@ -532,7 +600,7 @@
       "weight": 0.73,
       "rankScore": 6,
       "why": "science fiction on the page — you over-index on it in film · mystery on the page — you over-index on it in film",
-      "rank": 31
+      "rank": 35
     },
     {
       "title": "Watchmen",
@@ -549,7 +617,7 @@
       "weight": 0.73,
       "rankScore": 5.93,
       "why": "science fiction on the page — you over-index on it in film · mystery on the page — you over-index on it in film",
-      "rank": 32
+      "rank": 36
     },
     {
       "title": "The Shining",
@@ -566,7 +634,7 @@
       "weight": 0.86,
       "rankScore": 5.91,
       "why": "thriller on the page — you over-index on it in film · horror on the page — you over-index on it in film",
-      "rank": 33
+      "rank": 37
     },
     {
       "title": "The Sea of Monsters",
@@ -583,7 +651,7 @@
       "weight": 0.49,
       "rankScore": 5.43,
       "why": "thriller on the page — you over-index on it in film",
-      "rank": 34
+      "rank": 38
     },
     {
       "title": "The Throne of Fire",
@@ -600,7 +668,7 @@
       "weight": 0.42,
       "rankScore": 5.43,
       "why": "science fiction on the page — you over-index on it in film",
-      "rank": 35
+      "rank": 39
     },
     {
       "title": "The Hitchhiker's Guide to the Galaxy",
@@ -616,74 +684,6 @@
       },
       "weight": 0.42,
       "rankScore": 5.35,
-      "why": "science fiction on the page — you over-index on it in film",
-      "rank": 36
-    },
-    {
-      "title": "The Silver Eyes (Five Nights At Freddy's #1)",
-      "author": "Scott Cawthon",
-      "olWork": "OL17793648W",
-      "year": 2001,
-      "pages": 400,
-      "cover": "https://covers.openlibrary.org/b/id/8075533-M.jpg",
-      "editionCount": 22,
-      "olRating": {
-        "average": 4.5822783,
-        "count": 79
-      },
-      "weight": 0.37,
-      "rankScore": 5.32,
-      "why": "horror on the page — you over-index on it in film",
-      "rank": 37
-    },
-    {
-      "title": "The Stand",
-      "author": "Stephen King",
-      "olWork": "OL81618W",
-      "year": 1978,
-      "pages": 1153,
-      "cover": "https://covers.openlibrary.org/b/id/9255992-M.jpg",
-      "editionCount": 87,
-      "olRating": {
-        "average": 4.308511,
-        "count": 94
-      },
-      "weight": 0.49,
-      "rankScore": 5.29,
-      "why": "thriller on the page — you over-index on it in film",
-      "rank": 38
-    },
-    {
-      "title": "Season of Mists",
-      "author": "Neil Gaiman",
-      "olWork": "OL14975242W",
-      "year": 1991,
-      "pages": 224,
-      "cover": "https://covers.openlibrary.org/b/id/797933-M.jpg",
-      "editionCount": 15,
-      "olRating": {
-        "average": 4.5434785,
-        "count": 46
-      },
-      "weight": 0.37,
-      "rankScore": 5.28,
-      "why": "horror on the page — you over-index on it in film",
-      "rank": 39
-    },
-    {
-      "title": "Stories of Your Life and Others",
-      "author": "Ted Chiang",
-      "olWork": "OL6216050W",
-      "year": 2002,
-      "pages": 317,
-      "cover": "https://covers.openlibrary.org/b/id/524046-M.jpg",
-      "editionCount": 34,
-      "olRating": {
-        "average": 4.431579,
-        "count": 95
-      },
-      "weight": 0.42,
-      "rankScore": 5.27,
       "why": "science fiction on the page — you over-index on it in film",
       "rank": 40
     }

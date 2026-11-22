@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-21T16:46:30.118Z",
+  "generated": "2026-11-22T17:07:57.187Z",
   "edges": [
     {
       "book": {
@@ -2007,6 +2007,12 @@
       "olKey": "OL18404A",
       "adaptedBy": [
         {
+          "director": "Christopher Nolan",
+          "films": [
+            "The Odyssey"
+          ]
+        },
+        {
           "director": "Joel Coen",
           "films": [
             "O Brother, Where Art Thou?"
@@ -2017,15 +2023,23 @@
           "films": [
             "O Brother, Where Art Thou?"
           ]
-        },
-        {
-          "director": "Christopher Nolan",
-          "films": [
-            "The Odyssey"
-          ]
         }
       ],
       "weight": 6.08
+    },
+    {
+      "name": "Molière",
+      "wikidata": "Q687",
+      "olKey": "OL6899222A",
+      "adaptedBy": [
+        {
+          "director": "Ingmar Bergman",
+          "films": [
+            "Misantropen"
+          ]
+        }
+      ],
+      "weight": 3.84
     },
     {
       "name": "Ingmar Bergman",
@@ -2194,20 +2208,6 @@
       "weight": 1.92
     },
     {
-      "name": "William Shakespeare",
-      "wikidata": "Q692",
-      "olKey": "OL9388A",
-      "adaptedBy": [
-        {
-          "director": "Joel Coen",
-          "films": [
-            "The Tragedy of Macbeth"
-          ]
-        }
-      ],
-      "weight": 1.6
-    },
-    {
       "name": "Susan Orlean",
       "wikidata": "Q273168",
       "olKey": "OL20986A",
@@ -2244,6 +2244,20 @@
           "director": "Spike Jonze",
           "films": [
             "I'm Here"
+          ]
+        }
+      ],
+      "weight": 1.6
+    },
+    {
+      "name": "William Shakespeare",
+      "wikidata": "Q692",
+      "olKey": "OL9388A",
+      "adaptedBy": [
+        {
+          "director": "Joel Coen",
+          "films": [
+            "The Tragedy of Macbeth"
           ]
         }
       ],

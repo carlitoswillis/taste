@@ -4590,5 +4590,40 @@
     "adaptedAs": [
       "The Man in the Iron Mask (1998)"
     ]
+  },
+  "Sunrise on the Reaping (Suzanne Collins)": {
+    "id": "b:OL43426400W",
+    "olWork": "OL43426400W",
+    "authors": [
+      {
+        "key": "OL1394359A",
+        "name": "Suzanne Collins"
+      }
+    ],
+    "firstPublished": 2025,
+    "pages": 400,
+    "subjects": [
+      "Dystopia",
+      "Young Adult",
+      "Fantasy",
+      "Fiction",
+      "Science Fiction",
+      "Romance",
+      "Adventure",
+      "Science Fiction Fantasy",
+      "Juegos del hambre",
+      "Serie:The_Hunger_Games"
+    ],
+    "coverId": 14847912,
+    "cover": "https://covers.openlibrary.org/b/id/14847912-M.jpg",
+    "description": "As the day dawns on the fiftieth annual Hunger Games, fear grips the districts of Panem. This year, in honor of the Quarter Quell, twice as many tributes will be taken from their homes.\r\n\r\nBack in District 12, Haymitch Abernathy is trying not to think too hard about his chances. All he cares about is making it through the day and being with the girl he loves.\r\n\r\nWhen Haymitch's name is called, he can feel all his dreams break. He's torn from his family and his love, shuttled to the Capitol with the three other District 12 tributes: a young friend who's nearly a sister to him, a compulsive odds",
+    "editionCount": 12,
+    "olRating": {
+      "average": 4.571429,
+      "count": 35
+    },
+    "adaptedAs": [
+      "The Hunger Games: Sunrise on the Reaping (2026)"
+    ]
   }
 }

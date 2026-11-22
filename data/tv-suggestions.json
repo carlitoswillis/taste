@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-21T16:47:44.927Z",
+  "generated": "2026-11-22T17:09:45.826Z",
   "basedOn": 38,
   "head": 10,
   "items": [
@@ -23,9 +23,7 @@
       ],
       "poster": "https://image.tmdb.org/t/p/w342/z1UxljgTyJ5amss39ycSM7fQIkt.jpg",
       "providers": {
-        "flatrate": [
-          "Criterion Channel"
-        ],
+        "flatrate": [],
         "rent": []
       },
       "scores": {
@@ -39,8 +37,8 @@
       "title": "Scenes from a Marriage",
       "year": 1973,
       "tmdbId": 65170,
-      "tmdbRating": 8.049,
-      "votes": 153,
+      "tmdbRating": 8.036,
+      "votes": 154,
       "score": 18.4,
       "rank": 2,
       "creators": [
@@ -55,9 +53,7 @@
       ],
       "poster": "https://image.tmdb.org/t/p/w342/7emUsAq0IUDC2b2bcyHh60rI7Kx.jpg",
       "providers": {
-        "flatrate": [
-          "Criterion Channel"
-        ],
+        "flatrate": [],
         "rent": []
       },
       "scores": {
@@ -71,8 +67,8 @@
       "title": "The Curse",
       "year": 2023,
       "tmdbId": 114655,
-      "tmdbRating": 6.41,
-      "votes": 188,
+      "tmdbRating": 6.416,
+      "votes": 190,
       "score": 4.2,
       "themes": [
         "cruel-comedy"
@@ -150,8 +146,8 @@
       "title": "Nathan for You",
       "year": 2013,
       "tmdbId": 58957,
-      "tmdbRating": 8.2,
-      "votes": 344,
+      "tmdbRating": 8.232,
+      "votes": 347,
       "score": 4.2,
       "rank": 5,
       "creators": [
@@ -190,8 +186,8 @@
       "title": "BEEF",
       "year": 2023,
       "tmdbId": 154385,
-      "tmdbRating": 7.8,
-      "votes": 1086,
+      "tmdbRating": 7.752,
+      "votes": 1087,
       "score": 3.0400000000000005,
       "themes": [
         "cruel-comedy"
@@ -265,7 +261,7 @@
       "title": "ER",
       "year": 1994,
       "tmdbId": 4588,
-      "tmdbRating": 7.798,
+      "tmdbRating": 7.8,
       "votes": 994,
       "score": 3.0400000000000005,
       "rank": 8,
@@ -299,8 +295,8 @@
       "title": "CSI: Crime Scene Investigation",
       "year": 2000,
       "tmdbId": 1431,
-      "tmdbRating": 7.592,
-      "votes": 1456,
+      "tmdbRating": 7.6,
+      "votes": 1457,
       "score": 3.0400000000000005,
       "rank": 9,
       "creators": [
@@ -340,7 +336,7 @@
       "year": 2005,
       "tmdbId": 2316,
       "tmdbRating": 8.582,
-      "votes": 5742,
+      "votes": 5747,
       "score": 2.5600000000000005,
       "rank": 10,
       "creators": [
@@ -374,8 +370,8 @@
       "title": "The Rehearsal",
       "year": 2022,
       "tmdbId": 204284,
-      "tmdbRating": 7.9,
-      "votes": 298,
+      "tmdbRating": 7.955,
+      "votes": 302,
       "score": 4.2,
       "rank": 11,
       "creators": [
@@ -485,8 +481,8 @@
       "title": "DAVE",
       "year": 2020,
       "tmdbId": 97084,
-      "tmdbRating": 7.305,
-      "votes": 200,
+      "tmdbRating": 7.303,
+      "votes": 201,
       "score": 3.0400000000000005,
       "rank": 14,
       "creators": [
@@ -554,8 +550,8 @@
       "title": "Gangs of London",
       "year": 2020,
       "tmdbId": 85021,
-      "tmdbRating": 7.811,
-      "votes": 737,
+      "tmdbRating": 7.812,
+      "votes": 738,
       "score": 2.7,
       "rank": 16,
       "creators": [
@@ -595,7 +591,7 @@
       "year": 2014,
       "tmdbId": 61593,
       "tmdbRating": 8.125,
-      "votes": 880,
+      "votes": 881,
       "score": 2.16,
       "rank": 17,
       "creators": [
@@ -703,8 +699,8 @@
       "title": "Super Pumped: The Battle for Uber",
       "year": 2022,
       "tmdbId": 126301,
-      "tmdbRating": 7,
-      "votes": 102,
+      "tmdbRating": 6.976,
+      "votes": 104,
       "score": 2.2800000000000002,
       "rank": 20,
       "creators": [
@@ -801,8 +797,8 @@
       "title": "Suburgatory",
       "year": 2011,
       "tmdbId": 39357,
-      "tmdbRating": 6.687,
-      "votes": 241,
+      "tmdbRating": 6.692,
+      "votes": 242,
       "score": 2.16,
       "rank": 23,
       "creators": [
