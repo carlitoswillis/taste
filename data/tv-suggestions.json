@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-22T17:09:45.826Z",
+  "generated": "2026-11-23T21:18:31.724Z",
   "basedOn": 38,
   "head": 10,
   "items": [
@@ -57,7 +57,7 @@
         "rent": []
       },
       "scores": {
-        "rt": 88,
+        "rt": null,
         "metacritic": null,
         "imdb": 8.5
       },
@@ -335,8 +335,8 @@
       "title": "The Office",
       "year": 2005,
       "tmdbId": 2316,
-      "tmdbRating": 8.582,
-      "votes": 5747,
+      "tmdbRating": 8.58,
+      "votes": 5752,
       "score": 2.5600000000000005,
       "rank": 10,
       "creators": [
@@ -763,7 +763,7 @@
       "year": 2018,
       "tmdbId": 73375,
       "tmdbRating": 7.668,
-      "votes": 1949,
+      "votes": 1950,
       "score": 1.92,
       "rank": 22,
       "creators": [
