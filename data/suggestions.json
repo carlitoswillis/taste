@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-23T21:18:12.066Z",
+  "generated": "2026-11-24T02:29:46.873Z",
   "basedOn": 38,
   "head": 12,
   "items": [
@@ -158,12 +158,12 @@
       "year": 2010,
       "tmdbId": 44264,
       "tmdbRating": 7.305,
-      "votes": 6044,
+      "votes": 6043,
       "score": 11.12,
       "rank": 5,
       "director": [
-        "Ethan Coen",
-        "Joel Coen"
+        "Joel Coen",
+        "Ethan Coen"
       ],
       "runtime": 110,
       "genres": [
@@ -198,24 +198,23 @@
       "why": "Joel Coen co-wrote and co-directed this — you rated No Country for Old Men 4.5★, Burn After Reading 4★ · Ethan Coen co-wrote and co-directed this — you rated No Country for Old Men 4.5★, Burn After Reading 4★"
     },
     {
-      "title": "Barton Fink",
-      "year": 1991,
-      "tmdbId": 290,
-      "tmdbRating": 7.5,
-      "votes": 2001,
-      "score": 11.05,
+      "title": "The Man Who Wasn't There",
+      "year": 2001,
+      "tmdbId": 10778,
+      "tmdbRating": 7.498,
+      "votes": 1858,
+      "score": 10.95,
       "rank": 6,
       "director": [
         "Joel Coen",
         "Ethan Coen"
       ],
-      "runtime": 117,
+      "runtime": 116,
       "genres": [
-        "Comedy",
-        "Drama",
-        "Thriller"
+        "Crime",
+        "Drama"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/oDkp5iClJ9WKJGtKHz8BydodHC3.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/lrCgt8NNMyFsfmXyXiSSCRXNH4u.jpg",
       "providers": {
         "flatrate": [],
         "rent": [
@@ -228,8 +227,8 @@
       },
       "scores": {
         "rt": null,
-        "metacritic": 69,
-        "imdb": 7.6
+        "metacritic": 73,
+        "imdb": 7.5
       },
       "why": "Joel Coen co-wrote and co-directed this — you rated No Country for Old Men 4.5★, Burn After Reading 4★ · Ethan Coen co-wrote and co-directed this — you rated No Country for Old Men 4.5★, Burn After Reading 4★"
     },
@@ -277,7 +276,7 @@
       "year": 2022,
       "tmdbId": 674324,
       "tmdbRating": 7.464,
-      "votes": 3680,
+      "votes": 3681,
       "themes": [
         "cruel-comedy"
       ],
@@ -568,23 +567,24 @@
       "why": "Ingmar Bergman directed this — you rated The Seventh Seal 5★, Persona 5★, Hour of the Wolf 5★"
     },
     {
-      "title": "The Man Who Wasn't There",
-      "year": 2001,
-      "tmdbId": 10778,
-      "tmdbRating": 7.498,
-      "votes": 1858,
-      "score": 10.95,
+      "title": "Barton Fink",
+      "year": 1991,
+      "tmdbId": 290,
+      "tmdbRating": 7.461,
+      "votes": 2002,
+      "score": 10.9,
       "rank": 16,
       "director": [
         "Joel Coen",
         "Ethan Coen"
       ],
-      "runtime": 116,
+      "runtime": 117,
       "genres": [
-        "Crime",
-        "Drama"
+        "Comedy",
+        "Drama",
+        "Thriller"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/lrCgt8NNMyFsfmXyXiSSCRXNH4u.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/oDkp5iClJ9WKJGtKHz8BydodHC3.jpg",
       "providers": {
         "flatrate": [],
         "rent": [
@@ -597,8 +597,8 @@
       },
       "scores": {
         "rt": null,
-        "metacritic": 73,
-        "imdb": 7.5
+        "metacritic": 69,
+        "imdb": 7.6
       },
       "why": "Joel Coen co-wrote and co-directed this — you rated No Country for Old Men 4.5★, Burn After Reading 4★ · Ethan Coen co-wrote and co-directed this — you rated No Country for Old Men 4.5★, Burn After Reading 4★"
     },
@@ -748,8 +748,8 @@
       "title": "Three Billboards Outside Ebbing, Missouri",
       "year": 2017,
       "tmdbId": 359940,
-      "tmdbRating": 8.049,
-      "votes": 11366,
+      "tmdbRating": 8.048,
+      "votes": 11367,
       "score": 6.48,
       "rank": 21,
       "director": [
@@ -859,7 +859,7 @@
       "year": 2016,
       "tmdbId": 313297,
       "tmdbRating": 7.655,
-      "votes": 4012,
+      "votes": 4013,
       "score": 4.68,
       "rank": 24,
       "director": [
@@ -898,12 +898,12 @@
       "title": "Kinds of Kindness",
       "year": 2024,
       "tmdbId": 1029955,
-      "tmdbRating": 6.47,
-      "votes": 1406,
+      "tmdbRating": 6.466,
+      "votes": 1407,
       "themes": [
         "cruel-comedy"
       ],
-      "score": 3.6,
+      "score": 3.59,
       "rank": 25,
       "director": [
         "Yorgos Lanthimos"
@@ -933,13 +933,48 @@
       "why": "Yorgos Lanthimos directed this — you rated Poor Things 4.5★, Bugonia 4.5★ · themes: comedy that's actually cruel"
     },
     {
+      "title": "The Hateful Eight",
+      "year": 2015,
+      "tmdbId": 273248,
+      "tmdbRating": 7.757,
+      "votes": 15872,
+      "score": 4.56,
+      "rank": 26,
+      "director": [
+        "Quentin Tarantino"
+      ],
+      "runtime": 188,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Western"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/jIywvdPjia2t3eKYbjVTcwBQlG8.jpg",
+      "providers": {
+        "flatrate": [
+          "MovieSphere+ Amazon Channel"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Google Play Movies",
+          "YouTube"
+        ]
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": 68,
+        "imdb": 7.8
+      },
+      "why": "Quentin Tarantino wrote and directed this — you rated Once Upon a Time... in Hollywood 4★"
+    },
+    {
       "title": "Kill Bill: Vol. 2",
       "year": 2004,
       "tmdbId": 393,
       "tmdbRating": 7.871,
-      "votes": 15711,
+      "votes": 15712,
       "score": 4.56,
-      "rank": 26,
+      "rank": 27,
       "director": [
         "Quentin Tarantino"
       ],
@@ -967,41 +1002,6 @@
         "rt": null,
         "metacritic": 83,
         "imdb": 8
-      },
-      "why": "Quentin Tarantino wrote and directed this — you rated Once Upon a Time... in Hollywood 4★"
-    },
-    {
-      "title": "The Hateful Eight",
-      "year": 2015,
-      "tmdbId": 273248,
-      "tmdbRating": 7.757,
-      "votes": 15872,
-      "score": 4.56,
-      "rank": 27,
-      "director": [
-        "Quentin Tarantino"
-      ],
-      "runtime": 188,
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Western"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/jIywvdPjia2t3eKYbjVTcwBQlG8.jpg",
-      "providers": {
-        "flatrate": [
-          "MovieSphere+ Amazon Channel"
-        ],
-        "rent": [
-          "Amazon Video",
-          "Google Play Movies",
-          "YouTube"
-        ]
-      },
-      "scores": {
-        "rt": null,
-        "metacritic": 68,
-        "imdb": 7.8
       },
       "why": "Quentin Tarantino wrote and directed this — you rated Once Upon a Time... in Hollywood 4★"
     },
@@ -1047,8 +1047,8 @@
       "title": "Jackie Brown",
       "year": 1997,
       "tmdbId": 184,
-      "tmdbRating": 7.355,
-      "votes": 7252,
+      "tmdbRating": 7.354,
+      "votes": 7253,
       "score": 4.55,
       "rank": 29,
       "director": [
@@ -1317,8 +1317,8 @@
       "title": "Masters of the Universe",
       "year": 2026,
       "tmdbId": 454639,
-      "tmdbRating": 7.071,
-      "votes": 2372,
+      "tmdbRating": 7.069,
+      "votes": 2373,
       "score": 3.7,
       "rank": 36,
       "director": [
@@ -1517,8 +1517,8 @@
       "title": "The Dog Stars",
       "year": 2026,
       "tmdbId": 1384216,
-      "tmdbRating": 7.159,
-      "votes": 1056,
+      "tmdbRating": 7.158,
+      "votes": 1058,
       "themes": [
         "grief-horror"
       ],
@@ -1606,7 +1606,7 @@
       "year": 2012,
       "tmdbId": 94329,
       "tmdbRating": 7.413,
-      "votes": 4135,
+      "votes": 4136,
       "score": 3.22,
       "rank": 45,
       "director": [
@@ -1803,7 +1803,7 @@
       "year": 1982,
       "tmdbId": 78,
       "tmdbRating": 7.937,
-      "votes": 15677,
+      "votes": 15679,
       "score": 2.88,
       "rank": 51,
       "director": [
@@ -1832,7 +1832,7 @@
       "year": 2001,
       "tmdbId": 855,
       "tmdbRating": 7.408,
-      "votes": 6741,
+      "votes": 6742,
       "score": 2.88,
       "rank": 52,
       "director": [
@@ -1868,7 +1868,7 @@
       "year": 2018,
       "tmdbId": 424783,
       "tmdbRating": 6.729,
-      "votes": 6957,
+      "votes": 6958,
       "score": 2.84,
       "rank": 53,
       "director": [
@@ -1939,9 +1939,9 @@
       "title": "Street Fighter",
       "year": 2026,
       "tmdbId": 1153576,
-      "tmdbRating": 6.238,
+      "tmdbRating": 6.2,
       "votes": 260,
-      "score": 2.67,
+      "score": 2.65,
       "rank": 55,
       "director": [
         "Kitao Sakurai"
@@ -1968,8 +1968,8 @@
       "score": 2.62,
       "rank": 56,
       "director": [
-        "Bong Joon Ho",
         "Leos Carax",
+        "Bong Joon Ho",
         "Michel Gondry"
       ],
       "runtime": 112,
@@ -2189,7 +2189,7 @@
       "year": 2026,
       "tmdbId": 1284186,
       "tmdbRating": 5.479,
-      "votes": 170,
+      "votes": 171,
       "themes": [
         "grief-horror",
         "cruel-comedy"
@@ -2312,7 +2312,7 @@
       "year": 2015,
       "tmdbId": 166424,
       "tmdbRating": 4.432,
-      "votes": 6633,
+      "votes": 6634,
       "themes": [
         "body-horror"
       ],
@@ -2444,8 +2444,8 @@
       "title": "Minority Report",
       "year": 2002,
       "tmdbId": 180,
-      "tmdbRating": 7.358,
-      "votes": 10152,
+      "tmdbRating": 7.359,
+      "votes": 10153,
       "themes": [
         "grief-horror"
       ],
@@ -2558,8 +2558,8 @@
       "score": 1.16,
       "rank": 74,
       "director": [
-        "Scott Beck",
-        "Bryan Woods"
+        "Bryan Woods",
+        "Scott Beck"
       ],
       "runtime": 93,
       "genres": [
@@ -2688,7 +2688,7 @@
       "year": 2016,
       "tmdbId": 300671,
       "tmdbRating": 7.284,
-      "votes": 4152,
+      "votes": 4154,
       "score": 0.72,
       "rank": 78,
       "director": [
@@ -2835,7 +2835,7 @@
       "year": 2018,
       "tmdbId": 523777,
       "tmdbRating": 7,
-      "votes": 892,
+      "votes": 893,
       "score": 0.58,
       "rank": 82,
       "director": [
@@ -2890,8 +2890,8 @@
       "title": "Changeling",
       "year": 2008,
       "tmdbId": 3580,
-      "tmdbRating": 7.566,
-      "votes": 4681,
+      "tmdbRating": 7.567,
+      "votes": 4682,
       "score": 0.54,
       "rank": 84,
       "director": [
@@ -2994,7 +2994,7 @@
       "year": 2012,
       "tmdbId": 77174,
       "tmdbRating": 7.063,
-      "votes": 2934,
+      "votes": 2935,
       "score": 0.4,
       "rank": 87,
       "director": [
@@ -3369,7 +3369,7 @@
       "year": 2005,
       "tmdbId": 30238,
       "tmdbRating": 8.131,
-      "votes": 354,
+      "votes": 355,
       "theme": "surveillance",
       "why": "surveillance — the thread through 4 of your loved films",
       "director": [

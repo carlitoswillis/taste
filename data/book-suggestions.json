@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-23T21:18:49.892Z",
+  "generated": "2026-11-24T02:30:25.486Z",
   "basedOn": {
     "lovedFilms": 38,
     "ratedBooks": 0,
@@ -458,11 +458,11 @@
       "cover": "https://covers.openlibrary.org/b/id/14847912-M.jpg",
       "editionCount": 12,
       "olRating": {
-        "average": 4.571429,
-        "count": 35
+        "average": 4.5945945,
+        "count": 37
       },
       "weight": 1.4,
-      "rankScore": 7.37,
+      "rankScore": 7.39,
       "why": "the book behind The Hunger Games: Sunrise on the Reaping (2026) 4★",
       "rank": 27
     },
