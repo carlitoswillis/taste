@@ -151,9 +151,9 @@ const primary = [...fromWatch, ...fromLb];
 const today = process.env.TV_FEED_DATE || dateKey();
 const hasApp = (c) => mapItem(c.e.providers).apps.length > 0;
 const lbWeight = (c) => (hasApp(c) ? 3 : 1) * (c.position <= 20 ? 1.5 : 1);
-const lbPick = dailySample(fromLb, { weight: lbWeight, id: (c) => c.tmdbId, k: LB_SAMPLE, date: today, salt: "letterboxd" });
 const seenFilm = new Set();
-for (const f of [...readJson("data/watched.json", []), ...readJson("data/ratings.json", [])]) seenFilm.add(normTitle(f.title, f.year));
+for (const f of [...readJson("data/watched.json", []), ...readJson("data/ratings.json", []), ...(readJson("data/letterboxd.json", {}).entries ?? [])]) seenFilm.add(normTitle(f.title, f.year));
+const lbPick = dailySample(fromLb.filter((c) => !seenFilm.has(normTitle(c.title, c.year))), { weight: lbWeight, id: (c) => c.tmdbId, k: LB_SAMPLE, date: today, salt: "letterboxd" });
 const taken = new Set([...fromWatch, ...lbPick].map((c) => c.tmdbId));
 // "Within taste" (owner, 2026-10-25): only the recommender's stronger half, and only films that are well regarded
 // (IMDb or TMDB >= 6.8 on >= 150 votes); weight by score^1.5 so the strongest picks surface most. This keeps a
@@ -173,7 +173,11 @@ const suggPick = dailySample(suggPool, { weight: (c) => Math.pow(Number(c.score)
   const why = ratingFree(String(c.why ?? "").split(" · ")[0]);
   return { ...c, source: "suggestion", why: cutWords(why, 140) };
 });
-const queue = [...fromWatch, ...lbPick, ...suggPick].slice(0, MAX_LIST);
+// Owner 2026-11-23: the whole row rotates daily. Hand-picked films are no longer pinned to the front; unwatched ones join the
+// same seeded per-day shuffle as the Letterboxd and suggestion picks, and anything already watched is left out.
+const unseen = (c) => !seenFilm.has(normTitle(c.title, c.year));
+const rowPool = [...fromWatch, ...lbPick, ...suggPick].filter(unseen);
+const queue = weightedSample(rowPool, () => 1, MAX_LIST, `row|${today}`);
 globalThis.__groups = { watch: fromWatch.length, lb: lbPick.length, sugg: suggPick.length, date: today };
 
 // ---- Tonight (firetv spec §6, feed side): `tonight` on every non-suggestion item the owner has not already seen, plus `watched`.
