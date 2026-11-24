@@ -420,8 +420,8 @@
       "count": 220
     },
     "adaptedAs": [
-      "Frankenstein (2025)",
-      "Victor Frankenstein (2015)"
+      "Victor Frankenstein (2015)",
+      "Frankenstein (2025)"
     ]
   },
   "King Lear (William Shakespeare)": {
@@ -697,9 +697,7 @@
     "firstPublished": 1988,
     "pages": 352,
     "subjects": [
-      "lambs",
       "black witch moth",
-      "autopsy",
       "pupa",
       "offender profiling",
       "forensic psychiatry",
@@ -708,7 +706,9 @@
       "Government investigators",
       "Psychology",
       "Serial murderers",
-      "Serial murders"
+      "Serial murders",
+      "Detective and mystery stories",
+      "Hannibal Lecter (Fictitious character)"
     ],
     "coverId": 8580475,
     "cover": "https://covers.openlibrary.org/b/id/8580475-M.jpg",
@@ -1759,17 +1759,17 @@
     "pages": 309,
     "subjects": [
       "blue sharks",
-      "dolphins",
       "shark cage diving",
       "bang sticks",
       "harpoons",
       "Mafia",
-      "selectmen",
       "connivance",
       "great white sharks",
-      "thrillers",
-      "horror fiction",
-      "Fiction"
+      "Fiction",
+      "Marine biologists",
+      "Police chiefs",
+      "Seaside resorts",
+      "Shark attacks"
     ],
     "coverId": 8440296,
     "cover": "https://covers.openlibrary.org/b/id/8440296-M.jpg",
@@ -2824,16 +2824,16 @@
       "Fiction",
       "Roman",
       "Amerikanisches Englisch",
-      "mystery fiction",
-      "suspense fiction"
+      "Detective and mystery fiction",
+      "secrets"
     ],
     "coverId": 8368314,
     "cover": "https://covers.openlibrary.org/b/id/8368314-M.jpg",
     "description": "Gone Girl is a 2012 crime thriller novel by American writer Gillian Flynn. It was published by Crown Publishing Group in June 2012. The novel became popular and made the New York Times Best Seller list. The sense of suspense in the novel comes from whether or not Nick Dunne is involved in the disappearance of his wife Amy.\r\n\r\n\r\n----------\r\nAlso contained in:\r\n[Les apparences suvi de la novella Nous allons mourir ce soir](https://openlibrary.org/works/OL24801746W)",
     "editionCount": 48,
     "olRating": {
-      "average": 3.78481,
-      "count": 79
+      "average": 3.7875,
+      "count": 80
     },
     "adaptedAs": [
       "Gone Girl (2014)"
@@ -3154,7 +3154,6 @@
     "firstPublished": 1962,
     "pages": 192,
     "subjects": [
-      "bible",
       "aversion therapy",
       "unintended consequences",
       "Beethoven's Fifth Symphony",
@@ -3164,16 +3163,17 @@
       "metanoia",
       "assault",
       "joyriding",
-      "rape",
-      "metafiction"
+      "metafiction",
+      "orgasm",
+      "antisocial personality disorder"
     ],
     "coverId": 14430663,
     "cover": "https://covers.openlibrary.org/b/id/14430663-M.jpg",
     "description": "A Clockwork Orange is a dystopian satirical black comedy novel by English writer Anthony Burgess, published in 1962. It is set in a near-future society that has a youth subculture of extreme violence. The teenage protagonist, Alex, narrates his violent exploits and his experiences with state authorities intent on reforming him. The book is partially written in a Russian-influenced argot called \"Nadsat\", which takes its name from the Russian suffix that is equivalent to '-teen' in English. According to Burgess, it was a jeu d'esprit written in just three weeks.\r\n\r\nIn 2005, A Clockwork Orange wa",
     "editionCount": 146,
     "olRating": {
-      "average": 4.027397,
-      "count": 73
+      "average": 4.0135136,
+      "count": 74
     },
     "adaptedAs": [
       "A Clockwork Orange (1971)"

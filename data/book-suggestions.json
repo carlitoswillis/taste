@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-24T04:18:32.201Z",
+  "generated": "2026-11-24T20:10:36.714Z",
   "basedOn": {
     "lovedFilms": 38,
     "ratedBooks": 0,
@@ -416,13 +416,13 @@
       "rank": 24
     },
     {
-      "title": "The fall of Kelvin Walker",
+      "title": "Unlikely stories mostly",
       "author": "Alasdair Gray",
-      "olWork": "OL2466634W",
-      "year": 1985,
-      "pages": 144,
-      "cover": "https://covers.openlibrary.org/b/id/4168096-M.jpg",
-      "editionCount": 9,
+      "olWork": "OL2466629W",
+      "year": 1983,
+      "pages": 275,
+      "cover": "https://covers.openlibrary.org/b/id/93888-M.jpg",
+      "editionCount": 10,
       "olRating": {
         "average": 4,
         "count": 1
@@ -509,8 +509,8 @@
       "cover": "https://covers.openlibrary.org/b/id/11200092-M.jpg",
       "editionCount": 32,
       "olRating": {
-        "average": 4.5373135,
-        "count": 201
+        "average": 4.536946,
+        "count": 203
       },
       "weight": 0.91,
       "rankScore": 6.36,
@@ -560,11 +560,11 @@
       "cover": "https://covers.openlibrary.org/b/id/12501284-M.jpg",
       "editionCount": 118,
       "olRating": {
-        "average": 4.5306125,
-        "count": 49
+        "average": 4.54,
+        "count": 50
       },
       "weight": 0.8,
-      "rankScore": 6.13,
+      "rankScore": 6.14,
       "why": "thriller on the page — you over-index on it in film · mystery on the page — you over-index on it in film",
       "rank": 33
     },
@@ -594,8 +594,8 @@
       "cover": "https://covers.openlibrary.org/b/id/12667417-M.jpg",
       "editionCount": 37,
       "olRating": {
-        "average": 4.536842,
-        "count": 95
+        "average": 4.5416665,
+        "count": 96
       },
       "weight": 0.73,
       "rankScore": 6,
@@ -628,11 +628,11 @@
       "cover": "https://covers.openlibrary.org/b/id/12376585-M.jpg",
       "editionCount": 98,
       "olRating": {
-        "average": 4.1939797,
-        "count": 299
+        "average": 4.1966667,
+        "count": 300
       },
       "weight": 0.86,
-      "rankScore": 5.91,
+      "rankScore": 5.92,
       "why": "thriller on the page — you over-index on it in film · horror on the page — you over-index on it in film",
       "rank": 37
     },
@@ -679,11 +679,11 @@
       "cover": "https://covers.openlibrary.org/b/id/12986869-M.jpg",
       "editionCount": 130,
       "olRating": {
-        "average": 4.511236,
-        "count": 178
+        "average": 4.52973,
+        "count": 185
       },
       "weight": 0.42,
-      "rankScore": 5.35,
+      "rankScore": 5.37,
       "why": "science fiction on the page — you over-index on it in film",
       "rank": 40
     }
