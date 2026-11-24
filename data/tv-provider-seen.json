@@ -138,7 +138,6 @@
    "Paramount Plus Premium": null,
    "Paramount Plus Essential": null,
    "Paramount+ Amazon Channel": null,
-   "MGM Plus Roku Premium Channel": null,
    "Paramount+ Roku Premium Channel": null
   },
   "262": {
@@ -198,6 +197,7 @@
    "fuboTV": "2026-11-09",
    "MGM+ Amazon Channel": "2026-11-09",
    "Philo": "2026-11-09",
+   "MGM Plus Roku Premium Channel": "2026-11-23",
    "MGM Plus": null
   },
   "350": {
@@ -225,7 +225,6 @@
   },
   "445": {
    "Philo": null,
-   "Sundance Now": null,
    "Fandor Amazon Channel": null
   },
   "489": {
@@ -265,7 +264,6 @@
   },
   "561": {
    "HBO Max Amazon Channel": null,
-   "AMC": "2026-11-01",
    "HBO Max": null,
    "ViX Premium Amazon Channel": "2026-11-09"
   },
@@ -388,9 +386,6 @@
    "HBO Max": null,
    "IndieFlix Shorts Amazon Channel": null
   },
-  "766": {
-   "AMC+ Roku Premium Channel": "2026-11-01"
-  },
   "771": {
    "Disney Plus": null
   },
@@ -405,7 +400,8 @@
   "807": {
    "fuboTV": null,
    "Paramount Plus Premium": null,
-   "Paramount Plus Essential": null
+   "Paramount Plus Essential": null,
+   "Criterion Channel": "2026-11-23"
   },
   "808": {
    "Peacock Premium": null,
@@ -421,17 +417,20 @@
    "Hulu": null
   },
   "931": {
-   "fuboTV": null,
-   "MGM+ Amazon Channel": null,
-   "Philo": null,
-   "MGM Plus Roku Premium Channel": null,
-   "YouTube TV": null,
+   "Criterion Channel": "2026-11-23",
    "MGM Plus": null
   },
   "947": {
    "Netflix": null,
    "Netflix Standard with Ads": null,
    "Sony Pictures Core Amazon Channel": null
+  },
+  "949": {
+   "Netflix": null,
+   "Amazon Prime Video": null,
+   "YouTube TV": null,
+   "Netflix Standard with Ads": null,
+   "Amazon Prime Video with Ads": null
   },
   "1124": {
    "Hulu": null,
@@ -584,13 +583,14 @@
    "YouTube TV": null
   },
   "7345": {
+   "Amazon Prime Video": "2026-11-23",
    "fuboTV": null,
    "Paramount Plus Premium": null,
    "Paramount Plus Essential": null,
    "Paramount+ Amazon Channel": null,
    "Kanopy": null,
-   "YouTube TV": null,
-   "Paramount+ Roku Premium Channel": null
+   "Paramount+ Roku Premium Channel": null,
+   "Amazon Prime Video with Ads": "2026-11-23"
   },
   "7972": {
    "Amazon Prime Video": null,
@@ -626,9 +626,6 @@
    "YouTube TV": null,
    "Sony Pictures Core Amazon Channel": null
   },
-  "9426": {
-   "AMC": null
-  },
   "9464": {
    "Amazon Prime Video": null,
    "Philo": null,
@@ -636,6 +633,7 @@
    "Amazon Prime Video with Ads": null
   },
   "9538": {
+   "Criterion Channel": "2026-11-23",
    "HBO Max": null
   },
   "9540": {
@@ -663,9 +661,6 @@
    "Amazon Prime Video": "2026-11-09",
    "Amazon Prime Video with Ads": "2026-11-09",
    "Howdy Amazon Channel": null
-  },
-  "11036": {
-   "fuboTV": null
   },
   "11174": {
    "Viaplay Amazon Channel": null
@@ -711,6 +706,7 @@
   },
   "11655": {
    "HBO Max Amazon Channel": null,
+   "Criterion Channel": "2026-11-23",
    "HBO Max": null
   },
   "11656": {
@@ -851,13 +847,13 @@
   "28942": {
    "HBO Max Amazon Channel": null,
    "Brew": null,
+   "Criterion Channel": "2026-11-23",
    "Darkroom": "2026-11-01",
    "HBO Max": null
   },
   "29437": {
    "Amazon Prime Video": null,
    "Philo": null,
-   "AMC Plus Apple TV channel": null,
    "AMC+ Amazon Channel": null,
    "AMC+": null,
    "Shudder": null,
@@ -884,6 +880,7 @@
    "Peacock Premium": null,
    "Philo": null,
    "AMC+ Amazon Channel": null,
+   "Criterion Channel": "2026-11-23",
    "Shudder Amazon Channel": null,
    "Netflix Standard with Ads": null,
    "Shudder Apple TV channel": null,
@@ -893,6 +890,9 @@
   "34626": {
    "Magnolia Selects Amazon Channel": null,
    "Warriors and Gangsters Amazon Channel": null
+  },
+  "36095": {
+   "Criterion Channel": null
   },
   "36685": {
    "Broadway HD Amazon Channel": null
@@ -921,7 +921,6 @@
   },
   "41050": {
    "HBO Max Amazon Channel": null,
-   "AMC Plus Apple TV channel": null,
    "AMC+": null,
    "Criterion Channel": null,
    "HBO Max": null
@@ -1038,6 +1037,7 @@
    "Paramount Plus Premium": null,
    "Paramount Plus Essential": null,
    "Paramount+ Amazon Channel": null,
+   "Paramount+ Roku Premium Channel": "2026-11-23",
    "Netflix Standard with Ads": null,
    "Sony Pictures Core Amazon Channel": null
   },
@@ -1107,6 +1107,10 @@
    "YouTube TV": null,
    "Netflix Standard with Ads": null,
    "Magnolia Selects Amazon Channel": null
+  },
+  "146233": {
+   "Apple TV": null,
+   "Apple TV Amazon Channel": null
   },
   "150540": {
    "Disney Plus": null
@@ -1268,6 +1272,7 @@
   },
   "293670": {
    "fuboTV": null,
+   "Criterion Channel": "2026-11-23",
    "Fandor Amazon Channel": null,
    "Screambox Amazon Channel": null,
    "Hi-YAH": null,
@@ -1410,7 +1415,6 @@
    "MGM+ Amazon Channel": null,
    "Philo": null,
    "MGM Plus Roku Premium Channel": null,
-   "YouTube TV": null,
    "MGM Plus": null
   },
   "383498": {
@@ -1978,9 +1982,7 @@
   },
   "776797": {
    "Philo": null,
-   "AMC Plus Apple TV channel": null,
    "AMC+ Amazon Channel": null,
-   "AMC+ Roku Premium Channel": null,
    "AMC+": null,
    "Shudder": null,
    "Shudder Amazon Channel": null,
@@ -1998,8 +2000,10 @@
    "Cinemax Apple TV Channel": null
   },
   "788734": {
+   "Amazon Prime Video": "2026-11-23",
    "MUBI": null,
-   "MUBI Amazon Channel": null
+   "MUBI Amazon Channel": null,
+   "Amazon Prime Video with Ads": "2026-11-23"
   },
   "792307": {
    "Netflix": null,
@@ -2067,7 +2071,6 @@
    "Cinemax Amazon Channel": null,
    "TNT": null,
    "TBS": null,
-   "tru TV": null,
    "HBO Max": null,
    "Cinemax Apple TV channel": null
   },
@@ -2146,9 +2149,7 @@
    "Netflix Standard with Ads": null
   },
   "994143": {
-   "AMC Plus Apple TV channel": null,
    "AMC+ Amazon Channel": null,
-   "AMC+ Roku Premium Channel": null,
    "AMC+": null,
    "Shudder": null,
    "Shudder Amazon Channel": null,
@@ -2379,6 +2380,9 @@
    "Netflix": null,
    "Netflix Standard with Ads": null
   },
+  "1246215": {
+   "Kino Film Collection": null
+  },
   "1257868": {
    "Amazon Prime Video": null,
    "Amazon Prime Video with Ads": null
@@ -2422,6 +2426,10 @@
   },
   "1290792": {
    "Hulu": null
+  },
+  "1291595": {
+   "Netflix": null,
+   "Netflix Standard with Ads": null
   },
   "1304313": {
    "HBO Max Amazon Channel": null,
