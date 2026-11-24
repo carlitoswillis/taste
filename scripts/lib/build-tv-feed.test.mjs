@@ -63,16 +63,27 @@ test("tonight: a film already in watched.json has no tonight (Dead Ringers)", ()
   for (const doc of feeds) for (const i of doc.list.items) if (i.title === "Dead Ringers") assert.equal(i.tonight, undefined);
 });
 
-test("watched: newest first, at most 40, last 12 months, no bulk-import dates, same provider shape as list items", () => {
-  for (const doc of feeds) {
-    assert.ok(doc.watched.length <= 40);
+test("watched: the whole dated history up to the build date, newest first, same provider shape as list items", () => {
+  const rows = JSON.parse(readFileSync(path.join(root, "data/watched.json"), "utf8"));
+  for (const [i, doc] of feeds.entries()) {
+    assert.equal(doc.watched.length, rows.filter((w) => w.watched && w.watched <= days[i]).length);
     const dates = doc.watched.map((w) => w.date);
     assert.deepEqual(dates, [...dates].sort().reverse());
     for (const w of doc.watched) {
-      assert.ok(!w.date.startsWith("2024-08"), w.title);
       assert.deepEqual(Object.keys(w.providers), ["flatrate", "free", "rent", "buy"]);
       assert.equal(typeof w.rewatch, "boolean");
       assert.ok(!("rating" in w) && !("score" in w) && !("sealed" in doc));
     }
+  }
+});
+
+test("your list: every unwatched Letterboxd watchlist film is in the row, once", () => {
+  const norm = (t, y) => `${String(t).toLowerCase().replace(/[^a-z0-9]+/g, " ").trim()}|${y}`;
+  const seen = new Set(JSON.parse(readFileSync(path.join(root, "data/watched.json"), "utf8")).map((w) => norm(w.title, w.year)));
+  for (const doc of feeds) {
+    const ids = doc.list.items.map((i) => i.id);
+    assert.equal(new Set(ids).size, ids.length);
+    for (const i of doc.list.items) assert.ok(!seen.has(norm(i.title, i.year)), i.title);
+    assert.ok(doc.list.items.filter((i) => i.source === "letterboxd").length > 60);
   }
 });

@@ -11,7 +11,8 @@ Four tabs: **Watch next** (the ranked queue — logging a film clears it automat
 ## How it works
 
 ```
-config.json          who you are (letterboxd user, region, headline stats)
+config.json          who you are (letterboxd user, region, headline stats);
+                     watchlistProfiles: extra Letterboxd usernames whose public watchlists join the TV "Your list" row
 data/
   profile.json       the prose: thesis, section intros, footnotes
   ratings.json       every scored film (+ unscored verbal reactions)
@@ -23,6 +24,7 @@ data/
   calibration.json   reach-for / avoid rules and known blind spots
   letterboxd.json    (generated) recent activity from the Letterboxd RSS feed
   letterboxd-watchlist.json  (generated) your Letterboxd watchlist, newest added first
+  letterboxd-watchlist-<user>.json  (generated) the same for each config.watchlistProfiles entry
   enrichment.json    (generated) TMDB metadata: directors, runtimes, where to watch
 templates/           the app shell: index.html, app.js, style.css
 scripts/

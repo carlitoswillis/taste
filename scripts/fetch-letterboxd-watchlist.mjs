@@ -4,6 +4,9 @@
 // letterboxd.com/<user>/watchlist/ (and /page/N/) renders one LazyPoster
 // component per film carrying "Title (Year)", the slug and the film link.
 // Page order is kept: Letterboxd's default sort is newest added first.
+// Profiles: config.letterboxd -> data/letterboxd-watchlist.json, and each username in config.watchlistProfiles
+// -> data/letterboxd-watchlist-<user>.json (extra watchlists for the TV "Your list" row; empty by default).
+// A watchlist the page itself reports as empty ("wants to see 0 titles") is written as an empty list.
 // Run: node scripts/fetch-letterboxd-watchlist.mjs
 
 import { readFile, writeFile, rename } from "node:fs/promises";
@@ -12,12 +15,15 @@ import { fileURLToPath } from "node:url";
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const config = JSON.parse(await readFile(path.join(root, "config.json"), "utf8"));
-const user = config.letterboxd;
-const outPath = path.join(root, "data/letterboxd-watchlist.json");
+const profiles = [
+  { user: config.letterboxd, file: "data/letterboxd-watchlist.json" },
+  ...(Array.isArray(config.watchlistProfiles) ? config.watchlistProfiles : [])
+    .filter((u) => typeof u === "string" && /^[A-Za-z0-9_]+$/.test(u) && u !== config.letterboxd)
+    .map((u) => ({ user: u, file: `data/letterboxd-watchlist-${u}.json` })),
+];
 
 const UA =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36 taste-profile-site";
-const base = `https://letterboxd.com/${user}/watchlist/`;
 const MAX_PAGES = 60; // runaway guard: 60 x 28 films
 
 const decode = (s) =>
@@ -54,28 +60,29 @@ function parsePage(html) {
 
 async function get(url) {
   const res = await fetch(url, { headers: { "user-agent": UA, accept: "text/html" } });
-  if (!res.ok) {
-    console.error(`Letterboxd watchlist fetch failed: ${url} -> ${res.status} ${res.statusText}`);
-    process.exit(1); // the existing file is left untouched
-  }
+  if (!res.ok) throw new Error(`Letterboxd watchlist fetch failed: ${url} -> ${res.status} ${res.statusText}`);
   return res.text();
 }
 
-const first = parsePage(await get(base));
-if (!first.films.length) {
-  console.error(`No LazyPoster films parsed from ${base} — bot interstitial, private/empty watchlist, or markup change.`);
-  process.exit(1);
-}
-const items = [...first.films];
-const lastPage = Math.min(first.lastPage, MAX_PAGES);
-for (let n = 2; n <= lastPage; n++) {
-  await new Promise((r) => setTimeout(r, 600)); // polite: one request per page, spaced out
-  const page = parsePage(await get(`${base}page/${n}/`));
-  if (!page.films.length) {
-    console.error(`Page ${n} parsed no films; refusing to write a partial watchlist.`);
-    process.exit(1);
+// The page's own count line ("<name> wants to see <span class="js-watchlist-count">0&nbsp;titles</span>"): a real
+// empty watchlist, not a bot interstitial (which has no such span).
+const saysEmpty = (html) => /class="js-watchlist-count">\s*0(?:&nbsp;|\s)+titles?\s*</.test(html);
+
+async function fetchProfile({ user, file }) {
+  const outPath = path.join(root, file);
+  const base = `https://letterboxd.com/${user}/watchlist/`;
+  const html = await get(base);
+  const first = { ...parsePage(html), html };
+  if (!first.films.length && !saysEmpty(first.html)) {
+    throw new Error(`No LazyPoster films parsed from ${base} — bot interstitial, private watchlist, or markup change.`);
   }
-  items.push(...page.films);
+  const items = [...first.films];
+  const lastPage = Math.min(first.lastPage, MAX_PAGES);
+  for (let n = 2; n <= lastPage; n++) {
+    await new Promise((r) => setTimeout(r, 600)); // polite: one request per page, spaced out
+    const page = parsePage(await get(`${base}page/${n}/`));
+    if (!page.films.length) throw new Error(`Page ${n} parsed no films; refusing to write a partial watchlist.`);
+    items.push(...page.films);
 }
 
 const seen = new Set();
@@ -109,4 +116,13 @@ for (const f of out.items) {
 // write-then-rename so an interrupted run never leaves a truncated file
 await writeFile(outPath + ".tmp", JSON.stringify(out, null, 2) + "\n");
 await rename(outPath + ".tmp", outPath);
-console.log(`Fetched ${out.items.length} watchlist films over ${lastPage} page(s) for ${user} -> data/letterboxd-watchlist.json`);
+console.log(`Fetched ${out.items.length} watchlist films over ${lastPage} page(s) for ${user} -> ${file}`);
+}
+
+// Each profile on its own: a failure leaves that profile's last good file in place and fails the step at the end.
+let failed = 0;
+for (const [i, p] of profiles.entries()) {
+  if (i) await new Promise((r) => setTimeout(r, 600));
+  try { await fetchProfile(p); } catch (e) { console.error(`${p.user}: ${e.message}`); failed++; }
+}
+if (failed) process.exit(1);

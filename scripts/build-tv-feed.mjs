@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 // Builds the Fire TV launcher's feed into dist/tv/<TV_FEED_PATH>/feed.json (GitHub Pages serves dist/).
 // Same document as the assistant's GET /tv/feed (v1): { v, generated, list:{items}, sent:[], ambient:{items} },
-// built daily (America/Los_Angeles seed, scripts/lib/daily-pick.mjs) from: the whole taste queue, a weighted sample of
-// 30 Letterboxd watchlist films, and 10 recommender picks (source "suggestion", with a `why`), joined to data/enrichment.json. Differences: list items also carry raw `providers` (flatrate/free/rent/buy), plus
+// built daily (America/Los_Angeles seed, scripts/lib/daily-pick.mjs) from: the whole taste queue, every unwatched film on the
+// Letterboxd watchlist(s), and 10 recommender picks (source "suggestion", with a `why`), joined to data/enrichment.json. Differences: list items also carry raw `providers` (flatrate/free/rent/buy), plus
 // `backdropUrl` (w780), `detailUrl` (w1280) and `portraitUrl` (w342) and `altBackdropUrls` (w780: the film's other backdrops,
 // least black first, from data/tv-backdrops.json; the primary is one that is not mostly black); `sent` is always [] (no Send to TV queue here).
 // Rules (scripts/lib/tv-feed-rules.mjs): JustWatch and other non-stores are never a rent/buy venue; a tagline that only repeats
 // the plot is dropped; every cut (overview, why, note, tagline) is one cutter, cutWords, that never ends on "The…".
-// Publishes the owner's queue, a sample of the Letterboxd watchlist and a few recommender suggestions, with their reasons.
+// Publishes the owner's queue, the Letterboxd watchlist(s) and a few recommender suggestions, with their reasons.
 // It never publishes ratings history: every `why` and ambient `note` goes through ratingFree ("X directed this, like A
 // and B", no stars, no "you rated"), and the build fails if any published string still holds "★" or "rated".
 // Ambient items carry `verb`: "Available" for a streaming route, "Rent" for a rent/buy-only one. The path segment is the unguessable part: it is the TV_FEED_PATH
@@ -18,6 +18,7 @@ import { readFileSync, mkdirSync, writeFileSync, existsSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { dateKey, weightedSample, dailySample } from "./lib/daily-pick.mjs";
+import { mergeWatchlists } from "./lib/watchlists.mjs";
 import { ambientDay, ambientSize } from "./lib/ambient-pick.mjs";
 import { baseScore, signals, whyLine, parseRuntime, personKey, daysBetween } from "./lib/tonight.mjs";
 import { streamingOf, newestSince } from "./lib/provider-seen.mjs";
@@ -25,8 +26,8 @@ import { stores, repeatsOverview, pickStills, cutWords, ratingFree, ratingLeaks,
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const dist = process.env.TV_FEED_DIST || path.join(root, "dist");
-const MAX_LIST = Number(process.env.TV_FEED_MAX_LIST ?? 60);
-const LB_SAMPLE = Number(process.env.TV_FEED_LB_SAMPLE ?? 30);
+// Owner 2026-11-23: the row is the whole list (every unwatched watchlist film), so no cap unless the env sets one.
+const MAX_LIST = Number(process.env.TV_FEED_MAX_LIST ?? Infinity);
 const SUGG_PICKS = Number(process.env.TV_FEED_SUGG_PICKS ?? 10);
 const MAX_AMBIENT = Number(process.env.TV_FEED_MAX_AMBIENT ?? 25);
 const IMG = "https://image.tmdb.org/t/p";
@@ -117,7 +118,11 @@ const stillsOf = (c) => {
 };
 const watch = readJson("data/watchlist.json", []);
 const sugg = readJson("data/suggestions.json", {});
-const lb = readJson("data/letterboxd-watchlist.json", {});
+// Letterboxd watchlists: the owner's (config.letterboxd) plus any in config.watchlistProfiles
+// (scripts/fetch-letterboxd-watchlist.mjs writes data/letterboxd-watchlist-<user>.json for those).
+const extraProfiles = (Array.isArray(cfg.watchlistProfiles) ? cfg.watchlistProfiles : []).filter((u) => typeof u === "string" && /^[A-Za-z0-9_]+$/.test(u) && u !== cfg.letterboxd);
+const lbLists = [readJson("data/letterboxd-watchlist.json", {}), ...extraProfiles.map((u) => readJson(`data/letterboxd-watchlist-${u}.json`, {}))]
+  .map((d) => (Array.isArray(d?.items) ? d.items : []));
 
 const fromWatch = [];
 for (const w of Array.isArray(watch) ? watch : []) {
@@ -126,13 +131,10 @@ for (const w of Array.isArray(watch) ? watch : []) {
 }
 const ids = new Set(fromWatch.map((c) => c.tmdbId));
 const names = new Set(fromWatch.map((c) => normTitle(c.title, c.year)));
-const fromLb = [];
-for (const w of Array.isArray(lb?.items) ? lb.items : []) {
-  const e = enrich[`${w.title} (${w.year})`];
-  if (!e?.tmdbId || ids.has(e.tmdbId) || names.has(normTitle(w.title, w.year))) continue;
-  ids.add(e.tmdbId); names.add(normTitle(w.title, w.year));
-  fromLb.push({ title: w.title, year: w.year, tmdbId: e.tmdbId, e, director: directorOf(e.director), source: "letterboxd", position: w.position ?? Infinity });
-}
+// One entry per film across all watchlists (by TMDB id, then title+year); `lists` counts the watchlists holding it.
+const fromLb = mergeWatchlists(lbLists, { enrich, normTitle, skipIds: ids, skipNames: names })
+  .map((c) => ({ ...c, director: directorOf(c.e.director), source: "letterboxd" }));
+for (const c of fromLb) { ids.add(c.tmdbId); names.add(normTitle(c.title, c.year)); }
 const streamable = (c) => (mapItem(c.e.providers).apps.length ? 0 : 1);
 fromLb.sort((a, b) => streamable(a) - streamable(b) || a.position - b.position);
 fromWatch.forEach((c, i) => { c.rank = i; });
@@ -149,11 +151,10 @@ const primary = [...fromWatch, ...fromLb];
 // Daily mix (deterministic per America/Los_Angeles calendar day): 1) the owner's whole queue, in rank order;
 // 2) a weighted sample of the Letterboxd watchlist; 3) a few of the recommender's picks.
 const today = process.env.TV_FEED_DATE || dateKey();
-const hasApp = (c) => mapItem(c.e.providers).apps.length > 0;
-const lbWeight = (c) => (hasApp(c) ? 3 : 1) * (c.position <= 20 ? 1.5 : 1);
 const seenFilm = new Set();
 for (const f of [...readJson("data/watched.json", []), ...readJson("data/ratings.json", []), ...(readJson("data/letterboxd.json", {}).entries ?? [])]) seenFilm.add(normTitle(f.title, f.year));
-const lbPick = dailySample(fromLb.filter((c) => !seenFilm.has(normTitle(c.title, c.year))), { weight: lbWeight, id: (c) => c.tmdbId, k: LB_SAMPLE, date: today, salt: "letterboxd" });
+// Every unwatched watchlist film is in the row (owner 2026-11-23, "show the whole lists"); only the order rotates.
+const lbPick = fromLb.filter((c) => !seenFilm.has(normTitle(c.title, c.year)));
 const taken = new Set([...fromWatch, ...lbPick].map((c) => c.tmdbId));
 // "Within taste" (owner, 2026-10-25): only the recommender's stronger half, and only films that are well regarded
 // (IMDb or TMDB >= 6.8 on >= 150 votes); weight by score^1.5 so the strongest picks surface most. This keeps a
@@ -177,7 +178,8 @@ const suggPick = dailySample(suggPool, { weight: (c) => Math.pow(Number(c.score)
 // same seeded per-day shuffle as the Letterboxd and suggestion picks, and anything already watched is left out.
 const unseen = (c) => !seenFilm.has(normTitle(c.title, c.year));
 const rowPool = [...fromWatch, ...lbPick, ...suggPick].filter(unseen);
-const queue = weightedSample(rowPool, () => 1, MAX_LIST, `row|${today}`);
+// Seeded per-day shuffle; a film on several watchlists gets a proportionally higher weight, so it tends toward the front.
+const queue = weightedSample(rowPool, (c) => c.lists ?? 1, MAX_LIST, `row|${today}`);
 globalThis.__groups = { watch: fromWatch.length, lb: lbPick.length, sugg: suggPick.length, date: today };
 
 // ---- Tonight (firetv spec §6, feed side): `tonight` on every non-suggestion item the owner has not already seen, plus `watched`.
@@ -227,11 +229,13 @@ const list = queue.map((c) => {
   const pp = posterPath(c.e.poster);
   const tn = c.source !== "suggestion" && !seenFilm.has(normTitle(c.title, c.year)) ? tonightFor(c) : null;
   const rtFill = !details(c.e).runtime && (tn?._runtime ?? c.rt) ? { runtime: tn?._runtime ?? c.rt } : {};
+  // A film with no runtime (unreleased, e.g. a 2027 title on the watchlist) is no "tonight" candidate.
+  const tonight = tn && Number.isInteger(tn._runtime) && tn._runtime > 0 ? tn : null;
   if (tn) delete tn._runtime;
   return {
     id: `${c.source}:${c.tmdbId}`, title: c.title, ...(c.year ? { year: c.year } : {}), source: c.source, apps: m.apps,
     providers: { flatrate: p.flatrate ?? [], free: p.free ?? [], rent: stores(p.rent), buy: stores(p.buy) },
-    ...(note ? { note } : {}), ...(c.source === "suggestion" && c.why ? { why: c.why } : {}), addedAt: now, ...details(c.e), ...rtFill, ...(tn ? { tonight: tn } : {}),
+    ...(note ? { note } : {}), ...(c.source === "suggestion" && c.why ? { why: c.why } : {}), addedAt: now, ...details(c.e), ...rtFill, ...(tonight ? { tonight } : {}),
     ...(b ? { posterUrl: `${IMG}/w780${b}`, backdropUrl: `${IMG}/w780${b}`, detailUrl: `${IMG}/w1280${b}` } : pp ? { posterUrl: `${IMG}/w342${pp}` } : {}),
     ...(b && alts.length ? { altBackdropUrls: alts.map((a) => `${IMG}/w780${a}`) } : {}),
     ...(pp ? { portraitUrl: `${IMG}/w342${pp}` } : {}),
@@ -281,10 +285,11 @@ const ambient = day.items.map(({ c, r, b, pp }) => ({
 }));
 globalThis.__ambientPool = ambPool.length;
 
-// Watched ledger: newest first, at most 40, last 12 months only (this also leaves out the 2024-08 bulk import dates).
-const WATCHED_MAX = 40;
+// Watched ledger: the whole watched history, newest first (owner 2026-11-23, "Watched too"). The 2024-08 dates are the
+// bulk import's, not real watch dates. TV_FEED_WATCHED_MAX can cap it.
+const WATCHED_MAX = Number(process.env.TV_FEED_WATCHED_MAX ?? Infinity);
 const rewatched = new Set(LB_DIARY.filter((r) => r.rewatch).map((r) => normTitle(r.title, r.year)));
-const watched = WATCHED_ROWS.filter((w) => w.watched && daysBetween(w.watched, today) >= 0 && daysBetween(w.watched, today) <= 365)
+const watched = WATCHED_ROWS.filter((w) => w.watched && daysBetween(w.watched, today) >= 0)
   .sort((a, b) => (a.watched < b.watched ? 1 : a.watched > b.watched ? -1 : 0)).slice(0, WATCHED_MAX).map((w) => {
     const e = enrichOf(w.title, w.year) ?? {};
     const p = e.providers ?? {};

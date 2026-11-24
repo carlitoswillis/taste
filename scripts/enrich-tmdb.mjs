@@ -53,11 +53,17 @@ for (const file of ["data/watchlist.json", "data/ratings.json", "data/old-films.
 }
 // The Letterboxd watchlist (scripts/fetch-letterboxd-watchlist.mjs) is wrapped
 // as { fetched, user, items }; same "Title (Year)" keys as everything else.
+// Extra profiles (config.watchlistProfiles) have their own data/letterboxd-watchlist-<user>.json.
 let lbWatchlist = [];
-try {
-  lbWatchlist = JSON.parse(await readFile(path.join(root, "data/letterboxd-watchlist.json"), "utf8")).items ?? [];
+{
+  let cfg = {};
+  try { cfg = JSON.parse(await readFile(path.join(root, "config.json"), "utf8")); } catch {}
+  const extra = (Array.isArray(cfg.watchlistProfiles) ? cfg.watchlistProfiles : []).filter((u) => typeof u === "string" && /^[A-Za-z0-9_]+$/.test(u) && u !== cfg.letterboxd);
+  for (const file of ["data/letterboxd-watchlist.json", ...extra.map((u) => `data/letterboxd-watchlist-${u}.json`)]) {
+    try { lbWatchlist.push(...(JSON.parse(await readFile(path.join(root, file), "utf8")).items ?? [])); } catch {}
+  }
   films.push(...lbWatchlist);
-} catch {}
+}
 
 // The recommender's picks (data/suggestions.json, { items }) carry a tmdbId; the TV feed's "Picked for you"
 // group needs the same full enrichment as everything else.
