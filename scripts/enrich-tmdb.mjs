@@ -121,15 +121,24 @@ for (const film of films) {
   await new Promise((r) => setTimeout(r, 120)); // stay friendly to the API
 }
 
-// Provider refresh for the Letterboxd watchlist: these films are picked by
-// "can I stream it tonight", so their where-to-watch data is re-read weekly
-// instead of being frozen at first enrichment like the rest.
+// Provider refresh for the films that can appear in the TV "Your list" row (hand-picked
+// data/watchlist.json + the Letterboxd watchlist): these are picked by "can I stream it
+// tonight", so their where-to-watch data is re-read daily instead of being frozen at first
+// enrichment like the rest. (Suggestions get fresh providers from suggest.mjs every run.)
 {
-  const WEEK = 7 * 24 * 3600 * 1000;
+  const PROVIDERS_TTL = 24 * 3600 * 1000;
+  let handPicked = [];
+  try {
+    handPicked = JSON.parse(await readFile(path.join(root, "data/watchlist.json"), "utf8"));
+  } catch {}
+  const seenKeys = new Set();
   let refreshed = 0;
-  for (const film of lbWatchlist) {
+  for (const film of [...handPicked, ...lbWatchlist]) {
+    const fk = `${film.title} (${film.year})`;
+    if (seenKeys.has(fk)) continue;
+    seenKeys.add(fk);
     const entry = out[`${film.title} (${film.year})`];
-    if (!entry?.tmdbId || (entry.providersAt && Date.now() - entry.providersAt < WEEK)) continue;
+    if (!entry?.tmdbId || (entry.providersAt && Date.now() - entry.providersAt < PROVIDERS_TTL)) continue;
     const data = await tmdb(`/movie/${entry.tmdbId}/watch/providers`);
     const providers = data.results?.[region] ?? {};
     entry.providers = {
@@ -142,7 +151,7 @@ for (const film of films) {
     refreshed++;
     await new Promise((r) => setTimeout(r, 120));
   }
-  console.log(`${refreshed} watchlist films had providers refreshed`);
+  console.log(`${refreshed} list films had providers refreshed`);
 }
 
 // Second pass: keywords (and canonical ids) for entries enriched before the
