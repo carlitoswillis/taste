@@ -420,8 +420,8 @@
       "count": 220
     },
     "adaptedAs": [
-      "Victor Frankenstein (2015)",
-      "Frankenstein (2025)"
+      "Frankenstein (2025)",
+      "Victor Frankenstein (2015)"
     ]
   },
   "King Lear (William Shakespeare)": {
@@ -741,10 +741,10 @@
       "Humorous stories",
       "Juvenile fiction",
       "Ugliness",
-      "Accelerated reader",
       "Children: Grades 2-3",
       "Ghouls and ogres -- Pictorial works -- Juvenile fiction",
-      "Ghouls and ogres"
+      "Ghouls and ogres",
+      "Accelerated Reader"
     ],
     "coverId": 6302874,
     "cover": "https://covers.openlibrary.org/b/id/6302874-M.jpg",
@@ -2447,23 +2447,23 @@
       "Elves",
       "Dwarves",
       "evil",
-      "fear",
-      "hope",
-      "young adult fiction",
       "Ficción",
       "Ficción fantástica inglesa",
       "Fantastic fiction",
       "The Lord of the Rings",
       "English Fantasy fiction",
-      "Open Library Staff Picks"
+      "Open Library Staff Picks",
+      "Fiction",
+      "Fantasy",
+      "Fairy tales"
     ],
     "coverId": 14627060,
     "cover": "https://covers.openlibrary.org/b/id/14627060-M.jpg",
     "description": "One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them.\r\n\r\n“A unique, wholly realized other world, evoked from deep in the well of Time, massively detailed, absorbingly entertaining, profound in meaning.”—The New York Times\r\n\r\nIn ancient times the Rings of Power were crafted by the Elven-smiths, and Sauron, the Dark Lord, forged the One Ring, filling it with his own power so that he could rule all others. But the One Ring was taken from him, and though he sought it throughout Middle-earth, it remained lost to him. After many ages it fell into",
     "editionCount": 319,
     "olRating": {
-      "average": 4.3487806,
-      "count": 410
+      "average": 4.350365,
+      "count": 411
     },
     "adaptedAs": [
       "The Lord of the Rings: The Fellowship of the Ring (2001)"

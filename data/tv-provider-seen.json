@@ -864,8 +864,7 @@
    "Shudder Apple TV channel": null,
    "Amazon Prime Video with Ads": null,
    "Midnight Pulp Amazon Channel": null,
-   "Shout! Factory Amazon Channel": null,
-   "Chilling": null
+   "Shout! Factory Amazon Channel": null
   },
   "29453": {
    "Kanopy": null,
@@ -2269,6 +2268,10 @@
   },
   "1124620": {
    "Hulu": null
+  },
+  "1130022": {
+   "Amazon Prime Video": null,
+   "Amazon Prime Video with Ads": null
   },
   "1137350": {
    "Amazon Prime Video": null,
