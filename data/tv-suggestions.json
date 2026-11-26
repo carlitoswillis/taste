@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-25T19:16:42.746Z",
+  "generated": "2026-11-26T19:01:07.345Z",
   "basedOn": 38,
   "head": 10,
   "items": [
@@ -67,8 +67,8 @@
       "title": "The Curse",
       "year": 2023,
       "tmdbId": 114655,
-      "tmdbRating": 6.4,
-      "votes": 190,
+      "tmdbRating": 6.414,
+      "votes": 191,
       "score": 4.2,
       "themes": [
         "cruel-comedy"
@@ -146,8 +146,8 @@
       "title": "Nathan for You",
       "year": 2013,
       "tmdbId": 58957,
-      "tmdbRating": 8.2,
-      "votes": 347,
+      "tmdbRating": 8.237,
+      "votes": 348,
       "score": 4.2,
       "rank": 5,
       "creators": [
@@ -223,8 +223,8 @@
       "title": "Jackass",
       "year": 2000,
       "tmdbId": 1795,
-      "tmdbRating": 6.741,
-      "votes": 322,
+      "tmdbRating": 6.748,
+      "votes": 323,
       "score": 4,
       "rank": 7,
       "creators": [
@@ -336,7 +336,7 @@
       "year": 2005,
       "tmdbId": 2316,
       "tmdbRating": 8.581,
-      "votes": 5759,
+      "votes": 5764,
       "score": 2.5600000000000005,
       "rank": 10,
       "creators": [
@@ -370,8 +370,8 @@
       "title": "The Rehearsal",
       "year": 2022,
       "tmdbId": 204284,
-      "tmdbRating": 7.954,
-      "votes": 304,
+      "tmdbRating": 7.961,
+      "votes": 305,
       "score": 4.2,
       "rank": 11,
       "creators": [
@@ -481,8 +481,8 @@
       "title": "DAVE",
       "year": 2020,
       "tmdbId": 97084,
-      "tmdbRating": 7.303,
-      "votes": 201,
+      "tmdbRating": 7.312,
+      "votes": 202,
       "score": 3.0400000000000005,
       "rank": 14,
       "creators": [
