@@ -1071,12 +1071,12 @@
       "Nonfiction",
       "Psychology",
       "Parent-Child Relations",
-      "Adolescent Psychology",
       "Adolescentes",
       "Peer Group",
       "Interpersonal Relations",
       "Psychologie",
-      "Adolescent"
+      "Adolescent",
+      "Parents et adolescents"
     ],
     "coverId": 745647,
     "cover": "https://covers.openlibrary.org/b/id/745647-M.jpg",
@@ -1136,8 +1136,8 @@
       "Fraud",
       "Swindlers and swindling",
       "Biography",
-      "TRUE CRIME",
-      "Hoaxes & Deceptions"
+      "Hoaxes & Deceptions",
+      "True Crime"
     ],
     "coverId": 4650043,
     "cover": "https://covers.openlibrary.org/b/id/4650043-M.jpg",
@@ -3362,15 +3362,15 @@
       "Large type books",
       "Movie-TV Tie-In",
       "Movies",
-      "Motion Pictures"
+      "Films"
     ],
     "coverId": 207515,
     "cover": "https://covers.openlibrary.org/b/id/207515-M.jpg",
     "description": "It was January 2021, and Rick Deckard had a license to kill.\r\nSomewhere among the hordes of humans out there, lurked several rogue androids. Deckard's assignment--find them and then...\"retire\" them. Trouble was, the androids all looked exactly like humans, and they didn't want to be found!",
     "editionCount": 90,
     "olRating": {
-      "average": 4.042683,
-      "count": 164
+      "average": 4.0359282,
+      "count": 167
     },
     "adaptedAs": [
       "Blade Runner (1982)"
@@ -3508,17 +3508,17 @@
       "Novela",
       "Dune (Lugar imaginario)",
       "Lectures et morceaux choisis",
-      "Anglais (langue)",
       "Roman ame ricain",
-      "Science-fiction ame ricaine"
+      "Science-fiction ame ricaine",
+      "Long Now Manual for Civilization"
     ],
     "coverId": 980253,
     "cover": "https://covers.openlibrary.org/b/id/980253-M.jpg",
     "description": "**Book Two in the Magnificent Dune Chronicles—the Bestselling Science Fiction Adventure of All Time**\r\n\r\nDune Messiah continues the story of Paul Atreides, better known—and feared—as the man christened Muad’Dib. As Emperor of the known universe, he possesses more power than a single man was ever meant to wield. Worshipped as a religious icon by the fanatical Fremen, Paul faces the enmity of the political houses he displaced when he assumed the throne—and a conspiracy conducted within his own sphere of influence.\r\n\r\nAnd even as House Atreides begins to crumble around him from the machinations o",
     "editionCount": 101,
     "olRating": {
-      "average": 3.8926175,
-      "count": 149
+      "average": 3.8933334,
+      "count": 150
     },
     "adaptedAs": [
       "Dune: Part Three (2026)"
