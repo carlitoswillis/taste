@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-27T18:56:52.911Z",
+  "generated": "2026-11-28T17:31:24.834Z",
   "edges": [
     {
       "book": {
@@ -94,6 +94,19 @@
     },
     {
       "book": {
+        "title": "American Prometheus",
+        "author": "Martin J. Sherwin, Kai Bird",
+        "olWork": "OL1905682W",
+        "wikidata": "Q4744748"
+      },
+      "screen": "Oppenheimer (2023)",
+      "screenId": "m:872585",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
         "title": "La piedra oscura",
         "author": "Alberto Conejero",
         "olWork": "OL25674871M",
@@ -114,19 +127,6 @@
       },
       "screen": "La Bola Negra (2026)",
       "screenId": "m:1422041",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "American Prometheus",
-        "author": "Martin J. Sherwin, Kai Bird",
-        "olWork": "OL1905682W",
-        "wikidata": "Q4744748"
-      },
-      "screen": "Oppenheimer (2023)",
-      "screenId": "m:872585",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -550,7 +550,7 @@
     {
       "book": {
         "title": "Frankenstein; or, The Modern Prometheus",
-        "author": "Mary Sherman Mittelman",
+        "author": "Mary Shelley",
         "olWork": "OL450063W",
         "wikidata": "Q150827"
       },
@@ -1213,12 +1213,25 @@
     {
       "book": {
         "title": "Frankenstein; or, The Modern Prometheus",
-        "author": "Mary Sherman Mittelman",
+        "author": "Mary Shelley",
         "olWork": "OL450063W",
         "wikidata": "Q150827"
       },
       "screen": "Victor Frankenstein (2015)",
       "screenId": "m:228066",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Nosferatu",
+        "author": "F. W. Murnau",
+        "olWork": null,
+        "wikidata": "Q151895"
+      },
+      "screen": "Nosferatu (2024)",
+      "screenId": "m:426063",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -1453,58 +1466,6 @@
       },
       "screen": "The Power of the Dog (2021)",
       "screenId": "m:600583",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "The Last Duel",
-        "author": "Eric Jager",
-        "olWork": "OL15827118W",
-        "wikidata": "Q7745728"
-      },
-      "screen": "The Last Duel (2021)",
-      "screenId": "m:617653",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "Bullet Train",
-        "author": "Kōtarō Isaka",
-        "olWork": "OL24375262W",
-        "wikidata": "Q11340979"
-      },
-      "screen": "Bullet Train (2022)",
-      "screenId": "m:718930",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "The Djinn in the Nightingale's Eye",
-        "author": "A. S. Byatt",
-        "olWork": "OL115631W",
-        "wikidata": "Q21584316"
-      },
-      "screen": "Three Thousand Years of Longing (2022)",
-      "screenId": "m:556694",
-      "status": "confirmed",
-      "source": "wikidata",
-      "read": false
-    },
-    {
-      "book": {
-        "title": "The Ballad of Songbirds and Snakes",
-        "author": "Suzanne Collins",
-        "olWork": "OL28122267M",
-        "wikidata": "Q81925268"
-      },
-      "screen": "The Hunger Games: The Ballad of Songbirds & Snakes (2023)",
-      "screenId": "m:695721",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -1752,6 +1713,58 @@
       },
       "screen": "BlacKkKlansman (2018)",
       "screenId": "m:487558",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Last Duel",
+        "author": "Eric Jager",
+        "olWork": "OL15827118W",
+        "wikidata": "Q7745728"
+      },
+      "screen": "The Last Duel (2021)",
+      "screenId": "m:617653",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "Bullet Train",
+        "author": "Kōtarō Isaka",
+        "olWork": "OL24375262W",
+        "wikidata": "Q11340979"
+      },
+      "screen": "Bullet Train (2022)",
+      "screenId": "m:718930",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Djinn in the Nightingale's Eye",
+        "author": "A. S. Byatt",
+        "olWork": "OL115631W",
+        "wikidata": "Q21584316"
+      },
+      "screen": "Three Thousand Years of Longing (2022)",
+      "screenId": "m:556694",
+      "status": "confirmed",
+      "source": "wikidata",
+      "read": false
+    },
+    {
+      "book": {
+        "title": "The Ballad of Songbirds and Snakes",
+        "author": "Suzanne Collins",
+        "olWork": "OL28122267M",
+        "wikidata": "Q81925268"
+      },
+      "screen": "The Hunger Games: The Ballad of Songbirds & Snakes (2023)",
+      "screenId": "m:695721",
       "status": "confirmed",
       "source": "wikidata",
       "read": false
@@ -2007,6 +2020,12 @@
       "olKey": "OL18404A",
       "adaptedBy": [
         {
+          "director": "Christopher Nolan",
+          "films": [
+            "The Odyssey"
+          ]
+        },
+        {
           "director": "Joel Coen",
           "films": [
             "O Brother, Where Art Thou?"
@@ -2016,12 +2035,6 @@
           "director": "Ethan Coen",
           "films": [
             "O Brother, Where Art Thou?"
-          ]
-        },
-        {
-          "director": "Christopher Nolan",
-          "films": [
-            "The Odyssey"
           ]
         }
       ],
@@ -2208,20 +2221,6 @@
       "weight": 1.92
     },
     {
-      "name": "William Shakespeare",
-      "wikidata": "Q692",
-      "olKey": "OL9388A",
-      "adaptedBy": [
-        {
-          "director": "Joel Coen",
-          "films": [
-            "The Tragedy of Macbeth"
-          ]
-        }
-      ],
-      "weight": 1.6
-    },
-    {
       "name": "Susan Orlean",
       "wikidata": "Q273168",
       "olKey": "OL20986A",
@@ -2264,9 +2263,37 @@
       "weight": 1.6
     },
     {
+      "name": "William Shakespeare",
+      "wikidata": "Q692",
+      "olKey": "OL9388A",
+      "adaptedBy": [
+        {
+          "director": "Joel Coen",
+          "films": [
+            "The Tragedy of Macbeth"
+          ]
+        }
+      ],
+      "weight": 1.6
+    },
+    {
       "name": "Bram Stoker",
       "wikidata": "Q36184",
       "olKey": "OL31727A",
+      "adaptedBy": [
+        {
+          "director": "Robert Eggers",
+          "films": [
+            "Nosferatu"
+          ]
+        }
+      ],
+      "weight": 1.28
+    },
+    {
+      "name": "F. W. Murnau",
+      "wikidata": "Q55412",
+      "olKey": "OL801350A",
       "adaptedBy": [
         {
           "director": "Robert Eggers",

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-27T18:57:52.139Z",
+  "generated": "2026-11-28T17:32:25.350Z",
   "basedOn": 38,
   "head": 12,
   "items": [
@@ -8,7 +8,7 @@
       "year": 1957,
       "tmdbId": 614,
       "tmdbRating": 8.071,
-      "votes": 1893,
+      "votes": 1894,
       "score": 23.64,
       "rank": 1,
       "director": [
@@ -122,7 +122,7 @@
       "year": 2002,
       "tmdbId": 320,
       "tmdbRating": 6.959,
-      "votes": 5671,
+      "votes": 5672,
       "score": 12.08,
       "rank": 4,
       "director": [
@@ -157,13 +157,13 @@
       "title": "True Grit",
       "year": 2010,
       "tmdbId": 44264,
-      "tmdbRating": 7.305,
-      "votes": 6049,
-      "score": 11.12,
+      "tmdbRating": 7.3,
+      "votes": 6050,
+      "score": 11.09,
       "rank": 5,
       "director": [
-        "Joel Coen",
-        "Ethan Coen"
+        "Ethan Coen",
+        "Joel Coen"
       ],
       "runtime": 110,
       "genres": [
@@ -202,7 +202,7 @@
       "year": 2001,
       "tmdbId": 10778,
       "tmdbRating": 7.499,
-      "votes": 1860,
+      "votes": 1861,
       "score": 10.96,
       "rank": 6,
       "director": [
@@ -237,7 +237,7 @@
       "year": 2008,
       "tmdbId": 8321,
       "tmdbRating": 7.502,
-      "votes": 6129,
+      "votes": 6133,
       "themes": [
         "cruel-comedy"
       ],
@@ -276,7 +276,7 @@
       "year": 2022,
       "tmdbId": 674324,
       "tmdbRating": 7.464,
-      "votes": 3687,
+      "votes": 3690,
       "themes": [
         "cruel-comedy"
       ],
@@ -317,7 +317,7 @@
       "year": 2017,
       "tmdbId": 387426,
       "tmdbRating": 7.316,
-      "votes": 4709,
+      "votes": 4710,
       "themes": [
         "doubling"
       ],
@@ -351,7 +351,7 @@
       "title": "The Favourite",
       "year": 2018,
       "tmdbId": 375262,
-      "tmdbRating": 7.478,
+      "tmdbRating": 7.479,
       "votes": 6145,
       "themes": [
         "cruel-comedy"
@@ -390,7 +390,7 @@
       "year": 2017,
       "tmdbId": 394117,
       "tmdbRating": 7.422,
-      "votes": 3252,
+      "votes": 3254,
       "score": 6.35,
       "rank": 11,
       "director": [
@@ -420,39 +420,42 @@
       "why": "Sean Baker wrote and directed this — you rated Anora 5★"
     },
     {
-      "title": "Snowpiercer",
-      "year": 2013,
-      "tmdbId": 110415,
-      "tmdbRating": 6.909,
-      "votes": 10869,
-      "score": 5.62,
+      "title": "The Host",
+      "year": 2006,
+      "tmdbId": 1255,
+      "tmdbRating": 7,
+      "votes": 3319,
+      "score": 5.65,
       "rank": 12,
       "director": [
         "Bong Joon Ho"
       ],
-      "runtime": 127,
+      "runtime": 120,
       "genres": [
-        "Action",
-        "Science Fiction",
-        "Drama"
+        "Horror",
+        "Drama",
+        "Science Fiction"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/kw6YQudA0TMcNmGUGy5XIw7zbnV.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/dEDLY3KeghKFzks5nTDWdigVikr.jpg",
       "providers": {
         "flatrate": [
-          "Lionsgate+ Amazon Channel",
-          "Howdy Amazon Channel"
+          "Peacock Premium",
+          "Peacock Premium Plus",
+          "Magnolia Selects Amazon Channel",
+          "Monsters and Nightmares Amazon Channel",
+          "Warriors and Gangsters Amazon Channel"
         ],
         "rent": [
           "Amazon Video",
           "Apple TV Store",
           "Google Play Movies",
           "YouTube",
-          "Fandango At Home"
+          "FlixFling"
         ]
       },
       "scores": {
         "rt": null,
-        "metacritic": 84,
+        "metacritic": 85,
         "imdb": 7.1
       },
       "why": "Bong Joon Ho wrote and directed this — you rated Parasite 4.5★"
@@ -570,9 +573,9 @@
       "title": "Barton Fink",
       "year": 1991,
       "tmdbId": 290,
-      "tmdbRating": 7.46,
-      "votes": 2003,
-      "score": 10.9,
+      "tmdbRating": 7.458,
+      "votes": 2005,
+      "score": 10.89,
       "rank": 16,
       "director": [
         "Joel Coen",
@@ -607,7 +610,7 @@
       "year": 1990,
       "tmdbId": 379,
       "tmdbRating": 7.446,
-      "votes": 1963,
+      "votes": 1965,
       "score": 10.82,
       "rank": 17,
       "director": [
@@ -749,7 +752,7 @@
       "year": 2017,
       "tmdbId": 359940,
       "tmdbRating": 8.048,
-      "votes": 11378,
+      "votes": 11381,
       "score": 6.48,
       "rank": 21,
       "director": [
@@ -785,42 +788,39 @@
       "why": "Martin McDonagh wrote and directed this — you rated Wild Horse Nine 5★"
     },
     {
-      "title": "The Host",
-      "year": 2006,
-      "tmdbId": 1255,
-      "tmdbRating": 6.98,
-      "votes": 3319,
-      "score": 5.6,
+      "title": "Snowpiercer",
+      "year": 2013,
+      "tmdbId": 110415,
+      "tmdbRating": 6.91,
+      "votes": 10872,
+      "score": 5.62,
       "rank": 22,
       "director": [
         "Bong Joon Ho"
       ],
-      "runtime": 120,
+      "runtime": 127,
       "genres": [
-        "Horror",
-        "Drama",
-        "Science Fiction"
+        "Action",
+        "Science Fiction",
+        "Drama"
       ],
-      "poster": "https://image.tmdb.org/t/p/w342/dEDLY3KeghKFzks5nTDWdigVikr.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/kw6YQudA0TMcNmGUGy5XIw7zbnV.jpg",
       "providers": {
         "flatrate": [
-          "Peacock Premium",
-          "Peacock Premium Plus",
-          "Magnolia Selects Amazon Channel",
-          "Monsters and Nightmares Amazon Channel",
-          "Warriors and Gangsters Amazon Channel"
+          "Lionsgate+ Amazon Channel",
+          "Howdy Amazon Channel"
         ],
         "rent": [
           "Amazon Video",
           "Apple TV Store",
           "Google Play Movies",
           "YouTube",
-          "FlixFling"
+          "Fandango At Home"
         ]
       },
       "scores": {
         "rt": null,
-        "metacritic": 85,
+        "metacritic": 84,
         "imdb": 7.1
       },
       "why": "Bong Joon Ho wrote and directed this — you rated Parasite 4.5★"
@@ -858,7 +858,7 @@
       "year": 2016,
       "tmdbId": 313297,
       "tmdbRating": 7.653,
-      "votes": 4018,
+      "votes": 4020,
       "score": 4.68,
       "rank": 24,
       "director": [
@@ -897,7 +897,7 @@
       "title": "Kinds of Kindness",
       "year": 2024,
       "tmdbId": 1029955,
-      "tmdbRating": 6.465,
+      "tmdbRating": 6.467,
       "votes": 1411,
       "themes": [
         "cruel-comedy"
@@ -932,13 +932,52 @@
       "why": "Yorgos Lanthimos directed this — you rated Poor Things 4.5★, Bugonia 4.5★ · themes: comedy that's actually cruel"
     },
     {
+      "title": "Kill Bill: Vol. 2",
+      "year": 2004,
+      "tmdbId": 393,
+      "tmdbRating": 7.87,
+      "votes": 15732,
+      "score": 4.56,
+      "rank": 26,
+      "director": [
+        "Quentin Tarantino"
+      ],
+      "runtime": 136,
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/2yhg0mZQMhDyvUQ4rG1IZ4oIA8L.jpg",
+      "providers": {
+        "flatrate": [
+          "fuboTV",
+          "YouTube TV",
+          "MovieSphere+ Amazon Channel"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home"
+        ]
+      },
+      "scores": {
+        "rt": null,
+        "metacritic": 83,
+        "imdb": 8
+      },
+      "why": "Quentin Tarantino wrote and directed this — you rated Once Upon a Time... in Hollywood 4★"
+    },
+    {
       "title": "The Hateful Eight",
       "year": 2015,
       "tmdbId": 273248,
-      "tmdbRating": 7.757,
-      "votes": 15887,
+      "tmdbRating": 7.8,
+      "votes": 15888,
       "score": 4.56,
-      "rank": 26,
+      "rank": 27,
       "director": [
         "Quentin Tarantino"
       ],
@@ -964,44 +1003,6 @@
         "rt": null,
         "metacritic": 68,
         "imdb": 7.8
-      },
-      "why": "Quentin Tarantino wrote and directed this — you rated Once Upon a Time... in Hollywood 4★"
-    },
-    {
-      "title": "Kill Bill: Vol. 2",
-      "year": 2004,
-      "tmdbId": 393,
-      "tmdbRating": 7.87,
-      "votes": 15730,
-      "score": 4.56,
-      "rank": 27,
-      "director": [
-        "Quentin Tarantino"
-      ],
-      "runtime": 136,
-      "genres": [
-        "Action",
-        "Crime",
-        "Thriller"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/2yhg0mZQMhDyvUQ4rG1IZ4oIA8L.jpg",
-      "providers": {
-        "flatrate": [
-          "YouTube TV",
-          "MovieSphere+ Amazon Channel"
-        ],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
-          "Fandango At Home"
-        ]
-      },
-      "scores": {
-        "rt": null,
-        "metacritic": 83,
-        "imdb": 8
       },
       "why": "Quentin Tarantino wrote and directed this — you rated Once Upon a Time... in Hollywood 4★"
     },
@@ -1047,7 +1048,7 @@
       "title": "Jackie Brown",
       "year": 1997,
       "tmdbId": 184,
-      "tmdbRating": 7.355,
+      "tmdbRating": 7.356,
       "votes": 7261,
       "score": 4.55,
       "rank": 29,
@@ -1085,7 +1086,7 @@
       "year": 2015,
       "tmdbId": 308084,
       "tmdbRating": 6.8,
-      "votes": 851,
+      "votes": 853,
       "score": 4.53,
       "rank": 30,
       "director": [
@@ -1198,7 +1199,7 @@
       "year": 1991,
       "tmdbId": 1541,
       "tmdbRating": 7.597,
-      "votes": 4097,
+      "votes": 4099,
       "themes": [
         "surveillance"
       ],
@@ -1240,7 +1241,7 @@
       "year": 2007,
       "tmdbId": 4982,
       "tmdbRating": 7.599,
-      "votes": 6408,
+      "votes": 6410,
       "themes": [
         "surveillance"
       ],
@@ -1317,8 +1318,8 @@
       "title": "Masters of the Universe",
       "year": 2026,
       "tmdbId": 454639,
-      "tmdbRating": 7.068,
-      "votes": 2378,
+      "tmdbRating": 7.063,
+      "votes": 2383,
       "score": 3.69,
       "rank": 36,
       "director": [
@@ -1376,9 +1377,9 @@
       "title": "Death Proof",
       "year": 2007,
       "tmdbId": 1991,
-      "tmdbRating": 6.837,
+      "tmdbRating": 6.8,
       "votes": 5917,
-      "score": 3.56,
+      "score": 3.49,
       "rank": 38,
       "director": [
         "Quentin Tarantino"
@@ -1485,13 +1486,40 @@
       "why": "Ethan Coen wrote and directed this — you rated No Country for Old Men 4.5★, Burn After Reading 4★"
     },
     {
+      "title": "The Dog Stars",
+      "year": 2026,
+      "tmdbId": 1384216,
+      "tmdbRating": 7.162,
+      "votes": 1079,
+      "themes": [
+        "grief-horror"
+      ],
+      "score": 2.32,
+      "rank": 41,
+      "director": [
+        "Ridley Scott"
+      ],
+      "runtime": 119,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/5O616X9vmRzQdB68PHzBewPittd.jpg",
+      "providers": {
+        "flatrate": [],
+        "rent": []
+      },
+      "why": "Ridley Scott directed this — you rated Prometheus 4.5★ · themes: grief wearing a mask"
+    },
+    {
       "title": "Alps",
       "year": 2011,
       "tmdbId": 81857,
       "tmdbRating": 6.214,
       "votes": 370,
       "score": 3.32,
-      "rank": 41,
+      "rank": 42,
       "director": [
         "Yorgos Lanthimos"
       ],
@@ -1513,33 +1541,6 @@
         ]
       },
       "why": "Yorgos Lanthimos directed this — you rated Poor Things 4.5★, Bugonia 4.5★"
-    },
-    {
-      "title": "The Dog Stars",
-      "year": 2026,
-      "tmdbId": 1384216,
-      "tmdbRating": 7.156,
-      "votes": 1068,
-      "themes": [
-        "grief-horror"
-      ],
-      "score": 2.31,
-      "rank": 42,
-      "director": [
-        "Ridley Scott"
-      ],
-      "runtime": 119,
-      "genres": [
-        "Action",
-        "Thriller",
-        "Science Fiction"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/5O616X9vmRzQdB68PHzBewPittd.jpg",
-      "providers": {
-        "flatrate": [],
-        "rent": []
-      },
-      "why": "Ridley Scott directed this — you rated Prometheus 4.5★ · themes: grief wearing a mask"
     },
     {
       "title": "I'm Here",
@@ -1570,7 +1571,7 @@
       "year": 2014,
       "tmdbId": 180299,
       "tmdbRating": 7.61,
-      "votes": 2755,
+      "votes": 2757,
       "score": 3.24,
       "rank": 44,
       "director": [
@@ -1602,8 +1603,8 @@
       "title": "The Raid",
       "year": 2012,
       "tmdbId": 94329,
-      "tmdbRating": 7.413,
-      "votes": 4138,
+      "tmdbRating": 7.414,
+      "votes": 4139,
       "score": 3.22,
       "rank": 45,
       "director": [
@@ -1636,7 +1637,7 @@
       "year": 1981,
       "tmdbId": 8810,
       "tmdbRating": 7.394,
-      "votes": 4423,
+      "votes": 4424,
       "score": 3.21,
       "rank": 46,
       "director": [
@@ -1667,7 +1668,7 @@
       "year": 2009,
       "tmdbId": 16523,
       "tmdbRating": 6.503,
-      "votes": 2100,
+      "votes": 2101,
       "score": 3.06,
       "rank": 47,
       "director": [
@@ -1729,9 +1730,9 @@
       "title": "IF",
       "year": 2024,
       "tmdbId": 639720,
-      "tmdbRating": 6.918,
-      "votes": 1742,
-      "score": 2.94,
+      "tmdbRating": 6.921,
+      "votes": 1743,
+      "score": 2.95,
       "rank": 49,
       "director": [
         "John Krasinski"
@@ -1762,13 +1763,47 @@
       "why": "John Krasinski wrote and directed this — you rated A Quiet Place 4★"
     },
     {
+      "title": "Under the Silver Lake",
+      "year": 2018,
+      "tmdbId": 396461,
+      "tmdbRating": 6.325,
+      "votes": 1719,
+      "themes": [
+        "cruel-comedy"
+      ],
+      "score": 1.88,
+      "rank": 50,
+      "director": [
+        "David Robert Mitchell"
+      ],
+      "runtime": 139,
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/cJ9aKlEgTLYtpYjNqin06YqJRUl.jpg",
+      "providers": {
+        "flatrate": [
+          "JustWatch TV Plus"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube"
+        ]
+      },
+      "why": "David Robert Mitchell wrote and directed this — you rated The End of Oak Street 4★ · themes: comedy that's actually cruel"
+    },
+    {
       "title": "Blade Runner",
       "year": 1982,
       "tmdbId": 78,
       "tmdbRating": 7.937,
-      "votes": 15694,
+      "votes": 15704,
       "score": 2.88,
-      "rank": 50,
+      "rank": 51,
       "director": [
         "Ridley Scott"
       ],
@@ -1795,9 +1830,9 @@
       "year": 2001,
       "tmdbId": 855,
       "tmdbRating": 7.408,
-      "votes": 6747,
+      "votes": 6748,
       "score": 2.88,
-      "rank": 51,
+      "rank": 52,
       "director": [
         "Ridley Scott"
       ],
@@ -1827,46 +1862,12 @@
       "why": "Ridley Scott directed this — you rated Prometheus 4.5★"
     },
     {
-      "title": "Under the Silver Lake",
-      "year": 2018,
-      "tmdbId": 396461,
-      "tmdbRating": 6.3,
-      "votes": 1718,
-      "themes": [
-        "cruel-comedy"
-      ],
-      "score": 1.86,
-      "rank": 52,
-      "director": [
-        "David Robert Mitchell"
-      ],
-      "runtime": 139,
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/cJ9aKlEgTLYtpYjNqin06YqJRUl.jpg",
-      "providers": {
-        "flatrate": [
-          "JustWatch TV Plus"
-        ],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube"
-        ]
-      },
-      "why": "David Robert Mitchell wrote and directed this — you rated The End of Oak Street 4★ · themes: comedy that's actually cruel"
-    },
-    {
       "title": "Bumblebee",
       "year": 2018,
       "tmdbId": 424783,
-      "tmdbRating": 6.7,
-      "votes": 6966,
-      "score": 2.79,
+      "tmdbRating": 6.728,
+      "votes": 6968,
+      "score": 2.84,
       "rank": 53,
       "director": [
         "Travis Knight"
@@ -1901,7 +1902,7 @@
       "title": "Love Lies Bleeding",
       "year": 2024,
       "tmdbId": 948549,
-      "tmdbRating": 6.581,
+      "tmdbRating": 6.582,
       "votes": 1079,
       "themes": [
         "body-horror"
@@ -1936,9 +1937,9 @@
       "title": "Street Fighter",
       "year": 2026,
       "tmdbId": 1153576,
-      "tmdbRating": 6.264,
-      "votes": 277,
-      "score": 2.68,
+      "tmdbRating": 6.252,
+      "votes": 322,
+      "score": 2.67,
       "rank": 55,
       "director": [
         "Kitao Sakurai"
@@ -1988,12 +1989,12 @@
       "title": "In the Line of Fire",
       "year": 1993,
       "tmdbId": 9386,
-      "tmdbRating": 7,
-      "votes": 1925,
+      "tmdbRating": 6.979,
+      "votes": 1927,
       "themes": [
         "surveillance"
       ],
-      "score": 1.08,
+      "score": 1.07,
       "rank": 57,
       "director": [
         "Wolfgang Petersen"
@@ -2027,7 +2028,7 @@
       "year": 2022,
       "tmdbId": 556694,
       "tmdbRating": 6.869,
-      "votes": 1785,
+      "votes": 1786,
       "score": 2.44,
       "rank": 58,
       "director": [
@@ -2121,8 +2122,8 @@
       "title": "Mad Max",
       "year": 1979,
       "tmdbId": 9659,
-      "tmdbRating": 6.684,
-      "votes": 5222,
+      "tmdbRating": 6.683,
+      "votes": 5224,
       "score": 2.32,
       "rank": 61,
       "director": [
@@ -2184,7 +2185,7 @@
       "title": "Sacrifice",
       "year": 2026,
       "tmdbId": 1284186,
-      "tmdbRating": 5.474,
+      "tmdbRating": 5.5,
       "votes": 174,
       "themes": [
         "grief-horror",
@@ -2215,8 +2216,8 @@
       "title": "The Witches of Eastwick",
       "year": 1987,
       "tmdbId": 6069,
-      "tmdbRating": 6.534,
-      "votes": 1668,
+      "tmdbRating": 6.532,
+      "votes": 1669,
       "score": 2.09,
       "rank": 64,
       "director": [
@@ -2279,9 +2280,9 @@
       "title": "Havoc",
       "year": 2025,
       "tmdbId": 668489,
-      "tmdbRating": 6.377,
+      "tmdbRating": 6.4,
       "votes": 1406,
-      "score": 1.94,
+      "score": 1.96,
       "rank": 66,
       "director": [
         "Gareth Evans"
@@ -2308,7 +2309,7 @@
       "year": 2015,
       "tmdbId": 166424,
       "tmdbRating": 4.432,
-      "votes": 6635,
+      "votes": 6637,
       "themes": [
         "body-horror"
       ],
@@ -2381,7 +2382,7 @@
       "year": 2013,
       "tmdbId": 49521,
       "tmdbRating": 6.663,
-      "votes": 16857,
+      "votes": 16863,
       "score": 1.47,
       "rank": 69,
       "director": [
@@ -2441,7 +2442,7 @@
       "year": 2002,
       "tmdbId": 180,
       "tmdbRating": 7.358,
-      "votes": 10163,
+      "votes": 10167,
       "themes": [
         "grief-horror"
       ],
@@ -2554,8 +2555,8 @@
       "score": 1.14,
       "rank": 74,
       "director": [
-        "Scott Beck",
-        "Bryan Woods"
+        "Bryan Woods",
+        "Scott Beck"
       ],
       "runtime": 93,
       "genres": [
@@ -2581,12 +2582,12 @@
       "title": "The Man in the Iron Mask",
       "year": 1998,
       "tmdbId": 9313,
-      "tmdbRating": 6.7,
-      "votes": 4302,
+      "tmdbRating": 6.651,
+      "votes": 4303,
       "themes": [
         "doubling"
       ],
-      "score": 0.29,
+      "score": 0.28,
       "rank": 75,
       "director": [
         "Randall Wallace"
@@ -2617,7 +2618,7 @@
       "year": 1998,
       "tmdbId": 12159,
       "tmdbRating": 7.254,
-      "votes": 2664,
+      "votes": 2665,
       "themes": [
         "metaphysical"
       ],
@@ -2649,8 +2650,8 @@
       "title": "65",
       "year": 2023,
       "tmdbId": 700391,
-      "tmdbRating": 5.941,
-      "votes": 3058,
+      "tmdbRating": 5.94,
+      "votes": 3059,
       "score": 0.73,
       "rank": 77,
       "director": [
@@ -2683,8 +2684,8 @@
       "title": "13 Hours: The Secret Soldiers of Benghazi",
       "year": 2016,
       "tmdbId": 300671,
-      "tmdbRating": 7.284,
-      "votes": 4158,
+      "tmdbRating": 7.283,
+      "votes": 4160,
       "score": 0.72,
       "rank": 78,
       "director": [
@@ -2722,7 +2723,7 @@
       "year": 2018,
       "tmdbId": 480530,
       "tmdbRating": 7.034,
-      "votes": 6006,
+      "votes": 6007,
       "score": 0.71,
       "rank": 79,
       "director": [
@@ -2790,7 +2791,7 @@
       "title": "DC League of Super-Pets",
       "year": 2022,
       "tmdbId": 539681,
-      "tmdbRating": 7.122,
+      "tmdbRating": 7.127,
       "votes": 1818,
       "score": 0.64,
       "rank": 81,
@@ -2830,8 +2831,8 @@
       "title": "Next Gen",
       "year": 2018,
       "tmdbId": 523777,
-      "tmdbRating": 6.998,
-      "votes": 894,
+      "tmdbRating": 6.999,
+      "votes": 895,
       "score": 0.58,
       "rank": 82,
       "director": [
@@ -2861,8 +2862,8 @@
       "title": "Left-Handed Girl",
       "year": 2025,
       "tmdbId": 999075,
-      "tmdbRating": 7.228,
-      "votes": 213,
+      "tmdbRating": 7.227,
+      "votes": 214,
       "score": 0.56,
       "rank": 83,
       "director": [
@@ -2886,8 +2887,8 @@
       "title": "Changeling",
       "year": 2008,
       "tmdbId": 3580,
-      "tmdbRating": 7.567,
-      "votes": 4684,
+      "tmdbRating": 7.566,
+      "votes": 4687,
       "score": 0.54,
       "rank": 84,
       "director": [
@@ -2952,47 +2953,13 @@
       "why": "Juel Taylor co-wrote this — you rated They Cloned Tyrone 5★ · Tony Rettenmaier co-wrote this — you rated They Cloned Tyrone 5★"
     },
     {
-      "title": "ParaNorman",
-      "year": 2012,
-      "tmdbId": 77174,
-      "tmdbRating": 7.1,
-      "votes": 2936,
-      "score": 0.41,
-      "rank": 86,
-      "director": [
-        "Sam Fell",
-        "Chris Butler"
-      ],
-      "runtime": 93,
-      "genres": [
-        "Family",
-        "Animation",
-        "Adventure",
-        "Comedy"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/9DZPtuYTKYxt6vzHvZ5FLThG4fl.jpg",
-      "providers": {
-        "flatrate": [
-          "Hulu",
-          "HBO Max Amazon Channel",
-          "HBO Max"
-        ],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Fandango At Home"
-        ]
-      },
-      "why": "Chris Butler wrote this — you rated Wildwood 5★"
-    },
-    {
       "title": "Confessions of a Dangerous Mind",
       "year": 2002,
       "tmdbId": 4912,
       "tmdbRating": 6.67,
-      "votes": 1336,
+      "votes": 1338,
       "score": 0.4,
-      "rank": 87,
+      "rank": 86,
       "director": [
         "George Clooney"
       ],
@@ -3018,6 +2985,40 @@
         ]
       },
       "why": "Charlie Kaufman wrote this — you rated Being John Malkovich 4.5★, Adaptation. 4★"
+    },
+    {
+      "title": "ParaNorman",
+      "year": 2012,
+      "tmdbId": 77174,
+      "tmdbRating": 7.065,
+      "votes": 2939,
+      "score": 0.4,
+      "rank": 87,
+      "director": [
+        "Sam Fell",
+        "Chris Butler"
+      ],
+      "runtime": 93,
+      "genres": [
+        "Family",
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/9DZPtuYTKYxt6vzHvZ5FLThG4fl.jpg",
+      "providers": {
+        "flatrate": [
+          "Hulu",
+          "HBO Max Amazon Channel",
+          "HBO Max"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Fandango At Home"
+        ]
+      },
+      "why": "Chris Butler wrote this — you rated Wildwood 5★"
     },
     {
       "title": "Orion and the Dark",
@@ -3052,7 +3053,7 @@
       "title": "Escape to Victory",
       "year": 1981,
       "tmdbId": 17360,
-      "tmdbRating": 6.9,
+      "tmdbRating": 6.874,
       "votes": 1061,
       "score": 0.35,
       "rank": 89,
@@ -3084,9 +3085,9 @@
       "title": "Missing Link",
       "year": 2019,
       "tmdbId": 458253,
-      "tmdbRating": 6.877,
-      "votes": 986,
-      "score": 0.34,
+      "tmdbRating": 6.882,
+      "votes": 987,
+      "score": 0.35,
       "rank": 90,
       "director": [
         "Chris Butler"
@@ -3206,8 +3207,8 @@
       "title": "Mr. Right",
       "year": 2016,
       "tmdbId": 333385,
-      "tmdbRating": 6.443,
-      "votes": 1528,
+      "tmdbRating": 6.444,
+      "votes": 1529,
       "score": 0.29,
       "rank": 94,
       "director": [
@@ -3273,9 +3274,9 @@
       "title": "Bright",
       "year": 2017,
       "tmdbId": 400106,
-      "tmdbRating": 6.163,
-      "votes": 6176,
-      "score": 0.17,
+      "tmdbRating": 6.2,
+      "votes": 6177,
+      "score": 0.18,
       "rank": 96,
       "director": [
         "David Ayer"
@@ -3335,8 +3336,8 @@
       "title": "Rear Window",
       "year": 1954,
       "tmdbId": 567,
-      "tmdbRating": 8.331,
-      "votes": 7528,
+      "tmdbRating": 8.332,
+      "votes": 7531,
       "theme": "surveillance",
       "why": "surveillance — the thread through 4 of your loved films",
       "director": [
@@ -3388,7 +3389,7 @@
       "year": 2006,
       "tmdbId": 582,
       "tmdbRating": 8.038,
-      "votes": 4384,
+      "votes": 4385,
       "theme": "surveillance",
       "why": "surveillance — the thread through 4 of your loved films",
       "director": [
@@ -3417,7 +3418,7 @@
       "year": 1998,
       "tmdbId": 10494,
       "tmdbRating": 8.292,
-      "votes": 3461,
+      "votes": 3462,
       "theme": "unravelling",
       "why": "unravelling — the thread through 4 of your loved films",
       "director": [
@@ -3482,7 +3483,7 @@
       "year": 1950,
       "tmdbId": 599,
       "tmdbRating": 8.272,
-      "votes": 3115,
+      "votes": 3116,
       "theme": "unravelling",
       "why": "unravelling — the thread through 4 of your loved films",
       "director": [
@@ -3548,11 +3549,43 @@
       }
     },
     {
+      "title": "I Swear",
+      "year": 2025,
+      "tmdbId": 1317149,
+      "tmdbRating": 8.3,
+      "votes": 706,
+      "theme": "cruel-comedy",
+      "why": "cruel-comedy — the thread through 3 of your loved films",
+      "director": [
+        "Kirk Jones"
+      ],
+      "runtime": 121,
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "poster": "https://image.tmdb.org/t/p/w342/vUwyhNWBKkSwK8ELvEeBRwV724h.jpg",
+      "providers": {
+        "flatrate": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ],
+        "rent": [
+          "Amazon Video",
+          "Apple TV Store",
+          "Google Play Movies",
+          "YouTube",
+          "Fandango At Home",
+          "Plex"
+        ]
+      }
+    },
+    {
       "title": "The Great Dictator",
       "year": 1940,
       "tmdbId": 914,
-      "tmdbRating": 8.279,
-      "votes": 3896,
+      "tmdbRating": 8.28,
+      "votes": 3897,
       "theme": "cruel-comedy",
       "why": "cruel-comedy — the thread through 3 of your loved films",
       "director": [
@@ -3578,38 +3611,6 @@
           "Amazon Video",
           "Apple TV Store",
           "Fandango At Home"
-        ]
-      }
-    },
-    {
-      "title": "I Swear",
-      "year": 2025,
-      "tmdbId": 1317149,
-      "tmdbRating": 8.279,
-      "votes": 705,
-      "theme": "cruel-comedy",
-      "why": "cruel-comedy — the thread through 3 of your loved films",
-      "director": [
-        "Kirk Jones"
-      ],
-      "runtime": 121,
-      "genres": [
-        "Drama",
-        "History"
-      ],
-      "poster": "https://image.tmdb.org/t/p/w342/vUwyhNWBKkSwK8ELvEeBRwV724h.jpg",
-      "providers": {
-        "flatrate": [
-          "Netflix",
-          "Netflix Standard with Ads"
-        ],
-        "rent": [
-          "Amazon Video",
-          "Apple TV Store",
-          "Google Play Movies",
-          "YouTube",
-          "Fandango At Home",
-          "Plex"
         ]
       }
     },
@@ -3652,8 +3653,8 @@
       "title": "20 Days in Mariupol",
       "year": 2023,
       "tmdbId": 1058616,
-      "tmdbRating": 8.1,
-      "votes": 334,
+      "tmdbRating": 8.072,
+      "votes": 335,
       "theme": "grief-horror",
       "why": "grief-horror — the thread through 4 of your loved films",
       "director": [
@@ -3741,8 +3742,8 @@
       "title": "Incendies",
       "year": 2010,
       "tmdbId": 46738,
-      "tmdbRating": 8.106,
-      "votes": 3597,
+      "tmdbRating": 8.107,
+      "votes": 3598,
       "theme": "doubling",
       "why": "doubling — the thread through 2 of your loved films",
       "director": [
@@ -3770,8 +3771,8 @@
       "title": "The Young Girls of Rochefort",
       "year": 1967,
       "tmdbId": 2433,
-      "tmdbRating": 7.668,
-      "votes": 689,
+      "tmdbRating": 7.67,
+      "votes": 690,
       "theme": "doubling",
       "why": "doubling — the thread through 2 of your loved films",
       "director": [
